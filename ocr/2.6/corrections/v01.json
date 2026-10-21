@@ -1,0 +1,211 @@
+{
+ "part": "2.6",
+ "pages_checked": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9
+ ],
+ "corrections": [
+  {
+   "pdf_page": 1,
+   "block": 4,
+   "old": "(م,د,تن)",
+   "new": "(م,د,ت,ن)",
+   "why": "missing comma in source codes"
+  },
+  {
+   "pdf_page": 1,
+   "block": 5,
+   "old": "ലഹരിയുണ്ടാകുന്നതെല്ലാം",
+   "new": "ലഹരിയുണ്ടാക്കുന്നതെല്ലാം",
+   "why": "ക്ക"
+  },
+  {
+   "pdf_page": 1,
+   "block": 5,
+   "old": "തുടർന്നുക്കൊണ്ടിരിക്കെ",
+   "new": "തുടർന്നുകൊണ്ടിരിക്കെ",
+   "why": "extra ക്ക"
+  },
+  {
+   "pdf_page": 2,
+   "block": 1,
+   "old": "അബ്ദുറഹ്മാന്റെ",
+   "new": "അബ്ദുർറഹ്മാന്റെ",
+   "why": "missing ർ"
+  },
+  {
+   "pdf_page": 2,
+   "block": 3,
+   "old": "വിളിച്ചു പറയുകയും",
+   "new": "വിളിച്ച് പറയുകയും",
+   "why": "chillu/virama"
+  },
+  {
+   "pdf_page": 2,
+   "block": 5,
+   "old": "നൽകേണെ",
+   "new": "നൽകണേ",
+   "why": "misread"
+  },
+  {
+   "pdf_page": 2,
+   "block": 5,
+   "old": "നമസ്കാരത്തോട് അടുക്കരുത്",
+   "new": "നമസ്കാരത്തോടടുക്കരുത്",
+   "why": "word joined in print"
+  },
+  {
+   "pdf_page": 3,
+   "block": 0,
+   "old": "ക്ഷണിക്കപ്പെട്ടു; തൃപ്തികരമായി",
+   "new": "ക്ഷണിക്കപ്പെടുകയും പാരായണം ചെയ്യപ്പെടുകയും ചെയ്തു. അപ്പോൾ ഉമർ(റ) പറഞ്ഞു: അല്ലാഹുവേ, മദ്യത്തെക്കുറിച്ച് തൃപ്തികരമായി",
+   "why": "dropped words"
+  },
+  {
+   "pdf_page": 3,
+   "block": 2,
+   "old": "അലിയ്യ്ബ്നു",
+   "new": "അലിയ്യിബ്നു",
+   "why": "vowel sign"
+  },
+  {
+   "pdf_page": 3,
+   "block": 2,
+   "old": "അൻസ്വാരിയായ",
+   "new": "അൻസാരിയായ",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 4,
+   "block": 1,
+   "old": "അവയെ പിടിച്ചുകെട്ടുക",
+   "new": "അവയെ പിടിച്ചെടുക്കുക",
+   "why": "misread word"
+  },
+  {
+   "pdf_page": 4,
+   "block": 1,
+   "old": "തിരുമേനി(സ)യുടെ അടുത്ത് സൈദ്ബ്നു",
+   "new": "തിരുമേനി(സ)യുടെ അടുത്ത് സൈദിബ്നു",
+   "why": "vowel sign"
+  },
+  {
+   "pdf_page": 4,
+   "block": 1,
+   "old": "ഞാനും സൈദ്ബ്നു",
+   "new": "ഞാനും സൈദിബ്നു",
+   "why": "vowel sign"
+  },
+  {
+   "pdf_page": 4,
+   "block": 1,
+   "old": "ഇതേപോലൊരു",
+   "new": "ഇത്പോലൊരു",
+   "why": "misread"
+  },
+  {
+   "pdf_page": 4,
+   "block": 1,
+   "old": "അദ്ദേഹത്തോടൊപ്പം മദ്യപാനികളുടെ",
+   "new": "അദ്ദേഹത്തിനോടൊപ്പം മദ്യപാനികളുടെ",
+   "why": "misread"
+  },
+  {
+   "pdf_page": 6,
+   "block": 5,
+   "old": "'മിസ്റ്'",
+   "new": "'മിസ്ർ'",
+   "why": "chillu ർ"
+  },
+  {
+   "pdf_page": 7,
+   "block": 3,
+   "old": "കാരണമതി വ്യത്തികേടുകളുടെ",
+   "new": "കാരണമത് വൃത്തികേടുകളുടെ",
+   "why": "misread"
+  },
+  {
+   "pdf_page": 7,
+   "block": 3,
+   "old": "അൽപ്പം നുകരുന്നതിനു",
+   "new": "അൽപം നുകരുന്നതിനു",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 8,
+   "block": 1,
+   "old": "ഖേദിച്ചു മടങ്ങാതെ",
+   "new": "ഖേദിച്ചുമടങ്ങാതെ",
+   "why": "joined in print"
+  },
+  {
+   "pdf_page": 8,
+   "block": 4,
+   "old": "'തിലാഉ്'",
+   "new": "'തിലാഇ'",
+   "why": "misread final vowel"
+  },
+  {
+   "pdf_page": 9,
+   "block": 4,
+   "old": "وَالْمُبِيعَةَ لَهُ",
+   "new": "وَالْمَبْيُوعَةَ لَهُ",
+   "why": "word misread (print: المبيوعة)"
+  },
+  {
+   "pdf_page": 9,
+   "block": 8,
+   "old": "ചോദിച്ചു; നബി(സ) പറഞ്ഞു",
+   "new": "ചോദിച്ചു: നബി(സ) പറഞ്ഞു",
+   "why": "colon not semicolon"
+  },
+  {
+   "pdf_page": 4,
+   "block": 0,
+   "old": "إِلَى سُرَّت",
+   "new": "فَنَظَرَ إِلَى سُرَّت",
+   "why": "dropped فنظر"
+  },
+  {
+   "pdf_page": 4,
+   "block": 0,
+   "old": "إِلَى وَجْهِهِ",
+   "new": "فَنَظَرَ إِلَى وَجْهِهِ",
+   "why": "dropped فنظر"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 3,
+   "hadith_no": 8,
+   "note": "Malayalam narrator name may be printed അബ്ദുള്ളാഇബ്നു; not sure"
+  },
+  {
+   "pdf_page": 4,
+   "hadith_no": 10,
+   "note": "JSON arabic text for hadith 10 starts with printed number '١٠.' unlike hadiths 5-9 (same for 11,12,23-25 on later pages); structural inconsistency, not changed"
+  },
+  {
+   "pdf_page": 5,
+   "hadith_no": 11,
+   "note": "Malayalam may be printed മുന്തിരച്ചെടി (JSON മുന്തിരിച്ചെടി); not sure"
+  },
+  {
+   "pdf_page": 6,
+   "hadith_no": 17,
+   "note": "print may read 'ഉടമ്പടി ചെതിരിക്കുന്നു' (printed typo) vs JSON ചെയ്തിരിക്കുന്നു; and 'പ്രവാചകരെ' vs JSON 'പ്രവാചകരേ'; unsure"
+  },
+  {
+   "pdf_page": 9,
+   "hadith_no": 28,
+   "note": "Malayalam last lines: print partly smudged near 'അത്. നിക്ക് സുർക്കയാക്കാമോ'; could not read exactly"
+  }
+ ]
+}

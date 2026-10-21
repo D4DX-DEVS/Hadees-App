@@ -1,0 +1,483 @@
+{
+ "part": "1.12",
+ "pages_checked": [
+  2,
+  3,
+  4,
+  6,
+  7,
+  9,
+  10,
+  14,
+  15,
+  16,
+  17,
+  18,
+  20,
+  21,
+  25,
+  26,
+  27,
+  31,
+  32,
+  37,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45
+ ],
+ "corrections": [
+  {
+   "pdf_page": 2,
+   "block": 4,
+   "old": "അബൂസഇൗദിൽ",
+   "new": "അബൂസഈദിൽ",
+   "why": "print reading at native zoom (item 0)"
+  },
+  {
+   "pdf_page": 3,
+   "block": 7,
+   "old": "ബാധ്യതയെ",
+   "new": "ബാദ്ധ്യതയെ",
+   "why": "print reading at native zoom (item 1)"
+  },
+  {
+   "pdf_page": 4,
+   "block": 8,
+   "old": "അബുദർദാഅ്(റ):",
+   "new": "അബുദ്ദർദാഅ്(റ):",
+   "why": "print reading at native zoom (item 2)"
+  },
+  {
+   "pdf_page": 6,
+   "block": 7,
+   "old": "പ്രതിഫലം ",
+   "new": "ഫ്രതിഫലം ",
+   "why": "print reading at native zoom (item 4)"
+  },
+  {
+   "pdf_page": 7,
+   "block": 6,
+   "old": "പൊറുത്തുകൊടുക്കേണേ!",
+   "new": "പൊറുത്തുകൊടുക്കേണ!",
+   "why": "print reading at native zoom (item 5)"
+  },
+  {
+   "pdf_page": 7,
+   "block": 6,
+   "old": "വുദു ന",
+   "new": "വുദൂ ന",
+   "why": "print reading at native zoom (item 6)"
+  },
+  {
+   "pdf_page": 9,
+   "block": 1,
+   "old": "അബൂസഇൗദിൽ ഖുദ്രി(റ): നബി(സ) പറയ",
+   "new": "അബൂസഈദിൽ ഖുദ്രി(റ): നബി(സ) പറയ",
+   "why": "print reading at native zoom (item 7)"
+  },
+  {
+   "pdf_page": 9,
+   "block": 5,
+   "old": "അബൂസഇൗദിൽ ഖുദ്രി(റ): നബി(സ) പറഞ",
+   "new": "അബൂസഈദിൽ ഖുദ്രി(റ): നബി(സ) പറഞ",
+   "why": "print reading at native zoom (item 8)"
+  },
+  {
+   "pdf_page": 10,
+   "block": 0,
+   "old": "الْمَشَّاؤُونَ إِل",
+   "new": "الْمَشَّاءُونَ إِل",
+   "why": "print reading at native zoom (item 9)"
+  },
+  {
+   "pdf_page": 10,
+   "block": 2,
+   "old": "الْمَشَّاؤُونَ فِي",
+   "new": "الْمَشَّاءُونَ فِي",
+   "why": "print reading at native zoom (item 10)"
+  },
+  {
+   "pdf_page": 10,
+   "block": 6,
+   "old": "ذِرَاعِي،",
+   "new": "ذَرْعِي،",
+   "why": "print reading at native zoom (item 11)"
+  },
+  {
+   "pdf_page": 10,
+   "block": 7,
+   "old": "അസ്ർ",
+   "new": "അസ്റ്",
+   "why": "print reading at native zoom (item 12)"
+  },
+  {
+   "pdf_page": 10,
+   "block": 7,
+   "old": "മഗ്റിബാകുമ്പോൾ",
+   "new": "മഗ്രിബാകുമ്പോൾ",
+   "why": "print reading at native zoom (item 13)"
+  },
+  {
+   "pdf_page": 10,
+   "block": 7,
+   "old": "മഗ്റിബ്",
+   "new": "മഗ്രിബ്",
+   "why": "print reading at native zoom (item 14)"
+  },
+  {
+   "pdf_page": 14,
+   "block": 0,
+   "old": "അറിവുണ്ടായിരുന്നുള്ളു.",
+   "new": "അറിവുണ്ടായിരുന്നുള്ളൂ.",
+   "why": "print reading at native zoom (item 15)"
+  },
+  {
+   "pdf_page": 14,
+   "block": 4,
+   "old": "ന്യായയങ്ങൾ",
+   "new": "ന്യായങ്ങൾ",
+   "why": "print reading at native zoom (item 16) [malayalam]"
+  },
+  {
+   "pdf_page": 15,
+   "block": 5,
+   "old": "أُخْرِجَكُمْ.",
+   "new": "أُحْرِجَكُمْ.",
+   "why": "print reading at native zoom (item 17)"
+  },
+  {
+   "pdf_page": 15,
+   "block": 8,
+   "old": "ജാറുദ്",
+   "new": "ജാറൂദ്",
+   "why": "print reading at native zoom (item 19)"
+  },
+  {
+   "pdf_page": 16,
+   "block": 3,
+   "old": "وَأُعِيدَ،",
+   "new": "وَأَعَادَ،",
+   "why": "print reading at native zoom (item 20)"
+  },
+  {
+   "pdf_page": 17,
+   "block": 10,
+   "old": "മൈമുനയുടെ",
+   "new": "മൈമൂനയുടെ",
+   "why": "print reading at native zoom (item 21)"
+  },
+  {
+   "pdf_page": 18,
+   "block": 0,
+   "old": "അബൂമൂസർ",
+   "new": "അബൂമൂസൽ",
+   "why": "print reading at native zoom (item 22)"
+  },
+  {
+   "pdf_page": 21,
+   "block": 5,
+   "old": "ഇസ്മാഇൗലിനോട്",
+   "new": "ഇസ്മാഈലിനോട്",
+   "why": "print reading at native zoom (item 24)"
+  },
+  {
+   "pdf_page": 25,
+   "block": 4,
+   "old": "പറയാറുണ്ടായിരുന്നു:",
+   "new": "പറയാറുണ്ടായിരരുന്നു:",
+   "why": "print reading at native zoom (item 25)"
+  },
+  {
+   "pdf_page": 26,
+   "block": 9,
+   "old": "ഇമാമുകളെ",
+   "new": "ഇാമുകളെ",
+   "why": "print reading at native zoom (item 26) [malayalam]"
+  },
+  {
+   "pdf_page": 27,
+   "block": 6,
+   "old": "തട്ടി കൊണ്ട്",
+   "new": "തട്ടിക്കൊണ്ട്",
+   "why": "print reading at native zoom (item 27)"
+  },
+  {
+   "pdf_page": 31,
+   "block": 3,
+   "old": "مَنَاكِبَ فِي",
+   "new": "مَنَاكِبًا فِي",
+   "why": "print reading at native zoom (item 28)"
+  },
+  {
+   "pdf_page": 31,
+   "block": 8,
+   "old": "\"പുരുഷൻമാർക്ക്",
+   "new": "\"പുരുഷന്മാർക്ക്",
+   "why": "print reading at native zoom (item 29)"
+  },
+  {
+   "pdf_page": 32,
+   "block": 10,
+   "old": "വാബിസഃ(റ):",
+   "new": "വാബിസ്വ(റ):",
+   "why": "print reading at native zoom (item 30)"
+  },
+  {
+   "pdf_page": 37,
+   "block": 2,
+   "old": "കേൾക്കുമ്പോൾ",
+   "new": "കേൽക്കുമ്പോൾ",
+   "why": "print reading at native zoom (item 31)"
+  },
+  {
+   "pdf_page": 39,
+   "block": 4,
+   "old": "അല്ലെങ്കിൽ",
+   "new": "അല്ലെങ്ങിൽ",
+   "why": "print reading at native zoom (item 33)"
+  },
+  {
+   "pdf_page": 40,
+   "block": 3,
+   "old": "അതിയ്യ",
+   "new": "അത്വിയ്യ",
+   "why": "print reading at native zoom (item 34)"
+  },
+  {
+   "pdf_page": 40,
+   "block": 8,
+   "old": "അബൂസഇൗദുൽ",
+   "new": "അബൂസഈദുൽ",
+   "why": "print reading at native zoom (item 35)"
+  },
+  {
+   "pdf_page": 40,
+   "block": 8,
+   "old": "കണക്കുകൂട്ടികണ്ടെത്തി.",
+   "new": "കണക്കൂകൂട്ടികണ്ടെത്തി.",
+   "why": "print reading at native zoom (item 36)"
+  },
+  {
+   "pdf_page": 41,
+   "block": 3,
+   "old": "ഹുമൈർ(റ)",
+   "new": "ഹുമൈറ(റ)",
+   "why": "print reading at native zoom (item 39)"
+  },
+  {
+   "pdf_page": 41,
+   "block": 7,
+   "old": "كَانَ يُصَلِّي مَعَ النَ",
+   "new": "كَانَ يُصَلَّى مَعَ النَ",
+   "why": "print reading at native zoom (item 37)"
+  },
+  {
+   "pdf_page": 42,
+   "block": 1,
+   "old": "ഇൗത്തപ്പനയുടെ",
+   "new": "ഈത്തപ്പനയുടെ",
+   "why": "print reading at native zoom (item 40)"
+  },
+  {
+   "pdf_page": 44,
+   "block": 1,
+   "old": "ഇൗ",
+   "new": "ഈ",
+   "why": "print reading at native zoom (item 42)"
+  },
+  {
+   "pdf_page": 44,
+   "block": 1,
+   "old": "സഅദിന്റെ",
+   "new": "സഅ്ദിന്റെ",
+   "why": "print reading at native zoom (item 43)"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "B"
+  },
+  {
+   "idx": 1,
+   "print": "B"
+  },
+  {
+   "idx": 2,
+   "print": "B"
+  },
+  {
+   "idx": 3,
+   "print": "A"
+  },
+  {
+   "idx": 4,
+   "print": "B"
+  },
+  {
+   "idx": 5,
+   "print": "B"
+  },
+  {
+   "idx": 6,
+   "print": "B"
+  },
+  {
+   "idx": 7,
+   "print": "B"
+  },
+  {
+   "idx": 8,
+   "print": "B"
+  },
+  {
+   "idx": 9,
+   "print": "B"
+  },
+  {
+   "idx": 10,
+   "print": "B"
+  },
+  {
+   "idx": 11,
+   "print": "B"
+  },
+  {
+   "idx": 12,
+   "print": "B"
+  },
+  {
+   "idx": 13,
+   "print": "B"
+  },
+  {
+   "idx": 14,
+   "print": "B"
+  },
+  {
+   "idx": 15,
+   "print": "B"
+  },
+  {
+   "idx": 16,
+   "print": "B"
+  },
+  {
+   "idx": 17,
+   "print": "B"
+  },
+  {
+   "idx": 18,
+   "print": "A"
+  },
+  {
+   "idx": 19,
+   "print": "B"
+  },
+  {
+   "idx": 20,
+   "print": "B"
+  },
+  {
+   "idx": 21,
+   "print": "B"
+  },
+  {
+   "idx": 22,
+   "print": "B"
+  },
+  {
+   "idx": 23,
+   "print": "A"
+  },
+  {
+   "idx": 24,
+   "print": "B"
+  },
+  {
+   "idx": 25,
+   "print": "B"
+  },
+  {
+   "idx": 26,
+   "print": "B"
+  },
+  {
+   "idx": 27,
+   "print": "B"
+  },
+  {
+   "idx": 28,
+   "print": "B"
+  },
+  {
+   "idx": 29,
+   "print": "B"
+  },
+  {
+   "idx": 30,
+   "print": "B"
+  },
+  {
+   "idx": 31,
+   "print": "B"
+  },
+  {
+   "idx": 32,
+   "print": "A"
+  },
+  {
+   "idx": 33,
+   "print": "B"
+  },
+  {
+   "idx": 34,
+   "print": "B"
+  },
+  {
+   "idx": 35,
+   "print": "other"
+  },
+  {
+   "idx": 36,
+   "print": "B"
+  },
+  {
+   "idx": 37,
+   "print": "B"
+  },
+  {
+   "idx": 38,
+   "print": "A"
+  },
+  {
+   "idx": 39,
+   "print": "B"
+  },
+  {
+   "idx": 40,
+   "print": "B"
+  },
+  {
+   "idx": 41,
+   "print": "A"
+  },
+  {
+   "idx": 42,
+   "print": "B"
+  },
+  {
+   "idx": 43,
+   "print": "B"
+  },
+  {
+   "idx": 44,
+   "print": "other"
+  }
+ ]
+}

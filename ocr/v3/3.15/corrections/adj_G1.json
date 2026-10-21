@@ -1,0 +1,115 @@
+{
+ "part": "3.15",
+ "pages_checked": [
+  3,
+  4,
+  5,
+  5,
+  7,
+  8,
+  11,
+  12,
+  13,
+  15
+ ],
+ "corrections": [
+  {
+   "pdf_page": 3,
+   "block": 5,
+   "old": "അബൂബക്കറ(റ):",
+   "new": "അബൂബക്റ(റ):",
+   "why": "print reads ബക്റ"
+  },
+  {
+   "pdf_page": 3,
+   "block": 5,
+   "old": "എന്നിട്ട് ഒരാൾ പറഞ്ഞു",
+   "new": "ഒരാൾ പറഞ്ഞു",
+   "why": "print has no 'എന്നിട്ട്' before ഒരാൾ (it appears only after കണ്ടു.)"
+  },
+  {
+   "pdf_page": 4,
+   "block": 2,
+   "old": "സ്വർണ്ണ വളകൾ",
+   "new": "സ്വർണ വളകൾ",
+   "why": "print സ്വർണ"
+  },
+  {
+   "pdf_page": 7,
+   "block": 2,
+   "old": "الْبُشْرَى",
+   "new": "الْبُشْرَي",
+   "why": "bab heading prints ي with two dots below (not alif maqsura)"
+  },
+  {
+   "pdf_page": 11,
+   "block": 2,
+   "old": "اعْبُرْهَا",
+   "new": "أَعْبُرْهَا",
+   "why": "print has hamza on alif"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "A"
+  },
+  {
+   "idx": 1,
+   "print": "B"
+  },
+  {
+   "idx": 2,
+   "print": "B"
+  },
+  {
+   "idx": 3,
+   "print": "B"
+  },
+  {
+   "idx": 4,
+   "print": "A"
+  },
+  {
+   "idx": 5,
+   "print": "A"
+  },
+  {
+   "idx": 6,
+   "print": "B"
+  },
+  {
+   "idx": 7,
+   "print": "A"
+  },
+  {
+   "idx": 8,
+   "print": "A"
+  },
+  {
+   "idx": 9,
+   "print": "A"
+  },
+  {
+   "idx": 10,
+   "print": "B"
+  },
+  {
+   "idx": 11,
+   "print": "A"
+  },
+  {
+   "idx": 12,
+   "print": "A"
+  },
+  {
+   "idx": 13,
+   "print": "A"
+  },
+  {
+   "idx": 14,
+   "print": "A"
+  }
+ ]
+}

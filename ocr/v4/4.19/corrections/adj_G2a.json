@@ -1,0 +1,65 @@
+{
+ "part": "4.19",
+ "pages_checked": [
+  19,
+  20,
+  21,
+  22,
+  25,
+  26,
+  27
+ ],
+ "corrections": [
+  {
+   "pdf_page": 19,
+   "block": 1,
+   "old": "أُخَالِفُكَ",
+   "new": "أُحَالِفُكَ",
+   "why": "print shows undotted ح"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 20,
+   "note": "idx2 فاتخذ vs فأتخذ: cluster of marks above alef is unclear whether a hamza is present; ours kept"
+  },
+  {
+   "pdf_page": 22,
+   "note": "idx4 അബൂബക്ർ vs അബൂബക്റ: print appears ക്+റ (virama then റ) but ർ/റ distinction not certain; ours kept, no correction"
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "A"
+  },
+  {
+   "idx": 1,
+   "print": "B"
+  },
+  {
+   "idx": 2,
+   "print": "A"
+  },
+  {
+   "idx": 3,
+   "print": "B"
+  },
+  {
+   "idx": 4,
+   "print": "A"
+  },
+  {
+   "idx": 5,
+   "print": "B"
+  },
+  {
+   "idx": 6,
+   "print": "B"
+  },
+  {
+   "idx": 7,
+   "print": "B"
+  }
+ ]
+}

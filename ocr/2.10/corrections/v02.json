@@ -1,0 +1,316 @@
+{
+ "part": "2.10",
+ "pages_checked": [
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46
+ ],
+ "corrections": [
+  {
+   "pdf_page": 32,
+   "block": 1,
+   "old": "സാരിയ്യ(റ)",
+   "new": "സാരിയ(റ)",
+   "why": "print: സാരിയ(റ)"
+  },
+  {
+   "pdf_page": 32,
+   "block": 5,
+   "old": "അതന്റെ ചര്യയിലുള്ളതാണ്",
+   "new": "അതെന്റെ ചര്യയിലുള്ളതാണ്",
+   "why": "അതെന്റെ in print"
+  },
+  {
+   "pdf_page": 33,
+   "block": 0,
+   "old": "നിങ്ങൾക്ക് മുമ്പുള്ളവർ",
+   "new": "നിങ്ങൾക്കു മുമ്പുള്ളവർ",
+   "why": "print: നിങ്ങൾക്കു"
+  },
+  {
+   "pdf_page": 33,
+   "block": 3,
+   "old": "അടുത്തു വന്നു",
+   "new": "അടുത്തുവന്നു",
+   "why": "no space in print"
+  },
+  {
+   "pdf_page": 36,
+   "block": 1,
+   "old": "ഉബാദത്തുബ്നു",
+   "new": "ഉബാദതുബ്നു",
+   "why": "print: ഉബാദതുബ്നു"
+  },
+  {
+   "pdf_page": 36,
+   "block": 1,
+   "old": "ഞങ്ങൾത് ഓതുകയും",
+   "new": "ഞങ്ങളത് ഓതുകയും",
+   "why": "print: ഞങ്ങളത്"
+  },
+  {
+   "pdf_page": 36,
+   "block": 6,
+   "old": "ഓതാത്ത കപടവിശ്വാസിയുടെ",
+   "new": "ഓതാത്ത കപടവിശ്വാസുടെ",
+   "why": "print misprint കപടവിശ്വാസുടെ"
+  },
+  {
+   "pdf_page": 37,
+   "block": 7,
+   "old": "അബൂത്വഫൈൽ(റ)",
+   "new": "അബുത്വഫൈൽ(റ)",
+   "why": "short u in print"
+  },
+  {
+   "pdf_page": 37,
+   "block": 7,
+   "old": "(അടിമത്തത്തിൽ നിന്നും)",
+   "new": "(അടിമത്വത്തിൽ നിന്നും)",
+   "why": "print: അടിമത്വത്തിൽ"
+  },
+  {
+   "pdf_page": 38,
+   "block": 1,
+   "old": "അബൂദർറ്(റ):",
+   "new": "അബുദർറ്(റ):",
+   "why": "short u in print"
+  },
+  {
+   "pdf_page": 38,
+   "block": 1,
+   "old": "ഓ അബൂദർറ്,",
+   "new": "ഓ അബുദർറ്,",
+   "why": "short u in print"
+  },
+  {
+   "pdf_page": 38,
+   "block": 8,
+   "old": "അബൂദ്ദർദാഅ്(റ): റസൂൽ",
+   "new": "അബുദ്ദർദാഅ്(റ): റസൂൽ",
+   "why": "short u in print"
+  },
+  {
+   "pdf_page": 39,
+   "block": 2,
+   "old": "ഉദ്ധരിക്കുകയില്ല",
+   "new": "ഉളരുകയില്ല",
+   "why": "print: ഉളരുകയില്ല"
+  },
+  {
+   "pdf_page": 39,
+   "block": 4,
+   "old": "സൂറുബ്നു",
+   "new": "സുർറുബ്നു",
+   "why": "print: സുർറുബ്നു"
+  },
+  {
+   "pdf_page": 39,
+   "block": 4,
+   "old": "മുറാദി(റ)വിന്റെ",
+   "new": "മുറാദീ(റ)വിന്റെ",
+   "why": "long ee in print"
+  },
+  {
+   "pdf_page": 40,
+   "block": 1,
+   "old": "അവർക്ക് തടയുകയും",
+   "new": "അവർക്ക് തഴയുകയും",
+   "why": "print: തഴയുകയും"
+  },
+  {
+   "pdf_page": 40,
+   "block": 4,
+   "old": "മൂന്നുകാര്യങ്ങളുണ്ട്",
+   "new": "മൂന്ന്കാര്യങ്ങളുണ്ട്",
+   "why": "print: മൂന്ന്കാര്യങ്ങൾ"
+  },
+  {
+   "pdf_page": 40,
+   "block": 8,
+   "old": "അബൂബക്റ(റ)",
+   "new": "അബുബക്റ(റ)",
+   "why": "short u in print"
+  },
+  {
+   "pdf_page": 41,
+   "block": 0,
+   "old": "സൂക്ഷ്മതയുള്ളവരായുമുണ്ട്",
+   "new": "സൂക്ഷ്മതയുള്ളവരായുണ്ട്",
+   "why": "extra മു"
+  },
+  {
+   "pdf_page": 41,
+   "block": 5,
+   "old": "തിന്മയുടെ അടക്കരുമായവരുണ്ട്",
+   "new": "തിന്മയുട അന്തകരുമായവരുണ്ട്",
+   "why": "print: തിന്മയുട അന്തകരുമായ"
+  },
+  {
+   "pdf_page": 41,
+   "block": 5,
+   "old": "നന്മയുടെ അടക്കരുമായവരുമുണ്ട്",
+   "new": "നന്മയുടെ അന്തകരുമായവരുമുണ്ട്",
+   "why": "print: അന്തകരുമായ"
+  },
+  {
+   "pdf_page": 41,
+   "block": 10,
+   "old": "അബൂദ്ദർദാഅ്(റ): റസൂൽ",
+   "new": "അബുദ്ദർദാഅ്(റ): റസൂൽ",
+   "why": "short u in print"
+  },
+  {
+   "pdf_page": 42,
+   "block": 0,
+   "old": "നിനൊന്നും കുറയാതെതന്നെ",
+   "new": "നിന്നൊന്നും കുറയാതെത്തന്നെ",
+   "why": "print: നിന്നൊന്നും കുറയാതെത്തന്നെ"
+  },
+  {
+   "pdf_page": 42,
+   "block": 11,
+   "old": "അവിടുത്തെ പിന്നിലായി",
+   "new": "അവിടത്തെ പിന്നിലായി",
+   "why": "print: അവിടത്തെ"
+  },
+  {
+   "pdf_page": 42,
+   "block": 11,
+   "old": "അവിടുത്തേക്കൊരു",
+   "new": "അവിടത്തേക്കൊരു",
+   "why": "print: അവിടത്തേക്കൊരു"
+  },
+  {
+   "pdf_page": 42,
+   "block": 11,
+   "old": "അവിടുത്തേക്ക് തന്റെ",
+   "new": "അവിടത്തേക്ക് തന്റെ",
+   "why": "print: അവിടത്തേക്ക്"
+  },
+  {
+   "pdf_page": 43,
+   "block": 3,
+   "old": "وَأَفْنُوهُمْ",
+   "new": "وَاقْنُوهُمْ",
+   "why": "print reads وَاقْنُوهُمْ (qaf/nun)"
+  },
+  {
+   "pdf_page": 43,
+   "block": 6,
+   "old": "അവിടുന്താണെങ്കിൽ",
+   "new": "അവിടന്നാണെങ്കിൽ",
+   "why": "print: അവിടന്നാണെങ്കിൽ"
+  },
+  {
+   "pdf_page": 43,
+   "block": 6,
+   "old": "അവിടുന്ന് ഞങ്ങളെ",
+   "new": "അവിടന്ന് ഞങ്ങളെ",
+   "why": "print: അവിടന്ന്"
+  },
+  {
+   "pdf_page": 43,
+   "block": 6,
+   "old": "അവിടുത്തെ ഇരുകാലുകളും",
+   "new": "അവിടത്തെ ഇരുകാലുകളും",
+   "why": "print: അവിടത്തെ"
+  },
+  {
+   "pdf_page": 44,
+   "block": 5,
+   "old": "ലക്ഷ്യസാക്ഷാത്കാരത്തിന്",
+   "new": "ലക്ഷ്യസാക്ഷാൽക്കാരത്തിന്",
+   "why": "print: സാക്ഷാൽക്കാരത്തിന്"
+  },
+  {
+   "pdf_page": 44,
+   "block": 9,
+   "old": "നിങ്ങൾ സദസ്സുകൾ",
+   "new": "നിങ്ങൽ സദസ്സുകൾ",
+   "why": "print misprint നിങ്ങൽ"
+  },
+  {
+   "pdf_page": 45,
+   "block": 1,
+   "old": "തേടുവിൻ",
+   "new": "തേടുവീൻ",
+   "why": "print: തേടുവീൻ"
+  },
+  {
+   "pdf_page": 45,
+   "block": 3,
+   "old": "വിലകെട്ടവരാവുകയും",
+   "new": "വിലക്കെട്ടവരാവുകയും",
+   "why": "print: വിലക്കെട്ട"
+  },
+  {
+   "pdf_page": 45,
+   "block": 3,
+   "old": "ഒരൊറ്റ താത്പര്യമായി",
+   "new": "ഒരൊറ്റ താൽപര്യമായി",
+   "why": "print: താൽപര്യ"
+  },
+  {
+   "pdf_page": 45,
+   "block": 3,
+   "old": "താത്പര്യങ്ങൾ ലൗകികാവസ്ഥകളിൽ",
+   "new": "താൽപര്യങ്ങൾ ലൗകികാവസ്ഥകളിൽ",
+   "why": "print: താൽപര്യങ്ങൾ"
+  },
+  {
+   "pdf_page": 46,
+   "block": 6,
+   "old": "അവൻത് മറച്ചുവെക്കുകയും",
+   "new": "അവനത് മറച്ചുവെക്കുകയും",
+   "why": "print: അവനത്"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 33,
+   "note": "Arabic block 108 last words: print may read مَنْ أَسَنَّ الْقَتْلَ (with alef) vs JSON مَنْ سَنَّ; not certain at zoom",
+   "hadith_no": 108
+  },
+  {
+   "pdf_page": 36,
+   "note": "Print seems to have قَالَ before مَثَلُ الْمُؤْمِنِ in line 1 of hadith 120 (after the opening quote); JSON lacks it; punctuation unclear",
+   "hadith_no": 120
+  },
+  {
+   "pdf_page": 36,
+   "note": "Spelling of Abu Dardaa in block 1 varies in print (അബൂദർദാഅ്/അബുദർദാഅ്/അബുദ്ദർദാഅ്); first and last occurrences ('അബൂദ്ദർദാഅ്(റ): ഞങ്ങൾ', '...(റ) സത്യം') not resolved at zoom"
+  },
+  {
+   "pdf_page": 41,
+   "note": "Malayalam 139: JSON 'താഴവും' (twice); print looks like 'താഴം'/'താഴും' (no വ); not certain",
+   "hadith_no": 139
+  },
+  {
+   "pdf_page": 42,
+   "note": "Malayalam 146: 'ബഖീഇൽ' vs print possibly 'ബഖീഉൽ'; not certain",
+   "hadith_no": 146
+  },
+  {
+   "pdf_page": 46,
+   "note": "Malayalam 162: JSON 'ഇൻഖിത്വാഉണ്ട്'; print looks like 'ഇൻഖിതാളുണ്ട്'; not certain",
+   "hadith_no": 162
+  },
+  {
+   "pdf_page": 33,
+   "note": "p33 blocks 2 and 4 (hadith 107/108) lack the printed number prefix in text unlike p32 blocks; structure/convention note only"
+  }
+ ]
+}

@@ -1,0 +1,275 @@
+{
+ "part": "3.8",
+ "pages_checked": [
+  3,
+  5,
+  7,
+  9,
+  10,
+  14,
+  15,
+  18,
+  19,
+  20,
+  22,
+  25,
+  27,
+  28,
+  29,
+  30,
+  31,
+  33,
+  34
+ ],
+ "corrections": [
+  {
+   "pdf_page": 15,
+   "block": 4,
+   "old": "തിരുദൂതർ(സ) പറഞ്ഞു",
+   "new": "തിരൂദൂതർ(സ) പറഞ്ഞു",
+   "why": "print: ര-ൂ and ദ-ൂ (both filled-ball signs)"
+  },
+  {
+   "pdf_page": 18,
+   "block": 1,
+   "old": "സംസാരമധ്യേ",
+   "new": "സംസാരമദ്ധ്യേ",
+   "why": "print ദ്ധ്യ conjunct"
+  },
+  {
+   "pdf_page": 18,
+   "block": 1,
+   "old": "വേറൊരാരാധ്യൻ",
+   "new": "വേറൊരാരാദ്ധ്യൻ",
+   "why": "print ദ്ധ്യ conjunct"
+  },
+  {
+   "pdf_page": 19,
+   "block": 0,
+   "old": "അപ്പോൾ ദേഹേച്ഛകളാൽ നരകം വലയം ചെയ്യപ്പെടാൻ",
+   "new": "അപ്പോൾ ദേഹേച്ഛകളാൾ നരകം വലയം ചെയ്യപ്പെടാൻ",
+   "why": "print ൾ (first occurrence only; second is ൽ)"
+  },
+  {
+   "pdf_page": 19,
+   "block": 1,
+   "old": "ചെയ്തതശേഷം",
+   "new": "ചെയ്തശേഷം",
+   "why": "bab heading prints ചെയ്തശേഷം"
+  },
+  {
+   "pdf_page": 20,
+   "block": 3,
+   "old": "إِنْ أُتِيتَكَ عَنْ مَسْأَلَةٍ",
+   "new": "إِنْ أَتَتْكَ عَنْ مَسْأَلَةٍ",
+   "why": "print أَتَتْكَ"
+  },
+  {
+   "pdf_page": 20,
+   "block": 3,
+   "old": "وَإِنْ أُتِيتَكَ عَنْ غَيْرِ",
+   "new": "وَإِنْ أَتَتْكَ عَنْ غَيْرِ",
+   "why": "print أَتَتْكَ"
+  },
+  {
+   "pdf_page": 22,
+   "block": 8,
+   "old": "വഴിമധ്യേ",
+   "new": "വഴിമദ്ധ്യേ",
+   "why": "print ദ്ധ്യ conjunct"
+  },
+  {
+   "pdf_page": 27,
+   "block": 1,
+   "old": "സൂക്തം അല്ലാഹു ഇറക്കി",
+   "new": "സുക്തം അല്ലാഹു ഇറക്കി",
+   "why": "print സുക്തം (open-circle ു; author typo kept)"
+  },
+  {
+   "pdf_page": 28,
+   "block": 4,
+   "old": "സൂക്തം ഇറങ്ങി",
+   "new": "സൂകതം ഇറങ്ങി",
+   "why": "print സൂകതം (author typo kept)"
+  },
+  {
+   "pdf_page": 29,
+   "block": 2,
+   "old": "കഅ്ബയെക്കൊണ്ട്",
+   "new": "കഅബയെക്കൊണ്ട്",
+   "why": "print has no virama after അ"
+  },
+  {
+   "pdf_page": 30,
+   "block": 1,
+   "old": "വസിയ്യത് ചെയ്തിരുന്നു",
+   "new": "വസ്വിയ്യത് ചെയ്തിരുന്നു",
+   "why": "print has ്വ after സ"
+  },
+  {
+   "pdf_page": 30,
+   "block": 1,
+   "old": "വസിയ്യത്ത് ചെയ്തിരുന്നു",
+   "new": "വസ്വിയ്യത്ത് ചെയ്തിരുന്നു",
+   "why": "print has ്വ after സ"
+  },
+  {
+   "pdf_page": 33,
+   "block": 4,
+   "old": "കൂട്ടാക്കിയില്ല",
+   "new": "കൂട്ടാക്കിയല്ല",
+   "why": "print കൂട്ടാക്കിയല്ല (author typo kept)"
+  },
+  {
+   "pdf_page": 33,
+   "block": 4,
+   "old": "കഴിക്കുവോളം",
+   "new": "കഴിക്കുംവരെ",
+   "why": "print കഴിക്കുംവരെ"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 14,
+   "note": "idx 8/9: bab ML subtitle 'ബൈത്തുൽമുഖദ്ദസിൽ നമസ്കരിക്കുമെന്ന് നേർച്ചയാക്കിയ വ്യക്തി' is printed at TOP of p15 (Arabic bab line at bottom of p14); our JSON has it in p14 bab block 10. Text identical; page-placement only, no text correction."
+  },
+  {
+   "pdf_page": 30,
+   "note": "idx 25/26: same layout split: Arabic bab at bottom of p30, ML subtitle 'ദൈവസാമീപ്യം ലഭിക്കാത്ത സത്യത്തിന്റെ ലംഘനം' printed at top of p31. Placement only."
+  },
+  {
+   "pdf_page": 34,
+   "note": "extra: bab Arabic prints as السيمين (ا ل س ي م ي ن), confirmed; keep as printed."
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "A"
+  },
+  {
+   "idx": 1,
+   "print": "A"
+  },
+  {
+   "idx": 2,
+   "print": "A"
+  },
+  {
+   "idx": 3,
+   "print": "A"
+  },
+  {
+   "idx": 4,
+   "print": "A"
+  },
+  {
+   "idx": 5,
+   "print": "A"
+  },
+  {
+   "idx": 6,
+   "print": "A"
+  },
+  {
+   "idx": 7,
+   "print": "A"
+  },
+  {
+   "idx": 8,
+   "print": "A"
+  },
+  {
+   "idx": 9,
+   "print": "A"
+  },
+  {
+   "idx": 10,
+   "print": "B"
+  },
+  {
+   "idx": 11,
+   "print": "B"
+  },
+  {
+   "idx": 12,
+   "print": "B"
+  },
+  {
+   "idx": 13,
+   "print": "B"
+  },
+  {
+   "idx": 14,
+   "print": "A"
+  },
+  {
+   "idx": 15,
+   "print": "B"
+  },
+  {
+   "idx": 16,
+   "print": "B"
+  },
+  {
+   "idx": 17,
+   "print": "B"
+  },
+  {
+   "idx": 18,
+   "print": "B"
+  },
+  {
+   "idx": 19,
+   "print": "A"
+  },
+  {
+   "idx": 20,
+   "print": "B"
+  },
+  {
+   "idx": 21,
+   "print": "B"
+  },
+  {
+   "idx": 22,
+   "print": "B"
+  },
+  {
+   "idx": 23,
+   "print": "B"
+  },
+  {
+   "idx": 24,
+   "print": "B"
+  },
+  {
+   "idx": 25,
+   "print": "A"
+  },
+  {
+   "idx": 26,
+   "print": "A"
+  },
+  {
+   "idx": 27,
+   "print": "A"
+  },
+  {
+   "idx": 28,
+   "print": "B"
+  },
+  {
+   "idx": 29,
+   "print": "A"
+  },
+  {
+   "idx": 30,
+   "print": "B"
+  },
+  {
+   "idx": 31,
+   "print": "A"
+  }
+ ]
+}

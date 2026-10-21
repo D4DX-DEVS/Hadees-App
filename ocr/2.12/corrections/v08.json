@@ -1,0 +1,195 @@
+{
+ "part": "2.12",
+ "pages_checked": [
+  97,
+  98,
+  99,
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108
+ ],
+ "corrections": [
+  {
+   "pdf_page": 97,
+   "block": 0,
+   "old": "'മുഅവ്വദിദതൈനി'",
+   "new": "'മുഅവ്വിദതൈനി'",
+   "why": "vowel order misread"
+  },
+  {
+   "pdf_page": 97,
+   "block": 0,
+   "old": "ഓതപ്പെട്ട ഏറ്റവും നല്ല രണ്ട് സൂറതുകൾ നിനക്ക് ഞാൻ പഠിപ്പിച്ചു തരട്ടെയോ",
+   "new": "ഓതപ്പെട്ട ഏറ്റവും നല്ല രണ്ട് സൂറതുകൾ നിനക്ക് ഞാൻ പഠിപ്പിച്ച് തരട്ടെയോ",
+   "why": "പഠിപ്പിച്ച് printed"
+  },
+  {
+   "pdf_page": 97,
+   "block": 0,
+   "old": "ഫലഖ്, നാസ് സൂറകൾ പഠിപ്പിച്ചു തന്നു",
+   "new": "ഫലഖ്, നാസ് സൂറഃകൾ പഠിപ്പിച്ച് തന്നു",
+   "why": "visarga and ച് printed"
+  },
+  {
+   "pdf_page": 97,
+   "block": 0,
+   "old": "വാഹനത്തിൽ കയറാൻ എനിക്ക് വല്ലാത്ത തോന്നി",
+   "new": "വാഹനത്തിൽ കയറാൻ എനിക്ക് വല്ലായ്മ തോന്നി",
+   "why": "word misread"
+  },
+  {
+   "pdf_page": 97,
+   "block": 0,
+   "old": "ആ പർവ്വതത്തിനിടയിലുള്ള",
+   "new": "ആ പർവ്വതത്തിനടിയിലുള്ള",
+   "why": "word misread"
+  },
+  {
+   "pdf_page": 97,
+   "block": 0,
+   "old": "നല്ല രണ്ട് സൂറതുകൾ നിനക്ക് ഞാൻ പഠിപ്പിച്ചു തരട്ടെയോ?\" അങ്ങനെ ഫലഖ് സൂറതും",
+   "new": "നല്ല രണ്ട് സൂറതുകൾ നിനക്ക് ഞാൻ പഠിപ്പിച്ച് തരട്ടെയോ?\" അങ്ങനെ ഫലഖ് സൂറതും",
+   "why": "പഠിപ്പിച്ച് printed"
+  },
+  {
+   "pdf_page": 97,
+   "block": 0,
+   "old": "ഫലഖ് സൂറയേക്കാൾ",
+   "new": "ഫലഖ് സൂറഃയേക്കാൾ",
+   "why": "visarga missing"
+  },
+  {
+   "pdf_page": 98,
+   "block": 5,
+   "old": "ഖബ്ർ ശിക്ഷ",
+   "new": "ഖബ്റ് ശിക്ഷ",
+   "why": "print has റ്"
+  },
+  {
+   "pdf_page": 98,
+   "block": 7,
+   "old": "കാവൽ ചോദിക്കാറുണ്ടായിരുന്നു",
+   "new": "കാവൽ ചേദിക്കാറുണ്ടായിരുന്നു",
+   "why": "printed misprint ചേദിക്കാറു- kept"
+  },
+  {
+   "pdf_page": 98,
+   "block": 9,
+   "old": "സഅ്ദ്ബ്നു",
+   "new": "സഅ്ദുബ്നു",
+   "why": "vowel sign missing"
+  },
+  {
+   "pdf_page": 100,
+   "block": 6,
+   "old": "മുസ്‌ലിമ്‌ബ്നു",
+   "new": "മുസ്‌ലിമുബ്നു",
+   "why": "u sign missing"
+  },
+  {
+   "pdf_page": 103,
+   "block": 8,
+   "old": "സൂറത്തുൽഫലഖ്",
+   "new": "സൂറതുൽഫലഖ്",
+   "why": "printed spelling"
+  },
+  {
+   "pdf_page": 103,
+   "block": 8,
+   "old": "സൂറത്തുന്നാസ്",
+   "new": "സൂറതുന്നാസ്",
+   "why": "printed spelling"
+  },
+  {
+   "pdf_page": 103,
+   "block": 11,
+   "old": "ഈ വാക്കുകൾ കൊണ്ട് അഭയം",
+   "new": "ഈ വാക്യങ്ങൾ കൊണ്ട് അഭയം",
+   "why": "word misread"
+  },
+  {
+   "pdf_page": 104,
+   "block": 4,
+   "old": "വിരൽ ചൂണ്ടി",
+   "new": "വിരൽ ചുണ്ടി",
+   "why": "printed misprint kept"
+  },
+  {
+   "pdf_page": 105,
+   "block": 0,
+   "old": "അബൂദർറ്(റ)",
+   "new": "അബുദർറ്(റ)",
+   "why": "u not uu"
+  },
+  {
+   "pdf_page": 105,
+   "block": 0,
+   "old": "മനുഷ്യരെലെയും",
+   "new": "മനുഷ്യരിലെയും",
+   "why": "vowel misread"
+  },
+  {
+   "pdf_page": 106,
+   "block": 1,
+   "old": "ഇസ്‌റാഫീൽ(അ)",
+   "new": "ഇസ്റാഫീലി(അ)",
+   "why": "printed spelling"
+  },
+  {
+   "pdf_page": 106,
+   "block": 1,
+   "old": "മീക്കാഈൽ",
+   "new": "മീകാഈൽ",
+   "why": "extra ക്ക"
+  },
+  {
+   "pdf_page": 107,
+   "block": 7,
+   "old": "അബുൽ യസർ(റ)",
+   "new": "അബുൽ യസ്ർ(റ)",
+   "why": "virama missing"
+  },
+  {
+   "pdf_page": 107,
+   "block": 7,
+   "old": "അവസ്ഥകൾ",
+   "new": "അവശതകൾ",
+   "why": "word misread"
+  },
+  {
+   "pdf_page": 108,
+   "block": 4,
+   "old": "ചെയ്യേണമേ.",
+   "new": "ചെയ്യണേ.",
+   "why": "word misread"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 99,
+   "hadith_no": 315,
+   "note": "scan is clipped at right edge; line-start words (e.g. غلمانكم) not fully visible, could not verify"
+  },
+  {
+   "pdf_page": 105,
+   "hadith_no": 334,
+   "note": "scan clipped at right edge; line starts/ends not verifiable"
+  },
+  {
+   "pdf_page": 104,
+   "hadith_no": null,
+   "note": "Arabic blocks 331-334 begin with the numeral text e.g. '٣٣١.' inside text while other pages keep number only in hadith_no"
+  },
+  {
+   "pdf_page": 102,
+   "hadith_no": 325,
+   "note": "324 and 325 are printed identically in the book (not an OCR duplicate)"
+  }
+ ]
+}

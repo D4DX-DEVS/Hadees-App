@@ -1,0 +1,208 @@
+{
+ "part": "4.15",
+ "pages_checked": [
+  1,
+  2,
+  3,
+  5,
+  6,
+  7,
+  8,
+  10
+ ],
+ "corrections": [
+  {
+   "pdf_page": 1,
+   "block": 3,
+   "old": "അബൂഹുറൈറ",
+   "new": "അബുഹുറൈറ",
+   "why": "print ു"
+  },
+  {
+   "pdf_page": 1,
+   "block": 5,
+   "old": "ദ്വേഷ്യത്തെ",
+   "new": "ദേഷ്യത്തെ",
+   "why": "print ദേഷ്യത്തെ"
+  },
+  {
+   "pdf_page": 1,
+   "block": 7,
+   "old": "മൂന്ന്",
+   "new": "മുന്ന്",
+   "why": "print മുന്ന്"
+  },
+  {
+   "pdf_page": 2,
+   "block": 1,
+   "old": "ഞാൻ അബൂത്വൽഹ",
+   "new": "ഞൻ അബൂത്വൽഹ",
+   "why": "print ഞൻ"
+  },
+  {
+   "pdf_page": 3,
+   "block": 1,
+   "old": "മുസ്ലിംകൾക്കെല്ലാം",
+   "new": "മുസ്ലിംകൾക്കൊല്ലാം",
+   "why": "print ക്കൊല്ലാം"
+  },
+  {
+   "pdf_page": 3,
+   "block": 1,
+   "old": "പശ്ചാത്തപിച്ചു",
+   "new": "പശ്ചാതപിച്ചു",
+   "why": "print പശ്ചാതപിച്ചു"
+  },
+  {
+   "pdf_page": 5,
+   "block": 2,
+   "old": "أُهْدِيَ",
+   "new": "أَهْدَى",
+   "why": "print ends with dotless alif maqsura"
+  },
+  {
+   "pdf_page": 5,
+   "block": 5,
+   "old": "അബീബകർ",
+   "new": "അബീബക്ർ",
+   "why": "print shows ക് + ർ (ബക്ർ), neither ബകർ nor ബക്കർ"
+  },
+  {
+   "pdf_page": 6,
+   "block": 1,
+   "old": "ബിൻതുഅബീബകർ",
+   "new": "ബിൻതുഅബീബക്ർ",
+   "why": "print ബക്ർ"
+  },
+  {
+   "pdf_page": 6,
+   "block": 5,
+   "old": "നോക്കൂ.",
+   "new": "നോക്കു.",
+   "why": "print ു"
+  },
+  {
+   "pdf_page": 7,
+   "block": 2,
+   "old": "ഉത്തമായത്,",
+   "new": "ഉത്തമമായത്,",
+   "why": "print ഉത്തമ|മായത് (line break)"
+  },
+  {
+   "pdf_page": 9,
+   "block": 0,
+   "old": "മുത്വലിബിന്റെ സന്താനങ്ങൾക്കുമുള്ളത് നിങ്ങളുടേതുമാണ്. ആയതിനാൽ",
+   "new": "മുത്ത്വലിബിന്റെ സന്താനങ്ങൾക്കുമുള്ളത് നിങ്ങളുടേതുമാണ്. ആയതിനാൽ",
+   "why": "print ത്ത്വ"
+  },
+  {
+   "pdf_page": 9,
+   "block": 0,
+   "old": "അബ്ദുൽ മുത്വലിബിന്റെ",
+   "new": "അബ്ദുൽ മുത്ത്വലിബിന്റെ",
+   "why": "print ത്ത്വ"
+  },
+  {
+   "pdf_page": 9,
+   "block": 0,
+   "old": "അബ്ദുൽമുത്വലിബിന്റെ",
+   "new": "അബ്ദുൽമുത്ത്വലിബിന്റെ",
+   "why": "print ത്ത്വ"
+  },
+  {
+   "pdf_page": 10,
+   "block": 3,
+   "old": "ഛർദ്ദിക്കുകയും",
+   "new": "ഛിർദ്ദിക്കുകയും",
+   "why": "print ഛിർദ്ദിക്കുകയും"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 9,
+   "note": "block 0: സത്യവിശാസികളോട് vs സത്യവിശ്വാസികളോട്: could not resolve whether ്വ is present between ശ and ാ at native zoom; no correction emitted"
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "B"
+  },
+  {
+   "idx": 1,
+   "print": "B"
+  },
+  {
+   "idx": 2,
+   "print": "B"
+  },
+  {
+   "idx": 3,
+   "print": "B"
+  },
+  {
+   "idx": 4,
+   "print": "B"
+  },
+  {
+   "idx": 5,
+   "print": "B"
+  },
+  {
+   "idx": 6,
+   "print": "A"
+  },
+  {
+   "idx": 7,
+   "print": "A"
+  },
+  {
+   "idx": 8,
+   "print": "B"
+  },
+  {
+   "idx": 9,
+   "print": "other"
+  },
+  {
+   "idx": 10,
+   "print": "B"
+  },
+  {
+   "idx": 11,
+   "print": "A"
+  },
+  {
+   "idx": 12,
+   "print": "B"
+  },
+  {
+   "idx": 13,
+   "print": "B"
+  },
+  {
+   "idx": 14,
+   "print": "A"
+  },
+  {
+   "idx": 15,
+   "print": "B"
+  },
+  {
+   "idx": 16,
+   "print": "uncertain"
+  },
+  {
+   "idx": 17,
+   "print": "B"
+  },
+  {
+   "idx": 18,
+   "print": "B"
+  },
+  {
+   "idx": 19,
+   "print": "B"
+  }
+ ]
+}

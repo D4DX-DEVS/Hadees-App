@@ -1,0 +1,231 @@
+{
+ "part": "3.16",
+ "pages_checked": [
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  41,
+  42,
+  43,
+  45,
+  46,
+  49,
+  51,
+  54,
+  55,
+  56,
+  58
+ ],
+ "corrections": [
+  {
+   "pdf_page": 33,
+   "block": 3,
+   "old": "أُسْلِمُ؟",
+   "new": "أُسْلِمُ،",
+   "why": "print has comma"
+  },
+  {
+   "pdf_page": 34,
+   "block": 5,
+   "old": "مُوسَى، أَنْتَ",
+   "new": "مُوسَى، آنْتَ",
+   "why": "print has alef-madda"
+  },
+  {
+   "pdf_page": 35,
+   "block": 1,
+   "old": "يَقْرَؤُونَ",
+   "new": "يَقْرَءُونَ",
+   "why": "print hamza on line then waw"
+  },
+  {
+   "pdf_page": 38,
+   "block": 6,
+   "old": "മുൾക്കൊണ്ടിരിക്കുന്നു",
+   "new": "മുൾകൊണ്ടിരിക്കുന്നു",
+   "why": "print has ൾകൊ"
+  },
+  {
+   "pdf_page": 41,
+   "block": 0,
+   "old": "തൃങ്ങളും",
+   "new": "ത്യങ്ങളും",
+   "why": "print ya-glyph identical to സത്യമാക്കി on same page, not ൃ"
+  },
+  {
+   "pdf_page": 49,
+   "block": 10,
+   "old": "സ്വഹാബി മൂക്കയെറിട്ട",
+   "new": "സ്വഹാബി മൂക്കയറിട്ട",
+   "why": "print: യ directly followed by റി, no െ"
+  },
+  {
+   "pdf_page": 49,
+   "block": 10,
+   "old": "അന്ത്യനാളിൽ മൂക്കയെറിട്ട",
+   "new": "അന്ത്യനാളിൽ മൂക്കയറിട്ട",
+   "why": "same"
+  },
+  {
+   "pdf_page": 51,
+   "block": 4,
+   "old": "ചെയ്താൽ അവൻ ഓരോ",
+   "new": "ചെയ്താൽ അവന് ഓരോ",
+   "why": "print has chandrakkala ന്"
+  },
+  {
+   "pdf_page": 54,
+   "block": 2,
+   "old": "അശക്തനാകും. അവരിലേക്ക്",
+   "new": "അശക്തനാകും. അവരെ അവരിലേക്ക്",
+   "why": "print line ends with അവരെ before അവരിലേക്ക്"
+  },
+  {
+   "pdf_page": 54,
+   "block": 2,
+   "old": "ജനങ്ങളിലേക്ക് അവരെ നീ",
+   "new": "ജനങ്ങലിലേക്ക് അവരെ നീ",
+   "why": "print ല not ള"
+  },
+  {
+   "pdf_page": 55,
+   "block": 6,
+   "old": "ഉണ്ടായിരുന്നുള്ളു.",
+   "new": "ഉണ്ടായിരുന്നുള്ളൂ.",
+   "why": "final vowel sign is ൂ (taller hook with curl)"
+  },
+  {
+   "pdf_page": 58,
+   "block": 1,
+   "old": "സംബന്ധിച്ചിടത്തോളം, യുദ്ധത്തിന്",
+   "new": "സംബന്ധത്തിച്ചിടത്തോളം, യുദ്ധത്തിന്",
+   "why": "print has ന്ധത്തി"
+  },
+  {
+   "pdf_page": 58,
+   "block": 1,
+   "old": "അതുകൊണ്ട് നിങ്ങൾ",
+   "new": "അതുകണ്ട് നിങ്ങൾ",
+   "why": "print has no ൊ"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 49,
+   "note": "item35 heading മഹതവം vs മഹത്വം: print blurry bold, no visible chandrakkala/ligature after ത; kept A (as printed typo) but not certain"
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 21,
+   "print": "B"
+  },
+  {
+   "idx": 22,
+   "print": "B"
+  },
+  {
+   "idx": 23,
+   "print": "B"
+  },
+  {
+   "idx": 24,
+   "print": "A"
+  },
+  {
+   "idx": 25,
+   "print": "A"
+  },
+  {
+   "idx": 26,
+   "print": "A"
+  },
+  {
+   "idx": 27,
+   "print": "B"
+  },
+  {
+   "idx": 28,
+   "print": "B"
+  },
+  {
+   "idx": 29,
+   "print": "A"
+  },
+  {
+   "idx": 30,
+   "print": "A"
+  },
+  {
+   "idx": 31,
+   "print": "A"
+  },
+  {
+   "idx": 32,
+   "print": "A"
+  },
+  {
+   "idx": 33,
+   "print": "A"
+  },
+  {
+   "idx": 34,
+   "print": "A"
+  },
+  {
+   "idx": 35,
+   "print": "A"
+  },
+  {
+   "idx": 36,
+   "print": "B"
+  },
+  {
+   "idx": 37,
+   "print": "B"
+  },
+  {
+   "idx": 38,
+   "print": "B"
+  },
+  {
+   "idx": 39,
+   "print": "A"
+  },
+  {
+   "idx": 40,
+   "print": "B"
+  },
+  {
+   "idx": 41,
+   "print": "B"
+  },
+  {
+   "idx": 42,
+   "print": "A"
+  },
+  {
+   "idx": 43,
+   "print": "B"
+  },
+  {
+   "idx": 44,
+   "print": "A"
+  },
+  {
+   "idx": 45,
+   "print": "B"
+  },
+  {
+   "idx": 46,
+   "print": "B"
+  },
+  {
+   "idx": 47,
+   "print": "A"
+  }
+ ]
+}

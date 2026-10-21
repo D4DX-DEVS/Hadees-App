@@ -1,0 +1,223 @@
+{
+ "part": "4.12",
+ "pages_checked": [
+  15,
+  22
+ ],
+ "corrections": [
+  {
+   "pdf_page": 14,
+   "block": 5,
+   "old": "ഖന്ദഖ്",
+   "new": "ഖൻദഖ്",
+   "why": "print (p716) shows chillu ൻ followed by ദ, no conjunct"
+  },
+  {
+   "pdf_page": 15,
+   "block": 1,
+   "old": "സ്വഹാബികളൊടൊത്തിരിക്കുമ്പോൾ",
+   "new": "സ്വഹാബികളോടൊത്തിരിക്കുമ്പോൾ",
+   "why": "print (p717) shows ോ sign ( െ...ാ) on ള: സ്വഹാബികളോടൊത്തിരി"
+  },
+  {
+   "pdf_page": 15,
+   "block": 1,
+   "old": "കിന്ദ,",
+   "new": "കിൻദ,",
+   "why": "print (p717) shows chillu ൻ then ദ"
+  },
+  {
+   "pdf_page": 15,
+   "block": 1,
+   "old": "അൻമാർ?",
+   "new": "അന്മാർ?",
+   "why": "print (p717) second occurrence (എന്താണ് ...?) is the ന്മ conjunct, unlike the earlier അൻമാർ ഗോത്ര"
+  },
+  {
+   "pdf_page": 17,
+   "block": 2,
+   "old": "نَحْنُ نُحْيِي",
+   "new": "نَحْنُ نُحْيِ",
+   "why": "print (p719) shows only one ي after ح: نُحْيِ (damma, sukun, kasra visible); printed form kept"
+  },
+  {
+   "pdf_page": 18,
+   "block": 1,
+   "old": "സഹായിക്കുന്നില്ലേയോ?",
+   "new": "സഹായിക്കുന്നില്ലെയോ?",
+   "why": "print (p720) vowel sign before ല്ല is the single-loop െ, same shape as the െ of the following യോ, not േ"
+  },
+  {
+   "pdf_page": 19,
+   "block": 0,
+   "old": "(ക്രിസ്ത്യാനിസം)",
+   "new": "(കൃസ്ത്യാനിസം)",
+   "why": "print (p721) line ends with (കൃ with the ൃ sign, next line സ്ത്യാനിസം); no ്ര/ി"
+  },
+  {
+   "pdf_page": 20,
+   "block": 3,
+   "old": "സുബൈർ(റ)",
+   "new": "സൂബൈർ(റ)",
+   "why": "print (p722) at native zoom: vowel on സ is identical to സൂ of സൂക്തമിറങ്ങി on same line and differs from the open ു of സുബൈർ two lines above; printed typo kept"
+  },
+  {
+   "pdf_page": 25,
+   "block": 5,
+   "old": "ആയത്തുദ്ദുഖാൻ",
+   "new": "ആയത്തുദ്ദുഖാനിൽ",
+   "why": "print (p727) line ends ആയത്തുദ്ദുഖാ and the continuation line begins നിൽ പറഞ്ഞ സംഭവം സംഭവിക്കും"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 14,
+   "note": "HELD idx 22: bab heading block 6 സൂറത്ത് vs സുറത്ത് (heading spelling, not decided per instructions)"
+  },
+  {
+   "pdf_page": 16,
+   "note": "HELD idx 26: bab heading block 4 സൂറത്ത് vs സുറത്ത് (heading spelling, not decided)"
+  },
+  {
+   "pdf_page": 17,
+   "note": "HELD idx 28: bab heading block 1 സൂറത്ത് vs സുറത്ത് (heading spelling) and block 3 അബൂസഇൗദിൽ vs അബൂസഈദിൽ (ഇൗ/ഈ encoding, glyph-level) - not decided"
+  },
+  {
+   "pdf_page": 17,
+   "note": "HELD idx 29: bab heading block 8 സൂറത്ത് vs സുറത്ത് (heading spelling, not decided)"
+  },
+  {
+   "pdf_page": 18,
+   "note": "HELD idx 31: bab heading block 8 സൂറത്ത് vs സുറത്ത് (heading spelling, not decided)"
+  },
+  {
+   "pdf_page": 19,
+   "note": "HELD idx 33: block 2 വുളു vs വുളൂ - ു/ൂ on ള not settleable at native zoom; JSON left as വുളു"
+  },
+  {
+   "pdf_page": 20,
+   "note": "HELD idx 34: bab heading block 1 സൂറത്ത് vs സുറത്ത് (heading spelling, not decided)"
+  },
+  {
+   "pdf_page": 23,
+   "note": "HELD idx 37: bab heading block 2 (ഗാഫിർ) സൂറത്ത് vs സുറത്ത് (heading spelling, not decided)"
+  },
+  {
+   "pdf_page": 23,
+   "note": "HELD idx 38: bab heading block 5 (ഫുസ്സിലത്) സൂറത്ത് vs സുറത്ത് (heading spelling, not decided)"
+  },
+  {
+   "pdf_page": 24,
+   "note": "HELD idx 39: bab heading block 3 ശൂറാ സൂറത്ത് vs ശുറാ സുറത്ത് (heading spelling incl. ശൂ/ശു, not decided)"
+  },
+  {
+   "pdf_page": 24,
+   "note": "HELD idx 40: bab heading block 8 (സുഖ്റുഫ്) സൂറത്ത് vs സുറത്ത് (heading spelling, not decided)"
+  },
+  {
+   "pdf_page": 25,
+   "note": "HELD idx 41: bab heading block 3 (ദുഖാൻ) സൂറത്ത് vs സുറത്ത് (heading spelling, not decided)"
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 21,
+   "print": "B"
+  },
+  {
+   "idx": 22,
+   "print": "held"
+  },
+  {
+   "idx": 23,
+   "print": "B"
+  },
+  {
+   "idx": 24,
+   "print": "B"
+  },
+  {
+   "idx": 25,
+   "print": "B"
+  },
+  {
+   "idx": 26,
+   "print": "held"
+  },
+  {
+   "idx": 27,
+   "print": "B"
+  },
+  {
+   "idx": 28,
+   "print": "held"
+  },
+  {
+   "idx": 29,
+   "print": "held"
+  },
+  {
+   "idx": 30,
+   "print": "B"
+  },
+  {
+   "idx": 31,
+   "print": "held"
+  },
+  {
+   "idx": 32,
+   "print": "B"
+  },
+  {
+   "idx": 33,
+   "print": "held"
+  },
+  {
+   "idx": 34,
+   "print": "held"
+  },
+  {
+   "idx": 35,
+   "print": "B"
+  },
+  {
+   "idx": 36,
+   "print": "A"
+  },
+  {
+   "idx": 37,
+   "print": "held"
+  },
+  {
+   "idx": 38,
+   "print": "held"
+  },
+  {
+   "idx": 39,
+   "print": "held"
+  },
+  {
+   "idx": 40,
+   "print": "held"
+  },
+  {
+   "idx": 41,
+   "print": "held"
+  },
+  {
+   "idx": 42,
+   "print": "B"
+  }
+ ],
+ "pages_reviewed_with_held_items": [
+  14,
+  16,
+  17,
+  18,
+  19,
+  20,
+  23,
+  24,
+  25
+ ]
+}

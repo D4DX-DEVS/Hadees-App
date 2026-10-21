@@ -1,0 +1,85 @@
+{
+ "part": "4.17",
+ "pages_checked": [
+  6,
+  9,
+  10,
+  11
+ ],
+ "corrections": [
+  {
+   "pdf_page": 6,
+   "block": 0,
+   "old": "അബൂസഈദ്",
+   "new": "അബൂസഇൗദ്",
+   "why": "print ബൂ and ഇൗ"
+  },
+  {
+   "pdf_page": 6,
+   "block": 0,
+   "old": "വാങ്ങൂ.",
+   "new": "വാങ്ങു.",
+   "why": "print ു"
+  },
+  {
+   "pdf_page": 9,
+   "block": 8,
+   "old": "بِهَا! قُلْت",
+   "new": "بِهَا؟ قُلْت",
+   "why": "print has ؟"
+  },
+  {
+   "pdf_page": 9,
+   "block": 1,
+   "old": "ഫൈറുസ്",
+   "new": "ഫൈറൂസ്",
+   "why": "print ൂ"
+  },
+  {
+   "pdf_page": 10,
+   "block": 6,
+   "old": "അബൂസഈദിൽ",
+   "new": "അബൂസഇൗദിൽ",
+   "why": "print ഇൗ"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 10,
+   "print": "other"
+  },
+  {
+   "idx": 11,
+   "print": "B"
+  },
+  {
+   "idx": 12,
+   "print": "A"
+  },
+  {
+   "idx": 13,
+   "print": "B"
+  },
+  {
+   "idx": 14,
+   "print": "B"
+  },
+  {
+   "idx": 15,
+   "print": "A"
+  },
+  {
+   "idx": 16,
+   "print": "A"
+  },
+  {
+   "idx": 17,
+   "print": "A"
+  },
+  {
+   "idx": 18,
+   "print": "A"
+  }
+ ]
+}

@@ -1,0 +1,229 @@
+{
+ "part": "4.5",
+ "pages_checked": [
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29
+ ],
+ "corrections": [
+  {
+   "pdf_page": 23,
+   "block": 0,
+   "old": "ഈൗസാ(അ)മിനെ",
+   "new": "ഇൗസാ(അ)മിനെ",
+   "why": "print ഇ+ൗ (ഇൗ), not ഈൗ"
+  },
+  {
+   "pdf_page": 23,
+   "block": 4,
+   "old": "ഈൗസാ(അ)മും",
+   "new": "ഇൗസാ(അ)മും",
+   "why": "print ഇ+ൗ (ഇൗ), not ഈൗ"
+  },
+  {
+   "pdf_page": 23,
+   "block": 4,
+   "old": "മേറ്റ കുട്ടികൾ",
+   "new": "മേറ്റ് കുട്ടികൾ",
+   "why": "print has virama ്"
+  },
+  {
+   "pdf_page": 23,
+   "block": 7,
+   "old": "ഈൗസാ(അ).",
+   "new": "ഇൗസാ(അ).",
+   "why": "print ഇ+ൗ (ഇൗ), not ഈൗ"
+  },
+  {
+   "pdf_page": 23,
+   "block": 7,
+   "old": "ഇസ്രാഈൗല്യരിൽ",
+   "new": "ഇസ്രാഇൗല്യരിൽ",
+   "why": "print ഇ+ൗ (ഇൗ), not ഈൗ"
+  },
+  {
+   "pdf_page": 23,
+   "block": 2,
+   "old": "ഈൗസാ(അ) നിങ്ങളിലേക്ക",
+   "new": "ഇൗസാ(അ) നിങ്ങളിലേക്ക",
+   "why": "print ഇ+ൗ (ഇൗ), not ഈൗ"
+  },
+  {
+   "pdf_page": 25,
+   "block": 7,
+   "old": "ബനൂഇസ്രാഈൗല്യരെ",
+   "new": "ബനൂഇസ്രാഇൗല്യരെ",
+   "why": "print ഇ+ൗ (ഇൗ)"
+  },
+  {
+   "pdf_page": 26,
+   "block": 3,
+   "old": "ബനൂഇസ്രാഈൗലുകാരെ",
+   "new": "ബനൂഇസ്രാഇൗലുകാരെ",
+   "why": "print ഇ+ൗ (ഇൗ), not ഈൗ"
+  },
+  {
+   "pdf_page": 26,
+   "block": 9,
+   "old": "ഇസ്രാഈൗല്യർ",
+   "new": "ഇസ്രാഇൗല്യർ",
+   "why": "print ഇ+ൗ (ഇൗ), not ഈൗ"
+  },
+  {
+   "pdf_page": 27,
+   "block": 1,
+   "old": "ഒന്നാമത്തവൻ",
+   "new": "ഒന്നാമത്തവന്",
+   "why": "print ന + virama"
+  },
+  {
+   "pdf_page": 27,
+   "block": 1,
+   "old": "രണ്ടാമൻ",
+   "new": "രണ്ടാമന്",
+   "why": "print ന + virama"
+  },
+  {
+   "pdf_page": 27,
+   "block": 1,
+   "old": "മൂന്നാമൻ",
+   "new": "മൂന്നാമന്",
+   "why": "print ന + virama"
+  },
+  {
+   "pdf_page": 28,
+   "block": 0,
+   "old": "അല്ലാഹു നിനക്ക് നൽകിയതല്ലേ",
+   "new": "അല്ലാഹു നിനിക്ക് നൽകിയതല്ലേ",
+   "why": "print നിനിക്ക്"
+  },
+  {
+   "pdf_page": 28,
+   "block": 0,
+   "old": "സന്തൃപ്തനാവുകയും",
+   "new": "സംതൃപ്തനാവുകയും",
+   "why": "print ം"
+  },
+  {
+   "pdf_page": 28,
+   "block": 2,
+   "old": "മുന്നിടിച്ചുകൊണ്ട്",
+   "new": "മുന്നിടീച്ചുകൊണ്ട്",
+   "why": "print ടീ"
+  },
+  {
+   "pdf_page": 29,
+   "block": 6,
+   "old": "രക്തസാക്ഷിയുടേതുപോലുള്ള",
+   "new": "രക്തസാക്ഷിയുടേത് പോലുള്ള",
+   "why": "print ടേത് ends line, പോലുള്ള next line"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 17,
+   "print": "other"
+  },
+  {
+   "idx": 19,
+   "print": "B"
+  },
+  {
+   "idx": 20,
+   "print": "other"
+  },
+  {
+   "idx": 21,
+   "print": "other"
+  },
+  {
+   "idx": 18,
+   "print": "other"
+  },
+  {
+   "idx": 22,
+   "print": "B"
+  },
+  {
+   "idx": 23,
+   "print": "B"
+  },
+  {
+   "idx": 24,
+   "print": "other"
+  },
+  {
+   "idx": 25,
+   "print": "other"
+  },
+  {
+   "idx": 26,
+   "print": "other"
+  },
+  {
+   "idx": 27,
+   "print": "other"
+  },
+  {
+   "idx": 28,
+   "print": "A"
+  },
+  {
+   "idx": 29,
+   "print": "other"
+  },
+  {
+   "idx": 30,
+   "print": "other"
+  },
+  {
+   "idx": 31,
+   "print": "other"
+  },
+  {
+   "idx": 32,
+   "print": "B"
+  },
+  {
+   "idx": 33,
+   "print": "B"
+  },
+  {
+   "idx": 34,
+   "print": "B"
+  },
+  {
+   "idx": 35,
+   "print": "B"
+  },
+  {
+   "idx": 36,
+   "print": "B"
+  },
+  {
+   "idx": 37,
+   "print": "A"
+  },
+  {
+   "idx": 38,
+   "print": "A"
+  },
+  {
+   "idx": 39,
+   "print": "B"
+  },
+  {
+   "idx": 40,
+   "print": "other"
+  },
+  {
+   "idx": 41,
+   "print": "B"
+  }
+ ]
+}

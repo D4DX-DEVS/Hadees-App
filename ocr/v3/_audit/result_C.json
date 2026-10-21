@@ -1,0 +1,148 @@
+[
+ {
+  "book": 16,
+  "hadith_no": 371,
+  "verdict": "match",
+  "diffs": [],
+  "note": ""
+ },
+ {
+  "book": 16,
+  "hadith_no": 481,
+  "verdict": "match",
+  "diffs": [],
+  "note": "first Arabic line on p48 checked from downscaled view"
+ },
+ {
+  "book": 16,
+  "hadith_no": 493,
+  "verdict": "match",
+  "diffs": [],
+  "note": ""
+ },
+ {
+  "book": 16,
+  "hadith_no": 292,
+  "verdict": "match",
+  "diffs": [],
+  "note": "misprint സബുബൈർ is in print"
+ },
+ {
+  "book": 16,
+  "hadith_no": 427,
+  "verdict": "match",
+  "diffs": [],
+  "note": ""
+ },
+ {
+  "book": 16,
+  "hadith_no": 233,
+  "verdict": "match",
+  "diffs": [],
+  "note": ""
+ },
+ {
+  "book": 16,
+  "hadith_no": 458,
+  "verdict": "match",
+  "diffs": [],
+  "note": ""
+ },
+ {
+  "book": 16,
+  "hadith_no": 6,
+  "verdict": "diff",
+  "diffs": [
+   {
+    "field": "malayalam",
+    "db": "വിട്ടു നിൽക്കുകയും ചെയ്തു",
+    "print": "വിട്ടു നിൽക്കുകയും ചെയതു"
+   }
+  ],
+  "note": "trivial only: print misprint ചെയതു (no virama) silently corrected in DB; everything else matches"
+ },
+ {
+  "book": 16,
+  "hadith_no": 420,
+  "verdict": "match",
+  "diffs": [],
+  "note": ""
+ },
+ {
+  "book": 16,
+  "hadith_no": 266,
+  "verdict": "match",
+  "diffs": [],
+  "note": ""
+ },
+ {
+  "book": 16,
+  "hadith_no": 244,
+  "verdict": "match",
+  "diffs": [],
+  "note": "third Arabic line on p72 checked at reduced resolution"
+ },
+ {
+  "book": 16,
+  "hadith_no": 228,
+  "verdict": "match",
+  "diffs": [],
+  "note": ""
+ },
+ {
+  "book": 16,
+  "hadith_no": 226,
+  "verdict": "match",
+  "diffs": [],
+  "note": "print misprint നിവേദത്തിൽ kept in DB"
+ },
+ {
+  "book": 16,
+  "hadith_no": 11,
+  "verdict": "match",
+  "diffs": [],
+  "note": ""
+ },
+ {
+  "book": 16,
+  "hadith_no": 304,
+  "verdict": "match",
+  "diffs": [],
+  "note": "misprint ഇരുത്തുകുയം kept as printed"
+ },
+ {
+  "book": 16,
+  "hadith_no": 310,
+  "verdict": "match",
+  "diffs": [],
+  "note": ""
+ },
+ {
+  "book": 16,
+  "hadith_no": 318,
+  "verdict": "match",
+  "diffs": [],
+  "note": ""
+ },
+ {
+  "book": 16,
+  "hadith_no": 146,
+  "verdict": "match",
+  "diffs": [],
+  "note": ""
+ },
+ {
+  "book": 16,
+  "hadith_no": 23,
+  "verdict": "match",
+  "diffs": [],
+  "note": ""
+ },
+ {
+  "book": 16,
+  "hadith_no": 344,
+  "verdict": "match",
+  "diffs": [],
+  "note": ""
+ }
+]

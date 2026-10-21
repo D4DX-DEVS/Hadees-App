@@ -1,0 +1,175 @@
+{
+ "part": "4.13",
+ "pages_checked": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24
+ ],
+ "corrections": [
+  {
+   "pdf_page": 2,
+   "block": 7,
+   "old": "ഉമൈർ(റ):",
+   "new": "ഉമൈറ(റ):",
+   "why": "print final glyph matches (റ), no chillu hook"
+  },
+  {
+   "pdf_page": 3,
+   "block": 0,
+   "old": "ഉമൈർ(റ)",
+   "new": "ഉമൈറ(റ)",
+   "why": "print final glyph matches (റ)"
+  },
+  {
+   "pdf_page": 6,
+   "block": 11,
+   "old": "ഖുർരതുബ്നു",
+   "new": "ഖുർറതുബ്നു",
+   "why": "print second letter round റ"
+  },
+  {
+   "pdf_page": 13,
+   "block": 9,
+   "old": "അബ്ദുറഹ്മാനുബ്നു",
+   "new": "അബ്ദുർറഹ്മാനുബ്നു",
+   "why": "print has ർ + റ"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 3,
+   "note": "idx1 الخطأ/الخطإ hamza form not clearly resolvable; kept ours"
+  },
+  {
+   "pdf_page": 13,
+   "note": "idx16 print shows a doubled glyph unit in ഉദ്ധരിക്കുന്നത് (looks like ഉദ്ധദ്ധരി); exact print reading unclear; kept ours"
+  },
+  {
+   "pdf_page": 19,
+   "note": "idx20 print has a vowel/conjunct sign after സ in \"സ?ഫറിലെ\" (looks like ്വ but could be ാ); glyph-level, kept ours സഫറിലെ"
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "B"
+  },
+  {
+   "idx": 1,
+   "print": "uncertain"
+  },
+  {
+   "idx": 2,
+   "print": "B"
+  },
+  {
+   "idx": 3,
+   "print": "B"
+  },
+  {
+   "idx": 4,
+   "print": "B"
+  },
+  {
+   "idx": 5,
+   "print": "A"
+  },
+  {
+   "idx": 6,
+   "print": "B"
+  },
+  {
+   "idx": 7,
+   "print": "A"
+  },
+  {
+   "idx": 8,
+   "print": "B"
+  },
+  {
+   "idx": 9,
+   "print": "B"
+  },
+  {
+   "idx": 10,
+   "print": "A"
+  },
+  {
+   "idx": 11,
+   "print": "B"
+  },
+  {
+   "idx": 12,
+   "print": "B"
+  },
+  {
+   "idx": 13,
+   "print": "B"
+  },
+  {
+   "idx": 14,
+   "print": "A"
+  },
+  {
+   "idx": 15,
+   "print": "B"
+  },
+  {
+   "idx": 16,
+   "print": "uncertain"
+  },
+  {
+   "idx": 17,
+   "print": "A"
+  },
+  {
+   "idx": 18,
+   "print": "A"
+  },
+  {
+   "idx": 19,
+   "print": "B"
+  },
+  {
+   "idx": 20,
+   "print": "uncertain"
+  },
+  {
+   "idx": 21,
+   "print": "A"
+  },
+  {
+   "idx": 22,
+   "print": "A"
+  },
+  {
+   "idx": 23,
+   "print": "A"
+  },
+  {
+   "idx": 24,
+   "print": "A"
+  }
+ ]
+}

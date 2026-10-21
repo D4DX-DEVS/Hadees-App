@@ -1,0 +1,51 @@
+{
+ "part": "2.14",
+ "pages_checked": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "corrections": [
+  {
+   "pdf_page": 1,
+   "block": 2,
+   "old": "١. عَنْ زَيْدِ",
+   "new": "عَنْ زَيْدِ",
+   "why": "hadith number duplicated in text"
+  },
+  {
+   "pdf_page": 1,
+   "block": 3,
+   "old": "തിരിച്ചുക്കളഞ്ഞു",
+   "new": "തിരിച്ചുകളഞ്ഞു",
+   "why": "stray ക്ക"
+  },
+  {
+   "pdf_page": 4,
+   "block": 4,
+   "old": "സലമതുബ്നുൽ അക്‌വഅ്(റ)",
+   "new": "സലമതുബ്നുൽ അക്വഅ്(റ)",
+   "why": "print has no chandrakkala/virama before വ"
+  },
+  {
+   "pdf_page": 2,
+   "block": 5,
+   "old": "ഗുന്ദർ",
+   "new": "ഗുൻദർ",
+   "why": "print: ഗുൻദർ"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 1,
+   "hadith_no": 1,
+   "note": "JSON Arabic fully vocalised where print is lightly vocalised; not corrected"
+  },
+  {
+   "pdf_page": 2,
+   "hadith_no": 3,
+   "note": "print has a stray digit 1 before ഹദീസ് in Malayalam (misprint, kept)"
+  }
+ ]
+}

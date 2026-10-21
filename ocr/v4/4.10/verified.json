@@ -1,0 +1,74 @@
+{
+ "pages": [
+  3,
+  5,
+  6,
+  11,
+  13,
+  14,
+  16,
+  18,
+  19,
+  20,
+  27,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  41,
+  42,
+  43,
+  44,
+  46,
+  47,
+  48,
+  49,
+  50,
+  52
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 37,
+   "note": "idx2 hamza on اقرأ/اقرإ unclear at print; kept ours"
+  },
+  {
+   "pdf_page": 38,
+   "note": "idx4 hamza on اقرأ/اقرإ unclear; kept ours"
+  },
+  {
+   "pdf_page": 42,
+   "note": "idx10 ഉമരേ vs ഉമറേ (first, 'ഉമരേ, നിങ്ങളദ്ദേഹത്തെ'): ര/റ not resolvable; leaning print=A (ഉമരേ)"
+  },
+  {
+   "pdf_page": 42,
+   "note": "idx11 second ഉമരേ/ഉമറേ ('ഉമരേ, നിങ്ങൾ ഓതുക'): same, leaning A"
+  },
+  {
+   "pdf_page": 46,
+   "note": "idx20 തജ്മഉൗൻ: glyph after മ looks like ള-with-flat-base then ൗ, i.e. possibly തജ്മളൗൻ; neither A nor B clearly; no correction"
+  },
+  {
+   "pdf_page": 48,
+   "note": "idx26 ഫറള്നാഹാ: print shows ഫറളനാഹാ (no visible chandrakkala, not chillu ൾ); left as ours"
+  },
+  {
+   "pdf_page": 49,
+   "note": "idx28 ദുർരിയ്യ് vs ദുർറിയ്യ്: ര/റ after chillu unsure; no correction"
+  },
+  {
+   "pdf_page": 47,
+   "note": "idx23 എന്നിൽനിന്ന്: print ink broken at ന്ന, intended എന്നിൽ; kept ours"
+  },
+  {
+   "pdf_page": 19,
+   "note": "മഅ്ളൂബി: ു vs ൂ after ള looks like plain ു in print; left ൂ as ours (glyph-level uncertain)"
+  },
+  {
+   "pdf_page": 35,
+   "note": "ദാവുദ്: ു looks like plain ു, kept ours"
+  }
+ ],
+ "applied": 15
+}

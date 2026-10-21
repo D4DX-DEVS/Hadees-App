@@ -1,0 +1,115 @@
+{
+ "part": "4.1",
+ "pages_checked": [
+  41,
+  42,
+  44,
+  45,
+  47,
+  48,
+  49,
+  50
+ ],
+ "corrections": [
+  {
+   "pdf_page": 42,
+   "block": 7,
+   "old": "الْإِفْتِرَاضِ",
+   "new": "الْافْتِرَاضِ",
+   "why": "Print shows plain alif (no hamza) in the bab heading; Opus reading."
+  },
+  {
+   "pdf_page": 44,
+   "block": 2,
+   "old": "കുടുംബങ്ങൾക്കും",
+   "new": "കുടംബങ്ങൾക്കും",
+   "why": "Print shows കുടംബങ്ങൾക്കും (no ു after ട); Opus reading."
+  },
+  {
+   "pdf_page": 45,
+   "block": 1,
+   "old": "ഫാത്വിമ(റ) ആളെ അയച്ചു",
+   "new": "ഫാതിമ(റ) ആളെ അയച്ചു",
+   "why": "Print shows ഫാതിമ(റ) (no വ); Opus reading."
+  },
+  {
+   "pdf_page": 45,
+   "block": 1,
+   "old": "ഫാത്വിമ(റ)ക്ക്",
+   "new": "ഫാതിമ(റ)ക്ക്",
+   "why": "Print shows ഫാതിമ(റ)ക്ക് (no വ); Opus reading."
+  },
+  {
+   "pdf_page": 45,
+   "block": 1,
+   "old": "ഫാത്വിമ(റ) ആവശ്യപ്പെടുന്നുണ്ടായിരുന്നു",
+   "new": "ഫാതിമ(റ) ആവശ്യപ്പെടുന്നുണ്ടായിരുന്നു",
+   "why": "Print shows ഫാതിമ(റ) (no വ); Opus reading."
+  },
+  {
+   "pdf_page": 49,
+   "block": 1,
+   "old": "فَاقْسِم",
+   "new": "فَأقْسِم",
+   "why": "Print shows hamza on alif (فَأَقْسِمْ); Opus reading."
+  },
+  {
+   "pdf_page": 50,
+   "block": 1,
+   "old": "ഇദ്രേഹത്തിന്റെയും",
+   "new": "ഇദ്ദേഹത്തിന്റെയും",
+   "why": "Print shows ഇദ്ദേഹത്തിന്റെയും (double ദ്ദ); Opus reading."
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 15,
+   "print": "A"
+  },
+  {
+   "idx": 16,
+   "print": "B"
+  },
+  {
+   "idx": 17,
+   "print": "A"
+  },
+  {
+   "idx": 18,
+   "print": "B"
+  },
+  {
+   "idx": 19,
+   "print": "B"
+  },
+  {
+   "idx": 20,
+   "print": "B"
+  },
+  {
+   "idx": 21,
+   "print": "B"
+  },
+  {
+   "idx": 22,
+   "print": "A"
+  },
+  {
+   "idx": 23,
+   "print": "A"
+  },
+  {
+   "idx": 24,
+   "print": "B"
+  },
+  {
+   "idx": 25,
+   "print": "B"
+  },
+  {
+   "idx": 26,
+   "print": "A"
+  }
+ ]
+}

@@ -1,0 +1,122 @@
+{
+ "part": "3.6",
+ "pages_checked": [
+  37,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48
+ ],
+ "corrections": [
+  {
+   "pdf_page": 41,
+   "block": 1,
+   "old": "നെയ്ത്തുകാരായ",
+   "new": "നൈത്തുകാരായ",
+   "why": "print reads നൈത്തുകാരായ"
+  },
+  {
+   "pdf_page": 43,
+   "block": 9,
+   "old": "അബ്ദുർറഹ്മാനുബ്നു",
+   "new": "അബ്ദുർഹ്മാനുബ്നു",
+   "why": "print reads അബ്ദുർഹ്മാനുബ്നു (printed form, no റ)"
+  },
+  {
+   "pdf_page": 44,
+   "block": 3,
+   "old": "ജുനാദതുബ്നു",
+   "new": "ജൂനാദതുബ്നു",
+   "why": "print has ൂ (loop with curl, unlike ു in ബ്നു beside it)"
+  },
+  {
+   "pdf_page": 46,
+   "block": 1,
+   "old": "മോഷ്ടിച്ചിട്ടേയുളളു.",
+   "new": "മോഷ്ടിച്ചിട്ടേയുളളൂ.",
+   "why": "print has ൂ at end of first occurrence"
+  },
+  {
+   "pdf_page": 48,
+   "block": 7,
+   "old": "فَاجْلِدُوهَا، فَإِنْ زَنَتْ فَاجْلِدُوهَا، فَإِنْ زَنَتْ فَاجْلِدُوهَا، فَإِنْ زَنَتْ",
+   "new": "فَاجْلِدُوهَا، فَإِنْ زَنَتْ فَاجْلِدُوهَا، فَإِنْ زَنَتْ",
+   "why": "print has only three فاجلدوها (initial + two فإن زنت); our text has one extra repeat"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "A"
+  },
+  {
+   "idx": 1,
+   "print": "A"
+  },
+  {
+   "idx": 2,
+   "print": "A"
+  },
+  {
+   "idx": 3,
+   "print": "B"
+  },
+  {
+   "idx": 4,
+   "print": "A"
+  },
+  {
+   "idx": 5,
+   "print": "A"
+  },
+  {
+   "idx": 6,
+   "print": "A"
+  },
+  {
+   "idx": 7,
+   "print": "A"
+  },
+  {
+   "idx": 8,
+   "print": "B"
+  },
+  {
+   "idx": 9,
+   "print": "B"
+  },
+  {
+   "idx": 10,
+   "print": "A"
+  },
+  {
+   "idx": 11,
+   "print": "B"
+  },
+  {
+   "idx": 12,
+   "print": "A"
+  },
+  {
+   "idx": 13,
+   "print": "A"
+  },
+  {
+   "idx": 14,
+   "print": "B"
+  },
+  {
+   "idx": 15,
+   "print": "A"
+  },
+  {
+   "idx": 16,
+   "print": "A"
+  }
+ ]
+}

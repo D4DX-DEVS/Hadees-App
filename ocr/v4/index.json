@@ -1,0 +1,126 @@
+{
+ "volume": 4,
+ "source": "Vol 4 index.pdf sections 1-20 (titles and start pages); chapters not transcribed",
+ "books": [
+  {
+   "book_no": 1,
+   "title_ml": "ആമുഖമായി",
+   "start_page": 31,
+   "chapters": []
+  },
+  {
+   "book_no": 2,
+   "title_ml": "ഹദീസിന്റെ പ്രാധാന്യം",
+   "start_page": 33,
+   "chapters": []
+  },
+  {
+   "book_no": 3,
+   "title_ml": "നികുതിയും യുദ്ധമുതലും",
+   "start_page": 43,
+   "chapters": []
+  },
+  {
+   "book_no": 4,
+   "title_ml": "നേതൃത്വം",
+   "start_page": 119,
+   "chapters": []
+  },
+  {
+   "book_no": 5,
+   "title_ml": "ഹിജ്റയും പോരാട്ടങ്ങളും",
+   "start_page": 155,
+   "chapters": []
+  },
+  {
+   "book_no": 6,
+   "title_ml": "സൃഷ്ടിപ്പിന്റെ ആരംഭം",
+   "start_page": 247,
+   "chapters": []
+  },
+  {
+   "book_no": 7,
+   "title_ml": "പ്രവാചകന്മാരുടെ ശ്രേഷ്ഠത",
+   "start_page": 259,
+   "chapters": []
+  },
+  {
+   "book_no": 8,
+   "title_ml": "നബി(സ)യുടെ അപദാനങ്ങൾ",
+   "start_page": 289,
+   "chapters": []
+  },
+  {
+   "book_no": 9,
+   "title_ml": "സഹാബതിന്റെ മഹത്വങ്ങൾ",
+   "start_page": 357,
+   "chapters": []
+  },
+  {
+   "book_no": 10,
+   "title_ml": "മക്കയുടെയും മദീനയുടെയും മഹത്വങ്ങൾ",
+   "start_page": 515,
+   "chapters": []
+  },
+  {
+   "book_no": 11,
+   "title_ml": "ഖുർആന്റെ മഹത്വങ്ങൾ",
+   "start_page": 531,
+   "chapters": []
+  },
+  {
+   "book_no": 12,
+   "title_ml": "ഖുർആൻ വ്യാഖ്യാനം",
+   "start_page": 583,
+   "chapters": []
+  },
+  {
+   "book_no": 13,
+   "title_ml": "നബിചര്യ",
+   "start_page": 781,
+   "chapters": []
+  },
+  {
+   "book_no": 14,
+   "title_ml": "അക്രമങ്ങൾ",
+   "start_page": 851,
+   "chapters": []
+  },
+  {
+   "book_no": 15,
+   "title_ml": "ദാനം",
+   "start_page": 859,
+   "chapters": []
+  },
+  {
+   "book_no": 16,
+   "title_ml": "വ്യവസ്ഥകൾ",
+   "start_page": 879,
+   "chapters": []
+  },
+  {
+   "book_no": 17,
+   "title_ml": "ഉള്ഹിയത്ത്",
+   "start_page": 889,
+   "chapters": []
+  },
+  {
+   "book_no": 18,
+   "title_ml": "വേട്ടയും അറവും",
+   "start_page": 915,
+   "chapters": []
+  },
+  {
+   "book_no": 19,
+   "title_ml": "വിപത്തുകൾ",
+   "start_page": 955,
+   "chapters": []
+  },
+  {
+   "book_no": 20,
+   "title_ml": "ഗ്രന്ഥകർത്താവിനെക്കുറിച്ച്",
+   "start_page": 1010,
+   "chapters": []
+  }
+ ]
+}

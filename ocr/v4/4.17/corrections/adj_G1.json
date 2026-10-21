@@ -1,0 +1,96 @@
+{
+ "part": "4.17",
+ "pages_checked": [
+  1,
+  2,
+  4,
+  5
+ ],
+ "corrections": [
+  {
+   "pdf_page": 1,
+   "block": 5,
+   "old": "ഇബ്റാഹീം(അ)ന്റെ",
+   "new": "ഇബ്രാഹീം(അ)ന്റെ",
+   "why": "print ra-sign ബ്ര"
+  },
+  {
+   "pdf_page": 1,
+   "block": 5,
+   "old": "\"ഓരോ മുടിക്കും",
+   "new": "\"ഒരോ മുടിക്കും",
+   "why": "print short ഒ"
+  },
+  {
+   "pdf_page": 4,
+   "block": 3,
+   "old": "ഇബ്റാഹീം(അ)ന്റെ",
+   "new": "ഇബ്രാഹീം(അ)ന്റെ",
+   "why": "print ra-sign"
+  },
+  {
+   "pdf_page": 4,
+   "block": 3,
+   "old": "സമുദായത്തിന്റെയും",
+   "new": "സമുദായത്തിന്റയും",
+   "why": "print has no െ"
+  },
+  {
+   "pdf_page": 5,
+   "block": 8,
+   "old": "അബൂസഈദി സ്സുറഖി(റ)വിന്റെ",
+   "new": "അബൂസഈദിസ്സുറഖി(റ)വിന്റെ",
+   "why": "print has ബൂ; space is only a line wrap (അബൂസഈദി / സ്സുറഖി)"
+  },
+  {
+   "pdf_page": 5,
+   "block": 8,
+   "old": "യൂനുസ്(റ)",
+   "new": "യുനുസ്(റ)",
+   "why": "print short ു"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "B"
+  },
+  {
+   "idx": 1,
+   "print": "B"
+  },
+  {
+   "idx": 2,
+   "print": "A"
+  },
+  {
+   "idx": 3,
+   "print": "A"
+  },
+  {
+   "idx": 4,
+   "print": "A"
+  },
+  {
+   "idx": 5,
+   "print": "B"
+  },
+  {
+   "idx": 6,
+   "print": "B"
+  },
+  {
+   "idx": 7,
+   "print": "A"
+  },
+  {
+   "idx": 8,
+   "print": "other"
+  },
+  {
+   "idx": 9,
+   "print": "B"
+  }
+ ]
+}

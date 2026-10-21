@@ -1,0 +1,161 @@
+{
+ "part": "1.3",
+ "pages_checked": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  7,
+  10,
+  11
+ ],
+ "corrections": [
+  {
+   "pdf_page": 2,
+   "block": 6,
+   "old": "കുടൽ മാലയുമായെത്തി. സുജൂദ്",
+   "new": "കുടൽ മാലയുമായെത്തി. നബി സുജൂദ്",
+   "why": "print has 'നബി' at line end before സുജൂദ്"
+  },
+  {
+   "pdf_page": 3,
+   "block": 1,
+   "old": "رَضِيَ اللهُ عَنْهُ قَالَ: عَنِ النَّبِيِّ",
+   "new": "رَضِيَ اللهُ عَنْهُ: عَنِ النَّبِيِّ",
+   "why": "print: عنه: عن النبي (no قال after عنه)"
+  },
+  {
+   "pdf_page": 3,
+   "block": 7,
+   "old": "أَسْتَحْيِي",
+   "new": "أَسْتَحِي",
+   "why": "print has single ya"
+  },
+  {
+   "pdf_page": 4,
+   "block": 7,
+   "old": "فَقَتَلُوا",
+   "new": "قَتَلُوا",
+   "why": "print: فانطلقوا، قتلوا"
+  },
+  {
+   "pdf_page": 4,
+   "block": 0,
+   "old": "വൃഷണങ്ങളും",
+   "new": "വൃഷ്ണങ്ങളും",
+   "why": "print വൃഷ്ണ"
+  },
+  {
+   "pdf_page": 4,
+   "block": 0,
+   "old": "വുളൂം",
+   "new": "വുളുഉം",
+   "why": "print വുളുഉം"
+  },
+  {
+   "pdf_page": 4,
+   "block": 8,
+   "old": "തുവാലയോ",
+   "new": "തൂവാലയോ",
+   "why": "print തൂവാല"
+  },
+  {
+   "pdf_page": 7,
+   "block": 1,
+   "old": "അബൂസഈദ്(റ): നബി(സ) പറയുന്നതായി",
+   "new": "അബുസഇൗദ്(റ): നബി(സ) പറയുന്നതായി",
+   "why": "print അബുസഇൗദ് with short u"
+  },
+  {
+   "pdf_page": 7,
+   "block": 7,
+   "old": "ഖുൻഫുദ്(റ)",
+   "new": "ഖുൻഫുദ(റ)",
+   "why": "print ഖുൻഫുദ(റ), no chandrakkala"
+  },
+  {
+   "pdf_page": 10,
+   "block": 1,
+   "old": "مَا لَمْ يَيْبَسَا",
+   "new": "مَا لَمْ تَيْبَسَا",
+   "why": "print تَيْبَسَا"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 5,
+   "note": "ഉക്ക്ൽ vs ഉക്കൽ: low-res print; read as ഉക്ക്ൽ (A) with moderate confidence"
+  },
+  {
+   "pdf_page": 4,
+   "note": "വുളുഉം vs വുളൂം and തൂവാലയോ vs തുവാലയോ read from small glyph differences; moderate confidence"
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "A"
+  },
+  {
+   "idx": 1,
+   "print": "B"
+  },
+  {
+   "idx": 2,
+   "print": "A"
+  },
+  {
+   "idx": 3,
+   "print": "B"
+  },
+  {
+   "idx": 4,
+   "print": "B"
+  },
+  {
+   "idx": 5,
+   "print": "A"
+  },
+  {
+   "idx": 6,
+   "print": "A"
+  },
+  {
+   "idx": 7,
+   "print": "B"
+  },
+  {
+   "idx": 8,
+   "print": "B"
+  },
+  {
+   "idx": 9,
+   "print": "B"
+  },
+  {
+   "idx": 10,
+   "print": "B"
+  },
+  {
+   "idx": 11,
+   "print": "A"
+  },
+  {
+   "idx": 12,
+   "print": "B"
+  },
+  {
+   "idx": 13,
+   "print": "B"
+  },
+  {
+   "idx": 14,
+   "print": "B"
+  },
+  {
+   "idx": 15,
+   "print": "A"
+  }
+ ]
+}

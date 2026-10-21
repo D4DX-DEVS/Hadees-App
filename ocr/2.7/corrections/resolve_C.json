@@ -1,0 +1,209 @@
+{
+ "part": "2.7",
+ "pages_checked": [
+  42,
+  46,
+  50,
+  55,
+  62,
+  63,
+  71,
+  77,
+  78,
+  83,
+  84,
+  90,
+  93,
+  98,
+  99,
+  101,
+  103
+ ],
+ "corrections": [
+  {
+   "pdf_page": 55,
+   "block": 5,
+   "old": "الصُّوَرِ يُع",
+   "new": "الصُّورَةِ يُع",
+   "why": "print reads هَذِهِ الصُّورَةِ (singular)"
+  },
+  {
+   "pdf_page": 62,
+   "block": 7,
+   "old": "أَوْ: غَيْرِ مَ",
+   "new": "أَوْ: غَيْرِمَ",
+   "why": "print has no space: غَيْرِمَحَلِّهِ"
+  },
+  {
+   "pdf_page": 98,
+   "block": 3,
+   "old": "بِهِ لِهَذَا",
+   "new": "بِهِ لَهَذَا",
+   "why": "print has fatha on lam"
+  },
+  {
+   "pdf_page": 83,
+   "block": 1,
+   "old": "അശ്അരി(റ)",
+   "new": "അശ്അരീ(റ)",
+   "why": "print has long ee sign"
+  },
+  {
+   "pdf_page": 77,
+   "block": 1,
+   "old": "കളായ ഫാത്തിമ(റ)",
+   "new": "കളായ ഫാതിമ(റ)",
+   "why": "print spells ഫാതിമ (single ത)"
+  },
+  {
+   "pdf_page": 77,
+   "block": 1,
+   "old": "്പോൾ ഫാത്തിമ(റ)",
+   "new": "്പോൾ ഫാതിമ(റ)",
+   "why": "print spells ഫാതിമ (single ത)"
+  },
+  {
+   "pdf_page": 77,
+   "block": 1,
+   "old": ": \"ഓ ഫാത്തിമ, ക",
+   "new": ": \"ഓ ഫാതിമ, ക",
+   "why": "print spells ഫാതിമ (single ത)"
+  },
+  {
+   "pdf_page": 77,
+   "block": 1,
+   "old": "ല്ല. ഫാത്തിമബീവ",
+   "new": "ല്ല. ഫാതിമബീവ",
+   "why": "print spells ഫാതിമ (single ത)"
+  },
+  {
+   "pdf_page": 77,
+   "block": 1,
+   "old": "ഞു: \"ഫാത്തിമയെ ",
+   "new": "ഞു: \"ഫാതിമയെ ",
+   "why": "print spells ഫാതിമ (single ത)"
+  },
+  {
+   "pdf_page": 101,
+   "block": 1,
+   "old": "ദേശം ഫാത്തിമ(റ)",
+   "new": "ദേശം ഫാതിമ(റ)",
+   "why": "print spells ഫാതിമ (single ത)"
+  },
+  {
+   "pdf_page": 101,
+   "block": 1,
+   "old": "്തി. ഫാത്തിമ(റ)",
+   "new": "്തി. ഫാതിമ(റ)",
+   "why": "print spells ഫാതിമ (single ത)"
+  },
+  {
+   "pdf_page": 101,
+   "block": 1,
+   "old": "ന്ന് ഫാത്തിമ(റ)",
+   "new": "ന്ന് ഫാതിമ(റ)",
+   "why": "print spells ഫാതിമ (single ത)"
+  },
+  {
+   "pdf_page": 101,
+   "block": 1,
+   "old": "ബാൻ, ഫാത്തിമ(റ)",
+   "new": "ബാൻ, ഫാതിമ(റ)",
+   "why": "print spells ഫാതിമ (single ത)"
+  }
+ ],
+ "resolved": [
+  {
+   "pdf_page": 42,
+   "hadith_no": 171
+  },
+  {
+   "pdf_page": 55,
+   "hadith_no": 219
+  },
+  {
+   "pdf_page": 46,
+   "hadith_no": 192
+  },
+  {
+   "pdf_page": 50,
+   "hadith_no": 202
+  },
+  {
+   "pdf_page": 46,
+   "hadith_no": null
+  },
+  {
+   "pdf_page": 46,
+   "hadith_no": 190
+  },
+  {
+   "pdf_page": 71,
+   "hadith_no": 277
+  },
+  {
+   "pdf_page": 61,
+   "hadith_no": 238
+  },
+  {
+   "pdf_page": 62,
+   "hadith_no": 242
+  },
+  {
+   "pdf_page": 63,
+   "hadith_no": 244
+  },
+  {
+   "pdf_page": 77,
+   "hadith_no": 301
+  },
+  {
+   "pdf_page": 76,
+   "hadith_no": null
+  },
+  {
+   "pdf_page": 79,
+   "hadith_no": 309
+  },
+  {
+   "pdf_page": 83,
+   "hadith_no": 325
+  },
+  {
+   "pdf_page": 90,
+   "hadith_no": 357
+  },
+  {
+   "pdf_page": 78,
+   "hadith_no": 305
+  },
+  {
+   "pdf_page": 77,
+   "hadith_no": 302
+  },
+  {
+   "pdf_page": 93,
+   "hadith_no": 372
+  },
+  {
+   "pdf_page": 99,
+   "hadith_no": 403
+  },
+  {
+   "pdf_page": 99,
+   "hadith_no": 404
+  },
+  {
+   "pdf_page": 103,
+   "hadith_no": 420
+  },
+  {
+   "pdf_page": 98,
+   "hadith_no": 398
+  },
+  {
+   "pdf_page": 101,
+   "hadith_no": 411
+  }
+ ]
+}

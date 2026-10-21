@@ -1,0 +1,24 @@
+name = "hadeeth-ai"
+main = "src/index.ts"
+compatibility_date = "2026-09-01"
+compatibility_flags = ["nodejs_compat"]
+
+[ai]
+binding = "AI"
+
+[vars]
+SUPABASE_URL = "https://qlwwjbrcktbigiawtafo.supabase.co"
+ALLOWED_ORIGINS = "*"
+# Secrets (set with `npx wrangler secret put NAME`):
+#   SUPABASE_ANON_KEY      public anon key
+#   SUPABASE_SERVICE_KEY   service_role key (only for /admin/embed backfill)
+#   ADMIN_TOKEN            any random string, protects /admin/embed
+#   ANTHROPIC_API_KEY      optional: Claude answers instead of free Workers AI model
+#   CLAUDE_MODEL           optional, default claude-opus-5-5
+
+[triggers]
+crons = ["0 3 * * *"]
+
+[[kv_namespaces]]
+binding = "CACHE"
+id = "ef2225c5cbdf4632b3344214155f2161"

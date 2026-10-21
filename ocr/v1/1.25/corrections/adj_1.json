@@ -1,0 +1,584 @@
+{
+ "part": "1.25",
+ "pages_checked": [
+  1,
+  2,
+  3,
+  4,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  17,
+  20,
+  21,
+  22,
+  23,
+  25,
+  26,
+  39,
+  40,
+  41,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49
+ ],
+ "corrections": [
+  {
+   "pdf_page": 1,
+   "block": 4,
+   "old": "الْمُصَلِّي",
+   "new": "الْمُصَلَّى",
+   "why": "print ends with alif maqsura"
+  },
+  {
+   "pdf_page": 2,
+   "block": 9,
+   "old": "فَلْيَخُطَّ",
+   "new": "فَلْيَخْطُطْ",
+   "why": "print reads فليخطط"
+  },
+  {
+   "pdf_page": 3,
+   "block": 8,
+   "old": "ഹുസ്സമ്മാൻ",
+   "new": "ഹുസ്സമാൻ",
+   "why": "print: സ്സ stacked then മാൻ (single മ)"
+  },
+  {
+   "pdf_page": 3,
+   "block": 8,
+   "old": "ബനുമുഹൈത്ത്",
+   "new": "ബനൂമുഹൈത്ത്",
+   "why": "print ൂ"
+  },
+  {
+   "pdf_page": 3,
+   "block": 8,
+   "old": "നോക്കി, മുന്നിലൂടെയല്ലാതെ",
+   "new": "നോക്കി, അബൂസഇൗദിന്റെ മുന്നിലൂടെയല്ലാതെ",
+   "why": "word missing in JSON; print has അബൂസഇൗദിന്റെ"
+  },
+  {
+   "pdf_page": 6,
+   "block": 4,
+   "old": "فَانْسَلَلْتُ",
+   "new": "انْسَلَلْتُ",
+   "why": "print has no ف"
+  },
+  {
+   "pdf_page": 7,
+   "block": 14,
+   "old": "മോശം!, നബി(സ) ഞാൻ",
+   "new": "മോശം!, ഞാൻ",
+   "why": "print has no നബി(സ) here; it comes after കണ്ടിട്ടുണ്ട്."
+  },
+  {
+   "pdf_page": 7,
+   "block": 14,
+   "old": "കണ്ടിട്ടുണ്ട്. ",
+   "new": "കണ്ടിട്ടുണ്ട്. നബി(സ) ",
+   "why": "print has നബി(സ) at end of this line, missing in JSON"
+  },
+  {
+   "pdf_page": 7,
+   "block": 14,
+   "old": "ശേഷം പ്രവാചകൻ(സ) സുജൂദ്",
+   "new": "ശേഷം പ്രവാചകൻ(സ) സുജുദ്",
+   "why": "print ു (open ring), not ൂ"
+  },
+  {
+   "pdf_page": 8,
+   "block": 7,
+   "old": "فِي ذَلِكَ فَقَ",
+   "new": "فِي ذَالِكَ فَقَ",
+   "why": "print spells ذالك with alif"
+  },
+  {
+   "pdf_page": 8,
+   "block": 8,
+   "old": "കുതിരയുടെ കടിഞ്ഞാൺ",
+   "new": "കുതിരയുടെ കടിഞ്ഞാൻ",
+   "why": "print ends with ൻ here (the earlier occurrence on the page is ൺ)"
+  },
+  {
+   "pdf_page": 12,
+   "block": 5,
+   "old": "അവരോടൊപ്പം",
+   "new": "അവരോടപ്പം",
+   "why": "print has no ൊ"
+  },
+  {
+   "pdf_page": 14,
+   "block": 0,
+   "old": "النَّحْرِ يُؤَذِّنُ",
+   "new": "النَّحْرِ نُؤَذِّنُ",
+   "why": "print has noon (dot above)"
+  },
+  {
+   "pdf_page": 15,
+   "block": 4,
+   "old": "ഇബ്നുസഖ്ർ(റ)",
+   "new": "ഇബ്നുസഖ്റ്(റ)",
+   "why": "print: ഖ്റ്(റ)"
+  },
+  {
+   "pdf_page": 17,
+   "block": 4,
+   "old": "അതു കണ്ടു മറ്റുളളവരും",
+   "new": "അതു കണ്ട് മറ്റുളളവരും",
+   "why": "print കണ്ട്"
+  },
+  {
+   "pdf_page": 20,
+   "block": 3,
+   "old": "ശല്യമില്ലാത്ത",
+   "new": "ശല്ല്യമില്ലാത്ത",
+   "why": "print ശല്ല്യ"
+  },
+  {
+   "pdf_page": 20,
+   "block": 12,
+   "old": "(ഈതി",
+   "new": "(ഇൗതി",
+   "why": "print uses ഇൗ (book style), neither ഈ nor ഊ"
+  },
+  {
+   "pdf_page": 21,
+   "block": 1,
+   "old": "إِلَّا بِخِمَارٍ",
+   "new": "إِلَّا بِخِمَارِهِ",
+   "why": "print بخماره"
+  },
+  {
+   "pdf_page": 22,
+   "block": 4,
+   "old": "കണ്ടിലെല്ലങ്കിൽ.",
+   "new": "കണ്ടില്ലെങ്കിൽ.",
+   "why": "print കണ്ടില്ലെങ്കിൽ"
+  },
+  {
+   "pdf_page": 25,
+   "block": 1,
+   "old": "ഈന്തപ്പന വടിയുടെ",
+   "new": "ഇൗത്തപ്പന വടിയുടെ",
+   "why": "print ഇൗത്തപ്പന (book-style ഇൗ, ത്ത)"
+  },
+  {
+   "pdf_page": 25,
+   "block": 4,
+   "old": "അതു കൊണ്ട് മുന്നിലേക്ക്",
+   "new": "അത് കൊണ്ട് മുന്നിലേക്ക്",
+   "why": "print അത് / കൊണ്ട്"
+  },
+  {
+   "pdf_page": 26,
+   "block": 1,
+   "old": "അബൂസഹ്ലത്തു",
+   "new": "അബുസഹ്ലത്തു",
+   "why": "print ബു"
+  },
+  {
+   "pdf_page": 39,
+   "block": 6,
+   "old": "ചുരുക്കപ്പെട്ടുണ്ട്.",
+   "new": "ചുരുക്കപ്പെട്ടിട്ടുണ്ട്.",
+   "why": "line break ചുരുക്കപ്പെട്ടി|ട്ടുണ്ട്"
+  },
+  {
+   "pdf_page": 39,
+   "block": 6,
+   "old": "അബൂബക്കർ(റ)വും",
+   "new": "അബൂബക്കർ(റ)വം",
+   "why": "print ends വം"
+  },
+  {
+   "pdf_page": 41,
+   "block": 8,
+   "old": "فَلْيُصَلِّ رَكْعَةً",
+   "new": "فَلْيُصَلِّي رَكْعَةً",
+   "why": "print فليصلي"
+  },
+  {
+   "pdf_page": 43,
+   "block": 6,
+   "old": "ഇടയിൽ രണ്ട് ഇരിക്കാതെ",
+   "new": "ഇടയിൽ ഇരിക്കാതെ",
+   "why": "print has no രണ്ട് here"
+  },
+  {
+   "pdf_page": 43,
+   "block": 6,
+   "old": "കഴിഞ്ഞപ്പോൾ സുജൂദുകൾ",
+   "new": "കഴിഞ്ഞപ്പോൾ രണ്ട് സുജൂദുകൾ",
+   "why": "print has രണ്ട് here"
+  },
+  {
+   "pdf_page": 43,
+   "block": 7,
+   "old": "മറവിയുടെ രണ്ടു സുജൂദ് ചെയ്യൽ",
+   "new": "മറവിയുടെ രണ്ട് സുജൂദ് ചെയ്യൽ",
+   "why": "print രണ്ട്"
+  },
+  {
+   "pdf_page": 44,
+   "block": 10,
+   "old": "സഹ്വിന്റെ രണ്ട് സുജൂദ് ചെയ്തു. നിസ്കാരം കഴിഞ്ഞപ്പോൾ",
+   "new": "സഹ്വിന്റെ രണ്ട് സുജുദ് ചെയ്തു. നിസ്കാരം കഴിഞ്ഞപ്പോൾ",
+   "why": "print സുജുദ് (open ു)"
+  },
+  {
+   "pdf_page": 45,
+   "block": 7,
+   "old": "يُغَطِّيَ",
+   "new": "يُغْطَى",
+   "why": "print يغطى with alif maqsura"
+  },
+  {
+   "pdf_page": 45,
+   "block": 4,
+   "old": "ഐക്യകണ്ഠേന",
+   "new": "ഐക്യകണ്ടേന",
+   "why": "print ണ്ട (plain ട), not ഠ/ഢ"
+  },
+  {
+   "pdf_page": 45,
+   "block": 12,
+   "old": "ഐക്യകണ്ഠേന",
+   "new": "ഐക്യകണ്ടേന",
+   "why": "print ണ്ട (plain ട), not ഠ/ഢ"
+  },
+  {
+   "pdf_page": 45,
+   "block": 14,
+   "old": "ഐക്യകണ്ഠേന",
+   "new": "ഐക്യകണ്ടേന",
+   "why": "print ണ്ട (plain ട), not ഠ/ഢ"
+  },
+  {
+   "pdf_page": 46,
+   "block": 3,
+   "old": "ഉദ്ദേശിച്ചു. അപ്പോൾ ഒരു",
+   "new": "ഉദ്ദ്യേശിച്ചു. അപ്പോൾ ഒരു",
+   "why": "print ഉദ്ദ്യേശിച്ചു"
+  },
+  {
+   "pdf_page": 47,
+   "block": 2,
+   "old": "അമ്മാറുബ്നുയാസിർ(റ):",
+   "new": "അമ്മാറുബാനുയാസിർ(റ):",
+   "why": "print ബാനു"
+  },
+  {
+   "pdf_page": 48,
+   "block": 8,
+   "old": "റുകൂഉം",
+   "new": "റുകൂളും",
+   "why": "print റുകൂളും"
+  },
+  {
+   "pdf_page": 49,
+   "block": 3,
+   "old": "الذِّيبَ",
+   "new": "الذِّئْبَ",
+   "why": "print الذئب with hamza"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "B"
+  },
+  {
+   "idx": 1,
+   "print": "B"
+  },
+  {
+   "idx": 2,
+   "print": "A"
+  },
+  {
+   "idx": 3,
+   "print": "B"
+  },
+  {
+   "idx": 4,
+   "print": "B"
+  },
+  {
+   "idx": 5,
+   "print": "A"
+  },
+  {
+   "idx": 6,
+   "print": "other"
+  },
+  {
+   "idx": 7,
+   "print": "A"
+  },
+  {
+   "idx": 8,
+   "print": "A"
+  },
+  {
+   "idx": 9,
+   "print": "A"
+  },
+  {
+   "idx": 10,
+   "print": "A"
+  },
+  {
+   "idx": 11,
+   "print": "B"
+  },
+  {
+   "idx": 12,
+   "print": "A"
+  },
+  {
+   "idx": 13,
+   "print": "A"
+  },
+  {
+   "idx": 14,
+   "print": "A"
+  },
+  {
+   "idx": 15,
+   "print": "B"
+  },
+  {
+   "idx": 16,
+   "print": "B"
+  },
+  {
+   "idx": 17,
+   "print": "B"
+  },
+  {
+   "idx": 18,
+   "print": "B"
+  },
+  {
+   "idx": 19,
+   "print": "A"
+  },
+  {
+   "idx": 20,
+   "print": "B"
+  },
+  {
+   "idx": 21,
+   "print": "A"
+  },
+  {
+   "idx": 22,
+   "print": "A"
+  },
+  {
+   "idx": 23,
+   "print": "A"
+  },
+  {
+   "idx": 24,
+   "print": "A"
+  },
+  {
+   "idx": 25,
+   "print": "A"
+  },
+  {
+   "idx": 26,
+   "print": "A"
+  },
+  {
+   "idx": 27,
+   "print": "B"
+  },
+  {
+   "idx": 28,
+   "print": "A"
+  },
+  {
+   "idx": 29,
+   "print": "A"
+  },
+  {
+   "idx": 30,
+   "print": "B"
+  },
+  {
+   "idx": 31,
+   "print": "A"
+  },
+  {
+   "idx": 32,
+   "print": "A"
+  },
+  {
+   "idx": 33,
+   "print": "B"
+  },
+  {
+   "idx": 34,
+   "print": "B"
+  },
+  {
+   "idx": 35,
+   "print": "B"
+  },
+  {
+   "idx": 36,
+   "print": "other"
+  },
+  {
+   "idx": 37,
+   "print": "B"
+  },
+  {
+   "idx": 38,
+   "print": "A"
+  },
+  {
+   "idx": 39,
+   "print": "B"
+  },
+  {
+   "idx": 40,
+   "print": "A"
+  },
+  {
+   "idx": 41,
+   "print": "other"
+  },
+  {
+   "idx": 42,
+   "print": "B"
+  },
+  {
+   "idx": 43,
+   "print": "B"
+  },
+  {
+   "idx": 44,
+   "print": "A"
+  },
+  {
+   "idx": 45,
+   "print": "A"
+  },
+  {
+   "idx": 46,
+   "print": "A"
+  },
+  {
+   "idx": 47,
+   "print": "A"
+  },
+  {
+   "idx": 51,
+   "print": "A"
+  },
+  {
+   "idx": 52,
+   "print": "B"
+  },
+  {
+   "idx": 53,
+   "print": "B"
+  },
+  {
+   "idx": 54,
+   "print": "A"
+  },
+  {
+   "idx": 55,
+   "print": "B"
+  },
+  {
+   "idx": 56,
+   "print": "A"
+  },
+  {
+   "idx": 57,
+   "print": "A"
+  },
+  {
+   "idx": 58,
+   "print": "B"
+  },
+  {
+   "idx": 59,
+   "print": "B"
+  },
+  {
+   "idx": 60,
+   "print": "B"
+  },
+  {
+   "idx": 61,
+   "print": "A"
+  },
+  {
+   "idx": 62,
+   "print": "B"
+  },
+  {
+   "idx": 63,
+   "print": "B"
+  },
+  {
+   "idx": 64,
+   "print": "other"
+  },
+  {
+   "idx": 65,
+   "print": "other"
+  },
+  {
+   "idx": 66,
+   "print": "other"
+  },
+  {
+   "idx": 67,
+   "print": "A"
+  },
+  {
+   "idx": 68,
+   "print": "B"
+  },
+  {
+   "idx": 69,
+   "print": "B"
+  },
+  {
+   "idx": 70,
+   "print": "B"
+  },
+  {
+   "idx": 71,
+   "print": "A"
+  },
+  {
+   "idx": 72,
+   "print": "B"
+  },
+  {
+   "idx": 73,
+   "print": "B"
+  }
+ ]
+}

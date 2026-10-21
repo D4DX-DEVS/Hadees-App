@@ -1,0 +1,505 @@
+{
+ "part": "4.11",
+ "pages_checked": [
+  41,
+  42,
+  43,
+  45,
+  47,
+  48,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  60,
+  61,
+  62,
+  64,
+  65,
+  66,
+  67,
+  68,
+  71,
+  75,
+  76,
+  78
+ ],
+ "corrections": [
+  {
+   "pdf_page": 41,
+   "block": 5,
+   "old": "لَمَجْزُوُّونَ",
+   "new": "لَمُجْزَوْنَ",
+   "why": "print has single waw: لَمُجْزَوْنَ"
+  },
+  {
+   "pdf_page": 41,
+   "block": 4,
+   "old": "അവനെത്തുന്ന",
+   "new": "അവന്നെത്തുന്ന",
+   "why": "print reads അവന്നെത്തുന്ന"
+  },
+  {
+   "pdf_page": 42,
+   "block": 8,
+   "old": "تَقْرَؤُونَهَا،",
+   "new": "تَقْرَءُونَهَا،",
+   "why": "print: hamza on line before waw (تقرءونها)"
+  },
+  {
+   "pdf_page": 45,
+   "block": 0,
+   "old": "പണ്ഡിതർ",
+   "new": "പൺഡിതർ",
+   "why": "print shows chillu ൺ + ഡി (പൺഡിതർ), clearly separated"
+  },
+  {
+   "pdf_page": 45,
+   "block": 0,
+   "old": "ഇസ്രാഈൻ",
+   "new": "ഇസ്രാഈൽ",
+   "why": "print ends in ൽ"
+  },
+  {
+   "pdf_page": 45,
+   "block": 2,
+   "old": "ഖത്വാബ്(റ):",
+   "new": "ഖത്ത്വാബ്(റ):",
+   "why": "print has ത്ത+്വ (ഖത്ത്വാബ്), ത്ത matches നിസ്കാരത്തോട് on same page"
+  },
+  {
+   "pdf_page": 45,
+   "block": 2,
+   "old": "ഉദ്ദേശിക്കുന്നത്",
+   "new": "ഉദ്ധേശിക്കുന്നത്",
+   "why": "print has ദ്ധ conjunct (differs from ദ്ദ in അദ്ദേഹം on same page); printed misspelling kept"
+  },
+  {
+   "pdf_page": 47,
+   "block": 1,
+   "old": "تَقْرَؤُونَ",
+   "new": "تَقْرَءُونَ",
+   "why": "print: hamza on line before waw (تقرءون)"
+  },
+  {
+   "pdf_page": 47,
+   "block": 4,
+   "old": "അബൂഉമയ്യതു ശ്ശഅ്ബാനീ(റ):",
+   "new": "അബൂഉമയ്യതു ശ്ശുഅ്ബാനീ(റ):",
+   "why": "print: space kept as in A, but ശ്ശു has ു sign (as B); neither reading exact"
+  },
+  {
+   "pdf_page": 48,
+   "block": 1,
+   "old": "ബദ്ദാഅം ഒഴികെ",
+   "new": "ബദ്ദാഉം ഒഴികെ",
+   "why": "print glyph is ഉ (same shape as initial ഉ in ഉദ്ധേശ്യത്തോടെ), not അ"
+  },
+  {
+   "pdf_page": 48,
+   "block": 1,
+   "old": "ഉദ്ദേശ്യത്തോടെ",
+   "new": "ഉദ്ധേശ്യത്തോടെ",
+   "why": "print has ദ്ധ conjunct; printed misspelling kept"
+  },
+  {
+   "pdf_page": 48,
+   "block": 1,
+   "old": "വസിയ്യത്ത്",
+   "new": "വസ്വിയ്യത്ത്",
+   "why": "print has ്വ stroke reaching baseline after സ (സ്വി)"
+  },
+  {
+   "pdf_page": 48,
+   "block": 1,
+   "old": "ബദ്ദാഅം കൂടി",
+   "new": "ബദ്ദാഉം കൂടി",
+   "why": "print glyph is ഉ, not അ"
+  },
+  {
+   "pdf_page": 51,
+   "block": 2,
+   "old": "സൂക്ഷ്മജ്ഞാനിയും",
+   "new": "സൂക്ഷമജ്ഞാനിയും",
+   "why": "print: ക്ഷ followed by full മ (no ്മ conjunct); printed spelling kept"
+  },
+  {
+   "pdf_page": 52,
+   "block": 3,
+   "old": "സൂക്ഷ്മതയുള്ളവരാകാൻ",
+   "new": "സൂക്ഷമതയുള്ളവരാകാൻ",
+   "why": "print: ക്ഷ followed by full മ; printed spelling kept"
+  },
+  {
+   "pdf_page": 53,
+   "block": 3,
+   "old": "ഉദ്ദേശിച്ചാൽ",
+   "new": "ഉദ്ധേശിച്ചാൽ",
+   "why": "print has ദ്ധ conjunct; printed misspelling kept"
+  },
+  {
+   "pdf_page": 54,
+   "block": 1,
+   "old": "ഖത്വാബ്(റ)വിനോട്",
+   "new": "ഖത്ത്വാബ്(റ)വിനോട്",
+   "why": "print has ത്ത conjunct + ്വ (ഖത്ത്വാബ്)"
+  },
+  {
+   "pdf_page": 55,
+   "block": 0,
+   "old": "الَّذِي كَتَبْتُ لَهُ",
+   "new": "الَّذِي كَتَبَ لَهُ",
+   "why": "print reads كتبَ له (no final ت)"
+  },
+  {
+   "pdf_page": 55,
+   "block": 1,
+   "old": "ഉദ്ദേശിച്ചയത്ര",
+   "new": "ഉദ്ധേശിച്ചയത്ര",
+   "why": "print has ദ്ധ conjunct; printed misspelling kept"
+  },
+  {
+   "pdf_page": 57,
+   "block": 5,
+   "old": "ഖത്വാബ്(റ)വിൽ",
+   "new": "ഖത്ത്വാബ്(റ)വിൽ",
+   "why": "print has ത്ത conjunct + ്വ (ഖത്ത്വാബ്)"
+  },
+  {
+   "pdf_page": 58,
+   "block": 5,
+   "old": "حِجَارَةٌ مِنَ السَّمَاءِ",
+   "new": "حِجَارَةُ السَّمَاءِ",
+   "why": "print has no مِنَ: حِجَارَةُ السَّمَاءِ مِنِّي"
+  },
+  {
+   "pdf_page": 61,
+   "block": 1,
+   "old": "മുത്തലിബിന്റെ",
+   "new": "മുത്ത്വലിബിന്റെ",
+   "why": "print has ത്ത + ്വ stroke (same glyph as ഖത്ത്വാബ്)"
+  },
+  {
+   "pdf_page": 61,
+   "block": 1,
+   "old": "മുത്തലിബിന് വേണ്ടി",
+   "new": "മുത്ത്വലിബിന് വേണ്ടി",
+   "why": "print has ത്ത + ്വ stroke"
+  },
+  {
+   "pdf_page": 64,
+   "block": 4,
+   "old": "പറയപ്പെട്ടു:",
+   "new": "പറയപ്പട്ടു:",
+   "why": "print has no െ sign before പ്പ (misprint kept)"
+  },
+  {
+   "pdf_page": 65,
+   "block": 6,
+   "old": "അവതരിച്ചത്.\" അതിനാൽ അവരെക്കുറിച്ച് തിരുമേനി(സ) പറഞ്ഞു: \"അവർ വെള്ളം കൊണ്ടാണ് മനോഹരിച്ചിരുന്നത്. ഈ സൂക്തം",
+   "new": "അവതരിച്ചത്.\" തിരുമേനി(സ) പറഞ്ഞു: \"അവർ വെള്ളം കൊണ്ടാണ് മനോഹരിച്ചിരുന്നത്. അതിനാൽ അവരെക്കുറിച്ച് ഈ സൂക്തം",
+   "why": "word order: in print അതിനാൽ അവരെക്കുറിച്ച് ends the line after മനോഹരിച്ചിരുന്നത്. (staggered photo misled reading A)"
+  },
+  {
+   "pdf_page": 66,
+   "block": 2,
+   "old": "بِهِمْ رَؤُوفٌ",
+   "new": "بِهِمْ رَؤُفٌ",
+   "why": "print has a single waw-with-hamza: رَؤُفٌ (neither reading matched)"
+  },
+  {
+   "pdf_page": 67,
+   "block": 0,
+   "old": "ഉദ്ദേശിച്ചിട്ടില്ല.",
+   "new": "ഉദ്ധേശിച്ചിട്ടില്ല.",
+   "why": "print has ദ്ധ conjunct; printed misspelling kept"
+  },
+  {
+   "pdf_page": 68,
+   "block": 1,
+   "old": "സിദ്ദീഖ്(റ)",
+   "new": "സ്വിദ്ദീഖ്(റ)",
+   "why": "print has ്വ stroke after സ (സ്വി), as on p48"
+  },
+  {
+   "pdf_page": 68,
+   "block": 1,
+   "old": "ഖത്വാബ്(റ)വും",
+   "new": "ഖത്ത്വാബ്(റ)വും",
+   "why": "print has ത്ത + ്വ"
+  },
+  {
+   "pdf_page": 68,
+   "block": 1,
+   "old": "മനസ്സിലാക്കിത്തരികയും,",
+   "new": "മനസ്സിലാക്കിത്തരികുയും,",
+   "why": "print misprint കു kept"
+  },
+  {
+   "pdf_page": 68,
+   "block": 1,
+   "old": "മനസ്സിലാക്കിത്തരികയും ചെയ്തു",
+   "new": "മനസ്സിലാക്കിത്തരികുയും ചെയ്തു",
+   "why": "print misprint കു kept"
+  },
+  {
+   "pdf_page": 71,
+   "block": 7,
+   "old": "അങ്ങുദ്ദേശിച്ച",
+   "new": "അങ്ങുദ്ധേശിച്ച",
+   "why": "print has ദ്ധ conjunct; printed misspelling kept"
+  },
+  {
+   "pdf_page": 75,
+   "block": 1,
+   "old": "ഉദ്ദേശിക്കുന്നിടത്തേക്ക്",
+   "new": "ഉദ്ധേശിക്കുന്നിടത്തേക്ക്",
+   "why": "print has ദ്ധ conjunct; printed misspelling kept"
+  },
+  {
+   "pdf_page": 76,
+   "block": 6,
+   "old": "ഏറ്റുവും",
+   "new": "ഏറ്റുവം",
+   "why": "print: ു under റ്റ, plain വം without ു (misprint kept; neither reading matched)"
+  },
+  {
+   "pdf_page": 78,
+   "block": 0,
+   "old": "തുല്യമാണ്.",
+   "new": "തുല്ല്യമാണ്.",
+   "why": "print has ല്ല + ്യ (തുല്ല്യ); printed spelling kept"
+  },
+  {
+   "pdf_page": 78,
+   "block": 4,
+   "old": "വാർദ്ധ്യക്യം,",
+   "new": "വാർദ്ധക്യം,",
+   "why": "print reads വാർദ്ധക്യം (no ്യ after ദ്ധ)"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 42,
+   "note": "block 7 bab malayalam: സുറത്ത് (A) vs സൂറത്ത് (B) - ു/ൂ in bold heading not settled; held"
+  },
+  {
+   "pdf_page": 52,
+   "note": "block 5: അബൂസഇൗദ്(റ) (A) vs അബൂസഈദ്(റ) (B) - ഇൗ/ഈ encoding not settleable from image; held"
+  },
+  {
+   "pdf_page": 56,
+   "note": "block 4: അബൂസഇൗദിൽ (A) vs അബൂസഈദിൽ (B) - ഇൗ/ഈ encoding not settleable from image; held"
+  },
+  {
+   "pdf_page": 60,
+   "note": "block 1: മിഇൗന (A) vs മിഈന (B) - ഇൗ/ഈ encoding not settleable from image; held"
+  },
+  {
+   "pdf_page": 60,
+   "note": "block 3: സഇൗദുബ്നു (A) vs സഈദുബ്നു (B) - ഇൗ/ഈ encoding not settleable from image; held"
+  },
+  {
+   "pdf_page": 62,
+   "note": "block 7 Arabic: زيد بن يُثَيْع (A) vs بُثَيْع (B) - only one dot below visible among the teeth, cannot tell whether it is ب dot or a single ي dot; held"
+  },
+  {
+   "pdf_page": 71,
+   "note": "block 5 bab malayalam: ഹുദ് (A) vs ഹൂദ് (B) - ു/ൂ in bold heading not settled; held"
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 91,
+   "print": "B"
+  },
+  {
+   "idx": 92,
+   "print": "B"
+  },
+  {
+   "idx": 93,
+   "print": "B"
+  },
+  {
+   "idx": 94,
+   "print": "held"
+  },
+  {
+   "idx": 95,
+   "print": "A"
+  },
+  {
+   "idx": 96,
+   "print": "B"
+  },
+  {
+   "idx": 97,
+   "print": "B"
+  },
+  {
+   "idx": 98,
+   "print": "B"
+  },
+  {
+   "idx": 99,
+   "print": "B"
+  },
+  {
+   "idx": 100,
+   "print": "B"
+  },
+  {
+   "idx": 101,
+   "print": "other"
+  },
+  {
+   "idx": 102,
+   "print": "B"
+  },
+  {
+   "idx": 103,
+   "print": "B"
+  },
+  {
+   "idx": 104,
+   "print": "B"
+  },
+  {
+   "idx": 105,
+   "print": "B"
+  },
+  {
+   "idx": 106,
+   "print": "B"
+  },
+  {
+   "idx": 107,
+   "print": "B"
+  },
+  {
+   "idx": 108,
+   "print": "held"
+  },
+  {
+   "idx": 109,
+   "print": "B"
+  },
+  {
+   "idx": 110,
+   "print": "B"
+  },
+  {
+   "idx": 111,
+   "print": "B"
+  },
+  {
+   "idx": 112,
+   "print": "B"
+  },
+  {
+   "idx": 113,
+   "print": "held"
+  },
+  {
+   "idx": 114,
+   "print": "B"
+  },
+  {
+   "idx": 115,
+   "print": "B"
+  },
+  {
+   "idx": 116,
+   "print": "held"
+  },
+  {
+   "idx": 117,
+   "print": "held"
+  },
+  {
+   "idx": 118,
+   "print": "B"
+  },
+  {
+   "idx": 119,
+   "print": "B"
+  },
+  {
+   "idx": 120,
+   "print": "held"
+  },
+  {
+   "idx": 121,
+   "print": "B"
+  },
+  {
+   "idx": 122,
+   "print": "B"
+  },
+  {
+   "idx": 123,
+   "print": "B"
+  },
+  {
+   "idx": 124,
+   "print": "other"
+  },
+  {
+   "idx": 125,
+   "print": "B"
+  },
+  {
+   "idx": 126,
+   "print": "B"
+  },
+  {
+   "idx": 127,
+   "print": "B"
+  },
+  {
+   "idx": 128,
+   "print": "B"
+  },
+  {
+   "idx": 129,
+   "print": "B"
+  },
+  {
+   "idx": 130,
+   "print": "A"
+  },
+  {
+   "idx": 131,
+   "print": "held"
+  },
+  {
+   "idx": 132,
+   "print": "B"
+  },
+  {
+   "idx": 133,
+   "print": "B"
+  },
+  {
+   "idx": 134,
+   "print": "A"
+  },
+  {
+   "idx": 135,
+   "print": "other"
+  },
+  {
+   "idx": 136,
+   "print": "B"
+  },
+  {
+   "idx": 137,
+   "print": "B"
+  }
+ ]
+}

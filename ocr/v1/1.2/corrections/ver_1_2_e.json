@@ -1,0 +1,23 @@
+{
+ "part": "1.2",
+ "pages_checked": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "corrections": [],
+ "uncertain": [
+  {
+   "pdf_page": 3,
+   "hadith_no": 5,
+   "note": "Block 0 Malayalam: print reads 'ഇടയന്മാ|രായ ജനത' (line break after മാ; the 'ര' IS present, word is ഇടയന്മാരായ, NOT 'ഇടയൻമായ'). So JSON 'ഇടയൻമാരായ ജനത' is correct as a word. Only difference: print glyph is the conjunct ന്മ (ന+virama+മ), JSON uses chillu ൻ+മ. Same for 'രാജാക്കന്മാരാകുന്നതും' (JSON 'രാജാക്കൻമാരാകുന്നതും'). Left unchanged (likely normalisation); apply if conjunct form is wanted."
+  },
+  {
+   "pdf_page": 3,
+   "hadith_no": 5,
+   "note": "Block 0, '...വിധിയിലും വിശ്വസിക്കൽ.' (iman answer): print glyphs look like 'വിശ്വാസിക്കൽ' (a vertical aa-sign between ശ്വ and സി) but too small to be sure; JSON has 'വിശ്വസിക്കൽ'. Not changed."
+  }
+ ],
+ "not_checked": []
+}

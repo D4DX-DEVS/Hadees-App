@@ -1,0 +1,207 @@
+{
+ "part": "2.7",
+ "pages_checked": [
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99,
+  100,
+  101,
+  102,
+  103,
+  104
+ ],
+ "corrections": [
+  {
+   "pdf_page": 91,
+   "block": 7,
+   "old": "അതിനെക്കുറിച്ച്",
+   "new": "അതേക്കുറിച്ച്",
+   "why": "print: അതേക്കുറിച്ച്"
+  },
+  {
+   "pdf_page": 92,
+   "block": 1,
+   "old": "സ്വഹാബികളോട് വിരോധിച്ചു",
+   "new": "സഹാബികളോടത് വിരോധിച്ചു",
+   "why": "word differs from print"
+  },
+  {
+   "pdf_page": 92,
+   "block": 4,
+   "old": "النَّبِيَّ",
+   "new": "النَّبِيِّ",
+   "why": "kasra shadda in print"
+  },
+  {
+   "pdf_page": 95,
+   "block": 6,
+   "old": "ശൗചം ചെയ്യുകയോ",
+   "new": "മനോഹരിക്കുകയോ",
+   "why": "word differs from print"
+  },
+  {
+   "pdf_page": 96,
+   "block": 1,
+   "old": "പ്പൂവുപോലെയുണ്ട്",
+   "new": "പ്പച്ചപോലെയുണ്ട്",
+   "why": "word differs from print"
+  },
+  {
+   "pdf_page": 97,
+   "block": 1,
+   "old": "വലൂഖുപയോഗിച്ച് താടിക്ക്",
+   "new": "ഖലൂഖുപയോഗിച്ച് താടിക്ക്",
+   "why": "print ഖലൂഖ്"
+  },
+  {
+   "pdf_page": 97,
+   "block": 1,
+   "old": "നിങ്ങളെന്താണ് വലൂഖ്",
+   "new": "നിങ്ങളെന്താണ് ഖലൂഖ്",
+   "why": "print ഖലൂഖ്"
+  },
+  {
+   "pdf_page": 97,
+   "block": 1,
+   "old": "റസൂൽ(സ) വലൂഖ്",
+   "new": "റസൂൽ(സ) ഖലൂഖ്",
+   "why": "print ഖലൂഖ്"
+  },
+  {
+   "pdf_page": 97,
+   "block": 1,
+   "old": "വലൂഖുപയോഗിച്ച് ചായം",
+   "new": "ഖലൂഖുപയോഗിച്ച് ചായം",
+   "why": "print ഖലൂഖ്"
+  },
+  {
+   "pdf_page": 97,
+   "block": 7,
+   "old": "വലൂഖ് (ഒരു",
+   "new": "ഖലൂഖ് (ഒരു",
+   "why": "print ഖലൂഖ്"
+  },
+  {
+   "pdf_page": 98,
+   "block": 0,
+   "old": "കറുപ്പു്ചായം",
+   "new": "കറുപ്പ്ചായം",
+   "why": "stray ു in print കറുപ്പ്"
+  },
+  {
+   "pdf_page": 98,
+   "block": 2,
+   "old": "കറുപ്പു്ചായം",
+   "new": "കറുപ്പ്ചായം",
+   "why": "stray ു"
+  },
+  {
+   "pdf_page": 98,
+   "block": 2,
+   "old": "ബലഹീനനുണ്ടെന്ന്",
+   "new": "ബലഹീനരുണ്ടെന്ന്",
+   "why": "print ബലഹീനരുണ്ടെന്ന്"
+  },
+  {
+   "pdf_page": 98,
+   "block": 6,
+   "old": "കറുപ്പു്നിറം",
+   "new": "കറുപ്പ്നിറം",
+   "why": "stray ു"
+  },
+  {
+   "pdf_page": 99,
+   "block": 1,
+   "old": "സ്ത്രീയുടെ കയ്യോണോ",
+   "new": "സ്ത്രീയുടെ കയ്യാണോ",
+   "why": "print കയ്യാണോ"
+  },
+  {
+   "pdf_page": 99,
+   "block": 1,
+   "old": "പുരുഷന്റെ കയ്യോണോ",
+   "new": "പുരുഷന്റെ കയ്യാണോ",
+   "why": "print കയ്യാണോ"
+  },
+  {
+   "pdf_page": 99,
+   "block": 10,
+   "old": "പുരുഷന്റെ കയ്യോണോ",
+   "new": "പുരുഷന്റെ കയ്യാണോ",
+   "why": "print കയ്യാണോ"
+  },
+  {
+   "pdf_page": 101,
+   "block": 4,
+   "old": "അൻസാരി",
+   "new": "അൻസ്വാരി",
+   "why": "print അൻസ്വാരി"
+  },
+  {
+   "pdf_page": 102,
+   "block": 1,
+   "old": "നാഇബു",
+   "new": "നാഇമു",
+   "why": "print നാഇമുബ്നു"
+  },
+  {
+   "pdf_page": 102,
+   "block": 1,
+   "old": "അവിടുത്തേക്ക് ഇഷ്ടപ്പെട്ടില്ല",
+   "new": "അവിടുത്തേക്കത് ഇഷ്ടപ്പെട്ടില്ല",
+   "why": "print അവിടുത്തേക്കത്"
+  },
+  {
+   "pdf_page": 102,
+   "block": 1,
+   "old": "വ്യഷ്ട ഭാഗങ്ങളിൽ",
+   "new": "വൃഷ്ഠ ഭാഗങ്ങളിൽ",
+   "why": "print വൃഷ്ഠ"
+  },
+  {
+   "pdf_page": 102,
+   "block": 1,
+   "old": "വ്യഷ്ടഭാഗങ്ങളിൽ",
+   "new": "വൃഷ്ഠഭാഗങ്ങളിൽ",
+   "why": "print വൃഷ്ഠ"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 93,
+   "hadith_no": 372,
+   "note": "Malayalam 'ഹുജ്ർ(റ)' vs print possibly 'ഹുജർ(റ)'; unclear"
+  },
+  {
+   "pdf_page": 99,
+   "hadith_no": 403,
+   "note": "Arabic 'بَيْضَاءَ'/'عَنْفَقَتَهُ' may be 'بَيْضَاءُ'/'عَنْفَقَتُهُ' in print; damma vs fatha unclear"
+  },
+  {
+   "pdf_page": 99,
+   "hadith_no": 404,
+   "note": "'شَعَرَةً' may be 'شَعْرَةً' (sukun) in print; also 405"
+  },
+  {
+   "pdf_page": 103,
+   "hadith_no": 420,
+   "note": "'فَلْيَبْدَأُ بِالشِّمَالِ' may be 'فَلْيَبْدَأْ' in print"
+  },
+  {
+   "pdf_page": 98,
+   "hadith_no": 398,
+   "note": "'لِهَذَا' may be 'لَهَذَا' in print"
+  },
+  {
+   "pdf_page": 101,
+   "hadith_no": 411,
+   "note": "Malayalam 'ഫാത്തിമ' appears printed 'ഫാതിമ' (no geminate); not changed"
+  }
+ ]
+}

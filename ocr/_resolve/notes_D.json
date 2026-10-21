@@ -1,0 +1,210 @@
+[
+ {
+  "part": "2.6",
+  "pdf_page": 3,
+  "hadith_no": 8,
+  "note": "Malayalam narrator name may be printed അബ്ദുള്ളാഇബ്നു; not sure"
+ },
+ {
+  "part": "2.6",
+  "pdf_page": 4,
+  "hadith_no": 10,
+  "note": "JSON arabic text for hadith 10 starts with printed number '١٠.' unlike hadiths 5-9 (same for 11,12,23-25 on later pages); structural inconsistency, not changed"
+ },
+ {
+  "part": "2.6",
+  "pdf_page": 5,
+  "hadith_no": 11,
+  "note": "Malayalam may be printed മുന്തിരച്ചെടി (JSON മുന്തിരിച്ചെടി); not sure"
+ },
+ {
+  "part": "2.6",
+  "pdf_page": 6,
+  "hadith_no": 17,
+  "note": "print may read 'ഉടമ്പടി ചെതിരിക്കുന്നു' (printed typo) vs JSON ചെയ്തിരിക്കുന്നു; and 'പ്രവാചകരെ' vs JSON 'പ്രവാചകരേ'; unsure"
+ },
+ {
+  "part": "2.6",
+  "pdf_page": 9,
+  "hadith_no": 28,
+  "note": "Malayalam last lines: print partly smudged near 'അത്. നിക്ക് സുർക്കയാക്കാമോ'; could not read exactly"
+ },
+ {
+  "part": "2.6",
+  "pdf_page": 11,
+  "hadith_no": 34,
+  "note": "print spells ഈത്തപ്പഴം as ഈൗത്തപ്പഴ... (ഈ+ൗ) in blocks 1 and 3 (and ഈൗത്തപ്പന on p10 hadith 33); JSON has ഈത്ത... Not itemised; orthographic variant"
+ },
+ {
+  "part": "2.6",
+  "pdf_page": 11,
+  "hadith_no": 37,
+  "note": "print renders ബിത്ഉം/ബിത്അ് in a glyph I could not read with certainty (looks like ബിത്ളം / ബ്ത്അ്); JSON left unchanged"
+ },
+ {
+  "part": "2.6",
+  "pdf_page": 13,
+  "hadith_no": 43,
+  "note": "print uses ഈൗ spelling in 45/46 malayalam (ഈൗ മദ്യം, ഈൗ ഗോതമ്പിൽ); JSON has ഈ. Not itemised."
+ },
+ {
+  "part": "2.6",
+  "pdf_page": 14,
+  "hadith_no": 50,
+  "note": "block 8 ends നിഷിദ്ധമാണ്. in JSON; print looks like നിഷിദ്ധമാണ. (no virama) - left as is"
+ },
+ {
+  "part": "2.6",
+  "pdf_page": 39,
+  "hadith_no": 159,
+  "note": "block 2: print may read 'അരിച്ചെടുത്തതിനിശേഷം' (JSON 'തിനുശേഷം'); vowel sign unclear in scan"
+ },
+ {
+  "part": "2.6",
+  "pdf_page": 46,
+  "hadith_no": 191,
+  "note": "source code at end of Malayalam may print (ബൂ,...) with long ൂ; could not confirm"
+ },
+ {
+  "part": "2.9",
+  "pdf_page": 3,
+  "hadith_no": 9,
+  "note": "word رَفَهَ عَنْهُ in print looks like رُفِّهَ (damma+shadda) - harakat unsure"
+ },
+ {
+  "part": "2.9",
+  "pdf_page": 5,
+  "hadith_no": 14,
+  "note": "bottom of scan is cut off after 3 lines of the Malayalam; JSON block 4 continues slightly beyond what is visible (e.g. 'തന്റെ വിരിപ്പിൽ തുണിയുടെ ഒരു ഭാഗം വിരിക്കുകയും ചെയ്തു') - last partly visible line only"
+ },
+ {
+  "part": "2.10",
+  "pdf_page": 17,
+  "hadith_no": 63,
+  "note": "Arabic checked at moderate zoom only; no non-harakat diffs seen"
+ },
+ {
+  "part": "2.10",
+  "pdf_page": 33,
+  "note": "Arabic block 108 last words: print may read مَنْ أَسَنَّ الْقَتْلَ (with alef) vs JSON مَنْ سَنَّ; not certain at zoom",
+  "hadith_no": 108
+ },
+ {
+  "part": "2.10",
+  "pdf_page": 36,
+  "note": "Print seems to have قَالَ before مَثَلُ الْمُؤْمِنِ in line 1 of hadith 120 (after the opening quote); JSON lacks it; punctuation unclear",
+  "hadith_no": 120
+ },
+ {
+  "part": "2.10",
+  "pdf_page": 36,
+  "note": "Spelling of Abu Dardaa in block 1 varies in print (അബൂദർദാഅ്/അബുദർദാഅ്/അബുദ്ദർദാഅ്); first and last occurrences ('അബൂദ്ദർദാഅ്(റ): ഞങ്ങൾ', '...(റ) സത്യം') not resolved at zoom"
+ },
+ {
+  "part": "2.10",
+  "pdf_page": 41,
+  "note": "Malayalam 139: JSON 'താഴവും' (twice); print looks like 'താഴം'/'താഴും' (no വ); not certain",
+  "hadith_no": 139
+ },
+ {
+  "part": "2.10",
+  "pdf_page": 42,
+  "note": "Malayalam 146: 'ബഖീഇൽ' vs print possibly 'ബഖീഉൽ'; not certain",
+  "hadith_no": 146
+ },
+ {
+  "part": "2.10",
+  "pdf_page": 46,
+  "note": "Malayalam 162: JSON 'ഇൻഖിത്വാഉണ്ട്'; print looks like 'ഇൻഖിതാളുണ്ട്'; not certain",
+  "hadith_no": 162
+ },
+ {
+  "part": "2.10",
+  "pdf_page": 33,
+  "note": "p33 blocks 2 and 4 (hadith 107/108) lack the printed number prefix in text unlike p32 blocks; structure/convention note only"
+ },
+ {
+  "part": "2.10",
+  "pdf_page": 18,
+  "block": 0,
+  "note": "print may read ബക്റിന്റെ (റ) vs JSON ബക്രിന്റെ; glyph ambiguous, left unchanged"
+ },
+ {
+  "part": "2.10",
+  "pdf_page": 30,
+  "hadith_no": null,
+  "note": "ഖിള്റ്(അ)വിനെ മനസ്സിലാക്കി: print reads 'ഖിള്ർ(അ)ുനെ' (odd sign after (അ)); not changed"
+ },
+ {
+  "part": "2.10",
+  "pdf_page": 31,
+  "hadith_no": null,
+  "note": "Khilr spelling in print varies (ഖിളർ / ഖിള്ർ) on line wraps; left as JSON"
+ },
+ {
+  "part": "2.11",
+  "pdf_page": 1,
+  "hadith_no": 1,
+  "note": "Malayalam 'മീക്കാഈൽ(അ)' - print appears to read differently (unclear: മിക്കാഈൽ/മീകാഈൽ); not corrected"
+ },
+ {
+  "part": "2.11",
+  "pdf_page": 2,
+  "hadith_no": 3,
+  "note": "JSON Arabic is fully vocalised but print is only partly vocalised (hadiths 3, 5 etc.); added harakat not corrected"
+ },
+ {
+  "part": "2.11",
+  "pdf_page": 4,
+  "hadith_no": 9,
+  "note": "Malayalam 'ഈസ(അ)' / 'ബനൂഇസ്രാഈലിനോട്' - print shows ഈൗ-style spelling (ഈൗസ, ഇസ്രാഈൗൽ); could not read confidently"
+ },
+ {
+  "part": "2.11",
+  "pdf_page": 5,
+  "hadith_no": 6,
+  "note": "Last Malayalam block: print seems to read 'കപട വിസ്വാസിയുടെ' (misprint, kept?) - JSON has 'വിശ്വാസിയുടെ'; low confidence, not corrected"
+ },
+ {
+  "part": "2.11",
+  "pdf_page": 8,
+  "hadith_no": 15,
+  "note": "Print has 'ഇർച്ഛിച്ചവർക്ക്' / 'ഈൗച്ചകളും' ('ഈൗ' for ഈ) - JSON normalised; not corrected"
+ },
+ {
+  "part": "2.13",
+  "pdf_page": 14,
+  "hadith_no": 16,
+  "note": "Malayalam name printed as സ്വഫ്‌വാൻ (JSON സ്വാഫ്‌വാൻ) - could not be certain at this resolution"
+ },
+ {
+  "part": "2.13",
+  "pdf_page": 14,
+  "hadith_no": 17,
+  "note": "Malayalam translation of hadith 17 does not appear on this page; expected on next page"
+ },
+ {
+  "part": "2.13",
+  "pdf_page": 15,
+  "hadith_no": 17,
+  "note": "second occurrence 'പതിനാലാം രാവിലെ മേഘങ്ങൾക്കിടയിൽ' may be printed മേഖങ്ങൾ (misprint?) - unsure"
+ },
+ {
+  "part": "2.13",
+  "pdf_page": 18,
+  "hadith_no": 22,
+  "note": "Lower two-thirds of page is faint show-through from reverse side, not content; JSON correctly omits it"
+ },
+ {
+  "part": "2.14",
+  "pdf_page": 1,
+  "hadith_no": 1,
+  "note": "JSON Arabic fully vocalised where print is lightly vocalised; not corrected"
+ },
+ {
+  "part": "2.14",
+  "pdf_page": 2,
+  "hadith_no": 3,
+  "note": "print has a stray digit 1 before ഹദീസ് in Malayalam (misprint, kept)"
+ }
+]

@@ -1,0 +1,9 @@
+#2: variants arabic=1 malayalam=0 (check pairing)
+#59: variants arabic=1 malayalam=0 (check pairing)
+#78: variants arabic=1 malayalam=0 (check pairing)
+#80: variants arabic=1 malayalam=0 (check pairing)
+#141: variants arabic=1 malayalam=0 (check pairing)
+#145: variants arabic=1 malayalam=0 (check pairing)
+#160: variants arabic=1 malayalam=0 (check pairing)
+#193: variants arabic=1 malayalam=0 (check pairing)
+#1: before first bab heading, assigned to chapter 1

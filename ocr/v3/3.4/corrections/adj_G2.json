@@ -1,0 +1,206 @@
+{
+ "part": "3.4",
+ "pages_checked": [
+  45,
+  46,
+  48,
+  49,
+  50,
+  52,
+  53,
+  54,
+  55,
+  57,
+  60,
+  62,
+  63,
+  64,
+  69,
+  70,
+  73,
+  75,
+  78
+ ],
+ "corrections": [
+  {
+   "pdf_page": 49,
+   "block": 0,
+   "old": "ചരൽ പ്രദേശത്തുള്ള,",
+   "new": "ചരൽ പ്രദേത്തുള്ള,",
+   "why": "print has പ്രദേത്തുളള (printed typo, no ശ)"
+  },
+  {
+   "pdf_page": 52,
+   "block": 3,
+   "old": "مَائِهِ",
+   "new": "مَاءِهِ",
+   "why": "print has standalone hamza (ماءه) not yaa-seat"
+  },
+  {
+   "pdf_page": 54,
+   "block": 1,
+   "old": "الْقَضَاءُ",
+   "new": "الْقَضَاءَةُ",
+   "why": "print has extra ة (printed typo)"
+  },
+  {
+   "pdf_page": 55,
+   "block": 3,
+   "old": "ഫാത്വിമ(റ)വുമായുള്ള",
+   "new": "ഫാതിമ(റ)വുമായുള്ള",
+   "why": "print reads ഫാതിമ"
+  },
+  {
+   "pdf_page": 57,
+   "block": 3,
+   "old": "ഉഹ്ദ് പർവ്വതം",
+   "new": "ഉഹ്ദ് പർവതം",
+   "why": "print has single വ (പർവതം)"
+  },
+  {
+   "pdf_page": 63,
+   "block": 2,
+   "old": "അതിന്റെ താഴെ തട്ടും",
+   "new": "അതിന്റെ താഴേ തട്ടും",
+   "why": "print has താഴേ (long ഏ sign)"
+  },
+  {
+   "pdf_page": 73,
+   "block": 6,
+   "old": "അബുഹുറൈറ(റ): ഞാൻ",
+   "new": "അബൂഹുറൈറ(റ): ഞാൻ",
+   "why": "print has ബൂ"
+  },
+  {
+   "pdf_page": 73,
+   "block": 6,
+   "old": "പിന്നീട് അബുഹുറൈറ(റ)",
+   "new": "പിന്നീട് അബൂഹുറൈറ(റ)",
+   "why": "print has ബൂ"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 59,
+   "note": "item idx15 (block 6) മുത്ത്വലിബിന്റെ vs മുത്വലിബിന്റെ: cluster after മു could not be resolved reliably; not decided"
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "A"
+  },
+  {
+   "idx": 1,
+   "print": "A"
+  },
+  {
+   "idx": 2,
+   "print": "A"
+  },
+  {
+   "idx": 3,
+   "print": "B"
+  },
+  {
+   "idx": 4,
+   "print": "A"
+  },
+  {
+   "idx": 5,
+   "print": "A"
+  },
+  {
+   "idx": 6,
+   "print": "A"
+  },
+  {
+   "idx": 7,
+   "print": "A"
+  },
+  {
+   "idx": 8,
+   "print": "B"
+  },
+  {
+   "idx": 9,
+   "print": "A"
+  },
+  {
+   "idx": 10,
+   "print": "A"
+  },
+  {
+   "idx": 11,
+   "print": "B"
+  },
+  {
+   "idx": 12,
+   "print": "B"
+  },
+  {
+   "idx": 13,
+   "print": "B"
+  },
+  {
+   "idx": 14,
+   "print": "A"
+  },
+  {
+   "idx": 16,
+   "print": "A"
+  },
+  {
+   "idx": 17,
+   "print": "A"
+  },
+  {
+   "idx": 18,
+   "print": "A"
+  },
+  {
+   "idx": 19,
+   "print": "B"
+  },
+  {
+   "idx": 20,
+   "print": "A"
+  },
+  {
+   "idx": 21,
+   "print": "A"
+  },
+  {
+   "idx": 22,
+   "print": "A"
+  },
+  {
+   "idx": 23,
+   "print": "A"
+  },
+  {
+   "idx": 24,
+   "print": "B"
+  },
+  {
+   "idx": 25,
+   "print": "B"
+  },
+  {
+   "idx": 26,
+   "print": "A"
+  },
+  {
+   "idx": 27,
+   "print": "A"
+  },
+  {
+   "idx": 28,
+   "print": "A"
+  },
+  {
+   "idx": 15,
+   "print": "uncertain"
+  }
+ ]
+}

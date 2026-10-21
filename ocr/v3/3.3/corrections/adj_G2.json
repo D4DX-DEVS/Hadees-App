@@ -1,0 +1,162 @@
+{
+ "part": "3.3",
+ "pages_checked": [
+  34,
+  35,
+  36,
+  40,
+  41,
+  42,
+  49,
+  54,
+  55,
+  56,
+  57,
+  59,
+  62,
+  64
+ ],
+ "corrections": [
+  {
+   "pdf_page": 34,
+   "block": 5,
+   "old": "الْجَوَائِحِ",
+   "new": "الْجَوَائِعِ",
+   "why": "print heading ends in ع"
+  },
+  {
+   "pdf_page": 40,
+   "block": 7,
+   "old": "അബൂദർദാഅ്",
+   "new": "അബൂദ്ദർദാഅ്",
+   "why": "print has doubled ദ്ദ"
+  },
+  {
+   "pdf_page": 56,
+   "block": 5,
+   "old": "ഓതികേൾപിച്ചു",
+   "new": "ഓതിക്കേൾപിച്ചു",
+   "why": "print has ക്ക (ഓതിക്കേൾപിച്ചു)"
+  },
+  {
+   "pdf_page": 57,
+   "block": 3,
+   "old": "സുർക്കയാക്കുന്ന",
+   "new": "സുർക്കയൊക്കുന്ന",
+   "why": "print heading reads സുർക്കയൊക്കുന്നതിനുള്ള"
+  },
+  {
+   "pdf_page": 57,
+   "block": 7,
+   "old": "ശപിച്ചിരിക്കുന്നു",
+   "new": "ശപച്ചിരിക്കുന്നു",
+   "why": "print (author typo) ശപച്ചിരിക്കുന്നു"
+  },
+  {
+   "pdf_page": 59,
+   "block": 0,
+   "old": "അദ്ധ്വാനഫലവും",
+   "new": "അദ്ധാനഫലവും",
+   "why": "print has ദ്ധാ without വ (lower confidence)"
+  },
+  {
+   "pdf_page": 64,
+   "block": 1,
+   "old": "സുന്ദരിയായയൊരു",
+   "new": "സുന്ദരിയായൊരു",
+   "why": "print has two യ: യായൊരു"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 59,
+   "note": "idx16 decided B (ദ്ധാ without വ) with moderate confidence; blurry glyph"
+  },
+  {
+   "pdf_page": 41,
+   "note": "idx5/6 ഖത്ത്വാബ്: decided A; glyph resolution limited"
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "B"
+  },
+  {
+   "idx": 1,
+   "print": "A"
+  },
+  {
+   "idx": 2,
+   "print": "A"
+  },
+  {
+   "idx": 3,
+   "print": "B"
+  },
+  {
+   "idx": 4,
+   "print": "A"
+  },
+  {
+   "idx": 5,
+   "print": "A"
+  },
+  {
+   "idx": 6,
+   "print": "A"
+  },
+  {
+   "idx": 7,
+   "print": "A"
+  },
+  {
+   "idx": 8,
+   "print": "A"
+  },
+  {
+   "idx": 9,
+   "print": "A"
+  },
+  {
+   "idx": 10,
+   "print": "A"
+  },
+  {
+   "idx": 11,
+   "print": "A"
+  },
+  {
+   "idx": 12,
+   "print": "A"
+  },
+  {
+   "idx": 13,
+   "print": "B"
+  },
+  {
+   "idx": 14,
+   "print": "B"
+  },
+  {
+   "idx": 15,
+   "print": "B"
+  },
+  {
+   "idx": 16,
+   "print": "B"
+  },
+  {
+   "idx": 17,
+   "print": "A"
+  },
+  {
+   "idx": 18,
+   "print": "B"
+  },
+  {
+   "idx": 19,
+   "print": "A"
+  }
+ ]
+}

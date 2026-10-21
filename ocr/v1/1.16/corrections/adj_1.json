@@ -1,0 +1,137 @@
+{
+ "part": "1.16",
+ "pages_checked": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "corrections": [
+  {
+   "pdf_page": 1,
+   "block": 2,
+   "old": "ഇദസ്സമാഉൻശഖ്വത്ത്",
+   "new": "ഇദസ്സമാഉൻശഖ്ഖത്ത്",
+   "why": "print ഖ്ഖ"
+  },
+  {
+   "pdf_page": 1,
+   "block": 4,
+   "old": "ഇദസ്സമാഉൻശഖ്വത്ത്",
+   "new": "ഇദസ്സമാഉൻശഖ്ഖത്ത്",
+   "why": "print ഖ്ഖ"
+  },
+  {
+   "pdf_page": 1,
+   "block": 8,
+   "old": "ഇദസ്സമൂഉൻശഖ്വത്തി",
+   "new": "ഇദസ്സമൂഉൻശഖ്ഖത്തി",
+   "why": "print ഖ്ഖ"
+  },
+  {
+   "pdf_page": 1,
+   "block": 10,
+   "old": "ദാവുദ്(അ)",
+   "new": "ദാവൂദ്(അ)",
+   "why": "print ൂ"
+  },
+  {
+   "pdf_page": 2,
+   "block": 9,
+   "old": "ബഹുദൈവാരാധകരും,",
+   "new": "ബുഹദൈവാരാധകരും,",
+   "why": "print typo ബുഹ (ു hook, same as (ബു))"
+  },
+  {
+   "pdf_page": 3,
+   "block": 8,
+   "old": "ബനീഇസ്റാഇൗൽ,",
+   "new": "ബനീഇസ്റാഈൽ,",
+   "why": "print ഈ"
+  },
+  {
+   "pdf_page": 3,
+   "block": 8,
+   "old": "ഫുർഖാനിലെ സുജൂദിന്റെ",
+   "new": "ഫുർഖാനിലെ സജൂദിന്റെ",
+   "why": "print typo"
+  },
+  {
+   "pdf_page": 3,
+   "block": 10,
+   "old": "സുജൂദു ചെയ്തില്ല. മറ്റൊരു",
+   "new": "സുജൂദു ചയ്തില്ല. മറ്റൊരു",
+   "why": "print typo"
+  },
+  {
+   "pdf_page": 5,
+   "block": 0,
+   "old": "എന്നിൽ നിന്നും ഇത്",
+   "new": "എന്നിൽ നിന്നം ഇത്",
+   "why": "print typo"
+  },
+  {
+   "pdf_page": 5,
+   "block": 0,
+   "old": "(ഇൗ ഹദീസ്",
+   "new": "(ഈ ഹദീസ്",
+   "why": "print ഈ"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": "c1:0",
+   "print": "B"
+  },
+  {
+   "idx": "c1:1",
+   "print": "B"
+  },
+  {
+   "idx": "c1:2",
+   "print": "B"
+  },
+  {
+   "idx": "c1:3",
+   "print": "B"
+  },
+  {
+   "idx": "c1:4",
+   "print": "A"
+  },
+  {
+   "idx": "c1:5",
+   "print": "A"
+  },
+  {
+   "idx": "c1:6",
+   "print": "B"
+  },
+  {
+   "idx": "c1:7",
+   "print": "B"
+  },
+  {
+   "idx": "c1:8",
+   "print": "B"
+  },
+  {
+   "idx": "c1:9",
+   "print": "B"
+  },
+  {
+   "idx": "c1:10",
+   "print": "A"
+  },
+  {
+   "idx": "c1:11",
+   "print": "B"
+  },
+  {
+   "idx": "c1:12",
+   "print": "B"
+  }
+ ]
+}

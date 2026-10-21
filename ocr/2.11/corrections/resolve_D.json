@@ -1,0 +1,55 @@
+{
+ "part": "2.11",
+ "pages_checked": [
+  1,
+  2,
+  4,
+  5,
+  8
+ ],
+ "corrections": [
+  {
+   "pdf_page": 1,
+   "block": 5,
+   "old": "മീക്കാഈൽ",
+   "new": "മീകാഈൽ",
+   "why": "print മീകാഈൽ (single ക)"
+  },
+  {
+   "pdf_page": 5,
+   "block": 3,
+   "old": "ചെയ്യാത്ത കപട വിശ്വാസിയുടെ",
+   "new": "ചെയ്യാത്ത കപട വിസ്വാസിയുടെ",
+   "why": "printed misprint വിസ്വാസി"
+  },
+  {
+   "pdf_page": 8,
+   "block": 0,
+   "old": "ഞാൻ ഇച്ഛിച്ചവർക്ക്",
+   "new": "ഞാൻ ഇർചിച്ചവർക്ക്",
+   "why": "printed misprint ഇർചിച്ചവർക്ക്"
+  }
+ ],
+ "resolved": [
+  {
+   "pdf_page": 1,
+   "hadith_no": 1
+  },
+  {
+   "pdf_page": 2,
+   "hadith_no": 3
+  },
+  {
+   "pdf_page": 4,
+   "hadith_no": 9
+  },
+  {
+   "pdf_page": 5,
+   "hadith_no": 6
+  },
+  {
+   "pdf_page": 8,
+   "hadith_no": 15
+  }
+ ]
+}

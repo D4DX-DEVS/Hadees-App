@@ -1,0 +1,3 @@
+#52: variants arabic=1 malayalam=0 (check pairing)
+#85: variants arabic=2 malayalam=1 (check pairing)
+#163: variants arabic=1 malayalam=0 (check pairing)

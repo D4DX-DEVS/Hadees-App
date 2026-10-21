@@ -1,0 +1,160 @@
+{
+ "part": "4.19",
+ "pages_checked": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18
+ ],
+ "corrections": [
+  {
+   "pdf_page": 2,
+   "block": 2,
+   "old": "എഴുന്നേറ്റുനിന്നു",
+   "new": "എഴുന്നറ്റുനിന്നു",
+   "why": "print has എഴുന്നറ്റുനിന്നു (no േ)"
+  },
+  {
+   "pdf_page": 2,
+   "block": 6,
+   "old": "തവ്വയുള്ളവർ",
+   "new": "തഖ്വയുള്ളവർ",
+   "why": "print shows ത + ഖ് + വ, clear at native scale"
+  },
+  {
+   "pdf_page": 2,
+   "block": 6,
+   "old": "പാരമൃത്ത",
+   "new": "പാരമ്യത്ത",
+   "why": "print ്യ glyph identical to that in മനുഷ്യൻ same page"
+  },
+  {
+   "pdf_page": 12,
+   "block": 5,
+   "old": "ദ്വേഷ്യം",
+   "new": "ദേഷ്യം",
+   "why": "print ദേഷ്യം, no വ"
+  },
+  {
+   "pdf_page": 14,
+   "block": 0,
+   "old": "فَيَأْبَى",
+   "new": "فَيَأْبَ",
+   "why": "print reads فيأب (ب with fatha, no final ى) before أن"
+  },
+  {
+   "pdf_page": 15,
+   "block": 0,
+   "old": "സ്രാഈല്യർ",
+   "new": "സ്രാഇൗല്യർ",
+   "why": "print uses ഇൗ (ഇ+ൗ) form; ര/റ left as ours"
+  },
+  {
+   "pdf_page": 15,
+   "block": 0,
+   "old": "ബലഹീനനനുമുണ്ട്",
+   "new": "ബലഹീനനുമുണ്ട്",
+   "why": "print ബലഹീനനുമു|ണ്ട്: two ന, not three"
+  },
+  {
+   "pdf_page": 16,
+   "block": 1,
+   "old": "فَقُلْتُ: أَنَا. قَالَ حُذَيْفَةُ: قَالَ:",
+   "new": "قَالَ حُذَيْفَةُ: فَقُلْتُ: أَنَا. قَالَ:",
+   "why": "print order: في الفتنة؟ قال حذيفة: فقلت: أنا. قال: إنك"
+  },
+  {
+   "pdf_page": 17,
+   "block": 1,
+   "old": "അമ്പെയ്ത്ത്",
+   "new": "അമ്പെയ്ത്",
+   "why": "print അമ്പെയ്ത് single ത്"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 12,
+   "note": "item4 സുഖാഡംബരങ്ങളിൽ vs ഢ: glyph ഡ/ഢ not clearly resolvable at native scan; kept ours (ഡ)"
+  },
+  {
+   "pdf_page": 15,
+   "note": "item8 ബനൂഇസ്രാഈല്യർ vs സ്റാ...: ര vs റ glyph not clearly resolvable (print looks like റ, same as in b's reading); kept ര"
+  },
+  {
+   "pdf_page": 16,
+   "note": "item12 ഫിത്നകളുണ്ടാകു[?]: final ം is covered by an ink blot in print; unreadable, kept ours (B's ഫിത്നകളുണ്ടാകും is plausible but not visible)"
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "B"
+  },
+  {
+   "idx": 1,
+   "print": "B"
+  },
+  {
+   "idx": 2,
+   "print": "B"
+  },
+  {
+   "idx": 3,
+   "print": "A"
+  },
+  {
+   "idx": 4,
+   "print": "A"
+  },
+  {
+   "idx": 5,
+   "print": "B"
+  },
+  {
+   "idx": 6,
+   "print": "B"
+  },
+  {
+   "idx": 7,
+   "print": "B"
+  },
+  {
+   "idx": 8,
+   "print": "A"
+  },
+  {
+   "idx": 9,
+   "print": "B"
+  },
+  {
+   "idx": 10,
+   "print": "B"
+  },
+  {
+   "idx": 11,
+   "print": "B"
+  },
+  {
+   "idx": 12,
+   "print": "other"
+  },
+  {
+   "idx": 13,
+   "print": "B"
+  }
+ ]
+}

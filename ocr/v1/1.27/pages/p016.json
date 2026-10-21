@@ -1,0 +1,12 @@
+{
+ "pdf_page": 16,
+ "printed_page": 856,
+ "starts_mid_word": false,
+ "duplicate_of": 15,
+ "blocks": [
+  {
+   "type": "note",
+   "text": "duplicate scan of pdf page 15 (printed p.856)"
+  }
+ ]
+}

@@ -1,0 +1,199 @@
+{
+ "part": "1.8",
+ "pages_checked": [
+  1,
+  4,
+  5,
+  6,
+  7,
+  9,
+  10,
+  11,
+  12
+ ],
+ "corrections": [
+  {
+   "pdf_page": 1,
+   "block": 1,
+   "old": "بَدْءُ",
+   "new": "بَدْأُ",
+   "why": "print has alif-hamza بدأ"
+  },
+  {
+   "pdf_page": 1,
+   "block": 3,
+   "old": "വിളിക്കൂ.",
+   "new": "വിളിക്കു.",
+   "why": "print ു (open circle)"
+  },
+  {
+   "pdf_page": 4,
+   "block": 0,
+   "old": "إِلَّا اللهُ، أَشْهَدُ أَنْ لَا",
+   "new": "إِلَهَ إِلَّا اللهُ، أَشْهَدُ أَنْ لَا",
+   "why": "page starts with إله (continuing أشهد أن لا from p3)"
+  },
+  {
+   "pdf_page": 5,
+   "block": 1,
+   "old": "ഖദ്ഖാമതി",
+   "new": "ഖദ്ഖാമത്തി",
+   "why": "print ത്ത"
+  },
+  {
+   "pdf_page": 5,
+   "block": 5,
+   "old": "സ്സലാത്ത്",
+   "new": "സ്സ്വലാത്ത്",
+   "why": "print സ്സ്വ"
+  },
+  {
+   "pdf_page": 6,
+   "block": 6,
+   "old": "مِنَ النَّوْمِ، اللهُ أَكْبَرُ، لَا",
+   "new": "مِنَ النَّوْمِ، الصَّلَاةُ خَيْرٌ مِنَ النَّوْمِ، اللهُ أَكْبَرُ، اللهُ أَكْبَرُ، لَا",
+   "why": "print repeats الصلاة خير من النوم and الله أكبر twice"
+  },
+  {
+   "pdf_page": 7,
+   "block": 0,
+   "old": "ലുഹ്റിലോ",
+   "new": "ളുഹ്റിലോ",
+   "why": "print ള"
+  },
+  {
+   "pdf_page": 7,
+   "block": 0,
+   "old": "ബിദ്അതാണ്",
+   "new": "ബിദ്അത്താണ്",
+   "why": "print ത്ത"
+  },
+  {
+   "pdf_page": 7,
+   "block": 5,
+   "old": "അബൂസഇൗദി(റ)ന്റെ",
+   "new": "അബൂസഈദി(റ)ന്റെ",
+   "why": "print ഈ"
+  },
+  {
+   "pdf_page": 7,
+   "block": 5,
+   "old": "അബൂസഇൗദ് എന്നോട്",
+   "new": "അബൂസഈദ് എന്നോട്",
+   "why": "print ഈ"
+  },
+  {
+   "pdf_page": 9,
+   "block": 1,
+   "old": "بِمَدَى",
+   "new": "بِمَدِّ",
+   "why": "print بمدّ, no ى"
+  },
+  {
+   "pdf_page": 10,
+   "block": 2,
+   "old": "അബൂസഇൗദിൽ",
+   "new": "അബൂസഈദിൽ",
+   "why": "print ഈ"
+  },
+  {
+   "pdf_page": 11,
+   "block": 8,
+   "old": "അബൂസഇൗദിൽ",
+   "new": "അബൂസഈദിൽ",
+   "why": "print ഈ"
+  },
+  {
+   "pdf_page": 12,
+   "block": 4,
+   "old": "ആര് പറയുന്നുവോ",
+   "new": "ആർ പറയുന്നുവോ",
+   "why": "print chillu ർ"
+  },
+  {
+   "pdf_page": 12,
+   "block": 6,
+   "old": "ആര് എന്റെ",
+   "new": "ആർ എന്റെ",
+   "why": "print chillu ർ"
+  },
+  {
+   "pdf_page": 12,
+   "block": 6,
+   "old": "ആര് എനിക്ക്",
+   "new": "ആർ എനിക്ക്",
+   "why": "print chillu ർ"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "B"
+  },
+  {
+   "idx": 1,
+   "print": "B"
+  },
+  {
+   "idx": 2,
+   "print": "B"
+  },
+  {
+   "idx": 3,
+   "print": "B"
+  },
+  {
+   "idx": 4,
+   "print": "B"
+  },
+  {
+   "idx": 5,
+   "print": "B"
+  },
+  {
+   "idx": 6,
+   "print": "B"
+  },
+  {
+   "idx": 7,
+   "print": "B"
+  },
+  {
+   "idx": 8,
+   "print": "B"
+  },
+  {
+   "idx": 9,
+   "print": "B"
+  },
+  {
+   "idx": 10,
+   "print": "B"
+  },
+  {
+   "idx": 11,
+   "print": "A"
+  },
+  {
+   "idx": 12,
+   "print": "B"
+  },
+  {
+   "idx": 13,
+   "print": "B"
+  },
+  {
+   "idx": 14,
+   "print": "B"
+  },
+  {
+   "idx": 15,
+   "print": "B"
+  },
+  {
+   "idx": 16,
+   "print": "B"
+  }
+ ]
+}

@@ -1,0 +1,319 @@
+{
+ "part": "2.9",
+ "pages_checked": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6
+ ],
+ "corrections": [
+  {
+   "pdf_page": 2,
+   "block": 1,
+   "old": "ഫാത്വിമാബീവിയെ തിരുദൂതരുടെ",
+   "new": "ഫാതിമാബീവിയെ തിരുദൂതരുടെ",
+   "why": "print spelling ഫാതിമ"
+  },
+  {
+   "pdf_page": 2,
+   "block": 1,
+   "old": "ബിൻത് അബീഖുഹാഫ",
+   "new": "ബിൻത് അബീകുഹാഫ",
+   "why": "ഖു vs കു"
+  },
+  {
+   "pdf_page": 2,
+   "block": 1,
+   "old": "ഫാത്വിമാബീവി(റ) എഴുന്നേറ്റ്",
+   "new": "ഫാതിമബീവി(റ) എഴുന്നേറ്റ്",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 2,
+   "block": 1,
+   "old": "ഫാത്വിമാബീവി(റ)യോട്",
+   "new": "ഫാതിമബീവി(റ)യോട്",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 2,
+   "block": 1,
+   "old": "അബൂഖുഹാഫയുടെ",
+   "new": "അബുഖുഹാഫയുടെ",
+   "why": "print has short ു"
+  },
+  {
+   "pdf_page": 2,
+   "block": 1,
+   "old": "ഫാത്വിമ(റ) പറഞ്ഞു",
+   "new": "ഫാതിമ(റ) പറഞ്ഞു",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 2,
+   "block": 1,
+   "old": "ഇനി ഞാൻ വിഷയത്തിൽ",
+   "new": "ഇനി ഞാനീ വിഷയത്തിൽ",
+   "why": "ഞാനീ in print"
+  },
+  {
+   "pdf_page": 2,
+   "block": 1,
+   "old": "സ്ഥാനുകൊണ്ട്",
+   "new": "സ്ഥാനംകൊണ്ട്",
+   "why": "anusvara missing"
+  },
+  {
+   "pdf_page": 3,
+   "block": 0,
+   "old": "ഫാത്തിമബീവി(റ)",
+   "new": "ഫാതിമബീവി(റ)",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 3,
+   "block": 0,
+   "old": "ആയിശ(റ)യുടെ വിരിപ്പിൽ",
+   "new": "ആഇശ(റ)യുടെ വിരിപ്പിൽ",
+   "why": "print ആഇശ"
+  },
+  {
+   "pdf_page": 3,
+   "block": 0,
+   "old": "എനിക്ക് അവിടുന്ന് സമ്മതം",
+   "new": "എനിക്ക് അവിടന്ന് സമ്മതം",
+   "why": "print അവിടന്ന്"
+  },
+  {
+   "pdf_page": 3,
+   "block": 2,
+   "old": "ആയിശ(റ)യുടെ ശ്രേഷ്ഠത",
+   "new": "ആഇശ(റ)യുടെ ശ്രേഷ്ഠത",
+   "why": "print ആഇശ"
+  },
+  {
+   "pdf_page": 3,
+   "block": 2,
+   "old": "സരീദ് (റൊട്ടിയും",
+   "new": "സരീദി (റൊട്ടിയും",
+   "why": "print സരീദി"
+  },
+  {
+   "pdf_page": 3,
+   "block": 4,
+   "old": "ആയിശ(റ)യുടെ ദിവസം",
+   "new": "ആഇശ(റ)യുടെ ദിവസം",
+   "why": "print ആഇശ"
+  },
+  {
+   "pdf_page": 3,
+   "block": 4,
+   "old": "ആയിശ(റ) നന്മയെ",
+   "new": "ആഇശ(റ) നന്മയെ",
+   "why": "print ആഇശ"
+  },
+  {
+   "pdf_page": 3,
+   "block": 4,
+   "old": "പക്ഷേ, അവിടുന്ന് പ്രതികരിച്ചില്ല",
+   "new": "പക്ഷേ, അവിടന്ന് പ്രതികരിച്ചില്ല",
+   "why": "print അവിടന്ന്"
+  },
+  {
+   "pdf_page": 3,
+   "block": 4,
+   "old": "പറയുന്നതു വരെ",
+   "new": "പറയുന്നത് വരെ",
+   "why": "print ത് (virama)"
+  },
+  {
+   "pdf_page": 3,
+   "block": 4,
+   "old": "അല്ലെങ്കിൽ അവിടുന്ന് എന്താണ്",
+   "new": "അല്ലെങ്കിൽ അവിടന്ന് എന്താണ്",
+   "why": "print അവിടന്ന്"
+  },
+  {
+   "pdf_page": 3,
+   "block": 4,
+   "old": "ആയിശ(റ)യുടെ വിഷയത്തിൽ",
+   "new": "ആഇശ(റ)യുടെ വിഷയത്തിൽ",
+   "why": "print ആഇശ"
+  },
+  {
+   "pdf_page": 3,
+   "block": 4,
+   "old": "ആയിശയുടെ വിരിപ്പിൽ",
+   "new": "ആഇശയുടെ വിരിപ്പിൽ",
+   "why": "print ആഇശ"
+  },
+  {
+   "pdf_page": 3,
+   "block": 6,
+   "old": "ആയിശ(റ): ജനങ്ങൾ",
+   "new": "ആഇശ(റ): ജനങ്ങൾ",
+   "why": "print ആഇശ"
+  },
+  {
+   "pdf_page": 3,
+   "block": 6,
+   "old": "ആയിശ(റ)യുടെ ദിവസം",
+   "new": "ആഇശ(റ)യുടെ ദിവസം",
+   "why": "print ആഇശ"
+  },
+  {
+   "pdf_page": 4,
+   "block": 1,
+   "old": "അല്ലാഹു അവിടുത്തേക്ക് വഹ്യ്",
+   "new": "അല്ലാഹു അവിടത്തേക്ക് വഹ്യ്",
+   "why": "print അവിടത്തേക്ക്"
+  },
+  {
+   "pdf_page": 4,
+   "block": 1,
+   "old": "ഞാൻ അവിടുത്തെയും എന്റെയും",
+   "new": "ഞാൻ അവിടത്തെയും എന്റെയും",
+   "why": "print അവിടത്തെ"
+  },
+  {
+   "pdf_page": 4,
+   "block": 1,
+   "old": "അവിടുത്തെ ക്ഷീണം",
+   "new": "അവിടത്തെ ക്ഷീണം",
+   "why": "print അവിടത്തെ"
+  },
+  {
+   "pdf_page": 4,
+   "block": 4,
+   "old": "നബി(സ) അവിടുത്തെ ഭാര്യമാരിൽ",
+   "new": "നബി(സ) അവിടത്തെ ഭാര്യമാരിൽ",
+   "why": "print അവിടത്തെ"
+  },
+  {
+   "pdf_page": 4,
+   "block": 4,
+   "old": "അവിടുന്ന് പറയുന്ന ഉണ്ടായിരുന്നു",
+   "new": "അവിടന്ന് പറയുന്നുണ്ടായിരുന്നു",
+   "why": "print reading"
+  },
+  {
+   "pdf_page": 4,
+   "block": 6,
+   "old": "അവിടുത്തെ അനുചരന്മാർക്കും",
+   "new": "അവിടത്തെ അനുചരൻമാർക്കും",
+   "why": "അവിടത്തെ; ൻമ in print"
+  },
+  {
+   "pdf_page": 4,
+   "block": 6,
+   "old": "രണ്ടുപ്രാവശ്യം",
+   "new": "രണ്ട്പ്രാവശ്യം",
+   "why": "print has ട് without space"
+  },
+  {
+   "pdf_page": 6,
+   "block": 0,
+   "old": "നീയായിരുന്നോ എന്റെ മുന്നിലുണ്ടായിരുന്ന",
+   "new": "നീയായിരന്നോ എന്റെ മുന്നിലുണ്ടായുരന്ന",
+   "why": "print misprint kept as printed"
+  },
+  {
+   "pdf_page": 6,
+   "block": 1,
+   "old": "١٥. عَنْ أَنَسٍ",
+   "new": "عَنْ أَنَسٍ",
+   "why": "hadith number is in hadith_no field"
+  },
+  {
+   "pdf_page": 6,
+   "block": 3,
+   "old": "١٦. عَنْ عَائِشَةَ",
+   "new": "عَنْ عَائِشَةَ",
+   "why": "hadith number is in hadith_no field"
+  },
+  {
+   "pdf_page": 6,
+   "block": 4,
+   "old": "അവിടുത്തെ മുടിയിൽ",
+   "new": "അവിടത്തെ മുടിയിൽ",
+   "why": "print അവിടത്തെ"
+  },
+  {
+   "pdf_page": 6,
+   "block": 5,
+   "old": "١٧. عَنْ عَائِشَةَ",
+   "new": "عَنْ عَائِشَةَ",
+   "why": "hadith number is in hadith_no field"
+  },
+  {
+   "pdf_page": 6,
+   "block": 6,
+   "old": "മറ്റു വല്ല ഭാര്യമാരിലേക്കും",
+   "new": "മറ്റുവല്ല ഭാര്യമാരിലേക്കും",
+   "why": "no space in print"
+  },
+  {
+   "pdf_page": 5,
+   "block": 1,
+   "old": "١٣. عَنْ عَائِشَةَ",
+   "new": "عَنْ عَائِشَةَ",
+   "why": "hadith number is in hadith_no field; other pages omit it from text"
+  },
+  {
+   "pdf_page": 5,
+   "block": 2,
+   "old": "അവിടുന്ന് തേൻ കുടിക്കുകയും",
+   "new": "അവിടന്ന് തേൻ കുടിക്കുകയും",
+   "why": "print അവിടന്ന്"
+  },
+  {
+   "pdf_page": 5,
+   "block": 2,
+   "old": "ഞാനും സഫിയ്യയും",
+   "new": "ഞാനും സ്വഫിയ്യയും",
+   "why": "സ്വ missing"
+  },
+  {
+   "pdf_page": 5,
+   "block": 2,
+   "old": "ഈ ആയത്ത് ഇറങ്ങി",
+   "new": "ഈ ആയത് ഇറങ്ങി",
+   "why": "print ആയത്"
+  },
+  {
+   "pdf_page": 5,
+   "block": 2,
+   "old": "നബി(സ) അവിടുത്തെ ഭാര്യമാരിൽ",
+   "new": "നബി(സ) അവിടത്തെ ഭാര്യമാരിൽ",
+   "why": "print അവിടത്തെ"
+  },
+  {
+   "pdf_page": 5,
+   "block": 3,
+   "old": "١٤. عَنْ عَائِشَةَ",
+   "new": "عَنْ عَائِشَةَ",
+   "why": "hadith number is in hadith_no field"
+  },
+  {
+   "pdf_page": 5,
+   "block": 3,
+   "old": "رُوَيْدًا وَأَجَافَهُ",
+   "new": "رُوَيْدًا وَخَرَجَ وَأَجَافَهُ",
+   "why": "word وَخَرَجَ dropped"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 3,
+   "hadith_no": 9,
+   "note": "word رَفَهَ عَنْهُ in print looks like رُفِّهَ (damma+shadda) - harakat unsure"
+  },
+  {
+   "pdf_page": 5,
+   "hadith_no": 14,
+   "note": "bottom of scan is cut off after 3 lines of the Malayalam; JSON block 4 continues slightly beyond what is visible (e.g. 'തന്റെ വിരിപ്പിൽ തുണിയുടെ ഒരു ഭാഗം വിരിക്കുകയും ചെയ്തു') - last partly visible line only"
+  }
+ ]
+}

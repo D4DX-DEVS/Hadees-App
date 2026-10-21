@@ -1,0 +1,62 @@
+{
+ "part": "4.12",
+ "pages_checked": [
+  36,
+  38,
+  41,
+  43
+ ],
+ "corrections": [
+  {
+   "pdf_page": 36,
+   "block": 7,
+   "old": "അറുനൂറ്",
+   "new": "അറുന്നൂറ്",
+   "why": "print (p738) splits അറു / ന്നൂറ് across lines; next line clearly starts with the ന്ന conjunct; printed spelling kept"
+  },
+  {
+   "pdf_page": 38,
+   "block": 9,
+   "old": "ഒഴിവാക്കുന്നവർ",
+   "new": "ഒഴിവാക്കുന്നർ",
+   "why": "print (p740) reads ഒഴിവാക്കു / ന്നർ across line break, no വ; printed typo kept"
+  },
+  {
+   "pdf_page": 41,
+   "block": 7,
+   "old": "اللَّاتِي",
+   "new": "اللَّائي",
+   "why": "print (p743) shows tooth with hamza and no two dots before final ي: اللائي; only visible shadda kept"
+  },
+  {
+   "pdf_page": 41,
+   "block": 2,
+   "old": "ആർ നരകത്തിൽ",
+   "new": "ആര് നരകത്തിൽ",
+   "why": "print (p743) shows ര with curved chandrakkala, clearly different from the chillu ർ in ചാട്ടവാർ on same page"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "B"
+  },
+  {
+   "idx": 1,
+   "print": "B"
+  },
+  {
+   "idx": 2,
+   "print": "B"
+  },
+  {
+   "idx": 3,
+   "print": "B"
+  },
+  {
+   "idx": 4,
+   "print": "A"
+  }
+ ]
+}

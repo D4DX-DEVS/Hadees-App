@@ -1,0 +1,814 @@
+{
+ "part": "4.7",
+ "pages_checked": [
+  42,
+  43,
+  45,
+  46,
+  47,
+  50,
+  51,
+  52,
+  53,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  77,
+  78,
+  79,
+  80
+ ],
+ "corrections": [
+  {
+   "pdf_page": 43,
+   "block": 2,
+   "old": "ഖന്ദഖ് യുദ്ധദിവസം",
+   "new": "ഖൻദഖ് യുദ്ധദിവസം",
+   "why": "print has chillu ൻ (clear at native zoom)"
+  },
+  {
+   "pdf_page": 43,
+   "block": 6,
+   "old": "ഖുറൈളക്കാരോട് പോരാടിയ ദിനത്തിൽ, സുബൈർ(റ)വിൽനിന്ന് അബ്ദുല്ലാഹിബ്നു സുബൈർ(റ): ",
+   "new": "സുബൈർ(റ)വിൽനിന്ന് അബ്ദുല്ലാഹിബ്നു സുബൈർ(റ): ഖുറൈളക്കാരോട് പോരാടിയ ദിനത്തിൽ, ",
+   "why": "staggered line: narrator segment is left half of the same first line; reading order narrator first (as hadith 140)"
+  },
+  {
+   "pdf_page": 45,
+   "block": 7,
+   "old": "സിദ്ദീഖും",
+   "new": "സിദ്ധീഖും",
+   "why": "print has ദ്ധ conjunct"
+  },
+  {
+   "pdf_page": 47,
+   "block": 1,
+   "old": "മ്ലേച്ഛവൃത്തി",
+   "new": "മ്ലേഛവൃത്തി",
+   "why": "print has single ഛ, no ച്ഛ conjunct (printed spelling)"
+  },
+  {
+   "pdf_page": 50,
+   "block": 3,
+   "old": "അബ്ദുറ്രഹ്മാനുബ്നുഔഫ്(റ)വിന്റെ",
+   "new": "അബ്ദുർറഹ്മാനു ബ്നുഔഫ്(റ)വിന്റെ",
+   "why": "bab heading prints ർറ and a space before ബ്നു"
+  },
+  {
+   "pdf_page": 50,
+   "block": 5,
+   "old": "അബ്ദുറ്രഹ്മാനുബ്നു ഔഫിനെയാണ്",
+   "new": "അബ്ദുർറഹ്മാനുബ്നു ഔഫിനെയാണ്",
+   "why": "print ർറ"
+  },
+  {
+   "pdf_page": 51,
+   "block": 7,
+   "old": "രണ്ടുപേരും ഈ",
+   "new": "രണ്ട്പേരും ഈ",
+   "why": "print has virama: രണ്ട്പേരും"
+  },
+  {
+   "pdf_page": 52,
+   "block": 2,
+   "old": "ഫാതിമ(റ)യോട്",
+   "new": "ഫാത്വിമ(റ)യോട്",
+   "why": "്വ sign clearly printed on ത at native zoom"
+  },
+  {
+   "pdf_page": 53,
+   "block": 5,
+   "old": "പറയാനും ഫാതിമ",
+   "new": "പറയാനും ഫാത്വിമ",
+   "why": "്വ sign printed on ത"
+  },
+  {
+   "pdf_page": 55,
+   "block": 4,
+   "old": "وَأحِبَّ مَنْ يُحِبُّهُ",
+   "new": "وَأَحْبِبْ مَنْ يُحِبُّهُ",
+   "why": "print وَأَحْبِبْ (two ب dots, kasra, sukun)"
+  },
+  {
+   "pdf_page": 55,
+   "block": 1,
+   "old": "സ്വുബൈബെഹ്",
+   "new": "സ്വുബൈഹ്",
+   "why": "print സ്വുബൈഹ്, no extra ബെ"
+  },
+  {
+   "pdf_page": 55,
+   "block": 1,
+   "old": "ഫാതിമ(റ),",
+   "new": "ഫാത്വിമ(റ),",
+   "why": "്വ printed"
+  },
+  {
+   "pdf_page": 55,
+   "block": 5,
+   "old": "ഫാതിമ(റ)യുടെ",
+   "new": "ഫാത്വിമ(റ)യുടെ",
+   "why": "്വ printed"
+  },
+  {
+   "pdf_page": 55,
+   "block": 6,
+   "old": "ഫാതിമ(റ)യുടെ",
+   "new": "ഫാത്വിമ(റ)യുടെ",
+   "why": "bab title: ്വ printed"
+  },
+  {
+   "pdf_page": 55,
+   "block": 8,
+   "old": "ഫാതിമ(റ) ഭാര്യ",
+   "new": "ഫാത്വിമ(റ) ഭാര്യ",
+   "why": "്വ printed"
+  },
+  {
+   "pdf_page": 55,
+   "block": 8,
+   "old": "അബീതാലിബ്(റ)",
+   "new": "അബീത്വാലിബ്(റ)",
+   "why": "്വ printed"
+  },
+  {
+   "pdf_page": 55,
+   "block": 8,
+   "old": "ഫാതിമ(റ) റസൂൽ",
+   "new": "ഫാത്വിമ(റ) റസൂൽ",
+   "why": "്വ printed"
+  },
+  {
+   "pdf_page": 56,
+   "block": 0,
+   "old": "ഫാതിമ എന്റെ",
+   "new": "ഫാത്വിമ എന്റെ",
+   "why": "്വ printed"
+  },
+  {
+   "pdf_page": 56,
+   "block": 0,
+   "old": "ഫാതിമയെ",
+   "new": "ഫാത്വിമയെ",
+   "why": "്വ printed"
+  },
+  {
+   "pdf_page": 56,
+   "block": 4,
+   "old": "ഫാതിമ(റ) നടന്നുവന്നു",
+   "new": "ഫാത്വിമ(റ) നടന്നുവന്നു",
+   "why": "്വ printed"
+  },
+  {
+   "pdf_page": 56,
+   "block": 4,
+   "old": "ഫാതിമ(റ)യെ",
+   "new": "ഫാത്വിമ(റ)യെ",
+   "why": "്വ printed"
+  },
+  {
+   "pdf_page": 56,
+   "block": 4,
+   "old": "ഫാതിമ(റ) ശക്തമായി",
+   "new": "ഫാത്വിമ(റ) ശക്തമായി",
+   "why": "്വ printed"
+  },
+  {
+   "pdf_page": 56,
+   "block": 4,
+   "old": "ഫാതിമ(റ)യുടെ",
+   "new": "ഫാത്വിമ(റ)യുടെ",
+   "why": "്വ printed"
+  },
+  {
+   "pdf_page": 56,
+   "block": 4,
+   "old": "ഫാതിമ(റ) ചിരിച്ചു",
+   "new": "ഫാത്വിമ(റ) ചിരിച്ചു",
+   "why": "്വ printed"
+  },
+  {
+   "pdf_page": 56,
+   "block": 4,
+   "old": "ഫാതിമ(റ)യോട്",
+   "new": "ഫാത്വിമ(റ)യോട്",
+   "why": "്വ printed"
+  },
+  {
+   "pdf_page": 56,
+   "block": 3,
+   "old": "تَرْضَيْنَ",
+   "new": "تَرْضَيْ",
+   "why": "print تَرْضَيْ (no nun)"
+  },
+  {
+   "pdf_page": 57,
+   "block": 0,
+   "old": "ഫാതിമ(റ) പറഞ്ഞു: ഇപ്പോൾ",
+   "new": "ഫാത്വിമ(റ) പറഞ്ഞു: ഇപ്പോൾ",
+   "why": "്വ printed"
+  },
+  {
+   "pdf_page": 57,
+   "block": 0,
+   "old": "ഫാതിമ(റ) പറഞ്ഞു: അപ്പോഴാണ് നിങ്ങൾ കണ്ട കരച്ചിൽ",
+   "new": "ഫാത്വിമ(റ) പറഞ്ഞു: അപ്പോഴാണ് നിങ്ങൾ കണ്ട കരച്ചിൽ",
+   "why": "്വ printed"
+  },
+  {
+   "pdf_page": 57,
+   "block": 0,
+   "old": "ഫാതിമാ",
+   "new": "ഫാത്വിമാ",
+   "why": "്വ printed"
+  },
+  {
+   "pdf_page": 57,
+   "block": 0,
+   "old": "ഫാതിമ(റ) പറഞ്ഞു: അപ്പോഴാണ് നിങ്ങൾ കണ്ട ചിരി",
+   "new": "ഫാത്വിമ(റ) പറഞ്ഞു: അപ്പോഴാണ് നിങ്ങൾ കണ്ട ചിരി",
+   "why": "്വ printed"
+  },
+  {
+   "pdf_page": 57,
+   "block": 4,
+   "old": "ഫാതിമ(റ)",
+   "new": "ഫാത്വിമ(റ)",
+   "why": "്വ printed"
+  },
+  {
+   "pdf_page": 57,
+   "block": 6,
+   "old": "ഫാതിമ",
+   "new": "ഫാത്വിമ",
+   "why": "്വ printed"
+  },
+  {
+   "pdf_page": 58,
+   "block": 0,
+   "old": "ഫാതിമ(റ)",
+   "new": "ഫാത്വിമ(റ)",
+   "why": "്വ printed"
+  },
+  {
+   "pdf_page": 58,
+   "block": 2,
+   "old": "ഫാതിമയേക്കാൾ",
+   "new": "ഫാത്വിമയേക്കാൾ",
+   "why": "്വ printed"
+  },
+  {
+   "pdf_page": 58,
+   "block": 2,
+   "old": "ഫാതിമ(റ) നബി(സ)യുടെ അടുത്തുവന്നാൽ",
+   "new": "ഫാത്വിമ(റ) നബി(സ)യുടെ അടുത്തുവന്നാൽ",
+   "why": "്വ printed"
+  },
+  {
+   "pdf_page": 58,
+   "block": 2,
+   "old": "ഫാതിമ(റ) തന്റെ",
+   "new": "ഫാത്വിമ(റ) തന്റെ",
+   "why": "്വ printed"
+  },
+  {
+   "pdf_page": 58,
+   "block": 2,
+   "old": "ഫാതിമ(റ) നബി(സ)യുടെ അടുത്തുവന്ന്",
+   "new": "ഫാത്വിമ(റ) നബി(സ)യുടെ അടുത്തുവന്ന്",
+   "why": "്വ printed"
+  },
+  {
+   "pdf_page": 58,
+   "block": 2,
+   "old": "ഫാതിമയാണെന്ന്",
+   "new": "ഫാത്വിമയാണെന്ന്",
+   "why": "്വ printed"
+  },
+  {
+   "pdf_page": 58,
+   "block": 2,
+   "old": "ഫാതിമ(റ) പറഞ്ഞു",
+   "new": "ഫാത്വിമ(റ) പറഞ്ഞു",
+   "why": "്വ printed"
+  },
+  {
+   "pdf_page": 58,
+   "block": 4,
+   "old": "ഫാതിമ(റ)യെ",
+   "new": "ഫാത്വിമ(റ)യെ",
+   "why": "്വ printed"
+  },
+  {
+   "pdf_page": 59,
+   "block": 0,
+   "old": "ഫാതിമ(റ)യോട്",
+   "new": "ഫാത്വിമ(റ)യോട്",
+   "why": "്വ printed"
+  },
+  {
+   "pdf_page": 59,
+   "block": 2,
+   "old": "ഫാതിമ(റ).",
+   "new": "ഫാത്വിമ(റ).",
+   "why": "്വ printed"
+  },
+  {
+   "pdf_page": 59,
+   "block": 2,
+   "old": "ഫാതിമ(റ)യുടെ",
+   "new": "ഫാത്വിമ(റ)യുടെ",
+   "why": "്വ printed"
+  },
+  {
+   "pdf_page": 59,
+   "block": 7,
+   "old": "ഫാതിമ(റ)",
+   "new": "ഫാത്വിമ(റ)",
+   "why": "്വ printed"
+  },
+  {
+   "pdf_page": 60,
+   "block": 5,
+   "old": "ഫാതിമ(റ)",
+   "new": "ഫാത്വിമ(റ)",
+   "why": "്വ printed"
+  },
+  {
+   "pdf_page": 61,
+   "block": 1,
+   "old": "ഹുസൈ്വനുബ്നു",
+   "new": "ഹുസ്വൈനുബ്നു",
+   "why": "്വ printed"
+  },
+  {
+   "pdf_page": 61,
+   "block": 1,
+   "old": "ഹുസൈ്വൻ അദ്ദേഹത്തോട്",
+   "new": "ഹുസ്വൈൻ അദ്ദേഹത്തോട്",
+   "why": "്വ printed"
+  },
+  {
+   "pdf_page": 61,
+   "block": 1,
+   "old": "ഹുസൈ്വൻ(റ) ചോദിച്ചു: സൈദേ",
+   "new": "ഹുസ്വൈൻ(റ) ചോദിച്ചു: സൈദേ",
+   "why": "്വ printed"
+  },
+  {
+   "pdf_page": 61,
+   "block": 1,
+   "old": "ഹുസൈ്വൻ(റ) ചോദിച്ചു: അവർ",
+   "new": "ഹുസ്വൈൻ(റ) ചോദിച്ചു: അവർ",
+   "why": "്വ printed"
+  },
+  {
+   "pdf_page": 61,
+   "block": 1,
+   "old": "ഹുസൈ്വൻ(റ) ചോദിച്ചു: ഇവർക്കെല്ലാവർക്കും",
+   "new": "ഹുസ്വൈൻ(റ) ചോദിച്ചു: ഇവർക്കെല്ലാവർക്കും",
+   "why": "്വ printed"
+  },
+  {
+   "pdf_page": 62,
+   "block": 2,
+   "old": "മാതൃസഹോദർമ്മാരുടെ",
+   "new": "മാതൃസഹോദർന്മാരുടെ",
+   "why": "print ദർന്മാ (ർ followed by ന്മ); neither reading matched"
+  },
+  {
+   "pdf_page": 63,
+   "block": 1,
+   "old": "അങ്ങെവിടെനിന്നാണതറിയുന്നത്?",
+   "new": "അങ്ങ് എവിടെനിന്നാണതറിയുന്നത്?",
+   "why": "print: line ends അങ്ങ് (with virama), next line എവിടെ..."
+  },
+  {
+   "pdf_page": 66,
+   "block": 1,
+   "old": "സൈനബ്(റ)ക്ക്",
+   "new": "സൈനബി(റ)ക്ക്",
+   "why": "print സൈനബി(റ)ക്ക്"
+  },
+  {
+   "pdf_page": 70,
+   "block": 5,
+   "old": "അധ്വാനമോ",
+   "new": "അദ്ധ്വാനമോ",
+   "why": "print has ദ്ധ ligature (differs from plain ധ in സാധനങ്ങൾ on same page)"
+  },
+  {
+   "pdf_page": 71,
+   "block": 3,
+   "old": "വൃധകളിൽപ്പെട്ട",
+   "new": "വൃദ്ധകളിൽപ്പെട്ട",
+   "why": "print has ദ്ധ ligature"
+  },
+  {
+   "pdf_page": 71,
+   "block": 9,
+   "old": "ഫിർഔനിന്റെ",
+   "new": "ഫിർഔന്റെ",
+   "why": "print ഫിർഔന്റെ"
+  },
+  {
+   "pdf_page": 74,
+   "block": 7,
+   "old": "فَوَافَقْنَا رَسُولَ",
+   "new": "فَوَافَقْنَا جَمِيعًا رَسُولَ",
+   "why": "print: فوافقنا جميعا رسول الله (word omitted)"
+  },
+  {
+   "pdf_page": 77,
+   "block": 6,
+   "old": "ഞങ്ങളാക്കാര്യം",
+   "new": "ഞങ്ങളക്കാര്യം",
+   "why": "print: line ends ഞങ്ങള, next line ക്കാര്യം (no ാ)"
+  },
+  {
+   "pdf_page": 78,
+   "block": 6,
+   "old": "ഇദ്രേഹത്തിന്",
+   "new": "ഇദ്ദേഹത്തിന്",
+   "why": "print has stacked ദ്ദ"
+  },
+  {
+   "pdf_page": 79,
+   "block": 2,
+   "old": "കാവൽ തേടുന്നു. അല്ലാഹുവിനോട് ഞാൻ നരകത്തിൽ നിന്ന് കാവൽ ചോദിക്കുന്നു",
+   "new": "കാവൽ തേടുന്നു. അല്ലാഹുവിനോട് ഞാൻ നരകത്തിൽ നിന്ന് കാവൽ തേടുന്നു. അല്ലാഹുവിനോട് ഞാൻ നരകത്തിൽ നിന്ന് കാവൽ ചോദിക്കുന്നു",
+   "why": "print repeats the clause three times; a line (കാവൽ തേടുന്നു. അല്ലാഹുവിനോട് ഞാൻ നരകത്തിൽ നിന്ന്) was dropped"
+  },
+  {
+   "pdf_page": 79,
+   "block": 5,
+   "old": "പ്രസവിച്ചിരിക്കുന്നു",
+   "new": "പ്രസവിച്ചരിക്കുന്നു",
+   "why": "printed misspelling: ച്ച followed by plain ര (no ി)"
+  },
+  {
+   "pdf_page": 79,
+   "block": 5,
+   "old": "ഞാൻ അവനെ (കുട്ടിയെ)",
+   "new": "ഞാനവനെ (കുട്ടിയെ)",
+   "why": "print: line ends ഞാന, next line വനെ (one word)"
+  },
+  {
+   "pdf_page": 79,
+   "block": 5,
+   "old": "അങ്ങനെ അവിടുന്ന് അബ്ദുല്ല എന്ന് പേർ വിളിച്ചു",
+   "new": "അങ്ങനെ അവന് അബ്ദുല്ല എന്ന് അവിടുന്ന് പേർ വിളിച്ചു",
+   "why": "print: അങ്ങനെ അവന് / അബ്ദുല്ല എന്ന് അവിടുന്ന് പേർ വിളിച്ചു"
+  },
+  {
+   "pdf_page": 80,
+   "block": 5,
+   "old": "زُلْفَى.",
+   "new": "زُلْفَا.",
+   "why": "print زُلْفَا with alif"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 53,
+   "note": "block 5 വിടൂ! vs വിടു! (ു/ൂ on ട): leaning ൂ but not settled at native zoom; held, JSON unchanged"
+  },
+  {
+   "pdf_page": 56,
+   "note": "block 2 പറഞ്ഞുള്ളു vs പറഞ്ഞുള്ളൂ (ു/ൂ under ള്ള) not settled at native zoom; held, unchanged"
+  },
+  {
+   "pdf_page": 79,
+   "note": "block 5 പേർ vs പേര് (chillu vs ര്) in അവിടുന്ന് പേർ വിളിച്ചു: not settled; held, kept പേർ"
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 52,
+   "print": "A"
+  },
+  {
+   "idx": 53,
+   "print": "B"
+  },
+  {
+   "idx": 54,
+   "print": "B"
+  },
+  {
+   "idx": 55,
+   "print": "B"
+  },
+  {
+   "idx": 56,
+   "print": "B"
+  },
+  {
+   "idx": 57,
+   "print": "A"
+  },
+  {
+   "idx": 58,
+   "print": "B"
+  },
+  {
+   "idx": 59,
+   "print": "B"
+  },
+  {
+   "idx": 60,
+   "print": "B"
+  },
+  {
+   "idx": 61,
+   "print": "B"
+  },
+  {
+   "idx": 62,
+   "print": "B"
+  },
+  {
+   "idx": 63,
+   "print": "A"
+  },
+  {
+   "idx": 64,
+   "print": "A?held"
+  },
+  {
+   "idx": 65,
+   "print": "B"
+  },
+  {
+   "idx": 66,
+   "print": "B"
+  },
+  {
+   "idx": 67,
+   "print": "B"
+  },
+  {
+   "idx": 68,
+   "print": "B"
+  },
+  {
+   "idx": 69,
+   "print": "B"
+  },
+  {
+   "idx": 70,
+   "print": "B"
+  },
+  {
+   "idx": 71,
+   "print": "B"
+  },
+  {
+   "idx": 72,
+   "print": "B"
+  },
+  {
+   "idx": 73,
+   "print": "B"
+  },
+  {
+   "idx": 74,
+   "print": "B"
+  },
+  {
+   "idx": 75,
+   "print": "B"
+  },
+  {
+   "idx": 76,
+   "print": "B"
+  },
+  {
+   "idx": 78,
+   "print": "B"
+  },
+  {
+   "idx": 79,
+   "print": "B"
+  },
+  {
+   "idx": 80,
+   "print": "B"
+  },
+  {
+   "idx": 81,
+   "print": "B"
+  },
+  {
+   "idx": 82,
+   "print": "B"
+  },
+  {
+   "idx": 83,
+   "print": "B"
+  },
+  {
+   "idx": 77,
+   "print": "held"
+  },
+  {
+   "idx": 84,
+   "print": "B"
+  },
+  {
+   "idx": 85,
+   "print": "B"
+  },
+  {
+   "idx": 86,
+   "print": "B"
+  },
+  {
+   "idx": 87,
+   "print": "B"
+  },
+  {
+   "idx": 88,
+   "print": "B"
+  },
+  {
+   "idx": 89,
+   "print": "B"
+  },
+  {
+   "idx": 90,
+   "print": "B"
+  },
+  {
+   "idx": 91,
+   "print": "B"
+  },
+  {
+   "idx": 92,
+   "print": "B"
+  },
+  {
+   "idx": 93,
+   "print": "B"
+  },
+  {
+   "idx": 94,
+   "print": "B"
+  },
+  {
+   "idx": 95,
+   "print": "B"
+  },
+  {
+   "idx": 96,
+   "print": "B"
+  },
+  {
+   "idx": 97,
+   "print": "B"
+  },
+  {
+   "idx": 98,
+   "print": "B"
+  },
+  {
+   "idx": 99,
+   "print": "B"
+  },
+  {
+   "idx": 100,
+   "print": "B"
+  },
+  {
+   "idx": 101,
+   "print": "B"
+  },
+  {
+   "idx": 102,
+   "print": "B"
+  },
+  {
+   "idx": 103,
+   "print": "B"
+  },
+  {
+   "idx": 104,
+   "print": "B"
+  },
+  {
+   "idx": 105,
+   "print": "B"
+  },
+  {
+   "idx": 106,
+   "print": "B"
+  },
+  {
+   "idx": 107,
+   "print": "B"
+  },
+  {
+   "idx": 108,
+   "print": "other"
+  },
+  {
+   "idx": 109,
+   "print": "B"
+  },
+  {
+   "idx": 110,
+   "print": "A"
+  },
+  {
+   "idx": 111,
+   "print": "A"
+  },
+  {
+   "idx": 112,
+   "print": "B"
+  },
+  {
+   "idx": 113,
+   "print": "A"
+  },
+  {
+   "idx": 114,
+   "print": "B"
+  },
+  {
+   "idx": 115,
+   "print": "B"
+  },
+  {
+   "idx": 116,
+   "print": "B"
+  },
+  {
+   "idx": 117,
+   "print": "A"
+  },
+  {
+   "idx": 118,
+   "print": "A"
+  },
+  {
+   "idx": 119,
+   "print": "B"
+  },
+  {
+   "idx": 120,
+   "print": "A"
+  },
+  {
+   "idx": 121,
+   "print": "A"
+  },
+  {
+   "idx": 122,
+   "print": "B"
+  },
+  {
+   "idx": 123,
+   "print": "B"
+  },
+  {
+   "idx": 124,
+   "print": "B"
+  },
+  {
+   "idx": 125,
+   "print": "B"
+  },
+  {
+   "idx": 126,
+   "print": "B"
+  },
+  {
+   "idx": 127,
+   "print": "B"
+  },
+  {
+   "idx": 128,
+   "print": "B (ർ/് held)"
+  },
+  {
+   "idx": 129,
+   "print": "B"
+  }
+ ]
+}

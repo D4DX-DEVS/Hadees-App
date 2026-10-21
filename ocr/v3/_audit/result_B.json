@@ -1,0 +1,177 @@
+[
+ {
+  "book": 12,
+  "hadith_no": 58,
+  "verdict": "match",
+  "diffs": [],
+  "note": ""
+ },
+ {
+  "book": 12,
+  "hadith_no": 63,
+  "verdict": "match",
+  "diffs": [],
+  "note": ""
+ },
+ {
+  "book": 12,
+  "hadith_no": 20,
+  "verdict": "match",
+  "diffs": [],
+  "note": ""
+ },
+ {
+  "book": 12,
+  "hadith_no": 6,
+  "verdict": "match",
+  "diffs": [],
+  "note": ""
+ },
+ {
+  "book": 12,
+  "hadith_no": 18,
+  "verdict": "match",
+  "diffs": [],
+  "note": ""
+ },
+ {
+  "book": 13,
+  "hadith_no": 173,
+  "verdict": "match",
+  "diffs": [],
+  "note": ""
+ },
+ {
+  "book": 13,
+  "hadith_no": 174,
+  "verdict": "match",
+  "diffs": [],
+  "note": ""
+ },
+ {
+  "book": 13,
+  "hadith_no": 58,
+  "verdict": "match",
+  "diffs": [],
+  "note": ""
+ },
+ {
+  "book": 13,
+  "hadith_no": 47,
+  "verdict": "match",
+  "diffs": [],
+  "note": ""
+ },
+ {
+  "book": 13,
+  "hadith_no": 150,
+  "verdict": "match",
+  "diffs": [],
+  "note": ""
+ },
+ {
+  "book": 13,
+  "hadith_no": 156,
+  "verdict": "match",
+  "diffs": [],
+  "note": ""
+ },
+ {
+  "book": 14,
+  "hadith_no": 192,
+  "verdict": "match",
+  "diffs": [],
+  "note": ""
+ },
+ {
+  "book": 14,
+  "hadith_no": 195,
+  "verdict": "match",
+  "diffs": [],
+  "note": ""
+ },
+ {
+  "book": 14,
+  "hadith_no": 84,
+  "verdict": "match",
+  "diffs": [],
+  "note": ""
+ },
+ {
+  "book": 14,
+  "hadith_no": 102,
+  "verdict": "match",
+  "diffs": [],
+  "note": ""
+ },
+ {
+  "book": 14,
+  "hadith_no": 107,
+  "verdict": "match",
+  "diffs": [],
+  "note": ""
+ },
+ {
+  "book": 14,
+  "hadith_no": 173,
+  "verdict": "match",
+  "diffs": [],
+  "note": ""
+ },
+ {
+  "book": 15,
+  "hadith_no": 22,
+  "verdict": "match",
+  "diffs": [],
+  "note": ""
+ },
+ {
+  "book": 15,
+  "hadith_no": 31,
+  "verdict": "match",
+  "diffs": [],
+  "note": ""
+ },
+ {
+  "book": 15,
+  "hadith_no": 47,
+  "verdict": "match",
+  "diffs": [],
+  "note": ""
+ },
+ {
+  "book": 15,
+  "hadith_no": 46,
+  "verdict": "match",
+  "diffs": [],
+  "note": ""
+ },
+ {
+  "book": 15,
+  "hadith_no": 36,
+  "verdict": "match",
+  "diffs": [],
+  "note": ""
+ },
+ {
+  "book": 15,
+  "hadith_no": 38,
+  "verdict": "match",
+  "diffs": [],
+  "note": ""
+ },
+ {
+  "book": 5,
+  "hadith_no": 144,
+  "verdict": "match",
+  "diffs": [],
+  "note": "Found on pdf p51 (printed 455). No: no Malayalam source code is printed; the Malayalam ends with the closing quote after വിസമ്മതിക്കരുത്. The Arabic ends with [ز: في إسناده ضعيف] (جه), the same as the DB."
+ },
+ {
+  "book": 5,
+  "hadith_no": 145,
+  "verdict": "match",
+  "diffs": [],
+  "note": "Found on pdf p51 (printed 455). No: no Malayalam source code is printed; the Malayalam ends with the closing quote after ബുദ്ധിമുട്ടിക്കും. The Arabic ends with (د,ت,جه), the same as the DB."
+ }
+]

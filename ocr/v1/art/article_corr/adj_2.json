@@ -1,0 +1,717 @@
+{
+ "part": "art-article",
+ "pages_checked": [
+  9,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18
+ ],
+ "corrections": [
+  {
+   "pdf_page": 9,
+   "block": 0,
+   "old": "അതിന്നു",
+   "new": "അതിനു",
+   "why": "print reads 'അതിനു' (item 0)"
+  },
+  {
+   "pdf_page": 9,
+   "block": 0,
+   "old": "ചെയ്യുവിൻ",
+   "new": "ചെയ്യുവീൻ",
+   "why": "print reads 'ചെയ്യുവീൻ' (item 1)"
+  },
+  {
+   "pdf_page": 9,
+   "block": 1,
+   "old": "ദൈവത്തിന്നുള്ള",
+   "new": "ദൈവത്തിനുള്ള",
+   "why": "print reads 'ദൈവത്തിനുള്ള' (item 2)"
+  },
+  {
+   "pdf_page": 9,
+   "block": 3,
+   "old": "അടുത്തേക്കയച്ചു",
+   "new": "അടുക്കലേക്കയച്ചു",
+   "why": "print reads 'അടുക്കലേക്കയച്ചു' (item 3)"
+  },
+  {
+   "pdf_page": 9,
+   "block": 3,
+   "old": "ആതിഥ്യ",
+   "new": "ആഥിത്യ",
+   "why": "print reads 'ആഥിത്യ' (item 4)"
+  },
+  {
+   "pdf_page": 9,
+   "block": 3,
+   "old": "തൽപ്പരനാവുകയും",
+   "new": "തൽപരനാവുകയും",
+   "why": "print reads 'തൽപരനാവുകയും' (item 5)"
+  },
+  {
+   "pdf_page": 10,
+   "block": 0,
+   "old": "കുടുംബത്തിനെതിരിൽ",
+   "new": "കുടുംബത്തിന്നെതിരിൽ",
+   "why": "print reads 'കുടുംബത്തിന്നെതിരിൽ' (item 6)"
+  },
+  {
+   "pdf_page": 10,
+   "block": 2,
+   "old": "രിബ്(മദീന)ൽ",
+   "new": "രിബി(മദീന)ൽ",
+   "why": "print reads 'രിബി(മദീന)ൽ' (item 8)"
+  },
+  {
+   "pdf_page": 10,
+   "block": 2,
+   "old": "\"ഞങ്ങൾ ഇനിമേൽ",
+   "new": "\"തങ്ങൾ ഇനിമേൽ",
+   "why": "print reads '\"തങ്ങൾ ഇനിമേൽ' (item 9)"
+  },
+  {
+   "pdf_page": 10,
+   "block": 2,
+   "old": "അധികാരവകാശങ്ങളിൽ",
+   "new": "അധികാരാവകാശങ്ങളിൽ",
+   "why": "print reads 'അധികാരാവകാശങ്ങളിൽ' (item 10)"
+  },
+  {
+   "pdf_page": 10,
+   "block": 3,
+   "old": "മിൻറാജ്",
+   "new": "മിഅ്റാജ്",
+   "why": "print reads 'മിഅ്റാജ്' (item 11)"
+  },
+  {
+   "pdf_page": 10,
+   "block": 5,
+   "old": "കൽപ്പന",
+   "new": "കൽപന",
+   "why": "print reads 'കൽപന' (item 12)"
+  },
+  {
+   "pdf_page": 10,
+   "block": 6,
+   "old": "അൻസാറുകൾ",
+   "new": "അൻസ്വാറുകൾ",
+   "why": "print reads 'അൻസ്വാറുകൾ' (item 13)"
+  },
+  {
+   "pdf_page": 11,
+   "block": 0,
+   "old": "അൻസാറിനെയും",
+   "new": "അൻസ്വാറിനെയും",
+   "why": "print reads 'അൻസ്വാറിനെയും' (item 14)"
+  },
+  {
+   "pdf_page": 11,
+   "block": 0,
+   "old": "അൻസാറുകളും മുഹാജിറുകളും",
+   "new": "അൻസ്വാറുകളും മുഹാജിറുകളും",
+   "why": "print reads 'അൻസ്വാറുകളും മുഹാജിറുകളും' (item 15)"
+  },
+  {
+   "pdf_page": 11,
+   "block": 0,
+   "old": "അൻസാറുകൾ അഭയാർ",
+   "new": "അൻസ്വാറുകൾ അഭയാർ",
+   "why": "print reads 'അൻസ്വാറുകൾ അഭയാർ' (item 16)"
+  },
+  {
+   "pdf_page": 11,
+   "block": 0,
+   "old": "മുഹാജിറുകളും അൻസാറുകളും",
+   "new": "മുഹാജിറുകളും അൻസ്വാറുകളും",
+   "why": "print reads 'മുഹാജിറുകളും അൻസ്വാറുകളും' (item 17)"
+  },
+  {
+   "pdf_page": 11,
+   "block": 1,
+   "old": "പ്രവാചകൻ(സ) ഉണ്ടാക്കി",
+   "new": "പ്രവാചകർ(സ) ഉണ്ടാക്കി",
+   "why": "print reads 'പ്രവാചകർ(സ) ഉണ്ടാക്കി' (item 18)"
+  },
+  {
+   "pdf_page": 11,
+   "block": 1,
+   "old": "ഔത്സുക്യം",
+   "new": "ഔൽസുക്യം",
+   "why": "print reads 'ഔൽസുക്യം' (item 19)"
+  },
+  {
+   "pdf_page": 11,
+   "block": 2,
+   "old": "രൂപംകൊണ്ട്",
+   "new": "രൂപംകൊണ്ടത്",
+   "why": "print reads 'രൂപംകൊണ്ടത്' (item 20)"
+  },
+  {
+   "pdf_page": 11,
+   "block": 2,
+   "old": "ദൈവഭേതരങ്ങളായ",
+   "new": "ദൈവേതരങ്ങളായ",
+   "why": "print reads 'ദൈവേതരങ്ങളായ' (item 21)"
+  },
+  {
+   "pdf_page": 11,
+   "block": 2,
+   "old": "പ്രവാചകൻ(സ)യടക്കം",
+   "new": "പ്രവാചകർ(സ)യടക്കം",
+   "why": "print reads 'പ്രവാചകർ(സ)യടക്കം' (item 22)"
+  },
+  {
+   "pdf_page": 12,
+   "block": 0,
+   "old": "അധികാരവകാശങ്ങൾ",
+   "new": "അധികാരാവകാശങ്ങൾ",
+   "why": "print reads 'അധികാരാവകാശങ്ങൾ' (item 23)"
+  },
+  {
+   "pdf_page": 12,
+   "block": 0,
+   "old": "അവൻ സന്താനം",
+   "new": "അവന് സന്താനം",
+   "why": "print reads 'അവന് സന്താനം' (item 24)"
+  },
+  {
+   "pdf_page": 12,
+   "block": 1,
+   "old": "ജീവിതത്തെക്കുറിച്ച്",
+   "new": "ജീവിത്തെക്കുറിച്ച്",
+   "why": "print reads 'ജീവിത്തെക്കുറിച്ച്' (item 25)"
+  },
+  {
+   "pdf_page": 12,
+   "block": 1,
+   "old": "നമസ്കരിക്കുക",
+   "new": "നിസ്കരിക്കുക",
+   "why": "print reads 'നിസ്കരിക്കുക' (item 26)"
+  },
+  {
+   "pdf_page": 12,
+   "block": 1,
+   "old": "മനുഷ്യനുമായ",
+   "new": "മനഷ്യനുമായ",
+   "why": "print reads 'മനഷ്യനുമായ' (item 27)"
+  },
+  {
+   "pdf_page": 12,
+   "block": 1,
+   "old": "ദൈവീകത്വം കൽപ്പിച്ചപോലെ",
+   "new": "ദൈവികത്വം കൽപിച്ചപോലെ",
+   "why": "print reads 'ദൈവികത്വം കൽപിച്ചപോലെ' (item 28)"
+  },
+  {
+   "pdf_page": 12,
+   "block": 1,
+   "old": "ദൈവീകത്വം കൽപ്പിക്കരു",
+   "new": "ദൈവികത്വം കൽപ്പിക്കരു",
+   "why": "print reads 'ദൈവികത്വം കൽപ്പിക്കരു' (item 29)"
+  },
+  {
+   "pdf_page": 12,
+   "block": 2,
+   "old": "313 പേരെ",
+   "new": "313 പേരേ",
+   "why": "print reads '313 പേരേ' (item 30)"
+  },
+  {
+   "pdf_page": 12,
+   "block": 2,
+   "old": "ആക്രമിച്ച് കീഴ",
+   "new": "ആക്രമിച്ചു കീഴ",
+   "why": "print reads 'ആക്രമിച്ചു കീഴ' (item 31)"
+  },
+  {
+   "pdf_page": 12,
+   "block": 3,
+   "old": "കഅ്ബയിലേക്ക്",
+   "new": "കഅ്ബയിലേക്കു",
+   "why": "print reads 'കഅ്ബയിലേക്കു' (item 32)"
+  },
+  {
+   "pdf_page": 12,
+   "block": 3,
+   "old": "പരിപാടിയല്ല",
+   "new": "പരിപാടിയില്ല",
+   "why": "print reads 'പരിപാടിയില്ല' (item 33)"
+  },
+  {
+   "pdf_page": 12,
+   "block": 3,
+   "old": "മക്കയിലേക്ക്",
+   "new": "മക്കയിലേക്കു",
+   "why": "print reads 'മക്കയിലേക്കു' (item 34)"
+  },
+  {
+   "pdf_page": 13,
+   "block": 2,
+   "old": "ഖുസാഅ്' ഗോത്രക്കാര",
+   "new": "ഖുസ്സ' ഗോത്രക്കാര",
+   "why": "print reads 'ഖുസ്സ' ഗോത്രക്കാര' (item 35)"
+  },
+  {
+   "pdf_page": 13,
+   "block": 2,
+   "old": "ഖുസാഅ്' ഗോത്രത്തിന",
+   "new": "ഖുസ്സ' ഗോത്രത്തിന",
+   "why": "print reads 'ഖുസ്സ' ഗോത്രത്തിന' (item 36)"
+  },
+  {
+   "pdf_page": 13,
+   "block": 3,
+   "old": "അവിടുത്തെ",
+   "new": "അവിടത്തെ",
+   "why": "print reads 'അവിടത്തെ' (item 37)"
+  },
+  {
+   "pdf_page": 13,
+   "block": 4,
+   "old": "മദീനയിലേക്ക്",
+   "new": "മദീനയിലേക്കു",
+   "why": "print reads 'മദീനയിലേക്കു' (item 38)"
+  },
+  {
+   "pdf_page": 13,
+   "block": 5,
+   "old": "തീർത്ഥാടനത്തിനുപോയി",
+   "new": "തീർത്ഥാടത്തിനുപോയി",
+   "why": "print reads 'തീർത്ഥാടത്തിനുപോയി' (item 39)"
+  },
+  {
+   "pdf_page": 14,
+   "block": 0,
+   "old": "എനിക്ക്ശേഷം",
+   "new": "എനിക്കുശേഷം",
+   "why": "print reads 'എനിക്കുശേഷം' (item 40)"
+  },
+  {
+   "pdf_page": 14,
+   "block": 1,
+   "old": "കുലത്തിന്നുള്ള",
+   "new": "കുലത്തിനുള്ള",
+   "why": "print reads 'കുലത്തിനുള്ള' (item 41)"
+  },
+  {
+   "pdf_page": 14,
+   "block": 3,
+   "old": "പ്രവാചകൻ(സ) വഫാത്തായി",
+   "new": "പ്രവാചകർ(സ) വഫാത്തായി",
+   "why": "print reads 'പ്രവാചകർ(സ) വഫാത്തായി' (item 42)"
+  },
+  {
+   "pdf_page": 14,
+   "block": 3,
+   "old": "അവിടുത്തെ",
+   "new": "അവിടത്തെ",
+   "why": "print reads 'അവിടത്തെ' (item 43)"
+  },
+  {
+   "pdf_page": 14,
+   "block": 3,
+   "old": "അവിടുത്തോടൊപ്പം",
+   "new": "അവിടത്തോടൊപ്പം",
+   "why": "print reads 'അവിടത്തോടൊപ്പം' (item 44)"
+  },
+  {
+   "pdf_page": 15,
+   "block": 1,
+   "old": "സാന്നിധ്യം",
+   "new": "സാന്നിദ്ധ്യം",
+   "why": "print reads 'സാന്നിദ്ധ്യം' (item 45)"
+  },
+  {
+   "pdf_page": 15,
+   "block": 1,
+   "old": "സ്രഷ്ടാവും",
+   "new": "സൃഷ്ടാവും",
+   "why": "print reads 'സൃഷ്ടാവും' (item 46)"
+  },
+  {
+   "pdf_page": 15,
+   "block": 3,
+   "old": "കുലത്തിന്നുള്ള",
+   "new": "കുലത്തിനുള്ള",
+   "why": "print reads 'കുലത്തിനുള്ള' (item 47)"
+  },
+  {
+   "pdf_page": 15,
+   "block": 4,
+   "old": "അനുഷ്ഠിക്കേണ്ട",
+   "new": "അനുഷ്ടിക്കേണ്ട",
+   "why": "print reads 'അനുഷ്ടിക്കേണ്ട' (item 48)"
+  },
+  {
+   "pdf_page": 15,
+   "block": 5,
+   "old": "ഞങ്ങൾക്കെങ്ങനെ",
+   "new": "ഞങ്ങൾക്കങ്ങനെ",
+   "why": "print reads 'ഞങ്ങൾക്കങ്ങനെ' (item 49)"
+  },
+  {
+   "pdf_page": 16,
+   "block": 2,
+   "old": "വ്യക്തമായി",
+   "new": "സ്പഷ്ടമായി",
+   "why": "print reads 'സ്പഷ്ടമായി' (item 50)"
+  },
+  {
+   "pdf_page": 16,
+   "block": 2,
+   "old": "ഭിന്നിപ്പുണ്ടാകുന്ന",
+   "new": "ഭിന്നിപ്പുണ്ടാക്കുന്ന",
+   "why": "print reads 'ഭിന്നിപ്പുണ്ടാക്കുന്ന' (item 51)"
+  },
+  {
+   "pdf_page": 16,
+   "block": 3,
+   "old": "കൊണ്ടുവന്നുവോ",
+   "new": "കൊണ്ടുതന്നുവോ",
+   "why": "print reads 'കൊണ്ടുതന്നുവോ' (item 52)"
+  },
+  {
+   "pdf_page": 16,
+   "block": 5,
+   "old": "നോക്കുക:",
+   "new": "നോക്കൂ:",
+   "why": "print reads 'നോക്കൂ:' (item 53)"
+  },
+  {
+   "pdf_page": 16,
+   "block": 6,
+   "old": "(തി, തു)",
+   "new": "(ദ,തു)",
+   "why": "print reads '(ദ,തു)' (item 54)"
+  },
+  {
+   "pdf_page": 17,
+   "block": 4,
+   "old": "തർജ്ജമ",
+   "new": "തർജമ",
+   "why": "print reads 'തർജമ' (item 55)"
+  },
+  {
+   "pdf_page": 17,
+   "block": 5,
+   "old": "(കൊല്ലപ്പെട്ടയാൾ)",
+   "new": "(കോല്ലപ്പെട്ടയാൾ)",
+   "why": "print reads '(കോല്ലപ്പെട്ടയാൾ)' (item 56)"
+  },
+  {
+   "pdf_page": 18,
+   "block": 0,
+   "old": "മുഹമ്മദ്ബ്നു",
+   "new": "മുഹമ്മദുബ്നു",
+   "why": "print reads 'മുഹമ്മദുബ്നു' (item 57)"
+  },
+  {
+   "pdf_page": 18,
+   "block": 1,
+   "old": "സബീഹ്",
+   "new": "സ്വബീഹ്",
+   "why": "print reads 'സ്വബീഹ്' (item 58)"
+  },
+  {
+   "pdf_page": 18,
+   "block": 2,
+   "old": "മുഹമ്മദ്ബ്നു",
+   "new": "മുഹമ്മദുബ്നു",
+   "why": "print reads 'മുഹമ്മദുബ്നു' (item 59)"
+  },
+  {
+   "pdf_page": 18,
+   "block": 2,
+   "old": "ജാമിഉസ്സഹീഹ്",
+   "new": "ജാമിഉസ്സ്വഹീഹ്",
+   "why": "print reads 'ജാമിഉസ്സ്വഹീഹ്' (item 60)"
+  },
+  {
+   "pdf_page": 18,
+   "block": 3,
+   "old": "വഫാത്തോടെ",
+   "new": "വഫാതോടെ",
+   "why": "print reads 'വഫാതോടെ' (item 61)"
+  },
+  {
+   "pdf_page": 18,
+   "block": 5,
+   "old": "തോൽപ്പിച്ച",
+   "new": "തോൽപിച്ച",
+   "why": "print reads 'തോൽപിച്ച' (item 62)"
+  },
+  {
+   "pdf_page": 18,
+   "block": 7,
+   "old": "സുഹൈസിഅഃ",
+   "new": "സുഐസിഅഃ",
+   "why": "print reads 'സുഐസിഅഃ' (item 63)"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 10,
+   "note": "item 7 (മാത്രമേ/മാത്രമെ): word cut off at right edge of scan after 'മാ'; cannot read"
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "B"
+  },
+  {
+   "idx": 1,
+   "print": "B"
+  },
+  {
+   "idx": 2,
+   "print": "B"
+  },
+  {
+   "idx": 3,
+   "print": "B"
+  },
+  {
+   "idx": 4,
+   "print": "B"
+  },
+  {
+   "idx": 5,
+   "print": "B"
+  },
+  {
+   "idx": 6,
+   "print": "B"
+  },
+  {
+   "idx": 8,
+   "print": "B"
+  },
+  {
+   "idx": 9,
+   "print": "B"
+  },
+  {
+   "idx": 10,
+   "print": "B"
+  },
+  {
+   "idx": 11,
+   "print": "B"
+  },
+  {
+   "idx": 12,
+   "print": "B"
+  },
+  {
+   "idx": 13,
+   "print": "B"
+  },
+  {
+   "idx": 14,
+   "print": "B"
+  },
+  {
+   "idx": 15,
+   "print": "B"
+  },
+  {
+   "idx": 16,
+   "print": "B"
+  },
+  {
+   "idx": 17,
+   "print": "B"
+  },
+  {
+   "idx": 18,
+   "print": "B"
+  },
+  {
+   "idx": 19,
+   "print": "B"
+  },
+  {
+   "idx": 20,
+   "print": "B"
+  },
+  {
+   "idx": 21,
+   "print": "B"
+  },
+  {
+   "idx": 22,
+   "print": "B"
+  },
+  {
+   "idx": 23,
+   "print": "B"
+  },
+  {
+   "idx": 24,
+   "print": "B"
+  },
+  {
+   "idx": 25,
+   "print": "B"
+  },
+  {
+   "idx": 26,
+   "print": "B"
+  },
+  {
+   "idx": 27,
+   "print": "B"
+  },
+  {
+   "idx": 28,
+   "print": "B"
+  },
+  {
+   "idx": 29,
+   "print": "B"
+  },
+  {
+   "idx": 30,
+   "print": "B"
+  },
+  {
+   "idx": 31,
+   "print": "B"
+  },
+  {
+   "idx": 32,
+   "print": "B"
+  },
+  {
+   "idx": 33,
+   "print": "B"
+  },
+  {
+   "idx": 34,
+   "print": "B"
+  },
+  {
+   "idx": 35,
+   "print": "B"
+  },
+  {
+   "idx": 36,
+   "print": "B"
+  },
+  {
+   "idx": 37,
+   "print": "B"
+  },
+  {
+   "idx": 38,
+   "print": "B"
+  },
+  {
+   "idx": 39,
+   "print": "B"
+  },
+  {
+   "idx": 40,
+   "print": "B"
+  },
+  {
+   "idx": 41,
+   "print": "B"
+  },
+  {
+   "idx": 42,
+   "print": "B"
+  },
+  {
+   "idx": 43,
+   "print": "B"
+  },
+  {
+   "idx": 44,
+   "print": "B"
+  },
+  {
+   "idx": 45,
+   "print": "B"
+  },
+  {
+   "idx": 46,
+   "print": "B"
+  },
+  {
+   "idx": 47,
+   "print": "B"
+  },
+  {
+   "idx": 48,
+   "print": "B"
+  },
+  {
+   "idx": 49,
+   "print": "B"
+  },
+  {
+   "idx": 50,
+   "print": "B"
+  },
+  {
+   "idx": 51,
+   "print": "B"
+  },
+  {
+   "idx": 52,
+   "print": "B"
+  },
+  {
+   "idx": 53,
+   "print": "B"
+  },
+  {
+   "idx": 54,
+   "print": "B"
+  },
+  {
+   "idx": 55,
+   "print": "B"
+  },
+  {
+   "idx": 56,
+   "print": "B"
+  },
+  {
+   "idx": 57,
+   "print": "B"
+  },
+  {
+   "idx": 58,
+   "print": "B"
+  },
+  {
+   "idx": 59,
+   "print": "B"
+  },
+  {
+   "idx": 60,
+   "print": "B"
+  },
+  {
+   "idx": 61,
+   "print": "B"
+  },
+  {
+   "idx": 62,
+   "print": "B"
+  },
+  {
+   "idx": 63,
+   "print": "B"
+  }
+ ]
+}

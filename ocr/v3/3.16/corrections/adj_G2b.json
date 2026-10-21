@@ -1,0 +1,57 @@
+{
+ "part": "3.16",
+ "pages_checked": [
+  59,
+  61,
+  63,
+  76
+ ],
+ "corrections": [
+  {
+   "pdf_page": 63,
+   "block": 0,
+   "old": "മലഞ്ഞെരുവുകളിൽ",
+   "new": "മലഞെരുവുകളിൽ",
+   "why": "print has ഞെ (single ഞ + e-sign, no ച/ഞ്ഞ), same printed spelling as p59"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 48,
+   "print": "A"
+  },
+  {
+   "idx": 49,
+   "print": "A"
+  },
+  {
+   "idx": 50,
+   "print": "A"
+  },
+  {
+   "idx": 51,
+   "print": "A"
+  },
+  {
+   "idx": 52,
+   "print": "A"
+  },
+  {
+   "idx": 53,
+   "print": "other"
+  },
+  {
+   "idx": 54,
+   "print": "A"
+  },
+  {
+   "idx": 55,
+   "print": "A"
+  },
+  {
+   "idx": "p76top",
+   "print": "A"
+  }
+ ]
+}

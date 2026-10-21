@@ -1,0 +1,484 @@
+{
+ "part": "2.7",
+ "pages_checked": [
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90
+ ],
+ "corrections": [
+  {
+   "pdf_page": 76,
+   "block": 0,
+   "old": "ഉമാമതുബിന്ത്",
+   "new": "ഉമാമതുബിൻത്",
+   "why": "chillu n in print"
+  },
+  {
+   "pdf_page": 76,
+   "block": 6,
+   "old": "അസ്മാഉബിന്ത്",
+   "new": "അസ്മാഉബിൻത്",
+   "why": "chillu n in print"
+  },
+  {
+   "pdf_page": 76,
+   "block": 11,
+   "old": "അവിടുത്തെ കുടുംബത്തിന്",
+   "new": "അവിടത്തെ കുടുംബത്തിന്",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 76,
+   "block": 11,
+   "old": "അവിടുന്ന് പറയുമായിരുന്നു",
+   "new": "അവിടന്ന് പറയുമായിരുന്നു",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 77,
+   "block": 0,
+   "old": "أَيَسُرُّكِ",
+   "new": "أَيَغُرُّكِ",
+   "why": "print reads yaghurruki (ghain)"
+  },
+  {
+   "pdf_page": 77,
+   "block": 1,
+   "old": "അവിടുന്ന് ഇരുന്നില്ല",
+   "new": "അവിടന്ന് ഇരുന്നില്ല",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 77,
+   "block": 1,
+   "old": "അവിടുന്ന് പറഞ്ഞു: \"ഫാത്തിമയെ",
+   "new": "അവിടന്ന് പറഞ്ഞു: \"ഫാത്തിമയെ",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 79,
+   "block": 0,
+   "old": "بَابُ: أَطْيَبُ",
+   "new": "بَابٌ: أَطْيَبُ",
+   "why": "tanween on bab"
+  },
+  {
+   "pdf_page": 79,
+   "block": 3,
+   "old": "بَابُ: الْعَنْبَرُ",
+   "new": "بَابٌ: الْعَنْبَرُ",
+   "why": "tanween on bab"
+  },
+  {
+   "pdf_page": 79,
+   "block": 6,
+   "old": "بَابُ: الذَّرِيرَةُ",
+   "new": "بَابٌ: الذَّرِيرَةُ",
+   "why": "tanween on bab"
+  },
+  {
+   "pdf_page": 79,
+   "block": 9,
+   "old": "بَابُ: التَّزَعْفُرُ",
+   "new": "بَابٌ: التَّزَعْفُرُ",
+   "why": "tanween on bab"
+  },
+  {
+   "pdf_page": 79,
+   "block": 2,
+   "old": "ഖുദ്‌രി",
+   "new": "ഖുദ്രീ",
+   "why": "long ii in print"
+  },
+  {
+   "pdf_page": 79,
+   "block": 8,
+   "old": "ഹജ്ജത്തുൽ",
+   "new": "ഹജ്ജതുൽ",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 80,
+   "block": 1,
+   "old": "അവിടുന്ന് ചോദിച്ചു: ",
+   "new": "അവിടന്ന് ചോദിച്ചു: ",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 80,
+   "block": 1,
+   "old": "അവിടുന്ന് ചോദിച്ചു. ",
+   "new": "അവിടന്ന് ചോദിച്ചു. ",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 80,
+   "block": 5,
+   "old": "അവിടുന്ന് സലാം മടക്കുകയോ",
+   "new": "അവിടന്ന് സലാം മടക്കുകയോ",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 80,
+   "block": 5,
+   "old": "അവിടുന്ന് പറഞ്ഞു: \"നീ പോയി അത് വൃത്തിയാക്കുക",
+   "new": "അവിടന്ന് പറഞ്ഞു: \"നീ പോയി അത് വൃത്തിയാക്കുക",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 80,
+   "block": 5,
+   "old": "അവിടുന്ന് പറഞ്ഞു: \"നീ പോയി അത് വൃത്തിയാക്കി",
+   "new": "അവിടന്ന് പറഞ്ഞു: \"നീ പോയി അത് വൃത്തിയാക്കി",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 80,
+   "block": 5,
+   "old": "അവിടുത്തോട് സലാം",
+   "new": "അവിടത്തോട് സലാം",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 80,
+   "block": 5,
+   "old": "ശേഷിച്ചിട്ടുണ്ട്",
+   "new": "ശേഷിപ്പുണ്ട്",
+   "why": "print wording"
+  },
+  {
+   "pdf_page": 80,
+   "block": 5,
+   "old": "വുളൂ എടുത്താൽ",
+   "new": "വുളു എടുത്താൽ",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 78,
+   "block": 9,
+   "old": "കൽപ്പിച്ചു",
+   "new": "കൽപിച്ചു",
+   "why": "print single pa"
+  },
+  {
+   "pdf_page": 81,
+   "block": 3,
+   "old": "പുരുഷന്മാർ കുങ്കുമം",
+   "new": "പുരുഷൻമാർ കുങ്കുമം",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 81,
+   "block": 5,
+   "old": "അവിടുന്ന് അവർക്ക്",
+   "new": "അവിടന്ന് അവർക്ക്",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 81,
+   "block": 5,
+   "old": "പ്രാർത്ഥിക്കുകയും",
+   "new": "പ്രാർഥിക്കുകയും",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 81,
+   "block": 5,
+   "old": "ചെയ്തു. നിവേദകൻ",
+   "new": "ചെയ്യുന്നു. നിവേദകൻ",
+   "why": "print wording"
+  },
+  {
+   "pdf_page": 82,
+   "block": 2,
+   "old": "അവിടുത്തെ ശിരസ്സിലും",
+   "new": "അവിടത്തെ ശിരസ്സിലും",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 82,
+   "block": 10,
+   "old": "അതെയെന്ന് അവൾ",
+   "new": "അതേയെന്ന് അവൾ",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 83,
+   "block": 2,
+   "old": "بَابُ: الدُّهْنُ",
+   "new": "بَابٌ: الدُّهْنُ",
+   "why": "tanween on bab"
+  },
+  {
+   "pdf_page": 83,
+   "block": 5,
+   "old": "بَابُ: الإِطِّلَاءُ",
+   "new": "بَابٌ: الإِطِّلَاءُ",
+   "why": "tanween on bab"
+  },
+  {
+   "pdf_page": 83,
+   "block": 8,
+   "old": "بَابُ: مَا جَاءَ",
+   "new": "بَابٌ: مَا جَاءَ",
+   "why": "tanween on bab"
+  },
+  {
+   "pdf_page": 83,
+   "block": 4,
+   "old": "അവിടുന്ന് തലയിൽ",
+   "new": "അവിടന്ന് തലയിൽ",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 83,
+   "block": 7,
+   "old": "അവിടുത്തെ ഭാര്യമാരും",
+   "new": "അവിടത്തെ ഭാര്യമാരും",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 83,
+   "block": 7,
+   "old": "അവിടുത്തെ ഗുഹ്യരോമത്തിൽ",
+   "new": "അവിടത്തെ ഗുഹ്യരോമത്തിൽ",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 83,
+   "block": 7,
+   "old": "ഇൻഖിത്വാഅ്",
+   "new": "ഇൻഖിതാഅ്",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 84,
+   "block": 6,
+   "old": "ചെറുപ്പ് ധരിക്കുമ്പോഴും",
+   "new": "ചെരുപ്പ് ധരിക്കുമ്പോഴും",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 84,
+   "block": 8,
+   "old": "മുഗഫൽ",
+   "new": "മുഗഫ്ഫൽ",
+   "why": "geminate in print"
+  },
+  {
+   "pdf_page": 85,
+   "block": 3,
+   "old": "മനവില്ലാത്ത",
+   "new": "നനവില്ലാത്ത",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 85,
+   "block": 8,
+   "old": "കൽപ്പിച്ചു",
+   "new": "കൽപിച്ചു",
+   "why": "print single pa"
+  },
+  {
+   "pdf_page": 85,
+   "block": 1,
+   "old": "ഉലൂവാൻ",
+   "new": "ഉലുവാൻ",
+   "why": "print short u"
+  },
+  {
+   "pdf_page": 85,
+   "block": 4,
+   "old": "ഉലൂവാൻ",
+   "new": "ഉലുവാൻ",
+   "why": "print short u"
+  },
+  {
+   "pdf_page": 85,
+   "block": 6,
+   "old": "ഉലൂവാൻ",
+   "new": "ഉലുവാൻ",
+   "why": "print short u"
+  },
+  {
+   "pdf_page": 86,
+   "block": 0,
+   "old": "അവിടുത്തെ മുടി ചുമലിൽ",
+   "new": "അവിടത്തെ മുടി ചുമലിൽ",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 86,
+   "block": 0,
+   "old": "അവിടുത്തെ ചെവിയിലേക്ക്",
+   "new": "അവിടത്തെ ചെവിയിലേക്ക്",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 86,
+   "block": 6,
+   "old": "അവിടുത്തെ രണ്ട്",
+   "new": "അവിടത്തെ രണ്ട്",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 86,
+   "block": 8,
+   "old": "അവിടുത്തെ മുടി",
+   "new": "അവിടത്തെ മുടി",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 86,
+   "block": 8,
+   "old": "അവിടുന്ന് നടക്കുകയാണെങ്കിൽ",
+   "new": "അവിടന്ന് നടക്കുകയാണെങ്കിൽ",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 86,
+   "block": 10,
+   "old": "അവിടുത്തേക്ക് ചുമലിന്റെ",
+   "new": "അവിടത്തേക്ക് ചുമലിന്റെ",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 86,
+   "block": 12,
+   "old": "അവിടുത്തെ മുടി ചെവിയുടെ",
+   "new": "അവിടത്തെ മുടി ചെവിയുടെ",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 86,
+   "block": 12,
+   "old": "അവിടുത്തെ മുഴുവൻ",
+   "new": "അവിടത്തെ മുഴുവൻ",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 86,
+   "block": 12,
+   "old": "അവിടുത്തേക്ക് ചുമലിൽ",
+   "new": "അവിടത്തേക്ക് ചുമലിൽ",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 87,
+   "block": 2,
+   "old": "അവിടുത്തെ മൂർദ്ധാവ്",
+   "new": "അവിടത്തെ മൂർദ്ധാവ്",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 87,
+   "block": 4,
+   "old": "അവിടുത്തെ നെറ്റിയിലെ",
+   "new": "അവിടത്തെ നെറ്റിയിലെ",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 88,
+   "block": 0,
+   "old": "അസ്മാഉബിന്ത്",
+   "new": "അസ്മാഉബിൻത്",
+   "why": "chillu n in print"
+  },
+  {
+   "pdf_page": 88,
+   "block": 2,
+   "old": "അബ്ദില്ല(റ)",
+   "new": "അബ്ദുല്ല(റ)",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 88,
+   "block": 6,
+   "old": "അവിടന്നത് അതിനെ",
+   "new": "അവിടന്ന് അതിനെ",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 89,
+   "block": 1,
+   "old": "ബനൂഅസദ്ദിൽ",
+   "new": "ബനുസഅ്ദിൽ",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 89,
+   "block": 1,
+   "old": "അവിടുന്ന് നിരോധിച്ചത്",
+   "new": "അവിടന്ന് നിരോധിച്ചത്",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 89,
+   "block": 1,
+   "old": "ദ,തി,ന,ജ",
+   "new": "ദ,തു,ന,ജ",
+   "why": "source code tu"
+  },
+  {
+   "pdf_page": 90,
+   "block": 5,
+   "old": "رَضِيَ اللَّهُ عَنْهُ رَضِيَ اللَّهُ عَنْهُ",
+   "new": "رَضِيَ اللَّهُ عَنْهُ",
+   "why": "duplicated phrase"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 77,
+   "hadith_no": 301,
+   "note": "Print spells Fatima as ഫാതിമ-like glyph (possibly ഫാത്വിമ or ഫാതിമ) vs JSON ഫാത്തിമ across p77 blocks; could not resolve at zoom"
+  },
+  {
+   "pdf_page": 76,
+   "hadith_no": null,
+   "note": "Print Arabic carries partial harakat (not every letter); JSON is more fully vocalised than the print on all pages; only conflicting letters/harakat were corrected"
+  },
+  {
+   "pdf_page": 79,
+   "hadith_no": 309,
+   "note": "Arabic blocks 1,4,7,10 on p79, p81 blocks 0,2,4,6,8,11, p83 and p89/p90 blocks begin with the hadith number inline (e.g. 309.) while p76-78 do not; inconsistent but left unchanged"
+  },
+  {
+   "pdf_page": 83,
+   "hadith_no": 325,
+   "note": "Malayalam isnad name: print looks like അശ്അരീ(റ) (long ii) vs JSON അശ്അരി(റ); unclear"
+  },
+  {
+   "pdf_page": 84,
+   "hadith_no": 330,
+   "note": "Malayalam name hasib: print looks like ഹസ്വീബ്/ഹസീബ് unclear"
+  },
+  {
+   "pdf_page": 90,
+   "hadith_no": 357,
+   "note": "Malayalam: print appears to read സാക്ഷികയെയും (possible misprint) vs JSON സാക്ഷിയെയും; left unchanged"
+  },
+  {
+   "pdf_page": 78,
+   "hadith_no": 305,
+   "note": "Malayalam print appears to read വെള്ളികൊണ്ടുള്ളതായിരന്നു (missing u sign, likely misprint); left as JSON"
+  },
+  {
+   "pdf_page": 77,
+   "hadith_no": 302,
+   "note": "Arabic: print may read تُصَفِّرُهُ (damma) vs JSON تُصَفِّرَهُ; Malayalam കണ്ഠാഭരണം vs print; not resolved at zoom"
+  }
+ ]
+}

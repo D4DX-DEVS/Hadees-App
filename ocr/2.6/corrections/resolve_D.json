@@ -1,0 +1,142 @@
+{
+ "part": "2.6",
+ "pages_checked": [
+  3,
+  4,
+  5,
+  6,
+  11,
+  13,
+  14,
+  39,
+  46
+ ],
+ "corrections": [
+  {
+   "pdf_page": 3,
+   "block": 4,
+   "old": "അബ്ദുല്ലാഹിബ്നു ഉമർ(റ)",
+   "new": "അബ്ദുള്ളാഇബ്നു ഉമർ(റ)",
+   "why": "print reads അബ്ദുള്ളാഇബ്നു"
+  },
+  {
+   "pdf_page": 5,
+   "block": 3,
+   "old": "(മുന്തിരിച്ചെടി)",
+   "new": "(മുന്തിരച്ചെടി)",
+   "why": "print has മുന്തിരച്ചെടി"
+  },
+  {
+   "pdf_page": 5,
+   "block": 3,
+   "old": "ബലഹീനതയുണ്ട്",
+   "new": "ബലഹീതയുണ്ട്",
+   "why": "print misprint ബലഹീതയുണ്ട്"
+  },
+  {
+   "pdf_page": 6,
+   "block": 5,
+   "old": "ഉടമ്പടി ചെയ്തിരിക്കുന്നു",
+   "new": "ഉടമ്പടി ചെതിരിക്കുന്നു",
+   "why": "printed misprint ചെതിരിക്കുന്നു"
+  },
+  {
+   "pdf_page": 6,
+   "block": 5,
+   "old": "പ്രവാചകരേ, എന്താണ്",
+   "new": "പ്രവാചകരെ, എന്താണ്",
+   "why": "print has രെ (short e)"
+  },
+  {
+   "pdf_page": 11,
+   "block": 5,
+   "old": "സ്വർണ്ണച്ചൂറ്റും",
+   "new": "സ്വർണ്ണച്ചുറ്റും",
+   "why": "print ച്ചുറ്റും"
+  },
+  {
+   "pdf_page": 11,
+   "block": 7,
+   "old": "ഞാൻ പറഞ്ഞു: ബിത്ഉം മിസ്റും.",
+   "new": "ഞാൻ പറഞ്ഞു: ബിത്ളം മിസ്റും.",
+   "why": "print reads ബിത്ളം"
+  },
+  {
+   "pdf_page": 11,
+   "block": 7,
+   "old": "ബിത്ഉം മിസ്റും എന്നാൽ",
+   "new": "ബിത്ളം മിസ്റും എന്നാൽ",
+   "why": "print reads ബിത്ളം"
+  },
+  {
+   "pdf_page": 11,
+   "block": 7,
+   "old": "ബിത്അ് എന്നത്",
+   "new": "ബ്ത്അ് എന്നത്",
+   "why": "print reads ബ്ത്അ്"
+  },
+  {
+   "pdf_page": 11,
+   "block": 7,
+   "old": "എന്താണ് ബിത്ഉം മിസ്റും",
+   "new": "എന്താണ് ബിത്ളം മിസ്റും",
+   "why": "print reads ബിത്ളം"
+  },
+  {
+   "pdf_page": 14,
+   "block": 8,
+   "old": "നിഷിദ്ധമാണ്.\" (ദ,തു)",
+   "new": "നിഷിദ്ധമാണ.\" (ദ,തു)",
+   "why": "printed without virama"
+  },
+  {
+   "pdf_page": 39,
+   "block": 2,
+   "old": "അരിച്ചെടുത്തതിനുശേഷം",
+   "new": "അരിച്ചെടുത്തതിനിശേഷം",
+   "why": "print reads തിനിശേഷം"
+  }
+ ],
+ "resolved": [
+  {
+   "pdf_page": 3,
+   "hadith_no": 8
+  },
+  {
+   "pdf_page": 4,
+   "hadith_no": 10
+  },
+  {
+   "pdf_page": 5,
+   "hadith_no": 11
+  },
+  {
+   "pdf_page": 6,
+   "hadith_no": 17
+  },
+  {
+   "pdf_page": 11,
+   "hadith_no": 34
+  },
+  {
+   "pdf_page": 11,
+   "hadith_no": 37
+  },
+  {
+   "pdf_page": 13,
+   "hadith_no": 43
+  },
+  {
+   "pdf_page": 14,
+   "hadith_no": 50
+  },
+  {
+   "pdf_page": 39,
+   "hadith_no": 159
+  },
+  {
+   "pdf_page": 46,
+   "hadith_no": 191
+  }
+ ]
+}

@@ -1,0 +1,137 @@
+{
+ "part": "4.10",
+ "pages_checked": [
+  37,
+  38,
+  39,
+  41,
+  42,
+  43,
+  44
+ ],
+ "corrections": [
+  {
+   "pdf_page": 37,
+   "block": 1,
+   "old": "عَنْهُمَا قَالَ: قَالَ رَسُولُ",
+   "new": "عَنْهُمَا: أَنَّ رَسُولَ",
+   "why": "print: عنهما: أن رسول الله ... "
+  },
+  {
+   "pdf_page": 37,
+   "block": 1,
+   "old": "وَسَلَّمَ: \"لَمْ",
+   "new": "وَسَلَّمَ قَالَ: \"لَمْ",
+   "why": "print has قال after وسلم"
+  },
+  {
+   "pdf_page": 39,
+   "block": 1,
+   "old": "മുത്വഫ്ഫിഫീനും",
+   "new": "മുത്വഫിഫീനും",
+   "why": "print has single ഫ in ഫിഫീ"
+  },
+  {
+   "pdf_page": 41,
+   "block": 1,
+   "old": "أَنْ تُقْرِيَ أُمَّتَك",
+   "new": "أَنْ تُقْرِئَ أُمَّتَك",
+   "why": "print has hamza (تقرئ)"
+  },
+  {
+   "pdf_page": 43,
+   "block": 1,
+   "old": "اسْتَزِدْهُ، حَتَّى",
+   "new": "اسْتَزِدْهُ اسْتَزِدْهُ، حَتَّى",
+   "why": "print repeats استزده twice"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 37,
+   "note": "idx2 hamza on اقرأ/اقرإ unclear at print; kept ours"
+  },
+  {
+   "pdf_page": 38,
+   "note": "idx4 hamza on اقرأ/اقرإ unclear; kept ours"
+  },
+  {
+   "pdf_page": 42,
+   "note": "idx10 ഉമരേ vs ഉമറേ (first, 'ഉമരേ, നിങ്ങളദ്ദേഹത്തെ'): ര/റ not resolvable; leaning print=A (ഉമരേ)"
+  },
+  {
+   "pdf_page": 42,
+   "note": "idx11 second ഉമരേ/ഉമറേ ('ഉമരേ, നിങ്ങൾ ഓതുക'): same, leaning A"
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "B"
+  },
+  {
+   "idx": 1,
+   "print": "B"
+  },
+  {
+   "idx": 2,
+   "print": "A"
+  },
+  {
+   "idx": 3,
+   "print": "A"
+  },
+  {
+   "idx": 4,
+   "print": "A"
+  },
+  {
+   "idx": 5,
+   "print": "A"
+  },
+  {
+   "idx": 6,
+   "print": "A"
+  },
+  {
+   "idx": 7,
+   "print": "A"
+  },
+  {
+   "idx": 8,
+   "print": "B"
+  },
+  {
+   "idx": 9,
+   "print": "B"
+  },
+  {
+   "idx": 10,
+   "print": "A"
+  },
+  {
+   "idx": 11,
+   "print": "A"
+  },
+  {
+   "idx": 12,
+   "print": "B"
+  },
+  {
+   "idx": 13,
+   "print": "A"
+  },
+  {
+   "idx": 14,
+   "print": "A"
+  },
+  {
+   "idx": 15,
+   "print": "A"
+  },
+  {
+   "idx": 16,
+   "print": "A"
+  }
+ ]
+}

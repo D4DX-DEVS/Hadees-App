@@ -1,0 +1,136 @@
+{
+ "part": "4.18",
+ "pages_checked": [
+  21,
+  23,
+  26,
+  28,
+  29,
+  32,
+  33,
+  35,
+  37
+ ],
+ "corrections": [
+  {
+   "pdf_page": 21,
+   "block": 1,
+   "old": "മർഫൂആ്",
+   "new": "മർഫൂആ",
+   "why": "print has ആ without virama"
+  },
+  {
+   "pdf_page": 26,
+   "block": 0,
+   "old": "ജെശുൽ",
+   "new": "ജൈശുൽ",
+   "why": "print has ൈ (double hook) before ജ"
+  },
+  {
+   "pdf_page": 28,
+   "block": 7,
+   "old": "الصَّرَفَ",
+   "new": "انْصَرَفَ",
+   "why": "print reads انصرف (alif+nun) in حين انصرف من الصلاة"
+  },
+  {
+   "pdf_page": 29,
+   "block": 14,
+   "old": "മഅ്ദീകിരിബ",
+   "new": "മഅ്ദീക്രിബ",
+   "why": "print: ക with chandrakkala mark, then full ര + ി (no ി after ക)"
+  },
+  {
+   "pdf_page": 32,
+   "block": 6,
+   "old": "فَأُتِيَ بِهِ",
+   "new": "فَأَتَى بِهِ",
+   "why": "print has فأتى with alif maqsura, fatha vowels"
+  },
+  {
+   "pdf_page": 33,
+   "block": 9,
+   "old": "يَأْكُلُ الثَّعْلَبَ\"",
+   "new": "يَأْكُلُ الثَّعْلَبَ؟\"",
+   "why": "print has question mark before closing quote"
+  },
+  {
+   "pdf_page": 35,
+   "block": 13,
+   "old": "التَّيْمِيِّ",
+   "new": "التَّمِيمِي",
+   "why": "print reads التميمي"
+  },
+  {
+   "pdf_page": 37,
+   "block": 8,
+   "old": "ഊറക്കിട്ടിരുന്നില്ലേയോ",
+   "new": "ഊറക്കിട്ടിരുന്നില്ലെയോ",
+   "why": "print has single-hook sign (െ) before ല്ല; same glyph as in വെള്ളം"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 21,
+   "note": "item1 'അബൂ' ends a line, 'ദർറ്(റ)' starts next; no space/hyphen evidence, kept ours (A)"
+  },
+  {
+   "pdf_page": 23,
+   "note": "item3 first word of hadith 98 Malayalam: print reads അ + round glyph w/ dot + ബൂ... (possibly അബ്ബൂഹുറൈറ) vs ours അബൂഹുറൈറ; unclear, no correction"
+  },
+  {
+   "pdf_page": 28,
+   "note": "block 8 print has ഇൗ in അബൂസഇൗദുൽ whereas JSON has ഈ (not a listed item; no correction emitted)"
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "B"
+  },
+  {
+   "idx": 1,
+   "print": "A"
+  },
+  {
+   "idx": 2,
+   "print": "A"
+  },
+  {
+   "idx": 4,
+   "print": "A"
+  },
+  {
+   "idx": 5,
+   "print": "B"
+  },
+  {
+   "idx": 6,
+   "print": "B"
+  },
+  {
+   "idx": 7,
+   "print": "A"
+  },
+  {
+   "idx": 8,
+   "print": "B"
+  },
+  {
+   "idx": 9,
+   "print": "B"
+  },
+  {
+   "idx": 10,
+   "print": "B"
+  },
+  {
+   "idx": 11,
+   "print": "B"
+  },
+  {
+   "idx": 12,
+   "print": "B"
+  }
+ ]
+}

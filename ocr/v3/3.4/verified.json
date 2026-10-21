@@ -1,0 +1,56 @@
+{
+ "pages": [
+  1,
+  4,
+  9,
+  10,
+  11,
+  13,
+  16,
+  17,
+  19,
+  20,
+  21,
+  25,
+  26,
+  28,
+  31,
+  34,
+  35,
+  40,
+  45,
+  46,
+  48,
+  49,
+  50,
+  52,
+  53,
+  54,
+  55,
+  57,
+  60,
+  62,
+  63,
+  64,
+  69,
+  70,
+  73,
+  75,
+  78
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 10,
+   "note": "idx5 decided A (യുള്ളൂ with ൂ, 'പല' / 'തവണ' split across line break); final vowel mark ൂ vs ു is low-moderate confidence"
+  },
+  {
+   "pdf_page": 28,
+   "note": "idx17 and p40 idx26: decided A (അദ്ധ്വാന with ദ്ധ ligature, glyph matches ബുദ്ധി on p1 and differs from single ധ in വിധം); moderate confidence"
+  },
+  {
+   "pdf_page": 59,
+   "note": "item idx15 (block 6) മുത്ത്വലിബിന്റെ vs മുത്വലിബിന്റെ: cluster after മു could not be resolved reliably; not decided"
+  }
+ ],
+ "applied": 13
+}

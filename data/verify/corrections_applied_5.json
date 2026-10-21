@@ -1,0 +1,562 @@
+[
+ {
+  "id": 16,
+  "edits": [
+   {
+    "old": "الْجِسْمِ",
+    "new": "الْجَسَدِ",
+    "why": "text says zakat al-jasad"
+   }
+  ]
+ },
+ {
+  "id": 126,
+  "edits": [
+   {
+    "old": "لِإِنِّي",
+    "new": "إِنِّي",
+    "why": "extra lam; source reads إني"
+   }
+  ]
+ },
+ {
+  "id": 346,
+  "edits": [
+   {
+    "old": "وَعِشْرُونَ",
+    "new": "وَعِشْرِينَ",
+    "why": "typo/wrong ending; sources agree"
+   }
+  ]
+ },
+ {
+  "id": 556,
+  "edits": [
+   {
+    "old": "بِيَدِهِ",
+    "new": "بِيَدَيْهِ",
+    "why": "our word breaks grammar/spelling; sources agree"
+   }
+  ]
+ },
+ {
+  "id": 920,
+  "edits": [
+   {
+    "old": "فَإِذَا",
+    "new": "وَإِذَا",
+    "why": "sources agree: wa-idha, parallel clause"
+   }
+  ]
+ },
+ {
+  "id": 3265,
+  "edits": [
+   {
+    "old": "أَبُو",
+    "new": "أَبَا",
+    "why": "object of علمت needs accusative أبا"
+   }
+  ]
+ },
+ {
+  "id": 3425,
+  "edits": [
+   {
+    "old": "عَالِمٍ",
+    "new": "عَابِدٍ",
+    "why": "hadith says worshipper miser, not scholar"
+   }
+  ]
+ },
+ {
+  "id": 3456,
+  "edits": [
+   {
+    "old": "يَجْعَلَهَا",
+    "new": "تَجْعَلَهَا",
+    "why": "addressing God, second person"
+   }
+  ]
+ },
+ {
+  "id": 3482,
+  "edits": [
+   {
+    "old": "ذُو",
+    "new": "ذَا",
+    "why": "typo/wrong ending; sources agree"
+   }
+  ]
+ },
+ {
+  "id": 3517,
+  "edits": [
+   {
+    "old": "أَسَدٍ",
+    "new": "أَنَسٍ",
+    "why": "Mu'adh ibn Anas al-Juhani; name misread"
+   }
+  ]
+ },
+ {
+  "id": 3554,
+  "edits": [
+   {
+    "old": "وَسُوَيْطُ",
+    "new": "وَسُوَيْبِطُ",
+    "why": "name is Suwaybit; letter dropped"
+   },
+   {
+    "old": "سُوَيْطٌ",
+    "new": "سُوَيْبِطٌ",
+    "why": "name is Suwaybit; letter dropped"
+   },
+   {
+    "old": "سُوَيْطٌ",
+    "new": "سُوَيْبِطٌ",
+    "why": "name Suwaybit, dropped letter"
+   }
+  ]
+ },
+ {
+  "id": 3659,
+  "edits": [
+   {
+    "old": "تُوكَأُ",
+    "new": "يُوكَأُ",
+    "why": "masculine saqa, yuka'"
+   }
+  ]
+ },
+ {
+  "id": 3987,
+  "edits": [
+   {
+    "old": "الصُّورَةِ",
+    "new": "الصُّوَرِ",
+    "why": "Plural pictures; matches 'yu'adhdhabun'"
+   }
+  ]
+ },
+ {
+  "id": 4217,
+  "edits": [
+   {
+    "old": "دَارَانِ",
+    "new": "سُورَانِ",
+    "why": "two walls beside the path, not houses"
+   }
+  ]
+ },
+ {
+  "id": 4221,
+  "edits": [
+   {
+    "old": "وَتَعَدَّوْا",
+    "new": "وَقَعَدُوا",
+    "why": "typo/wrong ending; sources agree"
+   }
+  ]
+ },
+ {
+  "id": 4277,
+  "edits": [
+   {
+    "old": "فَلْيَحْمِلْهُ",
+    "new": "فَلْيَمْحُهُ",
+    "why": "wrong word; 'let him erase it'"
+   }
+  ]
+ },
+ {
+  "id": 4302,
+  "edits": [
+   {
+    "old": "تَصُومَ",
+    "new": "نَصُومَ",
+    "why": "narrators ask 'that we fast'"
+   }
+  ]
+ },
+ {
+  "id": 4396,
+  "edits": [
+   {
+    "old": "تَعَوَّذُ",
+    "new": "يَتَعَوَّذُ",
+    "why": "dropped letter; verb form broken"
+   }
+  ]
+ },
+ {
+  "id": 4462,
+  "edits": [
+   {
+    "old": "عُمَرَ",
+    "new": "عَمْرٍو",
+    "why": "our word wrong in context; source word correct"
+   }
+  ]
+ },
+ {
+  "id": 4495,
+  "edits": [
+   {
+    "old": "تَسْأَلِينَ",
+    "new": "تَسْأَلِي",
+    "why": "nun should drop after أن"
+   }
+  ]
+ },
+ {
+  "id": 4528,
+  "edits": [
+   {
+    "old": "يَضُرُّهُ",
+    "new": "فَيَضُرُّهُ",
+    "why": "fa dropped; rhetorical question wording"
+   }
+  ]
+ },
+ {
+  "id": 4585,
+  "edits": [
+   {
+    "old": "وَنَبِيِّكَ",
+    "new": "وَبِنَبِيِّكَ",
+    "why": "preposition ب dropped; Tirmidhi has وبنبيك"
+   }
+  ]
+ },
+ {
+  "id": 11831,
+  "edits": [
+   {
+    "old": "يَأْتِي",
+    "new": "يَأْتَسِي",
+    "why": "'follows a saying'; yati breaks meaning"
+   }
+  ]
+ },
+ {
+  "id": 11922,
+  "edits": [
+   {
+    "old": "الْيَمَنِ",
+    "new": "الْغَنَمِ",
+    "why": "sakina among sheep owners, not Yemen"
+   }
+  ]
+ },
+ {
+  "id": 11978,
+  "edits": [
+   {
+    "old": "شَغَفَ",
+    "new": "شَعَفَ",
+    "why": "شعف الجبال is correct; شغف is a misreading"
+   }
+  ]
+ },
+ {
+  "id": 12584,
+  "edits": [
+   {
+    "old": "جِئْتُ",
+    "new": "جَاءَ",
+    "why": "the Prophet came, not narrator"
+   }
+  ]
+ },
+ {
+  "id": 12702,
+  "edits": [
+   {
+    "old": "فَآبَ",
+    "new": "فَثَابَ",
+    "why": "Bukhari reads فثاب (gathered)"
+   }
+  ]
+ },
+ {
+  "id": 12759,
+  "edits": [
+   {
+    "old": "خُطْوَاتُهُ",
+    "new": "خَطْوَتَاهُ",
+    "why": "our word breaks grammar/spelling; sources agree"
+   }
+  ]
+ },
+ {
+  "id": 12863,
+  "edits": [
+   {
+    "old": "يَقْظَانَ",
+    "new": "يَقْظَانًا",
+    "why": "typo/wrong ending; sources agree"
+   }
+  ]
+ },
+ {
+  "id": 13097,
+  "edits": [
+   {
+    "old": "وَهُوَقَائِمٌ",
+    "new": "وَهُوَ قَائِمٌ",
+    "why": "missing space between words"
+   }
+  ]
+ },
+ {
+  "id": 13147,
+  "edits": [
+   {
+    "old": "سَلَّمَ",
+    "new": "وَسَلَّمَ",
+    "why": "dropped waw in salutation"
+   }
+  ]
+ },
+ {
+  "id": 13166,
+  "edits": [
+   {
+    "old": "لَيُسَمِّهَا",
+    "new": "لَيُسَمِّيهَا",
+    "why": "typo/wrong ending; sources agree"
+   }
+  ]
+ },
+ {
+  "id": 13254,
+  "edits": [
+   {
+    "old": "زُرَيْقٍ",
+    "new": "رُزَيْقٍ",
+    "why": "Name is Shu'ayb ibn Ruzayq"
+   }
+  ]
+ },
+ {
+  "id": 13412,
+  "edits": [
+   {
+    "old": "مَنَاكِبًا",
+    "new": "مَنَاكِبَ",
+    "why": "diptote; no tanwin"
+   }
+  ]
+ },
+ {
+  "id": 13681,
+  "edits": [
+   {
+    "old": "لَيَتَوَاعَدُونِي",
+    "new": "لَيَتَوَاعَدُونَنِي",
+    "why": "our word breaks grammar/spelling; sources agree"
+   }
+  ]
+ },
+ {
+  "id": 13869,
+  "edits": [
+   {
+    "old": "أَخُ",
+    "new": "أَخُو",
+    "why": "our word breaks grammar/spelling; sources agree"
+   }
+  ]
+ },
+ {
+  "id": 14162,
+  "edits": [
+   {
+    "old": "فَتَوَاطَيْتُ",
+    "new": "فَتَوَاطَأْتُ",
+    "why": "our word breaks grammar/spelling; sources agree"
+   }
+  ]
+ },
+ {
+  "id": 14260,
+  "edits": [
+   {
+    "old": "لِتَلْعَنَ",
+    "new": "لِتَلْتَعِنَ",
+    "why": "our word wrong in context; source word correct"
+   }
+  ]
+ },
+ {
+  "id": 14836,
+  "edits": [
+   {
+    "old": "فَذَكَرَتْ",
+    "new": "فَذَكَرَ",
+    "why": "subject is the Prophet, masculine"
+   }
+  ]
+ },
+ {
+  "id": 15162,
+  "edits": [
+   {
+    "old": "أَنْ",
+    "new": "عَنْ",
+    "why": "our word wrong in context; source word correct"
+   }
+  ]
+ },
+ {
+  "id": 15348,
+  "edits": [
+   {
+    "old": "الْعَوَرُ",
+    "new": "الْعَارِيَةُ",
+    "why": "our word breaks grammar/spelling; sources agree"
+   }
+  ]
+ },
+ {
+  "id": 15418,
+  "edits": [
+   {
+    "old": "بِكُمْ",
+    "new": "بِهِمْ",
+    "why": "Refers to captives, not addressees"
+   }
+  ]
+ },
+ {
+  "id": 15561,
+  "edits": [
+   {
+    "old": "أَعْلَاهَا",
+    "new": "أَغْلَاهَا",
+    "why": "correct word is aghlaha (most precious)"
+   }
+  ]
+ },
+ {
+  "id": 15689,
+  "edits": [
+   {
+    "old": "الْخَيرِ",
+    "new": "الْخَبَرِ",
+    "why": "نحو هذا الخبر; الخير is a typo"
+   }
+  ]
+ },
+ {
+  "id": 15712,
+  "edits": [
+   {
+    "old": "عِمْرَانُ",
+    "new": "حُمْرَانُ",
+    "why": "typo/wrong ending; sources agree"
+   }
+  ]
+ },
+ {
+  "id": 15765,
+  "edits": [
+   {
+    "old": "مُرَّةَ",
+    "new": "قُرَّةَ",
+    "why": "Companion is Amr ibn Qurra"
+   }
+  ]
+ },
+ {
+  "id": 16146,
+  "edits": [
+   {
+    "old": "اسْتَثْبَتُّ",
+    "new": "اسْتَبَنْتُ",
+    "why": "typo/wrong ending; sources agree"
+   }
+  ]
+ },
+ {
+  "id": 16365,
+  "edits": [
+   {
+    "old": "سَيِّءِ",
+    "new": "سَيِّئِ",
+    "why": "Correct hamza spelling of sayyi'"
+   }
+  ]
+ },
+ {
+  "id": 16737,
+  "edits": [
+   {
+    "old": "فِي",
+    "new": "وَفِي",
+    "why": "circumstantial clause وفي حجرتي جارية"
+   }
+  ]
+ },
+ {
+  "id": 16749,
+  "edits": [
+   {
+    "old": "مِمَّا",
+    "new": "مِمَّ",
+    "why": "مم interrogative required; مما is wrong"
+   }
+  ]
+ },
+ {
+  "id": 16827,
+  "edits": [
+   {
+    "old": "فَلْيُصَلِّي",
+    "new": "فَلْيُصَلِّ",
+    "why": "Jussive imperative; extra yaa wrong"
+   }
+  ]
+ },
+ {
+  "id": 16940,
+  "edits": [
+   {
+    "old": "دَعَوْتُ",
+    "new": "لَدَعَوْتُ",
+    "why": "Missing lam of apodosis after lawla"
+   }
+  ]
+ },
+ {
+  "id": 17018,
+  "edits": [
+   {
+    "old": "إِمَا",
+    "new": "مَا",
+    "why": "our word breaks grammar/spelling; sources agree"
+   }
+  ]
+ },
+ {
+  "id": 17406,
+  "edits": [
+   {
+    "old": "تَبَعَةً",
+    "new": "تَبَعًا",
+    "why": "'follower' fits; تَبَعَةً means liability"
+   }
+  ]
+ },
+ {
+  "id": 17630,
+  "edits": [
+   {
+    "old": "أَلَ",
+    "new": "أَلَا",
+    "why": "typo/wrong ending; sources agree"
+   }
+  ]
+ }
+]

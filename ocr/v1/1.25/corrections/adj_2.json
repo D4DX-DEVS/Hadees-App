@@ -1,0 +1,170 @@
+{
+ "part": "1.25",
+ "pages_checked": [
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  34,
+  35,
+  36,
+  37,
+  38
+ ],
+ "corrections": [
+  {
+   "pdf_page": 27,
+   "block": 5,
+   "old": "أَبِي سَعِيدٍ",
+   "new": "أَبِى سَعِيدٍ",
+   "why": "print has dotless final ى"
+  },
+  {
+   "pdf_page": 28,
+   "block": 11,
+   "old": "മറക്കുന്നതാണെങ്കിൽ",
+   "new": "മറക്കുന്നതാണങ്കിൽ",
+   "why": "print: താണ / ങ്കിൽ across line break"
+  },
+  {
+   "pdf_page": 29,
+   "block": 3,
+   "old": "\"ആര് ",
+   "new": "\"ആർ ",
+   "why": "print has chillu ർ"
+  },
+  {
+   "pdf_page": 29,
+   "block": 10,
+   "old": "കൊണ്ടിരിക്കെ നിസ്കാരത്തിനായി",
+   "new": "കൊണ്ടിരിക്കെ നിസ്കാര സമയമായാൽ നിസ്കാരത്തിനായി",
+   "why": "print has extra words നിസ്കാര സമയമായാൽ"
+  },
+  {
+   "pdf_page": 30,
+   "block": 8,
+   "old": "\"ആര് ",
+   "new": "\"ആർ ",
+   "why": "print has chillu ർ"
+  },
+  {
+   "pdf_page": 31,
+   "block": 1,
+   "old": "وَسَلَّمَ يُصَلِّي عَلَى",
+   "new": "وَسَلَّمَ يُصَلِّى عَلَى",
+   "why": "print dotless final ى"
+  },
+  {
+   "pdf_page": 31,
+   "block": 0,
+   "old": "പ്രാർഥിച്ചു",
+   "new": "പ്രാർത്ഥിച്ചു",
+   "why": "print has ത്ഥ"
+  },
+  {
+   "pdf_page": 31,
+   "block": 4,
+   "old": "(തഹ്റീം:5)",
+   "new": "(തഹ്രീം:5)",
+   "why": "print ര not റ (moderate confidence)"
+  },
+  {
+   "pdf_page": 32,
+   "block": 14,
+   "old": "وَسَلَّمَ يُصَلِّي عَلَى",
+   "new": "وَسَلَّمَ يُصَلِّى عَلَى",
+   "why": "print dotless final ى"
+  },
+  {
+   "pdf_page": 35,
+   "block": 2,
+   "old": "فَقَالَ لِي بِيَدِهِ هَكَذَا فَأَوْمَأَ",
+   "new": "فَقَالَ لِي هَكَذَا فَأَوْمَأَ",
+   "why": "print omits بيده in 2nd occurrence"
+  },
+  {
+   "pdf_page": 36,
+   "block": 7,
+   "old": "അബൂദർറ്",
+   "new": "അബുദർറ്",
+   "why": "print ബു (open ring), not ബൂ"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "A"
+  },
+  {
+   "idx": 1,
+   "print": "B"
+  },
+  {
+   "idx": 2,
+   "print": "B"
+  },
+  {
+   "idx": 3,
+   "print": "B"
+  },
+  {
+   "idx": 4,
+   "print": "B"
+  },
+  {
+   "idx": 5,
+   "print": "A"
+  },
+  {
+   "idx": 6,
+   "print": "B"
+  },
+  {
+   "idx": 7,
+   "print": "A"
+  },
+  {
+   "idx": 8,
+   "print": "B"
+  },
+  {
+   "idx": 9,
+   "print": "B"
+  },
+  {
+   "idx": 10,
+   "print": "B"
+  },
+  {
+   "idx": 11,
+   "print": "B"
+  },
+  {
+   "idx": 12,
+   "print": "A"
+  },
+  {
+   "idx": 13,
+   "print": "B"
+  },
+  {
+   "idx": 14,
+   "print": "A"
+  },
+  {
+   "idx": 15,
+   "print": "B"
+  },
+  {
+   "idx": 16,
+   "print": "A"
+  },
+  {
+   "idx": 17,
+   "print": "A"
+  }
+ ]
+}

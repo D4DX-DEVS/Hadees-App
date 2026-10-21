@@ -1,0 +1,117 @@
+{
+ "part": "1.18",
+ "pages_checked": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  10,
+  11,
+  13
+ ],
+ "corrections": [
+  {
+   "pdf_page": 1,
+   "block": 9,
+   "old": "അബൂമൂസൽ",
+   "new": "അബുമുസൽ",
+   "why": "print: അബുമുസൽ (short ു)"
+  },
+  {
+   "pdf_page": 4,
+   "block": 3,
+   "old": "اسْتَقْلَتْ",
+   "new": "اسْتَثْقَلَتْ",
+   "why": "print has ث (three dots)"
+  },
+  {
+   "pdf_page": 4,
+   "block": 2,
+   "old": "അവനാണെന്നും",
+   "new": "അവന്നാണെന്നും",
+   "why": "print ന്ന"
+  },
+  {
+   "pdf_page": 5,
+   "block": 7,
+   "old": "നിന്റെ വാക്കും സത്യമാണ്, നിന്റെ വാഗ്ദാനവും സത്യമാണ്, നിന്നെ",
+   "new": "നിന്റെ വാഗ്ദാനവും സത്യമാണ്. നിന്റെ വാക്കും സത്യമാണ്, നിന്നെ",
+   "why": "print order: വാഗ്ദാനവും before വാക്കും"
+  },
+  {
+   "pdf_page": 11,
+   "block": 3,
+   "old": "കുഷ്ഠം രോഗം,",
+   "new": "കുഷ്ഠരോഗം,",
+   "why": "line-wrap word കുഷ്ഠ/രോഗം, no space"
+  },
+  {
+   "pdf_page": 13,
+   "block": 0,
+   "old": "ചെയ്യുന്നില്ലെങ്കിൽ മാസത്തിലൊരിക്കൽ",
+   "new": "ചെയ്യുന്നില്ലെങ്കൽ മാസത്തിലൊരിക്കൽ",
+   "why": "print typo ങ്കൽ at 2nd occurrence"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "A"
+  },
+  {
+   "idx": 1,
+   "print": "B"
+  },
+  {
+   "idx": 2,
+   "print": "A"
+  },
+  {
+   "idx": 3,
+   "print": "A"
+  },
+  {
+   "idx": 4,
+   "print": "B"
+  },
+  {
+   "idx": 5,
+   "print": "B"
+  },
+  {
+   "idx": 6,
+   "print": "B"
+  },
+  {
+   "idx": 7,
+   "print": "B"
+  },
+  {
+   "idx": 8,
+   "print": "A"
+  },
+  {
+   "idx": 9,
+   "print": "A"
+  },
+  {
+   "idx": 10,
+   "print": "A"
+  },
+  {
+   "idx": 11,
+   "print": "B"
+  },
+  {
+   "idx": 12,
+   "print": "A"
+  },
+  {
+   "idx": 13,
+   "print": "B"
+  }
+ ]
+}

@@ -1,0 +1,285 @@
+{
+  "part": "4.1",
+  "pages_checked": [
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    58,
+    59,
+    60,
+    61,
+    62,
+    65
+  ],
+  "corrections": [
+    {
+      "pdf_page": 51,
+      "block": 1,
+      "old": "لِمَحْضَرِ",
+      "new": "مَحْضَرِ",
+      "why": "print reads كَرَاهِيَةً مَحْضَرِ (no lam); Opus right"
+    },
+    {
+      "pdf_page": 51,
+      "block": 0,
+      "old": "ബനൂനളീറിന്റെ",
+      "new": "ബനൂന്നളീറിന്റെ",
+      "why": "line-wrapped as ബനൂ / ന്നളീറിന്റെ; print has ന്ന; Opus right"
+    },
+    {
+      "pdf_page": 56,
+      "block": 0,
+      "old": "مَحْمِيَةَ بْنَ",
+      "new": "مَحْمِئَةَ بْنَ",
+      "why": "print shows hamza-seat ئ in the name (حمئة), not ي; Opus right"
+    },
+    {
+      "pdf_page": 56,
+      "block": 0,
+      "old": "لِمَحْمِيَةَ:",
+      "new": "لِمَحْمِئَةَ:",
+      "why": "same name in 'أنكح ... لمحمئة'; print ئ; Opus right"
+    },
+    {
+      "pdf_page": 58,
+      "block": 0,
+      "old": "فَاسْتَأْذَنَ لَهُ",
+      "new": "فَاسْتَأْذَنَ فَأَذِنَ لَهُ",
+      "why": "print has فأذن (fa-asdhana fa-adhina lahu); Sonnet omits it; Opus right"
+    },
+    {
+      "pdf_page": 59,
+      "block": 3,
+      "old": "ഫാതിമ(റ) ആസുകല്ല്",
+      "new": "ഫാത്വിമ(റ) ആസുകല്ല്",
+      "why": "print shows ത്വ (vowel-sign വ after ത) in ഫാത്വിമ before ആസുകല്ല്; Opus right"
+    },
+    {
+      "pdf_page": 62,
+      "block": 6,
+      "old": "മുഹമ്മെദുർറസൂലുല്ലാഹി(സ)യിൽ",
+      "new": "മുഹമ്മദുർറസൂലുല്ലാഹി(സ)യിൽ",
+      "why": "print reads മുഹമ്മദുർ (no െ vowel sign); Opus right"
+    },
+    {
+      "pdf_page": 65,
+      "block": 1,
+      "old": "വതീഹത്,",
+      "new": "വത്വീഹത്,",
+      "why": "print shows ത്വ (ത + വ-hook) in വത്വീഹത്; Opus right"
+    },
+    {
+      "pdf_page": 65,
+      "block": 1,
+      "old": "നതാത്",
+      "new": "നത്വാത്",
+      "why": "print shows ത്വ in നത്വാത്; Opus right"
+    },
+    {
+      "pdf_page": 65,
+      "block": 1,
+      "old": "ഫൈഅ്ആയി",
+      "new": "ഫൈഅായി",
+      "why": "print ഫൈഅായി without virama; Opus right"
+    }
+  ],
+  "uncertain": [
+    {
+      "pdf_page": 53,
+      "note": "idx34 block 0: അബൂബക്കർ(റ)വിനോട് (Sonnet) vs അബൂബക്ർ(റ)വിനോട് (Opus) in 'അലി(റ) അബൂബക്കർ(റ)വിനോട് സംസാ' - ക്ക vs ക്ർ glyph not decidable at this resolution -> held"
+    },
+    {
+      "pdf_page": 53,
+      "note": "idx35 block 0: 'അലി(റ) അബൂബക്കർ(റ)' line-end before 'വിനോട് പറഞ്ഞു' - same ക്ക/ക്ർ question -> held"
+    },
+    {
+      "pdf_page": 53,
+      "note": "idx36 block 5: മുത്വലിബ് (Sonnet) vs മുത്ത്വലിബ് (Opus); doubled ത്ത vs single ത before ്വ not decidable at this resolution -> held (rechecked, earlier call A withdrawn)"
+    },
+    {
+      "pdf_page": 54,
+      "note": "idx37-42: six മുത്വലിബ് vs മുത്ത്വലിബ് (Opus) - the ത്ത/്വ glyph count could not be decided with certainty at this resolution -> all held"
+    },
+    {
+      "pdf_page": 56,
+      "note": "idx46-49: മുത്വലിബ് vs മുത്ത്വലിബ് variants - ത്ത/്വ glyph count not decidable -> held"
+    },
+    {
+      "pdf_page": 58,
+      "note": "idx53: അബ്ദുൽമുത്വലിബാണത് vs അബ്ദുൽമുത്ത്വലിബാണത് - ത്ത/്വ glyph not decidable -> held"
+    },
+    {
+      "pdf_page": 57,
+      "note": "idx50 abdulmuthalib (ത്ത/്വ glyph) held; page 57 not viewed visually"
+    },
+    {
+      "pdf_page": 59,
+      "note": "idx55 അബ്ദുൽമുത്വലിബിന്റെ (ത്ത്വ glyph) held"
+    },
+    {
+      "pdf_page": 60,
+      "note": "idx60 \"ഫാതിമ, vs \"ഫാത്വിമ, : ത്വ glyph not certain at this crop -> held"
+    }
+  ],
+  "decisions": [
+    {
+      "idx": 27,
+      "print": "B"
+    },
+    {
+      "idx": 28,
+      "print": "B"
+    },
+    {
+      "idx": 29,
+      "print": "A"
+    },
+    {
+      "idx": 30,
+      "print": "A"
+    },
+    {
+      "idx": 31,
+      "print": "A"
+    },
+    {
+      "idx": 32,
+      "print": "A"
+    },
+    {
+      "idx": 33,
+      "print": "A"
+    },
+    {
+      "idx": 34,
+      "print": "uncertain"
+    },
+    {
+      "idx": 35,
+      "print": "uncertain"
+    },
+    {
+      "idx": 36,
+      "print": "uncertain"
+    },
+    {
+      "idx": 37,
+      "print": "uncertain"
+    },
+    {
+      "idx": 38,
+      "print": "uncertain"
+    },
+    {
+      "idx": 39,
+      "print": "uncertain"
+    },
+    {
+      "idx": 40,
+      "print": "uncertain"
+    },
+    {
+      "idx": 41,
+      "print": "uncertain"
+    },
+    {
+      "idx": 42,
+      "print": "uncertain"
+    },
+    {
+      "idx": 43,
+      "print": "A"
+    },
+    {
+      "idx": 44,
+      "print": "B"
+    },
+    {
+      "idx": 45,
+      "print": "B"
+    },
+    {
+      "idx": 46,
+      "print": "uncertain"
+    },
+    {
+      "idx": 47,
+      "print": "uncertain"
+    },
+    {
+      "idx": 48,
+      "print": "uncertain"
+    },
+    {
+      "idx": 49,
+      "print": "uncertain"
+    },
+    {
+      "idx": 51,
+      "print": "B"
+    },
+    {
+      "idx": 52,
+      "print": "A"
+    },
+    {
+      "idx": 53,
+      "print": "uncertain"
+    },
+    {
+      "idx": 54,
+      "print": "A"
+    },
+    {
+      "idx": 56,
+      "print": "A"
+    },
+    {
+      "idx": 50,
+      "print": "uncertain"
+    },
+    {
+      "idx": 55,
+      "print": "uncertain"
+    },
+    {
+      "idx": 57,
+      "print": "A"
+    },
+    {
+      "idx": 58,
+      "print": "A"
+    },
+    {
+      "idx": 59,
+      "print": "B"
+    },
+    {
+      "idx": 60,
+      "print": "uncertain"
+    },
+    {
+      "idx": 61,
+      "print": "A"
+    },
+    {
+      "idx": 62,
+      "print": "B"
+    },
+    {
+      "idx": 63,
+      "print": "B"
+    },
+    {
+      "idx": 64,
+      "print": "B"
+    },
+    {
+      "idx": 65,
+      "print": "B"
+    }
+  ]
+}

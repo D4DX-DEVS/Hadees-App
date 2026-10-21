@@ -1,0 +1,220 @@
+{
+ "part": "3.16",
+ "pages_checked": [
+  3,
+  4,
+  5,
+  6,
+  7,
+  9,
+  10,
+  11,
+  15,
+  24,
+  28,
+  29,
+  30,
+  31
+ ],
+ "corrections": [
+  {
+   "pdf_page": 3,
+   "block": 2,
+   "old": "അബൂഹുറൈറ(റ) പറയുന്നു",
+   "new": "അബുഹുറൈറ(റ) പറയുന്നു",
+   "why": "print short u"
+  },
+  {
+   "pdf_page": 3,
+   "block": 4,
+   "old": "അവകാശത്തോടുകടെയല്ലാതെ കൈകാര്യം",
+   "new": "അവകാശത്തോടുകടെയല്ലാതെ ഞാൻ കൈകാര്യം",
+   "why": "print has ഞാൻ"
+  },
+  {
+   "pdf_page": 3,
+   "block": 4,
+   "old": "അവർ സംരക്ഷിച്ചിരിക്കുന്നു",
+   "new": "അവർ സംരക്ഷിച്ചിരുക്കുന്നു",
+   "why": "print typo ചിരുക്കു"
+  },
+  {
+   "pdf_page": 3,
+   "block": 4,
+   "old": "ബാധ്യതയാണ്",
+   "new": "ബാദ്ധ്യതയാണ്",
+   "why": "print ദ്ധ്യ"
+  },
+  {
+   "pdf_page": 6,
+   "block": 3,
+   "old": "നോമ്പനുഷ്ടിക്കാനും",
+   "new": "നോമ്പനുഷ്ഠിക്കാനും",
+   "why": "print ഷ്ഠി"
+  },
+  {
+   "pdf_page": 7,
+   "block": 4,
+   "old": "كَمَثَلِ الْقَائِمِ",
+   "new": "مَثَلُ الْقَائِمِ",
+   "why": "print has no kaf"
+  },
+  {
+   "pdf_page": 9,
+   "block": 0,
+   "old": "അവൻ ഭാര്യമാരായി",
+   "new": "അവന് ഭാര്യമാരായി",
+   "why": "print അവന്"
+  },
+  {
+   "pdf_page": 9,
+   "block": 8,
+   "old": "യുദ്ധമുതലിനോടുമൊപ്പം",
+   "new": "യുദ്ധമുതലോടുമൊപ്പം",
+   "why": "print"
+  },
+  {
+   "pdf_page": 10,
+   "block": 5,
+   "old": "وَمَتَى",
+   "new": "وَمَتَي",
+   "why": "print dotted ya"
+  },
+  {
+   "pdf_page": 11,
+   "block": 1,
+   "old": "ഖന്ദഖ്",
+   "new": "ഖൻദഖ്",
+   "why": "print"
+  },
+  {
+   "pdf_page": 15,
+   "block": 8,
+   "old": "മാർഗത്തിൽ യുദ്ധം",
+   "new": "മാർഗ്ഗത്തിൽ യുദ്ധം",
+   "why": "print ഗ്ഗ"
+  },
+  {
+   "pdf_page": 24,
+   "block": 4,
+   "old": "കൂടിനിൽക്കുന്നു.",
+   "new": "കൂടിനിൽകുന്നു.",
+   "why": "print"
+  },
+  {
+   "pdf_page": 28,
+   "block": 2,
+   "old": "ഒരുത്തൻ അമ്പെയ്ത്ത്",
+   "new": "ഒരുത്തന് അമ്പെയ്ത്ത്",
+   "why": "print chandrakkala"
+  },
+  {
+   "pdf_page": 29,
+   "block": 2,
+   "old": "ഇവന്റെ ഓരോ അവയവവും",
+   "new": "ഇവന്റെ ഓരോ അവയവും",
+   "why": "print"
+  },
+  {
+   "pdf_page": 30,
+   "block": 1,
+   "old": "തെറ്റിയാൽ അസ്വ്ർ വരെ",
+   "new": "തെറ്റിയാൽ അസ്വ്റ് വരെ",
+   "why": "print has റ + virama, not chillu (hat visible)"
+  },
+  {
+   "pdf_page": 30,
+   "block": 1,
+   "old": "ശേഷം അസ്വ്ർ നമസ്കരിക്കും",
+   "new": "ശേഷം അസ്വ്റ് നമസ്കരിക്കും",
+   "why": "same"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "B"
+  },
+  {
+   "idx": 1,
+   "print": "A"
+  },
+  {
+   "idx": 2,
+   "print": "B"
+  },
+  {
+   "idx": 3,
+   "print": "B"
+  },
+  {
+   "idx": 4,
+   "print": "B"
+  },
+  {
+   "idx": 5,
+   "print": "A"
+  },
+  {
+   "idx": 6,
+   "print": "A"
+  },
+  {
+   "idx": 7,
+   "print": "B"
+  },
+  {
+   "idx": 8,
+   "print": "B"
+  },
+  {
+   "idx": 9,
+   "print": "B"
+  },
+  {
+   "idx": 10,
+   "print": "B"
+  },
+  {
+   "idx": 11,
+   "print": "B"
+  },
+  {
+   "idx": 12,
+   "print": "B"
+  },
+  {
+   "idx": 13,
+   "print": "B"
+  },
+  {
+   "idx": 14,
+   "print": "B"
+  },
+  {
+   "idx": 15,
+   "print": "B"
+  },
+  {
+   "idx": 16,
+   "print": "B"
+  },
+  {
+   "idx": 17,
+   "print": "B"
+  },
+  {
+   "idx": 18,
+   "print": "B"
+  },
+  {
+   "idx": 19,
+   "print": "A"
+  },
+  {
+   "idx": 20,
+   "print": "A"
+  }
+ ]
+}

@@ -1,0 +1,321 @@
+{
+ "part": "2.12",
+ "pages_checked": [
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96
+ ],
+ "corrections": [
+  {
+   "pdf_page": 85,
+   "block": 6,
+   "old": "ചെളിയിൽ",
+   "new": "ചളിയിൽ",
+   "why": "print ചളിയിൽ"
+  },
+  {
+   "pdf_page": 85,
+   "block": 9,
+   "old": "ആരാധൃനില്ലെന്ന്",
+   "new": "ആരാധ്യനില്ലെന്ന്",
+   "why": "ya conjunct (്യ) misread as ൃ"
+  },
+  {
+   "pdf_page": 86,
+   "block": 3,
+   "old": "ആരാധൃനില്ലെന്ന്",
+   "new": "ആരാധ്യനില്ലെന്ന്",
+   "why": "ya conjunct misread as ൃ"
+  },
+  {
+   "pdf_page": 86,
+   "block": 5,
+   "old": "അഭിവൃദ്ധി നൽകിയതു പോലെ",
+   "new": "അഭിവൃദ്ധി നൽകിയത് പോലെ",
+   "why": "printed ത് not തു"
+  },
+  {
+   "pdf_page": 87,
+   "block": 2,
+   "old": "ആണിന്നും പെണ്ണിന്നും",
+   "new": "ആണിനും പെണ്ണിനും",
+   "why": "printed spelling"
+  },
+  {
+   "pdf_page": 87,
+   "block": 4,
+   "old": "പറയുകയുണ്ടായിരുന്നു",
+   "new": "പറയുന്നുണ്ടായിരുന്നു",
+   "why": "printed wording"
+  },
+  {
+   "pdf_page": 87,
+   "block": 6,
+   "old": "മയ്യിത്തിന് വേണ്ടി പ്രാർത്ഥിക്കുന്നത്",
+   "new": "മയ്യിത്തിന്ന് വേണ്ടി പ്രാർത്ഥിക്കുന്നത്",
+   "why": "printed ന്ന്"
+  },
+  {
+   "pdf_page": 88,
+   "block": 6,
+   "old": "ആരാധൃനില്ലെന്നും",
+   "new": "ആരാധ്യനില്ലെന്നും",
+   "why": "ya conjunct misread"
+  },
+  {
+   "pdf_page": 89,
+   "block": 0,
+   "old": "ആരാധൃനില്ലെന്നും",
+   "new": "ആരാധ്യനില്ലെന്നും",
+   "why": "ya conjunct misread"
+  },
+  {
+   "pdf_page": 90,
+   "block": 1,
+   "old": "പോകുന്നതു് വരെ",
+   "new": "പോകുന്നത് വരെ",
+   "why": "stray ു് sign"
+  },
+  {
+   "pdf_page": 90,
+   "block": 4,
+   "old": "അബ്ദില്ലാ(റ)",
+   "new": "അബ്ദില്ല(റ)",
+   "why": "printed spelling"
+  },
+  {
+   "pdf_page": 90,
+   "block": 7,
+   "old": "അവിടുന്ന് അൽബഖറ",
+   "new": "അവിടന്ന് അൽബഖറ",
+   "why": "printed spelling"
+  },
+  {
+   "pdf_page": 90,
+   "block": 7,
+   "old": "കാരുണ്യത്തിന്റെ സൂക്തം",
+   "new": "കരുണയുടെ സൂക്തം",
+   "why": "printed wording"
+  },
+  {
+   "pdf_page": 91,
+   "block": 1,
+   "old": "പറയുണ്ടായിരുന്നു: \"അല്ലാഹുവാണ്",
+   "new": "പറയുന്നുണ്ടായിരുന്നു: \"അല്ലാഹുവാണ്",
+   "why": "missing ന്ന"
+  },
+  {
+   "pdf_page": 91,
+   "block": 1,
+   "old": "പറയുണ്ടായിരുന്നു: \"ഉത്തമനായ എന്റെ",
+   "new": "പറയുന്നുണ്ടായിരുന്നു: \"ഉത്തമനായ എന്റെ",
+   "why": "missing ന്ന"
+  },
+  {
+   "pdf_page": 91,
+   "block": 1,
+   "old": "പറയുണ്ടായിരുന്നു: \"എന്റെ നാഥനാണ്",
+   "new": "പറയുന്നുണ്ടായിരുന്നു: \"എന്റെ നാഥനാണ്",
+   "why": "missing ന്ന"
+  },
+  {
+   "pdf_page": 91,
+   "block": 1,
+   "old": "പറയുണ്ടായിരുന്നു: \"ഏറ്റവും ഉന്നതനായ",
+   "new": "പറയുന്നുണ്ടായിരുന്നു: \"ഏറ്റവും ഉന്നതനായ",
+   "why": "missing ന്ന"
+  },
+  {
+   "pdf_page": 91,
+   "block": 1,
+   "old": "പറയുണ്ടായിരുന്നു: \"നാഥാ പൊറുക്കേണമേ, നാഥാ പൊറുക്കേണമേ.",
+   "new": "പറയുന്നുണ്ടായിരുന്നു: \"നാഥാ പൊറുക്കണേ, നാഥാ പൊറുക്കണേ.",
+   "why": "missing ന്ന; printed പൊറുക്കണേ"
+  },
+  {
+   "pdf_page": 91,
+   "block": 5,
+   "old": "അവസാനത്തേയുമായ",
+   "new": "അവസാനത്തെയുമായ",
+   "why": "printed spelling"
+  },
+  {
+   "pdf_page": 92,
+   "block": 2,
+   "old": "٢٩٩ .",
+   "new": "٢٩٩.",
+   "why": "stray space"
+  },
+  {
+   "pdf_page": 92,
+   "block": 3,
+   "old": "അവിടുന്ന് പ്രാർത്ഥിച്ചു",
+   "new": "അവിടന്ന് പ്രാർത്ഥിച്ചു",
+   "why": "printed spelling"
+  },
+  {
+   "pdf_page": 92,
+   "block": 4,
+   "old": "٣٠٠ .",
+   "new": "٣٠٠.",
+   "why": "stray space"
+  },
+  {
+   "pdf_page": 92,
+   "block": 5,
+   "old": "അവിടുന്ന് മിമ്പർ",
+   "new": "അവിടന്ന് മിമ്പർ",
+   "why": "printed spelling"
+  },
+  {
+   "pdf_page": 92,
+   "block": 5,
+   "old": "ശേഷം അവിടുന്ന് പറഞ്ഞു",
+   "new": "ശേഷം അവിടന്ന് പറഞ്ഞു",
+   "why": "printed spelling"
+  },
+  {
+   "pdf_page": 92,
+   "block": 5,
+   "old": "പിന്നെ അവിടുന്ന് പ്രാർത്ഥിച്ചു",
+   "new": "പിന്നെ അവിടന്ന് പ്രാർത്ഥിച്ചു",
+   "why": "printed spelling"
+  },
+  {
+   "pdf_page": 93,
+   "block": 0,
+   "old": "ആരാധൃൻ അല്ലാഹു",
+   "new": "ആരാധ്യൻ അല്ലാഹു",
+   "why": "ya conjunct misread"
+  },
+  {
+   "pdf_page": 93,
+   "block": 0,
+   "old": "ആഭയവുമാക്കേണമേ",
+   "new": "അഭയവുമാക്കേണമേ",
+   "why": "printed spelling"
+  },
+  {
+   "pdf_page": 93,
+   "block": 0,
+   "old": "കാണുന്നതു് വരെ",
+   "new": "കാണുന്നത് വരെ",
+   "why": "stray ു് sign"
+  },
+  {
+   "pdf_page": 93,
+   "block": 0,
+   "old": "മിന്നലരിയുകയും",
+   "new": "മിന്നലെരിയുകയും",
+   "why": "printed spelling"
+  },
+  {
+   "pdf_page": 93,
+   "block": 0,
+   "old": "റക്അത് നിസ്കരിച്ചു",
+   "new": "റക്അത്ത് നിസ്കരിച്ചു",
+   "why": "printed spelling"
+  },
+  {
+   "pdf_page": 93,
+   "block": 3,
+   "old": "പഠിപ്പിച്ചു തന്നു",
+   "new": "പഠിപ്പിച്ച് തന്നു",
+   "why": "printed ച്"
+  },
+  {
+   "pdf_page": 93,
+   "block": 3,
+   "old": "എന്നെയും സന്മാർഗത്തിലാക്കേണമേ",
+   "new": "എന്നെയും സന്മാർഗ്ഗത്തിലാക്കേണമേ",
+   "why": "printed ഗ്ഗ"
+  },
+  {
+   "pdf_page": 93,
+   "block": 3,
+   "old": "ബറകത് നൽകേണമേ",
+   "new": "ബറകത്ത് നൽകേണമേ",
+   "why": "printed ത്ത്"
+  },
+  {
+   "pdf_page": 93,
+   "block": 3,
+   "old": "നിന്ദ്യനാവുകയില്ല",
+   "new": "നിന്ദ്യനാകുകയില്ല",
+   "why": "printed spelling"
+  },
+  {
+   "pdf_page": 93,
+   "block": 3,
+   "old": "അന്തസ്സുള്ളവനാവുകയില്ല",
+   "new": "അന്തസ്സുള്ളവനാകുകയില്ല",
+   "why": "printed spelling"
+  },
+  {
+   "pdf_page": 94,
+   "block": 7,
+   "old": "ഖമീസ് അല്ലെങ്കിൽ",
+   "new": "ഖമീസെന്ന് അല്ലെങ്കിൽ",
+   "why": "printed wording"
+  },
+  {
+   "pdf_page": 94,
+   "block": 7,
+   "old": "അതെന്നിക്ക്",
+   "new": "അതെനിക്ക്",
+   "why": "printed spelling"
+  },
+  {
+   "pdf_page": 95,
+   "block": 3,
+   "old": "ഞങ്ങളോടുകൂടെ",
+   "new": "ഞങ്ങളോട്കൂടെ",
+   "why": "printed spelling"
+  },
+  {
+   "pdf_page": 95,
+   "block": 5,
+   "old": "ശ്രേഷ്ഠമായ മാർഗം",
+   "new": "ശ്രേഷ്ഠമായ മാർഗ്ഗം",
+   "why": "printed ഗ്ഗ"
+  },
+  {
+   "pdf_page": 96,
+   "block": 1,
+   "old": "ഉഖ്ബത്തുബ്നു",
+   "new": "ഉഖ്ബതുബ്നു",
+   "why": "printed spelling"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 88,
+   "hadith_no": 285,
+   "note": "block 0: print may read 'ആ മയ്യിതിന് വേണ്ടി' (JSON 'മയ്യിത്തിന്'); not resolved"
+  },
+  {
+   "pdf_page": 90,
+   "hadith_no": 294,
+   "note": "block 7: other 'അവിടുന്ന്' occurrences may be printed 'അവിടന്ന്'; only the first was confirmed at zoom"
+  },
+  {
+   "pdf_page": 93,
+   "hadith_no": 302,
+   "note": "block 5: 'അവിടുത്തെ വിത്റിന്റെ' may be printed 'അവിടത്തെ'; unsure"
+  },
+  {
+   "pdf_page": 95,
+   "hadith_no": 307,
+   "note": "block 2: repeated 'ليصلي بنا' is printed twice in the book (layout checked), not a duplicate"
+  }
+ ]
+}

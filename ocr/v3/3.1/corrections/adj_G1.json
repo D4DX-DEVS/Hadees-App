@@ -1,0 +1,359 @@
+{
+ "part": "3.1",
+ "pages_checked": [
+  3,
+  6,
+  7,
+  8,
+  10,
+  12,
+  13,
+  14,
+  15,
+  17,
+  19,
+  22,
+  23,
+  24,
+  25,
+  26,
+  29,
+  31,
+  33
+ ],
+ "corrections": [
+  {
+   "pdf_page": 3,
+   "block": 0,
+   "old": "مَعُونَةُ النَاكِحَ",
+   "new": "مَعُونَةُ اللهِ النَّاكِحَ",
+   "why": "print has الله"
+  },
+  {
+   "pdf_page": 3,
+   "block": 5,
+   "old": "അതാഅ്(റ):",
+   "new": "അത്വാഅ്(റ):",
+   "why": "print അത്വാഅ്"
+  },
+  {
+   "pdf_page": 6,
+   "block": 4,
+   "old": "وَقَّاصٍ قَالَ",
+   "new": "وَقَّاصٍ رَضِيَ اللهُ عَنْهُ قَالَ",
+   "why": "print has رضي الله عنه"
+  },
+  {
+   "pdf_page": 6,
+   "block": 3,
+   "old": "\"അബൂഹുറൈറൊ,",
+   "new": "\"അബൂഹുറൈറാ,",
+   "why": "print റാ"
+  },
+  {
+   "pdf_page": 7,
+   "block": 10,
+   "old": "എതിർ ചെയ്യാ",
+   "new": "എതിര് ചെയ്യാ",
+   "why": "print has ര + virama (open check mark like ന്), not chillu"
+  },
+  {
+   "pdf_page": 8,
+   "block": 1,
+   "old": "സത്യവിശാസി",
+   "new": "സത്യവിശ്വാസി",
+   "why": "print ശ്വ ligature, same glyph as p23 വിശ്വാസി"
+  },
+  {
+   "pdf_page": 10,
+   "block": 0,
+   "old": "നിനക്ക് അവളെ",
+   "new": "നിനകക്ക് അവളെ",
+   "why": "print reads നിനകക്ക് (author's typo)"
+  },
+  {
+   "pdf_page": 12,
+   "block": 7,
+   "old": "جَيْشَ عِثْرَانَ",
+   "new": "جَيْشَ عِشْرَانَ",
+   "why": "print letter has teeth/ش width, dots triangle; read ش"
+  },
+  {
+   "pdf_page": 13,
+   "block": 3,
+   "old": "ഇബ്രാഹീമുബ്നു",
+   "new": "ഇബ്റാഹീമുബ്നു",
+   "why": "print ബ്റാ with round റ"
+  },
+  {
+   "pdf_page": 14,
+   "block": 6,
+   "old": "ഉമർ(റ)വും ഫാതിമ(റ)യെ",
+   "new": "ഉമർ(റ)വും ഫാത്വിമ(റ)യെ",
+   "why": "print ത്വ ligature (hook before ി)"
+  },
+  {
+   "pdf_page": 14,
+   "block": 6,
+   "old": "ഫാതിമ(റ)യെ അലി(റ)വിന്",
+   "new": "ഫാത്വിമ(റ)യെ അലി(റ)വിന്",
+   "why": "print ത്വ ligature"
+  },
+  {
+   "pdf_page": 14,
+   "block": 7,
+   "old": "അരബിസ്ത്രീയെ",
+   "new": "അറബിസ്ത്രീയെ",
+   "why": "print round റ"
+  },
+  {
+   "pdf_page": 17,
+   "block": 3,
+   "old": "മള്ളൂൻ(റ)",
+   "new": "മള്ഊൻ(റ)",
+   "why": "print മള്+ഊ (ഉൗ glyph) not ള്ളൂ"
+  },
+  {
+   "pdf_page": 17,
+   "block": 3,
+   "old": "മുഗീരതുബ്നു ശുഅ്ബ(റ)വുമായി",
+   "new": "മുഗീറതുബ്നു ശുഅ്ബ(റ)വുമായി",
+   "why": "print round റ"
+  },
+  {
+   "pdf_page": 17,
+   "block": 3,
+   "old": "മുഗീരതുബ്നു ശുഅ്ബ(റ)വിന്",
+   "new": "മുഗീറതുബ്നു ശുഅ്ബ(റ)വിന്",
+   "why": "print round റ"
+  },
+  {
+   "pdf_page": 22,
+   "block": 1,
+   "old": "ഫാതിമതുബിൻതു",
+   "new": "ഫാത്വിമതുബിൻതു",
+   "why": "print ത്വ ligature"
+  },
+  {
+   "pdf_page": 23,
+   "block": 7,
+   "old": "رَضِيَ اللهُ عَنْهُ عَلَى الْمِنْبَرِ",
+   "new": "رَضِيَ اللهُ عَلَى الْمِنْبَرِ",
+   "why": "print has no عنه after رضي الله"
+  },
+  {
+   "pdf_page": 24,
+   "block": 1,
+   "old": "ഫാതിമതുബിൻതു",
+   "new": "ഫാത്വിമതുബിൻതു",
+   "why": "print ത്വ ligature"
+  },
+  {
+   "pdf_page": 25,
+   "block": 3,
+   "old": "ഫാതിമ ബിൻതു",
+   "new": "ഫാത്വിമ ബിൻതു",
+   "why": "print ത്വ ligature"
+  },
+  {
+   "pdf_page": 25,
+   "block": 3,
+   "old": "ഫാതിമ(റ)യുടെ",
+   "new": "ഫാത്വിമ(റ)യുടെ",
+   "why": "print ത്വ ligature"
+  },
+  {
+   "pdf_page": 25,
+   "block": 3,
+   "old": "കൊടുക്കേണ്ടതൊള്ളു.",
+   "new": "കൊടുക്കേണ്ടതൊള്ളൂ.",
+   "why": "print final ൂ (closed loop with curl) vs ു open circle in കൊടു"
+  },
+  {
+   "pdf_page": 25,
+   "block": 3,
+   "old": "ഫാതിമ(റ) പറഞ്ഞു: റസൂലേ",
+   "new": "ഫാത്വിമ(റ) പറഞ്ഞു: റസൂലേ",
+   "why": "print ത്വ ligature"
+  },
+  {
+   "pdf_page": 25,
+   "block": 3,
+   "old": "ഫാതിമ(റ) പറഞ്ഞു: അങ്ങനെ",
+   "new": "ഫാത്വിമ(റ) പറഞ്ഞു: അങ്ങനെ",
+   "why": "print ത്വ ligature"
+  },
+  {
+   "pdf_page": 26,
+   "block": 1,
+   "old": "ഫാതിമതു ബിൻത്",
+   "new": "ഫാത്വിമതു ബിൻത്",
+   "why": "print ത്വ ligature"
+  },
+  {
+   "pdf_page": 26,
+   "block": 1,
+   "old": "ഖുറൈശിയായ",
+   "new": "ഖുറൈശിയ്യായ",
+   "why": "print has യ്യ ligature"
+  },
+  {
+   "pdf_page": 26,
+   "block": 4,
+   "old": "ഫാതിമ ബിൻത് ഖൈസ്(റ): എന്നോട്",
+   "new": "ഫാത്വിമ ബിൻത് ഖൈസ്(റ): എന്നോട്",
+   "why": "print ത്വ ligature"
+  },
+  {
+   "pdf_page": 29,
+   "block": 4,
+   "old": "അങ്ങനെ ഞാൻ പ്രായശ്ചിത്തം",
+   "new": "അങ്ങനെ ഞാന് പ്രായശ്ചിത്തം",
+   "why": "print first ഞാന് (ന+virama, 'check' form); the second ഞാൻ before സഹോദരിയെ is chillu"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 19,
+   "note": "MISSING BLOCKS at top of p19 (items 16,17 = print B correct): page JSON p019 has no block for (a) the Malayalam continuation of hadith 55 at page top (print starts 'ഞാൻ അറാക് എന്ന സ്ഥലത്തെത്തിയപ്പോൾ ... നീയവളെ വിവാഹം കഴിക്കരുത്.' (ന)' - continues p018's last malayalam block ending 'അവനുമായി'), (b) hadith 56 Arabic 'عن أبي هريرة رضي الله عنه قال: قال رسول الله صلى الله عليه وسلم: لا ينكح الزاني المجلود إلا مثله. (د)', (c) its Malayalam 'അബൂഹുറൈറ(റ): റസൂൽ(സ) പറഞ്ഞു: വ്യഭിചാരത്തിന്റെ പേരിൽ ശിക്ഷിക്കപ്പെട്ട അഭിസാരികയെ അവളെപ്പോലെയുള്ളവർ മാത്രമേ വിവാഹം കഴിക്കുകയുള്ളൂ. (ദ)'. B text matches print (note: print uses single quotes ‘വ്യഭിചാരിയായ ... കഴിക്കുക’ inside the verse; others double). Must be inserted as new blocks (number 56 heading shows before the Arabic)."
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "B"
+  },
+  {
+   "idx": 1,
+   "print": "B"
+  },
+  {
+   "idx": 2,
+   "print": "B"
+  },
+  {
+   "idx": 3,
+   "print": "B"
+  },
+  {
+   "idx": 4,
+   "print": "B"
+  },
+  {
+   "idx": 5,
+   "print": "B"
+  },
+  {
+   "idx": 6,
+   "print": "B"
+  },
+  {
+   "idx": 7,
+   "print": "B"
+  },
+  {
+   "idx": 8,
+   "print": "B"
+  },
+  {
+   "idx": 9,
+   "print": "B"
+  },
+  {
+   "idx": 10,
+   "print": "B"
+  },
+  {
+   "idx": 11,
+   "print": "B"
+  },
+  {
+   "idx": 12,
+   "print": "A"
+  },
+  {
+   "idx": 13,
+   "print": "B"
+  },
+  {
+   "idx": 14,
+   "print": "B"
+  },
+  {
+   "idx": 15,
+   "print": "B"
+  },
+  {
+   "idx": 16,
+   "print": "B"
+  },
+  {
+   "idx": 17,
+   "print": "B"
+  },
+  {
+   "idx": 18,
+   "print": "B"
+  },
+  {
+   "idx": 19,
+   "print": "B"
+  },
+  {
+   "idx": 20,
+   "print": "B"
+  },
+  {
+   "idx": 21,
+   "print": "B"
+  },
+  {
+   "idx": 22,
+   "print": "B"
+  },
+  {
+   "idx": 23,
+   "print": "B"
+  },
+  {
+   "idx": 24,
+   "print": "B"
+  },
+  {
+   "idx": 25,
+   "print": "B"
+  },
+  {
+   "idx": 26,
+   "print": "B"
+  },
+  {
+   "idx": 27,
+   "print": "B"
+  },
+  {
+   "idx": 28,
+   "print": "B"
+  },
+  {
+   "idx": 29,
+   "print": "A"
+  },
+  {
+   "idx": 30,
+   "print": "B"
+  },
+  {
+   "idx": 31,
+   "print": "A"
+  },
+  {
+   "idx": 32,
+   "print": "A"
+  },
+  {
+   "idx": 33,
+   "print": "A"
+  }
+ ]
+}

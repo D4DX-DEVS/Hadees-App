@@ -1,0 +1,154 @@
+{
+ "part": "1.2",
+ "pages_checked": [
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62
+ ],
+ "corrections": [
+  {
+   "pdf_page": 49,
+   "block": 5,
+   "old": "وَمِعْرَاجُهُ",
+   "new": "وَمَعْرَاجُهُ",
+   "why": "bab heading: print has fatha on mim (maʿrājuhu)"
+  },
+  {
+   "pdf_page": 48,
+   "block": 2,
+   "old": "عَنْ عَبْدِ اللهِ بْنِ عَمْرٍو رَضِيَ اللهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ",
+   "new": "عن عبد الله بن عمرو رضي الله عنه قال: قال رسول الله صلى الله عليه وسلم",
+   "why": "print opening isnad of 139 unvowelled"
+  },
+  {
+   "pdf_page": 53,
+   "block": 0,
+   "old": "وَسَلَّمَ قَائِمٌ يُصَلِّي، فَإِذَا",
+   "new": "وسلم قَائِمٌ يُصَلِّي، فَإِذَا",
+   "why": "print 'وسلم' unvowelled (p053 top over-vowelled)"
+  },
+  {
+   "pdf_page": 53,
+   "block": 0,
+   "old": "عِيسَى ابْنُ مَرْيَمَ عَلَيْهِ السَّلَامُ قَائِمٌ",
+   "new": "عيسى ابن مَرْيَم عليه السلام قَائِمٌ",
+   "why": "print leaves these words unvowelled"
+  },
+  {
+   "pdf_page": 53,
+   "block": 0,
+   "old": "إِبْرَاهِيمُ عَلَيْهِ السَّلَامُ قَائِمٌ",
+   "new": "إِبْرَاهِيمُ عليه السلام قَائِمٌ",
+   "why": "print leaves 'عليه السلام' unvowelled"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 48,
+   "hadith_no": 139,
+   "note": "Arabic fully vowelled in JSON; print only partly vowelled (many words bare, e.g. most of line 1-2). Needs de-vowel pass against print."
+  },
+  {
+   "pdf_page": 48,
+   "hadith_no": 140,
+   "note": "JSON mostly bare; print has partial marks (e.g. فَأَلْقَى, أَصَابَهُ, اهْتَدَى). Not reconciled."
+  },
+  {
+   "pdf_page": 48,
+   "hadith_no": 141,
+   "note": "JSON fully vowelled; print partly vowelled."
+  },
+  {
+   "pdf_page": 48,
+   "hadith_no": 142,
+   "note": "JSON vowelled more heavily than print in places (e.g. تَدْرُونَ/لَعَلَّكُمْ/أَنْ تُبْتَلَوْا bare or lightly marked in print)."
+  },
+  {
+   "pdf_page": 49,
+   "hadith_no": 143,
+   "note": "JSON fully vowelled; print partly (e.g. أبي سعيد, خير مال, يتبع bare)."
+  },
+  {
+   "pdf_page": 49,
+   "hadith_no": 144,
+   "note": "JSON fully vowelled; print partly."
+  },
+  {
+   "pdf_page": 49,
+   "hadith_no": 145,
+   "note": "Known over-vowelling continues through pdf pages 49-50 (hadith 145); print has partial marks only (e.g. أتيت بالبراق, فركبته, عرج بنا bare)."
+  },
+  {
+   "pdf_page": 50,
+   "hadith_no": 145,
+   "note": "Same over-vowelling in block 0 (continuation of 145); print partly vowelled."
+  },
+  {
+   "pdf_page": 52,
+   "hadith_no": 146,
+   "note": "JSON fully vowelled; print partly (e.g. لما أسري برسول الله bare)."
+  },
+  {
+   "pdf_page": 52,
+   "hadith_no": 147,
+   "note": "JSON fully vowelled; print partly."
+  },
+  {
+   "pdf_page": 52,
+   "hadith_no": 148,
+   "note": "JSON fully vowelled; print partly."
+  },
+  {
+   "pdf_page": 53,
+   "hadith_no": 151,
+   "note": "Over-vowelled vs print (print partial); continues p054 block 0."
+  },
+  {
+   "pdf_page": 55,
+   "hadith_no": 153,
+   "note": "Known over-vowelling; also continues p056 block 0. Print partly vowelled."
+  },
+  {
+   "pdf_page": 55,
+   "hadith_no": 152,
+   "note": "JSON fully vowelled; print partly."
+  },
+  {
+   "pdf_page": 57,
+   "hadith_no": 155,
+   "note": "Known over-vowelling (155) p057-058; print partly vowelled."
+  },
+  {
+   "pdf_page": 58,
+   "hadith_no": 156,
+   "note": "Known over-vowelling (156) p058-059; print partly vowelled."
+  },
+  {
+   "pdf_page": 59,
+   "hadith_no": 156,
+   "note": "Continuation of 156 over-vowelled."
+  },
+  {
+   "pdf_page": 60,
+   "hadith_no": 157,
+   "note": "157-159 JSON fully vowelled; print partly. Also 160-162 on pdf pages 61-62 same."
+  },
+  {
+   "pdf_page": 62,
+   "hadith_no": null,
+   "note": "Malayalam body block 1 ends 'നനക്കും.¹¹\"' - footnote marker ¹¹ not visible in print body; left as is."
+  }
+ ]
+}

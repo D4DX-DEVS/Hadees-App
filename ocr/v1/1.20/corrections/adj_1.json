@@ -1,0 +1,170 @@
+{
+ "part": "1.20",
+ "pages_checked": [
+  1,
+  2,
+  3,
+  4,
+  7,
+  8,
+  9,
+  10,
+  11
+ ],
+ "corrections": [
+  {
+   "pdf_page": 1,
+   "block": 0,
+   "old": "الْاِسْتِسْقَاءِ",
+   "new": "الْإِسْتِسْقَاءِ",
+   "why": "print has hamza-below alif (الإستسقاء)"
+  },
+  {
+   "pdf_page": 2,
+   "block": 4,
+   "old": "الْاِسْتِسْقَاءِ",
+   "new": "الْإِسْتِسْقَاءِ",
+   "why": "print hamza-below alif"
+  },
+  {
+   "pdf_page": 2,
+   "block": 7,
+   "old": "الْاِسْتِسْقَاءِ",
+   "new": "الْإِسْتِسْقَاءِ",
+   "why": "print hamza-below alif"
+  },
+  {
+   "pdf_page": 2,
+   "block": 1,
+   "old": "ഇബ്നുഅബ്വാസി(റ)ന്റെ",
+   "new": "ഇബ്നുഅബ്ബാസി(റ)ന്റെ",
+   "why": "print ബ്ബ ligature (same glyph as അബ്ബാസ് on p1)"
+  },
+  {
+   "pdf_page": 3,
+   "block": 1,
+   "old": "ആകാശ മധ്യത്തിൽ",
+   "new": "ആകാശ മദ്ധ്യത്തിൽ",
+   "why": "print has ദ്ധ്യ"
+  },
+  {
+   "pdf_page": 4,
+   "block": 5,
+   "old": "نَوَاجِذُهُ",
+   "new": "نَوَاجِدُهُ",
+   "why": "print has undotted د (author typo kept)"
+  },
+  {
+   "pdf_page": 7,
+   "block": 1,
+   "old": "യൂസുഫ്",
+   "new": "യുസുഫ്",
+   "why": "native zoom: ു not ൂ"
+  },
+  {
+   "pdf_page": 7,
+   "block": 1,
+   "old": "അബൂസുഫ്യാൻ",
+   "new": "അബുസുഫ്യാൻ",
+   "why": "native zoom: ു not ൂ"
+  },
+  {
+   "pdf_page": 7,
+   "block": 3,
+   "old": "അബ്വാസുബ്നു",
+   "new": "അബ്ബാസുബ്നു",
+   "why": "print ബ്ബ ligature"
+  },
+  {
+   "pdf_page": 8,
+   "block": 6,
+   "old": "الْاِسْتِسْقَاءِ",
+   "new": "الْإِسْتِسْقَاءِ",
+   "why": "print hamza-below alif"
+  },
+  {
+   "pdf_page": 9,
+   "block": 4,
+   "old": "الْاِسْتِسْقَاءِ",
+   "new": "الْإِسْتِسْقَاءِ",
+   "why": "print hamza-below alif"
+  },
+  {
+   "pdf_page": 10,
+   "block": 8,
+   "old": "الْاِسْتِمْطَارِ",
+   "new": "الْإِسْتِمْطَارِ",
+   "why": "print hamza-below alif"
+  },
+  {
+   "pdf_page": 11,
+   "block": 0,
+   "old": "ആര് എന്നെ",
+   "new": "ആർ എന്നെ",
+   "why": "print has chillu ർ"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "B"
+  },
+  {
+   "idx": 1,
+   "print": "A"
+  },
+  {
+   "idx": 2,
+   "print": "B"
+  },
+  {
+   "idx": 3,
+   "print": "B"
+  },
+  {
+   "idx": 4,
+   "print": "B"
+  },
+  {
+   "idx": 5,
+   "print": "B"
+  },
+  {
+   "idx": 6,
+   "print": "A"
+  },
+  {
+   "idx": 7,
+   "print": "B"
+  },
+  {
+   "idx": 8,
+   "print": "B"
+  },
+  {
+   "idx": 9,
+   "print": "B"
+  },
+  {
+   "idx": 10,
+   "print": "B"
+  },
+  {
+   "idx": 11,
+   "print": "B"
+  },
+  {
+   "idx": 12,
+   "print": "B"
+  },
+  {
+   "idx": 13,
+   "print": "B"
+  },
+  {
+   "idx": 14,
+   "print": "B"
+  }
+ ]
+}

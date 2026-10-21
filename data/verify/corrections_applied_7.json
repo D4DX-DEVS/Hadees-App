@@ -1,0 +1,132 @@
+[
+ {
+  "id": 4546,
+  "edits": [
+   {
+    "old": "فَقَالَ: فَقَالَ:",
+    "new": "فَقَالَ:",
+    "why": "duplicated word فَقَالَ breaks sentence"
+   }
+  ]
+ },
+ {
+  "id": 13948,
+  "edits": [
+   {
+    "old": "أَنْ لَا أُدْخِلَ",
+    "new": "أَنْ أُدْخِلَ",
+    "why": "added negation reverses ruling vs collection"
+   }
+  ]
+ },
+ {
+  "id": 5633,
+  "edits": [
+   {
+    "old": "كَتَبَ لَهُ الَّتِي",
+    "new": "كَتَبَ لَهُ الصَّدَقَةَ الَّتِي",
+    "why": "missing noun \"الصدقة\"; sentence incomplete"
+   }
+  ]
+ },
+ {
+  "id": 16854,
+  "edits": [
+   {
+    "old": "فَاسْتَفْتَحْتُ، ثُمَّ رَجَعَ",
+    "new": "فَاسْتَفْتَحْتُ، فَمَشَى فَفَتَحَ لِي، ثُمَّ رَجَعَ",
+    "why": "opening the door omitted"
+   }
+  ]
+ },
+ {
+  "id": 16650,
+  "edits": [
+   {
+    "old": "فَدَفَعَ نَحْرَهُ",
+    "new": "فَدَفَعَ أَبُو سَعِيدٍ فِي صَدْرِهِ",
+    "why": "pusher and place garbled; restore collection wording"
+   }
+  ]
+ },
+ {
+  "id": 4988,
+  "edits": [
+   {
+    "old": "أَهْلُ الْوَفَاءِ وَالْحَمْدِ",
+    "new": "أَهْلُ الْوَفَاءِ وَالْحَقِّ",
+    "why": "Haqq (truth) vs hamd (praise)"
+   }
+  ]
+ },
+ {
+  "id": 16492,
+  "edits": [
+   {
+    "old": "فَلَمَّا سَجَدَ الصَّفُّ الثَّانِي ثُمَّ جَلَسُوا",
+    "new": "فَلَمَّا سَجَدَ سَجَدَ الصَّفُّ الثَّانِي ثُمَّ جَلَسُوا",
+    "why": "Prophet's prostration omitted before second row prostrates"
+   }
+  ]
+ },
+ {
+  "id": 16882,
+  "edits": [
+   {
+    "old": "مَنْ عَادَ مَرِيضًا نَادِي مُنَادٍ",
+    "new": "مَنْ عَادَ مَرِيضًا أَوْ زَارَ أَخًا لَهُ فِي اللَّهِ نَادَاهُ مُنَادٍ",
+    "why": "visiting a brother in Allah omitted; garbled verb"
+   }
+  ]
+ },
+ {
+  "id": 3387,
+  "edits": [
+   {
+    "old": "وَمَا زَادَ رَجُلًا",
+    "new": "وَمَا زَادَ اللهُ عَبْدًا",
+    "why": "Subject Allah missing; sentence incomplete"
+   }
+  ]
+ },
+ {
+  "id": 16006,
+  "edits": [
+   {
+    "old": "رُكُوعَهُ نَحْوٌ مِنْ قِيَامِهِ",
+    "new": "رُكُوعَهُ نَحْوٌ مِنْ سُجُودِهِ",
+    "why": "Muslim says ruku' nearly equal to prostration, not standing"
+   }
+  ]
+ },
+ {
+  "id": 4261,
+  "edits": [
+   {
+    "old": "فَإِذَا أَنَا أَصْغَرُ الْقَوْمِ",
+    "new": "فَأَرَدْتُ أَنْ أَقُولَ هِيَ النَّخْلَةُ، فَإِذَا أَنَا أَصْغَرُ الْقَوْمِ",
+    "why": "Silence reason incomplete: what he wanted to say is omitted"
+   }
+  ]
+ },
+ {
+  "id": 14136,
+  "edits": [
+   {
+    "old": "مُوسَرَضِيَ",
+    "new": "مُوسَى رَضِيَ",
+    "why": "Name Musa truncated, missing ى and space"
+   }
+  ]
+ },
+ {
+  "id": 17587,
+  "edits": [
+   {
+    "old": "فَلْيَقُلْ: آمَنَّا",
+    "new": "فَلْيَقُلْ: بَلَى. وَمَنْ قَرَأَ: {وَالْمُرْسَلَاتِ} فَبَلَغَ: {فَبِأَيِّ حَدِيثٍ بَعْدَهُ يُؤْمِنُونَ} فَلْيَقُلْ: آمَنَّا",
+    "why": "Al-Qiyamah response is bala; amanna belongs to Mursalat, omitted"
+   }
+  ]
+ }
+]

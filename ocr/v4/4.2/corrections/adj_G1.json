@@ -1,0 +1,125 @@
+{
+ "part": "4.2",
+ "pages_checked": [
+  3,
+  5,
+  7,
+  10,
+  11,
+  13,
+  17,
+  18
+ ],
+ "corrections": [
+  {
+   "pdf_page": 5,
+   "block": 5,
+   "old": "സംരക്ഷണാവുകയോ",
+   "new": "സംരക്ഷനാവുകയോ",
+   "why": "print ന"
+  },
+  {
+   "pdf_page": 5,
+   "block": 7,
+   "old": "ഏൽപിക്കുന്നില്ലേയോ?",
+   "new": "ഏൽപിക്കുന്നില്ലെയോ?",
+   "why": "print single-curl െ"
+  },
+  {
+   "pdf_page": 5,
+   "block": 7,
+   "old": "ചെയ്തവനൊഴിച്ച്,",
+   "new": "ചെയ്തവന്നൊഴിച്ച്,",
+   "why": "print ന്ന"
+  },
+  {
+   "pdf_page": 7,
+   "block": 2,
+   "old": "നൽകുന്നില്ലേയോ?",
+   "new": "നൽകുന്നില്ലെയോ?",
+   "why": "print single-curl െ"
+  },
+  {
+   "pdf_page": 11,
+   "block": 0,
+   "old": "കണ്ടില്ലേയോ",
+   "new": "കണ്ടില്ലെയോ",
+   "why": "print single-curl െ"
+  },
+  {
+   "pdf_page": 13,
+   "block": 6,
+   "old": "ഉമ്മുഹുസ്വൈനുൽ",
+   "new": "ഉമ്മുഹുസൈനുൽ",
+   "why": "print സൈ"
+  },
+  {
+   "pdf_page": 13,
+   "block": 6,
+   "old": "ഉമ്മുഹുസ്വൈൻ(റ)",
+   "new": "ഉമ്മുഹുസൈൻ(റ)",
+   "why": "print സൈ"
+  },
+  {
+   "pdf_page": 17,
+   "block": 0,
+   "old": "തന്റെ ഇരു കൈകൾകൊണ്ട് തന്റെ",
+   "new": "തന്റെ ഇരു കൈകൾകൊണ്ട് തന്റ",
+   "why": "print has തന്റ (no െ) second time"
+  },
+  {
+   "pdf_page": 18,
+   "block": 5,
+   "old": "മുതീഇന്റെ",
+   "new": "മുത്വീഇന്റെ",
+   "why": "print ത്വ"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "A"
+  },
+  {
+   "idx": 1,
+   "print": "B"
+  },
+  {
+   "idx": 2,
+   "print": "B"
+  },
+  {
+   "idx": 3,
+   "print": "B"
+  },
+  {
+   "idx": 4,
+   "print": "B"
+  },
+  {
+   "idx": 5,
+   "print": "A"
+  },
+  {
+   "idx": 6,
+   "print": "B"
+  },
+  {
+   "idx": 7,
+   "print": "B"
+  },
+  {
+   "idx": 8,
+   "print": "B"
+  },
+  {
+   "idx": 9,
+   "print": "B"
+  },
+  {
+   "idx": 10,
+   "print": "B"
+  }
+ ]
+}

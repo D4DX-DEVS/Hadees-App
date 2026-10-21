@@ -1,0 +1,254 @@
+{
+ "part": "3.1",
+ "pages_checked": [
+  38,
+  39,
+  40,
+  43,
+  44,
+  45,
+  46,
+  47,
+  50,
+  51,
+  54
+ ],
+ "corrections": [
+  {
+   "pdf_page": 38,
+   "block": 2,
+   "old": "ഹുസൈൻ(റ):",
+   "new": "ഹുസ്വൈൻ(റ):",
+   "why": "print has ്വ sign"
+  },
+  {
+   "pdf_page": 39,
+   "block": 6,
+   "old": "ചുണ്ടിക്കാണിച്ചു",
+   "new": "ചൂണ്ടിക്കാണിച്ചു",
+   "why": "print has ൂ"
+  },
+  {
+   "pdf_page": 40,
+   "block": 2,
+   "old": "لَيْسَ لَهَا مَعْرِفَةٌ",
+   "new": "لَيْسَ لَهُ بِهَا مَعْرِفَةٌ",
+   "why": "print has له then بها across line break"
+  },
+  {
+   "pdf_page": 43,
+   "block": 5,
+   "old": "മഹ്റ്",
+   "new": "മഹ്ർ",
+   "why": "heading prints chillu ർ"
+  },
+  {
+   "pdf_page": 45,
+   "block": 1,
+   "old": "ചെയ്യുന്നു' എന്ന അല്ലാഹു",
+   "new": "ചെയ്യുന്ന' എന്ന അല്ലാഹു",
+   "why": "print ചെയ്യുന്ന"
+  },
+  {
+   "pdf_page": 46,
+   "block": 4,
+   "old": "സഹൽ(റ)വിന്റെതിനു",
+   "new": "സഹ്ൽ(റ)വിന്റെതിനു",
+   "why": "print has virama on ഹ"
+  },
+  {
+   "pdf_page": 47,
+   "block": 3,
+   "old": "فَهُوَ لِمَنْ أُعْطِيَهُ",
+   "new": "فَهُوَ لِمَنْ أَعْطَاهُ",
+   "why": "print أعطاه"
+  },
+  {
+   "pdf_page": 47,
+   "block": 7,
+   "old": "പുത്രി ഫാതിമ",
+   "new": "പുത്രി ഫാത്വിമ",
+   "why": "print has ്വ"
+  },
+  {
+   "pdf_page": 47,
+   "block": 7,
+   "old": "അങ്കി ഫാതിമ",
+   "new": "അങ്കി ഫാത്വിമ",
+   "why": "print has ്വ"
+  },
+  {
+   "pdf_page": 50,
+   "block": 0,
+   "old": "തെരെഞ്ഞെടുക്കാനുളള",
+   "new": "തെരഞ്ഞെടുക്കാനുളള",
+   "why": "print has single െ"
+  },
+  {
+   "pdf_page": 51,
+   "block": 0,
+   "old": "അവളുടെ യജമാനൻമാർ അവളുടെ",
+   "new": "അവളുടെ യജമാനന്മാർ അവളുടെ",
+   "why": "print ന്മ conjunct"
+  },
+  {
+   "pdf_page": 51,
+   "block": 0,
+   "old": "അറിയിച്ചു.",
+   "new": "അിറയിച്ചു.",
+   "why": "printed typo as printed"
+  },
+  {
+   "pdf_page": 51,
+   "block": 0,
+   "old": "യജമാനൻമാരോട്",
+   "new": "യജമാനന്മാരോട്",
+   "why": "print ന്മ"
+  },
+  {
+   "pdf_page": 51,
+   "block": 0,
+   "old": "ആഇശ(റ)യോട് യജമാനൻമാർ",
+   "new": "ആഇശ(റ)യോട് യജമാനന്മാർ",
+   "why": "print ന്മ"
+  },
+  {
+   "pdf_page": 51,
+   "block": 0,
+   "old": "പറഞ്ഞെങ്കിലും അവർക്കില്ല",
+   "new": "പറഞ്ഞെങ്കിലും രക്ഷാധികാരം അവർക്കില്ല",
+   "why": "print has രക്ഷാധികാരം"
+  },
+  {
+   "pdf_page": 51,
+   "block": 0,
+   "old": "സ്വന്തത്തെ തെരെഞ്ഞെടുത്തു. ഉർവ",
+   "new": "സ്വന്തത്തെ തെരഞ്ഞെടുത്തു. ഉർവ",
+   "why": "print തെരഞ്ഞെ"
+  },
+  {
+   "pdf_page": 51,
+   "block": 0,
+   "old": "അവൾക്ക് തെരെഞ്ഞെടുക്കാനുള്ള",
+   "new": "അവൾക്ക് തെരഞ്ഞെടുക്കാനുള്ള",
+   "why": "print തെരഞ്ഞെ"
+  },
+  {
+   "pdf_page": 54,
+   "block": 2,
+   "old": "يُبْنَى بِصَفِيَّةَ",
+   "new": "يُبْنِي بِصَفِيَّةَ",
+   "why": "print ends with dotted ي"
+  },
+  {
+   "pdf_page": 54,
+   "block": 2,
+   "old": "وَأُلْقِيَ عَلَيْهَا",
+   "new": "وَأَلْقَى عَلَيْهَا",
+   "why": "print وألقى"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "B"
+  },
+  {
+   "idx": 1,
+   "print": "A"
+  },
+  {
+   "idx": 2,
+   "print": "A"
+  },
+  {
+   "idx": 3,
+   "print": "B"
+  },
+  {
+   "idx": 4,
+   "print": "B"
+  },
+  {
+   "idx": 5,
+   "print": "B"
+  },
+  {
+   "idx": 6,
+   "print": "A"
+  },
+  {
+   "idx": 7,
+   "print": "B"
+  },
+  {
+   "idx": 8,
+   "print": "B"
+  },
+  {
+   "idx": 9,
+   "print": "B"
+  },
+  {
+   "idx": 10,
+   "print": "B"
+  },
+  {
+   "idx": 11,
+   "print": "B"
+  },
+  {
+   "idx": 12,
+   "print": "B"
+  },
+  {
+   "idx": 13,
+   "print": "A"
+  },
+  {
+   "idx": 14,
+   "print": "B"
+  },
+  {
+   "idx": 15,
+   "print": "B"
+  },
+  {
+   "idx": 16,
+   "print": "B"
+  },
+  {
+   "idx": 17,
+   "print": "B"
+  },
+  {
+   "idx": 18,
+   "print": "B"
+  },
+  {
+   "idx": 19,
+   "print": "A"
+  },
+  {
+   "idx": 20,
+   "print": "B"
+  },
+  {
+   "idx": 21,
+   "print": "B"
+  },
+  {
+   "idx": 22,
+   "print": "B"
+  },
+  {
+   "idx": 23,
+   "print": "B"
+  },
+  {
+   "idx": 24,
+   "print": "A"
+  }
+ ]
+}

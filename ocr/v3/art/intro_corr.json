@@ -1,0 +1,37 @@
+{
+ "part": "v3-intro",
+ "pages_checked": [
+  2
+ ],
+ "corrections": [
+  {
+   "pdf_page": 2,
+   "block": 3,
+   "old": "സഊദ്",
+   "new": "സഈദ്",
+   "why": "print has ഇ+ൗ (ഈ), not ഊ"
+  },
+  {
+   "pdf_page": 2,
+   "block": 3,
+   "old": "കുട്ടി മൗലവി",
+   "new": "കൂട്ടി മൗലവി",
+   "why": "print shows ൂ (looped) in കൂട്ടി"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "A"
+  },
+  {
+   "idx": 1,
+   "print": "B"
+  },
+  {
+   "idx": 2,
+   "print": "B"
+  }
+ ]
+}

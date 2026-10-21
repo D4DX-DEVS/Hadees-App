@@ -1,0 +1,217 @@
+{
+ "part": "4.8",
+ "pages_checked": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19
+ ],
+ "corrections": [
+  {
+   "pdf_page": 1,
+   "block": 3,
+   "old": "ഹാത്വിബിബ്നു",
+   "new": "ഹാത്വിബുബ്നു",
+   "why": "print reads ഹാത്വിബുബ്നു (diff idx0)"
+  },
+  {
+   "pdf_page": 1,
+   "block": 3,
+   "old": "വേണ്ടി ഖുറൈശികളോട്",
+   "new": "വേണ്ടി ഖുറൈഷികളോട്",
+   "why": "print uses ഷ in this occurrence (the earlier one is ശ) (idx1)"
+  },
+  {
+   "pdf_page": 2,
+   "block": 10,
+   "old": "മുഗീരതുബ്നു",
+   "new": "മുഗീറതുബ്നു",
+   "why": "print റ, same glyph as (റ) on line (idx2)"
+  },
+  {
+   "pdf_page": 3,
+   "block": 0,
+   "old": "മുഗീരതുബ്നു",
+   "new": "മുഗീറതുബ്നു",
+   "why": "print റ (idx3)"
+  },
+  {
+   "pdf_page": 4,
+   "block": 3,
+   "old": "ثُمَّ الَّذِينَ يَلُونَهُمْ\". قَالَ عِمْرَانُ",
+   "new": "ثُمَّ الَّذِينَ يَلُونَهُمْ، ثُمَّ الَّذِينَ يَلُونَهُمْ\". قَالَ عِمْرَانُ",
+   "why": "print has ثم الذين يلونهم three times after قرني (idx5)"
+  },
+  {
+   "pdf_page": 4,
+   "block": 5,
+   "old": "بُعِثْتُ فِيهِمْ، ثُمَّ الَّذِينَ يَلُونَهُمْ\"",
+   "new": "بُعِثْتُ فِيهِمْ، ثُمَّ الَّذِينَ يَلُونَهُمْ، ثُمَّ الَّذِينَ يَلُونَهُمْ\"",
+   "why": "print has ثم الذين يلونهم twice before والله أعلم (idx6)"
+  },
+  {
+   "pdf_page": 5,
+   "block": 4,
+   "old": "അദ്ദേഹത്തെകൊണ്ട്",
+   "new": "അദ്ദേഹത്തെക്കൊണ്ട്",
+   "why": "print has ക്കൊ conjunct (idx8)"
+  },
+  {
+   "pdf_page": 5,
+   "block": 4,
+   "old": "അയാളെകൊണ്ട്",
+   "new": "അയാളെക്കൊണ്ട്",
+   "why": "print: അയാളെ / ക്കൊണ്ട് across line break (idx9)"
+  },
+  {
+   "pdf_page": 6,
+   "block": 3,
+   "old": "ثُمَّ الَّذِينَ يَلُونَهُمْ، ثُمَّ يَأْتِي",
+   "new": "ثُمَّ الَّذِينَ يَلُونَهُمْ، ثُمَّ الَّذِينَ يَلُونَهُمْ، ثُمَّ يَأْتِي",
+   "why": "print has ثم الذين يلونهم twice after قرني (idx10)"
+  },
+  {
+   "pdf_page": 9,
+   "block": 0,
+   "old": "തൃപ്തിപ്പെടുന്നില്ലയോ?",
+   "new": "തൃപ്തിപ്പെടുന്നില്ലെയോ?",
+   "why": "print: ...ന്നി / ല്ലെയോ? (െ before ല്ല, ോ on യ); neither reading matched (idx13)"
+  },
+  {
+   "pdf_page": 14,
+   "block": 9,
+   "old": "ഇബ്നുഖെലീഫതുൽ",
+   "new": "ഇബ്നുഖലീഫതുൽ",
+   "why": "print has plain ഖ (same glyph as ഖസ്റജ് on page), no െ sign (idx18)"
+  },
+  {
+   "pdf_page": 17,
+   "block": 6,
+   "old": "ആസിമുൽ",
+   "new": "ആസ്വിമുൽ",
+   "why": "print shows ്വ hook after സ, same as in അൻസ്വാരികൾ on same page (idx20)"
+  },
+  {
+   "pdf_page": 18,
+   "block": 5,
+   "old": "فَأَتَى أُوَيْسًا فَقَالَ: اسْتَغْفِرْ لِي. قَالَ: أَنْتَ أَحْدَثُ عَهْدًا بِسَفَرٍ صَالِحٍ، فَاسْتَغْفِرْ لِي. قَالَ: ",
+   "new": "فَأَتَى أُوَيْسًا فَقَالَ: اسْتَغْفِرْ لِي. قَالَ: أَنْتَ أَحْدَثُ عَهْدًا بِسَفَرٍ صَالِحٍ، فَاسْتَغْفِرْ لِي. قَالَ: اسْتَغْفِرْ لِي. قَالَ: أَنْتَ أَحْدَثُ عَهْدًا بِسَفَرٍ صَالِحٍ، فَاسْتَغْفِرْ لِي. قَالَ: ",
+   "why": "print repeats 'استغفر لي. قال: أنت أحدث عهدا بسفر صالح، فاستغفر لي. قال:' twice before لقيت عمر (idx21)"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 5,
+   "note": "HELD idx7: അബൂസഇൗദിൽ vs അബൂസഈദിൽ — ഇൗ/ഈ glyph-level; not applied"
+  },
+  {
+   "pdf_page": 9,
+   "note": "HELD idx14: അബൂസഇൗദിൽ vs അബൂസഈദിൽ — ഇൗ/ഈ glyph-level; not applied"
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "B"
+  },
+  {
+   "idx": 1,
+   "print": "B"
+  },
+  {
+   "idx": 2,
+   "print": "B"
+  },
+  {
+   "idx": 3,
+   "print": "B"
+  },
+  {
+   "idx": 4,
+   "print": "A"
+  },
+  {
+   "idx": 5,
+   "print": "B"
+  },
+  {
+   "idx": 6,
+   "print": "B"
+  },
+  {
+   "idx": 7,
+   "print": "held"
+  },
+  {
+   "idx": 8,
+   "print": "B"
+  },
+  {
+   "idx": 9,
+   "print": "B"
+  },
+  {
+   "idx": 10,
+   "print": "B"
+  },
+  {
+   "idx": 11,
+   "print": "A"
+  },
+  {
+   "idx": 12,
+   "print": "A"
+  },
+  {
+   "idx": 13,
+   "print": "other"
+  },
+  {
+   "idx": 14,
+   "print": "held"
+  },
+  {
+   "idx": 15,
+   "print": "A"
+  },
+  {
+   "idx": 16,
+   "print": "A"
+  },
+  {
+   "idx": 17,
+   "print": "A"
+  },
+  {
+   "idx": 18,
+   "print": "B"
+  },
+  {
+   "idx": 19,
+   "print": "A"
+  },
+  {
+   "idx": 20,
+   "print": "B"
+  },
+  {
+   "idx": 21,
+   "print": "B"
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "pages": [
+  11,
+  12,
+  13,
+  14
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 11,
+   "note": "item1 മഹ്രി: read as ര (A); ര/റ distinction slight but glyph matches ര of 'രാവുകളിൽ'"
+  },
+  {
+   "pdf_page": 13,
+   "note": "item7 ബക്റ: glyph matches plain റ (B); moderately confident"
+  }
+ ],
+ "applied": 5
+}

@@ -1,0 +1,529 @@
+{
+ "part": "2.12",
+ "pages_checked": [
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84
+ ],
+ "corrections": [
+  {
+   "pdf_page": 71,
+   "block": 1,
+   "old": "ഉറപ്പിച്ചു നിർത്തുകയും",
+   "new": "ഉറപ്പിച്ച് നിർത്തുകയും",
+   "why": "print ച്ച് not ച്ചു"
+  },
+  {
+   "pdf_page": 71,
+   "block": 1,
+   "old": "ഞാൻ പഠിപ്പിച്ചു തരട്ടെയോ",
+   "new": "ഞാൻ പഠിപ്പിച്ച് തരട്ടെയോ",
+   "why": "print ച്ച്"
+  },
+  {
+   "pdf_page": 71,
+   "block": 1,
+   "old": "അങ്ങെനിക്കത് പഠിപ്പിച്ചു തന്നാലും",
+   "new": "അങ്ങെനിക്ക് പഠിപ്പിച്ച് തന്നാലും",
+   "why": "print word differs"
+  },
+  {
+   "pdf_page": 71,
+   "block": 1,
+   "old": "മറന്നു പോകുന്നു. അത് പഠിക്കാൻ",
+   "new": "മറന്നു പോകുന്നു, അത് പഠിക്കാൻ",
+   "why": "comma in print"
+  },
+  {
+   "pdf_page": 71,
+   "block": 1,
+   "old": "'സജദ'യും",
+   "new": "'സജദഃ'യും",
+   "why": "visarga printed"
+  },
+  {
+   "pdf_page": 71,
+   "block": 1,
+   "old": "അബുൽഹസനേ, മൂന്നോ അതോ ഏഴോ",
+   "new": "അബൂഹസനേ, മൂന്നോ അഞ്ചോ ഏഴോ",
+   "why": "print: അബൂഹസനേ, മൂന്നോ അഞ്ചോ ഏഴോ"
+  },
+  {
+   "pdf_page": 71,
+   "block": 1,
+   "old": "അതുപോലെയുള്ളൊരു",
+   "new": "അതുപോലുള്ളൊരു",
+   "why": "print പോലുള്ളൊരു"
+  },
+  {
+   "pdf_page": 72,
+   "block": 0,
+   "old": "ഇന്ന് ഞാൻ ഒരു പാട്",
+   "new": "ഇന്നു ഞാൻ ഒരു പാട്",
+   "why": "ഇന്നു printed"
+  },
+  {
+   "pdf_page": 72,
+   "block": 6,
+   "old": "വെച്ചുതന്നെ",
+   "new": "വെച്ച്തന്നെ",
+   "why": "print വെച്ച്തന്നെ"
+  },
+  {
+   "pdf_page": 72,
+   "block": 6,
+   "old": "പക്ഷെ, അവനെനിക്ക്",
+   "new": "പക്ഷെ. അവനെനിക്ക്",
+   "why": "full stop printed"
+  },
+  {
+   "pdf_page": 72,
+   "block": 8,
+   "old": "അല്ലെങ്കിൽ സമാനമായ",
+   "new": "അതല്ലെങ്കിൽ സമാനമായ",
+   "why": "word dropped (അത)"
+  },
+  {
+   "pdf_page": 73,
+   "block": 0,
+   "old": "(തൃ)",
+   "new": "(തു)",
+   "why": "source code is തു"
+  },
+  {
+   "pdf_page": 73,
+   "block": 2,
+   "old": "പറയലാണ്: ഞാൻ അല്ലാഹുവിനോട് ചോദിച്ചു; പിന്നെയും",
+   "new": "പറയലാണ്. ഞാൻ അല്ലാഹുവിനോട് ചോദിച്ചു: പിന്നെയും",
+   "why": "punctuation"
+  },
+  {
+   "pdf_page": 73,
+   "block": 3,
+   "old": "بَابُ: التَّحَرِّي",
+   "new": "بَابٌ: التَّحَرِّي",
+   "why": "tanween printed"
+  },
+  {
+   "pdf_page": 73,
+   "block": 4,
+   "old": "لِيَنْظُرَنْ أَحَدُكُمْ",
+   "new": "لِيَنْظُرَنَّ أَحَدُكُمْ",
+   "why": "shadda missing"
+  },
+  {
+   "pdf_page": 73,
+   "block": 6,
+   "old": "بَابُ: الدُّعَاءِ لِأَخِيهِ",
+   "new": "بَابٌ: الدُّعَاءُ لِأَخِيهِ",
+   "why": "tanween/damma printed"
+  },
+  {
+   "pdf_page": 73,
+   "block": 8,
+   "old": "ചോദിച്ചു; അപ്പോൾ",
+   "new": "ചോദിച്ചു: അപ്പോൾ",
+   "why": "colon printed"
+  },
+  {
+   "pdf_page": 73,
+   "block": 9,
+   "old": "بَابُ: لِيَسْأَلِ",
+   "new": "بَابٌ: لِيَسْأَلِ",
+   "why": "tanween printed"
+  },
+  {
+   "pdf_page": 74,
+   "block": 0,
+   "old": "ഉപ്പു വരെ",
+   "new": "ഉപ്പു വരേ",
+   "why": "print വരേ"
+  },
+  {
+   "pdf_page": 74,
+   "block": 0,
+   "old": "ചോദിക്കട്ടെ.” (തൃ)",
+   "new": "ചോദിക്കട്ടെ.” (തു)",
+   "why": "source code"
+  },
+  {
+   "pdf_page": 74,
+   "block": 1,
+   "old": "بَابُ: الدُّعَاءِ لِوَفَاءِ",
+   "new": "بَابٌ: الدُّعَاءُ لِوَفَاءِ",
+   "why": "tanween/damma printed"
+  },
+  {
+   "pdf_page": 74,
+   "block": 3,
+   "old": "തൃപ്തിപ്പെടുത്തേണമേ",
+   "new": "തൃപ്തിപ്പെടുത്തണേ",
+   "why": "print word"
+  },
+  {
+   "pdf_page": 74,
+   "block": 3,
+   "old": "ഐശ്വര്യവാനാക്കണമേ.” (തൃ)",
+   "new": "ഐശ്വര്യവാനാക്കണേ.” (തു)",
+   "why": "print word + source code"
+  },
+  {
+   "pdf_page": 74,
+   "block": 6,
+   "old": "പിന്തിയാണെങ്കിൽ",
+   "new": "പിന്തിയതാണെങ്കിൽ",
+   "why": "word dropped"
+  },
+  {
+   "pdf_page": 74,
+   "block": 6,
+   "old": "ആവലാതിപ്പെട്ടിട്ടില്ല. (തൃ)",
+   "new": "ആവലാതിപ്പെട്ടിട്ടില്ല. (തു)",
+   "why": "source code"
+  },
+  {
+   "pdf_page": 74,
+   "block": 8,
+   "old": "ശമനവുമില്ല.” (തൃ)",
+   "new": "ശമനവുമില്ല.” (തു)",
+   "why": "source code"
+  },
+  {
+   "pdf_page": 75,
+   "block": 8,
+   "old": "ലഹുൽമുൽകു",
+   "new": "ലഹുൽമുല്കു",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 76,
+   "block": 3,
+   "old": "അവരുടെ അടുത്തൂടെ",
+   "new": "അവരുടെ അടുത്തുകൂടെ",
+   "why": "word differs"
+  },
+  {
+   "pdf_page": 76,
+   "block": 3,
+   "old": "എണ്ണക്കണക്കേ ഞാൻ വാഴ്ത്തുന്നു, അല്ലാഹുവിനെ അവന്റെ സൃഷ്ടികളുടെ എണ്ണക്കണക്കേ ഞാൻ വാഴ്ത്തുന്നു, അല്ലാഹുവിനെ അവന്റെ സൃഷ്ടികളുടെ എണ്ണക്കണക്കേ ഞാൻ",
+   "new": "എണ്ണംകണക്കേ ഞാൻ വാഴ്ത്തുന്നു, അല്ലാഹുവിനെ അവന്റെ സൃഷ്ടികളുടെ എണ്ണംകണക്കേ ഞാൻ വാഴ്ത്തുന്നു, അല്ലാഹുവിനെ അവന്റെ സൃഷ്ടികളുടെ എണ്ണംകണക്കേ ഞാൻ",
+   "why": "print എണ്ണംകണക്കേ (x3)"
+  },
+  {
+   "pdf_page": 77,
+   "block": 4,
+   "old": "ആരാധrunning...",
+   "new": "ആരാധ്യനില്ല,",
+   "why": "garbled text"
+  },
+  {
+   "pdf_page": 77,
+   "block": 4,
+   "old": "പാലിച്ചു പോരുന്നു. ഞാൻ ചെയ്ത",
+   "new": "പാലിച്ചു പോരുന്നു, ഞാൻ ചെയ്ത",
+   "why": "comma printed"
+  },
+  {
+   "pdf_page": 77,
+   "block": 4,
+   "old": "കാവൽ ചോദിക്കുന്നു. നീ എനിക്ക്",
+   "new": "കാവൽ ചോദിക്കുന്നു, നീ എനിക്ക്",
+   "why": "comma printed"
+  },
+  {
+   "pdf_page": 77,
+   "block": 4,
+   "old": "അംഗീകരിക്കുന്നു. എന്റെ",
+   "new": "അംഗീകരിക്കുന്നു, എന്റെ",
+   "why": "comma printed"
+  },
+  {
+   "pdf_page": 77,
+   "block": 4,
+   "old": "സമ്മതിക്കുന്നു. അത് കൊണ്ട്",
+   "new": "സമ്മതിക്കുന്നു, അത് കൊണ്ട്",
+   "why": "comma printed"
+  },
+  {
+   "pdf_page": 77,
+   "block": 4,
+   "old": "തരേണമേ. നിശ്ചയം",
+   "new": "തരേണമേ, നിശ്ചയം",
+   "why": "comma printed"
+  },
+  {
+   "pdf_page": 77,
+   "block": 4,
+   "old": "നിർബന്ധമായിരിക്കുന്നു. ആരെങ്കിലും",
+   "new": "നിർബന്ധമായിരിക്കുന്നു, ആരെങ്കിലും",
+   "why": "comma printed"
+  },
+  {
+   "pdf_page": 77,
+   "block": 7,
+   "old": "قَالَ تِرْمُذِي",
+   "new": "قَالَ تُرْمُذِي",
+   "why": "damma printed"
+  },
+  {
+   "pdf_page": 77,
+   "block": 8,
+   "old": "മൂന്നുപ്രാവശ്യം",
+   "new": "മൂന്ന്പ്രാവശ്യം",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 78,
+   "block": 2,
+   "old": "വചനങ്ങൾ ഞാൻ പഠിപ്പിച്ചു തരാം",
+   "new": "വചനങ്ങളെ ഞാൻ പഠിപ്പിച്ച് തരാം",
+   "why": "print wording"
+  },
+  {
+   "pdf_page": 78,
+   "block": 2,
+   "old": "പഠിപ്പിച്ചു തന്നാലും",
+   "new": "പഠിപ്പിച്ച് തന്നാലും",
+   "why": "print ച്ച്"
+  },
+  {
+   "pdf_page": 79,
+   "block": 1,
+   "old": "അവൻ്റെ നേട്ടത്തെ",
+   "new": "അവന്റെ തേട്ടത്തെ",
+   "why": "wrong letter + stray char"
+  },
+  {
+   "pdf_page": 79,
+   "block": 1,
+   "old": "യാത്രയിലായിരുന്നു. അങ്ങനെ ഞങ്ങൾ",
+   "new": "യാത്രയിലായിരുന്നു, അങ്ങനെ ഞങ്ങൾ",
+   "why": "comma printed"
+  },
+  {
+   "pdf_page": 79,
+   "block": 1,
+   "old": "അവിടുന്ന് ഞങ്ങളോട് ഹദീസ്",
+   "new": "അവിടന്ന് ഞങ്ങളോട് ഹദീസ്",
+   "why": "print അവിടന്ന്"
+  },
+  {
+   "pdf_page": 79,
+   "block": 4,
+   "old": "തെറ്റ് ചെയ്യുകയാണെങ്കിലും",
+   "new": "തെറ്റ്ചെയ്യുകയാണെങ്കിലും",
+   "why": "print no space"
+  },
+  {
+   "pdf_page": 80,
+   "block": 1,
+   "old": "ധരിച്ചു. അപ്പോഴദ്ദേഹം",
+   "new": "ധരിച്ചു, അപ്പോഴദ്ദേഹം",
+   "why": "comma printed"
+  },
+  {
+   "pdf_page": 80,
+   "block": 1,
+   "old": "ധരിപ്പിച്ചു തന്ന",
+   "new": "ധരിപ്പിച്ച് തന്ന",
+   "why": "print ച്ച്"
+  },
+  {
+   "pdf_page": 80,
+   "block": 4,
+   "old": "ഒന്നും തന്നെയില്ല",
+   "new": "ഒന്നുംതന്നെയില്ല",
+   "why": "print no space"
+  },
+  {
+   "pdf_page": 81,
+   "block": 1,
+   "old": "പഠിപ്പിച്ചു തരണം",
+   "new": "പഠിപ്പിച്ച് തരണം",
+   "why": "print ച്ച്"
+  },
+  {
+   "pdf_page": 81,
+   "block": 4,
+   "old": "നമസ്കരിക്കുന്നു",
+   "new": "നിസ്കരിക്കുന്നു",
+   "why": "word differs"
+  },
+  {
+   "pdf_page": 81,
+   "block": 4,
+   "old": "ആ മരം സുജൂദ് ചെയ്തു",
+   "new": "ആ മരവും സുജൂദ് ചെയ്തു",
+   "why": "print മരവും"
+  },
+  {
+   "pdf_page": 81,
+   "block": 4,
+   "old": "സജ്ദയുടെ സൂക്തം",
+   "new": "സജദഃയുടെ സൂക്തം",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 81,
+   "block": 6,
+   "old": "അവിടുത്തെ",
+   "new": "അവിടത്തെ",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 81,
+   "block": 7,
+   "old": "بَابُ:",
+   "new": "بَابٌ:",
+   "why": "tanween printed"
+  },
+  {
+   "pdf_page": 82,
+   "block": 1,
+   "old": "ഫുദാലതുബ്നു",
+   "new": "ഫുളാലതുബ്നു",
+   "why": "print ള"
+  },
+  {
+   "pdf_page": 82,
+   "block": 1,
+   "old": "അവൻ അർഹമായത്",
+   "new": "അവന് അർഹമായത്",
+   "why": "print അവന്"
+  },
+  {
+   "pdf_page": 82,
+   "block": 3,
+   "old": "ഫുദാലതുബ്നു",
+   "new": "ഫുളാലതുബ്നു",
+   "why": "print ള"
+  },
+  {
+   "pdf_page": 83,
+   "block": 8,
+   "old": "നിങ്ങൾ ദോഷം ചെയ്യുന്നവരായിരുന്നില്ലെങ്കിൽ",
+   "new": "നിങ്ങൾ ദോശം ചെയ്യുന്നവരായിരുന്നില്ലെങ്കിൽ",
+   "why": "book prints ദോശം (misprint kept)"
+  },
+  {
+   "pdf_page": 83,
+   "block": 8,
+   "old": "അല്ലാഹു ദോഷം ചെയ്യുന്ന",
+   "new": "അല്ലാഹു ദോശം ചെയ്യുന്ന",
+   "why": "book prints ദോശം (misprint kept)"
+  },
+  {
+   "pdf_page": 84,
+   "block": 0,
+   "old": "ദോഷങ്ങൾ",
+   "new": "ദോശങ്ങൾ",
+   "why": "book prints ദോശങ്ങൾ (checked at zoom)"
+  },
+  {
+   "pdf_page": 77,
+   "block": 3,
+   "old": "ْتِغْفَارِ : اللَّهُ",
+   "new": "ْتِغْفَارِ: اللَّهُ",
+   "why": "stray space before punctuation"
+  },
+  {
+   "pdf_page": 77,
+   "block": 3,
+   "old": "َّا أَنْتَ ، خَلَقْت",
+   "new": "َّا أَنْتَ، خَلَقْت",
+   "why": "stray space before punctuation"
+  },
+  {
+   "pdf_page": 77,
+   "block": 3,
+   "old": "ا عَبْدُكَ ، وَأَنَا",
+   "new": "ا عَبْدُكَ، وَأَنَا",
+   "why": "stray space before punctuation"
+  },
+  {
+   "pdf_page": 77,
+   "block": 3,
+   "old": "سْتَطَعْتُ ، أَعُوذُ",
+   "new": "سْتَطَعْتُ، أَعُوذُ",
+   "why": "stray space before punctuation"
+  },
+  {
+   "pdf_page": 77,
+   "block": 3,
+   "old": "ا صَنَعْتُ ، وَأَبُو",
+   "new": "ا صَنَعْتُ، وَأَبُو",
+   "why": "stray space before punctuation"
+  },
+  {
+   "pdf_page": 77,
+   "block": 3,
+   "old": "بِذُنُوبِي ، فَاغْفِ",
+   "new": "بِذُنُوبِي، فَاغْفِ",
+   "why": "stray space before punctuation"
+  },
+  {
+   "pdf_page": 77,
+   "block": 3,
+   "old": "ي ذُنُوبِي ، إِنَّهُ",
+   "new": "ي ذُنُوبِي، إِنَّهُ",
+   "why": "stray space before punctuation"
+  },
+  {
+   "pdf_page": 77,
+   "block": 3,
+   "old": "الْجَنَّةُ ، وَلَا ي",
+   "new": "الْجَنَّةُ، وَلَا ي",
+   "why": "stray space before punctuation"
+  },
+  {
+   "pdf_page": 77,
+   "block": 7,
+   "old": "مَا خَلَقَ ، لَمْ يَ",
+   "new": "مَا خَلَقَ، لَمْ يَ",
+   "why": "stray space before punctuation"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 71,
+   "hadith_no": null,
+   "note": "Print reads മനഃപാമാക്കിയത് / മനഃപാമാക്കാൻ (no ഠ) in two places; JSON has മനഃപാഠമാ... Likely printer's misprint; not changed, owner to decide."
+  },
+  {
+   "pdf_page": 73,
+   "hadith_no": 239,
+   "note": "Print looks like يَبْدُوَ إِبْطُهُ (fatha on ya); JSON has يُبْدُوَ. Mark small at zoom, not certain."
+  },
+  {
+   "pdf_page": 75,
+   "hadith_no": 248,
+   "note": "Malayalam print reads ജീവിപ്പിക്കുയും (possibly missing ക); JSON ജീവിപ്പിക്കുകയും. Not certain."
+  },
+  {
+   "pdf_page": 76,
+   "hadith_no": 250,
+   "note": "Arabic print has only two 'rida' phrases in the third group: رِضَا نَفْسِهِ then رِضَى نَفْسِهِ (zinah and midad x3 each). JSON has three رِضَا. Malayalam print has three. Left unchanged; please check."
+  },
+  {
+   "pdf_page": 78,
+   "hadith_no": 257,
+   "note": "Print Arabic here is only partly vowelled (e.g. no harakat on many words); JSON is fully vowelled. Not itemised."
+  },
+  {
+   "pdf_page": 77,
+   "hadith_no": 253,
+   "note": "Print at line start reads الِاسْتِغْفَارِ (alif with kasra) vs JSON الْإِسْتِغْفَارِ; not certain, unchanged."
+  }
+ ]
+}

@@ -1,0 +1,372 @@
+{
+ "part": "1.4",
+ "pages_checked": [
+  15,
+  16,
+  17,
+  18,
+  20,
+  21,
+  22,
+  25,
+  26,
+  29,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37
+ ],
+ "corrections": [
+  {
+   "pdf_page": 15,
+   "block": 13,
+   "old": "കൽപിച്ചപോലെ വുദു ചെയ്തു",
+   "new": "കൽപിച്ചപോലെ വുദൂ ചെയ്തു",
+   "why": "high-zoom native scan: final vowel sign is the curled ൂ loop, not the open ു circle"
+  },
+  {
+   "pdf_page": 17,
+   "block": 4,
+   "old": "നബി(സ) വുദു ചെയ്യുന്നത്",
+   "new": "നബി(സ) വുദൂ ചെയ്യുന്നത്",
+   "why": "high-zoom native scan: final vowel sign is the curled ൂ loop, not the open ു circle"
+  },
+  {
+   "pdf_page": 17,
+   "block": 6,
+   "old": "നന്നായി വുദു ചെയ്യുക",
+   "new": "നന്നായി വുദൂ ചെയ്യുക",
+   "why": "high-zoom native scan: final vowel sign is the curled ൂ loop, not the open ു circle"
+  },
+  {
+   "pdf_page": 18,
+   "block": 7,
+   "old": "ഇപ്രകാരം വുദു ചെയ്യുന്നതായി",
+   "new": "ഇപ്രകാരം വുദൂ ചെയ്യുന്നതായി",
+   "why": "high-zoom native scan: final vowel sign is the curled ൂ loop, not the open ു circle"
+  },
+  {
+   "pdf_page": 18,
+   "block": 11,
+   "old": "നന്നായി വുദു ചെയ്യുക",
+   "new": "നന്നായി വുദൂ ചെയ്യുക",
+   "why": "high-zoom native scan: final vowel sign is the curled ൂ loop, not the open ു circle"
+  },
+  {
+   "pdf_page": 20,
+   "block": 10,
+   "old": "നബി(സ) വുദു ചെയ്തപ്പോൾ",
+   "new": "നബി(സ) വുദൂ ചെയ്തപ്പോൾ",
+   "why": "high-zoom native scan: final vowel sign is the curled ൂ loop, not the open ു circle"
+  },
+  {
+   "pdf_page": 21,
+   "block": 13,
+   "old": "നബി(സ) വുദു ചെയ്യുകയും",
+   "new": "നബി(സ) വുദൂ ചെയ്യുകയും",
+   "why": "high-zoom native scan: final vowel sign is the curled ൂ loop, not the open ു circle"
+  },
+  {
+   "pdf_page": 22,
+   "block": 1,
+   "old": "നബി(സ) വുദു ചെയ്യുകയും",
+   "new": "നബി(സ) വുദൂ ചെയ്യുകയും",
+   "why": "high-zoom native scan: final vowel sign is the curled ൂ loop, not the open ു circle"
+  },
+  {
+   "pdf_page": 22,
+   "block": 4,
+   "old": "പിന്നെ തന്റെ തലയുടെ",
+   "new": "പിന്നെ തന്റ തലയുടെ",
+   "why": "high-zoom native scan: print omits െ sign (printer typo, kept as printed)"
+  },
+  {
+   "pdf_page": 22,
+   "block": 9,
+   "old": "ധരിച്ച് വുദു ചെയ്യുന്നതു",
+   "new": "ധരിച്ച് വുദൂ ചെയ്യുന്നതു",
+   "why": "high-zoom native scan: final vowel sign is the curled ൂ loop, not the open ു circle"
+  },
+  {
+   "pdf_page": 25,
+   "block": 0,
+   "old": "ചുണ്ടുവിരലുകൾ",
+   "new": "ചൂണ്ടുവിരലുകൾ",
+   "why": "high-zoom native scan: final vowel sign is the curled ൂ loop, not the open ു circle"
+  },
+  {
+   "pdf_page": 25,
+   "block": 7,
+   "old": "നബി(സ) വുദു ചെയ്തപ്പോൾ",
+   "new": "നബി(സ) വുദൂ ചെയ്തപ്പോൾ",
+   "why": "high-zoom native scan: final vowel sign is the curled ൂ loop, not the open ു circle"
+  },
+  {
+   "pdf_page": 25,
+   "block": 9,
+   "old": "(നബി(സ) വുദു ചെയ്തപ്പോൾ",
+   "new": "(നബി(സ) വുദൂ ചെയ്തപ്പോൾ",
+   "why": "high-zoom native scan: final vowel sign is the curled ൂ loop, not the open ു circle"
+  },
+  {
+   "pdf_page": 26,
+   "block": 6,
+   "old": "അലി(റ) വുദു ചെയ്യുന്നതായി",
+   "new": "അലി(റ) വുദൂ ചെയ്യുന്നതായി",
+   "why": "high-zoom native scan: final vowel sign is the curled ൂ loop, not the open ു circle"
+  },
+  {
+   "pdf_page": 26,
+   "block": 6,
+   "old": "നബി(സ)യുടെ വുദു.",
+   "new": "നബി(സ)യുടെ വുദൂ.",
+   "why": "high-zoom native scan: final vowel sign is the curled ൂ loop, not the open ു circle"
+  },
+  {
+   "pdf_page": 29,
+   "block": 1,
+   "old": "ധരിച്ച് വുളു ചെയ്യുകയും",
+   "new": "ധരിച്ച് വുളൂ ചെയ്യുകയും",
+   "why": "high-zoom native scan: final vowel sign is the curled ൂ loop, not the open ു circle"
+  },
+  {
+   "pdf_page": 33,
+   "block": 8,
+   "old": "ഇരുന്നുറങ്ങുന്നവന്റെ വുദു",
+   "new": "ഇരുന്നുറങ്ങുന്നവന്റെ വുദൂ",
+   "why": "high-zoom native scan: final vowel sign is the curled ൂ loop, not the open ു circle"
+  },
+  {
+   "pdf_page": 34,
+   "block": 5,
+   "old": "ഉറങ്ങിയവൻ വുദു ചെയ്തുകൊ",
+   "new": "ഉറങ്ങിയവൻ വുദൂ ചെയ്തുകൊ",
+   "why": "high-zoom native scan: final vowel sign is the curled ൂ loop, not the open ു circle"
+  },
+  {
+   "pdf_page": 34,
+   "block": 8,
+   "old": "കാരണമായുള്ള വുദു",
+   "new": "കാരണമായുള്ള വുദൂ",
+   "why": "high-zoom native scan: final vowel sign is the curled ൂ loop, not the open ു circle"
+  },
+  {
+   "pdf_page": 34,
+   "block": 10,
+   "old": "അവൻ വുദു ചെയ്തുകൊ",
+   "new": "അവൻ വുദൂ ചെയ്തുകൊ",
+   "why": "high-zoom native scan: final vowel sign is the curled ൂ loop, not the open ു circle"
+  },
+  {
+   "pdf_page": 34,
+   "block": 12,
+   "old": "തൊട്ടവൻ വുദു ചെയ്യേണ്ടതാണ്",
+   "new": "തൊട്ടവൻ വുദൂ ചെയ്യേണ്ടതാണ്",
+   "why": "high-zoom native scan: final vowel sign is the curled ൂ loop, not the open ു circle"
+  },
+  {
+   "pdf_page": 34,
+   "block": 14,
+   "old": "സ്പർശിച്ചവൻ വുദു ചെയ്തുകൊ",
+   "new": "സ്പർശിച്ചവൻ വുദൂ ചെയ്തുകൊ",
+   "why": "high-zoom native scan: final vowel sign is the curled ൂ loop, not the open ു circle"
+  },
+  {
+   "pdf_page": 35,
+   "block": 1,
+   "old": "\"അതിന് വുദു ചെയ്യേണ്ടതില്ല",
+   "new": "\"അതിന് വുദൂ ചെയ്യേണ്ടതില്ല",
+   "why": "high-zoom native scan: final vowel sign is the curled ൂ loop, not the open ു circle"
+  },
+  {
+   "pdf_page": 36,
+   "block": 12,
+   "old": "തിന്നാൽ വുദു ചെയ്യണമെന്നും",
+   "new": "തിന്നാൽ വുദൂ ചെയ്യണമെന്നും",
+   "why": "high-zoom native scan: final vowel sign is the curled ൂ loop, not the open ു circle"
+  },
+  {
+   "pdf_page": 36,
+   "block": 12,
+   "old": "തിന്നാൽ വുദു ചെയ്യേണ്ടതില്ലെന്നും",
+   "new": "തിന്നാൽ വുദൂ ചെയ്യേണ്ടതില്ലെന്നും",
+   "why": "high-zoom native scan: final vowel sign is the curled ൂ loop, not the open ു circle"
+  },
+  {
+   "pdf_page": 37,
+   "block": 1,
+   "old": "ആട്ടിൻപാൽ കുടിച്ചാൽ വുദു ചെയ്യേണ്ടതില്ല",
+   "new": "ആട്ടിൻപാൽ കുടിച്ചാൽ വുദൂ ചെയ്യേണ്ടതില്ല",
+   "why": "high-zoom native scan: final vowel sign is the curled ൂ loop, not the open ു circle"
+  },
+  {
+   "pdf_page": 37,
+   "block": 1,
+   "old": "ഒട്ടകപ്പാൽ കുടിച്ചാൽ വുദു ചെയ്യുക",
+   "new": "ഒട്ടകപ്പാൽ കുടിച്ചാൽ വുദൂ ചെയ്യുക",
+   "why": "high-zoom native scan: final vowel sign is the curled ൂ loop, not the open ു circle"
+  },
+  {
+   "pdf_page": 37,
+   "block": 3,
+   "old": "തിന്നാൽ വുദു ചെയ്യുക",
+   "new": "തിന്നാൽ വുദൂ ചെയ്യുക",
+   "why": "high-zoom native scan: final vowel sign is the curled ൂ loop, not the open ു circle"
+  },
+  {
+   "pdf_page": 37,
+   "block": 3,
+   "old": "തിന്നാൽ വുദു ചെയ്യേണ്ടതില്ല",
+   "new": "തിന്നാൽ വുദൂ ചെയ്യേണ്ടതില്ല",
+   "why": "high-zoom native scan: final vowel sign is the curled ൂ loop, not the open ു circle"
+  },
+  {
+   "pdf_page": 37,
+   "block": 13,
+   "old": "നബി(സ) വുദു ചെയ്തശേഷം",
+   "new": "നബി(സ) വുദൂ ചെയ്തശേഷം",
+   "why": "high-zoom native scan: final vowel sign is the curled ൂ loop, not the open ു circle"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "B"
+  },
+  {
+   "idx": 1,
+   "print": "A"
+  },
+  {
+   "idx": 2,
+   "print": "B"
+  },
+  {
+   "idx": 3,
+   "print": "B"
+  },
+  {
+   "idx": 4,
+   "print": "B"
+  },
+  {
+   "idx": 5,
+   "print": "B"
+  },
+  {
+   "idx": 6,
+   "print": "B"
+  },
+  {
+   "idx": 7,
+   "print": "B"
+  },
+  {
+   "idx": 8,
+   "print": "B"
+  },
+  {
+   "idx": 9,
+   "print": "B"
+  },
+  {
+   "idx": 10,
+   "print": "B"
+  },
+  {
+   "idx": 11,
+   "print": "B"
+  },
+  {
+   "idx": 12,
+   "print": "B"
+  },
+  {
+   "idx": 13,
+   "print": "B"
+  },
+  {
+   "idx": 14,
+   "print": "B"
+  },
+  {
+   "idx": 15,
+   "print": "B"
+  },
+  {
+   "idx": 16,
+   "print": "B"
+  },
+  {
+   "idx": 17,
+   "print": "A"
+  },
+  {
+   "idx": 18,
+   "print": "A"
+  },
+  {
+   "idx": 19,
+   "print": "B"
+  },
+  {
+   "idx": 20,
+   "print": "B"
+  },
+  {
+   "idx": 21,
+   "print": "B"
+  },
+  {
+   "idx": 22,
+   "print": "B"
+  },
+  {
+   "idx": 23,
+   "print": "B"
+  },
+  {
+   "idx": 24,
+   "print": "B"
+  },
+  {
+   "idx": 25,
+   "print": "B"
+  },
+  {
+   "idx": 26,
+   "print": "B"
+  },
+  {
+   "idx": 27,
+   "print": "B"
+  },
+  {
+   "idx": 28,
+   "print": "B"
+  },
+  {
+   "idx": 29,
+   "print": "B"
+  },
+  {
+   "idx": 30,
+   "print": "B"
+  },
+  {
+   "idx": 31,
+   "print": "B"
+  },
+  {
+   "idx": 32,
+   "print": "B"
+  },
+  {
+   "idx": 33,
+   "print": "A"
+  }
+ ]
+}

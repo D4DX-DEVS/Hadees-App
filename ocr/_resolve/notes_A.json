@@ -1,0 +1,224 @@
+[
+ {
+  "part": "2.12",
+  "pdf_page": 3,
+  "hadith_no": 10,
+  "note": "arabic text begins with a duplicated Arabic-Indic number prefix (e.g. '١٠.'); same on hadith 11, 12 (p3) and 47-51 (p13). Print shows the number only as the hadith label."
+ },
+ {
+  "part": "2.12",
+  "pdf_page": 5,
+  "hadith_no": 19,
+  "note": "Malayalam 'മുസബ്ബിഹാത്ത്' could not be resolved at zoom; left unchanged (p9 hadith 35)."
+ },
+ {
+  "part": "2.12",
+  "pdf_page": 11,
+  "hadith_no": 43,
+  "note": "print may read 'വുളൂ എടുത്തു' where JSON has 'വുളു'; not certain."
+ },
+ {
+  "part": "2.12",
+  "pdf_page": 7,
+  "hadith_no": 27,
+  "note": "print may read 'സർവ്വവസ്തുക്കളുടെയം' (typo) in line 2 of the Malayalam; JSON has '...യും'; not certain."
+ },
+ {
+  "part": "2.12",
+  "pdf_page": 17,
+  "hadith_no": 65,
+  "note": "Malayalam 'ധർമ്മിഷ്ടൻ' may be printed 'ധർമ്മിഷ്ഠൻ'; 'ലത്വീഫ്' may be printed 'ലതീഫ്' - low-res, unsure"
+ },
+ {
+  "part": "2.12",
+  "pdf_page": 18,
+  "hadith_no": 65,
+  "note": "'വിത്ർ(ഏകൻ)' may be printed 'വിത്റ്(ഏകൻ)'; low-res"
+ },
+ {
+  "part": "2.12",
+  "pdf_page": 21,
+  "hadith_no": 78,
+  "note": "Malayalam name 'സഅ്ദ്ബിൻ' may be printed 'സഅദ്ബിൻ' (no chandrakkala); not resolvable at the zoom used"
+ },
+ {
+  "part": "2.12",
+  "pdf_page": 23,
+  "hadith_no": null,
+  "note": "Malayalam on this page is encoded with old-style ZWJ chillus (e.g. ന്+ZWJ) whereas print/other pages use atomic chillus; visually identical, not itemised. Arabic source codes use Arabic comma '،' (ت،جه) where print shows ','. Also 'മരണാസന്നമായപ്പോൾ' may be printed 'മരണാസന്നമായാപ്പോൾ'; harakat on 'أَلْفَ أَلْفِ' repetitions in #86 not resolvable at zoom used"
+ },
+ {
+  "part": "2.12",
+  "pdf_page": 24,
+  "hadith_no": 88,
+  "note": "'നിന്നെത്തൊട്ട്' may be printed 'നിന്നെതൊട്ട്'; low confidence"
+ },
+ {
+  "part": "2.12",
+  "pdf_page": 32,
+  "hadith_no": 117,
+  "note": "Print 'ഇൗ' (i+au) vs JSON 'ഈ' in മീകാഈലിന്റെ (and p36 റാകിഈങ്ങൾ): cannot resolve at this zoom; left as is"
+ },
+ {
+  "part": "2.12",
+  "pdf_page": 32,
+  "hadith_no": 115,
+  "note": "Mal line 'തിരുദൂതർ(സ)' glyph under-read; left as is"
+ },
+ {
+  "part": "2.12",
+  "pdf_page": 33,
+  "hadith_no": 120,
+  "note": "Print may read 'അല്ലാഹുവാണ്,' not 'അല്ലാഹുവാണേ,' - not certain"
+ },
+ {
+  "part": "2.12",
+  "pdf_page": 34,
+  "hadith_no": 122,
+  "note": "Print appears to have only closing bracket ']' after البقرة: ١٦٣ (no opening '['); not certain"
+ },
+ {
+  "part": "2.12",
+  "pdf_page": 39,
+  "hadith_no": 136,
+  "note": "Print may have 'مِائَةً' (fathatan) where JSON has 'مِائَةٌ' in كُتِبَتْ لَهُ مِائَةٌ; not certain"
+ },
+ {
+  "part": "2.12",
+  "pdf_page": 41,
+  "hadith_no": 144,
+  "note": "Mal 'അയ്യൂബിൽ' may be 'അയ്യൂബിർ' in print; not certain"
+ },
+ {
+  "part": "2.12",
+  "pdf_page": 42,
+  "hadith_no": 148,
+  "note": "Arabic 'فَتُنْسَيْنَ' may be 'فَتَنْسَيْنَ' in print; not certain"
+ },
+ {
+  "part": "2.12",
+  "pdf_page": 37,
+  "hadith_no": null,
+  "note": "Page JSON uses legacy ZWJ chillus (ള്‍ etc.) and Persian digits ۱۲۷-۱۳۰ unlike other pages; print visually identical, not itemised"
+ },
+ {
+  "part": "2.12",
+  "pdf_page": 29,
+  "hadith_no": null,
+  "note": "Hadith number prefix is in text on p29/p32/p40 but only in hadith_no field on p30/31/33; formatting inconsistency, not a print difference"
+ },
+ {
+  "part": "2.12",
+  "pdf_page": 44,
+  "hadith_no": 156,
+  "note": "block 4 (hadith 156): print may read ദിക്റ് (റ്) where JSON has ദിക്ർ; not certain"
+ },
+ {
+  "part": "2.12",
+  "pdf_page": 46,
+  "hadith_no": 163,
+  "note": "blocks 2,5,7 (hadiths 163-165) text field begins with the Arabic-Indic hadith number (e.g. ١٦٣.) duplicating hadith_no; p43-45 blocks do not; check convention"
+ },
+ {
+  "part": "2.12",
+  "pdf_page": 55,
+  "hadith_no": 188,
+  "note": "blocks 2 and 4 (hadiths 188, 189) text field begins with Arabic-Indic hadith number duplicating hadith_no (same convention issue as p46)"
+ },
+ {
+  "part": "2.12",
+  "pdf_page": 60,
+  "hadith_no": 202,
+  "note": "block 8 transliteration 'മിനശ്ശൈത്വാനിർറജീം': print glyph for ത്വ/ഥ in 'ശ്ശൈഥ്വാനി' not clearly resolvable at zoom; left unchanged"
+ },
+ {
+  "part": "2.12",
+  "pdf_page": 62,
+  "hadith_no": 206,
+  "note": "print shows ഥ്അ in 'അഥ്അമനാ/അഥ്അമനീ' (corrected); similar ഥ/ത്വ ambiguity possible elsewhere in transliterations"
+ },
+ {
+  "part": "2.12",
+  "pdf_page": 71,
+  "hadith_no": null,
+  "note": "Print reads മനഃപാമാക്കിയത് / മനഃപാമാക്കാൻ (no ഠ) in two places; JSON has മനഃപാഠമാ... Likely printer's misprint; not changed, owner to decide."
+ },
+ {
+  "part": "2.12",
+  "pdf_page": 73,
+  "hadith_no": 239,
+  "note": "Print looks like يَبْدُوَ إِبْطُهُ (fatha on ya); JSON has يُبْدُوَ. Mark small at zoom, not certain."
+ },
+ {
+  "part": "2.12",
+  "pdf_page": 75,
+  "hadith_no": 248,
+  "note": "Malayalam print reads ജീവിപ്പിക്കുയും (possibly missing ക); JSON ജീവിപ്പിക്കുകയും. Not certain."
+ },
+ {
+  "part": "2.12",
+  "pdf_page": 76,
+  "hadith_no": 250,
+  "note": "Arabic print has only two 'rida' phrases in the third group: رِضَا نَفْسِهِ then رِضَى نَفْسِهِ (zinah and midad x3 each). JSON has three رِضَا. Malayalam print has three. Left unchanged; please check."
+ },
+ {
+  "part": "2.12",
+  "pdf_page": 78,
+  "hadith_no": 257,
+  "note": "Print Arabic here is only partly vowelled (e.g. no harakat on many words); JSON is fully vowelled. Not itemised."
+ },
+ {
+  "part": "2.12",
+  "pdf_page": 77,
+  "hadith_no": 253,
+  "note": "Print at line start reads الِاسْتِغْفَارِ (alif with kasra) vs JSON الْإِسْتِغْفَارِ; not certain, unchanged."
+ },
+ {
+  "part": "2.12",
+  "pdf_page": 88,
+  "hadith_no": 285,
+  "note": "block 0: print may read 'ആ മയ്യിതിന് വേണ്ടി' (JSON 'മയ്യിത്തിന്'); not resolved"
+ },
+ {
+  "part": "2.12",
+  "pdf_page": 90,
+  "hadith_no": 294,
+  "note": "block 7: other 'അവിടുന്ന്' occurrences may be printed 'അവിടന്ന്'; only the first was confirmed at zoom"
+ },
+ {
+  "part": "2.12",
+  "pdf_page": 93,
+  "hadith_no": 302,
+  "note": "block 5: 'അവിടുത്തെ വിത്റിന്റെ' may be printed 'അവിടത്തെ'; unsure"
+ },
+ {
+  "part": "2.12",
+  "pdf_page": 95,
+  "hadith_no": 307,
+  "note": "block 2: repeated 'ليصلي بنا' is printed twice in the book (layout checked), not a duplicate"
+ },
+ {
+  "part": "2.12",
+  "pdf_page": 99,
+  "hadith_no": 315,
+  "note": "scan is clipped at right edge; line-start words (e.g. غلمانكم) not fully visible, could not verify"
+ },
+ {
+  "part": "2.12",
+  "pdf_page": 105,
+  "hadith_no": 334,
+  "note": "scan clipped at right edge; line starts/ends not verifiable"
+ },
+ {
+  "part": "2.12",
+  "pdf_page": 104,
+  "hadith_no": null,
+  "note": "Arabic blocks 331-334 begin with the numeral text e.g. '٣٣١.' inside text while other pages keep number only in hadith_no"
+ },
+ {
+  "part": "2.12",
+  "pdf_page": 102,
+  "hadith_no": 325,
+  "note": "324 and 325 are printed identically in the book (not an OCR duplicate)"
+ }
+]

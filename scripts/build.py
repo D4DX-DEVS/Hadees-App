@@ -1,0 +1,418 @@
+"""Merge per-page OCR JSON + index.json into normalized data and a Supabase seed SQL.
+
+usage: python3 -I scripts/build.py <part>      e.g. 2.1, 2.2 ... 2.14
+outputs: data/<part>/{hadiths,chapters}.json, data/<part>/report.txt, supabase/seed_<part>.sql
+"""
+import json, re, glob, os, sys
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# pdf part -> book_no in the Vol 2 index
+PARTS = {'2.1': 2, '2.2': 3, '2.3': 4, '2.4': 5, '2.5': 6, '2.6': 7, '2.7': 8, '2.8': 9,
+         '2.9': 10, '2.10': 11, '2.11': 12, '2.12': 13, '2.13': 14, '2.14': 15}
+# Vol 1: part 1.N = index section 7+N (sections 1-7 and 32 are prose -> articles table)
+PARTS.update({f'1.{n}': 7 + n for n in range(1, 13)})
+# Vol 1 books 20-31: some books span two PDFs; the key part is the FIRST one and the second part's pages are appended
+PARTS.update({'1.13': 20, '1.15': 21, '1.16': 22, '1.17': 23, '1.19': 24, '1.20': 25, '1.21': 26, '1.22': 27,
+              '1.23': 28, '1.24': 29, '1.25': 30, '1.26': 31})
+V1_MERGE = {'1.13': '1.14', '1.17': '1.18', '1.26': '1.27'}
+RENUMBER = {'1.25'}
+# Vol 3: part 3.N = index section; 3.3 + 3.4 are one book (trade, section 4) split over two PDFs -> part '3.3' (3.4 pages are merged in)
+PARTS.update({'3.1': 2, '3.2': 3, '3.3': 4, '3.5': 5, '3.6': 6, '3.7': 7})
+# books 8-16: part 3.N = book N; jihad (book 16) spans 3.16 + 3.17 -> part '3.16'
+PARTS.update({f'3.{n}': n for n in range(8, 17)})
+# vol 4: part -> book (Vol 4 index.pdf sections; see ocr/v4/MAPPING.md); 4.7+4.8 = book 9, 4.11+4.12 = book 12
+PARTS.update({'4.1': 3, '4.2': 4, '4.3': 5, '4.4': 6, '4.5': 7, '4.6': 8, '4.7': 9, '4.8': 9, '4.9': 10, '4.10': 11,
+              '4.11': 12, '4.12': 12, **{f'4.{n}': n for n in range(13, 20)}})
+V3_MERGE = {'3.3': ('3.4', 96), '3.16': ('3.17', 96), '4.7': ('4.8', 120), '4.11': ('4.12', 120)}   # part -> (continuation part, pdf pages of the first PDF)
+SKIP_HADITH = {'3.14': {177}}   # printed as only "١٧٧. عَنِ" (text missing in the book); removed 2026-10-13 by user decision
+PART = sys.argv[1] if len(sys.argv) > 1 else '2.1'
+BOOK_NO = PARTS[PART]
+VOLUME = int(PART.split('.')[0])
+OCR_DIR = (os.path.join(ROOT, 'ocr', 'v1', PART) if VOLUME == 1 else
+           os.path.join(ROOT, 'ocr', f'v{VOLUME}', PART) if VOLUME in (3, 4) else os.path.join(ROOT, 'ocr', PART))
+OUT_DIR = os.path.join(ROOT, 'data', PART)
+
+AR_CODE = re.compile(r'\(\s*([؀-ۿ]{1,3}\.?(?:\s*[,،]?\s*[؀-ۿ]{1,3}\.?)*\s*[,،]?)\s*\)+\s*[.*]*\s*$')
+ML_CODE = re.compile(r'\(\s*([ഀ-ൿ]{1,4}\.?(?:\s*,\s*[ഀ-ൿ]{1,4}\.?)*\s*,?)\s*\)+\s*[.*]*\s*$')
+AR_GRADE = re.compile(r'\[([^\]]*)\]')
+HARAKAT = '[\u0610-\u061A\u064B-\u065F\u0670\u0640]*'
+
+
+def loose_ar(word):
+    # regex matching an Arabic phrase regardless of harakat
+    return HARAKAT.join(re.escape(ch) if ch != ' ' else '\\s+' for ch in word) + HARAKAT
+
+
+AR_VARIANT = re.compile(loose_ar('وفي رواية'))
+ML_VARIANT = re.compile(r'മറ്റൊരു\s*(?:നിവേദന|റിപ്പോർട്ട|റിപ്പർട്ട|റിവായ)')
+AR_NARRATOR = re.compile(r'^\s*' + loose_ar('عن') + r'\s+(.+?)\s*(?:' + loose_ar('رضي') + r'|:)')
+ML_NARRATOR = re.compile(r'^\s*([^:\n]{2,80}?\(റ\)|[^:\n"(]{2,40}(?=:))')
+ML_GRADE = re.compile(r'\(([^()]*(?:ദുർബല|ദുര്‍ബല|ദുർബ്ബല|സംശയ)[^()]*)\)')
+
+
+def load_pages():
+    files = sorted(glob.glob(os.path.join(OCR_DIR, 'pages/p*.json')))
+    pages = [norm_ml(json.load(open(f, encoding='utf-8'))) for f in files]
+    if PART in V3_MERGE:   # book continues in the next PDF (3.4 / 3.17): append its pages, pdf_page offset by the first PDF's length
+        nxt, off = V3_MERGE[PART]
+        for f in sorted(glob.glob(os.path.join(ROOT, 'ocr', f'v{VOLUME}', nxt, 'pages/p*.json'))):
+            o = norm_ml(json.load(open(f, encoding='utf-8')))
+            o['pdf_page'] += off
+            pages.append(o)
+    if PART in V1_MERGE:   # Vol 1: book continues in the next PDF
+        off = max([p['pdf_page'] for p in pages] or [0])
+        for f in sorted(glob.glob(os.path.join(ROOT, 'ocr', 'v1', V1_MERGE[PART], 'pages/p*.json'))):
+            o = norm_ml(json.load(open(f, encoding='utf-8')))
+            o['pdf_page'] += off
+            pages.append(o)
+    return pages
+
+
+def norm_ml(o):
+    # print shows the old-style ളള for the conjunct ള്ള (encoding only)
+    if isinstance(o, str):
+        if VOLUME == 3:      # canonical two-part vowel signs (encoding only)
+            return o.replace('\u0d46\u0d3e', '\u0d4a').replace('\u0d47\u0d3e', '\u0d4b').replace('\u0d46\u0d57', '\u0d4c')
+        return o.replace('\u0d33\u0d33', '\u0d33\u0d4d\u0d33').replace('\u0d7b\u0d2e', '\u0d28\u0d4d\u0d2e').replace('\u0d08\u0d57', '\u0d08').replace('\u0d07\u0d57', '\u0d08').replace('\u0d12\u0d57', '\u0d14').replace('\u0d09\u0d57', '\u0d0a').replace('\u0d31\u0d31', '\u0d31\u0d4d\u0d31') if VOLUME == 1 else o
+    if isinstance(o, list):
+        return [norm_ml(x) for x in o]
+    if isinstance(o, dict):
+        return {k: norm_ml(v) for k, v in o.items()}
+    return o
+
+
+def split_codes(s):
+    return [c.strip(' .') for c in re.split(r'[,،]', s) if c.strip(' .')]
+
+
+AR_KNOWN = {'\u062e', '\u0645', '\u0642', '\u062f', '\u062a', '\u0646', '\u062c\u0647'}   # خ م ق د ت ن جه
+
+
+AR_ALIAS = {'\u062c': '\u062c\u0647'}   # ج -> جه (Ibn Majah; Malayalam code is ജ in these cases)
+
+
+def trailing_codes(text, known):
+    """Source codes = the last parenthesised group near the end made only of known codes.
+    A trailing round-bracket group of ordinary words is returned as a grading note."""
+    note = None
+    for m in reversed(list(re.finditer(r'\(([^()]*)\)', text[-160:]))):
+        toks = [AR_ALIAS.get(t, t) for t in re.split(r'[,\u060c.\s]+', m.group(1)) if t]
+        if toks and all(t in known for t in toks):
+            return toks, note
+        if note is None and len(toks) >= 2:
+            note = m.group(1).strip()
+    return [], note
+
+
+def build():
+    pages = load_pages()
+    report, hadiths, babs = [], [], []
+    book_title = None
+    cur = None          # current hadith dict
+
+    vp = os.path.join(OCR_DIR, 'verified.json')          # written by scripts/apply_corrections.py
+    ver = json.load(open(vp, encoding='utf-8')) if os.path.exists(vp) else {'pages': [], 'uncertain': []}
+    if PART in V3_MERGE:   # merge the continuation part's verification notes (pdf pages offset)
+        nxt, off = V3_MERGE[PART]
+        v4p = os.path.join(ROOT, 'ocr', f'v{VOLUME}', nxt, 'verified.json')
+        if os.path.exists(v4p):
+            v4 = json.load(open(v4p, encoding='utf-8'))
+            ver['pages'] = list(ver['pages']) + [n + off for n in v4['pages']]
+            ver['uncertain'] = list(ver['uncertain']) + [dict(u, pdf_page=u['pdf_page'] + off) for u in v4['uncertain']]
+    if PART in V1_MERGE:   # merge the second PDF's verification notes (pdf pages offset by the first part's length)
+        off = len(glob.glob(os.path.join(OCR_DIR, 'pages/p*.json')))
+        v2p = os.path.join(ROOT, 'ocr', 'v1', V1_MERGE[PART], 'verified.json')
+        if os.path.exists(v2p):
+            v2 = json.load(open(v2p, encoding='utf-8'))
+            ver['pages'] = list(ver['pages']) + [n + off for n in v2['pages']]
+            ver['uncertain'] = list(ver['uncertain']) + [dict(u, pdf_page=u['pdf_page'] + off) for u in v2['uncertain']]
+    ver_pages = set(ver['pages'])
+    ver_unsure = {(u['pdf_page'], u.get('hadith_no')) for u in ver['uncertain']}
+    jp = os.path.join(OCR_DIR, 'midword_joins.json')   # legacy (2.1): pdf pages whose first block continues a split word
+    midword = set(json.load(open(jp))) if os.path.exists(jp) else set()
+    for p in pages:
+        if p.get('duplicate_of'):   # the scan photographed this printed page twice
+            report.append(f'pdf p{p["pdf_page"]}: duplicate scan of pdf p{p["duplicate_of"]}, skipped')
+            continue
+        pg = p.get('printed_page') or p['pdf_page'] + 48
+        if p.get('starts_mid_word'):
+            midword.add(p['pdf_page'])
+        on_page = []
+        for bi, b in enumerate(p['blocks']):
+            boundary = bi == 0
+            glue = '' if (boundary and p['pdf_page'] in midword) else (' ' if boundary else '\n')
+            t = b['type']
+            if t == 'book_heading':
+                if book_title is None and p['pdf_page'] == 1:
+                    book_title = b
+                else:   # section heading inside a book (e.g. أبواب السلام): keep as a bab
+                    babs.append({'seq': len(babs) + 1, 'title_ar': b.get('arabic'),
+                                 'title_ml': b.get('malayalam'), 'page': pg, 'section': True})
+                    cur = None
+            elif t == 'bab':
+                prev = babs[-1] if babs else None
+                if (boundary and not (b.get('arabic') or '').strip() and prev and prev.get('last_on_page')
+                        and not (prev.get('title_ml') or '').strip()):
+                    # heading split over a page break: Arabic at the bottom of one page, Malayalam on top of the next
+                    prev['title_ml'] = b.get('malayalam')
+                else:
+                    babs.append({'seq': len(babs) + 1, 'title_ar': b.get('arabic'),
+                                 'title_ml': b.get('malayalam'), 'page': pg,
+                                 'last_on_page': bi == len(p['blocks']) - 1})
+                cur = None
+            elif t == 'arabic':
+                n = b.get('hadith_no')
+                if n is None and cur is not None:   # continuation (also an Abu Dawud addendum printed after the translation)
+                    cur['arabic'] += (glue if boundary else ' ') + b['text'].strip()
+                    cur['page_end'] = pg
+                elif n is None:
+                    # new hadith whose number is not printed: synthetic number 10001+, labelled, needs review
+                    prev = hadiths[-1]['hadith_no'] if hadiths else 0
+                    unnum = sum(1 for h in hadiths if h['hadith_no'] > 10000)
+                    cur = {'hadith_no': 10001 + unnum, 'hadith_label': f'بدون رقم (بعد {prev if prev < 10000 else prev})',
+                           'arabic': b['text'].strip(), 'malayalam': '', 'bab_seq': len(babs) or None,
+                           'explanation_ml': None, 'page_start': pg, 'page_end': pg, 'force_review': True}
+                    hadiths.append(cur)
+                    report.append(f'p{pg}: hadith with no printed number -> #{cur["hadith_no"]} (after {prev})')
+                else:
+                    cur = {'hadith_no': n, 'arabic': b['text'].strip(), 'malayalam': '',
+                           'bab_seq': len(babs) or None, 'explanation_ml': None, 'page_start': pg, 'page_end': pg,
+                           # machine-OCR pages (Gemini) need review unless a second read verified them
+                           'force_review': bool(p.get('ocr_model')) and not (
+                               p['pdf_page'] in ver_pages and (p['pdf_page'], n) not in ver_unsure)}
+                    hadiths.append(cur)
+            elif t == 'note':
+                prev = babs[-1] if babs else None
+                if (boundary and prev and prev.get('last_on_page') and cur is None
+                        and not (prev.get('title_ml') or '').strip()):
+                    # Malayalam bab title read as a note at the top of the next page
+                    prev['title_ml'] = b.get('text', '').strip()
+                    report.append(f'p{pg}: note at page top used as Malayalam title of the bab split over the page break')
+                elif cur is not None:
+                    cur['explanation_ml'] = ((cur.get('explanation_ml') or '') + '\n' + b.get('text', '').strip()).strip()
+                else:
+                    report.append(f'p{pg}: note block with no hadith (not stored): {b.get("text", "")[:60]}')
+            elif t == 'footnote':
+                txt = b['text'].strip()
+                mark = txt[0] if txt and txt[0] in '*¹²³⁴' else None
+                cands = [h for h in on_page if mark and mark in h['malayalam']] or on_page or ([cur] if cur else [])
+                if cands:
+                    tgt = cands[-1]
+                    tgt['explanation_ml'] = ((tgt.get('explanation_ml') or '') + '\n' + txt).strip()
+                else:
+                    report.append(f'p{pg}: footnote with no hadith')
+            elif t == 'malayalam':
+                if cur is None:
+                    report.append(f'p{pg}: malayalam with no open hadith: {b["text"][:40]}')
+                    continue
+                if cur not in on_page:
+                    on_page.append(cur)
+                cur['malayalam'] = (cur['malayalam'] + glue + b['text'].strip()).strip() if cur['malayalam'] else b['text'].strip()
+                cur['page_end'] = pg
+
+    # the printed hadith number sometimes stays at the start of the text; it is stored in hadith_no already
+    NUM_PREFIX = re.compile(r'^\s*[\u0660-\u0669\u06F0-\u06F9]+\s*[.\-\u2013]?\s*')
+    for h in hadiths:
+        h['arabic'] = NUM_PREFIX.sub('', h['arabic'], count=1)
+        h['malayalam'] = NUM_PREFIX.sub('', h['malayalam'], count=1)
+
+    # books whose printed numbering repeats numbers (1.25: 86-94 printed between 56 and 57, 64 twice):
+    # renumber in page order (user's choice, 2026-10-10); the printed number stays in hadith_label
+    if PART in RENUMBER:
+        k = 0
+        for h in hadiths:
+            if h['hadith_no'] > 10000:
+                continue
+            k += 1
+            if h['hadith_no'] != k:
+                h['hadith_label'] = f'അച്ചടിയിലെ നമ്പർ: {h["hadith_no"]}'
+                h['hadith_no'] = k
+        report.append(f'renumbered in page order: 1-{k}')
+
+    # hadith the print numbers but does not contain (user decision: leave them out of the DB)
+    skip = SKIP_HADITH.get(PART, set())
+    if skip:
+        hadiths[:] = [h for h in hadiths if h['hadith_no'] not in skip]
+        report.append(f'skipped (empty in print): {sorted(skip)}')
+
+    # parse sources / grading
+    for h in hadiths:
+        ar = h['arabic']
+        h['source_codes_ar'], round_note = trailing_codes(ar, AR_KNOWN)
+        g = AR_GRADE.findall(ar)
+        h['grading_note_ar'] = g[-1].strip() if g else (round_note or None)
+        ml = h['malayalam']
+        m = ML_CODE.search(ml)
+        h['source_codes_ml'] = split_codes(m.group(1)) if m else []
+        g = ML_GRADE.findall(ml)
+        h['grading_note_ml'] = g[-1].strip() if g else None
+        h['needs_review'] = '[?]' in ar or '[?]' in ml or h.get('force_review', False)
+        h.setdefault('hadith_label', None)
+        m = AR_NARRATOR.search(ar)
+        h['narrator_ar'] = m.group(1).strip() if m else None
+        m = ML_NARRATOR.search(ml)
+        h['narrator_ml'] = m.group(1).strip() if m else None
+        ar_parts = AR_VARIANT.split(ar)[1:]
+        ml_parts = ML_VARIANT.split(ml)[1:]
+        n = max(len(ar_parts), len(ml_parts))
+        h['variants'] = [{'seq': i + 1,
+                          'arabic': ('وَفِي رِوَايَةٍ' + ar_parts[i]).strip() if i < len(ar_parts) else None,
+                          'malayalam': ('മറ്റൊരു നിവേദന' + ml_parts[i]).strip() if i < len(ml_parts) else None}
+                         for i in range(n)]
+        if len(ar_parts) != len(ml_parts):
+            report.append(f'#{h["hadith_no"]}: variants arabic={len(ar_parts)} malayalam={len(ml_parts)} (check pairing)')
+        if not h['source_codes_ar']:
+            report.append(f'#{h["hadith_no"]}: no arabic source code parsed')
+        if not h['malayalam']:
+            report.append(f'#{h["hadith_no"]}: missing malayalam')
+
+    # opening hadith printed before the first bab heading belong to chapter 1
+    for h in hadiths:
+        if not h['bab_seq'] and babs:
+            h['bab_seq'] = 0 if (VOLUME == 1 and (h.get('page_start') or 0) < (babs[0].get('page') or 0)) else 1   # 0 = preamble before the first chapter's page
+            report.append(f'#{h["hadith_no"]}: before first bab heading, assigned to chapter 1')
+
+    # numbering check
+    nums = [h['hadith_no'] for h in hadiths if h['hadith_no'] < 10000]
+    for a, b in zip(nums, nums[1:]):
+        if b != a + 1:
+            report.append(f'numbering jump {a} -> {b}')
+
+    # map babs → TOC chapters (by order; cross-check pages)
+    idx = load_index()
+    book = next(bk for bk in idx['books'] if bk['book_no'] == BOOK_NO)
+    toc = book['chapters']
+    if len(toc) != len(babs):
+        report.append(f'TOC has {len(toc)} chapters but text has {len(babs)} bab headings')
+    # align text babs to TOC chapters by page (a bab missing from the scan leaves a TOC-only chapter)
+    chap_of = {}            # bab seq -> chapter_no
+    j = 0
+    for bab in babs:
+        while (j + 1 < len(toc) and toc[j].get('page') and toc[j + 1].get('page')
+               and abs(toc[j]['page'] - bab['page']) > 3      # only skip on a clear page mismatch
+               and abs(toc[j + 1]['page'] - bab['page']) < abs(toc[j]['page'] - bab['page'])):
+            j += 1
+        chap_of[bab['seq']] = toc[j]['chapter_no'] if j < len(toc) else bab['seq']
+        j += 1
+    if len(toc) != len(babs):
+        used = set(chap_of.values())
+        report.append(f'TOC has {len(toc)} chapters, text has {len(babs)} babs; TOC-only chapters: '
+                      f'{sorted(c["chapter_no"] for c in toc if c["chapter_no"] not in used)}')
+    chapters = []
+    for bab in babs:
+        t = next((c for c in toc if c['chapter_no'] == chap_of[bab['seq']]), {})
+        if t and t.get('page') and abs(t['page'] - bab['page']) > 3:
+            report.append(f'bab {bab["seq"]} -> ch {chap_of[bab["seq"]]}: TOC page {t["page"]} vs text page {bab["page"]} '
+                          f'({t.get("title_ml")} / {bab["title_ml"]})')
+        chapters.append({'chapter_no': chap_of[bab['seq']], 'title_ml': bab['title_ml'] or t.get('title_ml'),
+                         'title_ar': bab['title_ar'], 'start_page': bab['page'],
+                         'toc_title_ml': t.get('title_ml')})
+    have = {c['chapter_no'] for c in chapters}
+    for c in toc:           # chapters in the index that never appear in the text (e.g. scan gap)
+        if c['chapter_no'] not in have:
+            chapters.append({'chapter_no': c['chapter_no'], 'title_ml': c['title_ml'], 'title_ar': None,
+                             'start_page': c.get('page'), 'toc_title_ml': c['title_ml'], 'toc_only': True})
+    chapters.sort(key=lambda c: c['chapter_no'])
+    if any(h['bab_seq'] == 0 for h in hadiths):
+        bt0 = book_title or {}
+        chapters.insert(0, {'chapter_no': 0, 'title_ml': bt0.get('malayalam') or book['title_ml'], 'title_ar': bt0.get('arabic'),
+                            'start_page': book.get('start_page'), 'toc_title_ml': None, 'preamble': True})
+    if not chapters and not toc:
+        # book prints no chapters (e.g. Vol 1 book 8): one implicit chapter named after the book
+        bt = book_title or {}
+        chapters.append({'chapter_no': 1, 'title_ml': (bt.get('malayalam') or book['title_ml']), 'title_ar': bt.get('arabic'),
+                         'start_page': book.get('start_page'), 'toc_title_ml': None, 'implicit': True})
+        for h in hadiths:
+            h['bab_seq'] = 1
+    for h in hadiths:
+        if h['bab_seq'] and not chapters[0].get('implicit'):
+            h['bab_seq'] = chap_of[h['bab_seq']]
+    return idx, book_title, chapters, hadiths, report
+
+
+def q(v):
+    if v is None:
+        return 'null'
+    if isinstance(v, bool):
+        return 'true' if v else 'false'
+    if isinstance(v, int):
+        return str(v)
+    if isinstance(v, list):
+        return "array[" + ','.join(q(x) for x in v) + "]::text[]" if v else "'{}'::text[]"
+    return "'" + str(v).replace("'", "''") + "'"
+
+
+def load_index():
+    if VOLUME == 4:
+        return json.load(open(os.path.join(ROOT, 'ocr/v4/index.json'), encoding='utf-8'))
+    if VOLUME == 3:
+        raw = json.load(open(os.path.join(ROOT, 'ocr/v3/index.json'), encoding='utf-8'))
+        return {'volume': 3, 'books': [
+            {'book_no': x['no'], 'title_ml': x['title_ml'].rstrip(':'), 'start_page': x['page'],
+             'chapters': [{'chapter_no': c['no'], 'title_ml': c['title_ml'], 'page': c['page']} for c in x['chapters']]}
+            for x in raw['sections']]}
+    if VOLUME != 1:
+        return json.load(open(os.path.join(ROOT, 'ocr/index.json'), encoding='utf-8'))
+    raw = json.load(open(os.path.join(ROOT, 'ocr/v1/index.json'), encoding='utf-8'))
+    return {'volume': 1, 'books': [
+        {'book_no': x['no'], 'title_ml': x['title_ml'].rstrip(':'), 'start_page': x['page'],
+         'chapters': [{'chapter_no': c['no'], 'title_ml': c['title_ml'], 'page': c['page']} for c in x['chapters']]}
+        for x in raw['sections'] if 8 <= x['no'] <= 31]}
+
+
+def write_sql(idx, book_title, chapters, hadiths):
+    out = ['-- generated by scripts/build.py — run after schema.sql', 'begin;',
+           f"insert into volumes (id, title_ml) values ({VOLUME}, 'വാല്യം {VOLUME}') on conflict (id) do nothing;"]
+    # all books + all TOC chapters for the volume
+    for bk in idx['books']:
+        tar = book_title.get('arabic') if (book_title and bk['book_no'] == BOOK_NO) else None
+        out.append(f"insert into books (volume_id, book_no, title_ml, title_ar, start_page) values "
+                   f"({VOLUME}, {bk['book_no']}, {q(bk['title_ml'])}, {q(tar)}, {q(bk.get('start_page'))}) "
+                   f"on conflict (volume_id, book_no) do update set title_ml=excluded.title_ml, "
+                   f"title_ar=coalesce(excluded.title_ar, books.title_ar), start_page=excluded.start_page;")
+        mine = bk['book_no'] == BOOK_NO
+        rows = chapters if mine else [
+            {'chapter_no': c['chapter_no'], 'title_ml': c['title_ml'], 'title_ar': None,
+             'start_page': c.get('page')} for c in bk.get('chapters', [])]
+        for c in rows:
+            out.append(f"insert into chapters (book_id, chapter_no, title_ml, title_ar, start_page) "
+                       f"select id, {c['chapter_no']}, {q(c['title_ml'])}, {q(c['title_ar'])}, {q(c['start_page'])} "
+                       f"from books where volume_id={VOLUME} and book_no={bk['book_no']} "
+                       + ("on conflict (book_id, chapter_no) do update set title_ml=excluded.title_ml, "
+                          "title_ar=coalesce(excluded.title_ar, chapters.title_ar), start_page=excluded.start_page;"
+                          if mine else "on conflict (book_id, chapter_no) do nothing;"))
+    for h in hadiths:
+        out.append(
+            "insert into hadiths (book_id, chapter_id, hadith_no, arabic_text, malayalam_text, narrator_ar, narrator_ml, explanation_ml, hadith_label, "
+            "source_codes_ar, source_codes_ml, grading_note_ar, grading_note_ml, page_start, page_end, needs_review) "
+            f"select b.id, c.id, {h['hadith_no']}, {q(h['arabic'])}, {q(h['malayalam'])}, {q(h['narrator_ar'])}, "
+            f"{q(h['narrator_ml'])}, {q(h['explanation_ml'])}, {q(h['hadith_label'])}, {q(h['source_codes_ar'])}, "
+            f"{q(h['source_codes_ml'])}, {q(h['grading_note_ar'])}, {q(h['grading_note_ml'])}, "
+            f"{h['page_start']}, {h['page_end']}, {q(h['needs_review'])} "
+            f"from books b left join chapters c on c.book_id=b.id and c.chapter_no={q(h['bab_seq'])} "
+            f"where b.volume_id={VOLUME} and b.book_no={BOOK_NO} "
+            "on conflict (book_id, hadith_no) do update set chapter_id=excluded.chapter_id, "
+            "arabic_text=excluded.arabic_text, malayalam_text=excluded.malayalam_text, "
+            "source_codes_ar=excluded.source_codes_ar, source_codes_ml=excluded.source_codes_ml, "
+            "grading_note_ar=excluded.grading_note_ar, grading_note_ml=excluded.grading_note_ml, "
+            "narrator_ar=excluded.narrator_ar, narrator_ml=excluded.narrator_ml, "
+            "explanation_ml=coalesce(excluded.explanation_ml, hadiths.explanation_ml), hadith_label=excluded.hadith_label, "
+            "page_start=excluded.page_start, page_end=excluded.page_end, needs_review=excluded.needs_review;")
+        sel = (f"(select h.id from hadiths h join books b on b.id=h.book_id where b.volume_id={VOLUME} "
+               f"and b.book_no={BOOK_NO} and h.hadith_no={h['hadith_no']})")
+        out.append(f"delete from hadith_variants where hadith_id={sel};")
+        for v in h['variants']:
+            out.append(f"insert into hadith_variants (hadith_id, seq, arabic_text, malayalam_text) values "
+                       f"({sel}, {v['seq']}, {q(v['arabic'])}, {q(v['malayalam'])});")
+    out.append('commit;')   # relations: run supabase/relations.sql once after all parts are loaded
+    open(os.path.join(ROOT, f'supabase/seed_{PART}.sql'), 'w', encoding='utf-8').write('\n'.join(out) + '\n')
+
+
+if __name__ == '__main__':
+    idx, book_title, chapters, hadiths, report = build()
+    os.makedirs(OUT_DIR, exist_ok=True)
+    json.dump(chapters, open(os.path.join(OUT_DIR, 'chapters.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+    json.dump(hadiths, open(os.path.join(OUT_DIR, 'hadiths.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+    write_sql(idx, book_title, chapters, hadiths)
+    open(os.path.join(OUT_DIR, 'report.txt'), 'w', encoding='utf-8').write('\n'.join(report) + '\n')
+    print(f'{PART} (book {BOOK_NO}): {len(chapters)} chapters, {len(hadiths)} hadiths, {len(report)} issues -> data/{PART}/report.txt')

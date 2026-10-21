@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="ml">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hadeeth Preview</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Noto+Sans+Malayalam:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f6f3ec; --card:#fffdf8; --ink:#1f2421; --muted:#6b706b; --line:#e4ded0;
+  --accent:#1f6b52; --accent-soft:#e3efe9; --warn:#9a5b12; --warn-soft:#fbefdc; --chip:#efeadd;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#121614; --card:#1a201d; --ink:#e8ebe6; --muted:#9aa29c; --line:#2a332e;
+  --accent:#5fc19b; --accent-soft:#1d3229; --warn:#e3a95a; --warn-soft:#33281a; --chip:#242b27; }}
+:root[data-theme="dark"]{
+  --bg:#121614; --card:#1a201d; --ink:#e8ebe6; --muted:#9aa29c; --line:#2a332e;
+  --accent:#5fc19b; --accent-soft:#1d3229; --warn:#e3a95a; --warn-soft:#33281a; --chip:#242b27; }
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Noto Sans Malayalam",system-ui,sans-serif;font-size:15px;line-height:1.75}
+.app{max-width:560px;margin:0 auto;min-height:100vh;padding:0 16px 48px}
+header{position:sticky;top:0;background:var(--bg);padding:14px 0 10px;z-index:2;border-bottom:1px solid var(--line)}
+.crumb{font-size:12px;color:var(--muted)}
+.crumb a{color:var(--accent);text-decoration:none;cursor:pointer}
+h1{font-size:20px;margin:2px 0 8px;font-weight:600}
+input[type=search]{width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink);font:inherit}
+.list{list-style:none;padding:0;margin:12px 0}
+.row{display:flex;gap:12px;align-items:flex-start;padding:12px;background:var(--card);border:1px solid var(--line);border-radius:12px;margin-bottom:8px;cursor:pointer}
+.row:hover{border-color:var(--accent)}
+.num{flex:none;min-width:34px;height:34px;border-radius:9px;background:var(--accent-soft);color:var(--accent);display:grid;place-items:center;font-weight:600;font-size:13px}
+.row .t{flex:1;min-width:0}
+.row .ar{font-family:Amiri,serif;direction:rtl;text-align:right;font-size:17px;color:var(--muted);line-height:1.6}
+.meta{font-size:12px;color:var(--muted)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;margin:12px 0}
+.card-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}
+.badge{background:var(--accent);color:#fff;border-radius:8px;padding:2px 10px;font-weight:600;font-size:13px}
+.arabic{font-family:Amiri,serif;direction:rtl;text-align:right;font-size:22px;line-height:2.05;margin:6px 0 12px}
+.narr{display:inline-block;background:var(--chip);border-radius:999px;padding:1px 10px;font-size:12px;margin-bottom:6px}
+.ml{white-space:pre-line}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
+.chip{font-size:12px;border:1px solid var(--line);border-radius:999px;padding:2px 10px;background:var(--bg)}
+.warn{background:var(--warn-soft);color:var(--warn);border-radius:8px;padding:6px 10px;font-size:13px;margin-top:10px}
+.note{border-left:3px solid var(--accent);padding:4px 10px;margin-top:10px;font-size:13px;color:var(--muted)}
+details{margin-top:10px;border-top:1px dashed var(--line);padding-top:8px}
+summary{cursor:pointer;color:var(--accent);font-size:13px}
+.var{margin:8px 0;padding:8px 10px;background:var(--bg);border-radius:8px}
+.var .arabic{font-size:19px;margin:0 0 4px}
+.rel a{color:var(--accent);cursor:pointer;text-decoration:none;font-weight:600}
+.legend{font-size:11px;color:var(--muted);margin-top:24px}
+.schema{font-size:11px;color:var(--muted);background:var(--card);border:1px dashed var(--line);border-radius:8px;padding:6px 10px;margin-top:6px;font-family:ui-monospace,monospace}
+.hl{outline:2px solid var(--accent);outline-offset:2px}
+</style>
+</head>
+<body>
+<div class="app">
+  <header>
+    <div class="crumb" id="crumb"></div>
+    <h1 id="title"></h1>
+    <input type="search" id="q" placeholder="തിരയുക / بحث (Malayalam or Arabic, harakat ignored)">
+  </header>
+  <main id="main"></main>
+</div>
+<script>
+const D = /*__DATA__*/null;
+const SRC = {'خ':'ബുഖാരി','م':'മുസ്ലിം','ق':'ബുഖാരി, മുസ്ലിം','ن':'നസാഈ','ت':'തിർമിദി','د':'അബൂദാവൂദ്','جه':'ഇബ്നുമാജ'};
+const REL = {duplicate:'ഇതേ ഹദീസ്', variant:'സമാന നിവേദനം', partial:'ഭാഗികം'};
+const strip = s => (s||'').replace(/[ؐ-ًؚ-ٰٟـ]/g,'');
+const esc = s => (s||'').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const byNo = Object.fromEntries(D.hadiths.map(h => [h.hadith_no, h]));
+const rels = {};
+D.relations.forEach(r => { (rels[r.x] ||= []).push({no:r.y, ...r}); (rels[r.y] ||= []).push({no:r.x, ...r}); });
+const $ = id => document.getElementById(id);
+
+function crumb(parts){ $('crumb').innerHTML = parts.map(([t,h]) => h ? `<a href="${h}">${esc(t)}</a>` : esc(t)).join(' › '); }
+
+function viewBooks(){
+  crumb([['വാല്യം 2']]); $('title').textContent = 'ഹദീസ് വിജ്ഞാനകോശം';
+  $('main').innerHTML = `<div class="schema">books (16) — only book 2 has hadith loaded</div><ul class="list">` +
+    D.books.map(b => `<li class="row" onclick="${b.no===2?"location.hash='#/book/2'":''}" style="${b.no===2?'':'opacity:.55;cursor:default'}">
+      <div class="num">${b.no}</div><div class="t"><div>${esc(b.title)}</div>
+      <div class="meta">${b.chapters} ബാബുകൾ · പേജ് ${b.page??'-'}${b.no===2?' · 374 ഹദീസ്':''}</div></div></li>`).join('') + '</ul>';
+}
+
+function viewChapters(){
+  crumb([['വാല്യം 2','#/'],['നോമ്പ്']]); $('title').textContent = 'كِتَابُ الصَّوْمِ · നോമ്പ്';
+  const count = {}; D.hadiths.forEach(h => count[h.bab_seq] = (count[h.bab_seq]||0)+1);
+  $('main').innerHTML = `<div class="schema">chapters (98) → title_ml, title_ar, start_page</div><ul class="list">` +
+    D.chapters.map(c => `<li class="row" onclick="location.hash='#/ch/${c.no}'"><div class="num">${c.no}</div>
+      <div class="t"><div>${esc(c.ml)}</div><div class="ar">${esc(c.ar)}</div>
+      <div class="meta">${count[c.no]||0} ഹദീസ് · പേജ് ${c.page}</div></div></li>`).join('') + '</ul>';
+}
+
+function card(h){
+  const codes = (h.source_codes_ar||[]).map(c => `<span class="chip">${esc(SRC[c]||c)}</span>`).join('');
+  const grade = h.grading_note_ml || h.grading_note_ar;
+  const vars = (h.variants||[]).length ? `<details><summary>മറ്റു നിവേദനങ്ങൾ (${h.variants.length}) — وفي رواية</summary>` +
+    h.variants.map(v => `<div class="var">${v.arabic?`<div class="arabic">${esc(v.arabic)}</div>`:''}${v.malayalam?`<div class="ml">${esc(v.malayalam)}</div>`:'<div class="meta">(പരിഭാഷ പ്രധാന വാചകത്തിൽ ഉൾപ്പെട്ടിരിക്കുന്നു)</div>'}</div>`).join('') + '</details>' : '';
+  const rl = (rels[h.hadith_no]||[]).sort((a,b)=>b.s-a.s);
+  const rel = rl.length ? `<div class="chips rel">` + rl.map(r => `<span class="chip">${REL[r.relation]}: <a onclick="jump(${r.no})">#${r.no}</a> <span class="meta">${Math.round(r.s*100)}%</span></span>`).join('') + '</div>' : '';
+  return `<article class="card" id="h${h.hadith_no}">
+    <div class="card-top"><span class="badge">${h.hadith_no}</span><span class="meta">പേജ് ${h.page_start}</span></div>
+    <div class="arabic">${esc(h.arabic)}</div>
+    ${h.narrator_ml?`<span class="narr">${esc(h.narrator_ml)}</span>`:''}
+    <div class="ml">${esc(h.malayalam)}</div>
+    <div class="chips">${codes}</div>
+    ${grade?`<div class="warn">⚠ ${esc(grade)}</div>`:''}
+    ${h.explanation_ml?`<div class="note">${esc(h.explanation_ml)}</div>`:''}
+    ${vars}${rel}
+  </article>`;
+}
+
+function viewChapter(no){
+  const c = D.chapters.find(c => c.no == no);
+  crumb([['വാല്യം 2','#/'],['നോമ്പ്','#/book/2'],['ബാബ് '+no]]); $('title').textContent = c.ml;
+  const hs = D.hadiths.filter(h => h.bab_seq == no);
+  const prev = no>1?`<a href="#/ch/${no-1}">‹ മുമ്പത്തെ</a>`:'', next = no<D.chapters.length?`<a href="#/ch/${+no+1}">അടുത്തത് ›</a>`:'';
+  $('main').innerHTML = `<div class="arabic" style="text-align:center;margin-top:12px">${esc(c.ar)}</div>` +
+    hs.map(card).join('') + `<div class="crumb" style="display:flex;justify-content:space-between">${prev}<span></span>${next}</div>
+    <div class="schema">hadith card fields: hadith_no · arabic_text · narrator_ml · malayalam_text · source_codes_ar → sources · grading_note_* · explanation_ml · hadith_variants · related_hadiths()</div>`;
+}
+
+function jump(n){ const h = byNo[n]; location.hash = `#/ch/${h.bab_seq}/${n}`; }
+
+function viewSearch(q){
+  const qa = strip(q), res = D.hadiths.filter(h => h.malayalam.includes(q) || strip(h.arabic).includes(qa)).slice(0,40);
+  crumb([['വാല്യം 2','#/'],['തിരയൽ']]); $('title').textContent = `"${q}" — ${res.length} ഫലം`;
+  $('main').innerHTML = res.map(card).join('') || '<p class="meta">ഒന്നും കണ്ടെത്തിയില്ല</p>';
+}
+
+function route(){
+  const p = location.hash.replace(/^#\//,'').split('/');
+  if (p[0]==='book') viewChapters();
+  else if (p[0]==='ch') { viewChapter(+p[1]); if (p[2]) { const el = $('h'+p[2]); el?.scrollIntoView({block:'center'}); el?.classList.add('hl'); } else scrollTo(0,0); }
+  else viewBooks();
+}
+let t; $('q').addEventListener('input', e => { clearTimeout(t); const v = e.target.value.trim(); t = setTimeout(() => v.length>1 ? viewSearch(v) : route(), 250); });
+addEventListener('hashchange', route); route();
+</script>
+</body>
+</html>

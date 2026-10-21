@@ -1,0 +1,278 @@
+{
+ "pages": [
+  1,
+  5,
+  9,
+  14,
+  16,
+  17,
+  20,
+  22,
+  23,
+  24,
+  25,
+  29,
+  31,
+  33,
+  34,
+  40,
+  46,
+  49,
+  59,
+  61,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  78,
+  83
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 5,
+   "note": "idx1 block 1 malayalam: word ദാത്തുന്നിത്വാകൈൻ (A) vs ദാത്തുന്നിത്വാഖൈൻ (B). Glyph after ാ looks like ഖ at native zoom (leans B) but ക/ഖ not certain; HELD, not applied."
+  },
+  {
+   "pdf_page": 9,
+   "note": "idx2 block 0 malayalam text: അബുജഹ്ലും (A) vs അബൂജഹ്ലും (B). Vowel after ബ looks like ൂ (leans B) but ു/ൂ is a held glyph call; HELD, not applied."
+  },
+  {
+   "pdf_page": 20,
+   "note": "idx7 block 4 arabic poem: print has no separator character between hemistichs (wide blank gap); A has \"...\", B has \"/\". Neither matches; not applied. Print: هَلْ أَنْتَ إِلَّا إِصْبَعٌ دَمِيتَ [gap] وَفِي سَبِيلِ اللَّهِ مَا لَقِيتَ\". (م)"
+  },
+  {
+   "pdf_page": 22,
+   "note": "idx9 block 4 bab malayalam: റിഖാഅ് (A) vs രിഖാഅ് (B). First consonant reads റ (leans A) but ര/റ is a held glyph call; HELD, not applied."
+  },
+  {
+   "pdf_page": 24,
+   "note": "idx11-15 (and idx12 empty A) block 2 arabic poem lines (Khandaq poems): print has no separator character between hemistichs, only a wide blank gap. A has \"...\", B has \"/\". Neither matches; \"...\" left in place, flag for user. idx16 separator likewise (print gap); letters corrected to ة."
+  },
+  {
+   "pdf_page": 35,
+   "note": "HELD block 3 idx23 സഇൗദുബ്നു (A) vs സഈദുബ്നു (B): ഇൗ vs ഈ vowel glyph not decidable at this resolution; not applied"
+  },
+  {
+   "pdf_page": 35,
+   "note": "HELD block 8 idx26 അബൂസഇൗദിനിൽ (A) vs അബൂസഈദിനിൽ (B): ഇൗ vs ഈ vowel glyph not decidable; not applied"
+  },
+  {
+   "pdf_page": 38,
+   "note": "HELD block 1 idx28 അധ്യായം (A) vs അദ്ധ്യായം (B): doubling of ദ്ധ not decidable at this resolution; not applied"
+  },
+  {
+   "pdf_page": 41,
+   "note": "HELD block 4 idx31 ഉഛത്തിൽ (A) vs ഉച്ചത്തിൽ (B): print at this spot reads neither cleanly (consonant cluster after ഉ not decidable); not applied; neither reading confirmed"
+  },
+  {
+   "pdf_page": 43,
+   "note": "HELD block 3 idx34 ഇന്നുവരെക്കും (A) vs ഇന്നുവരേക്കും (B): vowel sign after ര (െ vs േ) not decidable; not applied"
+  },
+  {
+   "pdf_page": 44,
+   "note": "HELD block 0 idx35 والله (A) vs ووالله (B): extra waw in 'وَوَاللَّهِ لَا أَكْذِبُ' could not be isolated reliably at native resolution after repeated crops; not applied"
+  },
+  {
+   "pdf_page": 47,
+   "note": "HELD block 3 idx37 كدى (A) vs كدي (B): final ى vs ي (dots) at 'كُدَيٌ' not clearly resolvable at this crop; not applied"
+  },
+  {
+   "pdf_page": 51,
+   "note": "HELD block 0 idx39 'കഅ്ബം' (A, before 'റസൂൽ(സ) കടന്നുവരികയും') vs nothing (B): print seems to have no കഅ്ബം there, but line-boundary layout not verified; not applied"
+  },
+  {
+   "pdf_page": 51,
+   "note": "HELD block 0 idx40 'കഅ്ബാലയത്തിനു' (A) vs 'കഅ്ബം' (B) after 'ചുംബിച്ച ശേഷം': print line ends 'ശേഷം കഅ്ബം' (B visible) but word wrap with next line not fully verified; not applied"
+  },
+  {
+   "pdf_page": 51,
+   "note": "HELD block 0 idx41 'കഅ്ബയുടെ' (A) vs 'കഅ്ബാലയത്തിനു' (B) after 'അങ്ങനെ റസൂൽ(സ)': line order at crop boundary not verified; not applied"
+  },
+  {
+   "pdf_page": 52,
+   "note": "HELD block 1 idx43 അബ്ദിൽമുത്വലിബ്(റ) (A) vs അബ്ദിൽമുത്ത്വലിബ്(റ) (B): print looks like മുത്ത്വല but ത്ത്വ vs ത്വ is glyph-level; not applied"
+  },
+  {
+   "pdf_page": 54,
+   "note": "HELD block 3 idx44 മുതീഅ്(റ) (A) vs മുത്വീഅ്(റ) (B): print glyph after മുത appears to be ്വ but ത്വ vs ത is glyph-level; not applied"
+  },
+  {
+   "pdf_page": 55,
+   "note": "HELD block 1 idx45 അബ്ദിൽമുത്വലിബിന്റെ (A) vs അബ്ദിൽമുത്ത്വലിബിന്റെ (B): print looks like മുത്ത്വലി but ത്ത്വ vs ത്വ is glyph-level; not applied"
+  },
+  {
+   "pdf_page": 62,
+   "note": "HELD block 0 idx50 (പാപ്മോചന (A) vs (പാപമോചന (B): virama after പ not certain at the crop edge; not applied"
+  },
+  {
+   "pdf_page": 63,
+   "note": "HELD (glyph-level, not applied): idx52 ML 'സന്ദര' (A) vs 'സൻദറ' (B) in block 0 - chillu ൻ vs ന് ; print looks like chillu but not certain"
+  },
+  {
+   "pdf_page": 63,
+   "note": "HELD (glyph-level, not applied): idx53 ML 'വിച്ഛേദിച്ച്' (A) vs 'വിഛേദിച്ച്' (B) in block 0 - ച്ഛ conjunct vs ഛ; not decidable at this resolution"
+  },
+  {
+   "pdf_page": 64,
+   "note": "HELD (glyph-level, not applied): idx55 ML 'ഔതാസിലേക്കയച്ചു' (A) vs 'ഔത്വാസിലേക്കയച്ചു' (B) in block 1 - ത്വ vs ത; ്വ looks present but not certain at native zoom"
+  },
+  {
+   "pdf_page": 65,
+   "note": "HELD (glyph-level, not applied): idx57 ML 'മുത്തലിബ്(റ):' (A) vs 'മുത്ത്വലിബ്(റ):' (B) block 1 - ത്വ vs ത"
+  },
+  {
+   "pdf_page": 65,
+   "note": "HELD (glyph-level, not applied): idx59 ML 'മുത്തലിബ്(റ)വും' (A) vs 'മുത്ത്വലിബ്(റ)വും' (B) block 1 - ത്വ vs ത (same word also at line 1, not applied)"
+  },
+  {
+   "pdf_page": 65,
+   "note": "HELD (glyph-level, not applied): idx61 ML 'അൻസാറുകളെ' (A) vs 'അൻസ്വാറുകളെ' (B) block 1 - ്വ vs none"
+  },
+  {
+   "pdf_page": 66,
+   "note": "HELD (glyph-level, not applied): idx67 ML 'അബ്ദുൽമുത്തലിബിന്റെ' (A) vs 'അബ്ദുൽമുത്ത്വലിബിന്റെ' (B) block 2 - ്വ"
+  },
+  {
+   "pdf_page": 68,
+   "note": "HELD (glyph-level, not applied): idx72 ML 'അബൂബകർ(റ):' (A) vs 'അബൂബക്റഃ(റ):' (B) block 1 - ർ vs ്റഃ; print looks like ക്റഃ but not certain"
+  },
+  {
+   "pdf_page": 68,
+   "note": "HELD (glyph-level, not applied): idx73 ML 'മനഃപൂർവ്വം' (A) vs 'മനഃപ്പൂർവ്വം' (B) block 1 - gemination പ്പ; print looks doubled but not certain"
+  },
+  {
+   "pdf_page": 68,
+   "note": "HELD (glyph-level, not applied): idx74 ML 'അബൂബകർ(റ)' (A) vs 'അബൂബക്റഃ(റ)' (B) block 3 - ർ vs ്റഃ"
+  },
+  {
+   "pdf_page": 68,
+   "note": "HELD (glyph-level, not applied): idx75 ML '(അബൂബകർ) കൂറേ' (A) vs '(അബൂബക്റഃ) കുറേ' (B) block 3 - ർ/റ and ൂ/ു"
+  },
+  {
+   "pdf_page": 68,
+   "note": "HELD (glyph-level, not applied): idx76 ML 'മൂന്നാമനാണ് ദേഹം.' (A) vs 'മൂന്നാമനാണദ്ദേഹം.' (B) block 3 - gemination ദ്ദ; print looks doubled but not certain"
+  },
+  {
+   "pdf_page": 69,
+   "note": "HELD (not applied): idx79 ML 'തൃപ്തിപ്പെടുന്നില്ലയോ?\"' (A) vs 'തൃപ്തിപ്പെടുന്നില്ലെയോ?\"' (B) block 1 - vowel sign െ not certain at native zoom"
+  },
+  {
+   "pdf_page": 69,
+   "note": "HELD (glyph-level, not applied): idx80 ML 'ബനുജദീമയിലേക്കയച്ചു' (A) vs 'ബനൂജദീമയിലേക്കയച്ചു' (B) block 4 - ു vs ൂ"
+  },
+  {
+   "pdf_page": 70,
+   "note": "NOT LOCATED/UNDECIDED: idx82 AR 'القرآن؟' (A) vs 'القرآن:' (B) block 1 - punctuation after القرآن could not be read at zoom; re-check"
+  },
+  {
+   "pdf_page": 70,
+   "note": "HELD (glyph-level, not applied): idx83 ML 'അൻസാരികളിൽ' (A) vs 'അൻസ്വാരികളിൽ' (B) block 0 - ്വ"
+  },
+  {
+   "pdf_page": 70,
+   "note": "HELD (glyph-level, not applied): idx84 ML '(ഗവർണർമാരായി)' (A) vs '(ഗവർണ്ണർമാരായി)' (B) block 2 - gemination ണ്ണ"
+  },
+  {
+   "pdf_page": 70,
+   "note": "HELD (not applied): idx85-89 ML 'മേഘല' (A) vs 'മേഖല' (B) block 2 (5 occurrences: മേഘലകളിലേക്കാണ്, മേഘലകളായിരുന്നു, മേഘലയിലേക്ക്, മേഘലയിൽ x2). Print letter looks like ഘ but ഘ/ഖ not certain at native zoom"
+  },
+  {
+   "pdf_page": 72,
+   "note": "HELD (glyph-level, not applied): idx95 ML 'അബീതാലിബ്(റ)' (A) vs 'അബീത്വാലിബ്(റ)' (B) block 1 - ്വ"
+  },
+  {
+   "pdf_page": 72,
+   "note": "HELD (not applied): idx96 ML 'അസം സ്കൃത സർണ്ണം' (A) vs 'അസംസ്കൃത സ്വർണ്ണം' (B) block 1 - the line-wrap join 'അസംസ്കൃത' looks right, but 'സർണ്ണം' vs 'സ്വർണ്ണം' is a ്വ call; held as a whole"
+  },
+  {
+   "pdf_page": 72,
+   "note": "HELD (glyph-level, not applied): idx97 ML 'ഹിസ്ൻ(റ),' (A) vs 'ഹിസ്ന്(റ),' (B) block 1 - chillu ൻ vs ന്"
+  },
+  {
+   "pdf_page": 72,
+   "note": "HELD (glyph-level, not applied): idx98 ML 'നിസ്കാരക്കാരുണ്ട്.' (A) vs 'നിസ്ക്കാരക്കാരുണ്ട്.' (B) block 1 - consonant gemination ക്ക"
+  },
+  {
+   "pdf_page": 72,
+   "note": "HELD (glyph-level, not applied): idx99 ML 'ദുൽഖലസ' (A) vs 'ദുൽഖലസ്വ' (B) block 2 (bab heading) - ്വ"
+  },
+  {
+   "pdf_page": 73,
+   "note": "HELD (not applied): idx100 AR 'في' (A) vs 'فني' (B) block 3 (hadith 139, 'ببعض الطريق في/فني الزاد') - dot pattern not resolved at native zoom"
+  },
+  {
+   "pdf_page": 73,
+   "note": "HELD (glyph-level, not applied): idx102 ML 'ദുകലാഅ്, ദുഅംറ്' (A) vs 'ദൂകലാഅ്, ദൂഅംറ്' (B) block 3 - ു vs ൂ"
+  },
+  {
+   "pdf_page": 73,
+   "note": "HELD (glyph-level, not applied): idx103 ML 'ദുഅംറ്' (A) vs 'ദൂഅംറ്' (B) block 3 - ു vs ൂ"
+  },
+  {
+   "pdf_page": 74,
+   "note": "HELD (glyph-level, not applied): idx105 ML 'അബൂഉബൈദ(റ)' (A) vs 'അബുഉബൈദ(റ)' (B) - block 0 (3 occurrences) and block 2 - ൂ vs ു"
+  },
+  {
+   "pdf_page": 75,
+   "note": "HELD (glyph-level, not applied): idx108 and idx109 ML 'ചെയ്യുകയാണെങ്കിൽ' (A) vs 'ചെയ്യുകയാണെങ്കൽ' (B) block 2 (3 occurrences each) - chillu ൽ vs ിൽ"
+  },
+  {
+   "pdf_page": 75,
+   "note": "NOTE (not a diff item, not changed): block 1 reads 'مَا عِنْدَكَ يَا ثُمَامَةُ' where print shows 'مَاذَا عِنْدَكَ' in both places"
+  },
+  {
+   "pdf_page": 76,
+   "note": "HELD (not applied): idx111 ML '\"മുമ്പതന്നെ' (A) vs '\"മുമ്പ്തന്നെ' (B) block 2 - virama on മ്പ not certain at native zoom"
+  },
+  {
+   "pdf_page": 78,
+   "note": "HELD (glyph-level, not applied): idx114 ML 'ഹജ്ജതുൽ' (A) vs 'ഹജ്ജത്തുൽ' (B) - bab heading block 4 and block 8 ('ഹജ്ജതുൽവദാഅ്') - gemination ത്ത"
+  },
+  {
+   "pdf_page": 76,
+   "note": "HELD (glyph-level, not applied): idx110 ML 'സാബിതുബ്നു വൈസുബ്നു' (A) vs 'സാബിതുബ്നു ഖൈസുബ്നു' (B) block 2 - വ vs ഖ not certain at native zoom (p80 print of the same name looked like വൈസേ)"
+  },
+  {
+   "pdf_page": 80,
+   "note": "HELD (not applied): idx115 ML 'ബിലാൽ(റ) അബ്ദുല്ലാഹിബ്നു വൈസേ' (A) vs 'ഖൈസേ' (B) block 1 - print looked like വൈസേ at zoom; Arabic name suggests ഖൈസ്; not decided"
+  },
+  {
+   "pdf_page": 85,
+   "note": "NOT DECIDED: idx117 ML 'പ്രായചശ്ചിത്തമായി' (A) vs 'പ്രായശ്ചിത്തമായി' (B) block 0 - word not read at native zoom"
+  },
+  {
+   "pdf_page": 87,
+   "note": "NOT DECIDED: idx118 ML 'വരേയുളളതിൽ' (A) vs 'വരെയുളളതിൽ' (B) block (line 'പ്രസവിച്ച ദിവസം മുതൽ ഇന്നു വരേയുളളതിൽ') - not located at zoom"
+  },
+  {
+   "pdf_page": 88,
+   "note": "NOT DECIDED: idx119 ML 'പതിനോഴ്' (A) vs 'പതിനേഴ്' (B) block 3 (Arabic 'سبع عشرة' suggests 17) - word not located at zoom"
+  },
+  {
+   "pdf_page": 89,
+   "note": "HELD (glyph-level, not applied): idx120 ML 'ലഭിച്ചുവെന്ന' (A) vs 'ലഭിച്ചുവെന്ന്' (B) block 5 - chillu ന്"
+  },
+  {
+   "pdf_page": 90,
+   "note": "HELD (glyph-level, not applied): idx121 ML 'അബ്ദുൽമുത്വലിബ്' (A) vs 'അബ്ദുൽമുത്ത്വലിബ്' (B) block 8 - ്വ"
+  },
+  {
+   "pdf_page": 91,
+   "note": "HELD (glyph-level, not applied): idx122 ML 'വസ്വിയ്യത്ത്' (A) vs 'വസിയ്യത്ത്' (B) block 0 - ്വ"
+  },
+  {
+   "pdf_page": 92,
+   "note": "HELD (glyph-level, not applied): idx123 ML 'ഫാതിമ(റ)' (A) vs 'ഫാത്വിമ(റ)' (B) block 1 - ്വ"
+  }
+ ],
+ "applied": 35
+}

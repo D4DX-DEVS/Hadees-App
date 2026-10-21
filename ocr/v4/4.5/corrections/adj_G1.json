@@ -1,0 +1,89 @@
+{
+ "part": "4.5",
+ "pages_checked": [
+  2,
+  3,
+  4,
+  7,
+  9,
+  10,
+  11,
+  15
+ ],
+ "corrections": [
+  {
+   "pdf_page": 4,
+   "block": 3,
+   "old": "തനിക്ക് എതിർ",
+   "new": "തനിക്ക് എതിര്",
+   "why": "print has ര + virama sign (്), not chillu ർ"
+  },
+  {
+   "pdf_page": 9,
+   "block": 1,
+   "old": "തുണിക്ഷണം",
+   "new": "തുണിക്കഷ്ണം",
+   "why": "print: തുണി / ക്കഷ്ണം across line break"
+  },
+  {
+   "pdf_page": 11,
+   "block": 0,
+   "old": "ഇബ്റാഹീം(അ) ചുമർ",
+   "new": "ഇബ്റാഹീം(അ) ചുമര്",
+   "why": "print has ര + virama sign, not chillu"
+  },
+  {
+   "pdf_page": 15,
+   "block": 0,
+   "old": "رُشْدًا}.",
+   "new": "رُشْدًا.",
+   "why": "print has no closing brace"
+  },
+  {
+   "pdf_page": 15,
+   "block": 0,
+   "old": "إِمْرًا}.",
+   "new": "إِمْرًا.",
+   "why": "print has no closing brace"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "A"
+  },
+  {
+   "idx": 1,
+   "print": "A"
+  },
+  {
+   "idx": 2,
+   "print": "B"
+  },
+  {
+   "idx": 3,
+   "print": "A"
+  },
+  {
+   "idx": 4,
+   "print": "B"
+  },
+  {
+   "idx": 5,
+   "print": "A"
+  },
+  {
+   "idx": 6,
+   "print": "B"
+  },
+  {
+   "idx": 7,
+   "print": "B"
+  },
+  {
+   "idx": 8,
+   "print": "B"
+  }
+ ]
+}

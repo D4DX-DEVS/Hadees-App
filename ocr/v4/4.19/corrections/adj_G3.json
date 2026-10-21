@@ -1,0 +1,141 @@
+{
+ "part": "4.19",
+ "pages_checked": [
+  39,
+  41,
+  42,
+  44,
+  45,
+  46,
+  47,
+  48,
+  50,
+  51,
+  52,
+  54,
+  55
+ ],
+ "corrections": [
+  {
+   "pdf_page": 39,
+   "block": 5,
+   "old": "മാർഗത്തിൽ",
+   "new": "മാർഗ്ഗത്തിൽ",
+   "why": "print has ഗ്ഗ (line-end മാർഗ്ഗ / ത്തിൽ)"
+  },
+  {
+   "pdf_page": 44,
+   "block": 2,
+   "old": "സന്തൃപ്തിയുണ്ട്.",
+   "new": "സംതൃപ്തിയുണ്ട്.",
+   "why": "print shows anusvara ം (സംതൃപ്തി)"
+  },
+  {
+   "pdf_page": 54,
+   "block": 5,
+   "old": "ചെയതിട്ടല്ലാതെ",
+   "new": "ചെയ്തിട്ടല്ലാതെ",
+   "why": "print has virama on യ് (ചെയ്തിട്ടല്ലാതെ)"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 44,
+   "note": "item4 വസിയ്യത്ത് vs വസ്വിയ്യത്ത്: print appears to have ്വ hook after സ (leaning B) but glyph-level; no correction emitted"
+  },
+  {
+   "pdf_page": 47,
+   "note": "item8 എതിർ vs എതിര്: print shows ര with virama (ര്) leaning B, glyph-level ർ/ര് so no correction"
+  },
+  {
+   "pdf_page": 51,
+   "note": "item14 എതിർ vs എതിര് (third occurrence, അവർ എതിർ പ്രവർത്തിക്കുന്നതിൽ): print shows ര with virama, leaning B, glyph-level ർ/ര്; no correction"
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "B"
+  },
+  {
+   "idx": 1,
+   "print": "A"
+  },
+  {
+   "idx": 2,
+   "print": "A"
+  },
+  {
+   "idx": 3,
+   "print": "B"
+  },
+  {
+   "idx": 4,
+   "print": "uncertain"
+  },
+  {
+   "idx": 5,
+   "print": "A"
+  },
+  {
+   "idx": 6,
+   "print": "A"
+  },
+  {
+   "idx": 7,
+   "print": "A"
+  },
+  {
+   "idx": 8,
+   "print": "uncertain"
+  },
+  {
+   "idx": 9,
+   "print": "A"
+  },
+  {
+   "idx": 10,
+   "print": "A"
+  },
+  {
+   "idx": 11,
+   "print": "A"
+  },
+  {
+   "idx": 12,
+   "print": "B"
+  },
+  {
+   "idx": 13,
+   "print": "A"
+  },
+  {
+   "idx": 14,
+   "print": "uncertain"
+  },
+  {
+   "idx": 15,
+   "print": "A"
+  },
+  {
+   "idx": 16,
+   "print": "A"
+  },
+  {
+   "idx": 17,
+   "print": "A"
+  },
+  {
+   "idx": 18,
+   "print": "B"
+  },
+  {
+   "idx": 19,
+   "print": "B"
+  },
+  {
+   "idx": 20,
+   "print": "A"
+  }
+ ]
+}

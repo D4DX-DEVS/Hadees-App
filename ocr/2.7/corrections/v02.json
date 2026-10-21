@@ -1,0 +1,468 @@
+{
+ "part": "2.7",
+ "pages_checked": [
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30
+ ],
+ "corrections": [
+  {
+   "pdf_page": 16,
+   "block": 2,
+   "old": "لِأُمِّ سَلَمَةَ",
+   "new": "لِأُمِّ سلمة",
+   "why": "print has no harakat on name"
+  },
+  {
+   "pdf_page": 16,
+   "block": 6,
+   "old": "عَنْ أُمِّ سَلَمَةَ",
+   "new": "عَنْ أُمِّ سلمة",
+   "why": "print has no harakat on name"
+  },
+  {
+   "pdf_page": 16,
+   "block": 11,
+   "old": "فَسَاوَمَنَا سَرَاوِيلَ",
+   "new": "فساومنا سراويل",
+   "why": "print unvocalized here"
+  },
+  {
+   "pdf_page": 17,
+   "block": 1,
+   "old": "حَرُمَ لِبَاسُ",
+   "new": "حُرِّمَ لِبَاسُ",
+   "why": "print: damma+shadda"
+  },
+  {
+   "pdf_page": 17,
+   "block": 1,
+   "old": "(ت,ن)",
+   "new": "(ت،ن)",
+   "why": "codes use Arabic comma in print"
+  },
+  {
+   "pdf_page": 17,
+   "block": 3,
+   "old": "(م,ت)",
+   "new": "(م،ت)",
+   "why": "codes use Arabic comma in print"
+  },
+  {
+   "pdf_page": 17,
+   "block": 4,
+   "old": "സുവൈദുബ്നു ഗഫല",
+   "new": "സുവൈദുബിൻ ഗഫല",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 17,
+   "block": 6,
+   "old": "(ق,د,ن)",
+   "new": "(ق،د،ن)",
+   "why": "codes use Arabic comma in print"
+  },
+  {
+   "pdf_page": 17,
+   "block": 7,
+   "old": "അബ്ദുല്ലാഹിബ്നു ഉമർ(റ): പള്ളി",
+   "new": "അബ്ദുല്ലാഹിബിൻ ഉമർ(റ): പള്ളി",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 17,
+   "block": 8,
+   "old": "(ق,د,ن,جه)",
+   "new": "(ق،د،ن،جه)",
+   "why": "codes use Arabic comma in print"
+  },
+  {
+   "pdf_page": 18,
+   "block": 8,
+   "old": "സ്വര്‍ണവും",
+   "new": "സ്വര്‍ണ്ണവും",
+   "why": "print has ണ്ണ"
+  },
+  {
+   "pdf_page": 18,
+   "block": 12,
+   "old": "عَلِيِّ(بْنِ أَبِي طَالِبٍ)",
+   "new": "عَلِيِّ(بن أبي طالب)",
+   "why": "parenthetical unvocalized in print"
+  },
+  {
+   "pdf_page": 18,
+   "block": 13,
+   "old": "ഫാത്തിമമാര്‍ക്കിടയില്‍",
+   "new": "ഫാത്വിമമാര്‍ക്കിടയില്‍",
+   "why": "print glyph ത്വ (low-moderate confidence)"
+  },
+  {
+   "pdf_page": 19,
+   "block": 1,
+   "old": "(د, ن, جه)",
+   "new": "(د،ن،جه)",
+   "why": "codes use Arabic comma in print"
+  },
+  {
+   "pdf_page": 19,
+   "block": 4,
+   "old": "ഫാത്തിമമാർക്കിടയിൽ",
+   "new": "ഫാത്വിമമാർക്കിടയിൽ",
+   "why": "print glyph ത്വ (low-moderate confidence)"
+  },
+  {
+   "pdf_page": 19,
+   "block": 7,
+   "old": "(ن, جه)",
+   "new": "(ن،جه)",
+   "why": "codes use Arabic comma in print"
+  },
+  {
+   "pdf_page": 20,
+   "block": 0,
+   "old": "وَأَنْ نَّجْلِسَ",
+   "new": "وَأَنْ نَجْلِسَ",
+   "why": "extra shadda"
+  },
+  {
+   "pdf_page": 21,
+   "block": 0,
+   "old": "(م, د, ت, ن, جه)",
+   "new": "(م،د،ت،ن،جه)",
+   "why": "codes use Arabic comma in print"
+  },
+  {
+   "pdf_page": 21,
+   "block": 0,
+   "old": "وَعَنْ الْقِرَاءَةِ",
+   "new": "وَعَنِ الْقِرَاءَةِ",
+   "why": "kasra on nun"
+  },
+  {
+   "pdf_page": 21,
+   "block": 1,
+   "old": "മിസ്വ്‌റിൽ",
+   "new": "മിസ്റിൽ",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 21,
+   "block": 1,
+   "old": "പട്ടു‌വസ്ത്രം",
+   "new": "പട്ട്വസ്ത്രം",
+   "why": "print spelling (JSON has stray ZWNJ/u)"
+  },
+  {
+   "pdf_page": 21,
+   "block": 4,
+   "old": "الْأَرْجُوَانَ",
+   "new": "الْأُرْجُوَانَ",
+   "why": "damma on hamza"
+  },
+  {
+   "pdf_page": 21,
+   "block": 4,
+   "old": "(د, ت)",
+   "new": "(د،ت)",
+   "why": "codes use Arabic comma in print"
+  },
+  {
+   "pdf_page": 21,
+   "block": 6,
+   "old": "(د, ن)",
+   "new": "(د،ن)",
+   "why": "codes use Arabic comma in print"
+  },
+  {
+   "pdf_page": 21,
+   "block": 7,
+   "old": "(ദ, ന)",
+   "new": "(ദ,ന)",
+   "why": "print has no space"
+  },
+  {
+   "pdf_page": 21,
+   "block": 8,
+   "old": "الْأَرْجُوَانِ",
+   "new": "الْأُرْجُوَانِ",
+   "why": "damma on hamza"
+  },
+  {
+   "pdf_page": 22,
+   "block": 1,
+   "old": "മിസ്വ്റിൽ",
+   "new": "മിസ്റിൽ",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 22,
+   "block": 6,
+   "old": "فُرُوجِ",
+   "new": "فُرُّوجِ",
+   "why": "shadda on ra"
+  },
+  {
+   "pdf_page": 22,
+   "block": 7,
+   "old": "فَرُوجُ حَرِيرٍ",
+   "new": "فَرُّوجُ حَرِيرٍ",
+   "why": "shadda on ra"
+  },
+  {
+   "pdf_page": 22,
+   "block": 10,
+   "old": "عَنْ لَبُوسِ الْحَرِيرِ",
+   "new": "عَنْ لُبُوسِ الْحَرِيرِ",
+   "why": "damma on lam"
+  },
+  {
+   "pdf_page": 23,
+   "block": 1,
+   "old": "ആദർബൈജാൻ",
+   "new": "അദർബൈജാൻ",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 23,
+   "block": 1,
+   "old": "മുശ്‌രിക്കുകളുടെ",
+   "new": "മുശ്രികുകളുടെ",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 23,
+   "block": 2,
+   "old": "١٠٠. ",
+   "new": "",
+   "why": "hadith number is margin label, not text"
+  },
+  {
+   "pdf_page": 23,
+   "block": 5,
+   "old": "١٠١. ",
+   "new": "",
+   "why": "hadith number is margin label, not text"
+  },
+  {
+   "pdf_page": 23,
+   "block": 5,
+   "old": "(ق,ت,ن)",
+   "new": "(ق،ت،ن)",
+   "why": "codes use Arabic comma in print"
+  },
+  {
+   "pdf_page": 23,
+   "block": 6,
+   "old": "വാഖിദുബ്നു അംറിബ്നി സഅ്ദിബ്നി മുആദ്(റ)",
+   "new": "വാഖിദുബിൻ അംറിബ്നി സഅ്ദിബ്നി മുആദ്(റ)",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 23,
+   "block": 6,
+   "old": "റുമാലുകൾ",
+   "new": "ഉറുമാലുകൾ",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 23,
+   "block": 8,
+   "old": "١٠٢. ",
+   "new": "",
+   "why": "hadith number is margin label, not text"
+  },
+  {
+   "pdf_page": 24,
+   "block": 0,
+   "old": "إِلَى أُكَيْدِرِ دُومَةَ",
+   "new": "إِلَى أُكَيْدِرِ صَاحِبِ دُومَةَ",
+   "why": "word dropped"
+  },
+  {
+   "pdf_page": 24,
+   "block": 0,
+   "old": "يَلْمَسُونَهَا",
+   "new": "يَلْمِسُونَهَا",
+   "why": "kasra on mim"
+  },
+  {
+   "pdf_page": 24,
+   "block": 1,
+   "old": "ഉദൂമത്തിലെ",
+   "new": "ഉദുമത്തിലെ",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 24,
+   "block": 1,
+   "old": "സഅ്ദ് ബിൻ മുആദാണ്",
+   "new": "സഅ്ദി ബിൻ മുആദാണ്",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 25,
+   "block": 3,
+   "old": "അബൂഉസ്മാനന്നഹ്ദി(റ)",
+   "new": "അബൂഉസ്മാനന്നഹ്ദീ(റ)",
+   "why": "print long ee"
+  },
+  {
+   "pdf_page": 25,
+   "block": 6,
+   "old": "(ق,د,ن,جه)",
+   "new": "(ق،د،ن،جه)",
+   "why": "codes use Arabic comma in print"
+  },
+  {
+   "pdf_page": 25,
+   "block": 7,
+   "old": "സുബൈറുബ്നുൽ",
+   "new": "സുബൈറുബിനുൽ",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 25,
+   "block": 9,
+   "old": "അബ്ദുർറഹ്മാനുബ്ൻ",
+   "new": "അബ്ദുർറഹ്മാനുബിൻ",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 25,
+   "block": 9,
+   "old": "സുബൈറുബ്നുൽ",
+   "new": "സുബൈറുബിനുൽ",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 26,
+   "block": 2,
+   "old": "അബ്ദുർറഹ്മാനുബ്നു ഔഫ്(റ)വും",
+   "new": "അബ്ദുർറഹ്മാനുബിൻ ഔഫ്(റ)വും",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 26,
+   "block": 2,
+   "old": "സുബൈറുബ്നുൽ",
+   "new": "സുബൈറുബിനുൽ",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 27,
+   "block": 0,
+   "old": "بَابُ:",
+   "new": "بَابٌ:",
+   "why": "tanween in print"
+  },
+  {
+   "pdf_page": 27,
+   "block": 2,
+   "old": "അസ്മാഅ്(റ)വോട",
+   "new": "അസ്മാഅ്(റ)യോട്",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 28,
+   "block": 1,
+   "old": "പട്ടു‌വസ്ത്രവുമായി",
+   "new": "പട്ട്വസ്ത്രവുമായി",
+   "why": "print spelling (JSON has stray ZWNJ/u)"
+  },
+  {
+   "pdf_page": 28,
+   "block": 3,
+   "old": "١١٥. ",
+   "new": "",
+   "why": "hadith number is margin label, not text"
+  },
+  {
+   "pdf_page": 29,
+   "block": 2,
+   "old": "(خ,د,ن)",
+   "new": "(خ،د،ن)",
+   "why": "codes use Arabic comma in print"
+  },
+  {
+   "pdf_page": 29,
+   "block": 7,
+   "old": "(د,ت,ن)",
+   "new": "(د،ت،ن)",
+   "why": "codes use Arabic comma in print"
+  },
+  {
+   "pdf_page": 30,
+   "block": 0,
+   "old": "(د,جه)",
+   "new": "(د،جه)",
+   "why": "codes use Arabic comma in print"
+  },
+  {
+   "pdf_page": 30,
+   "block": 2,
+   "old": "(د,ت)",
+   "new": "(د،ت)",
+   "why": "codes use Arabic comma in print"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 18,
+   "hadith_no": null,
+   "note": "Malayalam blocks on p18 (and chillu letters elsewhere) are encoded with legacy virama+ZWJ chillus (e.g. ല്‍, ര്‍, ന്‍); print shows normal chillus. Same glyphs, encoding differs; not corrected."
+  },
+  {
+   "pdf_page": 18,
+   "hadith_no": 78,
+   "note": "print Malayalam may read ഫാത്വിമ vs JSON ഫാത്തിമ; corrected at low-moderate confidence"
+  },
+  {
+   "pdf_page": 16,
+   "hadith_no": 68,
+   "note": "could not confirm kasra vs fatha on final lam of السراويل at this zoom; left unchanged"
+  },
+  {
+   "pdf_page": 21,
+   "hadith_no": 90,
+   "note": "JSON uses ഖസ്സിയ്യ് and ഉത്ബതുബ്നു; print p22 b1 may read ഖസിയ്യ്; unsure, unchanged"
+  },
+  {
+   "pdf_page": 22,
+   "hadith_no": 96,
+   "note": "print Malayalam source code reads (ബു,മു,ദ,ന.ജ) with a period (misprint); JSON has comma; left as is"
+  },
+  {
+   "pdf_page": 23,
+   "hadith_no": 101,
+   "note": "p23-p24 print Malayalam possibly ഉഖ്ബതുബ്നു vs JSON ഉത്ബതുബ്നു, and ഉകൈദരിലേക്ക് vs ഉകൈദറിലേക്ക്; unsure, unchanged"
+  },
+  {
+   "pdf_page": 24,
+   "hadith_no": 104,
+   "note": "print Arabic is mostly unvocalized with sparse harakat; JSON is fully vocalized (harakat added). Same on p25 hadiths 105-108, p27 bab 'إباحة الانتفاع' and 114-115 partly, p28 hadith 114 tail and 115, p29 hadiths 116-119, p30 hadith 119/120/121 (partly). Not corrected line by line."
+  },
+  {
+   "pdf_page": 30,
+   "hadith_no": 119,
+   "note": "b0 merges the end of hadith 119 and the separate 'in another narration' Arabic paragraph (newline inside block); b1 Malayalam likewise merges both Malayalam paragraphs"
+  },
+  {
+   "pdf_page": 23,
+   "hadith_no": 99,
+   "note": "hadith 99 Arabic continues across p22-p23 (split block starting 'وَرَفَعَ لَنَا') - fine; no change"
+  }
+ ]
+}

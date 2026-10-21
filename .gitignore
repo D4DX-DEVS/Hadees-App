@@ -1,0 +1,21 @@
+# secrets
+.env
+.env.*
+!.env.example
+# deps / build output
+node_modules/
+dist/
+.expo/
+.wrangler/
+.DS_Store
+# large source scans (keep a separate backup)
+src_v1/
+src_v3/
+backups/*.json
+builds/
+data/verify/openiti/
+data/embed_local/
+.target.env
+src_v2/
+src_v4/
+Volume2_Review_Checklist.pdf

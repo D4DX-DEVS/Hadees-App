@@ -1,0 +1,70 @@
+{
+ "part": "4.9",
+ "pages_checked": [
+  11,
+  12,
+  13,
+  14
+ ],
+ "corrections": [
+  {
+   "pdf_page": 13,
+   "block": 9,
+   "old": "അബൂബക്ർ(റ)",
+   "new": "അബൂബക്റ(റ)",
+   "why": "print: ക് + plain റ glyph (same as in (റ)), not chillu ർ"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 11,
+   "note": "item1 മഹ്രി: read as ര (A); ര/റ distinction slight but glyph matches ര of 'രാവുകളിൽ'"
+  },
+  {
+   "pdf_page": 13,
+   "note": "item7 ബക്റ: glyph matches plain റ (B); moderately confident"
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "other"
+  },
+  {
+   "idx": 1,
+   "print": "A"
+  },
+  {
+   "idx": 2,
+   "print": "B"
+  },
+  {
+   "idx": 3,
+   "print": "B"
+  },
+  {
+   "idx": 4,
+   "print": "B"
+  },
+  {
+   "idx": 5,
+   "print": "A"
+  },
+  {
+   "idx": 6,
+   "print": "B"
+  },
+  {
+   "idx": 7,
+   "print": "B"
+  },
+  {
+   "idx": 8,
+   "print": "A"
+  },
+  {
+   "idx": 9,
+   "print": "A"
+  }
+ ]
+}

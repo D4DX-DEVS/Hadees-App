@@ -1,0 +1,368 @@
+{
+ "part": "art-article",
+ "pages_checked": [
+  19,
+  20,
+  21,
+  22,
+  23,
+  24
+ ],
+ "corrections": [
+  {
+   "pdf_page": 19,
+   "block": 0,
+   "old": "മുസ്ത്വഫാ",
+   "new": "മുസ്തഫാ",
+   "why": "print reads മുസ്തഫാ"
+  },
+  {
+   "pdf_page": 19,
+   "block": 1,
+   "old": "മാജ്ജ,",
+   "new": "മാജഃ,",
+   "why": "print reads മാജഃ,"
+  },
+  {
+   "pdf_page": 19,
+   "block": 1,
+   "old": "നസാഇയ്യ്,",
+   "new": "നസാഈ,",
+   "why": "print reads നസാഈ,"
+  },
+  {
+   "pdf_page": 19,
+   "block": 1,
+   "old": "അഹ്മദ്ബ്‌നു",
+   "new": "അഹമ്മദുബ്‌നു",
+   "why": "print reads അഹമ്മദുബ്നു"
+  },
+  {
+   "pdf_page": 19,
+   "block": 3,
+   "old": "ബുഖാരി(റ)",
+   "new": "ബുഖാരി(ഖ)",
+   "why": "print reads ബുഖാരി(ഖ)"
+  },
+  {
+   "pdf_page": 19,
+   "block": 4,
+   "old": "എന്നേക്കാൾ",
+   "new": "എന്നെക്കാൾ",
+   "why": "print reads എന്നെക്കാൾ"
+  },
+  {
+   "pdf_page": 20,
+   "block": 1,
+   "old": "സബാഇയ്യുടെ,",
+   "new": "സബാഇയുടെ,",
+   "why": "print reads സബാഇയുടെ,"
+  },
+  {
+   "pdf_page": 20,
+   "block": 2,
+   "old": "അബൂഹുറൈറ(റ)യെ",
+   "new": "അബൂഹൂറൈറ(റ)യെ",
+   "why": "print reads അബൂഹൂറൈറ(റ)യെ"
+  },
+  {
+   "pdf_page": 20,
+   "block": 2,
+   "old": "സബാഇൗ",
+   "new": "സബാഈ",
+   "why": "print reads സബാഈ"
+  },
+  {
+   "pdf_page": 20,
+   "block": 4,
+   "old": "വിശ്വസ്തമായവയ",
+   "new": "വിശ്വസ്തമായവയെ",
+   "why": "print reads വിശ്വസ്തമായവയെ"
+  },
+  {
+   "pdf_page": 20,
+   "block": 4,
+   "old": "(അസ്സ്വിഹാഹുസ്സിത്തഃ)",
+   "new": "(അസ്സിഹാഹുസ്സിത്തഃ)",
+   "why": "print reads (അസ്സിഹാഹുസ്സിത്തഃ)"
+  },
+  {
+   "pdf_page": 20,
+   "block": 4,
+   "old": "മാനദണ്ഡങ്ങളും",
+   "new": "മാനദണ്ഢങ്ങളും",
+   "why": "print reads മാനദണ്ഢങ്ങളും"
+  },
+  {
+   "pdf_page": 20,
+   "block": 12,
+   "old": "തുച്ഛമായ",
+   "new": "തുഛമായ",
+   "why": "print reads തുഛമായ"
+  },
+  {
+   "pdf_page": 21,
+   "block": 5,
+   "old": "വചനങ്ങൾക്ക്",
+   "new": "വചനങ്ങൾക്കു",
+   "why": "print reads വചനങ്ങൾക്കു"
+  },
+  {
+   "pdf_page": 21,
+   "block": 19,
+   "old": "മാനദണ്ഡങ്ങൾക്കുപുറമെ",
+   "new": "മാനദണ്ഢങ്ങൾക്കുപുറമെ",
+   "why": "print reads മാനദണ്ഢങ്ങൾക്കുപുറമെ"
+  },
+  {
+   "pdf_page": 21,
+   "block": 21,
+   "old": "മാനദണ്ഡങ്ങൾക്കും",
+   "new": "മാനദണ്ഢങ്ങൾക്കും",
+   "why": "print reads മാനദണ്ഢങ്ങൾക്കും"
+  },
+  {
+   "pdf_page": 21,
+   "block": 21,
+   "old": "'അസ്സ്വിഹാഹുസ്സിത്ത'",
+   "new": "'അസ്സിഹാഹുസ്സിത്തഃ'",
+   "why": "print reads 'അസ്സിഹാഹുസ്സിത്തഃ'"
+  },
+  {
+   "pdf_page": 22,
+   "block": 2,
+   "old": "തഖ്‌രീരിയ്യ്",
+   "new": "തശ്‌രീരിയ്യ്",
+   "why": "print reads തശ്രീരിയ്യ്"
+  },
+  {
+   "pdf_page": 22,
+   "block": 5,
+   "old": "ഹദീസുന്നബവി",
+   "new": "ഹദീസുന്നബവീ",
+   "why": "print reads ഹദീസുന്നബവീ"
+  },
+  {
+   "pdf_page": 22,
+   "block": 6,
+   "old": "ഖുദ്‌സി",
+   "new": "ഖുദുസീ",
+   "why": "print reads ഖുദുസീ"
+  },
+  {
+   "pdf_page": 22,
+   "block": 13,
+   "old": "നിവേദകപരമ്പരയിലുള്ളവർ",
+   "new": "നിവേദകപരമ്പരിയിള്ളവർ",
+   "why": "print reads നിവേദകപരമ്പരിയിള്ളവർ"
+  },
+  {
+   "pdf_page": 22,
+   "block": 20,
+   "old": "നിരക്കാത്ത",
+   "new": "നിരക്കാത്ത്",
+   "why": "print reads നിരക്കാത്ത്"
+  },
+  {
+   "pdf_page": 22,
+   "block": 20,
+   "old": "ഹദീസ് ക",
+   "new": "ഹദിസ് ക",
+   "why": "print reads ഹദിസ്"
+  },
+  {
+   "pdf_page": 22,
+   "block": 20,
+   "old": "ഉടമയായിരിക്കുകയും",
+   "new": "ഉമെയായിരിക്കുകയും",
+   "why": "print reads ഉമെയായിരിക്കുകയും"
+  },
+  {
+   "pdf_page": 22,
+   "block": 20,
+   "old": "പ്രശംസാർഹരുമായ റിപ്പോർട്ടർമാർ",
+   "new": "പ്രശസ്ഥരുമായ റിപ്പോർട്ടമാർ",
+   "why": "print reads പ്രശസ്ഥരുമായ റിപ്പോർട്ടമാർ"
+  },
+  {
+   "pdf_page": 23,
+   "block": 9,
+   "old": "(താബിഉൗൻ, താബിഉത്താബിഈൻ)",
+   "new": "(താബിഊൻ, താബിഉത്താബിഈൻ)",
+   "why": "print reads (താബിഊൻ, താബിഉത്താബിഈൻ)"
+  },
+  {
+   "pdf_page": 23,
+   "block": 9,
+   "old": "ബാധകമാവുകയുള്ളു.",
+   "new": "ബാധകമാവുകയുള്ളൂ.",
+   "why": "print reads ബാധകമാവുകയുള്ളൂ."
+  },
+  {
+   "pdf_page": 23,
+   "block": 13,
+   "old": "മുഅ്ദൽ",
+   "new": "മുഅ്ള്വൽ",
+   "why": "print reads മുഅ്ള്വൽ"
+  },
+  {
+   "pdf_page": 23,
+   "block": 14,
+   "old": "മൗദ്വൂഅ്",
+   "new": "മൗള്വൂഅ്",
+   "why": "print reads മൗള്വൂഅ്"
+  },
+  {
+   "pdf_page": 24,
+   "block": 8,
+   "old": "മഖ്തൂഅ്",
+   "new": "മഖ്ത്വൂഅ്",
+   "why": "print reads മഖ്ത്വൂഅ്"
+  },
+  {
+   "pdf_page": 24,
+   "block": 9,
+   "old": "(താബിഈ)",
+   "new": "(താബിഅ്)",
+   "why": "print reads (താബിഅ്)"
+  },
+  {
+   "pdf_page": 24,
+   "block": 9,
+   "old": "എത്തുകയുള്ളു.",
+   "new": "എത്തുകയുള്ളൂ.",
+   "why": "print reads എത്തുകയുള്ളൂ."
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "B"
+  },
+  {
+   "idx": 1,
+   "print": "B"
+  },
+  {
+   "idx": 2,
+   "print": "B"
+  },
+  {
+   "idx": 3,
+   "print": "B"
+  },
+  {
+   "idx": 4,
+   "print": "B"
+  },
+  {
+   "idx": 5,
+   "print": "B"
+  },
+  {
+   "idx": 6,
+   "print": "B"
+  },
+  {
+   "idx": 7,
+   "print": "B"
+  },
+  {
+   "idx": 8,
+   "print": "B"
+  },
+  {
+   "idx": 9,
+   "print": "B"
+  },
+  {
+   "idx": 10,
+   "print": "B"
+  },
+  {
+   "idx": 11,
+   "print": "B"
+  },
+  {
+   "idx": 12,
+   "print": "B"
+  },
+  {
+   "idx": 13,
+   "print": "B"
+  },
+  {
+   "idx": 14,
+   "print": "B"
+  },
+  {
+   "idx": 15,
+   "print": "B"
+  },
+  {
+   "idx": 16,
+   "print": "B"
+  },
+  {
+   "idx": 17,
+   "print": "B"
+  },
+  {
+   "idx": 18,
+   "print": "B"
+  },
+  {
+   "idx": 19,
+   "print": "B"
+  },
+  {
+   "idx": 20,
+   "print": "B"
+  },
+  {
+   "idx": 21,
+   "print": "B"
+  },
+  {
+   "idx": 22,
+   "print": "B"
+  },
+  {
+   "idx": 23,
+   "print": "B"
+  },
+  {
+   "idx": 24,
+   "print": "B"
+  },
+  {
+   "idx": 25,
+   "print": "B"
+  },
+  {
+   "idx": 26,
+   "print": "other"
+  },
+  {
+   "idx": 27,
+   "print": "B"
+  },
+  {
+   "idx": 28,
+   "print": "B"
+  },
+  {
+   "idx": 29,
+   "print": "B"
+  },
+  {
+   "idx": 30,
+   "print": "B"
+  },
+  {
+   "idx": 31,
+   "print": "B"
+  }
+ ]
+}

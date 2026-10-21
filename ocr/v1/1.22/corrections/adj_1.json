@@ -1,0 +1,82 @@
+{
+ "part": "1.22",
+ "pages_checked": [
+  1,
+  2,
+  4,
+  7,
+  8
+ ],
+ "corrections": [
+  {
+   "pdf_page": 1,
+   "block": 1,
+   "old": "صَفَفْنَا",
+   "new": "صَفْنَا",
+   "why": "print has single ف (no shadda): صفنا"
+  },
+  {
+   "pdf_page": 4,
+   "block": 3,
+   "old": "ഉജ്നാൻ",
+   "new": "ളജ്നാൻ",
+   "why": "print reads ളജ്നാൻ"
+  },
+  {
+   "pdf_page": 7,
+   "block": 1,
+   "old": "മറ്റേ വിഭാഗം",
+   "new": "മറ്റെ വിഭാഗം",
+   "why": "print has single-sided െ, not േ"
+  },
+  {
+   "pdf_page": 8,
+   "block": 7,
+   "old": "فَجِئْتُكَ فِي ذَلِكَ",
+   "new": "فَجِئْتُكَ فِي ذَاكَ",
+   "why": "print ذاك"
+  },
+  {
+   "pdf_page": 8,
+   "block": 7,
+   "old": "لَفِي ذَلِكَ",
+   "new": "لَفِي ذَاكَ",
+   "why": "print ذاك"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "B"
+  },
+  {
+   "idx": 1,
+   "print": "A"
+  },
+  {
+   "idx": 2,
+   "print": "A"
+  },
+  {
+   "idx": 3,
+   "print": "A"
+  },
+  {
+   "idx": 4,
+   "print": "B"
+  },
+  {
+   "idx": 5,
+   "print": "B"
+  },
+  {
+   "idx": 6,
+   "print": "B"
+  },
+  {
+   "idx": 7,
+   "print": "B"
+  }
+ ]
+}

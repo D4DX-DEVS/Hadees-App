@@ -1,0 +1,93 @@
+{
+ "part": "4.19",
+ "pages_checked": [
+  28,
+  29,
+  30,
+  31,
+  33,
+  35,
+  36
+ ],
+ "corrections": [
+  {
+   "pdf_page": 30,
+   "block": 5,
+   "old": "പിന്നെയെന്താണ്",
+   "new": "പിന്നെയെന്തിനാണ്",
+   "why": "print line-break reads പിന്നെയെന്തി / നാണ്"
+  },
+  {
+   "pdf_page": 33,
+   "block": 2,
+   "old": "تَتَكَلَّمُ بِهِ؟",
+   "new": "تَكَلَّمُ بِهِ؟",
+   "why": "print has single ت: تكلم"
+  },
+  {
+   "pdf_page": 36,
+   "block": 0,
+   "old": "كَابْنَيْ آدَمَ",
+   "new": "كَابْنِ آدَمَ",
+   "why": "print reads كابن آدم (no ي)"
+  },
+  {
+   "pdf_page": 36,
+   "block": 4,
+   "old": "بَلَّغْتُ؟ اللَّهُمَّ هَلْ بَلَّغْتُ\"",
+   "new": "بَلَّغْتُ؟ اللَّهُمَّ هَلْ بَلَّغْتُ؟ اللَّهُمَّ هَلْ بَلَّغْتُ\"",
+   "why": "print has three repetitions of اللهم هل بلغت"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 8,
+   "print": "A"
+  },
+  {
+   "idx": 9,
+   "print": "A"
+  },
+  {
+   "idx": 10,
+   "print": "A"
+  },
+  {
+   "idx": 11,
+   "print": "B"
+  },
+  {
+   "idx": 12,
+   "print": "B"
+  },
+  {
+   "idx": 13,
+   "print": "B"
+  },
+  {
+   "idx": 14,
+   "print": "B"
+  },
+  {
+   "idx": 15,
+   "print": "A"
+  },
+  {
+   "idx": 16,
+   "print": "A"
+  },
+  {
+   "idx": 17,
+   "print": "B"
+  },
+  {
+   "idx": 18,
+   "print": "B"
+  },
+  {
+   "idx": 19,
+   "print": "A"
+  }
+ ]
+}

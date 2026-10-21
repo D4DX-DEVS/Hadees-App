@@ -1,0 +1,384 @@
+{
+ "part": "2.12",
+ "pages_checked": [
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28
+ ],
+ "corrections": [
+  {
+   "pdf_page": 15,
+   "block": 5,
+   "old": "അല്ലെങ്കിൽ അതിനോട്",
+   "new": "അതല്ലെങ്കിൽ അതിനോട്",
+   "why": "word 'അതല്ലെങ്കിൽ' misread"
+  },
+  {
+   "pdf_page": 16,
+   "block": 1,
+   "old": "(ബു,മു,ദ,തി,ജ)",
+   "new": "(ബു,മു,ദ,തു,ജ)",
+   "why": "source code തി vs തു"
+  },
+  {
+   "pdf_page": 17,
+   "block": 5,
+   "old": "അളീം(അറിയുന്നവൻ)",
+   "new": "അലീം(അറിയുന്നവൻ)",
+   "why": "ള vs ല"
+  },
+  {
+   "pdf_page": 17,
+   "block": 5,
+   "old": "മുത്വആൽ(ഔന്നത്യമുള്ളവൻ)",
+   "new": "മുതആൽ(ഔന്നിത്യമുള്ളവൻ)",
+   "why": "spelling as printed"
+  },
+  {
+   "pdf_page": 17,
+   "block": 5,
+   "old": "വദൂദ്(സ്നേഹനിധി)",
+   "new": "വദുദ്(സ്നേഹനിധി)",
+   "why": "vowel sign as printed"
+  },
+  {
+   "pdf_page": 17,
+   "block": 5,
+   "old": "മാജിദ്(മഹത്വമുള്ളവൻ)",
+   "new": "മാജിദ്(മഹത്വമുടയവൻ)",
+   "why": "word differs"
+  },
+  {
+   "pdf_page": 18,
+   "block": 0,
+   "old": "മജീദ്(മഹത്വമുള്ളവൻ)",
+   "new": "മജീദ്(മഹത്വമുടയവൻ)",
+   "why": "word differs"
+  },
+  {
+   "pdf_page": 18,
+   "block": 0,
+   "old": "ദുൽ ഖുവ്വ(",
+   "new": "ദുൽ ഖുവ്വഃ(",
+   "why": "visarga missing"
+  },
+  {
+   "pdf_page": 18,
+   "block": 0,
+   "old": "മുഅ്തീ(നൽകുന്നവൻ)",
+   "new": "മുഅ്ത്വീ(നൽകുന്നവൻ)",
+   "why": "ത്വ missing"
+  },
+  {
+   "pdf_page": 18,
+   "block": 0,
+   "old": "മാനീഅ്(",
+   "new": "മാനിഅ്(",
+   "why": "vowel length"
+  },
+  {
+   "pdf_page": 18,
+   "block": 0,
+   "old": "ഹാദി(സൻമാർഗം",
+   "new": "ഹാദീ(സൻമാർഗം",
+   "why": "vowel length"
+  },
+  {
+   "pdf_page": 18,
+   "block": 2,
+   "old": "ആരാധനയില്ല",
+   "new": "ആരാധ്യനില്ല",
+   "why": "word misread"
+  },
+  {
+   "pdf_page": 18,
+   "block": 6,
+   "old": "الأَعْظَمِ;",
+   "new": "الأَعْظَمِ:",
+   "why": "colon printed"
+  },
+  {
+   "pdf_page": 18,
+   "block": 7,
+   "old": "ഔന്നത്യവും",
+   "new": "ഔന്നിത്യവും",
+   "why": "spelling as printed"
+  },
+  {
+   "pdf_page": 18,
+   "block": 7,
+   "old": "ആരാധൃനുമില്ല",
+   "new": "ആരാധ്യനുമില്ല",
+   "why": "chillu/yya sign"
+  },
+  {
+   "pdf_page": 19,
+   "block": 4,
+   "old": "ആ പേര് കൊണ്ട് ചോദിച്ചാൽ നീ ഉത്തരം",
+   "new": "ആ പേർ കൊണ്ട് ചോദിച്ചാൽ നീ ഉത്തരം",
+   "why": "chillu ർ"
+  },
+  {
+   "pdf_page": 19,
+   "block": 4,
+   "old": "ആ പേര് കൊണ്ട് ചോദിച്ചാൽ നീ നൽകും",
+   "new": "ആ പേർ കൊണ്ട് ചോദിച്ചാൽ നീ നൽകും",
+   "why": "chillu ർ"
+  },
+  {
+   "pdf_page": 19,
+   "block": 4,
+   "old": "ആ പേര് കൊണ്ട് നിന്റെ കാരുണ്യം",
+   "new": "ആ പേർ കൊണ്ട് നിന്റെ കാരുണ്യം",
+   "why": "chillu ർ"
+  },
+  {
+   "pdf_page": 19,
+   "block": 4,
+   "old": "ആ പേര് കൊണ്ട് ദുഃഖത്തെ",
+   "new": "ആ പേർ കൊണ്ട് ദുഃഖത്തെ",
+   "why": "chillu ർ"
+  },
+  {
+   "pdf_page": 19,
+   "block": 4,
+   "old": "എനിക്കത് പഠിപ്പിച്ചു തന്നാലും",
+   "new": "എനിക്കത് പഠിപ്പിച്ച് തന്നാലും",
+   "why": "ചു vs ച്"
+  },
+  {
+   "pdf_page": 19,
+   "block": 4,
+   "old": "നിനക്ക് പഠിപ്പിച്ചു തന്നാൽ",
+   "new": "നിനക്ക് പഠിപ്പിച്ച് തന്നാൽ",
+   "why": "ചു vs ച്"
+  },
+  {
+   "pdf_page": 19,
+   "block": 4,
+   "old": "കാരുണ്യവാനേ,, ഗുണം",
+   "new": "കാരുണ്യവാനേ,. ഗുണം",
+   "why": "punctuation as printed"
+  },
+  {
+   "pdf_page": 20,
+   "block": 1,
+   "old": "ഇസ്മ്(പേര്)",
+   "new": "ഇസ്മ്(പേർ)",
+   "why": "chillu ർ"
+  },
+  {
+   "pdf_page": 20,
+   "block": 3,
+   "old": "ശ്രേഷ്ഠമായ പേര്)",
+   "new": "ശ്രേഷ്ഠമായ പേർ)",
+   "why": "chillu ർ"
+  },
+  {
+   "pdf_page": 20,
+   "block": 6,
+   "old": "بَابُ:",
+   "new": "بَابٌ:",
+   "why": "tanween printed"
+  },
+  {
+   "pdf_page": 20,
+   "block": 12,
+   "old": "പുനരുത്ഥാന ദിനത്തിൽ",
+   "new": "പുനരുദ്ധാന ദിവസത്തിൽ",
+   "why": "words differ"
+  },
+  {
+   "pdf_page": 21,
+   "block": 1,
+   "old": "പഠിപ്പിച്ചു തന്നിരുന്നു",
+   "new": "പഠിപ്പിച്ച് തന്നിരുന്നു",
+   "why": "ചു vs ച്"
+  },
+  {
+   "pdf_page": 21,
+   "block": 5,
+   "old": "അപ്പോൾ അവിടുന്ന് പറഞ്ഞു",
+   "new": "അപ്പോൾ അവിടന്ന് പറഞ്ഞു",
+   "why": "spelling as printed"
+  },
+  {
+   "pdf_page": 21,
+   "block": 5,
+   "old": "അത്ര പ്രാവശ്യം 'അല്ലാഹു അക്ബർ'",
+   "new": "അത്ര പ്രാവശ്യം ഞാൻ 'അല്ലാഹു അക്ബർ'",
+   "why": "word ഞാൻ dropped"
+  },
+  {
+   "pdf_page": 22,
+   "block": 2,
+   "old": "പറ്റൂവെങ്കിൽ",
+   "new": "പറ്റുവെങ്കിൽ",
+   "why": "ൂ vs ു"
+  },
+  {
+   "pdf_page": 22,
+   "block": 3,
+   "old": "عُمُرُهُ إِلَّا",
+   "new": "عُمْرُهُ إِلَّا",
+   "why": "sukun printed"
+  },
+  {
+   "pdf_page": 22,
+   "block": 7,
+   "old": "وَجَدِّي",
+   "new": "وَجِدِّي",
+   "why": "kasra printed"
+  },
+  {
+   "pdf_page": 24,
+   "block": 6,
+   "old": "السَّلَمِيَّةِ",
+   "new": "السُّلَمِيَّةِ",
+   "why": "damma printed"
+  },
+  {
+   "pdf_page": 24,
+   "block": 7,
+   "old": "ഒരു വസ്തുവും",
+   "new": "ഒരു വസതുവും",
+   "why": "printed spelling (misprint kept)"
+  },
+  {
+   "pdf_page": 25,
+   "block": 1,
+   "old": "ബുദ്ധിമുട്ടുകളിൽ നിന്നും മടക്ക",
+   "new": "ബുദ്ധിമുട്ടികളിൽ നിന്നും മടക്ക",
+   "why": "printed misprint kept"
+  },
+  {
+   "pdf_page": 25,
+   "block": 5,
+   "old": "കുടുംബത്തിലും സ്വത്തിലും",
+   "new": "കുടുംബത്തിലും സമ്പത്തിലും",
+   "why": "word differs"
+  },
+  {
+   "pdf_page": 26,
+   "block": 0,
+   "old": "جُدْرَانَ المَدِينَةِ",
+   "new": "جُدْرَانِ الْمَدِينَةِ",
+   "why": "kasra / sukun printed"
+  },
+  {
+   "pdf_page": 26,
+   "block": 9,
+   "old": "അധികം നൽകേണമേ",
+   "new": "അധികം നൽകേണേ",
+   "why": "word ending as printed"
+  },
+  {
+   "pdf_page": 27,
+   "block": 0,
+   "old": "بَابٌ: الو",
+   "new": "بَابٌ: الْو",
+   "why": "sukun printed"
+  },
+  {
+   "pdf_page": 27,
+   "block": 1,
+   "old": "٩٩ . عَنْ",
+   "new": "عَنْ",
+   "why": "hadith number marker leaked into text (hadith_no already holds it)"
+  },
+  {
+   "pdf_page": 27,
+   "block": 4,
+   "old": "١٠٠ . عَنْ",
+   "new": "عَنْ",
+   "why": "hadith number marker leaked into text"
+  },
+  {
+   "pdf_page": 27,
+   "block": 6,
+   "old": "١٠١ . عَنِ",
+   "new": "عَنِ",
+   "why": "hadith number marker leaked into text"
+  },
+  {
+   "pdf_page": 27,
+   "block": 5,
+   "old": "തിരുദൂതരേ, നിങ്ങളെന്തിനാണ്",
+   "new": "തിരുദൂതരെ, നിങ്ങളെന്തിനാണ്",
+   "why": "vowel sign as printed"
+  },
+  {
+   "pdf_page": 28,
+   "block": 0,
+   "old": "(م, د, ت, ن)",
+   "new": "(م,د,ت,ن)",
+   "why": "source-code spacing as printed"
+  },
+  {
+   "pdf_page": 28,
+   "block": 3,
+   "old": "(د, ت)",
+   "new": "(د,ت)",
+   "why": "source-code spacing as printed"
+  },
+  {
+   "pdf_page": 28,
+   "block": 6,
+   "old": "(د, ت, جه)",
+   "new": "(د,ت,جه)",
+   "why": "source-code spacing as printed"
+  },
+  {
+   "pdf_page": 28,
+   "block": 1,
+   "old": "മൂന്നുതവണ തക്ബീർ",
+   "new": "മൂന്ന്തവണ തക്ബീർ",
+   "why": "spelling as printed"
+  },
+  {
+   "pdf_page": 28,
+   "block": 1,
+   "old": "ഞങ്ങൾതിന് ശേഷി",
+   "new": "ഞങ്ങളതിന് ശേഷി",
+   "why": "word misread"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 17,
+   "hadith_no": 65,
+   "note": "Malayalam 'ധർമ്മിഷ്ടൻ' may be printed 'ധർമ്മിഷ്ഠൻ'; 'ലത്വീഫ്' may be printed 'ലതീഫ്' - low-res, unsure"
+  },
+  {
+   "pdf_page": 18,
+   "hadith_no": 65,
+   "note": "'വിത്ർ(ഏകൻ)' may be printed 'വിത്റ്(ഏകൻ)'; low-res"
+  },
+  {
+   "pdf_page": 21,
+   "hadith_no": 78,
+   "note": "Malayalam name 'സഅ്ദ്ബിൻ' may be printed 'സഅദ്ബിൻ' (no chandrakkala); not resolvable at the zoom used"
+  },
+  {
+   "pdf_page": 23,
+   "hadith_no": null,
+   "note": "Malayalam on this page is encoded with old-style ZWJ chillus (e.g. ന്+ZWJ) whereas print/other pages use atomic chillus; visually identical, not itemised. Arabic source codes use Arabic comma '،' (ت،جه) where print shows ','. Also 'മരണാസന്നമായപ്പോൾ' may be printed 'മരണാസന്നമായാപ്പോൾ'; harakat on 'أَلْفَ أَلْفِ' repetitions in #86 not resolvable at zoom used"
+  },
+  {
+   "pdf_page": 24,
+   "hadith_no": 88,
+   "note": "'നിന്നെത്തൊട്ട്' may be printed 'നിന്നെതൊട്ട്'; low confidence"
+  }
+ ]
+}

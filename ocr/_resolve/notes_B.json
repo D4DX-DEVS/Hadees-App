@@ -1,0 +1,97 @@
+[
+ {
+  "part": "2.7",
+  "pdf_page": 2,
+  "note": "hadith 6 Arabic block 0 first word may be a bi-prefixed form (printed as ببردة); not certain at zoom"
+ },
+ {
+  "part": "2.7",
+  "pdf_page": 3,
+  "note": "hadith 12 Malayalam block 7: second sarvvastuthi may be printed sarvastuthi; unsure"
+ },
+ {
+  "part": "2.7",
+  "pdf_page": 4,
+  "note": "hadith 16 Malayalam block 10: JSON has ഇൻഖിത്വാ'ഉണ്ട്, print looks like ഇൻഖിതാഉ'ണ്ട്; unsure"
+ },
+ {
+  "part": "2.7",
+  "pdf_page": 5,
+  "note": "hadith 19 Malayalam block 6: JSON ബലാത്വത്തിൽ, print looks like ബലാഥിൽ; unsure"
+ },
+ {
+  "part": "2.7",
+  "pdf_page": 13,
+  "note": "hadith 47 Malayalam block 1: JSON ഇൻഖിത്വാഉം, print looks like ഇൻഖിതാഉം; unsure"
+ },
+ {
+  "part": "2.7",
+  "pdf_page": 15,
+  "note": "bab/hadith 59 Arabic: حُرْقَانِيَّة in JSON, print vowel on ح looks like fatha; unsure"
+ },
+ {
+  "part": "2.7",
+  "pdf_page": 1,
+  "note": "Arabic harakat: print is only partly vocalized (many marks absent) while JSON is fully vocalized on all pages; not enumerated as corrections"
+ },
+ {
+  "part": "2.7",
+  "pdf_page": 18,
+  "hadith_no": null,
+  "note": "Malayalam blocks on p18 (and chillu letters elsewhere) are encoded with legacy virama+ZWJ chillus (e.g. ല്‍, ര്‍, ന്‍); print shows normal chillus. Same glyphs, encoding differs; not corrected."
+ },
+ {
+  "part": "2.7",
+  "pdf_page": 18,
+  "hadith_no": 78,
+  "note": "print Malayalam may read ഫാത്വിമ vs JSON ഫാത്തിമ; corrected at low-moderate confidence"
+ },
+ {
+  "part": "2.7",
+  "pdf_page": 16,
+  "hadith_no": 68,
+  "note": "could not confirm kasra vs fatha on final lam of السراويل at this zoom; left unchanged"
+ },
+ {
+  "part": "2.7",
+  "pdf_page": 21,
+  "hadith_no": 90,
+  "note": "JSON uses ഖസ്സിയ്യ് and ഉത്ബതുബ്നു; print p22 b1 may read ഖസിയ്യ്; unsure, unchanged"
+ },
+ {
+  "part": "2.7",
+  "pdf_page": 22,
+  "hadith_no": 96,
+  "note": "print Malayalam source code reads (ബു,മു,ദ,ന.ജ) with a period (misprint); JSON has comma; left as is"
+ },
+ {
+  "part": "2.7",
+  "pdf_page": 23,
+  "hadith_no": 101,
+  "note": "p23-p24 print Malayalam possibly ഉഖ്ബതുബ്നു vs JSON ഉത്ബതുബ്നു, and ഉകൈദരിലേക്ക് vs ഉകൈദറിലേക്ക്; unsure, unchanged"
+ },
+ {
+  "part": "2.7",
+  "pdf_page": 24,
+  "hadith_no": 104,
+  "note": "print Arabic is mostly unvocalized with sparse harakat; JSON is fully vocalized (harakat added). Same on p25 hadiths 105-108, p27 bab 'إباحة الانتفاع' and 114-115 partly, p28 hadith 114 tail and 115, p29 hadiths 116-119, p30 hadith 119/120/121 (partly). Not corrected line by line."
+ },
+ {
+  "part": "2.7",
+  "pdf_page": 30,
+  "hadith_no": 119,
+  "note": "b0 merges the end of hadith 119 and the separate 'in another narration' Arabic paragraph (newline inside block); b1 Malayalam likewise merges both Malayalam paragraphs"
+ },
+ {
+  "part": "2.7",
+  "pdf_page": 23,
+  "hadith_no": 99,
+  "note": "hadith 99 Arabic continues across p22-p23 (split block starting 'وَرَفَعَ لَنَا') - fine; no change"
+ },
+ {
+  "part": "2.7",
+  "pdf_page": 33,
+  "hadith_no": 135,
+  "note": "Arabic line looks unvocalized in print but JSON has harakat; left as is"
+ }
+]

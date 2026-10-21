@@ -1,0 +1,167 @@
+{
+ "part": "2.7",
+ "pages_checked": [
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45
+ ],
+ "corrections": [
+  {
+   "pdf_page": 31,
+   "block": 1,
+   "old": "അബ്ഹിസ്സുലീഹീ",
+   "new": "അബഹിസ്സലീഹീ",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 31,
+   "block": 3,
+   "old": "അവിടുത്തേക്ക് ഇരു",
+   "new": "അവിടത്തേക്ക് ഇരു",
+   "why": "vowel sign differs from print"
+  },
+  {
+   "pdf_page": 31,
+   "block": 9,
+   "old": "മുസനി(റ)",
+   "new": "മുസ്നി(റ)",
+   "why": "virama missing"
+  },
+  {
+   "pdf_page": 32,
+   "block": 1,
+   "old": "സമுற(റ)",
+   "new": "സമുറ(റ)",
+   "why": "garbled Tamil letters"
+  },
+  {
+   "pdf_page": 32,
+   "block": 9,
+   "old": "ഖൈലത്ബിന്തു",
+   "new": "ഖൈലതബിൻതു",
+   "why": "name spelling per print"
+  },
+  {
+   "pdf_page": 34,
+   "block": 8,
+   "old": "بَابُ: الْبُرُودُ",
+   "new": "بَابٌ: الْبُرُودُ",
+   "why": "tanween on bab"
+  },
+  {
+   "pdf_page": 36,
+   "block": 2,
+   "old": "ഇസ്ഹാഖ്ബ്നു",
+   "new": "ഇസ്ഹാഖുബ്നു",
+   "why": "missing u vowel"
+  },
+  {
+   "pdf_page": 37,
+   "block": 4,
+   "old": "ഗൻമ്ൽ",
+   "new": "ഗൻമിൽ",
+   "why": "name spelling"
+  },
+  {
+   "pdf_page": 38,
+   "block": 0,
+   "old": "مُقَنَّعًا",
+   "new": "مُقْبِلًا مُتَقَنِّعًا",
+   "why": "dropped word"
+  },
+  {
+   "pdf_page": 38,
+   "block": 7,
+   "old": "നദ്‌ല(റ)",
+   "new": "നള്ല(റ)",
+   "why": "name spelling per print"
+  },
+  {
+   "pdf_page": 39,
+   "block": 7,
+   "old": "തയ്ക്കുക",
+   "new": "നെയ്യുക",
+   "why": "word differs"
+  },
+  {
+   "pdf_page": 39,
+   "block": 10,
+   "old": "ചാഞ്ചാടുകയും, മുടി കുത്തി നിൽക്കുകയും",
+   "new": "ചാഞ്ചാടുകയും മുഖം മുടി നീക്കുകയും",
+   "why": "phrase differs"
+  },
+  {
+   "pdf_page": 39,
+   "block": 10,
+   "old": "ചാഞ്ഞുനടക്കുന്ന",
+   "new": "ചാഞ്ഞ്നടക്കുന്ന",
+   "why": "vowel per print"
+  },
+  {
+   "pdf_page": 39,
+   "block": 10,
+   "old": "പൂഞ്ഞകൾ",
+   "new": "പുഞ്ഞകൾ",
+   "why": "vowel per print"
+  },
+  {
+   "pdf_page": 40,
+   "block": 5,
+   "old": "കൽപ്പിച്ചു",
+   "new": "കൽപിച്ചു",
+   "why": "conjunct per print"
+  },
+  {
+   "pdf_page": 42,
+   "block": 1,
+   "old": "കാണുകയോ അറിയുകയുമില്ലല്ലോ",
+   "new": "കാണുകയും അറിയുകയുമില്ലല്ലോ",
+   "why": "ോ vs ും"
+  },
+  {
+   "pdf_page": 43,
+   "block": 5,
+   "old": "അവൻത് അഴിച്ച്",
+   "new": "അവനത് അഴിച്ച്",
+   "why": "misread"
+  },
+  {
+   "pdf_page": 43,
+   "block": 12,
+   "old": "ചിന്നിച്ചിന്നമായി",
+   "new": "ചിന്നഭിന്നമായി",
+   "why": "word differs"
+  },
+  {
+   "pdf_page": 44,
+   "block": 2,
+   "old": "നദ്‌ല(റ)",
+   "new": "നള്ല(റ)",
+   "why": "name spelling per print"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 33,
+   "hadith_no": 135,
+   "note": "Arabic line looks unvocalized in print but JSON has harakat; left as is"
+  },
+  {
+   "pdf_page": 42,
+   "hadith_no": 171,
+   "note": "print Arabic mostly unvocalized; JSON vocalized; not changed"
+  }
+ ]
+}

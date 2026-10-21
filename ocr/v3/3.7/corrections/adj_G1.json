@@ -1,0 +1,188 @@
+{
+ "part": "3.7",
+ "pages_checked": [
+  1,
+  3,
+  4,
+  7,
+  9,
+  10,
+  11,
+  12,
+  13,
+  15,
+  16,
+  19,
+  21
+ ],
+ "corrections": [
+  {
+   "pdf_page": 1,
+   "block": 3,
+   "old": "അബൂബക്ർ(റ):",
+   "new": "അബൂബക്റ(റ):",
+   "why": "print shows ക്+റ (not chillu ർ)"
+  },
+  {
+   "pdf_page": 3,
+   "block": 4,
+   "old": "മുന്നാലൊരു",
+   "new": "മൂന്നാലൊരു",
+   "why": "print has ൂ"
+  },
+  {
+   "pdf_page": 4,
+   "block": 2,
+   "old": "റാഫിഇബ്നു",
+   "new": "റാഫിഉബ്നു",
+   "why": "print ഉ"
+  },
+  {
+   "pdf_page": 7,
+   "block": 3,
+   "old": "സൈ്വര്യം",
+   "new": "സ്വൈര്യം",
+   "why": "print shows pre-base ൈ before cluster സ്വ + ര്യം; canonical order is സ്വൈ (visually identical to A, encoding fix)"
+  },
+  {
+   "pdf_page": 9,
+   "block": 1,
+   "old": "ചെയ്തിട്ടുണ്ട്. അല്ലാഹുവിനോട്",
+   "new": "ചെയ്തിട്ടുണ്ട്. അല്ലാഹുവിലേക്ക് ഞാൻ ഖേദിക്കുന്നു. അല്ലാഹുവിനോട്",
+   "why": "sentence printed, missing in JSON"
+  },
+  {
+   "pdf_page": 12,
+   "block": 2,
+   "old": "ഖുറൈളെയെക്കാൾ",
+   "new": "ഖുറൈളയെക്കാൾ",
+   "why": "print ളയെ"
+  },
+  {
+   "pdf_page": 12,
+   "block": 5,
+   "old": "അറിയുക,",
+   "new": "അിറയുക,",
+   "why": "printed typo: ി before റ"
+  },
+  {
+   "pdf_page": 12,
+   "block": 5,
+   "old": "പടച്ചുണ്ടാക്കുന്നവന്ന്",
+   "new": "പടച്ചുണ്ടാക്കുന്നവന്",
+   "why": "print single ന്"
+  },
+  {
+   "pdf_page": 13,
+   "block": 9,
+   "old": "വകുതിയാണ്",
+   "new": "പകുതിയാണ്",
+   "why": "print പ"
+  },
+  {
+   "pdf_page": 13,
+   "block": 11,
+   "old": "അബൂബക്ർ(റ):",
+   "new": "അബൂബക്റ(റ):",
+   "why": "print ക്+റ, same as p1"
+  },
+  {
+   "pdf_page": 15,
+   "block": 3,
+   "old": "ഭക്ഷിക്കുകയോ",
+   "new": "ഭക്ഷിക്കുയോ",
+   "why": "printed typo, no ക after ക്കു"
+  },
+  {
+   "pdf_page": 21,
+   "block": 3,
+   "old": "ഹുസൈൻ(റ):",
+   "new": "ഹുസ്വൈൻ(റ):",
+   "why": "print shows ൈ before സ with ്വ after (സ്വൈ), as ഹുസ്വൈൻ; A lacks the വ"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 10,
+   "note": "idx7/8 (print=B): bab heading Arabic is at foot of p10 but its Malayalam line \"ആദിമ കൊല ചെയ്തവന്റെ പാപം\" is printed at top of p11. Our JSON keeps both in p10 block 6 (bab). No text correction emitted (content present once); only page placement differs."
+  },
+  {
+   "pdf_page": 21,
+   "note": "idx17: line break in print falls exactly between കൊല്ലപ്പെട്ടവനെ / പോലെയാണ്. (no hyphen, justified line); cannot tell if a space or joined. A (joined) kept, no correction."
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "B"
+  },
+  {
+   "idx": 1,
+   "print": "A"
+  },
+  {
+   "idx": 2,
+   "print": "B"
+  },
+  {
+   "idx": 3,
+   "print": "B"
+  },
+  {
+   "idx": 4,
+   "print": "B"
+  },
+  {
+   "idx": 5,
+   "print": "B"
+  },
+  {
+   "idx": 6,
+   "print": "A"
+  },
+  {
+   "idx": 7,
+   "print": "B"
+  },
+  {
+   "idx": 8,
+   "print": "B"
+  },
+  {
+   "idx": 9,
+   "print": "B"
+  },
+  {
+   "idx": 10,
+   "print": "B"
+  },
+  {
+   "idx": 11,
+   "print": "B"
+  },
+  {
+   "idx": 12,
+   "print": "B"
+  },
+  {
+   "idx": 13,
+   "print": "B"
+  },
+  {
+   "idx": 14,
+   "print": "B"
+  },
+  {
+   "idx": 15,
+   "print": "A"
+  },
+  {
+   "idx": 16,
+   "print": "A"
+  },
+  {
+   "idx": 18,
+   "print": "B"
+  }
+ ]
+}

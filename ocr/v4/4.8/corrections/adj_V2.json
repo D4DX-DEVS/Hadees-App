@@ -1,0 +1,282 @@
+{
+ "part": "4.8",
+ "pages_checked": [
+  20,
+  21,
+  22,
+  23,
+  25,
+  26,
+  27,
+  29,
+  31,
+  32,
+  33,
+  35,
+  36,
+  37
+ ],
+ "corrections": [
+  {
+   "pdf_page": 20,
+   "block": 9,
+   "old": "മുത്വലിബിന്റെ",
+   "new": "മുത്ത്വലിബിന്റെ",
+   "why": "print has ത്ത conjunct (same glyph as ഉത്തമർ on page)"
+  },
+  {
+   "pdf_page": 20,
+   "block": 9,
+   "old": "മുത്വലിബ് സന്താന",
+   "new": "മുത്ത്വലിബ് സന്താന",
+   "why": "print has ത്ത conjunct"
+  },
+  {
+   "pdf_page": 21,
+   "block": 9,
+   "old": "കിതാബിലില്ലാത്തതും",
+   "new": "കിത്താബിലില്ലാത്തതും",
+   "why": "print has ത്ത conjunct after കി (same glyph as in ല്ലാത്തതും)"
+  },
+  {
+   "pdf_page": 22,
+   "block": 4,
+   "old": "മുത്വലിബ്(റ):",
+   "new": "മുത്ത്വലിബ്(റ):",
+   "why": "print has ത്ത conjunct"
+  },
+  {
+   "pdf_page": 23,
+   "block": 1,
+   "old": "بُطُونَ قُرَيْشٍ",
+   "new": "بِبُطُونِ قُرَيْشٍ",
+   "why": "print shows بِبُطُونِ (two ba teeth/dots)"
+  },
+  {
+   "pdf_page": 23,
+   "block": 8,
+   "old": "ഖിൻദഫ്",
+   "new": "ഖൻദഫ്",
+   "why": "print has no ി sign: ഖൻദഫ്"
+  },
+  {
+   "pdf_page": 25,
+   "block": 3,
+   "old": "جُهَيْنَةَ. فَقَالَ مُحَمَّدٌ",
+   "new": "جُهَيْنَةَ. مُحَمَّدٌ",
+   "why": "print: جهينة. محمد الذي شك. (no فقال)"
+  },
+  {
+   "pdf_page": 25,
+   "block": 4,
+   "old": "അബൂബക്ർ(റ):",
+   "new": "അബൂബക്റ(റ):",
+   "why": "print shows full-size റ after ക് (differs from curled chillu ർ in അബീബക്ർ on same page); printed as is"
+  },
+  {
+   "pdf_page": 26,
+   "block": 6,
+   "old": "ഹുസൈൻ(റ):",
+   "new": "ഹുസ്വൈൻ(റ):",
+   "why": "print shows സ്വ (്വ stroke after സ)"
+  },
+  {
+   "pdf_page": 29,
+   "block": 10,
+   "old": "(തത്വജ്ഞാനം)",
+   "new": "(തത്ത്വജ്ഞാനം)",
+   "why": "print: ത then wide ത്ത glyph (as in ഹിക്മത്തും) + ്വ"
+  },
+  {
+   "pdf_page": 29,
+   "block": 12,
+   "old": "വിശ്വസ്തത",
+   "new": "വിശ്വസ്ഥത",
+   "why": "print has സ്ഥ conjunct (same as സ്ഥലത്താണ് p22), printed spelling kept"
+  },
+  {
+   "pdf_page": 31,
+   "block": 4,
+   "old": "പ്രതിരോധിക്കുകയുള്ളു.",
+   "new": "പ്രതിരോധിക്കുകയുള്ളൂ.",
+   "why": "final sign is a small filled loop (ൂ), unlike open-circle ു in ക്കു/യു of same word"
+  },
+  {
+   "pdf_page": 32,
+   "block": 1,
+   "old": "أَحْرَقَتْنَا",
+   "new": "أَخْرَقَتْنَا",
+   "why": "print clearly has a dot above the letter (خ); printed typo kept as printed"
+  },
+  {
+   "pdf_page": 32,
+   "block": 4,
+   "old": "ഹുസൈൻ(റ):",
+   "new": "ഹുസ്വൈൻ(റ):",
+   "why": "print shows സ്വ"
+  },
+  {
+   "pdf_page": 32,
+   "block": 8,
+   "old": "സ്വീകരിക്കേണ്ടെ",
+   "new": "സ്വീകരിക്കേണ്ട",
+   "why": "print ends ണ്ട with no എ-sign"
+  },
+  {
+   "pdf_page": 33,
+   "block": 3,
+   "old": "ഇത് ചെയ്യരുതെന്ന് ഞാൻ അങ്ങയോട് പറഞ്ഞിരുന്നു. അല്ലാഹു സത്യം, ഇത്",
+   "new": "ഇത് ചെയ്യരുതെന്ന് ഞാനങ്ങയോട് പറഞ്ഞിരുന്നു. അല്ലാഹു സത്യം, ഇത്",
+   "why": "2nd occurrence printed ഞാന|ങ്ങയോട് across line break (joined form); 1st and 3rd are ഞാൻ അങ്ങയോട്"
+  },
+  {
+   "pdf_page": 35,
+   "block": 1,
+   "old": "وَسَلَّمَ بِشَيْءٍ، أَمْ",
+   "new": "وَسَلَّمَ، أَمْ",
+   "why": "print: صلى الله عليه وسلم، أم رأي رأيته؟ (no بشيء in this first occurrence; بشيء appears only in the reply)"
+  },
+  {
+   "pdf_page": 37,
+   "block": 5,
+   "old": "ആസിം(റ):",
+   "new": "ആസ്വിം(റ):",
+   "why": "print shows സ്വ"
+  },
+  {
+   "pdf_page": 37,
+   "block": 5,
+   "old": "മുളർ ഗോത്രക്കാരനെ ഞാൻ ശിക്ഷിച്ചാൽ അല്ലാഹുവിങ്കൽ എനിക്കത് അനുവദനീയം തന്നെയാണ്. റബീഅ ഗോത്രക്കാരൻ ചെയ്ത തെറ്റിന് അബ്ദുഹുദൈലി",
+   "new": "മുളർ ഗോത്രക്കാരൻ ചെയ്ത തെറ്റിന് റബീഅ ഗോത്രക്കാരനെ ഞാൻ ശിക്ഷിച്ചാൽ അല്ലാഹുവിങ്കൽ എനിക്കത് അനുവദനീയം തന്നെയാണ്. അബ്ദുഹുദൈലി",
+   "why": "phrase misplaced in A: print reads മുളർ ഗോത്രക്കാരൻ ചെയ്ത തെറ്റിന് റബീഅ ഗോത്രക്കാരനെ ഞാൻ ശിക്ഷിച്ചാൽ ... തന്നെയാണ്. അബ്ദുഹുദൈലി"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 22,
+   "note": "held: അബൂസഇൗദുൽ vs അബൂസഈദുൽ (block 6) - ഇൗ/ഈ glyph-level, old-lipi ഈ prints identically; not applied"
+  },
+  {
+   "pdf_page": 35,
+   "note": "held: അബൂസഇൗദ്(റ) vs അബൂസഈദ്(റ) (block 4) - ഇൗ/ഈ glyph-level; not applied"
+  },
+  {
+   "pdf_page": 36,
+   "note": "held: അബൂസഇൗദിൽ vs അബൂസഈദിൽ (block 11) - ഇൗ/ഈ glyph-level; not applied"
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "B"
+  },
+  {
+   "idx": 1,
+   "print": "B"
+  },
+  {
+   "idx": 2,
+   "print": "B"
+  },
+  {
+   "idx": 3,
+   "print": "B"
+  },
+  {
+   "idx": 4,
+   "print": "held"
+  },
+  {
+   "idx": 5,
+   "print": "B"
+  },
+  {
+   "idx": 6,
+   "print": "B"
+  },
+  {
+   "idx": 7,
+   "print": "B"
+  },
+  {
+   "idx": 8,
+   "print": "A"
+  },
+  {
+   "idx": 9,
+   "print": "B"
+  },
+  {
+   "idx": 10,
+   "print": "A"
+  },
+  {
+   "idx": 11,
+   "print": "B"
+  },
+  {
+   "idx": 12,
+   "print": "A"
+  },
+  {
+   "idx": 13,
+   "print": "B"
+  },
+  {
+   "idx": 14,
+   "print": "B"
+  },
+  {
+   "idx": 15,
+   "print": "B"
+  },
+  {
+   "idx": 16,
+   "print": "B"
+  },
+  {
+   "idx": 17,
+   "print": "B"
+  },
+  {
+   "idx": 18,
+   "print": "B"
+  },
+  {
+   "idx": 19,
+   "print": "A"
+  },
+  {
+   "idx": 20,
+   "print": "B"
+  },
+  {
+   "idx": 21,
+   "print": "B"
+  },
+  {
+   "idx": 22,
+   "print": "held"
+  },
+  {
+   "idx": 23,
+   "print": "held"
+  },
+  {
+   "idx": 24,
+   "print": "A"
+  },
+  {
+   "idx": 25,
+   "print": "B"
+  },
+  {
+   "idx": 26,
+   "print": "B"
+  },
+  {
+   "idx": 27,
+   "print": "B"
+  }
+ ]
+}

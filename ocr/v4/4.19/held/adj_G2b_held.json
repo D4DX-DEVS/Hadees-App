@@ -1,0 +1,79 @@
+{
+ "part": "4.19",
+ "pages_checked": [
+  28,
+  29,
+  30,
+  31,
+  33,
+  35,
+  36
+ ],
+ "corrections": [
+  {
+   "pdf_page": 29,
+   "block": 5,
+   "old": "അബൂബകർ(റ)",
+   "new": "അബൂബക്ർ(റ)",
+   "why": "print has ക്ർ (virama + chillu r)"
+  },
+  {
+   "pdf_page": 31,
+   "block": 10,
+   "old": "അബൂബകർ(റ):",
+   "new": "അബൂബക്ർ(റ):",
+   "why": "print has ക്ർ"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 8,
+   "print": "A"
+  },
+  {
+   "idx": 9,
+   "print": "A"
+  },
+  {
+   "idx": 10,
+   "print": "A"
+  },
+  {
+   "idx": 11,
+   "print": "B"
+  },
+  {
+   "idx": 12,
+   "print": "B"
+  },
+  {
+   "idx": 13,
+   "print": "B"
+  },
+  {
+   "idx": 14,
+   "print": "B"
+  },
+  {
+   "idx": 15,
+   "print": "A"
+  },
+  {
+   "idx": 16,
+   "print": "A"
+  },
+  {
+   "idx": 17,
+   "print": "B"
+  },
+  {
+   "idx": 18,
+   "print": "B"
+  },
+  {
+   "idx": 19,
+   "print": "A"
+  }
+ ]
+}

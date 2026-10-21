@@ -1,0 +1,320 @@
+{
+ "pages": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 4,
+   "note": "idx19 റബീഅ: colon vs visarga indistinguishable in print; kept A"
+  },
+  {
+   "pdf_page": 16,
+   "note": "idx58 (block 6 'അബൂഹുറൈ:') and idx60 (block 8 'അബൂഹുറൈ(റ)'): print has a longer form, likely അബൂഹുറൈറൈ/അബൂഹുറൈറ, but glyphs unresolvable at available resolution; A is incomplete, no correction emitted"
+  },
+  {
+   "pdf_page": 45,
+   "note": "item 40 സ്വിറാതി vs സിറാതി: print glyph read as സ്വിറാതി (A), slightly uncertain"
+  },
+  {
+   "pdf_page": 56,
+   "note": "item10: line break after പങ്, cannot tell space vs none; kept A"
+  },
+  {
+   "pdf_page": 10,
+   "hadith_no": 20,
+   "note": "print seems to read 'അബൂഹുറൈറെയോ?' (not 'അബൂഹുറൈറയോ?') in first quoted question and maybe 'അബൂഹുറൈറെയെ' later; could not resolve at this resolution"
+  },
+  {
+   "pdf_page": "8-16",
+   "hadith_no": null,
+   "note": "Arabic harakat: print appears to leave many narrator-chain/short phrases less vowelled than JSON (e.g. h18 'عن النعمان بن بشير', h19 'عن سعيد بن المسيب ... عن أبيه', h20 'كنا قعودا', h22/h23/h29 chains, h31 'عن محمود بن الربيع'). Could not verify mark-by-mark; Arabic harakat not corrected"
+  },
+  {
+   "pdf_page": "1-7",
+   "hadith_no": null,
+   "note": "images could not be viewed (media removed); p003 'ഇടയൻമാരായ' NOT verified; p007 only hadiths 15-17 glanced, not full page"
+  },
+  {
+   "pdf_page": 17,
+   "hadith_no": 37,
+   "note": "Malayalam header name 'അബൂഹുറൈറ' (long ൂ) judged correct from strip view only; 36 (and 18/40, 25/66, 32/93) verified as short 'അബുഹുറൈറ'. p29 hadith 83 and p26 hadith 70/73 headers could not be told apart from long ൂ with full certainty (kept as in JSON)."
+  },
+  {
+   "pdf_page": 17,
+   "hadith_no": 38,
+   "note": "Print of this hadith is only partly vowelled; corrections made only where an unvowelled word was clearly seen. Remaining words (e.g. 'قبلنا', 'ثلاثةٌ يُؤتَون', 'أدّى حقّ الله تعالى') may still be over-vowelled in JSON."
+  },
+  {
+   "pdf_page": 18,
+   "hadith_no": 39,
+   "note": "Arabic of 39 and 40 is lightly vowelled in print (many words unvowelled e.g. 'وَادٍ', 'أَيُّ ثَنِيَّةٍ'); JSON over-vowelled. Only clear cases corrected; word-level harakat not exhaustively verified."
+  },
+  {
+   "pdf_page": 19,
+   "hadith_no": 41,
+   "note": "Print of 41 and 42/43 Arabic partly unvowelled on finals ('الْمَسِيحَ', 'اللهِ'); JSON fully vowelled; not exhaustively resolved."
+  },
+  {
+   "pdf_page": 20,
+   "hadith_no": 44,
+   "note": "Print vowelling of 'قَالَ' after 'عنه' varies (some bare 'قال'); only some corrected. Hadith 44 line 'قال: قَالَ ... يوْمئذٍ' not exhaustively checked."
+  },
+  {
+   "pdf_page": 21,
+   "hadith_no": 50,
+   "note": "Print 'وَيُفْرَغُ' (damma?) vs JSON 'وَيُفْرَغَ' could not be resolved; 'كُلُّ قِيرَاطٍ مِثْلُ أُحُدٍ' print looks less vowelled."
+  },
+  {
+   "pdf_page": 22,
+   "hadith_no": 52,
+   "note": "p22 block 1 Malayalam: print appears to have ';' after 'അല്ലാഹു പറയുന്നു' (JSON has ':') - unclear."
+  },
+  {
+   "pdf_page": 23,
+   "hadith_no": 56,
+   "note": "Print has 'رَأْسُ الْأَمْرِالْإِسْلَام' run together without space; JSON has space. Also 'قال:كُنَّا'-type missing spaces are printed in hadith 80 and 90; not changed."
+  },
+  {
+   "pdf_page": 25,
+   "hadith_no": 68,
+   "note": "Print looks like 'يُعْرَفُ الْغَضَبُ' (damma on ف); JSON has 'يُعْرَفَ'. Not certain."
+  },
+  {
+   "pdf_page": 25,
+   "hadith_no": 65,
+   "note": "Malayalam 'സത്യവിശ്വാസികളാകുന്നഡുവരെ' and 'പ്രിയങ്കരമായമായത്' (p24) are printed that way; kept."
+  },
+  {
+   "pdf_page": 31,
+   "hadith_no": 89,
+   "note": "Print shows 'മന:സ്സമാധാനം' (ASCII colon-like visarga); JSON has 'മനഃസ്സമാധാനം'. Kept. Hadith 90 Arabic printed with missing spaces ('عُمَرَبْنِ', 'عَنْهُ:أَنَّ', 'لَوْعَلَيْنَامَعْشَرَ'); JSON has spaces; not changed."
+  },
+  {
+   "pdf_page": 20,
+   "hadith_no": 44,
+   "note": "Malayalam p20 block 3 'സംഘലം' and 'നുജെദേ' are printed that way; kept."
+  },
+  {
+   "pdf_page": 0,
+   "hadith_no": 0,
+   "note": "General: pdf pages 17-32 Arabic print is only partially vowelled (final case endings and pronoun suffixes often bare, 'في'/'الله' bare, narrator 'قال' bare); first-pass JSON is fully vowelled. Corrections cover the instances clearly visible at 2.5x zoom; other over-vowelled words may remain. Malayalam text, bab headings, hadith numbers, source codes and block structure matched the print apart from the listed corrections."
+  },
+  {
+   "pdf_page": 33,
+   "hadith_no": 95,
+   "note": "Arabic in print is only lightly vowelled (e.g. yazni/yasriq/yashrab have few marks); JSON is fully vowelled - likely over-vowelled, but individual marks too small to confirm word by word"
+  },
+  {
+   "pdf_page": 37,
+   "hadith_no": 109,
+   "note": "print Arabic mostly unvowelled (uritu, alnnar, yakfurna); JSON fully vowelled - probable over-vowelling, not individually verified"
+  },
+  {
+   "pdf_page": 47,
+   "hadith_no": 137,
+   "note": "print Arabic lightly vowelled (labbayka wa-sa'dayka, yash'ibu); JSON fully vowelled - probable over-vowelling"
+  },
+  {
+   "pdf_page": 44,
+   "hadith_no": null,
+   "note": "footnote marker checked: superscript in body (after Malayalam wuruud) and footnote start both read as 4; JSON uses 4 - OK"
+  },
+  {
+   "pdf_page": 45,
+   "hadith_no": null,
+   "note": "footnote markers checked: body marker after khawarij and footnote start read as 5 - OK (JSON 5)"
+  },
+  {
+   "pdf_page": 46,
+   "hadith_no": null,
+   "note": "footnote marker checked: body marker after 'bharamelppikkunnavaraanavar' and footnote start read as 6 - OK (JSON 6)"
+  },
+  {
+   "pdf_page": 35,
+   "hadith_no": 98,
+   "note": "Malayalam source tag in print is (ബു,മു,ജ) matching JSON; Arabic tag (ق، جه) matches"
+  },
+  {
+   "pdf_page": 41,
+   "hadith_no": 129,
+   "note": "wording compared with print, no difference found"
+  },
+  {
+   "pdf_page": 42,
+   "hadith_no": 131,
+   "note": "wording compared with print, no difference found"
+  },
+  {
+   "pdf_page": 38,
+   "hadith_no": 111,
+   "note": "wording compared with print, no difference found"
+  },
+  {
+   "pdf_page": 48,
+   "hadith_no": 139,
+   "note": "Arabic fully vowelled in JSON; print only partly vowelled (many words bare, e.g. most of line 1-2). Needs de-vowel pass against print."
+  },
+  {
+   "pdf_page": 48,
+   "hadith_no": 140,
+   "note": "JSON mostly bare; print has partial marks (e.g. فَأَلْقَى, أَصَابَهُ, اهْتَدَى). Not reconciled."
+  },
+  {
+   "pdf_page": 48,
+   "hadith_no": 141,
+   "note": "JSON fully vowelled; print partly vowelled."
+  },
+  {
+   "pdf_page": 48,
+   "hadith_no": 142,
+   "note": "JSON vowelled more heavily than print in places (e.g. تَدْرُونَ/لَعَلَّكُمْ/أَنْ تُبْتَلَوْا bare or lightly marked in print)."
+  },
+  {
+   "pdf_page": 49,
+   "hadith_no": 143,
+   "note": "JSON fully vowelled; print partly (e.g. أبي سعيد, خير مال, يتبع bare)."
+  },
+  {
+   "pdf_page": 49,
+   "hadith_no": 144,
+   "note": "JSON fully vowelled; print partly."
+  },
+  {
+   "pdf_page": 49,
+   "hadith_no": 145,
+   "note": "Known over-vowelling continues through pdf pages 49-50 (hadith 145); print has partial marks only (e.g. أتيت بالبراق, فركبته, عرج بنا bare)."
+  },
+  {
+   "pdf_page": 50,
+   "hadith_no": 145,
+   "note": "Same over-vowelling in block 0 (continuation of 145); print partly vowelled."
+  },
+  {
+   "pdf_page": 52,
+   "hadith_no": 146,
+   "note": "JSON fully vowelled; print partly (e.g. لما أسري برسول الله bare)."
+  },
+  {
+   "pdf_page": 52,
+   "hadith_no": 147,
+   "note": "JSON fully vowelled; print partly."
+  },
+  {
+   "pdf_page": 52,
+   "hadith_no": 148,
+   "note": "JSON fully vowelled; print partly."
+  },
+  {
+   "pdf_page": 53,
+   "hadith_no": 151,
+   "note": "Over-vowelled vs print (print partial); continues p054 block 0."
+  },
+  {
+   "pdf_page": 55,
+   "hadith_no": 153,
+   "note": "Known over-vowelling; also continues p056 block 0. Print partly vowelled."
+  },
+  {
+   "pdf_page": 55,
+   "hadith_no": 152,
+   "note": "JSON fully vowelled; print partly."
+  },
+  {
+   "pdf_page": 57,
+   "hadith_no": 155,
+   "note": "Known over-vowelling (155) p057-058; print partly vowelled."
+  },
+  {
+   "pdf_page": 58,
+   "hadith_no": 156,
+   "note": "Known over-vowelling (156) p058-059; print partly vowelled."
+  },
+  {
+   "pdf_page": 59,
+   "hadith_no": 156,
+   "note": "Continuation of 156 over-vowelled."
+  },
+  {
+   "pdf_page": 60,
+   "hadith_no": 157,
+   "note": "157-159 JSON fully vowelled; print partly. Also 160-162 on pdf pages 61-62 same."
+  },
+  {
+   "pdf_page": 62,
+   "hadith_no": null,
+   "note": "Malayalam body block 1 ends 'നനക്കും.¹¹\"' - footnote marker ¹¹ not visible in print body; left as is."
+  },
+  {
+   "pdf_page": 3,
+   "hadith_no": 5,
+   "note": "Block 0 Malayalam: print reads 'ഇടയന്മാ|രായ ജനത' (line break after മാ; the 'ര' IS present, word is ഇടയന്മാരായ, NOT 'ഇടയൻമായ'). So JSON 'ഇടയൻമാരായ ജനത' is correct as a word. Only difference: print glyph is the conjunct ന്മ (ന+virama+മ), JSON uses chillu ൻ+മ. Same for 'രാജാക്കന്മാരാകുന്നതും' (JSON 'രാജാക്കൻമാരാകുന്നതും'). Left unchanged (likely normalisation); apply if conjunct form is wanted."
+  },
+  {
+   "pdf_page": 3,
+   "hadith_no": 5,
+   "note": "Block 0, '...വിധിയിലും വിശ്വസിക്കൽ.' (iman answer): print glyphs look like 'വിശ്വാസിക്കൽ' (a vertical aa-sign between ശ്വ and സി) but too small to be sure; JSON has 'വിശ്വസിക്കൽ'. Not changed."
+  }
+ ],
+ "applied": 39
+}

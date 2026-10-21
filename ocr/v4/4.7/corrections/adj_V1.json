@@ -1,0 +1,524 @@
+{
+ "part": "4.7",
+ "pages_checked": [
+  1,
+  3,
+  4,
+  5,
+  8,
+  9,
+  10,
+  14,
+  16,
+  18,
+  22,
+  23,
+  25,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  39,
+  40
+ ],
+ "corrections": [
+  {
+   "pdf_page": 1,
+   "block": 1,
+   "old": "സിദ്ദീഖ്(റ)",
+   "new": "സ്വിദ്ദീഖ്(റ)",
+   "why": "print has സ്വി (va-sign after sa) in bab title"
+  },
+  {
+   "pdf_page": 3,
+   "block": 1,
+   "old": "സസൂക്ഷ്മം",
+   "new": "സസൂക്ഷമം",
+   "why": "print reads ക്ഷമം (no virama conjunct); printed misspelling kept"
+  },
+  {
+   "pdf_page": 4,
+   "block": 12,
+   "old": "رَجُلًا خِيِّرَةُ",
+   "new": "رَجُلًا خَيَّرَهُ",
+   "why": "print: final ه with damma, no dots (خَيَّرَهُ)"
+  },
+  {
+   "pdf_page": 5,
+   "block": 2,
+   "old": "عِنْدَهُ\". فَاخْتَارَ مَا عِنْدَهُ.",
+   "new": "عِنْدَهُ؟ فَاخْتَارَ مَا عِنْدَهُ\".",
+   "why": "print: ما عنده؟ فاختار ما عنده\" (question mark after first, closing quote after second)"
+  },
+  {
+   "pdf_page": 8,
+   "block": 1,
+   "old": "മൂർചരിച്ചപ്പോൾ",
+   "new": "മൂർഛിച്ചപ്പോൾ",
+   "why": "print has ഛി, not ചരി"
+  },
+  {
+   "pdf_page": 9,
+   "block": 10,
+   "old": "വുളുചെയ്തുകൊണ്ടിരുന്ന",
+   "new": "വുളൂചെയ്തുകൊണ്ടിരുന്ന",
+   "why": "native zoom: ള carries looped ൂ sign, unlike open ു on വു"
+  },
+  {
+   "pdf_page": 10,
+   "block": 5,
+   "old": "തോൽപാത്രമായി",
+   "new": "തോൽപ്പാത്രമായി",
+   "why": "print shows stacked പ്പ"
+  },
+  {
+   "pdf_page": 14,
+   "block": 0,
+   "old": "മുട്ടിക്കൊണ്ടിരുന്നു. പിന്നീട് ഉമറേ",
+   "new": "മുട്ടിക്കൊണ്ടിരിരുന്നു. പിന്നീട് ഉമറേ",
+   "why": "print has doubled രി (misprint kept)"
+  },
+  {
+   "pdf_page": 16,
+   "block": 7,
+   "old": "ചുണ്ടികാണിച്ചു.",
+   "new": "ചൂണ്ടികാണിച്ചു.",
+   "why": "native zoom: ച carries looped/filled ൂ (contrast open ു in യും)"
+  },
+  {
+   "pdf_page": 22,
+   "block": 3,
+   "old": "അശ്അസുസ്സൻആനി(റ)",
+   "new": "അശ്അസുസ്സ്വൻആനി(റ)",
+   "why": "print shows സ്സ with ്വ sign (സ്സ്വൻ)"
+  },
+  {
+   "pdf_page": 23,
+   "block": 9,
+   "old": "زَوَّجَكَ بِمِثْلِ صَدَاقِ رُقَيَّةَ أُمَّ كُلْثُومٍ،",
+   "new": "زَوَّجَكَ أُمَّ كُلْثُومٍ بِمِثْلِ صَدَاقِ رُقَيَّةَ،",
+   "why": "print word order: زوجك أم كلثوم بمثل صداق رقية،"
+  },
+  {
+   "pdf_page": 23,
+   "block": 0,
+   "old": "\"ഇദ്രേഹം",
+   "new": "\"ഇദ്ദേഹം",
+   "why": "print ദ്ദേ (stacked ദ), no ്ര"
+  },
+  {
+   "pdf_page": 23,
+   "block": 0,
+   "old": "ഇദ്രേഹമോ?",
+   "new": "ഇദ്ദേഹമോ?",
+   "why": "print ദ്ദേ"
+  },
+  {
+   "pdf_page": 23,
+   "block": 6,
+   "old": "ഇദ്രേഹമതിൽ",
+   "new": "ഇദ്ദേഹമതിൽ",
+   "why": "print ദ്ദേ"
+  },
+  {
+   "pdf_page": 25,
+   "block": 1,
+   "old": "ലജ്ജിക്കില്ലേയോ.",
+   "new": "ലജ്ജിക്കില്ലെയോ.",
+   "why": "print sign before ല്ല is single-loop െ, same as in യോ"
+  },
+  {
+   "pdf_page": 28,
+   "block": 2,
+   "old": "طَالِبٍ صَنَعَ كَذَا وَكَذَا؟",
+   "new": "طَالِبٍ؟ صَنَعَ كَذَا وَكَذَا.",
+   "why": "print: طالب؟ صنع كذا وكذا. (question mark after طالب, full stop after وكذا)"
+  },
+  {
+   "pdf_page": 28,
+   "block": 3,
+   "old": "ഹുസൈൻ(റ)",
+   "new": "ഹുസ്വൈൻ(റ)",
+   "why": "print has ്വ sign on സ (സ്വൈ); B reading, encoded in standard order"
+  },
+  {
+   "pdf_page": 29,
+   "block": 6,
+   "old": "പ്രഭാതമായപ്പോൾ എല്ലാവരും കൊടി തനിക്ക് ലഭിക്കണമെന്ന് ആഗ്രഹിക്കുന്ന ജനങ്ങൾ നബി(സ)യുടെ അടുത്തേക്ക് പോയി. അപ്പോൾ നബി(സ) ചോദിച്ചു: \"അലി എവിടെ?\" ജനങ്ങൾ പറഞ്ഞു: റസൂലേ, അലി(റ) വരായിരുന്നു. കണ്ണിന്",
+   "new": "പ്രഭാതമായപ്പോൾ ജനങ്ങൾ നബി(സ)യുടെ അടുത്തേക്ക് പോയി. എല്ലാവരും കൊടി തനിക്ക് ലഭിക്കണമെന്ന് ആഗ്രഹിക്കുന്നവരായിരുന്നു. അപ്പോൾ നബി(സ) ചോദിച്ചു: \"അലി എവിടെ?\" ജനങ്ങൾ പറഞ്ഞു: റസൂലേ, അലി(റ) കണ്ണിന്",
+   "why": "staggered scan lines: true line order puts ജനങ്ങൾ...പോയി. after പ്രഭാതമായപ്പോൾ and വരായിരുന്നു joins ആഗ്രഹിക്കുന്ന"
+  },
+  {
+   "pdf_page": 30,
+   "block": 2,
+   "old": "ആ പേർ വിളിക്കപ്പെടുന്നത്",
+   "new": "ആ പേര് വിളിക്കപ്പെടുന്നത്",
+   "why": "print ര with chandrakkala (as in എന്ന പേര് on same page), not chillu ർ"
+  },
+  {
+   "pdf_page": 30,
+   "block": 2,
+   "old": "ഫാതിമ(റ)യുടെ",
+   "new": "ഫാത്വിമ(റ)യുടെ",
+   "why": "print has ്വ sign on ത"
+  },
+  {
+   "pdf_page": 30,
+   "block": 2,
+   "old": "ഫാതിമ(റ) പറഞ്ഞു",
+   "new": "ഫാത്വിമ(റ) പറഞ്ഞു",
+   "why": "print has ്വ sign on ത"
+  },
+  {
+   "pdf_page": 30,
+   "block": 6,
+   "old": "ഞാൻ അലിയിൽ",
+   "new": "ഞാൻ അലിയ്യിൽ",
+   "why": "print shows യ്യ conjunct"
+  },
+  {
+   "pdf_page": 31,
+   "block": 1,
+   "old": "അങ്ങയുടെ സ്വാഹാബികളിലോരോരുത്തർക്കും",
+   "new": "അങ്ങയുടെ സ്വഹാബികളിലോരോരുത്തർക്കും",
+   "why": "2nd occurrence printed സ്വഹാബി (1st on page is സ്വാഹാബി, kept)"
+  },
+  {
+   "pdf_page": 31,
+   "block": 5,
+   "old": "ഫാതിമ(റ) പരാതി",
+   "new": "ഫാത്വിമ(റ) പരാതി",
+   "why": "print ത്വ"
+  },
+  {
+   "pdf_page": 31,
+   "block": 5,
+   "old": "ഫാതിമ(റ) നബി(സ)യുടെ",
+   "new": "ഫാത്വിമ(റ) നബി(സ)യുടെ",
+   "why": "print ത്വ"
+  },
+  {
+   "pdf_page": 31,
+   "block": 5,
+   "old": "ഫാതിമ(റ) വന്ന",
+   "new": "ഫാത്വിമ(റ) വന്ന",
+   "why": "print ത്വ"
+  },
+  {
+   "pdf_page": 32,
+   "block": 1,
+   "old": "ഫാതിമ(റ),",
+   "new": "ഫാത്വിമ(റ),",
+   "why": "print ത്വ"
+  },
+  {
+   "pdf_page": 33,
+   "block": 5,
+   "old": "ശരീരത്തേക്കാൾ ബന്ധപ്പെട്ടവനല്ലയോ?\" അവർ പറഞ്ഞു: അതെ. നബി(സ) ചോദിച്ചു",
+   "new": "ശരീരത്തേക്കാൾ ബന്ധപ്പെട്ടവനല്ലെയോ?\" അവർ പറഞ്ഞു: അതെ. നബി(സ) ചോദിച്ചു",
+   "why": "print ല്ലെയോ"
+  },
+  {
+   "pdf_page": 33,
+   "block": 5,
+   "old": "ബന്ധപ്പെട്ടവനല്ലയോ?\" അവർ പറഞ്ഞു: അതെ. നബി(സ) പറഞ്ഞു",
+   "new": "ബന്ധപ്പെട്ടവനല്ലെയോ?\" അവർ പറഞ്ഞു: അതെ. നബി(സ) പറഞ്ഞു",
+   "why": "print ല്ലെയോ"
+  },
+  {
+   "pdf_page": 33,
+   "block": 5,
+   "old": "ബലഹീനനുണ്ട്.",
+   "new": "ബലഹീനനനുണ്ട്.",
+   "why": "print has extra ന (misprint kept)"
+  },
+  {
+   "pdf_page": 33,
+   "block": 7,
+   "old": "അബുലൈല(റ)",
+   "new": "അബൂലൈല(റ)",
+   "why": "native zoom: same ബൂ shape as the following അബൂലൈല"
+  },
+  {
+   "pdf_page": 34,
+   "block": 0,
+   "old": "ബലഹീനനുണ്ട്.",
+   "new": "ബലഹീനനനുണ്ട്.",
+   "why": "print has extra ന (misprint kept)"
+  },
+  {
+   "pdf_page": 34,
+   "block": 2,
+   "old": "ബലഹീനനുണ്ട്.",
+   "new": "ബലഹീനനനുണ്ട്.",
+   "why": "print has extra ന (misprint kept)"
+  },
+  {
+   "pdf_page": 35,
+   "block": 8,
+   "old": "അന്ത്യദിനത്തിൽ",
+   "new": "അന്ത്യദിനത്തിൻ",
+   "why": "print chillu is ൻ (shape differs from ൽ in പദവിയിൽ on next line); misprint kept"
+  },
+  {
+   "pdf_page": 36,
+   "block": 5,
+   "old": "ഉമ്മുഅതിയ്യ(റ)",
+   "new": "ഉമ്മുഅത്വിയ്യ(റ)",
+   "why": "print ത്വി"
+  },
+  {
+   "pdf_page": 37,
+   "block": 4,
+   "old": "അബൂബക്കർ(റ) പറഞ്ഞു: എന്റെ",
+   "new": "അബൂബക്ർ(റ) പറഞ്ഞു: എന്റെ",
+   "why": "print ബക്ർ (no ക്ക)"
+  },
+  {
+   "pdf_page": 37,
+   "block": 4,
+   "old": "അബൂബക്കർ(റ) പറഞ്ഞു: മേഘം",
+   "new": "അബൂബക്ർ(റ) പറഞ്ഞു: മേഘം",
+   "why": "print ബക്ർ (no ക്ക)"
+  },
+  {
+   "pdf_page": 39,
+   "block": 2,
+   "old": "മുന്ന് പ്രാവശ്യം",
+   "new": "മൂന്ന് പ്രാവശ്യം",
+   "why": "native zoom: മ carries looped ൂ (contrast open ു in കുടും above)"
+  },
+  {
+   "pdf_page": 39,
+   "block": 4,
+   "old": "ഉസ്മാൻ അല്ലാഹു",
+   "new": "ഉസ്മാന് അല്ലാഹു",
+   "why": "print ന with chandrakkala (ഉസ്മാന്), not chillu"
+  },
+  {
+   "pdf_page": 40,
+   "block": 2,
+   "old": "കൽപികൽ",
+   "new": "കൽപിക്കൽ",
+   "why": "print കൽപിക്കൽ (ക്ക present)"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 18,
+   "note": "held idx14: മീകാഇൗൽ (A) vs മീകാഈൽ (B) - ഇൗ/ഈ glyph/encoding, not settleable from image; not applied"
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "A"
+  },
+  {
+   "idx": 1,
+   "print": "B"
+  },
+  {
+   "idx": 2,
+   "print": "B"
+  },
+  {
+   "idx": 3,
+   "print": "B"
+  },
+  {
+   "idx": 4,
+   "print": "other"
+  },
+  {
+   "idx": 5,
+   "print": "A"
+  },
+  {
+   "idx": 6,
+   "print": "B"
+  },
+  {
+   "idx": 7,
+   "print": "A"
+  },
+  {
+   "idx": 8,
+   "print": "B"
+  },
+  {
+   "idx": 9,
+   "print": "B"
+  },
+  {
+   "idx": 10,
+   "print": "B"
+  },
+  {
+   "idx": 11,
+   "print": "A"
+  },
+  {
+   "idx": 12,
+   "print": "B"
+  },
+  {
+   "idx": 13,
+   "print": "A"
+  },
+  {
+   "idx": 15,
+   "print": "B"
+  },
+  {
+   "idx": 16,
+   "print": "B"
+  },
+  {
+   "idx": 17,
+   "print": "B"
+  },
+  {
+   "idx": 18,
+   "print": "B"
+  },
+  {
+   "idx": 19,
+   "print": "B"
+  },
+  {
+   "idx": 20,
+   "print": "B"
+  },
+  {
+   "idx": 21,
+   "print": "B"
+  },
+  {
+   "idx": 22,
+   "print": "B"
+  },
+  {
+   "idx": 23,
+   "print": "B"
+  },
+  {
+   "idx": 24,
+   "print": "B"
+  },
+  {
+   "idx": 25,
+   "print": "A"
+  },
+  {
+   "idx": 26,
+   "print": "B"
+  },
+  {
+   "idx": 27,
+   "print": "B"
+  },
+  {
+   "idx": 28,
+   "print": "B"
+  },
+  {
+   "idx": 29,
+   "print": "B"
+  },
+  {
+   "idx": 30,
+   "print": "B"
+  },
+  {
+   "idx": 31,
+   "print": "B"
+  },
+  {
+   "idx": 32,
+   "print": "B"
+  },
+  {
+   "idx": 33,
+   "print": "B"
+  },
+  {
+   "idx": 34,
+   "print": "B"
+  },
+  {
+   "idx": 35,
+   "print": "B"
+  },
+  {
+   "idx": 36,
+   "print": "B"
+  },
+  {
+   "idx": 37,
+   "print": "B"
+  },
+  {
+   "idx": 38,
+   "print": "B"
+  },
+  {
+   "idx": 39,
+   "print": "B"
+  },
+  {
+   "idx": 40,
+   "print": "B"
+  },
+  {
+   "idx": 41,
+   "print": "B"
+  },
+  {
+   "idx": 42,
+   "print": "B"
+  },
+  {
+   "idx": 43,
+   "print": "B"
+  },
+  {
+   "idx": 44,
+   "print": "A"
+  },
+  {
+   "idx": 45,
+   "print": "B"
+  },
+  {
+   "idx": 46,
+   "print": "B"
+  },
+  {
+   "idx": 47,
+   "print": "B"
+  },
+  {
+   "idx": 48,
+   "print": "B"
+  },
+  {
+   "idx": 49,
+   "print": "B"
+  },
+  {
+   "idx": 50,
+   "print": "B"
+  },
+  {
+   "idx": 51,
+   "print": "B"
+  }
+ ]
+}

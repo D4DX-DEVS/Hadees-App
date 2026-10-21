@@ -1,0 +1,653 @@
+{
+ "part": "1.7",
+ "pages_checked": [
+  1,
+  2,
+  3,
+  4,
+  6,
+  7,
+  10,
+  11,
+  12,
+  13,
+  14,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  24,
+  26,
+  27,
+  29,
+  30
+ ],
+ "corrections": [
+  {
+   "pdf_page": 1,
+   "block": 6,
+   "old": "അബൂസലമതുബ്നു",
+   "new": "അബുസലമതുബ്നു",
+   "why": "print ബു (open ു)"
+  },
+  {
+   "pdf_page": 1,
+   "block": 6,
+   "old": "അബൂസഈദിൽ",
+   "new": "അബുസഈദിൽ",
+   "why": "print ബു (open ു)"
+  },
+  {
+   "pdf_page": 1,
+   "block": 6,
+   "old": "അബൂസലമ പറഞ്ഞു",
+   "new": "അബുസലമ പറഞ്ഞു",
+   "why": "print ബു (open ു)"
+  },
+  {
+   "pdf_page": 2,
+   "block": 1,
+   "old": "ബനു അംറുബ്നു",
+   "new": "ബനൂ അംറുബ്നു",
+   "why": "print ൂ"
+  },
+  {
+   "pdf_page": 3,
+   "block": 0,
+   "old": "ചുറ്റിലുമായി ബനുനജ്ജാറിലെ",
+   "new": "ചുറ്റിലുമായി ബനൂനജ്ജാറിലെ",
+   "why": "print ൂ"
+  },
+  {
+   "pdf_page": 3,
+   "block": 0,
+   "old": "നിസ്കാര സമയമാകുന്നത്",
+   "new": "നിസ്ക്കാര സമയമാകുന്നത്",
+   "why": "print ക്ക"
+  },
+  {
+   "pdf_page": 3,
+   "block": 0,
+   "old": "വിളയുനടങ്ങളിലും",
+   "new": "വിളയുന്നടങ്ങളിലും",
+   "why": "print ന്ന at line start"
+  },
+  {
+   "pdf_page": 3,
+   "block": 0,
+   "old": "തുടർന്ന് ബനുനജ്ജാറിലെ",
+   "new": "തുടർന്ന് ബനൂനജ്ജാറിലെ",
+   "why": "print ൂ"
+  },
+  {
+   "pdf_page": 4,
+   "block": 1,
+   "old": "വൃത്യാസം",
+   "new": "വ്യത്യാസം",
+   "why": "print ്യ"
+  },
+  {
+   "pdf_page": 4,
+   "block": 5,
+   "old": "ബനൂനജ്ജാരേ",
+   "new": "ബനൂനജ്ജാറേ",
+   "why": "print റ"
+  },
+  {
+   "pdf_page": 6,
+   "block": 1,
+   "old": "ബദർ യുദ്ധത്തിൽ പങ്കെടുത്തയാളുമായ",
+   "new": "ബദ്ർ യുദ്ധത്തിൽ പങ്കെടുത്തയാളുമായ",
+   "why": "print ബദ്ർ"
+  },
+  {
+   "pdf_page": 6,
+   "block": 1,
+   "old": "ഇത്ബാൻ പറയുന്നു",
+   "new": "ഇത്ബാൻ പറയന്നു",
+   "why": "print typo പറയന്നു"
+  },
+  {
+   "pdf_page": 6,
+   "block": 1,
+   "old": "വിശ്വാസികളോടു",
+   "new": "വിശ്വസികളോടു",
+   "why": "print typo വിശ്വസി"
+  },
+  {
+   "pdf_page": 7,
+   "block": 1,
+   "old": "തെരിപ്പിച്ച",
+   "new": "തെറിപ്പിച്ച",
+   "why": "print റ"
+  },
+  {
+   "pdf_page": 9,
+   "block": 0,
+   "old": "[?] فَلَا",
+   "new": "الرَّوْحَاءِ فَلَا",
+   "why": "print الروحاء (blurred but legible at reduced scale)"
+  },
+  {
+   "pdf_page": 9,
+   "block": 1,
+   "old": "ഇബ്നുഉമർ(റ) 'റൗഹാഅ്'ന്റെ",
+   "new": "ഇബ്നുഉമർ(റ) 'റൗഹാഇ'ന്റെ",
+   "why": "print റൗഹാഇ (blurred)"
+  },
+  {
+   "pdf_page": 9,
+   "block": 1,
+   "old": "വഴിവക്കിലാണ്. 'റൗഹാഅ്'ന്റെ",
+   "new": "വഴിവക്കിലാണ്. 'റൗഹാഇ'ന്റെ",
+   "why": "print റൗഹാഇ (blurred)"
+  },
+  {
+   "pdf_page": 9,
+   "block": 1,
+   "old": "കുന്നിനുമിടയിൽ [?]ക്കുള്ളതും",
+   "new": "കുന്നിനുമിടക്ക് നിലകൊള്ളുന്ന",
+   "why": "print (blurred)"
+  },
+  {
+   "pdf_page": 9,
+   "block": 1,
+   "old": "അതതത്തിൽ",
+   "new": "അത്തരത്തിൽ",
+   "why": "print (blurred)"
+  },
+  {
+   "pdf_page": 9,
+   "block": 1,
+   "old": "'റൗഹാഅ്'ൽ നിന്നും [?]ലെ",
+   "new": "'റൗഹാഇ'ൽ നിന്നും രാവിലെ",
+   "why": "print (blurred)"
+  },
+  {
+   "pdf_page": 9,
+   "block": 1,
+   "old": "നിസ്കരിക്കാറില്ല. എന്നിട്ട്",
+   "new": "നിസ്കരിക്കാറില്ല. എത്തിയാൽ",
+   "why": "print (blurred)"
+  },
+  {
+   "pdf_page": 9,
+   "block": 1,
+   "old": "നാഴിക മുമ്പ് അല്ലെങ്കിൽ",
+   "new": "നാഴിക മുമ്പോ അല്ലെങ്കിൽ",
+   "why": "print (blurred)"
+  },
+  {
+   "pdf_page": 9,
+   "block": 1,
+   "old": "അന്ത്യവട്ടത്തിലോ",
+   "new": "അന്ത്യഘട്ടത്തിലോ",
+   "why": "print ഘ (blurred)"
+  },
+  {
+   "pdf_page": 11,
+   "block": 10,
+   "old": "അബൂസഇൗദിൽ",
+   "new": "അബൂസഈദിൽ",
+   "why": "ഈ encoding"
+  },
+  {
+   "pdf_page": 12,
+   "block": 2,
+   "old": "സ്ഥലങ്ങളിൽ നിസ്കരിക്കുക. ഒട്ടകങ്ങളുടെ ഒഴികെ",
+   "new": "സ്ഥലങ്ങളിൽ ഒഴികെ",
+   "why": "duplicated words not in print"
+  },
+  {
+   "pdf_page": 13,
+   "block": 5,
+   "old": "മിമ്പർ എന്റെ",
+   "new": "മിമ്പർ എന്റ",
+   "why": "print typo എന്റ"
+  },
+  {
+   "pdf_page": 14,
+   "block": 0,
+   "old": "ഖുബായയും",
+   "new": "ഖുബായും",
+   "why": "print"
+  },
+  {
+   "pdf_page": 14,
+   "block": 8,
+   "old": "ഇബ്റാഹീമിന്റെ",
+   "new": "ഇബ്രാഹീമിന്റെ",
+   "why": "print ്ര"
+  },
+  {
+   "pdf_page": 14,
+   "block": 9,
+   "old": "മഹതവം",
+   "new": "മഹത്വം",
+   "why": "print ത്വ"
+  },
+  {
+   "pdf_page": 6,
+   "block": 6,
+   "old": "يَا رَسُولَ اللَّهِ، إِنِّي قَدْ أَنْكَرْتُ",
+   "new": "يَا رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ، إِنِّي قَدْ أَنْكَرْتُ",
+   "why": "print has صلى الله عليه وسلم"
+  },
+  {
+   "pdf_page": 16,
+   "block": 1,
+   "old": "അബൂസഇൗദുൽ ഖുദ്‌രി(റ): നബി(",
+   "new": "അബൂസഈദുൽ ഖുദ്‌രി(റ): നബി(",
+   "why": "ഈ encoding"
+  },
+  {
+   "pdf_page": 16,
+   "block": 1,
+   "old": "എന്റെ ഇൗ പള്ളി",
+   "new": "എന്റെ ഈ പള്ളി",
+   "why": "ഈ encoding"
+  },
+  {
+   "pdf_page": 16,
+   "block": 6,
+   "old": "അബൂസഇൗദ്(റ)",
+   "new": "അബൂസഈദ്(റ)",
+   "why": "ഈ encoding"
+  },
+  {
+   "pdf_page": 16,
+   "block": 6,
+   "old": "ഇൗമാൻ",
+   "new": "ഈമാൻ",
+   "why": "ഈ encoding"
+  },
+  {
+   "pdf_page": 16,
+   "block": 11,
+   "old": "അബൂസഇൗദുൽ ഖുദ്‌രി(റ): ഒരു",
+   "new": "അബൂസഈദുൽ ഖുദ്‌രി(റ): ഒരു",
+   "why": "ഈ encoding"
+  },
+  {
+   "pdf_page": 16,
+   "block": 11,
+   "old": "ഇൗരണ്ട്",
+   "new": "ഈരണ്ട്",
+   "why": "ഈ encoding"
+  },
+  {
+   "pdf_page": 17,
+   "block": 0,
+   "old": "അബൂസഇൗദ്(റ)",
+   "new": "അബൂസഈദ്(റ)",
+   "why": "ഈ encoding; print ബൂ"
+  },
+  {
+   "pdf_page": 18,
+   "block": 3,
+   "old": "അബൂസഇൗദുൽ",
+   "new": "അബൂസഈദുൽ",
+   "why": "ഈ encoding"
+  },
+  {
+   "pdf_page": 19,
+   "block": 2,
+   "old": "\"الْمَشَّاؤُونَ إِلَى",
+   "new": "\"الْمَشَّاءُونَ إِلَى",
+   "why": "print ء not ؤ"
+  },
+  {
+   "pdf_page": 19,
+   "block": 4,
+   "old": "لِيُبَشِّرِ الْمَشَّاؤُونَ",
+   "new": "لِيُبَشِّرِ الْمَشَّاءُونَ",
+   "why": "print ء not ؤ"
+  },
+  {
+   "pdf_page": 19,
+   "block": 1,
+   "old": "അബൂസഇൗദുൽ",
+   "new": "അബൂസഈദുൽ",
+   "why": "ഈ encoding"
+  },
+  {
+   "pdf_page": 19,
+   "block": 1,
+   "old": "എന്റെ ഇൗ നടത്തത്തിന്റെ",
+   "new": "എന്റെ ഈ നടത്തത്തിന്റെ",
+   "why": "ഈ encoding"
+  },
+  {
+   "pdf_page": 19,
+   "block": 11,
+   "old": "\"ബനു സലമക്കാരെ",
+   "new": "\"ബനൂ സലമക്കാരെ",
+   "why": "print ൂ"
+  },
+  {
+   "pdf_page": 20,
+   "block": 1,
+   "old": "അപ്പോൾ ഇൗ ഖുർആൻ",
+   "new": "അപ്പോൾ ഈ ഖുർആൻ",
+   "why": "ഈ encoding"
+  },
+  {
+   "pdf_page": 21,
+   "block": 7,
+   "old": "ചെയ്യേണമേ. അശുദ്ധി",
+   "new": "ചെയ്യേണേമേ. അശുദ്ധി",
+   "why": "print typo ചെയ്യേണേമേ"
+  },
+  {
+   "pdf_page": 24,
+   "block": 0,
+   "old": "ജനമധ്യത്തിൽ",
+   "new": "ജനമദ്ധ്യത്തിൽ",
+   "why": "print ദ്ധ്യ"
+  },
+  {
+   "pdf_page": 24,
+   "block": 9,
+   "old": "കുടുന്ന",
+   "new": "കൂടുന്ന",
+   "why": "print ൂ"
+  },
+  {
+   "pdf_page": 26,
+   "block": 7,
+   "old": "സഇൗദുബ്നു",
+   "new": "സഈദുബ്നു",
+   "why": "ഈ encoding; print keeps മുസ്വയ്യബ്"
+  },
+  {
+   "pdf_page": 27,
+   "block": 7,
+   "old": "അബൂസഇൗദുൽ",
+   "new": "അബൂസഈദുൽ",
+   "why": "ഈ encoding"
+  },
+  {
+   "pdf_page": 29,
+   "block": 3,
+   "old": "കണ്ടിരുന്നുവെങ്കിൽ ഇസ്രാഈൗല്യർ",
+   "new": "കണ്ടിരുന്നുവെങ്കിൽ ഇസ്രാഈല്യർ",
+   "why": "print ഇസ്രാഈല്യർ"
+  },
+  {
+   "pdf_page": 29,
+   "block": 3,
+   "old": "ചോദിച്ചു: ഇസ്രാഈൗല്യർ",
+   "new": "ചോദിച്ചു: ഇസ്രാഈല്യർ",
+   "why": "print ഇസ്രാഈല്യർ"
+  },
+  {
+   "pdf_page": 30,
+   "block": 3,
+   "old": "കയുണ്ടായിട്ടില്ല. മറ്റൊരു റിപ്പോർട്ടിൽ വന്ന",
+   "new": "കയുണ്ടായിട്ടില്ല. മറ്റുരു റിപ്പോർട്ടിൽ വന്ന",
+   "why": "print typo മറ്റുരു"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 9,
+   "note": "block 3: 'ചുമുണ്ട്' (idx 29, alt ചുരുണ്ട്) — print blurred, second glyph unreadable at any zoom. Also page 9 top (blocks 0-1) is motion-blurred; corrections there read at reduced scale; whether a colon follows 'ഇബ്നുഉമർ(റ)' at block 1 start could not be confirmed."
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "B"
+  },
+  {
+   "idx": 1,
+   "print": "B"
+  },
+  {
+   "idx": 2,
+   "print": "B"
+  },
+  {
+   "idx": 3,
+   "print": "B"
+  },
+  {
+   "idx": 4,
+   "print": "B"
+  },
+  {
+   "idx": 5,
+   "print": "B"
+  },
+  {
+   "idx": 6,
+   "print": "B"
+  },
+  {
+   "idx": 7,
+   "print": "B"
+  },
+  {
+   "idx": 8,
+   "print": "A"
+  },
+  {
+   "idx": 9,
+   "print": "B"
+  },
+  {
+   "idx": 10,
+   "print": "B"
+  },
+  {
+   "idx": 11,
+   "print": "B"
+  },
+  {
+   "idx": 12,
+   "print": "B"
+  },
+  {
+   "idx": 13,
+   "print": "B"
+  },
+  {
+   "idx": 14,
+   "print": "B"
+  },
+  {
+   "idx": 15,
+   "print": "B"
+  },
+  {
+   "idx": 16,
+   "print": "A"
+  },
+  {
+   "idx": 17,
+   "print": "A"
+  },
+  {
+   "idx": 18,
+   "print": "B"
+  },
+  {
+   "idx": 19,
+   "print": "B"
+  },
+  {
+   "idx": 20,
+   "print": "B"
+  },
+  {
+   "idx": 21,
+   "print": "B"
+  },
+  {
+   "idx": 22,
+   "print": "B"
+  },
+  {
+   "idx": 23,
+   "print": "A"
+  },
+  {
+   "idx": 24,
+   "print": "B"
+  },
+  {
+   "idx": 25,
+   "print": "B"
+  },
+  {
+   "idx": 26,
+   "print": "B"
+  },
+  {
+   "idx": 27,
+   "print": "B"
+  },
+  {
+   "idx": 28,
+   "print": "B"
+  },
+  {
+   "idx": 30,
+   "print": "A"
+  },
+  {
+   "idx": 31,
+   "print": "A"
+  },
+  {
+   "idx": 32,
+   "print": "A"
+  },
+  {
+   "idx": 33,
+   "print": "B"
+  },
+  {
+   "idx": 34,
+   "print": "B"
+  },
+  {
+   "idx": 35,
+   "print": "B"
+  },
+  {
+   "idx": 36,
+   "print": "B"
+  },
+  {
+   "idx": 37,
+   "print": "B"
+  },
+  {
+   "idx": 38,
+   "print": "B"
+  },
+  {
+   "idx": 39,
+   "print": "B"
+  },
+  {
+   "idx": 40,
+   "print": "B"
+  },
+  {
+   "idx": 41,
+   "print": "B"
+  },
+  {
+   "idx": 42,
+   "print": "B"
+  },
+  {
+   "idx": 43,
+   "print": "B"
+  },
+  {
+   "idx": 44,
+   "print": "B"
+  },
+  {
+   "idx": 45,
+   "print": "other"
+  },
+  {
+   "idx": 46,
+   "print": "A"
+  },
+  {
+   "idx": 47,
+   "print": "B"
+  },
+  {
+   "idx": 48,
+   "print": "B"
+  },
+  {
+   "idx": 49,
+   "print": "B"
+  },
+  {
+   "idx": 50,
+   "print": "B"
+  },
+  {
+   "idx": 51,
+   "print": "B"
+  },
+  {
+   "idx": 52,
+   "print": "B"
+  },
+  {
+   "idx": 53,
+   "print": "A"
+  },
+  {
+   "idx": 54,
+   "print": "B"
+  },
+  {
+   "idx": 55,
+   "print": "B"
+  },
+  {
+   "idx": 56,
+   "print": "B"
+  },
+  {
+   "idx": 57,
+   "print": "B"
+  },
+  {
+   "idx": 58,
+   "print": "other"
+  },
+  {
+   "idx": 59,
+   "print": "B"
+  },
+  {
+   "idx": 60,
+   "print": "B"
+  },
+  {
+   "idx": 61,
+   "print": "B"
+  },
+  {
+   "idx": 62,
+   "print": "A"
+  },
+  {
+   "idx": 63,
+   "print": "B"
+  }
+ ]
+}

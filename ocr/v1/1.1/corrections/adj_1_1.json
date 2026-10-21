@@ -1,0 +1,353 @@
+{
+ "part": "1.1",
+ "pages_checked": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  7,
+  8,
+  9,
+  10
+ ],
+ "corrections": [
+  {
+   "pdf_page": 4,
+   "block": 3,
+   "old": "എന്നിട്ട് അദ്ദേഹവും തന്റെ",
+   "new": "എന്നിട്ട് അദ്ദേഹും തന്റെ",
+   "why": "print reads അദ്ദേഹും (printed typo kept)"
+  },
+  {
+   "pdf_page": 7,
+   "block": 1,
+   "old": "ഹിർഖൽ കൽപിച്ചു:",
+   "new": "ഹിർഖൽ കൽപ്പിച്ചു:",
+   "why": "print has double പ്പ"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 1,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 2,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 3,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 4,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 5,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 6,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 7,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 8,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 9,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 10,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 11,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 12,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 13,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 14,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 15,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 16,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 17,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 18,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 19,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 20,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 21,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 22,
+   "print": "other",
+   "note": "print reads അദ്ദേഹും (printed typo, neither A nor B)"
+  },
+  {
+   "idx": 23,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 24,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 25,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 26,
+   "print": "B",
+   "note": "print has കൽപ്പിച്ചു: (double പ)"
+  },
+  {
+   "idx": 27,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 28,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 29,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 30,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 31,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 32,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 33,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 34,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 35,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 36,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 37,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 38,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 39,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 40,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 41,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 42,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 43,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 44,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 45,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 46,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 47,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 48,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 49,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 50,
+   "print": "A",
+   "note": "hadith number printed; stored in hadith_no field, not in text - no change"
+  },
+  {
+   "idx": 51,
+   "print": "A",
+   "note": "hadith number printed; stored in hadith_no field, not in text - no change"
+  },
+  {
+   "idx": 52,
+   "print": "A",
+   "note": "hadith number printed; stored in hadith_no field, not in text - no change"
+  },
+  {
+   "idx": 53,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 54,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 55,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 56,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 57,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 58,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 59,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 60,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 61,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 62,
+   "print": "A",
+   "note": "print matches A"
+  },
+  {
+   "idx": 63,
+   "print": "A",
+   "note": "print matches A"
+  }
+ ]
+}

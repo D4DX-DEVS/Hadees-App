@@ -1,0 +1,209 @@
+{
+ "part": "3.7",
+ "pages_checked": [
+  24,
+  25,
+  26,
+  27,
+  34,
+  35,
+  37,
+  39,
+  44,
+  45
+ ],
+ "corrections": [
+  {
+   "pdf_page": 26,
+   "block": 0,
+   "old": "അല്ലാഹു നിങ്ങളുടെ പ്രവാചകന്",
+   "new": "അല്ലാഹു നിങ്ങളുട പ്രവാചകന്",
+   "why": "print reads നിങ്ങളുട (no െ)"
+  },
+  {
+   "pdf_page": 26,
+   "block": 3,
+   "old": "ബനൂഇസ്രാഇൗലിൽ",
+   "new": "ബനൂഇസ്റാഇൗലിൽ",
+   "why": "print has plain റ and ഇൗ"
+  },
+  {
+   "pdf_page": 26,
+   "block": 3,
+   "old": "എന്നതുമുതൽ",
+   "new": "എന്നതുമതൽ",
+   "why": "print reads എന്നതുമതൽ"
+  },
+  {
+   "pdf_page": 33,
+   "block": 9,
+   "old": "فَقَالَ لَهُ صَاحِبُهُ",
+   "new": "قَالَ لَهُ صَاحِبُهُ",
+   "why": "print has no فَ"
+  },
+  {
+   "pdf_page": 33,
+   "block": 7,
+   "old": "അബൂബർസ(റ):",
+   "new": "അബൂബുർസ(റ):",
+   "why": "print reads അബൂബുർസ"
+  },
+  {
+   "pdf_page": 34,
+   "block": 1,
+   "old": "ذَكَرَ ذَلِكَ لِلْيَهُودِيِّ",
+   "new": "ذَكَرَ ذَلِكَ لِذَلِكَ الْيَهُودِيِّ",
+   "why": "print reads ذلك لذلك اليهودي"
+  },
+  {
+   "pdf_page": 35,
+   "block": 2,
+   "old": "الِابْنَ",
+   "new": "الْإِبْنَ",
+   "why": "print has hamza-below alif (الإبن)"
+  },
+  {
+   "pdf_page": 36,
+   "block": 5,
+   "old": "ളുഹ്ഹാകുബ്നു",
+   "new": "ളഹ്ഹാകുബ്നു",
+   "why": "print has ള without ു"
+  },
+  {
+   "pdf_page": 37,
+   "block": 1,
+   "old": "ചാണ്",
+   "new": "ചാൺ",
+   "why": "print has chillu ൺ"
+  },
+  {
+   "pdf_page": 44,
+   "block": 1,
+   "old": "നിവേദനത്തിൽ:",
+   "new": "നീവേദനത്തിൽ:",
+   "why": "print (author typo) reads നീവേദനത്തിൽ"
+  },
+  {
+   "pdf_page": 44,
+   "block": 1,
+   "old": "ചാട്ടവാറുകൊണ്ടോളള്ള,",
+   "new": "ചാട്ടവാറുകൊണ്ടോഉള്ള,",
+   "why": "print has separate ഉ before ള്ള"
+  },
+  {
+   "pdf_page": 44,
+   "block": 11,
+   "old": "പാവപ്പെട്ടവന്റെ അടിമ കുറ്റക്കാരനായാൽ",
+   "new": "",
+   "why": "subtitle is NOT on p44 (p44 ends with Arabic bab line only; subtitle printed at top of p45). Field: malayalam of bab block 11. Move to p45 top (before hadith 122 arabic block 0)"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 28,
+   "note": "idx7 പറഞ്ഞിട്ടില്ലെയോ vs ല്ലേയോ: scan too blurry (looked like single-arc െ, leaning A) ; idx8 സുക്ഷിച്ചിരിക്കുന്നു vs സൂക്ഷിച്ചിരിക്കുന്നു: ു/ൂ not resolvable at native res (blurry)"
+  },
+  {
+   "pdf_page": 33,
+   "note": "idx11 അസ്സ്വാൽ vs അസ്സാൽ: blurry, presence of ്വ not resolvable"
+  },
+  {
+   "pdf_page": 36,
+   "note": "idx14 ള്ളബ്വാബി vs ബ്ബാബി: cluster after ള്ള ambiguous (leans A, ബ്വ) not resolvable"
+  },
+  {
+   "pdf_page": 38,
+   "note": "idx17 ദൂതരേ vs ദൂതരെ: e-sign single vs double stroke not resolvable (blurry scan, slight lean B)"
+  },
+  {
+   "pdf_page": 42,
+   "note": "idx20 പോയിട്ടേയുളളു vs ളളൂ: final ു/ൂ not resolvable (blurry)"
+  },
+  {
+   "pdf_page": 44,
+   "note": "idx23 സ്വാതത്ര്യം vs സ്വാതന്ത്ര്യം: blurry; 3 round glyphs between ാ and ം, leans B (ന്ത) but not resolvable"
+  },
+  {
+   "pdf_page": 45,
+   "note": "idx25 structural: bab subtitle 'പാവപ്പെട്ടവന്റെ അടിമ കുറ്റക്കാരനായാൽ' is printed at the top of p45 (underlined heading before hadith 122, belongs to the bab on p44 bottom); p45 JSON lacks it - needs inserting as the malayalam part of that bab (cannot be expressed as old/new)."
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "A"
+  },
+  {
+   "idx": 1,
+   "print": "A"
+  },
+  {
+   "idx": 2,
+   "print": "A"
+  },
+  {
+   "idx": 3,
+   "print": "B"
+  },
+  {
+   "idx": 4,
+   "print": "other"
+  },
+  {
+   "idx": 5,
+   "print": "B"
+  },
+  {
+   "idx": 6,
+   "print": "A"
+  },
+  {
+   "idx": 9,
+   "print": "B"
+  },
+  {
+   "idx": 10,
+   "print": "B"
+  },
+  {
+   "idx": 12,
+   "print": "B"
+  },
+  {
+   "idx": 13,
+   "print": "B"
+  },
+  {
+   "idx": 15,
+   "print": "B"
+  },
+  {
+   "idx": 16,
+   "print": "B"
+  },
+  {
+   "idx": 18,
+   "print": "A"
+  },
+  {
+   "idx": 19,
+   "print": "A"
+  },
+  {
+   "idx": 21,
+   "print": "B"
+  },
+  {
+   "idx": 22,
+   "print": "B"
+  },
+  {
+   "idx": 24,
+   "print": "B"
+  },
+  {
+   "idx": 25,
+   "print": "B"
+  }
+ ]
+}

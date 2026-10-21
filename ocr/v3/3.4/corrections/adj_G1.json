@@ -1,0 +1,180 @@
+{
+ "part": "3.4",
+ "pages_checked": [
+  1,
+  4,
+  9,
+  11,
+  13,
+  16,
+  17,
+  19,
+  20,
+  21,
+  25,
+  26,
+  28,
+  31,
+  34,
+  35,
+  40,
+  10
+ ],
+ "corrections": [
+  {
+   "pdf_page": 9,
+   "block": 4,
+   "old": "ഉഈഫുമുണ്ട്",
+   "new": "ഉഊഫുമുണ്ട്",
+   "why": "print has ഊ (ഉഊഫ്)"
+  },
+  {
+   "pdf_page": 9,
+   "block": 9,
+   "old": "ചെ്താൽ",
+   "new": "ചെതാൽ",
+   "why": "print: ചെതാൽ (no virama)"
+  },
+  {
+   "pdf_page": 16,
+   "block": 4,
+   "old": "മുൾത്വറാബുണ്ട്",
+   "new": "മുൾത്വറബുണ്ട്",
+   "why": "print: മുൾത്വറബുണ്ട്"
+  },
+  {
+   "pdf_page": 21,
+   "block": 4,
+   "old": "അബുഹുറൈറ(റ): റസൂൽ(സ) പറഞ്ഞു: \"കടം",
+   "new": "അബൂഹുറൈറ(റ): റസൂൽ(സ) പറഞ്ഞു: \"കടം",
+   "why": "print has long ൂ in അബൂഹുറൈറ"
+  },
+  {
+   "pdf_page": 28,
+   "block": 9,
+   "old": "നൽകണമെന്നുമുള്ള",
+   "new": "നൽകണമെന്നുള്ള",
+   "why": "print: നൽകണമെന്നുള്ള (no മു)"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 10,
+   "note": "idx5 decided A (യുള്ളൂ with ൂ, 'പല' / 'തവണ' split across line break); final vowel mark ൂ vs ു is low-moderate confidence"
+  },
+  {
+   "pdf_page": 28,
+   "note": "idx17 and p40 idx26: decided A (അദ്ധ്വാന with ദ്ധ ligature, glyph matches ബുദ്ധി on p1 and differs from single ധ in വിധം); moderate confidence"
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "A"
+  },
+  {
+   "idx": 1,
+   "print": "A"
+  },
+  {
+   "idx": 2,
+   "print": "B"
+  },
+  {
+   "idx": 3,
+   "print": "A"
+  },
+  {
+   "idx": 4,
+   "print": "B"
+  },
+  {
+   "idx": 5,
+   "print": "A"
+  },
+  {
+   "idx": 6,
+   "print": "A"
+  },
+  {
+   "idx": 7,
+   "print": "A"
+  },
+  {
+   "idx": 8,
+   "print": "B"
+  },
+  {
+   "idx": 9,
+   "print": "A"
+  },
+  {
+   "idx": 10,
+   "print": "A"
+  },
+  {
+   "idx": 11,
+   "print": "A"
+  },
+  {
+   "idx": 12,
+   "print": "A"
+  },
+  {
+   "idx": 13,
+   "print": "A"
+  },
+  {
+   "idx": 14,
+   "print": "B"
+  },
+  {
+   "idx": 15,
+   "print": "A"
+  },
+  {
+   "idx": 16,
+   "print": "A"
+  },
+  {
+   "idx": 17,
+   "print": "A"
+  },
+  {
+   "idx": 18,
+   "print": "A"
+  },
+  {
+   "idx": 19,
+   "print": "B"
+  },
+  {
+   "idx": 20,
+   "print": "A"
+  },
+  {
+   "idx": 21,
+   "print": "A"
+  },
+  {
+   "idx": 22,
+   "print": "A"
+  },
+  {
+   "idx": 23,
+   "print": "A"
+  },
+  {
+   "idx": 24,
+   "print": "A"
+  },
+  {
+   "idx": 25,
+   "print": "A"
+  },
+  {
+   "idx": 26,
+   "print": "A"
+  }
+ ]
+}

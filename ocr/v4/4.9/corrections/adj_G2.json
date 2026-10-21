@@ -1,0 +1,98 @@
+{
+ "part": "4.9",
+ "pages_checked": [
+  11,
+  12,
+  13,
+  14
+ ],
+ "corrections": [
+  {
+   "pdf_page": 11,
+   "block": 1,
+   "old": "സ്സാഇദീ",
+   "new": "സ്സാഇൗദീ",
+   "why": "print has ഇൗ (ൗ missing in ours; neither A nor B exactly, B equivalent)"
+  },
+  {
+   "pdf_page": 11,
+   "block": 7,
+   "old": "(നാടുവിടാൻ) അതിലെ ഞാൻ",
+   "new": "(നാടുവിടാൻ) ഞാൻ",
+   "why": "print has no അതിലെ here (line ends 'നാടുവിടാൻ)', next line starts 'ഞാൻ')"
+  },
+  {
+   "pdf_page": 11,
+   "block": 7,
+   "old": "കേട്ടു: \"(മദീനയിലെ)",
+   "new": "കേട്ടു: \"അതിലെ (മദീനയിലെ)",
+   "why": "print has 'അതിലെ' at end of line before '(മദീനയിലെ)'"
+  },
+  {
+   "pdf_page": 12,
+   "block": 1,
+   "old": "بِأَهْلِيهِمْ وَمَنْ أَطَاعَهُمْ، وَالْمَدِينَةُ خَيْرٌ لَهُمْ لَوْ كَانُوا يَعْلَمُونَ. وَتُفْتَحُ الشَّامُ",
+   "new": "بِأَهْلِهِمْ وَمَنْ أَطَاعَهُمْ، وَالْمَدِينَةُ خَيْرٌ لَهُمْ لَوْ كَانُوا يَعْلَمُونَ. وَتُفْتَحُ الشَّامُ",
+   "why": "first occurrence (after اليمن) prints بأهلهم, no ي; 2nd/3rd occurrences print بأهليهم"
+  },
+  {
+   "pdf_page": 12,
+   "block": 5,
+   "old": "മ്ലേച്ഛമായതിനെ",
+   "new": "മ്ലേഛമായതിനെ",
+   "why": "print heading has single ഛ (as in body text)"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 11,
+   "note": "item1 മഹ്രി: read as ര (A); ര/റ distinction slight but glyph matches ര of 'രാവുകളിൽ'"
+  },
+  {
+   "pdf_page": 13,
+   "note": "item7 ബക്റ: glyph matches plain റ (B); moderately confident"
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "other"
+  },
+  {
+   "idx": 1,
+   "print": "A"
+  },
+  {
+   "idx": 2,
+   "print": "B"
+  },
+  {
+   "idx": 3,
+   "print": "B"
+  },
+  {
+   "idx": 4,
+   "print": "B"
+  },
+  {
+   "idx": 5,
+   "print": "A"
+  },
+  {
+   "idx": 6,
+   "print": "B"
+  },
+  {
+   "idx": 7,
+   "print": "B"
+  },
+  {
+   "idx": 8,
+   "print": "A"
+  },
+  {
+   "idx": 9,
+   "print": "A"
+  }
+ ]
+}

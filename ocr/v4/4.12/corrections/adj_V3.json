@@ -1,0 +1,107 @@
+{
+ "part": "4.12",
+ "pages_checked": [
+  47,
+  48,
+  49,
+  50
+ ],
+ "corrections": [
+  {
+   "pdf_page": 47,
+   "block": 4,
+   "old": "ഹാതിബുബ്നു",
+   "new": "ഹാത്വിബുബ്നു",
+   "why": "print p749: ത carries ്വ hook before ി (cf. plain തി in ധൃതി, തിരുദൂതരേ on same page)"
+  },
+  {
+   "pdf_page": 47,
+   "block": 4,
+   "old": "ഹാതിബേ,",
+   "new": "ഹാത്വിബേ,",
+   "why": "print p749: ത്വി, same glyph as ഹാത്വിബുബ്നു"
+  },
+  {
+   "pdf_page": 47,
+   "block": 4,
+   "old": "ഹാതിബ്(റ)",
+   "new": "ഹാത്വിബ്(റ)",
+   "why": "print p749: ത്വി, same glyph"
+  },
+  {
+   "pdf_page": 48,
+   "block": 5,
+   "old": "مِنْ قَضَائِهِنَّ.",
+   "new": "مِنْ قَضَائِهِمْ.",
+   "why": "print p750: ends in meem with sukun (قضائهم), not nun-shadda"
+  },
+  {
+   "pdf_page": 48,
+   "block": 2,
+   "old": "ഉമ്മുഅതിയ്യ(റ)",
+   "new": "ഉമ്മുഅത്വിയ്യ(റ)",
+   "why": "print p750: ത with ്വ hook before ി"
+  },
+  {
+   "pdf_page": 49,
+   "block": 8,
+   "old": "അതിനടത്തേക്ക്",
+   "new": "അതിനടുത്തേക്ക്",
+   "why": "print p751: line ends അതിനടു (ു sign clearly under ട), continues ത്തേക്ക്"
+  },
+  {
+   "pdf_page": 50,
+   "block": 7,
+   "old": "يَسْبِقُونَنَا",
+   "new": "يَسْبِقُونَا",
+   "why": "print p752: single nun, يسبقونا"
+  },
+  {
+   "pdf_page": 50,
+   "block": 7,
+   "old": "لَيُخْرِجَنَّ",
+   "new": "لَيُخْرِجِ",
+   "why": "print p752: no nun after jim; kasra under jim as printed (ليخرج)"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 50,
+   "note": "HELD idx 8: bab heading (block 2 malayalam) മുനാഫിഖുൻ vs മുനാഫിഖൂൻ: vowel sign under ഖ sits on the heading underline and cannot be told apart from ു/ൂ (മു and സൂ in same heading look the same); not applied"
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "B"
+  },
+  {
+   "idx": 1,
+   "print": "B"
+  },
+  {
+   "idx": 2,
+   "print": "B"
+  },
+  {
+   "idx": 3,
+   "print": "B"
+  },
+  {
+   "idx": 4,
+   "print": "B"
+  },
+  {
+   "idx": 5,
+   "print": "B"
+  },
+  {
+   "idx": 6,
+   "print": "B"
+  },
+  {
+   "idx": 7,
+   "print": "B"
+  }
+ ]
+}

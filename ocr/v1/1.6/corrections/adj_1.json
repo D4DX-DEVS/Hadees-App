@@ -1,0 +1,574 @@
+{
+ "part": "1.6",
+ "pages_checked": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  9,
+  10,
+  11,
+  13,
+  14,
+  15,
+  17,
+  18,
+  21,
+  22,
+  23,
+  24,
+  26,
+  27,
+  28
+ ],
+ "corrections": [
+  {
+   "pdf_page": 1,
+   "block": 6,
+   "old": "الْمَاءِ وُجُوبُ",
+   "new": "الْمَاءِ وَوُجُوبُ",
+   "why": "print has waw: ووجوب"
+  },
+  {
+   "pdf_page": 2,
+   "block": 9,
+   "old": "أَنَّ أُبَيًّا",
+   "new": "أَنَّ أُبَيَّ",
+   "why": "print أُبَيَّ, no alif"
+  },
+  {
+   "pdf_page": 3,
+   "block": 3,
+   "old": "(ഛെ!",
+   "new": "(ച്ഛെ!",
+   "why": "print stacked ച്ഛെ"
+  },
+  {
+   "pdf_page": 4,
+   "block": 2,
+   "old": "മൈമുന(റ)",
+   "new": "മൈമൂന(റ)",
+   "why": "native: മൂ"
+  },
+  {
+   "pdf_page": 5,
+   "block": 1,
+   "old": "കുളിയെ പറ്റി",
+   "new": "കുളിയെ പ്പറ്റി",
+   "why": "print stacked പ്പ"
+  },
+  {
+   "pdf_page": 5,
+   "block": 6,
+   "old": "ഫാതിമ(റ)",
+   "new": "ഫാത്വിമ(റ)",
+   "why": "print ത്വ"
+  },
+  {
+   "pdf_page": 5,
+   "block": 8,
+   "old": "ഇസ്റാഈൽയ്യർ",
+   "new": "ഇസ്റാഈല്യർ",
+   "why": "print ല്യ conjunct"
+  },
+  {
+   "pdf_page": 6,
+   "block": 4,
+   "old": "മരസ്വീകരിക്കൽ",
+   "new": "മറസ്വീകരിക്കൽ",
+   "why": "print റ"
+  },
+  {
+   "pdf_page": 6,
+   "block": 7,
+   "old": "ഉദ്ദേശിക്കുമ്പോൾ വുദു ചെയ്യൽ",
+   "new": "ഉദ്ദേശിക്കുമ്പോൾ വുദൂ ചെയ്യൽ",
+   "why": "native: ദ tail filled loop = ൂ (വു open circle for contrast)"
+  },
+  {
+   "pdf_page": 7,
+   "block": 0,
+   "old": "വുദു ചെയ്താൽ",
+   "new": "വുദൂ ചെയ്താൽ",
+   "why": "native: ദ tail loop darker/filled vs open വു circle = ൂ"
+  },
+  {
+   "pdf_page": 9,
+   "block": 0,
+   "old": "വുദു ചെയ്ത് ഉറങ്ങും",
+   "new": "വുദൂ ചെയ്ത് ഉറങ്ങും",
+   "why": "native: ദ tail filled loop = ൂ (calibrated vs open ദു in ദുൽഹിജജ p22)"
+  },
+  {
+   "pdf_page": 10,
+   "block": 10,
+   "old": "കണ്ടിട്ടുണ്ട്. സ്വാഇന്റെ",
+   "new": "കണ്ടിട്ടുണ്ട്. അവിടെ ഒരു സ്വാഇന്റെ",
+   "why": "print has 'അവിടെ ഒരു' at line end (omitted)"
+  },
+  {
+   "pdf_page": 11,
+   "block": 2,
+   "old": "പൂശി കൊടുത്തു",
+   "new": "പൂശി ക്കൊടുത്തു",
+   "why": "print ക്കൊ"
+  },
+  {
+   "pdf_page": 13,
+   "block": 6,
+   "old": "وَجَذَبْتُهَا",
+   "new": "وَجَبَذْتُهَا",
+   "why": "print ب then ذ"
+  },
+  {
+   "pdf_page": 14,
+   "block": 0,
+   "old": "مُحَمَّدَ [?] أَبِي",
+   "new": "مُحَمَّدَ بْنَ أَبِي",
+   "why": "native: 'بن' fully visible at start of line 3 (not cut off)"
+  },
+  {
+   "pdf_page": 14,
+   "block": 0,
+   "old": "ثُمَّ [?]ي\"",
+   "new": "ثُمَّ أَهِلِّي\"",
+   "why": "native: 'أهلّي' fully visible at start of line 4"
+  },
+  {
+   "pdf_page": 14,
+   "block": 6,
+   "old": "ثُمَّ [?]صْبِحُ",
+   "new": "ثُمَّ يُصْبِحُ",
+   "why": "native: 'يصبح' fully visible at line start"
+  },
+  {
+   "pdf_page": 14,
+   "block": 1,
+   "old": "ഹജ്ജത്തുൽവാദാഇനെക്കുറ[?]",
+   "new": "ഹജ്ജത്തുൽവാദാഇനെക്കുറിച്ച്",
+   "why": "native: fully visible at right edge"
+  },
+  {
+   "pdf_page": 14,
+   "block": 1,
+   "old": "പുറപ്പെ[?]",
+   "new": "പുറപ്പെട്ടു.",
+   "why": "native: visible"
+  },
+  {
+   "pdf_page": 14,
+   "block": 1,
+   "old": "ബിൻ[?]",
+   "new": "ബിൻതു",
+   "why": "native: visible"
+  },
+  {
+   "pdf_page": 14,
+   "block": 1,
+   "old": "ആ[?]",
+   "new": "ആളെ",
+   "why": "native: visible"
+  },
+  {
+   "pdf_page": 14,
+   "block": 1,
+   "old": "ശേഷ[?]",
+   "new": "ശേഷം",
+   "why": "native: visible"
+  },
+  {
+   "pdf_page": 14,
+   "block": 7,
+   "old": "തന[?]",
+   "new": "തന്റെ",
+   "why": "native: visible"
+  },
+  {
+   "pdf_page": 14,
+   "block": 7,
+   "old": "ചെയ്യുമായിരുന്നു[?]",
+   "new": "ചെയ്യുമായിരുന്നു.",
+   "why": "native: period visible at line end"
+  },
+  {
+   "pdf_page": 14,
+   "block": 2,
+   "old": "ശേഷം വുദു ഉപേക്ഷിക്കൽ",
+   "new": "ശേഷം വുദൂ ഉപേക്ഷിക്കൽ",
+   "why": "native: ദ tail filled loop = ൂ"
+  },
+  {
+   "pdf_page": 14,
+   "block": 10,
+   "old": "മുമ്പ് വുദു ചെയ്യൽ",
+   "new": "മുമ്പ് വുദൂ ചെയ്യൽ",
+   "why": "native: ദ tail filled loop = ൂ"
+  },
+  {
+   "pdf_page": 15,
+   "block": 1,
+   "old": "തിക്കകെറ്റി",
+   "new": "തിക്കകറ്റി",
+   "why": "print has no െ"
+  },
+  {
+   "pdf_page": 17,
+   "block": 1,
+   "old": "ആരോ ഏഴോ",
+   "new": "ആറോ ഏഴോ",
+   "why": "print റ"
+  },
+  {
+   "pdf_page": 18,
+   "block": 1,
+   "old": "ഫാതിമ(റ)",
+   "new": "ഫാത്വിമ(റ)",
+   "why": "print ത്വ"
+  },
+  {
+   "pdf_page": 18,
+   "block": 8,
+   "old": "ശേഷമുള്ള വുദു",
+   "new": "ശേഷമുള്ള വുദൂ",
+   "why": "native: ദ tail filled loop = ൂ"
+  },
+  {
+   "pdf_page": 18,
+   "block": 10,
+   "old": "ശേഷം വുദു ചെയ്യാറില്ലായിരുന്നു",
+   "new": "ശേഷം വുദൂ ചെയ്യാറില്ലായിരുന്നു",
+   "why": "native: ദ tail loop with inner curl = ൂ"
+  },
+  {
+   "pdf_page": 21,
+   "block": 1,
+   "old": "ഗോത്രത്തിൽ പെട്ടവനും",
+   "new": "ഗോത്രത്തിൽ പ്പെട്ടവനും",
+   "why": "print പ്പെ"
+  },
+  {
+   "pdf_page": 21,
+   "block": 1,
+   "old": "ആയതിനാൽ നിങ്ങളുടെ",
+   "new": "ആയതിനാൽ നിങ്ങൾ രണ്ടുപേരും നിങ്ങളുടെ",
+   "why": "print: next line begins 'നിങ്ങൾ രണ്ടുപേരും' (omitted)"
+  },
+  {
+   "pdf_page": 21,
+   "block": 7,
+   "old": "ഉമ്മുഅതിയ്യ(റ)",
+   "new": "ഉമ്മുഅത്വിയ്യ(റ)",
+   "why": "print ത്വ"
+  },
+  {
+   "pdf_page": 21,
+   "block": 7,
+   "old": "അൾഫാർ",
+   "new": "അള്ഫാർ",
+   "why": "print ള് with chandrakkala"
+  },
+  {
+   "pdf_page": 22,
+   "block": 0,
+   "old": "\"اُقْضِي",
+   "new": "\"انْقُضِي",
+   "why": "print has nun: انقضي"
+  },
+  {
+   "pdf_page": 22,
+   "block": 1,
+   "old": "വിഭാഗത്തിലാണ്",
+   "new": "വിഭാഗത്തലാണ്",
+   "why": "printed typo, no ി"
+  },
+  {
+   "pdf_page": 22,
+   "block": 3,
+   "old": "ദുൽഹിജ്ജ മാസപ്പിറവി",
+   "new": "ദുൽഹിജജ മാസപ്പിറവി",
+   "why": "printed typo ജജ (no conjunct)"
+  },
+  {
+   "pdf_page": 22,
+   "block": 6,
+   "old": "ശുദ്ധികാലയളവിൽ",
+   "new": "ശുദ്ധികാലയളവൽ",
+   "why": "printed typo"
+  },
+  {
+   "pdf_page": 23,
+   "block": 9,
+   "old": "وَكَذَا؟",
+   "new": "وَكَذَا،",
+   "why": "print has comma not question mark"
+  },
+  {
+   "pdf_page": 23,
+   "block": 10,
+   "old": "ഉമ്മുഅതിയ്യ(റ)",
+   "new": "ഉമ്മുഅത്വിയ്യ(റ)",
+   "why": "print ത്വ"
+  },
+  {
+   "pdf_page": 26,
+   "block": 0,
+   "old": "അസ്ർ നേരത്തെയാക്കു കയും",
+   "new": "അസ്വ്ർ നേരത്തെയാക്കു കയും",
+   "why": "print സ്വ with chandrakkala"
+  },
+  {
+   "pdf_page": 26,
+   "block": 0,
+   "old": "അസ്വറും",
+   "new": "അസ്വ്റും",
+   "why": "print chandrakkala over സ്വ"
+  },
+  {
+   "pdf_page": 27,
+   "block": 0,
+   "old": "\"ആരെങ്കിലും ആർത്തവകാരിയുമായോ സ്ത്രീയുടെ പിൻദ്വാരത്തിലൂടെയോ ബന്ധപ്പെട്ടാൽ",
+   "new": "\"ആർത്തവകാരിയുമായോ സ്ത്രീയുടെ പിൻദ്വാരത്തിലൂടെയോ ആരെങ്കിലും ബന്ധപ്പെട്ടാൽ",
+   "why": "print word order: 'ആരെങ്കിലും' begins line 2 after പിൻദ്വാരത്തിലൂടെയോ"
+  },
+  {
+   "pdf_page": 28,
+   "block": 1,
+   "old": "ഫാതിമ ബിൻതുഖൈസ്",
+   "new": "ഫാത്വിമ ബിൻതുഖൈസ്",
+   "why": "print ത്വ"
+  },
+  {
+   "pdf_page": 28,
+   "block": 1,
+   "old": "രക്തസ്രാവമുണ്ടെങ്കിൽ",
+   "new": "രക്തസ്രാവമുണ്ടങ്കിൽ",
+   "why": "printed typo, no െ"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "B"
+  },
+  {
+   "idx": 1,
+   "print": "B"
+  },
+  {
+   "idx": 2,
+   "print": "B"
+  },
+  {
+   "idx": 3,
+   "print": "A"
+  },
+  {
+   "idx": 4,
+   "print": "A"
+  },
+  {
+   "idx": 5,
+   "print": "B"
+  },
+  {
+   "idx": 6,
+   "print": "B"
+  },
+  {
+   "idx": 7,
+   "print": "B"
+  },
+  {
+   "idx": 8,
+   "print": "B"
+  },
+  {
+   "idx": 9,
+   "print": "B"
+  },
+  {
+   "idx": 10,
+   "print": "B"
+  },
+  {
+   "idx": 11,
+   "print": "B"
+  },
+  {
+   "idx": 12,
+   "print": "B"
+  },
+  {
+   "idx": 13,
+   "print": "B"
+  },
+  {
+   "idx": 14,
+   "print": "B"
+  },
+  {
+   "idx": 15,
+   "print": "B"
+  },
+  {
+   "idx": 16,
+   "print": "B"
+  },
+  {
+   "idx": 17,
+   "print": "B"
+  },
+  {
+   "idx": 18,
+   "print": "B"
+  },
+  {
+   "idx": 19,
+   "print": "B"
+  },
+  {
+   "idx": 20,
+   "print": "B"
+  },
+  {
+   "idx": 21,
+   "print": "B"
+  },
+  {
+   "idx": 22,
+   "print": "B"
+  },
+  {
+   "idx": 23,
+   "print": "B"
+  },
+  {
+   "idx": 24,
+   "print": "B"
+  },
+  {
+   "idx": 25,
+   "print": "B"
+  },
+  {
+   "idx": 26,
+   "print": "A"
+  },
+  {
+   "idx": 27,
+   "print": "B"
+  },
+  {
+   "idx": 28,
+   "print": "B"
+  },
+  {
+   "idx": 29,
+   "print": "B"
+  },
+  {
+   "idx": 30,
+   "print": "A"
+  },
+  {
+   "idx": 31,
+   "print": "A"
+  },
+  {
+   "idx": 32,
+   "print": "B"
+  },
+  {
+   "idx": 33,
+   "print": "B"
+  },
+  {
+   "idx": 34,
+   "print": "B"
+  },
+  {
+   "idx": 35,
+   "print": "A"
+  },
+  {
+   "idx": 36,
+   "print": "B"
+  },
+  {
+   "idx": 37,
+   "print": "B"
+  },
+  {
+   "idx": 38,
+   "print": "B"
+  },
+  {
+   "idx": 39,
+   "print": "B"
+  },
+  {
+   "idx": 40,
+   "print": "B"
+  },
+  {
+   "idx": 41,
+   "print": "B"
+  },
+  {
+   "idx": 42,
+   "print": "B"
+  },
+  {
+   "idx": 43,
+   "print": "B"
+  },
+  {
+   "idx": 44,
+   "print": "B"
+  },
+  {
+   "idx": 45,
+   "print": "B"
+  },
+  {
+   "idx": 46,
+   "print": "A"
+  },
+  {
+   "idx": 47,
+   "print": "A"
+  },
+  {
+   "idx": 48,
+   "print": "B"
+  },
+  {
+   "idx": 49,
+   "print": "B"
+  },
+  {
+   "idx": 50,
+   "print": "A"
+  },
+  {
+   "idx": 51,
+   "print": "B"
+  },
+  {
+   "idx": 52,
+   "print": "B"
+  },
+  {
+   "idx": 53,
+   "print": "B"
+  },
+  {
+   "idx": 54,
+   "print": "B"
+  }
+ ]
+}

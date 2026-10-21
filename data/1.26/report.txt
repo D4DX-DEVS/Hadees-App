@@ -1,0 +1,9 @@
+pdf p93: duplicate scan of pdf p15, skipped
+#21: variants arabic=1 malayalam=0 (check pairing)
+#76: variants arabic=1 malayalam=0 (check pairing)
+#99: variants arabic=1 malayalam=0 (check pairing)
+#130: no arabic source code parsed
+#134: variants arabic=1 malayalam=0 (check pairing)
+#164: variants arabic=0 malayalam=1 (check pairing)
+#217: variants arabic=1 malayalam=0 (check pairing)
+#517: variants arabic=2 malayalam=1 (check pairing)

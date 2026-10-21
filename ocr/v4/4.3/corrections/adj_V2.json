@@ -1,0 +1,257 @@
+{
+ "part": "4.3",
+ "pages_checked": [
+  33,
+  34,
+  40,
+  46,
+  49,
+  59,
+  61
+ ],
+ "corrections": [
+  {
+   "pdf_page": 33,
+   "block": 2,
+   "old": "അവിടതന്നെ",
+   "new": "അവിടത്തന്നെ",
+   "why": "print shows virama in അവിടത്തന്നെ (B)"
+  },
+  {
+   "pdf_page": 34,
+   "block": 7,
+   "old": "വസിയ്യത്ത്",
+   "new": "വസ്വിയ്യത്ത്",
+   "why": "print shows വസ്വിയ്യത്ത് (B)"
+  },
+  {
+   "pdf_page": 35,
+   "block": 9,
+   "old": "അടിമത്തം",
+   "new": "അടിമത്വം",
+   "why": "footnote print shows അടിമത്വം (B), clear വ after ത"
+  },
+  {
+   "pdf_page": 40,
+   "block": 2,
+   "old": "بِنَا أَتَيْنَا",
+   "new": "بِنَا أَبَيْنَا",
+   "why": "print shows أَبَيْنَا (B)"
+  },
+  {
+   "pdf_page": 43,
+   "block": 4,
+   "old": "وَأُلْقِي",
+   "new": "وَأَلْقَى",
+   "why": "print shows وَأَلْقَى (B)"
+  },
+  {
+   "pdf_page": 43,
+   "block": 6,
+   "old": "فَوَافَقْنَا رَسُول",
+   "new": "فَوَافَقْنَا جَمِيعًا رَسُول",
+   "why": "print has جَمِيعًا after فوافقنا (B); A lacks it"
+  },
+  {
+   "pdf_page": 46,
+   "block": 0,
+   "old": "വഫാത്തായത്.",
+   "new": "വഫാതായത്.",
+   "why": "print shows വഫാതായത്. (B), single ത"
+  },
+  {
+   "pdf_page": 61,
+   "block": 0,
+   "old": "മുമ്പതന്നെ",
+   "new": "മുമ്പ്തന്നെ",
+   "why": "print shows മുമ്പ്തന്നെ (B), virama after പ"
+  },
+  {
+   "pdf_page": 62,
+   "block": 0,
+   "old": "കുതിരപ്പടയാളിക്കുള്ളതും",
+   "new": "കുതിരപ്പടായാളിക്കുള്ളതും",
+   "why": "print shows കുതിരപ്പടായാളിക്കുളളതും (B); extra യ visible"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 35,
+   "note": "HELD block 3 idx23 സഇൗദുബ്നു (A) vs സഈദുബ്നു (B): ഇൗ vs ഈ vowel glyph not decidable at this resolution; not applied"
+  },
+  {
+   "pdf_page": 35,
+   "note": "HELD block 8 idx26 അബൂസഇൗദിനിൽ (A) vs അബൂസഈദിനിൽ (B): ഇൗ vs ഈ vowel glyph not decidable; not applied"
+  },
+  {
+   "pdf_page": 38,
+   "note": "HELD block 1 idx28 അധ്യായം (A) vs അദ്ധ്യായം (B): doubling of ദ്ധ not decidable at this resolution; not applied"
+  },
+  {
+   "pdf_page": 41,
+   "note": "HELD block 4 idx31 ഉഛത്തിൽ (A) vs ഉച്ചത്തിൽ (B): print at this spot reads neither cleanly (consonant cluster after ഉ not decidable); not applied; neither reading confirmed"
+  },
+  {
+   "pdf_page": 43,
+   "note": "HELD block 3 idx34 ഇന്നുവരെക്കും (A) vs ഇന്നുവരേക്കും (B): vowel sign after ര (െ vs േ) not decidable; not applied"
+  },
+  {
+   "pdf_page": 44,
+   "note": "HELD block 0 idx35 والله (A) vs ووالله (B): extra waw in 'وَوَاللَّهِ لَا أَكْذِبُ' could not be isolated reliably at native resolution after repeated crops; not applied"
+  },
+  {
+   "pdf_page": 47,
+   "note": "HELD block 3 idx37 كدى (A) vs كدي (B): final ى vs ي (dots) at 'كُدَيٌ' not clearly resolvable at this crop; not applied"
+  },
+  {
+   "pdf_page": 51,
+   "note": "HELD block 0 idx39 'കഅ്ബം' (A, before 'റസൂൽ(സ) കടന്നുവരികയും') vs nothing (B): print seems to have no കഅ്ബം there, but line-boundary layout not verified; not applied"
+  },
+  {
+   "pdf_page": 51,
+   "note": "HELD block 0 idx40 'കഅ്ബാലയത്തിനു' (A) vs 'കഅ്ബം' (B) after 'ചുംബിച്ച ശേഷം': print line ends 'ശേഷം കഅ്ബം' (B visible) but word wrap with next line not fully verified; not applied"
+  },
+  {
+   "pdf_page": 51,
+   "note": "HELD block 0 idx41 'കഅ്ബയുടെ' (A) vs 'കഅ്ബാലയത്തിനു' (B) after 'അങ്ങനെ റസൂൽ(സ)': line order at crop boundary not verified; not applied"
+  },
+  {
+   "pdf_page": 52,
+   "note": "HELD block 1 idx43 അബ്ദിൽമുത്വലിബ്(റ) (A) vs അബ്ദിൽമുത്ത്വലിബ്(റ) (B): print looks like മുത്ത്വല but ത്ത്വ vs ത്വ is glyph-level; not applied"
+  },
+  {
+   "pdf_page": 54,
+   "note": "HELD block 3 idx44 മുതീഅ്(റ) (A) vs മുത്വീഅ്(റ) (B): print glyph after മുത appears to be ്വ but ത്വ vs ത is glyph-level; not applied"
+  },
+  {
+   "pdf_page": 55,
+   "note": "HELD block 1 idx45 അബ്ദിൽമുത്വലിബിന്റെ (A) vs അബ്ദിൽമുത്ത്വലിബിന്റെ (B): print looks like മുത്ത്വലി but ത്ത്വ vs ത്വ is glyph-level; not applied"
+  },
+  {
+   "pdf_page": 62,
+   "note": "HELD block 0 idx50 (പാപ്മോചന (A) vs (പാപമോചന (B): virama after പ not certain at the crop edge; not applied"
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 21,
+   "print": "B"
+  },
+  {
+   "idx": 22,
+   "print": "B"
+  },
+  {
+   "idx": 23,
+   "print": "other"
+  },
+  {
+   "idx": 24,
+   "print": "A"
+  },
+  {
+   "idx": 25,
+   "print": "A"
+  },
+  {
+   "idx": 26,
+   "print": "other"
+  },
+  {
+   "idx": 27,
+   "print": "B"
+  },
+  {
+   "idx": 28,
+   "print": "other"
+  },
+  {
+   "idx": 29,
+   "print": "A"
+  },
+  {
+   "idx": 30,
+   "print": "B"
+  },
+  {
+   "idx": 31,
+   "print": "other"
+  },
+  {
+   "idx": 32,
+   "print": "B"
+  },
+  {
+   "idx": 33,
+   "print": "B"
+  },
+  {
+   "idx": 34,
+   "print": "other"
+  },
+  {
+   "idx": 35,
+   "print": "other"
+  },
+  {
+   "idx": 36,
+   "print": "B"
+  },
+  {
+   "idx": 37,
+   "print": "other"
+  },
+  {
+   "idx": 38,
+   "print": "A"
+  },
+  {
+   "idx": 39,
+   "print": "other"
+  },
+  {
+   "idx": 40,
+   "print": "other"
+  },
+  {
+   "idx": 41,
+   "print": "other"
+  },
+  {
+   "idx": 42,
+   "print": "A"
+  },
+  {
+   "idx": 43,
+   "print": "other"
+  },
+  {
+   "idx": 44,
+   "print": "other"
+  },
+  {
+   "idx": 45,
+   "print": "other"
+  },
+  {
+   "idx": 46,
+   "print": "A"
+  },
+  {
+   "idx": 47,
+   "print": "A"
+  },
+  {
+   "idx": 48,
+   "print": "B"
+  },
+  {
+   "idx": 49,
+   "print": "B"
+  },
+  {
+   "idx": 50,
+   "print": "other"
+  }
+ ]
+}

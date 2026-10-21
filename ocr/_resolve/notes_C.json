@@ -1,0 +1,146 @@
+[
+ {
+  "part": "2.7",
+  "pdf_page": 42,
+  "hadith_no": 171,
+  "note": "print Arabic mostly unvocalized; JSON vocalized; not changed"
+ },
+ {
+  "part": "2.7",
+  "pdf_page": 55,
+  "hadith_no": 219,
+  "note": "print seems to read هَذِهِ الصُّورَةِ (singular) where JSON has الصُّوَرِ; not changed"
+ },
+ {
+  "part": "2.7",
+  "pdf_page": 46,
+  "hadith_no": 192,
+  "note": "Malayalam 'കഴുതയെപ്പോലെ' printed with an odd glyph (looks like കഴുതഴെപ്പോലെ); left unchanged"
+ },
+ {
+  "part": "2.7",
+  "pdf_page": 50,
+  "hadith_no": 202,
+  "note": "Print appears to read 'ഉമ്മുസുലൈമം' in the quote; JSON has ഉമ്മുസുലൈം; not changed"
+ },
+ {
+  "part": "2.7",
+  "pdf_page": 46,
+  "hadith_no": null,
+  "note": "Systematic: JSON Arabic has fuller harakat than the sparsely-voweled print on many pages (e.g. p46 189-192, p47 194-198); not itemised"
+ },
+ {
+  "part": "2.7",
+  "pdf_page": 46,
+  "hadith_no": 190,
+  "note": "Print Malayalam shows old-style 'തോല്' (virama) where JSON has chillu 'തോൽ'; left unchanged"
+ },
+ {
+  "part": "2.7",
+  "pdf_page": 71,
+  "hadith_no": 277,
+  "note": "first 'മറ്റൊരു റിപ്പോർട്ടിൽ' in Malayalam block 1 may be printed 'റപ്പോർട്ടിൽ'; left as is"
+ },
+ {
+  "part": "2.7",
+  "pdf_page": 61,
+  "hadith_no": 238,
+  "note": "print Arabic is only lightly vocalized; JSON has fuller harakat throughout (not individually changed); harakat not verifiable per letter at this scale"
+ },
+ {
+  "part": "2.7",
+  "pdf_page": 62,
+  "hadith_no": 242,
+  "note": "Malayalam 'കളയുന്നില്ലേ?' printed as 'കളയുന്നില്ലേ.?'"
+ },
+ {
+  "part": "2.7",
+  "pdf_page": 63,
+  "hadith_no": 244,
+  "note": "harakat/typos in Arabic only spot-checked"
+ },
+ {
+  "part": "2.7",
+  "pdf_page": 77,
+  "hadith_no": 301,
+  "note": "Print spells Fatima as ഫാതിമ-like glyph (possibly ഫാത്വിമ or ഫാതിമ) vs JSON ഫാത്തിമ across p77 blocks; could not resolve at zoom"
+ },
+ {
+  "part": "2.7",
+  "pdf_page": 76,
+  "hadith_no": null,
+  "note": "Print Arabic carries partial harakat (not every letter); JSON is more fully vocalised than the print on all pages; only conflicting letters/harakat were corrected"
+ },
+ {
+  "part": "2.7",
+  "pdf_page": 79,
+  "hadith_no": 309,
+  "note": "Arabic blocks 1,4,7,10 on p79, p81 blocks 0,2,4,6,8,11, p83 and p89/p90 blocks begin with the hadith number inline (e.g. 309.) while p76-78 do not; inconsistent but left unchanged"
+ },
+ {
+  "part": "2.7",
+  "pdf_page": 83,
+  "hadith_no": 325,
+  "note": "Malayalam isnad name: print looks like അശ്അരീ(റ) (long ii) vs JSON അശ്അരി(റ); unclear"
+ },
+ {
+  "part": "2.7",
+  "pdf_page": 84,
+  "hadith_no": 330,
+  "note": "Malayalam name hasib: print looks like ഹസ്വീബ്/ഹസീബ് unclear"
+ },
+ {
+  "part": "2.7",
+  "pdf_page": 90,
+  "hadith_no": 357,
+  "note": "Malayalam: print appears to read സാക്ഷികയെയും (possible misprint) vs JSON സാക്ഷിയെയും; left unchanged"
+ },
+ {
+  "part": "2.7",
+  "pdf_page": 78,
+  "hadith_no": 305,
+  "note": "Malayalam print appears to read വെള്ളികൊണ്ടുള്ളതായിരന്നു (missing u sign, likely misprint); left as JSON"
+ },
+ {
+  "part": "2.7",
+  "pdf_page": 77,
+  "hadith_no": 302,
+  "note": "Arabic: print may read تُصَفِّرُهُ (damma) vs JSON تُصَفِّرَهُ; Malayalam കണ്ഠാഭരണം vs print; not resolved at zoom"
+ },
+ {
+  "part": "2.7",
+  "pdf_page": 93,
+  "hadith_no": 372,
+  "note": "Malayalam 'ഹുജ്ർ(റ)' vs print possibly 'ഹുജർ(റ)'; unclear"
+ },
+ {
+  "part": "2.7",
+  "pdf_page": 99,
+  "hadith_no": 403,
+  "note": "Arabic 'بَيْضَاءَ'/'عَنْفَقَتَهُ' may be 'بَيْضَاءُ'/'عَنْفَقَتُهُ' in print; damma vs fatha unclear"
+ },
+ {
+  "part": "2.7",
+  "pdf_page": 99,
+  "hadith_no": 404,
+  "note": "'شَعَرَةً' may be 'شَعْرَةً' (sukun) in print; also 405"
+ },
+ {
+  "part": "2.7",
+  "pdf_page": 103,
+  "hadith_no": 420,
+  "note": "'فَلْيَبْدَأُ بِالشِّمَالِ' may be 'فَلْيَبْدَأْ' in print"
+ },
+ {
+  "part": "2.7",
+  "pdf_page": 98,
+  "hadith_no": 398,
+  "note": "'لِهَذَا' may be 'لَهَذَا' in print"
+ },
+ {
+  "part": "2.7",
+  "pdf_page": 101,
+  "hadith_no": 411,
+  "note": "Malayalam 'ഫാത്തിമ' appears printed 'ഫാതിമ' (no geminate); not changed"
+ }
+]

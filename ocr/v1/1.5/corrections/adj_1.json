@@ -1,0 +1,81 @@
+{
+ "part": "1.5",
+ "pages_checked": [
+  1,
+  2,
+  3,
+  4,
+  6
+ ],
+ "corrections": [
+  {
+   "pdf_page": 1,
+   "block": 5,
+   "old": "നബി(സ)യും അനുചരൻമാരും",
+   "new": "നബി(സ)യും അനുചരരൻമാരും",
+   "why": "print reads അനുചരരൻമാരും (extra ര)"
+  },
+  {
+   "pdf_page": 4,
+   "block": 6,
+   "old": "മറയാറായപ്പോൾ",
+   "new": "മറയാറാപ്പോൾ",
+   "why": "print typo മറയാറാപ്പോൾ"
+  },
+  {
+   "pdf_page": 6,
+   "block": 2,
+   "old": "തയമ്മും ചെയ്തു നിസ്കരിച്ചു",
+   "new": "തയമ്മും ചെന്തു നിസ്കരിച്ചു",
+   "why": "print glyph reads ചെന്തു (printed misspelling)"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 6,
+   "note": "ചെയ്തു vs ചെന്തു in 'തയമ്മും ചെയ്തു നിസ്കരിച്ചു': print glyph looks like ന്ത (smudged); moderate confidence in B"
+  },
+  {
+   "pdf_page": 1,
+   "note": "ദാതുൽജൈൽ read as A (one ജ with ൈ); അനുചരരൻമാരും B moderate confidence"
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "A"
+  },
+  {
+   "idx": 1,
+   "print": "B"
+  },
+  {
+   "idx": 2,
+   "print": "A"
+  },
+  {
+   "idx": 3,
+   "print": "A"
+  },
+  {
+   "idx": 4,
+   "print": "A"
+  },
+  {
+   "idx": 5,
+   "print": "A"
+  },
+  {
+   "idx": 6,
+   "print": "B"
+  },
+  {
+   "idx": 7,
+   "print": "A"
+  },
+  {
+   "idx": 8,
+   "print": "B"
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+{"pages_checked":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22],
+"corrections":[
+{"section":21,"chapter":7,"field":"page","old":"529","new":"530","why":"Counting rows on scan: ch5 529, ch6 529, ch7 530, ch8 530 (zoomed crop)"},
+{"section":21,"chapter":9,"field":"page","old":"530","new":"532","why":"Scan shows 532 for ch9, ch10, ch11 (zoomed crop)"},
+{"section":21,"chapter":12,"field":"title_ml","old":"ഫജർ വെളിവായ","new":"ഫജ്ർ വെളിവായ","why":"Scan prints ഫജ്ർ with virama (zoomed)"},
+{"section":31,"chapter":97,"field":"title_ml","old":"വസിയ്യത്തിൽ","new":"വസ്വിയ്യത്തിൽ","why":"Scan prints വസ്വിയ്യത്തിൽ (zoomed)"}
+],
+"uncertain":[
+{"section":31,"chapter":56,"note":"scan 'വുദുഇന്റെ' vs index 'വുദൂഇന്റെ': vowel length unclear at this resolution"},
+{"section":18,"chapter":39,"note":"scan may read 'ഖുത്വുബയിയിലുടെ' (short u) vs index 'ലൂടെ'; unclear"}
+],
+"not_checked":[]}

@@ -1,0 +1,20 @@
+{
+ "part": "1.6",
+ "pages_checked": [
+  12,
+  13,
+  14,
+  25,
+  31
+ ],
+ "corrections": [
+  {
+   "pdf_page": 31,
+   "block": 0,
+   "old": "വന്നാൽ വുദു ചെയ്ത്",
+   "new": "വന്നാൽ വുദൂ ചെയ്ത്",
+   "why": "print has filled curl ൂ on ദ (matches same word in hadith 125 on this page)"
+  }
+ ],
+ "uncertain": []
+}

@@ -1,0 +1,251 @@
+{
+ "part": "2.12",
+ "pages_checked": [
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42
+ ],
+ "corrections": [
+  {
+   "pdf_page": 29,
+   "block": 3,
+   "old": "قَالَ تِرْمِذِي هَذَا",
+   "new": "قَالَ تُرْمُذِي هَذَا",
+   "why": "Tirmidhi vowels (damma on ta/mim) as printed"
+  },
+  {
+   "pdf_page": 30,
+   "block": 0,
+   "old": "അറിയുന്നവനേ",
+   "new": "അറിയുന്നവനെ",
+   "why": "print has short e"
+  },
+  {
+   "pdf_page": 30,
+   "block": 0,
+   "old": "പടച്ചവനേ",
+   "new": "പടച്ചവനെ",
+   "why": "print has short e"
+  },
+  {
+   "pdf_page": 30,
+   "block": 0,
+   "old": "ഉടമസ്ഥനുമായവനേ",
+   "new": "ഉടമസ്ഥനുമായവനെ",
+   "why": "print has short e"
+  },
+  {
+   "pdf_page": 30,
+   "block": 0,
+   "old": "എല്ലാ വസ്തുവിന്റെയും",
+   "new": "എല്ലാവസ്തുവിന്റെയും",
+   "why": "no space in print"
+  },
+  {
+   "pdf_page": 30,
+   "block": 0,
+   "old": "സാക്ഷ്യം വഹിക്കുന്നു",
+   "new": "സാക്ഷ്യംവഹിക്കുന്നു",
+   "why": "no space in print"
+  },
+  {
+   "pdf_page": 30,
+   "block": 4,
+   "old": "മുൻഭാഗത്തുനിന്നും",
+   "new": "മുൻഭാഗത്ത്നിന്നും",
+   "why": "virama form in print"
+  },
+  {
+   "pdf_page": 30,
+   "block": 4,
+   "old": "താഴ്ഭാഗത്തുനിന്ന്",
+   "new": "താഴ്ഭാഗത്ത്നിന്ന്",
+   "why": "virama form in print"
+  },
+  {
+   "pdf_page": 31,
+   "block": 7,
+   "old": "അമ്ര്(റ)",
+   "new": "അംറ്(റ)",
+   "why": "anusvara/chillu as printed"
+  },
+  {
+   "pdf_page": 32,
+   "block": 0,
+   "old": "ശരീരത്തോട് വല്ല",
+   "new": "ശരീരത്തിനോട് വല്ല",
+   "why": "word differs"
+  },
+  {
+   "pdf_page": 33,
+   "block": 0,
+   "old": "اَلْجَوَامِعُ",
+   "new": "الْجَوَامِعُ",
+   "why": "extra alif-fatha not in print"
+  },
+  {
+   "pdf_page": 33,
+   "block": 1,
+   "old": "أَشْيَمَ",
+   "new": "أَشِيمَ",
+   "why": "kasra, no sukun on shin"
+  },
+  {
+   "pdf_page": 33,
+   "block": 6,
+   "old": "മനസ്സിലാവാനില്ല",
+   "new": "മനസ്സിലാവാറില്ല",
+   "why": "word differs"
+  },
+  {
+   "pdf_page": 34,
+   "block": 0,
+   "old": "قَالَ: ”وَالَّذِي",
+   "new": "قَالَ: فَقَالَ: ”وَالَّذِي",
+   "why": "dropped word فَقَالَ"
+  },
+  {
+   "pdf_page": 34,
+   "block": 1,
+   "old": "ജനിക്കാത്തവനും ജനിപ്പിക്കപ്പെടാത്തവനുമാണ്",
+   "new": "ജനിക്കാത്തവനും ജനിച്ചിട്ടില്ലാത്തവനും ജനിപ്പിക്കപ്പെടാത്തവനുമാണ്",
+   "why": "dropped phrase"
+  },
+  {
+   "pdf_page": 34,
+   "block": 1,
+   "old": "ഇങ്ങനെ അതുകൊണ്ടാരെങ്കിലും",
+   "new": "ഇങ്ങനെ ഒരാൾ കൊണ്ടാരെങ്കിലും",
+   "why": "word differs"
+  },
+  {
+   "pdf_page": 35,
+   "block": 1,
+   "old": "വീട്ടികൊടുക്കുന്ന",
+   "new": "വീട്ടിക്കൊടുക്കുന്ന",
+   "why": "conjunct ക്ക"
+  },
+  {
+   "pdf_page": 36,
+   "block": 0,
+   "old": "ഹൃദയത്തിൽ നീ പ്രകാശം ചൊരിയേണമേ",
+   "new": "ഹൃദയത്തിൽ നീ പ്രകാശം ചൊരിയണേ",
+   "why": "print: ചൊരിയണേ"
+  },
+  {
+   "pdf_page": 36,
+   "block": 0,
+   "old": "നീ പ്രകാശം ചൊരിയേണമേ, എന്റെ മുന്നിലും",
+   "new": "നീ പ്രകാശം ചൊരിയണേ, എന്റെ മുന്നിലും",
+   "why": "print: ചൊരിയണേ"
+  },
+  {
+   "pdf_page": 36,
+   "block": 0,
+   "old": "നീ പ്രകാശം ചൊരിയേണമേ. പ്രതാപിയും",
+   "new": "നീ പ്രകാശം ചൊരിയണേ. പ്രതാപിയും",
+   "why": "print: ചൊരിയണേ"
+  },
+  {
+   "pdf_page": 40,
+   "block": 1,
+   "old": ". ١٤٠ عَنِ",
+   "new": "١٤٠. عَنِ",
+   "why": "number/period order as printed"
+  },
+  {
+   "pdf_page": 40,
+   "block": 3,
+   "old": ". ١٤١ عَنْ",
+   "new": "١٤١. عَنْ",
+   "why": "number/period order as printed"
+  },
+  {
+   "pdf_page": 40,
+   "block": 4,
+   "old": "അസാന്നിധ്യമോ",
+   "new": "അസാന്നിധ്യനോ",
+   "why": "word differs"
+  },
+  {
+   "pdf_page": 40,
+   "block": 5,
+   "old": ". ١٤٢ عَنْ",
+   "new": "١٤٢. عَنْ",
+   "why": "number/period order as printed"
+  },
+  {
+   "pdf_page": 40,
+   "block": 7,
+   "old": ". ١٤٣ عَنْ",
+   "new": "١٤٣. عَنْ",
+   "why": "number/period order as printed"
+  },
+  {
+   "pdf_page": 33,
+   "block": 2,
+   "old": "താരിഖുബ്നു അശ്‌യം(റ)",
+   "new": "ത്വാരിഖുബ്നു അശീം(റ)",
+   "why": "Tha-wa-ri-khu / ashim as printed"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 32,
+   "hadith_no": 117,
+   "note": "Print 'ഇൗ' (i+au) vs JSON 'ഈ' in മീകാഈലിന്റെ (and p36 റാകിഈങ്ങൾ): cannot resolve at this zoom; left as is"
+  },
+  {
+   "pdf_page": 32,
+   "hadith_no": 115,
+   "note": "Mal line 'തിരുദൂതർ(സ)' glyph under-read; left as is"
+  },
+  {
+   "pdf_page": 33,
+   "hadith_no": 120,
+   "note": "Print may read 'അല്ലാഹുവാണ്,' not 'അല്ലാഹുവാണേ,' - not certain"
+  },
+  {
+   "pdf_page": 34,
+   "hadith_no": 122,
+   "note": "Print appears to have only closing bracket ']' after البقرة: ١٦٣ (no opening '['); not certain"
+  },
+  {
+   "pdf_page": 39,
+   "hadith_no": 136,
+   "note": "Print may have 'مِائَةً' (fathatan) where JSON has 'مِائَةٌ' in كُتِبَتْ لَهُ مِائَةٌ; not certain"
+  },
+  {
+   "pdf_page": 41,
+   "hadith_no": 144,
+   "note": "Mal 'അയ്യൂബിൽ' may be 'അയ്യൂബിർ' in print; not certain"
+  },
+  {
+   "pdf_page": 42,
+   "hadith_no": 148,
+   "note": "Arabic 'فَتُنْسَيْنَ' may be 'فَتَنْسَيْنَ' in print; not certain"
+  },
+  {
+   "pdf_page": 37,
+   "hadith_no": null,
+   "note": "Page JSON uses legacy ZWJ chillus (ള്‍ etc.) and Persian digits ۱۲۷-۱۳۰ unlike other pages; print visually identical, not itemised"
+  },
+  {
+   "pdf_page": 29,
+   "hadith_no": null,
+   "note": "Hadith number prefix is in text on p29/p32/p40 but only in hadith_no field on p30/31/33; formatting inconsistency, not a print difference"
+  }
+ ],
+ "not_checked": []
+}

@@ -1,0 +1,89 @@
+{
+ "part": "4.10",
+ "pages_checked": [
+  19,
+  20,
+  27,
+  34,
+  35,
+  36
+ ],
+ "corrections": [
+  {
+   "pdf_page": 19,
+   "block": 2,
+   "old": "മഗ്ളൂബി",
+   "new": "മഅ്ളൂബി",
+   "why": "print has അ് (not ഗ്) after മ"
+  },
+  {
+   "pdf_page": 27,
+   "block": 0,
+   "old": "وُكِيَ",
+   "new": "وُكِئَ",
+   "why": "print has hamza on the seat (ئ), not plain ي"
+  },
+  {
+   "pdf_page": 34,
+   "block": 6,
+   "old": "കൊണ്ടുമാത്രമാണ്",
+   "new": "കൊണ്ടുമത്രമാണ്",
+   "why": "print reads മത്ര (no ാ) as printed"
+  },
+  {
+   "pdf_page": 35,
+   "block": 3,
+   "old": "ഓതിക്കേൾപ്പിച്ച",
+   "new": "ഓതിക്കേൾപിച്ച",
+   "why": "print has single പ (ൾപി)"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 19,
+   "note": "മഅ്ളൂബി: ു vs ൂ after ള looks like plain ു in print; left ൂ as ours (glyph-level uncertain)"
+  },
+  {
+   "pdf_page": 35,
+   "note": "ദാവുദ്: ു looks like plain ു, kept ours"
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "A"
+  },
+  {
+   "idx": 1,
+   "print": "other"
+  },
+  {
+   "idx": 2,
+   "print": "A"
+  },
+  {
+   "idx": 3,
+   "print": "A"
+  },
+  {
+   "idx": 4,
+   "print": "B"
+  },
+  {
+   "idx": 5,
+   "print": "B"
+  },
+  {
+   "idx": 6,
+   "print": "A"
+  },
+  {
+   "idx": 7,
+   "print": "B"
+  },
+  {
+   "idx": 8,
+   "print": "A"
+  }
+ ]
+}

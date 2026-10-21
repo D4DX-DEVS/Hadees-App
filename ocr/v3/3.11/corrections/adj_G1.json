@@ -1,0 +1,518 @@
+{
+ "part": "3.11",
+ "pages_checked": [
+  3,
+  7,
+  8,
+  9,
+  10,
+  12,
+  13,
+  15,
+  16,
+  18,
+  19,
+  20,
+  21,
+  22,
+  26,
+  28,
+  29,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  39,
+  40,
+  41,
+  42,
+  43,
+  46,
+  50,
+  51,
+  52,
+  53
+ ],
+ "corrections": [
+  {
+   "pdf_page": 3,
+   "block": 3,
+   "old": "അബൂസഈദുൽ",
+   "new": "അബൂസഇൗദുൽ",
+   "why": "print ഇൗ"
+  },
+  {
+   "pdf_page": 3,
+   "block": 11,
+   "old": "ഹിമക്ഷണം",
+   "new": "ഹിമക്കഷ്ണം",
+   "why": "print ഹിമക്കഷ്ണം"
+  },
+  {
+   "pdf_page": 7,
+   "block": 1,
+   "old": "കൊണ്ടുവരികയും",
+   "new": "കൊണ്ട്വരികയും",
+   "why": "print കൊണ്ട്വരികയും"
+  },
+  {
+   "pdf_page": 7,
+   "block": 8,
+   "old": "അബൂസഈദ്(റ),",
+   "new": "അബൂസഇൗദ്(റ),",
+   "why": "print ഇൗ"
+  },
+  {
+   "pdf_page": 7,
+   "block": 10,
+   "old": "ബനൂഇസ്രാഈലിന്",
+   "new": "ബനൂഇസ്റാഇൗലിന്",
+   "why": "print റ and ഇൗ"
+  },
+  {
+   "pdf_page": 9,
+   "block": 3,
+   "old": "തിരിച്ചുവന്ന്",
+   "new": "തിരിച്ചുവന്നു",
+   "why": "print തിരിച്ചുവന്നു"
+  },
+  {
+   "pdf_page": 9,
+   "block": 3,
+   "old": "അദ്ദേഹം വീണ്ടും സഹോദരന് തേൻ കൊടുത്തു",
+   "new": "അദ്ദഹം വീണ്ടും സഹോദരന് തേൻ കൊടുത്തു",
+   "why": "print typo അദ്ദഹം"
+  },
+  {
+   "pdf_page": 9,
+   "block": 7,
+   "old": "കൊണ്ടുവരപ്പെട്ടു.",
+   "new": "കൊണ്ടുവരപ്പട്ടു.",
+   "why": "print typo വരപ്പട്ടു"
+  },
+  {
+   "pdf_page": 10,
+   "block": 0,
+   "old": "കരിഞ്ചീരകം",
+   "new": "കരിഞ്ചീരികം",
+   "why": "print heading കരിഞ്ചീരികം (body text കരിഞ്ചീരകം unchanged)"
+  },
+  {
+   "pdf_page": 12,
+   "block": 11,
+   "old": "فَحُشِيَ",
+   "new": "فَحَشَا",
+   "why": "print فحشا"
+  },
+  {
+   "pdf_page": 12,
+   "block": 12,
+   "old": "ഫാതിമ",
+   "new": "ഫാത്വിമ",
+   "why": "print ത്വ"
+  },
+  {
+   "pdf_page": 13,
+   "block": 2,
+   "old": "ഫാതിമ ബീവി(റ) നബി(സ)യുടെ ശരീര",
+   "new": "ഫാത്വിമ ബീവി(റ) നബി(സ)യുടെ ശരീര",
+   "why": "print ത്വ"
+  },
+  {
+   "pdf_page": 13,
+   "block": 2,
+   "old": "ഫാതിമ ബീവി(റ) ഒരു പായയുടെ",
+   "new": "ഫാത്വിമ ബീവി(റ) ഒരു പായയുടെ",
+   "why": "print ത്വ"
+  },
+  {
+   "pdf_page": 13,
+   "block": 4,
+   "old": "ഫാതിമ",
+   "new": "ഫാത്വിമ",
+   "why": "print ത്വ"
+  },
+  {
+   "pdf_page": 15,
+   "block": 5,
+   "old": "ഹുസൈ്വൻ",
+   "new": "ഹുസ്വൈൻ",
+   "why": "print സ്വ+ൈ (glyph order fixed)"
+  },
+  {
+   "pdf_page": 18,
+   "block": 8,
+   "old": "അബൂതൈബ",
+   "new": "അബൂത്വൈബ",
+   "why": "print ത്വ"
+  },
+  {
+   "pdf_page": 20,
+   "block": 2,
+   "old": "وَثْيٍ",
+   "new": "وَثْئٍ",
+   "why": "print: hamza above final ya (ئ), not plain ي"
+  },
+  {
+   "pdf_page": 20,
+   "block": 10,
+   "old": "പറയുന്നത്",
+   "new": "പറുയന്നത്",
+   "why": "print typo പറുയന്നത്"
+  },
+  {
+   "pdf_page": 21,
+   "block": 6,
+   "old": "അബൂബക്ർ(റ):",
+   "new": "അബൂബക്റ(റ):",
+   "why": "print ക്റ"
+  },
+  {
+   "pdf_page": 22,
+   "block": 3,
+   "old": "അതിന്മേൽ തൽബീനത്ത് ഒഴിക്കും",
+   "new": "അതിന്മേൽ തൽബീനത് ഒഴിക്കും",
+   "why": "print തൽബീനത് at line end"
+  },
+  {
+   "pdf_page": 26,
+   "block": 1,
+   "old": "മ്ലേരത",
+   "new": "മ്ലേഛത",
+   "why": "print മ്ലേഛത"
+  },
+  {
+   "pdf_page": 29,
+   "block": 3,
+   "old": "أُعِيذُكُمَا",
+   "new": "أَعُوذُ",
+   "why": "print أعوذ بكلمات"
+  },
+  {
+   "pdf_page": 29,
+   "block": 2,
+   "old": "ദണ്ഡമാണ്.",
+   "new": "ദൺഢമാണ്.",
+   "why": "print ദൺഢമാണ്"
+  },
+  {
+   "pdf_page": 34,
+   "block": 4,
+   "old": "പറയുന്നതായി",
+   "new": "പറുയന്നതായി",
+   "why": "print typo"
+  },
+  {
+   "pdf_page": 35,
+   "block": 2,
+   "old": "[ز: في سنده",
+   "new": "[ز: قي سنده",
+   "why": "print قي"
+  },
+  {
+   "pdf_page": 35,
+   "block": 5,
+   "old": "കണ്ണേറിനു ണ്ടി",
+   "new": "കണ്ണേറിനു ണ്ടേി",
+   "why": "print misprint ണ്ടേി"
+  },
+  {
+   "pdf_page": 37,
+   "block": 2,
+   "old": "ഹുസൈൻ",
+   "new": "ഹുസ്വൈൻ",
+   "why": "print has വ (ഹുസ്വൈൻ)"
+  },
+  {
+   "pdf_page": 37,
+   "block": 4,
+   "old": "ഹുസൈൻ",
+   "new": "ഹുസ്വൈൻ",
+   "why": "print has വ (ഹുസ്വൈൻ)"
+  },
+  {
+   "pdf_page": 37,
+   "block": 6,
+   "old": "കെട്ടുന്നില്ലേയോ?",
+   "new": "കെട്ടുന്നില്ലെയോ?",
+   "why": "print ല്ലെ"
+  },
+  {
+   "pdf_page": 39,
+   "block": 6,
+   "old": "മന്ത്രം തിരുമേനി(സ)ക്ക്",
+   "new": "മന്തം തിരിമേനി(സ)ക്ക്",
+   "why": "print മന്തം തിരിമേനി"
+  },
+  {
+   "pdf_page": 40,
+   "block": 7,
+   "old": "പറയുന്നു?",
+   "new": "പറുയുന്നു?",
+   "why": "print typo"
+  },
+  {
+   "pdf_page": 41,
+   "block": 4,
+   "old": "പറയുകയും ചെയ്തു. അപ്പോൾ",
+   "new": "പറയുകുയം ചെയ്തു. അപ്പോൾ",
+   "why": "print typo പറയുകുയം"
+  },
+  {
+   "pdf_page": 42,
+   "block": 1,
+   "old": "ആയുസ്സ്തന്നെയാണ സത്യം",
+   "new": "ആയുസ്സ്തന്നെയാണ് സത്യം",
+   "why": "print has final virama"
+  },
+  {
+   "pdf_page": 50,
+   "block": 0,
+   "old": "رَعَيْتَهَا الْخَصْبَةَ",
+   "new": "رَعَيْتَ الْخَصْبَةَ",
+   "why": "print رعيتَ (no ها) before الخصبة"
+  },
+  {
+   "pdf_page": 52,
+   "block": 3,
+   "old": "ബാധിക്കുകയും ചെയ്യും. (മു,ജ)",
+   "new": "ബാധിക്കുകുയം ചെയ്യും. (മു,ജ)",
+   "why": "print typo ബാധിക്കുകുയം"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 20,
+   "note": "item20: final glyph looks like ya with hamza above (وثئ); B's bare ء not exactly matching"
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "other"
+  },
+  {
+   "idx": 1,
+   "print": "B"
+  },
+  {
+   "idx": 2,
+   "print": "A"
+  },
+  {
+   "idx": 3,
+   "print": "B"
+  },
+  {
+   "idx": 4,
+   "print": "other"
+  },
+  {
+   "idx": 5,
+   "print": "other"
+  },
+  {
+   "idx": 6,
+   "print": "A"
+  },
+  {
+   "idx": 7,
+   "print": "B"
+  },
+  {
+   "idx": 8,
+   "print": "B"
+  },
+  {
+   "idx": 9,
+   "print": "B"
+  },
+  {
+   "idx": 10,
+   "print": "B"
+  },
+  {
+   "idx": 11,
+   "print": "B"
+  },
+  {
+   "idx": 17,
+   "print": "A"
+  },
+  {
+   "idx": 12,
+   "print": "B"
+  },
+  {
+   "idx": 13,
+   "print": "B"
+  },
+  {
+   "idx": 14,
+   "print": "B"
+  },
+  {
+   "idx": 15,
+   "print": "B"
+  },
+  {
+   "idx": 16,
+   "print": "B"
+  },
+  {
+   "idx": 18,
+   "print": "B"
+  },
+  {
+   "idx": 19,
+   "print": "A"
+  },
+  {
+   "idx": 20,
+   "print": "other"
+  },
+  {
+   "idx": 22,
+   "print": "A"
+  },
+  {
+   "idx": 21,
+   "print": "B"
+  },
+  {
+   "idx": 23,
+   "print": "B"
+  },
+  {
+   "idx": 24,
+   "print": "B"
+  },
+  {
+   "idx": 25,
+   "print": "B"
+  },
+  {
+   "idx": 26,
+   "print": "A"
+  },
+  {
+   "idx": 27,
+   "print": "B"
+  },
+  {
+   "idx": 28,
+   "print": "B"
+  },
+  {
+   "idx": 29,
+   "print": "A"
+  },
+  {
+   "idx": 30,
+   "print": "A"
+  },
+  {
+   "idx": 31,
+   "print": "A"
+  },
+  {
+   "idx": 32,
+   "print": "A"
+  },
+  {
+   "idx": 33,
+   "print": "A"
+  },
+  {
+   "idx": 34,
+   "print": "A"
+  },
+  {
+   "idx": 35,
+   "print": "A"
+  },
+  {
+   "idx": 36,
+   "print": "A"
+  },
+  {
+   "idx": 37,
+   "print": "B"
+  },
+  {
+   "idx": 38,
+   "print": "B"
+  },
+  {
+   "idx": 39,
+   "print": "B"
+  },
+  {
+   "idx": 40,
+   "print": "A"
+  },
+  {
+   "idx": 41,
+   "print": "B"
+  },
+  {
+   "idx": 42,
+   "print": "B"
+  },
+  {
+   "idx": 43,
+   "print": "B"
+  },
+  {
+   "idx": 44,
+   "print": "B"
+  },
+  {
+   "idx": 45,
+   "print": "B"
+  },
+  {
+   "idx": 46,
+   "print": "A"
+  },
+  {
+   "idx": 47,
+   "print": "B"
+  },
+  {
+   "idx": 48,
+   "print": "B"
+  },
+  {
+   "idx": 49,
+   "print": "A"
+  },
+  {
+   "idx": 50,
+   "print": "A"
+  },
+  {
+   "idx": 51,
+   "print": "A"
+  },
+  {
+   "idx": 52,
+   "print": "B"
+  },
+  {
+   "idx": 53,
+   "print": "A"
+  },
+  {
+   "idx": 54,
+   "print": "B"
+  },
+  {
+   "idx": 55,
+   "print": "A"
+  }
+ ]
+}

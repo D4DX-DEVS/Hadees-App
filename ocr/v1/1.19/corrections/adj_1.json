@@ -1,0 +1,298 @@
+{
+ "part": "1.19",
+ "pages_checked": [
+  1,
+  3,
+  5,
+  7,
+  9,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16
+ ],
+ "corrections": [
+  {
+   "pdf_page": 1,
+   "block": 2,
+   "old": "റുകൂലും",
+   "new": "റുകൂഉും",
+   "why": "print: ഉ glyph + ു + ം (not ല/ള)"
+  },
+  {
+   "pdf_page": 3,
+   "block": 1,
+   "old": "فَلَمْ نَسْمَعْ",
+   "new": "فَلَا نَسْمَعْ",
+   "why": "print فلا (lam-alif) at line end"
+  },
+  {
+   "pdf_page": 5,
+   "block": 0,
+   "old": "السِّبْتَيْنِ",
+   "new": "السبتيتين",
+   "why": "print letters ب ت ي ت ي ن (السبتيتين)"
+  },
+  {
+   "pdf_page": 5,
+   "block": 1,
+   "old": "വെളിഉവും",
+   "new": "വെളളവും",
+   "why": "print ള at line start (wrapped വെള/ളവും)"
+  },
+  {
+   "pdf_page": 5,
+   "block": 1,
+   "old": "(അഗ്രത്തിൽ",
+   "new": "(അഗ്രം",
+   "why": "print (അഗ്രം / വളഞ്ഞ വടി)"
+  },
+  {
+   "pdf_page": 7,
+   "block": 3,
+   "old": "كَعْكَعْتَ؟",
+   "new": "كَعْكَعْتَ،",
+   "why": "print has comma not question mark"
+  },
+  {
+   "pdf_page": 9,
+   "block": 1,
+   "old": "നാല് റുകൂളം,",
+   "new": "നാല് റുകൂഉം,",
+   "why": "print ഉ glyph + ം"
+  },
+  {
+   "pdf_page": 9,
+   "block": 4,
+   "old": "അബൂബക്കർ(റ):",
+   "new": "അബീബക്കർ(റ):",
+   "why": "print അബീബക്കർ"
+  },
+  {
+   "pdf_page": 9,
+   "block": 7,
+   "old": "റുകൂളം ആദ്യ",
+   "new": "റുകൂഉം ആദ്യ",
+   "why": "print ഉ"
+  },
+  {
+   "pdf_page": 11,
+   "block": 1,
+   "old": "فلما انكشفت قال",
+   "new": "فلما انكشفت الشمس قال",
+   "why": "print has الشمس after انكشفت"
+  },
+  {
+   "pdf_page": 11,
+   "block": 2,
+   "old": "അബൂബക്ക്റ(റ):",
+   "new": "അബൂബക്റ(റ):",
+   "why": "print single ക്"
+  },
+  {
+   "pdf_page": 11,
+   "block": 7,
+   "old": "കൊണ്ടിരിക്കുന്നതിനിടയിൽ",
+   "new": "കൊണ്ടിരിക്കന്നതിനിടയിൽ",
+   "why": "print കൊണ്ടിരിക്കന്നതി|നിടയിൽ"
+  },
+  {
+   "pdf_page": 12,
+   "block": 6,
+   "old": "ആറു റുകൂളം,",
+   "new": "ആറു റുകൂഉം,",
+   "why": "print ഉ"
+  },
+  {
+   "pdf_page": 13,
+   "block": 2,
+   "old": "നാലു റുകൂളം, നാലു",
+   "new": "നാലു റുകൂഉം, നാലു",
+   "why": "print ഉ"
+  },
+  {
+   "pdf_page": 13,
+   "block": 4,
+   "old": "നാലു റുകൂളം നാലു",
+   "new": "നാലു റുകൂഉം നാലു",
+   "why": "print ഉ"
+  },
+  {
+   "pdf_page": 13,
+   "block": 6,
+   "old": "ചെയ്യ തു.",
+   "new": "ചെ്യതു.",
+   "why": "print ചെ്യ|തു (stray virama)"
+  },
+  {
+   "pdf_page": 14,
+   "block": 4,
+   "old": "രണ്ട് റുകൂളം, ഒരു സുജൂദും നിർവ്വഹിച്ച",
+   "new": "രണ്ട് റുകൂഉം, ഒരു സുജൂദും നിർവ്വഹിച്ച",
+   "why": "print ഉ"
+  },
+  {
+   "pdf_page": 14,
+   "block": 4,
+   "old": "ശേഷം രണ്ട് റുകൂളം, ഒരു സുജൂദുമായി",
+   "new": "ശേഷം രണ്ട് റുകൂഉം, ഒരു സുജൂദുമായി",
+   "why": "print ഉ"
+  },
+  {
+   "pdf_page": 14,
+   "block": 4,
+   "old": "നീണ്ട റുകൂളം സുജൂദും",
+   "new": "നീണ്ട റുകൂഉം സുജൂദും",
+   "why": "print ഉ"
+  },
+  {
+   "pdf_page": 14,
+   "block": 6,
+   "old": "രണ്ട് റുകൂളം ഒരു",
+   "new": "രണ്ട് റുകൂഉം ഒരു",
+   "why": "print ഉ"
+  },
+  {
+   "pdf_page": 15,
+   "block": 1,
+   "old": "നീണ്ട റുകൂളം ചെയ്തു",
+   "new": "നീണ്ട റുകൂഉം ചെയ്തു",
+   "why": "print ഉ"
+  },
+  {
+   "pdf_page": 15,
+   "block": 1,
+   "old": "ചൊല്ലി റുകൂളം ചെയ്തു",
+   "new": "ചൊല്ലി റുകൂഉം ചെയ്തു",
+   "why": "print ഉ"
+  },
+  {
+   "pdf_page": 15,
+   "block": 1,
+   "old": "സുജൂദിനേക്കാൾ",
+   "new": "സുജൂദിനെക്കാൾ",
+   "why": "print നെ (short e)"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "other"
+  },
+  {
+   "idx": 1,
+   "print": "B"
+  },
+  {
+   "idx": 2,
+   "print": "A"
+  },
+  {
+   "idx": 3,
+   "print": "B"
+  },
+  {
+   "idx": 4,
+   "print": "B"
+  },
+  {
+   "idx": 5,
+   "print": "B"
+  },
+  {
+   "idx": 6,
+   "print": "B"
+  },
+  {
+   "idx": 7,
+   "print": "A"
+  },
+  {
+   "idx": 8,
+   "print": "B"
+  },
+  {
+   "idx": 9,
+   "print": "B"
+  },
+  {
+   "idx": 10,
+   "print": "B"
+  },
+  {
+   "idx": 11,
+   "print": "B"
+  },
+  {
+   "idx": 12,
+   "print": "A"
+  },
+  {
+   "idx": 13,
+   "print": "B"
+  },
+  {
+   "idx": 14,
+   "print": "B"
+  },
+  {
+   "idx": 15,
+   "print": "A"
+  },
+  {
+   "idx": 16,
+   "print": "B"
+  },
+  {
+   "idx": 17,
+   "print": "B"
+  },
+  {
+   "idx": 18,
+   "print": "B"
+  },
+  {
+   "idx": 19,
+   "print": "B"
+  },
+  {
+   "idx": 20,
+   "print": "A"
+  },
+  {
+   "idx": 21,
+   "print": "B"
+  },
+  {
+   "idx": 22,
+   "print": "B"
+  },
+  {
+   "idx": 23,
+   "print": "B"
+  },
+  {
+   "idx": 24,
+   "print": "B"
+  },
+  {
+   "idx": 25,
+   "print": "B"
+  },
+  {
+   "idx": 26,
+   "print": "B"
+  },
+  {
+   "idx": 27,
+   "print": "B"
+  },
+  {
+   "idx": 28,
+   "print": "A"
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "part": "1.2",
+ "pages_checked": [
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47
+ ],
+ "corrections": [],
+ "uncertain": [
+  {
+   "pdf_page": 33,
+   "hadith_no": 95,
+   "note": "Arabic in print is only lightly vowelled (e.g. yazni/yasriq/yashrab have few marks); JSON is fully vowelled - likely over-vowelled, but individual marks too small to confirm word by word"
+  },
+  {
+   "pdf_page": 37,
+   "hadith_no": 109,
+   "note": "print Arabic mostly unvowelled (uritu, alnnar, yakfurna); JSON fully vowelled - probable over-vowelling, not individually verified"
+  },
+  {
+   "pdf_page": 47,
+   "hadith_no": 137,
+   "note": "print Arabic lightly vowelled (labbayka wa-sa'dayka, yash'ibu); JSON fully vowelled - probable over-vowelling"
+  },
+  {
+   "pdf_page": 44,
+   "hadith_no": null,
+   "note": "footnote marker checked: superscript in body (after Malayalam wuruud) and footnote start both read as 4; JSON uses 4 - OK"
+  },
+  {
+   "pdf_page": 45,
+   "hadith_no": null,
+   "note": "footnote markers checked: body marker after khawarij and footnote start read as 5 - OK (JSON 5)"
+  },
+  {
+   "pdf_page": 46,
+   "hadith_no": null,
+   "note": "footnote marker checked: body marker after 'bharamelppikkunnavaraanavar' and footnote start read as 6 - OK (JSON 6)"
+  },
+  {
+   "pdf_page": 35,
+   "hadith_no": 98,
+   "note": "Malayalam source tag in print is (ബു,മു,ജ) matching JSON; Arabic tag (ق، جه) matches"
+  },
+  {
+   "pdf_page": 41,
+   "hadith_no": 129,
+   "note": "wording compared with print, no difference found"
+  },
+  {
+   "pdf_page": 42,
+   "hadith_no": 131,
+   "note": "wording compared with print, no difference found"
+  },
+  {
+   "pdf_page": 38,
+   "hadith_no": 111,
+   "note": "wording compared with print, no difference found"
+  }
+ ]
+}

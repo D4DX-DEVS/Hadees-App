@@ -1,0 +1,39 @@
+{
+ "part": "4.1",
+ "pages_checked": [
+  27
+ ],
+ "corrections": [
+  {
+   "pdf_page": 27,
+   "block": 1,
+   "old": "അവന്റെയടക്കൽ",
+   "new": "അവന്റെയടുക്കൽ",
+   "why": "diff 0: print reads അവന്റെയടുക്കൽ (line-wrapped as അവന്റെയടു / ക്കൽ); Sonnet reading wrong, Opus right"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 27,
+   "note": "diff 1: ഞാനവനെ തേടിയാൽ (Sonnet) vs ഞാനവനെത്തേടിയാൽ (Opus); line-justified spacing and ത്ത/ത glyph not decidable at this resolution -> held"
+  },
+  {
+   "pdf_page": 28,
+   "note": "diff 2 (bab block 0 malayalam): print heading on p28 is a different title (സലബ് ഗവേഷണം നടത്തിയതിന് ശേഷം / കൊന്നവരിൽ ഒരാൾക്ക് നൽകൽ) and the printed word on the page-top paragraph is കൊന്നവന് (Opus); bab block text does not match print -> held, bab block itself needs review"
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "B"
+  },
+  {
+   "idx": 1,
+   "print": "uncertain"
+  },
+  {
+   "idx": 2,
+   "print": "uncertain"
+  }
+ ]
+}

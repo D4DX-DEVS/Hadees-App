@@ -1,0 +1,540 @@
+{
+ "part": "1.11",
+ "pages_checked": [
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  26,
+  27,
+  28,
+  30,
+  31,
+  32
+ ],
+ "corrections": [
+  {
+   "pdf_page": 18,
+   "block": 8,
+   "old": "അബൂസഇൗദിൽ",
+   "new": "അബൂസഈദിൽ",
+   "why": "print ഈ"
+  },
+  {
+   "pdf_page": 18,
+   "block": 10,
+   "old": "അബൂസഇൗദുൽ",
+   "new": "അബൂസഈദുൽ",
+   "why": "print ഈ"
+  },
+  {
+   "pdf_page": 19,
+   "block": 3,
+   "old": "ദിനമാണ് ഇത്.",
+   "new": "ദിനമാണ് ഇന്ന്.",
+   "why": "print"
+  },
+  {
+   "pdf_page": 19,
+   "block": 9,
+   "old": "ഓരോരുത്തന്നും",
+   "new": "ഓരോരുത്തനും",
+   "why": "print"
+  },
+  {
+   "pdf_page": 20,
+   "block": 1,
+   "old": "അങ്ങാടിയിൽ വിൽപനക്ക്",
+   "new": "അങ്ങാടിയൽ വിൽപനക്ക്",
+   "why": "printed typo"
+  },
+  {
+   "pdf_page": 20,
+   "block": 3,
+   "old": "ഇബ്‌നുഹബ്ബാൻ(റ):",
+   "new": "ഇബ്‌നുഹനാൻ(റ):",
+   "why": "print reads ഹനാൻ (single ന, typo)"
+  },
+  {
+   "pdf_page": 20,
+   "block": 7,
+   "old": "ജുമുഅക്കുവേണ്ടി",
+   "new": "ജുമഅക്കുവേണ്ടി",
+   "why": "printed typo"
+  },
+  {
+   "pdf_page": 21,
+   "block": 2,
+   "old": "അവരും ഖുതുബ",
+   "new": "അവരും ഖുത്വുബ",
+   "why": "print"
+  },
+  {
+   "pdf_page": 21,
+   "block": 4,
+   "old": "ആദ്യഭാഗ്യ",
+   "new": "ആദ്യാദ്യ",
+   "why": "print"
+  },
+  {
+   "pdf_page": 21,
+   "block": 4,
+   "old": "ഖുതുബ ശ്രദ്ധിക്കുകയും",
+   "new": "ഖുത്വുബ ശ്രവിക്കുകയും",
+   "why": "print"
+  },
+  {
+   "pdf_page": 21,
+   "block": 4,
+   "old": "നിസ്കാരത്തിനായി ഒന്നാമതായി",
+   "new": "നിസ്കാരത്തിന്നായി ഒന്നാമതായി",
+   "why": "print"
+  },
+  {
+   "pdf_page": 21,
+   "block": 4,
+   "old": "ദാനം ചെയ്തവനെപ്പോലെയുമാകുന്നു",
+   "new": "ദാനം ചെയ്തവനെപോലെയുമാകുന്നു",
+   "why": "print"
+  },
+  {
+   "pdf_page": 21,
+   "block": 6,
+   "old": "ഇബ്നുമസ്ഊദ്(റ)നോടൊപ്പം",
+   "new": "ഇബ്നുമസ്ഊദി(റ)നോടൊപ്പം",
+   "why": "print"
+  },
+  {
+   "pdf_page": 21,
+   "block": 6,
+   "old": "പറയുന്നതു ഞാൻ",
+   "new": "പറയുന്നത് ഞാൻ",
+   "why": "print"
+  },
+  {
+   "pdf_page": 21,
+   "block": 6,
+   "old": "പോകുന്ന(സമയ)ത്തിന്റെ",
+   "new": "പോകുന്ന(സമയ)തിന്റെ",
+   "why": "print"
+  },
+  {
+   "pdf_page": 22,
+   "block": 2,
+   "old": "സഅ്ദ്(റ)ന്റെ അടുക്കൽ",
+   "new": "സഅ്ദി(റ)ന്റെ അടുക്കൽ",
+   "why": "print"
+  },
+  {
+   "pdf_page": 22,
+   "block": 2,
+   "old": "കൽപ്പിച്ചുകൊണ്ട്",
+   "new": "കൽപിച്ചുകൊണ്ട്",
+   "why": "print"
+  },
+  {
+   "pdf_page": 22,
+   "block": 2,
+   "old": "ഥാന്തുക്",
+   "new": "ഭാനുക",
+   "why": "print"
+  },
+  {
+   "pdf_page": 22,
+   "block": 4,
+   "old": "ഖുത്വ്ബ നടത്തിയിരുന്നത്",
+   "new": "ഖുത്വുബ നടത്തിയിരുന്നത്",
+   "why": "print"
+  },
+  {
+   "pdf_page": 22,
+   "block": 4,
+   "old": "മിമ്പറുണ്ടാക്കിയപ്പോൾ ഈത്തപ്പനത്തടിയുടെ",
+   "new": "മിമ്പറുണ്ടാക്കിയപ്പോൾ ഈത്തപ്പനത്തചടിയുടെ",
+   "why": "printed typo"
+  },
+  {
+   "pdf_page": 22,
+   "block": 4,
+   "old": "സ്വഹീഹുമാണെന്ന്",
+   "new": "സഹീഹുമാണെന്ന്",
+   "why": "print"
+  },
+  {
+   "pdf_page": 23,
+   "block": 0,
+   "old": "فَسَكَنَتْ",
+   "new": "فَسَكَتَتْ",
+   "why": "print فسكتت"
+  },
+  {
+   "pdf_page": 23,
+   "block": 1,
+   "old": "കഷണത്തിന്മേൽ",
+   "new": "കഷ്ണത്തിന്മേൽ",
+   "why": "print"
+  },
+  {
+   "pdf_page": 23,
+   "block": 1,
+   "old": "നബി(സ) ഖുതുബ നിർവ്വഹിച്ചിരുന്നത്",
+   "new": "നബി(സ) ഖുത്വുബ നിർവ്വഹിച്ചിരുന്നത്",
+   "why": "print"
+  },
+  {
+   "pdf_page": 23,
+   "block": 7,
+   "old": "മധ്യത്തിൽ",
+   "new": "മദ്ധ്യത്തിൽ",
+   "why": "print"
+  },
+  {
+   "pdf_page": 23,
+   "block": 9,
+   "old": "മധ്യത്തിലുള്ള",
+   "new": "മദ്ധ്യത്തിലുള്ള",
+   "why": "print"
+  },
+  {
+   "pdf_page": 24,
+   "block": 4,
+   "old": "عَائِذٍ",
+   "new": "عَائِدٍ",
+   "why": "print dal"
+  },
+  {
+   "pdf_page": 24,
+   "block": 1,
+   "old": "അക്‌വഅ്(റ)",
+   "new": "അഖ്‌വഅ്(റ)",
+   "why": "print"
+  },
+  {
+   "pdf_page": 24,
+   "block": 5,
+   "old": "സഅ്ദ്ബ്‌നു ആഇദ്",
+   "new": "സഅ്ദുബ്‌നു ആഇദ്",
+   "why": "print"
+  },
+  {
+   "pdf_page": 24,
+   "block": 5,
+   "old": "[ദുർബലനാണെന്ന് ഐകകണ്ഠേന",
+   "new": "[ദുബ്ബലനാണെന്ന് ഐക്യകണ്ഠേന",
+   "why": "print has no ർ (typo); ബ്ബ conjunct same glyph as അബ്ബാസ് on p31"
+  },
+  {
+   "pdf_page": 26,
+   "block": 4,
+   "old": "ആധികൃത്താൽ",
+   "new": "ആധിക്യത്താൽ",
+   "why": "print"
+  },
+  {
+   "pdf_page": 27,
+   "block": 4,
+   "old": "വെള്ളിയാഴ്ച ഖുത്വുബ",
+   "new": "വെള്ളിയാഴ്ച ദിവസം ഖുത്വുബ",
+   "why": "print has ദിവസം"
+  },
+  {
+   "pdf_page": 27,
+   "block": 6,
+   "old": "അല്ലാഹൂ",
+   "new": "അല്ലാഹു",
+   "why": "same glyph as അല്ലാഹു elsewhere"
+  },
+  {
+   "pdf_page": 28,
+   "block": 0,
+   "old": "റക്തുകൾ",
+   "new": "റക്ത്തുകൾ",
+   "why": "print"
+  },
+  {
+   "pdf_page": 28,
+   "block": 8,
+   "old": "ദുർബ്വലരായ",
+   "new": "ദുർബ്ബലരായ",
+   "why": "ബ്ബ conjunct glyph (cf. അബ്ബാസ് p31)"
+  },
+  {
+   "pdf_page": 30,
+   "block": 14,
+   "old": "رَأَوْا",
+   "new": "رَؤَوْا",
+   "why": "print رؤوا"
+  },
+  {
+   "pdf_page": 31,
+   "block": 2,
+   "old": "مُسِيئِهِمْ",
+   "new": "مُسِيِّهِمْ",
+   "why": "print no hamza"
+  },
+  {
+   "pdf_page": 31,
+   "block": 3,
+   "old": "തുണിക്ഷ്ണം",
+   "new": "തുണിക്കഷ്ണം",
+   "why": "print"
+  },
+  {
+   "pdf_page": 31,
+   "block": 5,
+   "old": "നിർവ്വഹിച്ചു കൊണ്ടിരിക്കെ",
+   "new": "നിർവ്വഹിച്ചു ക്കൊണ്ടിരിക്കെ",
+   "why": "printed"
+  },
+  {
+   "pdf_page": 32,
+   "block": 0,
+   "old": "قَالَ: أعد علي",
+   "new": "قَالَ: فَقَالَ: أعد علي",
+   "why": "print has فقال"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "A"
+  },
+  {
+   "idx": 1,
+   "print": "B"
+  },
+  {
+   "idx": 2,
+   "print": "B"
+  },
+  {
+   "idx": 3,
+   "print": "A"
+  },
+  {
+   "idx": 4,
+   "print": "A"
+  },
+  {
+   "idx": 5,
+   "print": "A"
+  },
+  {
+   "idx": 6,
+   "print": "A"
+  },
+  {
+   "idx": 7,
+   "print": "A"
+  },
+  {
+   "idx": 8,
+   "print": "A"
+  },
+  {
+   "idx": 9,
+   "print": "A"
+  },
+  {
+   "idx": 10,
+   "print": "B"
+  },
+  {
+   "idx": 11,
+   "print": "B"
+  },
+  {
+   "idx": 12,
+   "print": "A"
+  },
+  {
+   "idx": 13,
+   "print": "A"
+  },
+  {
+   "idx": 14,
+   "print": "A"
+  },
+  {
+   "idx": 15,
+   "print": "B"
+  },
+  {
+   "idx": 16,
+   "print": "other"
+  },
+  {
+   "idx": 17,
+   "print": "B"
+  },
+  {
+   "idx": 18,
+   "print": "B"
+  },
+  {
+   "idx": 19,
+   "print": "B"
+  },
+  {
+   "idx": 20,
+   "print": "B"
+  },
+  {
+   "idx": 21,
+   "print": "B"
+  },
+  {
+   "idx": 22,
+   "print": "B"
+  },
+  {
+   "idx": 23,
+   "print": "B"
+  },
+  {
+   "idx": 24,
+   "print": "B"
+  },
+  {
+   "idx": 25,
+   "print": "B"
+  },
+  {
+   "idx": 26,
+   "print": "A"
+  },
+  {
+   "idx": 27,
+   "print": "B"
+  },
+  {
+   "idx": 28,
+   "print": "B"
+  },
+  {
+   "idx": 29,
+   "print": "B"
+  },
+  {
+   "idx": 30,
+   "print": "B"
+  },
+  {
+   "idx": 31,
+   "print": "B"
+  },
+  {
+   "idx": 32,
+   "print": "B"
+  },
+  {
+   "idx": 33,
+   "print": "A"
+  },
+  {
+   "idx": 34,
+   "print": "B"
+  },
+  {
+   "idx": 35,
+   "print": "A"
+  },
+  {
+   "idx": 36,
+   "print": "A"
+  },
+  {
+   "idx": 37,
+   "print": "A"
+  },
+  {
+   "idx": 38,
+   "print": "A"
+  },
+  {
+   "idx": 39,
+   "print": "A"
+  },
+  {
+   "idx": 40,
+   "print": "B"
+  },
+  {
+   "idx": 41,
+   "print": "B"
+  },
+  {
+   "idx": 42,
+   "print": "B"
+  },
+  {
+   "idx": 43,
+   "print": "B"
+  },
+  {
+   "idx": 44,
+   "print": "B"
+  },
+  {
+   "idx": 45,
+   "print": "B"
+  },
+  {
+   "idx": 46,
+   "print": "B"
+  },
+  {
+   "idx": 47,
+   "print": "other"
+  },
+  {
+   "idx": 48,
+   "print": "B"
+  },
+  {
+   "idx": 49,
+   "print": "B"
+  },
+  {
+   "idx": 50,
+   "print": "B"
+  },
+  {
+   "idx": 51,
+   "print": "B"
+  },
+  {
+   "idx": 52,
+   "print": "B"
+  },
+  {
+   "idx": 53,
+   "print": "A"
+  },
+  {
+   "idx": 54,
+   "print": "B"
+  },
+  {
+   "idx": 55,
+   "print": "B"
+  },
+  {
+   "idx": 56,
+   "print": "B"
+  },
+  {
+   "idx": 57,
+   "print": "B"
+  },
+  {
+   "idx": 58,
+   "print": "B"
+  }
+ ]
+}

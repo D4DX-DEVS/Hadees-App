@@ -1,0 +1,5 @@
+#21: no arabic source code parsed
+#21: missing malayalam
+#71: variants arabic=1 malayalam=0 (check pairing)
+#113: variants arabic=1 malayalam=0 (check pairing)
+#146: variants arabic=1 malayalam=0 (check pairing)

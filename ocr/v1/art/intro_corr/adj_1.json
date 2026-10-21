@@ -1,0 +1,157 @@
+{
+ "part": "art-intro",
+ "pages_checked": [
+  1,
+  2,
+  3
+ ],
+ "corrections": [
+  {
+   "pdf_page": 1,
+   "block": 1,
+   "old": "പണ്ധിതന്മാർക്കു",
+   "new": "പണ്ഡിതന്മാർക്കു",
+   "why": "print reads പണ്ഡിതൻമാർക്കു (native-res crop)"
+  },
+  {
+   "pdf_page": 1,
+   "block": 2,
+   "old": "പണ്ധിതനായിരുന്നു.",
+   "new": "പണ്ഡിതനായിരുന്നു.",
+   "why": "print reads പണ്ഡിതനായിരുന്നു. (native-res crop)"
+  },
+  {
+   "pdf_page": 1,
+   "block": 3,
+   "old": "നസാഇൗ, അബൂദാവുദ്",
+   "new": "നസാഈ, അബൂദാവൂദ്",
+   "why": "print reads നസാഈ, അബൂദാവൂദ് (native-res crop)"
+  },
+  {
+   "pdf_page": 2,
+   "block": 0,
+   "old": "പണ്ധിതന്മാർ",
+   "new": "പണ്ഡിതന്മാർ",
+   "why": "print reads പണ്ഡിതൻമാർ (native-res crop)"
+  },
+  {
+   "pdf_page": 2,
+   "block": 0,
+   "old": "നസാഇൗ,",
+   "new": "നസാഈ,",
+   "why": "print reads നസാഈ, (native-res crop)"
+  },
+  {
+   "pdf_page": 2,
+   "block": 4,
+   "old": "ഇസ്മാഇൗൽ ല",
+   "new": "ഇസ്മാഈൽ ല",
+   "why": "print reads ഇസ്മാഈൽ (native-res crop)"
+  },
+  {
+   "pdf_page": 2,
+   "block": 4,
+   "old": "ഇസ്മാഇൗൽ എ",
+   "new": "ഇസ്മാഈൽ എ",
+   "why": "print reads ഇസ്മാഈൽ (native-res crop)"
+  },
+  {
+   "pdf_page": 2,
+   "block": 4,
+   "old": "സഇൗദ്",
+   "new": "സഈദ്",
+   "why": "print reads സഈദ് (native-res crop)"
+  },
+  {
+   "pdf_page": 2,
+   "block": 5,
+   "old": "മുതലേ ഈ സംരംഭത്തിൽ",
+   "new": "മുതലേ ഈ സംരഭത്തിൽ",
+   "why": "print reads സംരഭത്തിൽ (native-res crop)"
+  },
+  {
+   "pdf_page": 3,
+   "block": 1,
+   "old": "ചുരുക്കരൂപങ്ങൾ",
+   "new": "ചുരുക്കരുപങ്ങൾ",
+   "why": "print reads ചുരുക്കരുപങ്ങൾ (native-res crop)"
+  },
+  {
+   "pdf_page": 3,
+   "block": 2,
+   "old": "നസാഇൗ,",
+   "new": "നസാഈ,",
+   "why": "print reads നസാഈ, (native-res crop)"
+  },
+  {
+   "pdf_page": 3,
+   "block": 6,
+   "old": "സുനനുന്നസാഇൗ",
+   "new": "സുനനുന്നസാഈ",
+   "why": "print reads സുനനുന്നസാഈ (native-res crop)"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "A"
+  },
+  {
+   "idx": 1,
+   "print": "B"
+  },
+  {
+   "idx": 2,
+   "print": "B"
+  },
+  {
+   "idx": 3,
+   "print": "B"
+  },
+  {
+   "idx": 4,
+   "print": "B"
+  },
+  {
+   "idx": 5,
+   "print": "B"
+  },
+  {
+   "idx": 6,
+   "print": "B"
+  },
+  {
+   "idx": 7,
+   "print": "B"
+  },
+  {
+   "idx": 8,
+   "print": "B"
+  },
+  {
+   "idx": 9,
+   "print": "B"
+  },
+  {
+   "idx": 10,
+   "print": "B"
+  },
+  {
+   "idx": 11,
+   "print": "B"
+  },
+  {
+   "idx": 12,
+   "print": "A"
+  },
+  {
+   "idx": 13,
+   "print": "A"
+  },
+  {
+   "idx": 14,
+   "print": "B"
+  }
+ ]
+}

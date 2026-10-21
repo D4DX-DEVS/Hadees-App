@@ -1,0 +1,469 @@
+{
+ "part": "4.11",
+ "pages_checked": [
+  82,
+  83,
+  84,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  97,
+  98,
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  110,
+  111,
+  112,
+  117,
+  118
+ ],
+ "corrections": [
+  {
+   "pdf_page": 83,
+   "block": 1,
+   "old": "അങ്ങനെ അവൻ അവരുടെ അടുത്ത് വരികയും",
+   "new": "അബൂഹുറൈറ(റ): 'എല്ലാ ജനങ്ങളെയും തങ്ങളുടെ നേതാവിന്റെ കൂടെ നാം വിളിക്കുന്ന ദിവസം (ഓർക്കുക).' (ഇസ്റാഅ്: 71) എന്ന അല്ലാഹുവിന്റെ വചനത്തെക്കുറിച്ച് നബി(സ) പറഞ്ഞു: \"അവരിൽ ഒരാളെ വിളിക്കപ്പെടുകയും എന്നിട്ട് അവന്റെ ഗ്രന്ഥം വലതുകയ്യിൽ നൽകപ്പെടുകയും ചെയ്യും. അവന്റെ ശരീരത്തെ അറുപത് മുഴം നീട്ടപ്പെടുകയും, മുഖം വെളുപ്പിക്കപ്പെടുകയും, അവന്റെ തലയിൽ തിളങ്ങുന്ന മുത്തിനാലുള്ള ഒരു കിരീടം അണിയിക്കപ്പെടുകയും ചെയ്യും. ശേഷം അവൻ തന്റെ ആളുകളുടെ അടുത്തേക്ക് ചെല്ലും. വിദൂരത്തു നിന്നുതന്നെ അവർ അവനെ കാണുകയും ഇപ്രകാരം പറയുകയും ചെയ്യും: അല്ലാഹുവേ, ഇവനെ നീ ഞങ്ങളിലേക്ക് കൊണ്ടുവരണേ, ഇവനിൽ ഞങ്ങൾക്ക് നീ അനുഗ്രഹം ചെയ്യണേ. അങ്ങനെ അവൻ അവരുടെ അടുത്ത് വരികയും",
+   "why": "Reading A omitted the first 7 printed lines of the Malayalam translation of hadith 212 (top of page 83); print matches reading B"
+  },
+  {
+   "pdf_page": 82,
+   "block": 1,
+   "old": "മുക്കയറിട്ടുകൊണ്ടും",
+   "new": "മൂക്കയറിട്ടുകൊണ്ടും",
+   "why": "print has long ൂ (curled loop) on മൂ, contrast ട്ടു"
+  },
+  {
+   "pdf_page": 84,
+   "block": 5,
+   "old": "ആരാധിച്ചുകൊണ്ടുതന്നെ",
+   "new": "ആരാധിച്ചുകൊണ്ട് തന്നെ",
+   "why": "print: line ends ആരാധിച്ചുകൊണ്ട് (virama), next line തന്നെ; two words"
+  },
+  {
+   "pdf_page": 86,
+   "block": 2,
+   "old": "هَكَذَا، خَطْوُهَا",
+   "new": "هَكَذَا، خَطْوُهُ",
+   "why": "print reads خَطْوُهُ (no alif)"
+  },
+  {
+   "pdf_page": 87,
+   "block": 0,
+   "old": "قَالَ فَيَأْتُونِي فَأَنْطَلِقُ",
+   "new": "قَالَ فَيَأْتُونَنِي فَأَنْطَلِقُ",
+   "why": "print has two nun: فَيَأْتُونَنِي"
+  },
+  {
+   "pdf_page": 88,
+   "block": 2,
+   "old": "عُلِّمْتَ رُشْدًا}",
+   "new": "عُلِّمْتَ رُشْدًا",
+   "why": "no closing brace printed after رشدا"
+  },
+  {
+   "pdf_page": 88,
+   "block": 2,
+   "old": "شَيْئًا إِمْرًا}.",
+   "new": "شَيْئًا إِمْرًا.",
+   "why": "no closing brace printed after إمرا"
+  },
+  {
+   "pdf_page": 90,
+   "block": 0,
+   "old": "ഉദ്ദേശിക്കുന്നപക്ഷം",
+   "new": "ഉദ്ധേശിക്കുന്നപക്ഷം",
+   "why": "print has ദ്ധ conjunct (printed misspelling kept)"
+  },
+  {
+   "pdf_page": 91,
+   "block": 0,
+   "old": "ഉദ്ദേശിച്ചിരുന്നുവെങ്കിൽ",
+   "new": "ഉദ്ധേശിച്ചിരുന്നുവെങ്കിൽ",
+   "why": "print has ദ്ധ conjunct (printed spelling kept)"
+  },
+  {
+   "pdf_page": 92,
+   "block": 0,
+   "old": "ഉദ്ദേശിക്കുകയും",
+   "new": "ഉദ്ധേശിക്കുകയും",
+   "why": "print has ദ്ധ"
+  },
+  {
+   "pdf_page": 92,
+   "block": 0,
+   "old": "അല്ലാഹു ഉദ്ദേശിക്കുന്നുവെങ്കിൽ നാളെ",
+   "new": "അല്ലാഹു ഉദ്ധേശിക്കുന്നുവെങ്കിൽ നാളെ",
+   "why": "print has ദ്ധ"
+  },
+  {
+   "pdf_page": 92,
+   "block": 0,
+   "old": "(അല്ലാഹു ഉദ്ദേശിക്കുന്നുവെങ്കിൽ)",
+   "new": "(അല്ലാഹു ഉദ്ധേശിക്കുന്നുവെങ്കിൽ)",
+   "why": "print has ദ്ധ"
+  },
+  {
+   "pdf_page": 93,
+   "block": 4,
+   "old": "ആസ്വ്യുബ്നു",
+   "new": "ആസ്വുബ്നു",
+   "why": "print reads ആസ്വുബ്നു (no യ)"
+  },
+  {
+   "pdf_page": 98,
+   "block": 1,
+   "old": "\"ذَلِكَ يَوْمٌ",
+   "new": "\"ذَالِكَ يَوْمٌ",
+   "why": "print spells ذالك with alif (kept as printed)"
+  },
+  {
+   "pdf_page": 100,
+   "block": 4,
+   "old": "സിദ്ധീഖിന്റെ",
+   "new": "സ്വിദ്ധീഖിന്റെ",
+   "why": "print has സ്വി (va-sign visible)"
+  },
+  {
+   "pdf_page": 101,
+   "block": 4,
+   "old": "ആസിമുബ്നു",
+   "new": "ആസ്വിമുബ്നു",
+   "why": "print has സ്വി"
+  },
+  {
+   "pdf_page": 101,
+   "block": 4,
+   "old": "ആസിം(റ) നബി",
+   "new": "ആസ്വിം(റ) നബി",
+   "why": "print has സ്വി"
+  },
+  {
+   "pdf_page": 101,
+   "block": 4,
+   "old": "ആസിം(റ)വിനോട്",
+   "new": "ആസ്വിം(റ)വിനോട്",
+   "why": "print has സ്വി"
+  },
+  {
+   "pdf_page": 102,
+   "block": 1,
+   "old": "قَدِ الْقَطَعَ،",
+   "new": "قَدِ انْقَطَعَ،",
+   "why": "print: short tooth (nun) with sukun after alif, no tall lam: انقطع"
+  },
+  {
+   "pdf_page": 103,
+   "block": 0,
+   "old": "وَسَلَّمَ، ثُمَّ قَالَ",
+   "new": "وَسَلَّمَ فَسَلَّمَ، ثُمَّ قَالَ",
+   "why": "print has فَسَلَّمَ after وسلم (omitted word)"
+  },
+  {
+   "pdf_page": 104,
+   "block": 0,
+   "old": "لَتُصَدِّقُونِي،",
+   "new": "لَتُصَدِّقُونَنِي،",
+   "why": "print has two nun: لَتُصَدِّقُونَنِي"
+  },
+  {
+   "pdf_page": 104,
+   "block": 0,
+   "old": "يَأْتَلِ أُولُو الْفَضْلِ",
+   "new": "يَأْتَلِ أُولُوا الْفَضْلِ",
+   "why": "print spells أولوا with final alif (kept as printed)"
+  },
+  {
+   "pdf_page": 106,
+   "block": 0,
+   "old": "പോകാറുണ്ടായിരുന്നുള്ളു.",
+   "new": "പോകാറുണ്ടായിരുന്നുള്ളൂ.",
+   "why": "print: final ളൂ has the long-u curl"
+  },
+  {
+   "pdf_page": 106,
+   "block": 0,
+   "old": "ബദറിൽ",
+   "new": "ബദ്റിൽ",
+   "why": "print: ദ് + റ (ബദ്റിൽ)"
+  },
+  {
+   "pdf_page": 106,
+   "block": 0,
+   "old": "നിനക്കെങ്ങെനെയുണ്ട്",
+   "new": "നിനക്കെങ്ങനെയുണ്ട്",
+   "why": "print has no െ before ങ്ങ: നിനക്കെങ്ങനെയുണ്ട്"
+  },
+  {
+   "pdf_page": 110,
+   "block": 1,
+   "old": "ഖന്ദമ",
+   "new": "ഖൻദമ",
+   "why": "print: chillu ൻ followed by separate ദ, not ന്ദ conjunct"
+  },
+  {
+   "pdf_page": 111,
+   "block": 1,
+   "old": "عَبْدِ الرَّحْمَنِ،",
+   "new": "عَبْدِ الرَّحْمَانِ،",
+   "why": "print spells الرحمان with alif (kept as printed)"
+  },
+  {
+   "pdf_page": 112,
+   "block": 1,
+   "old": "ظَنَنَّا أَنَّهَا",
+   "new": "ظَنَنَّا أَنْ",
+   "why": "print: line ends أَنْ, next line سَتَرْجِعُ (no ها)"
+  },
+  {
+   "pdf_page": 118,
+   "block": 7,
+   "old": "عَنْ أَبِي هُرَيْرَةَ قَالَ: لَمَّا",
+   "new": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللهُ عَنْهُ قَالَ: لَمَّا",
+   "why": "print has رضي الله عنه after أبي هريرة (omitted)"
+  },
+  {
+   "pdf_page": 118,
+   "block": 6,
+   "old": "മുത്വലിബിന്റെ മകൾ",
+   "new": "മുത്ത്വലിബിന്റെ മകൾ",
+   "why": "print: ത്ത്വ (doubled ta) in first occurrence; second occurrence printed മുത്വലിബിന്റെ"
+  },
+  {
+   "pdf_page": 119,
+   "block": 8,
+   "old": "عَنْ أَبِي هُرَيْرَةَ قَالَ: قَالَ",
+   "new": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللهُ عَنْهُ قَالَ: قَالَ",
+   "why": "print has رضي الله عنه after أبي هريرة (hadith 267, omitted)"
+  },
+  {
+   "pdf_page": 119,
+   "block": 1,
+   "old": "അബ്ദുൽ മുത്വലിബിന്റെ സന്തതികളേ",
+   "new": "അബ്ദുൽ മുത്ത്വലിബിന്റെ സന്തതികളേ",
+   "why": "print: ത്ത്വ (doubled ta)"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 119,
+   "note": "HELD (glyph ു/ൂ): block 3 അബൂമുസൽ (A) vs അബൂമൂസൽ (B). Vowel marks under ബ and മ look identical at native res; cannot settle ു vs ൂ for മ. Not applied."
+  },
+  {
+   "pdf_page": 120,
+   "note": "HELD (glyph ു/ൂ): bab heading റും സൂറത്ത് (A) vs റൂം സുറത്ത് (B). സൂ matches ബൂ of അൻകബൂത് in heading above, so സൂറത്ത് (A) is right for that word; the vowel under റ sits on the underline and looks like the സൂ mark (suggesting റൂം) but cannot be settled. Neither reading fully matches; not applied."
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 139,
+   "print": "B"
+  },
+  {
+   "idx": 138,
+   "print": "B"
+  },
+  {
+   "idx": 140,
+   "print": "B"
+  },
+  {
+   "idx": 141,
+   "print": "B"
+  },
+  {
+   "idx": 142,
+   "print": "B"
+  },
+  {
+   "idx": 143,
+   "print": "B"
+  },
+  {
+   "idx": 144,
+   "print": "B"
+  },
+  {
+   "idx": 145,
+   "print": "A"
+  },
+  {
+   "idx": 146,
+   "print": "B"
+  },
+  {
+   "idx": 147,
+   "print": "A"
+  },
+  {
+   "idx": 148,
+   "print": "B"
+  },
+  {
+   "idx": 149,
+   "print": "B"
+  },
+  {
+   "idx": 150,
+   "print": "B"
+  },
+  {
+   "idx": 151,
+   "print": "B"
+  },
+  {
+   "idx": 152,
+   "print": "A"
+  },
+  {
+   "idx": 153,
+   "print": "A"
+  },
+  {
+   "idx": 154,
+   "print": "B"
+  },
+  {
+   "idx": 155,
+   "print": "A"
+  },
+  {
+   "idx": 156,
+   "print": "B"
+  },
+  {
+   "idx": 157,
+   "print": "A"
+  },
+  {
+   "idx": 158,
+   "print": "B"
+  },
+  {
+   "idx": 159,
+   "print": "B"
+  },
+  {
+   "idx": 160,
+   "print": "B"
+  },
+  {
+   "idx": 161,
+   "print": "B"
+  },
+  {
+   "idx": 162,
+   "print": "B"
+  },
+  {
+   "idx": 163,
+   "print": "B"
+  },
+  {
+   "idx": 164,
+   "print": "B"
+  },
+  {
+   "idx": 165,
+   "print": "B"
+  },
+  {
+   "idx": 166,
+   "print": "A"
+  },
+  {
+   "idx": 167,
+   "print": "A"
+  },
+  {
+   "idx": 168,
+   "print": "B"
+  },
+  {
+   "idx": 169,
+   "print": "B"
+  },
+  {
+   "idx": 170,
+   "print": "B"
+  },
+  {
+   "idx": 171,
+   "print": "A"
+  },
+  {
+   "idx": 172,
+   "print": "A"
+  },
+  {
+   "idx": 173,
+   "print": "A"
+  },
+  {
+   "idx": 174,
+   "print": "B"
+  },
+  {
+   "idx": 175,
+   "print": "B"
+  },
+  {
+   "idx": 176,
+   "print": "B"
+  },
+  {
+   "idx": 177,
+   "print": "A"
+  },
+  {
+   "idx": 178,
+   "print": "B"
+  },
+  {
+   "idx": 179,
+   "print": "A"
+  },
+  {
+   "idx": 180,
+   "print": "B"
+  },
+  {
+   "idx": 181,
+   "print": "B"
+  },
+  {
+   "idx": 182,
+   "print": "B"
+  },
+  {
+   "idx": 184,
+   "print": "A"
+  },
+  {
+   "idx": 185,
+   "print": "A"
+  },
+  {
+   "idx": 183,
+   "print": "uncertain"
+  },
+  {
+   "idx": 186,
+   "print": "A"
+  },
+  {
+   "idx": 187,
+   "print": "uncertain"
+  }
+ ]
+}

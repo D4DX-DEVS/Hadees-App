@@ -1,0 +1,350 @@
+{
+ "part": "3.1",
+ "pages_checked": [
+  55,
+  56,
+  57,
+  59,
+  60,
+  61,
+  62,
+  65,
+  66,
+  72,
+  73,
+  74,
+  75,
+  76,
+  78,
+  80,
+  82,
+  87,
+  89,
+  90,
+  94,
+  95,
+  101,
+  103,
+  105
+ ],
+ "corrections": [
+  {
+   "pdf_page": 55,
+   "block": 4,
+   "old": "ഹാതിബ്(റ)",
+   "new": "ഹാത്വിബ്(റ)",
+   "why": "print ത്വ"
+  },
+  {
+   "pdf_page": 56,
+   "block": 7,
+   "old": "مُجَاهِدٍ رَضِيَ اللهُ عَنْهُمَا",
+   "new": "مُجَاهِدٍ رَضِيَ اللهُ عَنْهُ",
+   "why": "print عنه"
+  },
+  {
+   "pdf_page": 59,
+   "block": 6,
+   "old": "ഫാതിമ(റ)യെ",
+   "new": "ഫാത്വിമ(റ)യെ",
+   "why": "print ത്വ"
+  },
+  {
+   "pdf_page": 59,
+   "block": 6,
+   "old": "ഫാതിമയുടെ",
+   "new": "ഫാത്വിമയുടെ",
+   "why": "print ത്വ"
+  },
+  {
+   "pdf_page": 60,
+   "block": 6,
+   "old": "എതിർ പ്രവർത്തിച്ചിരിക്കുന്നു",
+   "new": "എതിര് പ്രവർത്തിച്ചിരിക്കുന്നു",
+   "why": "print ര് with virama"
+  },
+  {
+   "pdf_page": 61,
+   "block": 2,
+   "old": "ഫാതിമ ബീവി",
+   "new": "ഫാത്വിമ ബീവി",
+   "why": "print ത്വ"
+  },
+  {
+   "pdf_page": 61,
+   "block": 10,
+   "old": "ഫാതിമ(റ)യെ",
+   "new": "ഫാത്വിമ(റ)യെ",
+   "why": "print ത്വ"
+  },
+  {
+   "pdf_page": 61,
+   "block": 10,
+   "old": "ഫാതിമയുമായി",
+   "new": "ഫാത്വിമയുമായി",
+   "why": "print ത്വ"
+  },
+  {
+   "pdf_page": 62,
+   "block": 8,
+   "old": "عَنْهُ قَالَ: حَدَّثَنِي شَيْخٌ",
+   "new": "عَنْهُ: حَدَّثَنِي شَيْخٌ",
+   "why": "print has no قال after عنه"
+  },
+  {
+   "pdf_page": 66,
+   "block": 3,
+   "old": "വളരെ വെളിവാക്കുകയും",
+   "new": "വളെരെ വെളിവാക്കുകയും",
+   "why": "print വളെരെ (author typo)"
+  },
+  {
+   "pdf_page": 72,
+   "block": 3,
+   "old": "وَطْءُ",
+   "new": "وَطْأُ",
+   "why": "print alif with hamza (وطأ)"
+  },
+  {
+   "pdf_page": 74,
+   "block": 6,
+   "old": "ഒരു സ്ത്രീ പറഞ്ഞു: അല്ലാഹുവിന്റെ ദൂതരേ",
+   "new": "ഒരു സത്രീ പറഞ്ഞു: അല്ലാഹുവിന്റെ ദൂതരേ",
+   "why": "print lacks virama (സത്രീ)"
+  },
+  {
+   "pdf_page": 74,
+   "block": 7,
+   "old": "النساء: 128]",
+   "new": "النساء: ١٢٨]",
+   "why": "print uses Arabic-Indic digits"
+  },
+  {
+   "pdf_page": 75,
+   "block": 1,
+   "old": "الأحزاب: 51]",
+   "new": "الأحزاب:٥١]",
+   "why": "print uses Arabic-Indic digits"
+  },
+  {
+   "pdf_page": 76,
+   "block": 4,
+   "old": "النساء: 128]",
+   "new": "النساء: ١٢٨]",
+   "why": "print uses Arabic-Indic digits"
+  },
+  {
+   "pdf_page": 80,
+   "block": 2,
+   "old": "സ്വർഗവാതിൽക്കൽ",
+   "new": "സ്വർഗ്ഗവാതിൽക്കൽ",
+   "why": "print ഗ്ഗ"
+  },
+  {
+   "pdf_page": 87,
+   "block": 4,
+   "old": "വിത്ർ നിസ്കരിക്കണമെന്ന",
+   "new": "വിത്റ് നിസ്കരിക്കണമെന്ന",
+   "why": "print റ്"
+  },
+  {
+   "pdf_page": 89,
+   "block": 4,
+   "old": "ഭാര്യഭർത്താക്കൻമാരിലൊരാൾ",
+   "new": "ഭാര്യഭർത്താക്കന്മാരിലൊരാൾ",
+   "why": "print ന്മ conjunct"
+  },
+  {
+   "pdf_page": 90,
+   "block": 1,
+   "old": "റാഫിളുബ്നു",
+   "new": "റാഫിഉബ്നു",
+   "why": "print ഉ not ളു"
+  },
+  {
+   "pdf_page": 101,
+   "block": 6,
+   "old": "ഉമ്മുൽഫഹ്ല്(റ)",
+   "new": "ഉമ്മുൽഫള്ല്(റ)",
+   "why": "print ഫള്ല്"
+  },
+  {
+   "pdf_page": 101,
+   "block": 8,
+   "old": "യസീദിന്നഖഇൗ(റ)വിലേക്ക്",
+   "new": "യസീദുന്നഖഇൗ(റ)വിലേക്ക്",
+   "why": "print ദു (not ദി); final ഇൗ as A"
+  },
+  {
+   "pdf_page": 101,
+   "block": 8,
+   "old": "അബുശ്ശഅ്സാഇൽ",
+   "new": "അബുശ്ശഅ്സാഉൽ",
+   "why": "print ഉ glyph"
+  },
+  {
+   "pdf_page": 103,
+   "block": 10,
+   "old": "مُوسَىرَضِيَ",
+   "new": "مُوسَرَضِيَ",
+   "why": "print موسرضي joined, no alef maqsura (author typo)"
+  },
+  {
+   "pdf_page": 105,
+   "block": 0,
+   "old": "ഇല്ലാതാകുകയും ചെയ്തിട്ടുണ്ട്",
+   "new": "ഇല്ലാതാകുകുയം ചെയ്തിട്ടുണ്ട്",
+   "why": "print ഇല്ലാതാകുകുയം (author typo)"
+  },
+  {
+   "pdf_page": 105,
+   "block": 4,
+   "old": "അവിടടത്തെ",
+   "new": "അവിടത്തെ",
+   "why": "print അവിടത്തെ"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "B"
+  },
+  {
+   "idx": 1,
+   "print": "A"
+  },
+  {
+   "idx": 2,
+   "print": "B"
+  },
+  {
+   "idx": 3,
+   "print": "A"
+  },
+  {
+   "idx": 4,
+   "print": "B"
+  },
+  {
+   "idx": 5,
+   "print": "B"
+  },
+  {
+   "idx": 6,
+   "print": "A"
+  },
+  {
+   "idx": 7,
+   "print": "B"
+  },
+  {
+   "idx": 8,
+   "print": "B"
+  },
+  {
+   "idx": 9,
+   "print": "B"
+  },
+  {
+   "idx": 10,
+   "print": "B"
+  },
+  {
+   "idx": 11,
+   "print": "B"
+  },
+  {
+   "idx": 12,
+   "print": "A"
+  },
+  {
+   "idx": 13,
+   "print": "B"
+  },
+  {
+   "idx": 14,
+   "print": "B"
+  },
+  {
+   "idx": 15,
+   "print": "A"
+  },
+  {
+   "idx": 16,
+   "print": "A"
+  },
+  {
+   "idx": 18,
+   "print": "B"
+  },
+  {
+   "idx": 17,
+   "print": "B"
+  },
+  {
+   "idx": 19,
+   "print": "B"
+  },
+  {
+   "idx": 20,
+   "print": "B"
+  },
+  {
+   "idx": 21,
+   "print": "A"
+  },
+  {
+   "idx": 22,
+   "print": "B"
+  },
+  {
+   "idx": 23,
+   "print": "A"
+  },
+  {
+   "idx": 24,
+   "print": "B"
+  },
+  {
+   "idx": 25,
+   "print": "B"
+  },
+  {
+   "idx": 26,
+   "print": "B"
+  },
+  {
+   "idx": 27,
+   "print": "A"
+  },
+  {
+   "idx": 28,
+   "print": "A"
+  },
+  {
+   "idx": 29,
+   "print": "B"
+  },
+  {
+   "idx": 30,
+   "print": "other"
+  },
+  {
+   "idx": 31,
+   "print": "B"
+  },
+  {
+   "idx": 32,
+   "print": "B"
+  },
+  {
+   "idx": 33,
+   "print": "B"
+  },
+  {
+   "idx": 34,
+   "print": "B"
+  }
+ ]
+}

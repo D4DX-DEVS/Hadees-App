@@ -1,0 +1,254 @@
+{
+ "part": "1.2",
+ "pages_checked": [
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55
+ ],
+ "corrections": [
+  {
+   "pdf_page": 49,
+   "block": 0,
+   "old": "നിസ്ക്കരിക്കേണ്ട",
+   "new": "നിസ്കരിക്കേണ്ട",
+   "why": "print has single ക after സ്"
+  },
+  {
+   "pdf_page": 53,
+   "block": 1,
+   "old": "നിസ്ക്കരിക്കുന്നു",
+   "new": "നിസ്കരിക്കുന്നു",
+   "why": "print single ക"
+  },
+  {
+   "pdf_page": 53,
+   "block": 1,
+   "old": "നിസ്ക്കരിച്ചു",
+   "new": "നിസ്കരിച്ചു",
+   "why": "print single ക"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "A"
+  },
+  {
+   "idx": 1,
+   "print": "A"
+  },
+  {
+   "idx": 2,
+   "print": "A"
+  },
+  {
+   "idx": 3,
+   "print": "B"
+  },
+  {
+   "idx": 4,
+   "print": "A"
+  },
+  {
+   "idx": 5,
+   "print": "A"
+  },
+  {
+   "idx": 6,
+   "print": "A"
+  },
+  {
+   "idx": 7,
+   "print": "A"
+  },
+  {
+   "idx": 8,
+   "print": "A"
+  },
+  {
+   "idx": 9,
+   "print": "A"
+  },
+  {
+   "idx": 10,
+   "print": "A"
+  },
+  {
+   "idx": 11,
+   "print": "A"
+  },
+  {
+   "idx": 12,
+   "print": "A"
+  },
+  {
+   "idx": 13,
+   "print": "A"
+  },
+  {
+   "idx": 14,
+   "print": "A"
+  },
+  {
+   "idx": 15,
+   "print": "A"
+  },
+  {
+   "idx": 16,
+   "print": "A"
+  },
+  {
+   "idx": 17,
+   "print": "A"
+  },
+  {
+   "idx": 18,
+   "print": "A"
+  },
+  {
+   "idx": 19,
+   "print": "A"
+  },
+  {
+   "idx": 20,
+   "print": "A"
+  },
+  {
+   "idx": 21,
+   "print": "A"
+  },
+  {
+   "idx": 22,
+   "print": "A"
+  },
+  {
+   "idx": 23,
+   "print": "A"
+  },
+  {
+   "idx": 24,
+   "print": "A"
+  },
+  {
+   "idx": 25,
+   "print": "A"
+  },
+  {
+   "idx": 26,
+   "print": "A"
+  },
+  {
+   "idx": 27,
+   "print": "A"
+  },
+  {
+   "idx": 28,
+   "print": "A"
+  },
+  {
+   "idx": 29,
+   "print": "A"
+  },
+  {
+   "idx": 30,
+   "print": "A"
+  },
+  {
+   "idx": 31,
+   "print": "A"
+  },
+  {
+   "idx": 32,
+   "print": "A"
+  },
+  {
+   "idx": 33,
+   "print": "A"
+  },
+  {
+   "idx": 34,
+   "print": "B"
+  },
+  {
+   "idx": 35,
+   "print": "A"
+  },
+  {
+   "idx": 36,
+   "print": "A"
+  },
+  {
+   "idx": 37,
+   "print": "A"
+  },
+  {
+   "idx": 38,
+   "print": "A"
+  },
+  {
+   "idx": 39,
+   "print": "B"
+  },
+  {
+   "idx": 40,
+   "print": "A"
+  },
+  {
+   "idx": 41,
+   "print": "A"
+  },
+  {
+   "idx": 42,
+   "print": "A"
+  },
+  {
+   "idx": 43,
+   "print": "A"
+  },
+  {
+   "idx": 44,
+   "print": "A"
+  },
+  {
+   "idx": 45,
+   "print": "A"
+  },
+  {
+   "idx": 46,
+   "print": "A"
+  },
+  {
+   "idx": 47,
+   "print": "A"
+  },
+  {
+   "idx": 48,
+   "print": "A"
+  },
+  {
+   "idx": 49,
+   "print": "A"
+  },
+  {
+   "idx": 50,
+   "print": "A"
+  },
+  {
+   "idx": 51,
+   "print": "A"
+  },
+  {
+   "idx": 52,
+   "print": "A"
+  },
+  {
+   "idx": 53,
+   "print": "A"
+  }
+ ]
+}

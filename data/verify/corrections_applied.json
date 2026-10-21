@@ -1,0 +1,492 @@
+[
+ {
+  "id": 51,
+  "edits": [
+   {
+    "old": "تَقَدَّمُوا",
+    "new": "تَتَقَدَّمُوا",
+    "note": "OCR: print تتقدموا (matches collections)"
+   }
+  ]
+ },
+ {
+  "id": 2473,
+  "edits": [
+   {
+    "old": "أَلْهَانى",
+    "new": "أَلْهَانِي",
+    "note": "OCR: print ألهاني (ya)"
+   },
+   {
+    "old": "اللَّهم",
+    "new": "اللَّهُ",
+    "note": "صلى اللهم -> صلى الله (printed typo; all sources have الله)"
+   }
+  ]
+ },
+ {
+  "id": 2583,
+  "edits": [
+   {
+    "old": "اللَّهُم",
+    "new": "اللَّهُ",
+    "note": "صلى اللهم -> صلى الله (printed typo; all sources have الله)"
+   }
+  ]
+ },
+ {
+  "id": 2632,
+  "edits": [
+   {
+    "old": "اللَّهم",
+    "new": "اللَّهُ",
+    "note": "صلى اللهم -> صلى الله (printed typo; all sources have الله)"
+   }
+  ]
+ },
+ {
+  "id": 2831,
+  "edits": [
+   {
+    "old": "تُكَلِّمَ",
+    "new": "يُكَلِّمَ",
+    "note": "OCR: print يكلم (matches collections)"
+   }
+  ]
+ },
+ {
+  "id": 3096,
+  "edits": [
+   {
+    "old": "اللَّهم",
+    "new": "اللَّهُ",
+    "note": "صلى اللهم -> صلى الله (printed typo; all sources have الله)"
+   }
+  ]
+ },
+ {
+  "id": 3173,
+  "edits": [
+   {
+    "old": "اللَّهم",
+    "new": "اللَّهُ",
+    "note": "صلى اللهم -> صلى الله (printed typo; all sources have الله)"
+   }
+  ]
+ },
+ {
+  "id": 3183,
+  "edits": [
+   {
+    "old": "اللَّهم",
+    "new": "اللَّهُ",
+    "note": "صلى اللهم -> صلى الله (printed typo; all sources have الله)"
+   }
+  ]
+ },
+ {
+  "id": 3270,
+  "edits": [
+   {
+    "old": "اللَّهم",
+    "new": "اللَّهُ",
+    "note": "صلى اللهم -> صلى الله (printed typo; all sources have الله)"
+   }
+  ]
+ },
+ {
+  "id": 3278,
+  "edits": [
+   {
+    "old": "لَيُوَرِّثُهُ",
+    "new": "لَيُوَرِّثَنَّهُ",
+    "note": "OCR: print ليورثنه"
+   }
+  ]
+ },
+ {
+  "id": 3291,
+  "edits": [
+   {
+    "old": "لَلَفَحَتْكَ",
+    "new": "لَلَفَعَتْكَ",
+    "note": "OCR: print للفعتك"
+   }
+  ]
+ },
+ {
+  "id": 3382,
+  "edits": [
+   {
+    "old": "فَقِيلَ",
+    "new": "فَقَالَ",
+    "note": "OCR: print فقال"
+   }
+  ]
+ },
+ {
+  "id": 3882,
+  "edits": [
+   {
+    "old": "نِّي",
+    "new": "إِنِّي",
+    "note": "missing إ (3 sources)"
+   }
+  ]
+ },
+ {
+  "id": 3890,
+  "edits": [
+   {
+    "old": "الْأَبْجَرِ",
+    "new": "الْأَبَحِّ",
+    "note": "OCR: print الأبح"
+   },
+   {
+    "old": "السَّلِيعِيِّ",
+    "new": "السَّلِيحِيِّ",
+    "note": "OCR: print السليحي"
+   }
+  ]
+ },
+ {
+  "id": 3913,
+  "edits": [
+   {
+    "old": "بِضْعَةَ",
+    "new": "بِبِضْعَةَ",
+    "note": "OCR: print ببضعة (matches collections)"
+   }
+  ]
+ },
+ {
+  "id": 3921,
+  "edits": [
+   {
+    "old": "مُرَجَّلٌ",
+    "new": "مُرَحَّلٌ",
+    "note": "OCR: print مرحل"
+   }
+  ]
+ },
+ {
+  "id": 4605,
+  "edits": [
+   {
+    "old": "صَيِّبًا",
+    "new": "سَيْبًا",
+    "note": "OCR: print سيبا"
+   }
+  ]
+ },
+ {
+  "id": 11927,
+  "edits": [
+   {
+    "old": "ترمدي",
+    "new": "ترمذي",
+    "note": "ترمدي -> ترمذي (printed typo)"
+   }
+  ]
+ },
+ {
+  "id": 11951,
+  "edits": [
+   {
+    "old": "ترمدي",
+    "new": "ترمذي",
+    "note": "ترمدي -> ترمذي (printed typo)"
+   }
+  ]
+ },
+ {
+  "id": 11952,
+  "edits": [
+   {
+    "old": "ترمدي",
+    "new": "ترمذي",
+    "note": "ترمدي -> ترمذي (printed typo)"
+   }
+  ]
+ },
+ {
+  "id": 12134,
+  "edits": [
+   {
+    "old": "ترمدي",
+    "new": "ترمذي",
+    "note": "ترمدي -> ترمذي (printed typo)"
+   }
+  ]
+ },
+ {
+  "id": 12965,
+  "edits": [
+   {
+    "old": "وَغَرُبَتِ",
+    "new": "وَجَبَتِ",
+    "note": "وجبت (3 sources)"
+   }
+  ]
+ },
+ {
+  "id": 12969,
+  "edits": [
+   {
+    "old": "اللهم",
+    "new": "اللَّهُ",
+    "note": "صلى اللهم -> صلى الله (printed typo; all sources have الله)"
+   }
+  ]
+ },
+ {
+  "id": 13101,
+  "edits": [
+   {
+    "old": "قَالُو",
+    "new": "قَالُوا",
+    "note": "missing final alif (3 sources)"
+   }
+  ]
+ },
+ {
+  "id": 13682,
+  "edits": [
+   {
+    "old": "ترمدي",
+    "new": "ترمذي",
+    "note": "ترمدي -> ترمذي (printed typo)"
+   }
+  ]
+ },
+ {
+  "id": 13698,
+  "edits": [
+   {
+    "old": "ترمدي",
+    "new": "ترمذي",
+    "note": "ترمدي -> ترمذي (printed typo)"
+   }
+  ]
+ },
+ {
+  "id": 14116,
+  "edits": [
+   {
+    "old": "اللَّهُمَ",
+    "new": "اللَّهُ",
+    "note": "صلى اللهم -> صلى الله (printed typo; all sources have الله)"
+   }
+  ]
+ },
+ {
+  "id": 15001,
+  "edits": [
+   {
+    "old": "اللَّهم",
+    "new": "اللَّهُ",
+    "note": "صلى اللهم -> صلى الله (printed typo; all sources have الله)"
+   }
+  ]
+ },
+ {
+  "id": 15653,
+  "edits": [
+   {
+    "old": "اللَّهم",
+    "new": "اللَّهُ",
+    "note": "صلى اللهم -> صلى الله (printed typo; all sources have الله)"
+   }
+  ]
+ },
+ {
+  "id": 15689,
+  "edits": [
+   {
+    "old": "اللَّهم",
+    "new": "اللَّهُ",
+    "note": "صلى اللهم -> صلى الله (printed typo; all sources have الله)"
+   }
+  ]
+ },
+ {
+  "id": 15728,
+  "edits": [
+   {
+    "old": "اللَّهم",
+    "new": "اللَّهُ",
+    "note": "صلى اللهم -> صلى الله (printed typo; all sources have الله)"
+   }
+  ]
+ },
+ {
+  "id": 15730,
+  "edits": [
+   {
+    "old": "اللَّهم",
+    "new": "اللَّهُ",
+    "note": "صلى اللهم -> صلى الله (printed typo; all sources have الله)"
+   }
+  ]
+ },
+ {
+  "id": 15732,
+  "edits": [
+   {
+    "old": "اللَّهم",
+    "new": "اللَّهُ",
+    "note": "صلى اللهم -> صلى الله (printed typo; all sources have الله)"
+   }
+  ]
+ },
+ {
+  "id": 15733,
+  "edits": [
+   {
+    "old": "اللَّهم",
+    "new": "اللَّهُ",
+    "note": "صلى اللهم -> صلى الله (printed typo; all sources have الله)"
+   }
+  ]
+ },
+ {
+  "id": 15754,
+  "edits": [
+   {
+    "old": "اللَّهم",
+    "new": "اللَّهُ",
+    "note": "صلى اللهم -> صلى الله (printed typo; all sources have الله)"
+   }
+  ]
+ },
+ {
+  "id": 15758,
+  "edits": [
+   {
+    "old": "اللَّهم",
+    "new": "اللَّهُ",
+    "note": "صلى اللهم -> صلى الله (printed typo; all sources have الله)"
+   }
+  ]
+ },
+ {
+  "id": 15945,
+  "edits": [
+   {
+    "old": "ترمدي",
+    "new": "ترمذي",
+    "note": "ترمدي -> ترمذي (printed typo)"
+   }
+  ]
+ },
+ {
+  "id": 15956,
+  "edits": [
+   {
+    "old": "ترمدي",
+    "new": "ترمذي",
+    "note": "ترمدي -> ترمذي (printed typo)"
+   }
+  ]
+ },
+ {
+  "id": 16146,
+  "edits": [
+   {
+    "old": "ترمدي",
+    "new": "ترمذي",
+    "note": "ترمدي -> ترمذي (printed typo)"
+   }
+  ]
+ },
+ {
+  "id": 16162,
+  "edits": [
+   {
+    "old": "ترمدي",
+    "new": "ترمذي",
+    "note": "ترمدي -> ترمذي (printed typo)"
+   }
+  ]
+ },
+ {
+  "id": 16213,
+  "edits": [
+   {
+    "old": "اللهمُ",
+    "new": "اللَّهُ",
+    "note": "صلى اللهم -> صلى الله (printed typo; all sources have الله)"
+   }
+  ]
+ },
+ {
+  "id": 16218,
+  "edits": [
+   {
+    "old": "اللَّهُم",
+    "new": "اللَّهُ",
+    "note": "صلى اللهم -> صلى الله (printed typo; all sources have الله)"
+   }
+  ]
+ },
+ {
+  "id": 16256,
+  "edits": [
+   {
+    "old": "يَدْعُوا",
+    "new": "يَدْعُو",
+    "note": "extra alif (2 sources)"
+   }
+  ]
+ },
+ {
+  "id": 16261,
+  "edits": [
+   {
+    "old": "اللَّهم",
+    "new": "اللَّهُ",
+    "note": "صلى اللهم -> صلى الله (printed typo; all sources have الله)"
+   }
+  ]
+ },
+ {
+  "id": 16383,
+  "edits": [
+   {
+    "old": "نَوَاجِدُهُ",
+    "new": "نَوَاجِذُهُ",
+    "note": "ذ not د (3 sources; also confirmed on the print as a printed typo)"
+   }
+  ]
+ },
+ {
+  "id": 16595,
+  "edits": [
+   {
+    "old": "يَدْعُوا",
+    "new": "يَدْعُو",
+    "note": "extra alif (2 sources)"
+   }
+  ]
+ },
+ {
+  "id": 17027,
+  "edits": [
+   {
+    "old": "الْمَلَئِكَةَ",
+    "new": "الْمَلَائِكَةَ",
+    "note": "ملائكة spelling (3 sources)"
+   }
+  ]
+ },
+ {
+  "id": 17301,
+  "edits": [
+   {
+    "old": "اللَّهم",
+    "new": "اللَّهُ",
+    "note": "صلى اللهم -> صلى الله (printed typo; all sources have الله)"
+   }
+  ]
+ }
+]

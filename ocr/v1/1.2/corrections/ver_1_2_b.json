@@ -1,0 +1,89 @@
+{
+ "part": "1.2",
+ "pages_checked": [
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32
+ ],
+ "corrections": [],
+ "uncertain": [
+  {
+   "pdf_page": 17,
+   "hadith_no": 37,
+   "note": "Malayalam header name 'അബൂഹുറൈറ' (long ൂ) judged correct from strip view only; 36 (and 18/40, 25/66, 32/93) verified as short 'അബുഹുറൈറ'. p29 hadith 83 and p26 hadith 70/73 headers could not be told apart from long ൂ with full certainty (kept as in JSON)."
+  },
+  {
+   "pdf_page": 17,
+   "hadith_no": 38,
+   "note": "Print of this hadith is only partly vowelled; corrections made only where an unvowelled word was clearly seen. Remaining words (e.g. 'قبلنا', 'ثلاثةٌ يُؤتَون', 'أدّى حقّ الله تعالى') may still be over-vowelled in JSON."
+  },
+  {
+   "pdf_page": 18,
+   "hadith_no": 39,
+   "note": "Arabic of 39 and 40 is lightly vowelled in print (many words unvowelled e.g. 'وَادٍ', 'أَيُّ ثَنِيَّةٍ'); JSON over-vowelled. Only clear cases corrected; word-level harakat not exhaustively verified."
+  },
+  {
+   "pdf_page": 19,
+   "hadith_no": 41,
+   "note": "Print of 41 and 42/43 Arabic partly unvowelled on finals ('الْمَسِيحَ', 'اللهِ'); JSON fully vowelled; not exhaustively resolved."
+  },
+  {
+   "pdf_page": 20,
+   "hadith_no": 44,
+   "note": "Print vowelling of 'قَالَ' after 'عنه' varies (some bare 'قال'); only some corrected. Hadith 44 line 'قال: قَالَ ... يوْمئذٍ' not exhaustively checked."
+  },
+  {
+   "pdf_page": 21,
+   "hadith_no": 50,
+   "note": "Print 'وَيُفْرَغُ' (damma?) vs JSON 'وَيُفْرَغَ' could not be resolved; 'كُلُّ قِيرَاطٍ مِثْلُ أُحُدٍ' print looks less vowelled."
+  },
+  {
+   "pdf_page": 22,
+   "hadith_no": 52,
+   "note": "p22 block 1 Malayalam: print appears to have ';' after 'അല്ലാഹു പറയുന്നു' (JSON has ':') - unclear."
+  },
+  {
+   "pdf_page": 23,
+   "hadith_no": 56,
+   "note": "Print has 'رَأْسُ الْأَمْرِالْإِسْلَام' run together without space; JSON has space. Also 'قال:كُنَّا'-type missing spaces are printed in hadith 80 and 90; not changed."
+  },
+  {
+   "pdf_page": 25,
+   "hadith_no": 68,
+   "note": "Print looks like 'يُعْرَفُ الْغَضَبُ' (damma on ف); JSON has 'يُعْرَفَ'. Not certain."
+  },
+  {
+   "pdf_page": 25,
+   "hadith_no": 65,
+   "note": "Malayalam 'സത്യവിശ്വാസികളാകുന്നഡുവരെ' and 'പ്രിയങ്കരമായമായത്' (p24) are printed that way; kept."
+  },
+  {
+   "pdf_page": 31,
+   "hadith_no": 89,
+   "note": "Print shows 'മന:സ്സമാധാനം' (ASCII colon-like visarga); JSON has 'മനഃസ്സമാധാനം'. Kept. Hadith 90 Arabic printed with missing spaces ('عُمَرَبْنِ', 'عَنْهُ:أَنَّ', 'لَوْعَلَيْنَامَعْشَرَ'); JSON has spaces; not changed."
+  },
+  {
+   "pdf_page": 20,
+   "hadith_no": 44,
+   "note": "Malayalam p20 block 3 'സംഘലം' and 'നുജെദേ' are printed that way; kept."
+  },
+  {
+   "pdf_page": 0,
+   "hadith_no": 0,
+   "note": "General: pdf pages 17-32 Arabic print is only partially vowelled (final case endings and pronoun suffixes often bare, 'في'/'الله' bare, narrator 'قال' bare); first-pass JSON is fully vowelled. Corrections cover the instances clearly visible at 2.5x zoom; other over-vowelled words may remain. Malayalam text, bab headings, hadith numbers, source codes and block structure matched the print apart from the listed corrections."
+  }
+ ]
+}

@@ -1,0 +1,159 @@
+{
+ "part": "3.6",
+ "pages_checked": [
+  1,
+  2,
+  4,
+  5,
+  6,
+  7,
+  9,
+  11,
+  13,
+  14,
+  16,
+  17,
+  20,
+  21,
+  24
+ ],
+ "corrections": [
+  {
+   "pdf_page": 1,
+   "block": 5,
+   "old": "ഒട്ടകത്തിന്റെ",
+   "new": "ഒരട്ടകത്തിന്റെ",
+   "why": "print reads ഒരട്ടകത്തിന്റെ"
+  },
+  {
+   "pdf_page": 4,
+   "block": 2,
+   "old": "ഏറ്റപ്പോൾ",
+   "new": "ഏറേറ്റപ്പോൾ",
+   "why": "print reads ഏറേറ്റപ്പോൾ (ഏ+റേ+റ്റ), neither A nor B"
+  },
+  {
+   "pdf_page": 14,
+   "block": 1,
+   "old": "വ്യക്തിയെ",
+   "new": "വൃക്തിയെ",
+   "why": "print has ൃ (വൃക്തിയെ)"
+  },
+  {
+   "pdf_page": 16,
+   "block": 3,
+   "old": "പിറ്റേദിവസവും",
+   "new": "പിറ്റെദിവസവും",
+   "why": "print has short െ (പിറ്റെദിവസവും), unlike േ in പിറ്റേ ദിവസമായപ്പോൾ"
+  },
+  {
+   "pdf_page": 21,
+   "block": 0,
+   "old": "ത്ത് ചെയ്യുന്നുവെന്ന്",
+   "new": "ത്തത് ചെയ്യുന്നുവെന്ന്",
+   "why": "print ത്തത് (…ത്തത് ചെയ്യുന്നുവെന്ന്)"
+  },
+  {
+   "pdf_page": 24,
+   "block": 4,
+   "old": "ഇച്ഛാശക്തി",
+   "new": "ഇഛരാശക്തി",
+   "why": "print reads ഇഛരാശക്തി (ഛ+ര+ാ)"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "B"
+  },
+  {
+   "idx": 1,
+   "print": "A"
+  },
+  {
+   "idx": 2,
+   "print": "A"
+  },
+  {
+   "idx": 3,
+   "print": "A"
+  },
+  {
+   "idx": 4,
+   "print": "A"
+  },
+  {
+   "idx": 5,
+   "print": "other"
+  },
+  {
+   "idx": 6,
+   "print": "A"
+  },
+  {
+   "idx": 7,
+   "print": "A"
+  },
+  {
+   "idx": 8,
+   "print": "A"
+  },
+  {
+   "idx": 9,
+   "print": "A"
+  },
+  {
+   "idx": 10,
+   "print": "A"
+  },
+  {
+   "idx": 11,
+   "print": "A"
+  },
+  {
+   "idx": 12,
+   "print": "A"
+  },
+  {
+   "idx": 13,
+   "print": "A"
+  },
+  {
+   "idx": 14,
+   "print": "B"
+  },
+  {
+   "idx": 15,
+   "print": "A"
+  },
+  {
+   "idx": 16,
+   "print": "B"
+  },
+  {
+   "idx": 17,
+   "print": "A"
+  },
+  {
+   "idx": 18,
+   "print": "A"
+  },
+  {
+   "idx": 19,
+   "print": "A"
+  },
+  {
+   "idx": 20,
+   "print": "B"
+  },
+  {
+   "idx": 21,
+   "print": "A"
+  },
+  {
+   "idx": 22,
+   "print": "B"
+  }
+ ]
+}

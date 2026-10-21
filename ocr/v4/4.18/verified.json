@@ -1,0 +1,44 @@
+{
+ "pages": [
+  2,
+  4,
+  5,
+  6,
+  8,
+  9,
+  14,
+  15,
+  16,
+  17,
+  19,
+  20,
+  21,
+  23,
+  26,
+  28,
+  29,
+  32,
+  33,
+  35,
+  37
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 21,
+   "note": "item1 'അബൂ' ends a line, 'ദർറ്(റ)' starts next; no space/hyphen evidence, kept ours (A)"
+  },
+  {
+   "pdf_page": 23,
+   "note": "item3 first word of hadith 98 Malayalam: print reads അ + round glyph w/ dot + ബൂ... (possibly അബ്ബൂഹുറൈറ) vs ours അബൂഹുറൈറ; unclear, no correction"
+  },
+  {
+   "pdf_page": 28,
+   "note": "block 8 print has ഇൗ in അബൂസഇൗദുൽ whereas JSON has ഈ (not a listed item; no correction emitted)"
+  },
+  {
+   "pdf_page": 6,
+   "note": "idx4 അംറിൽ vs അംരിൽ: ര/റ not distinguishable with confidence (looks like ര); no correction"
+  }
+ ],
+ "applied": 12
+}

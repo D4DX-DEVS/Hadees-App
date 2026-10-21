@@ -1,0 +1,1002 @@
+{
+ "part": "4.11",
+ "pages_checked": [
+  1,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  32,
+  34,
+  36,
+  37,
+  38,
+  40
+ ],
+ "corrections": [
+  {
+   "pdf_page": 1,
+   "block": 8,
+   "old": "ഓതാതെ",
+   "new": "ഒതാതെ",
+   "why": "print shows short ഒ (no ോ tail)"
+  },
+  {
+   "pdf_page": 3,
+   "block": 0,
+   "old": "അവൻ സ്ത്രോ",
+   "new": "അവന് സ്ത്രോ",
+   "why": "print അവന് (virama, not chillu)"
+  },
+  {
+   "pdf_page": 3,
+   "block": 2,
+   "old": "സൂറത്ത്)",
+   "new": "സൂറത്)",
+   "why": "print സൂറത്) single ത്"
+  },
+  {
+   "pdf_page": 4,
+   "block": 7,
+   "old": "115]",
+   "new": "١١٥]",
+   "why": "print Arabic-Indic digits"
+  },
+  {
+   "pdf_page": 4,
+   "block": 3,
+   "old": "ഉദ്ദേശിച്ചപ്പോൾ",
+   "new": "ഉദ്ധേശിച്ചപ്പോൾ",
+   "why": "print ദ്ധ ligature (differs from ദ്ദ in അദ്ദേഹം p3)"
+  },
+  {
+   "pdf_page": 5,
+   "block": 2,
+   "old": "ബനൂഇസ്രാഈല്യരോട്",
+   "new": "ബനൂഇസ്റാഈല്യരോട്",
+   "why": "print സ്റ"
+  },
+  {
+   "pdf_page": 5,
+   "block": 4,
+   "old": "അലിയുമാണ്",
+   "new": "അലിയ്യുമാണ്",
+   "why": "print യ്യ"
+  },
+  {
+   "pdf_page": 5,
+   "block": 6,
+   "old": "അവനെ ചീത്ത",
+   "new": "അവനെന്നെ ചീത്ത",
+   "why": "print അവനെന്നെ"
+  },
+  {
+   "pdf_page": 6,
+   "block": 0,
+   "old": "5]",
+   "new": "٥]",
+   "why": "print Arabic-Indic digit"
+  },
+  {
+   "pdf_page": 6,
+   "block": 2,
+   "old": "يَقْرَؤُونَ",
+   "new": "يَقْرَءُونَ",
+   "why": "print hamza on line before waw"
+  },
+  {
+   "pdf_page": 6,
+   "block": 1,
+   "old": "ഇബ്രാഹീം",
+   "new": "ഇബ്റാഹീം",
+   "why": "print ബ്റ"
+  },
+  {
+   "pdf_page": 6,
+   "block": 5,
+   "old": "(ഇഫാളത്ത്)",
+   "new": "(ഇഫാളത്)",
+   "why": "print single ത്"
+  },
+  {
+   "pdf_page": 7,
+   "block": 1,
+   "old": "ഉദ്ദേശിക്കുന്ന",
+   "new": "ഉദ്ധേശിക്കുന്ന",
+   "why": "print ദ്ധ (same glyph as ബുദ്ധിമുട്ടി next line)"
+  },
+  {
+   "pdf_page": 8,
+   "block": 1,
+   "old": "144]",
+   "new": "١٤٤]",
+   "why": "print Arabic-Indic digits"
+  },
+  {
+   "pdf_page": 8,
+   "block": 0,
+   "old": "അനുചരർക്ക് വളരെ",
+   "new": "അനുചരർക്കത് വളരെ",
+   "why": "print അനുചരർക്കത്"
+  },
+  {
+   "pdf_page": 8,
+   "block": 0,
+   "old": "എതിർ",
+   "new": "എതിര്",
+   "why": "print ര + detached virama stroke, unlike chillu curl in അനുചരർ"
+  },
+  {
+   "pdf_page": 8,
+   "block": 2,
+   "old": "യാത്രാമധ്യേ",
+   "new": "യാത്രാമദ്ധ്യേ",
+   "why": "print ദ്ധ്യ"
+  },
+  {
+   "pdf_page": 9,
+   "block": 1,
+   "old": "125]",
+   "new": "١٢٥]",
+   "why": "print Arabic-Indic digits"
+  },
+  {
+   "pdf_page": 9,
+   "block": 7,
+   "old": "144]",
+   "new": "١٤٤]",
+   "why": "print Arabic-Indic digits"
+  },
+  {
+   "pdf_page": 9,
+   "block": 2,
+   "old": "(ഇബ്രാഹീം",
+   "new": "(ഇബ്റാഹീം",
+   "why": "print ബ്റ"
+  },
+  {
+   "pdf_page": 9,
+   "block": 2,
+   "old": "അവിടന്ന് ഇബ്രാഹീം",
+   "new": "അവിടന്ന് ഇബ്റാഹീം",
+   "why": "print ബ്റ"
+  },
+  {
+   "pdf_page": 9,
+   "block": 2,
+   "old": "നിങ്ങൾ ഇബ്രാഹീം",
+   "new": "നിങ്ങൾ ഇബ്റാഹീം",
+   "why": "print ബ്റ"
+  },
+  {
+   "pdf_page": 10,
+   "block": 6,
+   "old": "158]",
+   "new": "١٥٨]",
+   "why": "print Arabic-Indic digits"
+  },
+  {
+   "pdf_page": 10,
+   "block": 7,
+   "old": "ഉറ ചെയ്യു",
+   "new": "ഉംറ ചെയ്യു",
+   "why": "print shows anusvara ഉംറ"
+  },
+  {
+   "pdf_page": 11,
+   "block": 2,
+   "old": "125]",
+   "new": "١٢٥]",
+   "why": "print Arabic-Indic digits"
+  },
+  {
+   "pdf_page": 11,
+   "block": 4,
+   "old": "187]",
+   "new": "١٨٧]",
+   "why": "print Arabic-Indic digits"
+  },
+  {
+   "pdf_page": 11,
+   "block": 1,
+   "old": "ഉറ ചെയ്യുകയോ",
+   "new": "ഉംറ ചെയ്യുകയോ",
+   "why": "print ഉംറ with anusvara"
+  },
+  {
+   "pdf_page": 11,
+   "block": 1,
+   "old": "തത്വ്വൂഇന്റെ (ഐച്ഛികമായ)",
+   "new": "തത്വവ്വുഇന്റെ (ഐഛികമായ)",
+   "why": "print ത-ത്വ-വ്വു and ഐഛിക (no ച്)"
+  },
+  {
+   "pdf_page": 11,
+   "block": 1,
+   "old": "തത്വ്വൂഅ്",
+   "new": "തത്വവ്വുഅ്",
+   "why": "print തത്വവ്വുഅ്"
+  },
+  {
+   "pdf_page": 11,
+   "block": 3,
+   "old": "ഇബ്രാഹീം",
+   "new": "ഇബ്റാഹീം",
+   "why": "print ബ്റ"
+  },
+  {
+   "pdf_page": 12,
+   "block": 5,
+   "old": "وَسَلَّمَ – لَمْ يَحْفَظْهُ سُفْيَانُ شَيْئًا – فَقَالَ",
+   "new": "وَسَلَّمَ شَيْئًا – لَمْ يَحْفَظْهُ سُفْيَانُ – فَقَالَ",
+   "why": "print: شيئا before first dash (covers diff idx 32,33)"
+  },
+  {
+   "pdf_page": 13,
+   "block": 0,
+   "old": "195]",
+   "new": "١٩٥]",
+   "why": "print Arabic-Indic digits"
+  },
+  {
+   "pdf_page": 13,
+   "block": 2,
+   "old": "196]",
+   "new": "١٩٦]",
+   "why": "print Arabic-Indic digits"
+  },
+  {
+   "pdf_page": 13,
+   "block": 1,
+   "old": "മുസ്‌ലിംകളിൽപെട്ട",
+   "new": "മുസ്‌ലിംകളിൽപ്പെട്ട",
+   "why": "print പ്പെ"
+  },
+  {
+   "pdf_page": 13,
+   "block": 3,
+   "old": "ഉദ്ദേശിക്കപ്പെട്ടതും",
+   "new": "ഉദ്ധേശിക്കപ്പെട്ടതും",
+   "why": "print ദ്ധ"
+  },
+  {
+   "pdf_page": 14,
+   "block": 1,
+   "old": "\"الْحَجُّ عَرَفَاتٌ، الْحَجُّ عَرَفَاتٌ.",
+   "new": "\"الْحَجُّ عَرَفَاتٌ، الْحَجُّ عَرَفَاتٌ، الْحَجُّ عَرَفَاتٌ.",
+   "why": "print repeats الحج عرفات three times"
+  },
+  {
+   "pdf_page": 14,
+   "block": 2,
+   "old": "\"ഹജ്ജ് അറഫയാണ്, ഹജ്ജ് അറഫയാണ്.",
+   "new": "\"ഹജ്ജ് അറഫയാണ്, ഹജ്ജ് അറഫയാണ്, ഹജ്ജ് അറഫയാണ്.",
+   "why": "print repeats three times"
+  },
+  {
+   "pdf_page": 14,
+   "block": 5,
+   "old": "222]",
+   "new": "٢٢٢]",
+   "why": "print Arabic-Indic digits"
+  },
+  {
+   "pdf_page": 14,
+   "block": 6,
+   "old": "ബിശ്ർ(റ)വും",
+   "new": "ബിശ്റ്(റ)വും",
+   "why": "print ശ്റ്"
+  },
+  {
+   "pdf_page": 15,
+   "block": 1,
+   "old": "223]",
+   "new": "٢٢٣]",
+   "why": "print Arabic-Indic digits"
+  },
+  {
+   "pdf_page": 15,
+   "block": 8,
+   "old": "പിന്നീടദ്ദേഹം വിവാഹാലോചന നടത്തുകയും ചെയ്തു. അപ്പോൾ വിവാഹാന്വേഷകരടൊപ്പം നിവേദകൻ",
+   "new": "പിന്നീടദ്ദേഹം വിവാഹാന്വേഷകരോടൊപ്പം വന്ന് മഹതിയുമായുള്ള വിവാഹാലോചന നടത്തുകയും ചെയ്തു. അപ്പോൾ നിവേദകൻ",
+   "why": "tilted lines: print line reads വിവാഹാന്വേഷകരോടൊപ്പം വന്ന് മഹതിയുമായുള്ള വിവാഹാലോചന...; A misplaced/dropped words (idx 43,44)"
+  },
+  {
+   "pdf_page": 16,
+   "block": 1,
+   "old": "238]",
+   "new": "٢٣٨]",
+   "why": "print Arabic-Indic digits"
+  },
+  {
+   "pdf_page": 16,
+   "block": 7,
+   "old": "238]",
+   "new": "٢٣٨]",
+   "why": "print Arabic-Indic digits"
+  },
+  {
+   "pdf_page": 16,
+   "block": 9,
+   "old": "267]",
+   "new": "٢٦٧]",
+   "why": "print Arabic-Indic digits"
+  },
+  {
+   "pdf_page": 16,
+   "block": 3,
+   "old": "النَّبِيَّ صَلَّى",
+   "new": "النَّبِيَّ اللَّهِ صَلَّى",
+   "why": "print has extra الله after النبي (misprint kept)"
+  },
+  {
+   "pdf_page": 17,
+   "block": 4,
+   "old": "51]",
+   "new": "٥١]",
+   "why": "print Arabic-Indic digits"
+  },
+  {
+   "pdf_page": 17,
+   "block": 1,
+   "old": "ആധികൃത്തിന്റെയും",
+   "new": "ആധിക്യത്തിന്റെയും",
+   "why": "print ്യ sign after ക, not ൃ"
+  },
+  {
+   "pdf_page": 18,
+   "block": 0,
+   "old": "172]",
+   "new": "١٧٢]",
+   "why": "print Arabic-Indic digits"
+  },
+  {
+   "pdf_page": 18,
+   "block": 2,
+   "old": "286]",
+   "new": "٢٨٦]",
+   "why": "print Arabic-Indic digits"
+  },
+  {
+   "pdf_page": 18,
+   "block": 4,
+   "old": "23]",
+   "new": "٢٣]",
+   "why": "print Arabic-Indic digits"
+  },
+  {
+   "pdf_page": 18,
+   "block": 1,
+   "old": "ഹറാമാണ് അവൻ പ്രഭാത",
+   "new": "ഹറാമാണ് അവന് പ്രഭാത",
+   "why": "print അവന്"
+  },
+  {
+   "pdf_page": 18,
+   "block": 5,
+   "old": "ഉമയ്യത്(റ):",
+   "new": "ഉമയ്യത്ത്(റ):",
+   "why": "print ത്ത്"
+  },
+  {
+   "pdf_page": 19,
+   "block": 2,
+   "old": "7]",
+   "new": "٧]",
+   "why": "print Arabic-Indic digit"
+  },
+  {
+   "pdf_page": 19,
+   "block": 0,
+   "old": "ഉദ്ദേശ്യം",
+   "new": "ഉദ്ധേശ്യം",
+   "why": "print ദ്ധ"
+  },
+  {
+   "pdf_page": 19,
+   "block": 3,
+   "old": "നീ അവരെ തിരിച്ചറിയുക",
+   "new": "നീ തിരിച്ചറിയുക",
+   "why": "print: അവരെക്കണ്ടാൽ നീ / തിരിച്ചറിയുക (no second അവരെ)"
+  },
+  {
+   "pdf_page": 19,
+   "block": 5,
+   "old": "സ്ത്രീകൾ ഇബ്‌നുഅബ്ബാസ്",
+   "new": "സ്ത്രീകൾ തർക്കിച്ചുകൊണ്ട് ഇബ്‌നുഅബ്ബാസ്",
+   "why": "print line starts തർക്കിച്ചുകൊണ്ട് (dropped by A)"
+  },
+  {
+   "pdf_page": 20,
+   "block": 1,
+   "old": "68]",
+   "new": "٦٨]",
+   "why": "print Arabic-Indic digits"
+  },
+  {
+   "pdf_page": 20,
+   "block": 2,
+   "old": "(ഇബ്രാഹീം",
+   "new": "(ഇബ്റാഹീം",
+   "why": "print ബ്റ"
+  },
+  {
+   "pdf_page": 20,
+   "block": 2,
+   "old": "ഇബ്രാഹീം(അ)",
+   "new": "ഇബ്റാഹീം(അ)",
+   "why": "print ബ്റ"
+  },
+  {
+   "pdf_page": 20,
+   "block": 4,
+   "old": "പ്രശംസിക്കപ്പെടണമെന്ന്",
+   "new": "പ്രശംസിക്കപ്പെടണമന്ന്",
+   "why": "print ണമന്ന് (misprint kept); hadith 58 block 6 has ണമെന്ന് correctly"
+  },
+  {
+   "pdf_page": 23,
+   "block": 3,
+   "old": "92]",
+   "new": "٩٢]",
+   "why": "print Arabic-Indic digits"
+  },
+  {
+   "pdf_page": 23,
+   "block": 3,
+   "old": "245]",
+   "new": "٢٤٥]",
+   "why": "print Arabic-Indic digits"
+  },
+  {
+   "pdf_page": 23,
+   "block": 2,
+   "old": "വൈസ്(റ)",
+   "new": "ഖൈസ്(റ)",
+   "why": "print ഖ"
+  },
+  {
+   "pdf_page": 23,
+   "block": 2,
+   "old": "അല്ലാഹു്വിനോടു",
+   "new": "അല്ലാഹുവിനോടു",
+   "why": "no virama in print"
+  },
+  {
+   "pdf_page": 23,
+   "block": 6,
+   "old": "സുഖാഡംബരങ്ങളെ",
+   "new": "സുഖാഢംബരങ്ങളെ",
+   "why": "print ഢ (inner loop)"
+  },
+  {
+   "pdf_page": 24,
+   "block": 5,
+   "old": "106]",
+   "new": "١٠٦]",
+   "why": "print Arabic-Indic digits"
+  },
+  {
+   "pdf_page": 24,
+   "block": 7,
+   "old": "128]",
+   "new": "١٢٨]",
+   "why": "print Arabic-Indic digits"
+  },
+  {
+   "pdf_page": 25,
+   "block": 5,
+   "old": "154]",
+   "new": "١٥٤]",
+   "why": "print Arabic-Indic digits"
+  },
+  {
+   "pdf_page": 26,
+   "block": 4,
+   "old": "ബദറിന്റെ",
+   "new": "ബദ്റിന്റെ",
+   "why": "print ദ്റ"
+  },
+  {
+   "pdf_page": 27,
+   "block": 1,
+   "old": "169]",
+   "new": "١٦٩]",
+   "why": "print Arabic-Indic digits"
+  },
+  {
+   "pdf_page": 27,
+   "block": 2,
+   "old": "അതേക്കുറിച്ച് (തിരുമേനി",
+   "new": "അതേക്കുറിച്ച് ഞങ്ങൾ (തിരുമേനി",
+   "why": "print has ഞങ്ങൾ at line end"
+  },
+  {
+   "pdf_page": 28,
+   "block": 1,
+   "old": "185]",
+   "new": "١٨٥]",
+   "why": "print Arabic-Indic digits"
+  },
+  {
+   "pdf_page": 28,
+   "block": 4,
+   "old": "11]",
+   "new": "١١]",
+   "why": "print Arabic-Indic digits"
+  },
+  {
+   "pdf_page": 28,
+   "block": 7,
+   "old": "നിർദ്ദേശം",
+   "new": "നിർദേശം",
+   "why": "print single ദ here (block 5 has stacked ദ്ദ, kept)"
+  },
+  {
+   "pdf_page": 29,
+   "block": 0,
+   "old": "24]",
+   "new": "٢٤]",
+   "why": "print Arabic-Indic digits"
+  },
+  {
+   "pdf_page": 30,
+   "block": 0,
+   "old": "ഒരു മഹർ അവൾക്ക്",
+   "new": "ഒരു മഹ്ർ അവൾക്ക്",
+   "why": "print ഹ്ർ (virama on ഹ)"
+  },
+  {
+   "pdf_page": 30,
+   "block": 0,
+   "old": "ഉദ്ദേശ്യം, ഭംഗി",
+   "new": "ഉദ്ധേശ്യം, ഭംഗി",
+   "why": "print ദ്ധ"
+  },
+  {
+   "pdf_page": 32,
+   "block": 0,
+   "old": "അനുഭവപ്പെടു.",
+   "new": "അനുഭവപ്പെടൂ.",
+   "why": "native zoom: mark under ട is filled loop (ൂ) vs open circle of ു in നു same word"
+  },
+  {
+   "pdf_page": 34,
+   "block": 4,
+   "old": "വിടു. പക്ഷേ",
+   "new": "വിടൂ. പക്ഷേ",
+   "why": "native zoom: filled ൂ loop vs open ു in വിടുക two lines below"
+  },
+  {
+   "pdf_page": 36,
+   "block": 0,
+   "old": "ائْتُونِي",
+   "new": "إِيتُونِي",
+   "why": "print إيتوني (hamza-below alif + ya)"
+  },
+  {
+   "pdf_page": 36,
+   "block": 3,
+   "old": "ഉദ്ദേശ്യം",
+   "new": "ഉദ്ധേശ്യം",
+   "why": "print ദ്ധ"
+  },
+  {
+   "pdf_page": 37,
+   "block": 4,
+   "old": "ഉജ്നാൻ,",
+   "new": "ളജ്നാൻ,",
+   "why": "native zoom: initial glyph has closed bottom loop (ള), unlike ഉ of ഉസ്ഫാൻ beside it; matches ضجنان"
+  },
+  {
+   "pdf_page": 38,
+   "block": 0,
+   "old": "مَعَهُمْ}",
+   "new": "مَعَهُ}",
+   "why": "print وهو معه} (misprint kept)"
+  },
+  {
+   "pdf_page": 40,
+   "block": 0,
+   "old": "ഉദ്ദേശിക്കുന്നത്.",
+   "new": "ഉദ്ധേശിക്കുന്നത്.",
+   "why": "print ദ്ധ"
+  },
+  {
+   "pdf_page": 40,
+   "block": 0,
+   "old": "ഉദ്ദേശം.",
+   "new": "ഉദ്ധേശം.",
+   "why": "print ദ്ധ"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "B"
+  },
+  {
+   "idx": 1,
+   "print": "B"
+  },
+  {
+   "idx": 2,
+   "print": "B"
+  },
+  {
+   "idx": 3,
+   "print": "B"
+  },
+  {
+   "idx": 4,
+   "print": "B"
+  },
+  {
+   "idx": 5,
+   "print": "B"
+  },
+  {
+   "idx": 6,
+   "print": "B"
+  },
+  {
+   "idx": 7,
+   "print": "B"
+  },
+  {
+   "idx": 8,
+   "print": "B"
+  },
+  {
+   "idx": 9,
+   "print": "B"
+  },
+  {
+   "idx": 10,
+   "print": "B"
+  },
+  {
+   "idx": 11,
+   "print": "A"
+  },
+  {
+   "idx": 12,
+   "print": "B"
+  },
+  {
+   "idx": 13,
+   "print": "B"
+  },
+  {
+   "idx": 14,
+   "print": "B"
+  },
+  {
+   "idx": 15,
+   "print": "B"
+  },
+  {
+   "idx": 16,
+   "print": "B"
+  },
+  {
+   "idx": 17,
+   "print": "B"
+  },
+  {
+   "idx": 18,
+   "print": "A"
+  },
+  {
+   "idx": 19,
+   "print": "B"
+  },
+  {
+   "idx": 20,
+   "print": "B"
+  },
+  {
+   "idx": 21,
+   "print": "B"
+  },
+  {
+   "idx": 22,
+   "print": "B"
+  },
+  {
+   "idx": 23,
+   "print": "B"
+  },
+  {
+   "idx": 24,
+   "print": "B"
+  },
+  {
+   "idx": 25,
+   "print": "B"
+  },
+  {
+   "idx": 26,
+   "print": "B"
+  },
+  {
+   "idx": 27,
+   "print": "B"
+  },
+  {
+   "idx": 28,
+   "print": "B"
+  },
+  {
+   "idx": 29,
+   "print": "B"
+  },
+  {
+   "idx": 30,
+   "print": "B"
+  },
+  {
+   "idx": 31,
+   "print": "B"
+  },
+  {
+   "idx": 32,
+   "print": "B"
+  },
+  {
+   "idx": 33,
+   "print": "B"
+  },
+  {
+   "idx": 34,
+   "print": "B"
+  },
+  {
+   "idx": 35,
+   "print": "B"
+  },
+  {
+   "idx": 36,
+   "print": "B"
+  },
+  {
+   "idx": 37,
+   "print": "B"
+  },
+  {
+   "idx": 38,
+   "print": "B"
+  },
+  {
+   "idx": 39,
+   "print": "B"
+  },
+  {
+   "idx": 40,
+   "print": "B"
+  },
+  {
+   "idx": 41,
+   "print": "B"
+  },
+  {
+   "idx": 42,
+   "print": "B"
+  },
+  {
+   "idx": 43,
+   "print": "B"
+  },
+  {
+   "idx": 44,
+   "print": "B"
+  },
+  {
+   "idx": 45,
+   "print": "B"
+  },
+  {
+   "idx": 46,
+   "print": "B"
+  },
+  {
+   "idx": 47,
+   "print": "B"
+  },
+  {
+   "idx": 48,
+   "print": "B"
+  },
+  {
+   "idx": 49,
+   "print": "A"
+  },
+  {
+   "idx": 50,
+   "print": "B"
+  },
+  {
+   "idx": 51,
+   "print": "B"
+  },
+  {
+   "idx": 52,
+   "print": "B"
+  },
+  {
+   "idx": 53,
+   "print": "B"
+  },
+  {
+   "idx": 54,
+   "print": "B"
+  },
+  {
+   "idx": 55,
+   "print": "B"
+  },
+  {
+   "idx": 56,
+   "print": "A"
+  },
+  {
+   "idx": 57,
+   "print": "B"
+  },
+  {
+   "idx": 58,
+   "print": "B"
+  },
+  {
+   "idx": 59,
+   "print": "B"
+  },
+  {
+   "idx": 60,
+   "print": "B"
+  },
+  {
+   "idx": 61,
+   "print": "B"
+  },
+  {
+   "idx": 62,
+   "print": "B"
+  },
+  {
+   "idx": 63,
+   "print": "B"
+  },
+  {
+   "idx": 64,
+   "print": "B"
+  },
+  {
+   "idx": 65,
+   "print": "B"
+  },
+  {
+   "idx": 66,
+   "print": "B"
+  },
+  {
+   "idx": 67,
+   "print": "B"
+  },
+  {
+   "idx": 68,
+   "print": "B"
+  },
+  {
+   "idx": 69,
+   "print": "B"
+  },
+  {
+   "idx": 70,
+   "print": "B"
+  },
+  {
+   "idx": 71,
+   "print": "B"
+  },
+  {
+   "idx": 72,
+   "print": "B"
+  },
+  {
+   "idx": 73,
+   "print": "B"
+  },
+  {
+   "idx": 74,
+   "print": "B"
+  },
+  {
+   "idx": 75,
+   "print": "B"
+  },
+  {
+   "idx": 76,
+   "print": "B"
+  },
+  {
+   "idx": 77,
+   "print": "B"
+  },
+  {
+   "idx": 78,
+   "print": "B"
+  },
+  {
+   "idx": 79,
+   "print": "B"
+  },
+  {
+   "idx": 80,
+   "print": "B"
+  },
+  {
+   "idx": 81,
+   "print": "B"
+  },
+  {
+   "idx": 82,
+   "print": "B"
+  },
+  {
+   "idx": 83,
+   "print": "B"
+  },
+  {
+   "idx": 84,
+   "print": "B"
+  },
+  {
+   "idx": 85,
+   "print": "B"
+  },
+  {
+   "idx": 86,
+   "print": "B"
+  },
+  {
+   "idx": 87,
+   "print": "B"
+  },
+  {
+   "idx": 88,
+   "print": "B"
+  },
+  {
+   "idx": 89,
+   "print": "B"
+  },
+  {
+   "idx": 90,
+   "print": "B"
+  }
+ ]
+}

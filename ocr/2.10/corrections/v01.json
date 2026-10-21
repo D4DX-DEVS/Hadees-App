@@ -1,0 +1,45 @@
+{
+ "part": "2.10",
+ "pages_checked": [
+  17
+ ],
+ "corrections": [
+  {
+   "pdf_page": 17,
+   "block": 0,
+   "old": "വേർപെടുത്തിക്കളഞ്ഞോ",
+   "new": "വേർപ്പെടുത്തിക്കളെഞ്ഞോ",
+   "why": "print has doubled പ്പ and ളെ (author misprint)"
+  },
+  {
+   "pdf_page": 17,
+   "block": 3,
+   "old": "അങ്ങയുടേയും",
+   "new": "അങ്ങയുടെയും",
+   "why": "print ടെയും"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 17,
+   "hadith_no": 63,
+   "note": "Arabic checked at moderate zoom only; no non-harakat diffs seen"
+  }
+ ],
+ "not_checked": [
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31
+ ]
+}

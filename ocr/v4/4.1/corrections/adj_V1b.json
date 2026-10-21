@@ -1,0 +1,117 @@
+{
+  "part": "4.1",
+  "pages_checked": [
+    28,
+    30,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38
+  ],
+  "corrections": [
+    {
+      "pdf_page": 34,
+      "block": 4,
+      "old": "സകാത്ത്",
+      "new": "സകാത്",
+      "why": "bab heading print 'സകാത് ശേഖരിക്കൽ' has single ത (Opus right); block 4 is bab with malayalam key; diff idx 8 part 1"
+    },
+    {
+      "pdf_page": 36,
+      "block": 1,
+      "old": "ഗോത്രക്കാരനായ",
+      "new": "ഗേത്രക്കാരനായ",
+      "why": "print 'ഗേത്രക്കാരനായ' (േ sign, not ോ); Opus right. Vowel-sign call, read at zoom, moderate confidence"
+    }
+  ],
+  "uncertain": [
+    {
+      "pdf_page": 32,
+      "note": "idx5 'താങ്കൾക്കറിയില്ലേയോ?' vs Opus 'താങ്കൾക്കറിയില്ലെയോ?' (ലേ / ലെ, vowel sign e vs ee after ല്ല) in the last paragraph line 3 ('വിധിച്ചതെന്ന് താങ്കൾക്കറിയില്ലേയോ?'): sign not decidable at zoom; HELD, not applied"
+    },
+    {
+      "pdf_page": 35,
+      "note": "idx9 narrator 'അദിയ്യുബ്നു അമീറതുൽ കിന്ദി(റ):' (block 4): print looks like 'കിൻദി' (chillu-like ൻ) per Opus, but ന്/ൻ chillu call not certain at zoom; HELD, not applied (Sonnet 'കിന്ദി' kept)"
+    }
+  ],
+  "decisions": [
+    {
+      "idx": 0,
+      "pdf_page": 28,
+      "print": "A",
+      "note": "bab heading block 0 matches print 'കൊന്നവന്ന് നൽകൽ'; Opus 'കൊന്നവന്' wrong"
+    },
+    {
+      "idx": 1,
+      "pdf_page": 28,
+      "print": "A",
+      "note": "print 'അവന്' with virama = chillu encoding of 'അവൻ' (encoding only); Sonnet already chillu form; no change"
+    },
+    {
+      "idx": 2,
+      "pdf_page": 28,
+      "print": "A",
+      "note": "print 'എന്നിട്ട് അവന്നുള്ള മുതൽ'; Sonnet block 2 right, Opus 'അവനുള്ള' wrong"
+    },
+    {
+      "idx": 3,
+      "pdf_page": 30,
+      "print": "A",
+      "note": "print 'അശ്ജഇൗ(റ),' with ഇൗ; Sonnet right, Opus ഈ not in print"
+    },
+    {
+      "idx": 4,
+      "pdf_page": 32,
+      "print": "A",
+      "note": "print 'അശ്ജഇൗ(റ):' with ഇൗ; Sonnet right"
+    },
+    {
+      "idx": 5,
+      "pdf_page": 32,
+      "print": "held"
+    },
+    {
+      "idx": 6,
+      "pdf_page": 33,
+      "print": "A",
+      "note": "print 'തീർച്ചയായും' (single യ); Opus 'തീർച്ചയായയും' has extra യ"
+    },
+    {
+      "idx": 7,
+      "pdf_page": 33,
+      "print": "A",
+      "note": "print 'അബൂസഇൗദിൽ' with ഇൗ (ൗ mark visible); Sonnet right, moderate confidence in ൗ vs ീ"
+    },
+    {
+      "idx": 8,
+      "pdf_page": 34,
+      "print": "B",
+      "note": "block 4 bab heading corrected to single ത; block 13 'സകാത്ത് പിരിക്കാൻ' print double ത, Sonnet right there (no change)"
+    },
+    {
+      "idx": 9,
+      "pdf_page": 35,
+      "print": "held"
+    },
+    {
+      "idx": 10,
+      "pdf_page": 36,
+      "print": "B"
+    },
+    {
+      "idx": 11,
+      "pdf_page": 37,
+      "print": "A",
+      "note": "print 'ഏഴുന്നേറ്റു' (ഏ sign visible); Sonnet right, moderate confidence"
+    },
+    {
+      "idx": 12,
+      "pdf_page": 38,
+      "print": "A",
+      "note": "print 'തീർച്ചയായും' (single യ); Opus extra യ wrong"
+    }
+  ]
+}

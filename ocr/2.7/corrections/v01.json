@@ -1,0 +1,374 @@
+{
+ "part": "2.7",
+ "pages_checked": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15
+ ],
+ "corrections": [
+  {
+   "pdf_page": 1,
+   "block": 5,
+   "old": "മുലബ്ബദ",
+   "new": "മുലബ്വദ",
+   "why": "print mulabvada"
+  },
+  {
+   "pdf_page": 2,
+   "block": 0,
+   "old": "كَسِيَهَا",
+   "new": "كُسِيَهَا",
+   "why": "damma"
+  },
+  {
+   "pdf_page": 2,
+   "block": 0,
+   "old": "كَفَنَهُ يَوْمَ",
+   "new": "كَفَنُهُ يَوْمَ",
+   "why": "damma"
+  },
+  {
+   "pdf_page": 2,
+   "block": 1,
+   "old": "സഅ്ദ്ദുസ്സാഇദി",
+   "new": "സഅ്ദുസ്സാഇദി",
+   "why": "extra consonant"
+  },
+  {
+   "pdf_page": 2,
+   "block": 1,
+   "old": "കഫൻപുടയാക്കാനാണ് ചോദിച്ചത്",
+   "new": "കഫൻപുടയാക്കാനാണത് ചോദിച്ചത്",
+   "why": "dropped ത"
+  },
+  {
+   "pdf_page": 2,
+   "block": 3,
+   "old": "ചെരുപ്പ് കൊണ്ട് കെട്ടി",
+   "new": "ചെരട് കൊണ്ട് കെട്ടി",
+   "why": "word"
+  },
+  {
+   "pdf_page": 2,
+   "block": 3,
+   "old": "അൻഅനആക്കിപ്പറഞ്ഞ",
+   "new": "അൻഅനാക്കിപ്പറഞ്ഞ",
+   "why": "vowel sign"
+  },
+  {
+   "pdf_page": 3,
+   "block": 1,
+   "old": "നിനക്കാണ് സർവ്വസ്തുതിയും",
+   "new": "നിനക്കാണ് സർവസ്തുതിയും",
+   "why": "spelling"
+  },
+  {
+   "pdf_page": 3,
+   "block": 3,
+   "old": "ബാഹിലീ(റ)",
+   "new": "ബാഹിലി(റ)",
+   "why": "vowel"
+  },
+  {
+   "pdf_page": 3,
+   "block": 3,
+   "old": "നൂറുമ്പുകയോ",
+   "new": "നുരുമ്പുകയോ",
+   "why": "word"
+  },
+  {
+   "pdf_page": 4,
+   "block": 3,
+   "old": "നൂറുമ്പുവരെ",
+   "new": "നുരുമ്പുംവരെ",
+   "why": "word"
+  },
+  {
+   "pdf_page": 4,
+   "block": 10,
+   "old": "അബൂദ്ദർദാഅ്(റ)",
+   "new": "അബുദ്ദർദാഅ്(റ)",
+   "why": "vowel"
+  },
+  {
+   "pdf_page": 5,
+   "block": 1,
+   "old": "സ്വർഗത്തിൽ",
+   "new": "സ്വർഗ്ഗത്തിൽ",
+   "why": "spelling"
+  },
+  {
+   "pdf_page": 5,
+   "block": 1,
+   "old": "ഉദ്ധരിക്കുമ്പോൾ",
+   "new": "ഉധരിക്കുമ്പോൾ",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 6,
+   "block": 1,
+   "old": "ഞെരിയാണേക്ക്",
+   "new": "ഞെരിയാണിക്ക്",
+   "why": "vowel"
+  },
+  {
+   "pdf_page": 6,
+   "block": 7,
+   "old": "ഇത് അല്ലാഹുവിന്റെ ദൂതനാണ്.",
+   "new": "ഇത് അല്ലാഹുവിന്റെ ദൂതരാണ്.",
+   "why": "word"
+  },
+  {
+   "pdf_page": 6,
+   "block": 7,
+   "old": "രണ്ട് പ്രാവശ്യം 'അലൈക്കസ്സലാം' എന്നു പറഞ്ഞു",
+   "new": "രണ്ട് പ്രാവശ്യം 'അല്ലാഹുവിന്റെ റസൂലേ, അലൈക്കസ്സലാം' എന്നുപറഞ്ഞു",
+   "why": "dropped words"
+  },
+  {
+   "pdf_page": 7,
+   "block": 2,
+   "old": "അയാളോട് റസൂൽ(സ) പറഞ്ഞു: “നിങ്ങൾ പോയി വുളൂ",
+   "new": "അയാളോട് റസൂൽ(സ) പറഞ്ഞു: “നിങ്ങൾ പോയി വുളു",
+   "why": "spelling"
+  },
+  {
+   "pdf_page": 7,
+   "block": 2,
+   "old": "അയാൾ പോയി വുളൂ ചെയ്തു",
+   "new": "അയാൾ പോയി വുളു ചെയ്തു",
+   "why": "spelling"
+  },
+  {
+   "pdf_page": 7,
+   "block": 2,
+   "old": "നബി(സ) പറഞ്ഞു: “നിങ്ങൾ പോയി വുളൂ",
+   "new": "നബി(സ) പറഞ്ഞു: “നിങ്ങൾ പോയി വുളു",
+   "why": "spelling"
+  },
+  {
+   "pdf_page": 7,
+   "block": 2,
+   "old": "വുളൂ ചെയ്യാൻ",
+   "new": "വുളു ചെയ്യാൻ",
+   "why": "spelling"
+  },
+  {
+   "pdf_page": 8,
+   "block": 0,
+   "old": "كَاالشَّامَةِ - فِي النَّاسِ، فَإِنَّ اللَّهَ لَا يُحِبُّ الْفُحْشَ وَلَا التَّفَحُّشَ\". (د",
+   "new": "كَالشَّامَةِ - فِي النَّاسِ، فَإِنَّ اللَّهَ لَا يُحِبُّ الْفُحْشَ وَلَا التَّفَحُّشَ\". (د",
+   "why": "extra alif"
+  },
+  {
+   "pdf_page": 8,
+   "block": 1,
+   "old": "ബിശ്‌രിത്തഗ്‌ലബി",
+   "new": "ബിശ്രിത്തഅ്ലബി",
+   "why": "name spelling"
+  },
+  {
+   "pdf_page": 9,
+   "block": 0,
+   "old": "ചെയ്തുകൊണ്ടിരിക്കുന്നവനെപ്പോലെയാണ്",
+   "new": "ചെയ്ത്കൊണ്ടേയിരിക്കുന്നവനെപ്പോലെയാണ്",
+   "why": "word"
+  },
+  {
+   "pdf_page": 9,
+   "block": 0,
+   "old": "അബൂദ്ദർദാഅ്(റ) ചോദിച്ചു: ഞങ്ങൾക്കുപകരിക്കുന്ന,",
+   "new": "അബുദ്ദർദാഅ്(റ) ചോദിച്ചു: ഞങ്ങൾക്കുപകരിക്കുന്ന,",
+   "why": "vowel"
+  },
+  {
+   "pdf_page": 9,
+   "block": 0,
+   "old": "അപ്പോൾ അബൂദ്ദർദാഅ്(റ) അദ്ദേഹത്തോട്",
+   "new": "അപ്പോൾ അബുദ്ദർദാഅ്(റ) അദ്ദേഹത്തോട്",
+   "why": "vowel"
+  },
+  {
+   "pdf_page": 9,
+   "block": 0,
+   "old": "'ഖുറൈമുൽ അസദീ'",
+   "new": "'ഖുറൈമുൽ അസദി'",
+   "why": "vowel"
+  },
+  {
+   "pdf_page": 9,
+   "block": 0,
+   "old": "ദുഷ്യതയോ",
+   "new": "ദൂഷ്യത്തെയോ",
+   "why": "word"
+  },
+  {
+   "pdf_page": 9,
+   "block": 2,
+   "old": "അമീർ വന്നിരിക്കുന്നു. അമീർ വന്നിരിക്കുന്നു.",
+   "new": "അമീറ് വന്നിരിക്കുന്നു. അമീറ് വന്നിരിക്കുന്നു.",
+   "why": "chillu"
+  },
+  {
+   "pdf_page": 9,
+   "block": 7,
+   "old": "കടുകുമണിത്തൂക്കം അഹങ്കാരമുള്ളവൻ സ്വർഗത്തിൽ",
+   "new": "കടുക്മണിത്തൂക്കം അഹങ്കാരമുള്ളവൻ സ്വർഗ്ഗത്തിൽ",
+   "why": "spelling"
+  },
+  {
+   "pdf_page": 11,
+   "block": 1,
+   "old": "അവിടുത്തെ കണങ്കാലിലെ",
+   "new": "അവിടത്തെ കണങ്കാലിലെ",
+   "why": "word"
+  },
+  {
+   "pdf_page": 11,
+   "block": 1,
+   "old": "ഞെരിയാണിയീൽ",
+   "new": "ഞെരിയാണിയിൽ",
+   "why": "vowel"
+  },
+  {
+   "pdf_page": 12,
+   "block": 6,
+   "old": "അസ്മാഉബിന്ത്",
+   "new": "അസ്മാഉബിൻത്",
+   "why": "chillu"
+  },
+  {
+   "pdf_page": 12,
+   "block": 13,
+   "old": "ഉദ്ധരിച്ച് പറയുന്നു",
+   "new": "ഉധരിച്ച് പറയുന്നു",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 13,
+   "block": 1,
+   "old": "ഉബാദത്തുബ്നു",
+   "new": "ഉബാദതുബ്നു",
+   "why": "extra consonant"
+  },
+  {
+   "pdf_page": 13,
+   "block": 1,
+   "old": "ഇമാമായി നമസ്കരിച്ചു",
+   "new": "ഇമാമായി നസ്കരിച്ചു",
+   "why": "word"
+  },
+  {
+   "pdf_page": 13,
+   "block": 3,
+   "old": "വുളൂ ചെയ്തു",
+   "new": "വുളു ചെയ്തു",
+   "why": "spelling"
+  },
+  {
+   "pdf_page": 13,
+   "block": 8,
+   "old": "ഒട്ടാരത്തിന്റെ",
+   "new": "കൂടാരത്തിന്റെ",
+   "why": "word"
+  },
+  {
+   "pdf_page": 13,
+   "block": 10,
+   "old": "അബ്ദിസ്സുലമി(റ)",
+   "new": "അബ്ദിസ്സുലമീ(റ)",
+   "why": "vowel"
+  },
+  {
+   "pdf_page": 14,
+   "block": 5,
+   "old": "നിവേദനം ചെയ്യുന്നു",
+   "new": "നിവേദകനം ചെയ്യുന്നു",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 14,
+   "block": 7,
+   "old": "രുകാന(റ): അദ്ദേഹം",
+   "new": "റുകാന(റ): അദ്ദേഹം",
+   "why": "letter"
+  },
+  {
+   "pdf_page": 14,
+   "block": 7,
+   "old": "രുകാന(റ) പറയുന്നു",
+   "new": "റുകാന(റ) പറയുന്നു",
+   "why": "letter"
+  },
+  {
+   "pdf_page": 14,
+   "block": 9,
+   "old": "അബ്ദുർറഹ്മാനുബ്നു ഔഫ്",
+   "new": "അബ്ദുറഹ്മാനുബ്നി ഔഫ്",
+   "why": "name spelling"
+  },
+  {
+   "pdf_page": 15,
+   "block": 7,
+   "old": "يُرْخِينَهُ شِبْرًا",
+   "new": "تُرْخِينَهُ شِبْرًا",
+   "why": "ya vs ta"
+  },
+  {
+   "pdf_page": 15,
+   "block": 10,
+   "old": "സഫിയ്യ(റ)",
+   "new": "സ്വഫിയ്യ(റ)",
+   "why": "letter"
+  },
+  {
+   "pdf_page": 15,
+   "block": 10,
+   "old": "ഉദ്ധരിക്കുന്നു",
+   "new": "ഉധരിക്കുന്നു",
+   "why": "print spelling"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 2,
+   "note": "hadith 6 Arabic block 0 first word may be a bi-prefixed form (printed as ببردة); not certain at zoom"
+  },
+  {
+   "pdf_page": 3,
+   "note": "hadith 12 Malayalam block 7: second sarvvastuthi may be printed sarvastuthi; unsure"
+  },
+  {
+   "pdf_page": 4,
+   "note": "hadith 16 Malayalam block 10: JSON has ഇൻഖിത്വാ'ഉണ്ട്, print looks like ഇൻഖിതാഉ'ണ്ട്; unsure"
+  },
+  {
+   "pdf_page": 5,
+   "note": "hadith 19 Malayalam block 6: JSON ബലാത്വത്തിൽ, print looks like ബലാഥിൽ; unsure"
+  },
+  {
+   "pdf_page": 13,
+   "note": "hadith 47 Malayalam block 1: JSON ഇൻഖിത്വാഉം, print looks like ഇൻഖിതാഉം; unsure"
+  },
+  {
+   "pdf_page": 15,
+   "note": "bab/hadith 59 Arabic: حُرْقَانِيَّة in JSON, print vowel on ح looks like fatha; unsure"
+  },
+  {
+   "pdf_page": 1,
+   "note": "Arabic harakat: print is only partly vocalized (many marks absent) while JSON is fully vocalized on all pages; not enumerated as corrections"
+  }
+ ]
+}

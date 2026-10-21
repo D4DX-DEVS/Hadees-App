@@ -1,0 +1,397 @@
+{
+ "part": "3.13",
+ "pages_checked": [
+  7,
+  11,
+  16,
+  18,
+  19,
+  20,
+  21,
+  22,
+  24,
+  26,
+  27,
+  28,
+  30,
+  31,
+  32,
+  33,
+  36,
+  41,
+  42,
+  44,
+  45,
+  47,
+  50,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  63,
+  65,
+  67,
+  70,
+  68
+ ],
+ "corrections": [
+  {
+   "pdf_page": 7,
+   "block": 1,
+   "old": "അബൂസഈദ്(റ) കരഞ്ഞുകൊണ്ട്",
+   "new": "അബുസഈദ്(റ) കരഞ്ഞുകൊണ്ട്",
+   "why": "print ബു (open ു) here; first line of same page shows ബൂ"
+  },
+  {
+   "pdf_page": 18,
+   "block": 5,
+   "old": "തിരുദൂതരേ, അവരിൽ",
+   "new": "തിരൂദൂതരേ, അവരിൽ",
+   "why": "print ര-ൂ and ദ-ൂ (ball signs)"
+  },
+  {
+   "pdf_page": 20,
+   "block": 0,
+   "old": "يَقْرَؤُونَ الْقُرْآنَ",
+   "new": "يَقْرَءُونَ الْقُرْآنَ",
+   "why": "print hamza on the line (ء), not on waw"
+  },
+  {
+   "pdf_page": 21,
+   "block": 2,
+   "old": "يَقْرَؤُونَ التَّوْرَاةَ",
+   "new": "يَقْرَءُونَ التَّوْرَاةَ",
+   "why": "print hamza on line"
+  },
+  {
+   "pdf_page": 26,
+   "block": 2,
+   "old": "فَتَنْصَرُونَ وَتَغْنَمُونَ",
+   "new": "فَتَنْتَصِرُونَ وَتَغْنَمُونَ",
+   "why": "print فتنتصرون"
+  },
+  {
+   "pdf_page": 26,
+   "block": 7,
+   "old": "നാഫിഇബ്നു",
+   "new": "നാഫിഉബ്നു",
+   "why": "print ഉ"
+  },
+  {
+   "pdf_page": 28,
+   "block": 1,
+   "old": "ജനനിബിഡമാകൽ മദീന",
+   "new": "ജനനിബിഢമാകൽ മദീന",
+   "why": "print ഢ"
+  },
+  {
+   "pdf_page": 36,
+   "block": 4,
+   "old": "മഹ്ദി പറയും: എടുത്തോളു",
+   "new": "മഹ്ദി പറയും: എടുത്തോളൂ",
+   "why": "print ൂ (ball sign)"
+  },
+  {
+   "pdf_page": 41,
+   "block": 3,
+   "old": "يَقُولُ: ابْنُ صَيَّادٍ، قَالَ ابْنُ عُمَرَ",
+   "new": "يَقُولُ: ابْنُ صَيَّادٍ، قَالَ: قَالَ ابْنُ عُمَرَ",
+   "why": "print has extra قال: (end of line 1 of hadith 139)"
+  },
+  {
+   "pdf_page": 42,
+   "block": 1,
+   "old": "صَادِقًا وَكَاذِبًا. أَوْ: صَادِقِينَ وَكَاذِبَيْنِ",
+   "new": "صَادِقًا وَكَاذِبِينَ. أَوْ: صَادِقِينَ وَكَاذِبًا",
+   "why": "print order: صادقا وكاذبين. أو: صادقين وكاذبا"
+  },
+  {
+   "pdf_page": 44,
+   "block": 5,
+   "old": "(കോൺസ്റ്റന്റിനോപ്പിൾ)",
+   "new": "(കോൺസ്റ്റാന്റിനോപ്പിൾ)",
+   "why": "print has ാ: സ്റ്റാന്റി"
+  },
+  {
+   "pdf_page": 44,
+   "block": 7,
+   "old": "കോൺസ്റ്റന്റിനോപ്പിൾ (ഇസ്താംബൂൾ)",
+   "new": "കോൺസ്റ്റാന്റിനോപ്പിൾ (ഇസ്താംബൂൾ)",
+   "why": "print has ാ"
+  },
+  {
+   "pdf_page": 47,
+   "block": 2,
+   "old": "ഇംറാനുബ്നു ഹുസൈൻ(റ):",
+   "new": "ഇംറാനുബ്നു ഹുസ്വൈൻ(റ):",
+   "why": "print ഹുസ്വൈൻ (ൈ drawn before the സ്വ cluster)"
+  },
+  {
+   "pdf_page": 50,
+   "block": 0,
+   "old": "വിജയംവരികയും",
+   "new": "വിജയംവരിക്കുകയും",
+   "why": "print വരിക്കുകയും"
+  },
+  {
+   "pdf_page": 56,
+   "block": 1,
+   "old": "നദികളുമുണ്ടെന്ന ജനങ്ങൾ",
+   "new": "നദികളുമുണ്ടെന്ന് ജനങ്ങൾ",
+   "why": "print ന്ന് with virama"
+  },
+  {
+   "pdf_page": 57,
+   "block": 3,
+   "old": "ഇംറാനുബ്നു ഹുസൈൻ(റ)വിന്റെ",
+   "new": "ഇംറാനുബ്നു ഹുസ്വൈൻ(റ)വിന്റെ",
+   "why": "print ഹുസ്വൈൻ"
+  },
+  {
+   "pdf_page": 63,
+   "block": 0,
+   "old": "സ്വർഗ്ഗവും സ്വർഗം നരകവുമാകുന്നു",
+   "new": "സ്വർഗ്ഗവും സ്വർഗ്ഗം നരകവുമാകുന്നു",
+   "why": "print സ്വർഗ്ഗം"
+  },
+  {
+   "pdf_page": 65,
+   "block": 4,
+   "old": "ഉദ്ദേശിച്ചാൽ",
+   "new": "ഉദ്ധേശിച്ചാൽ",
+   "why": "print ദ്ധ conjunct"
+  },
+  {
+   "pdf_page": 70,
+   "block": 1,
+   "old": "എനിക്ക് അറിയിക്കപ്പെട്ടിരിക്കുന്നു",
+   "new": "എനിക്ക് അിറയിക്കപ്പെട്ടിരിക്കുന്നു",
+   "why": "print typo: അ + ി sign then റ (അിറയിക്കപ്പെട്ടിരിക്കുന്നു), kept as printed"
+  },
+  {
+   "pdf_page": 70,
+   "block": 1,
+   "old": "എനിക്കുള്ള അറിവ്",
+   "new": "എനിക്കുള്ള അിറവ്",
+   "why": "print typo അിറവ്, kept as printed"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 27,
+   "note": "Placement only: print has Arabic bab line بَابٌ: فِي أَمَارَاتِ الْمَلَاحِمِ at bottom of p27 but the ML subtitle വൻയുദ്ധങ്ങളുടെ അടയാളങ്ങൾ is printed at TOP of p28 (our JSON has it in p27 bab block 9). Text identical; no text correction."
+  },
+  {
+   "pdf_page": 32,
+   "note": "Placement only: Arabic bab بَابٌ: فِي فَتْحِ قُسْطُنْطِينِيَّةَ is at bottom of p32, ML subtitle കോൺസ്റ്റാന്റിനോപ്പിൾ ജയിച്ചടക്കൽ is printed at TOP of p33 (our JSON has it in p32 bab). Text identical; no text correction."
+  },
+  {
+   "pdf_page": 45,
+   "note": "Extra check p45/p46: NO printed line missing. Bottom of p45 print ends \"...യുദ്ധം ചെയ്തുകൊണ്ടിരിക്കും. എന്നാൽ\" (755) and p46 top begins \"രണ്ടു കൂട്ടരും ജയമില്ലാതെ മടങ്ങുകയും ചാവേറുകൾ ഇല്ലാതാകുകയും ചെയ്യും. വീണ്ടും...\"; our p45 block 2 contains all 14 printed lines (including both repeated cycles) and ends with എന്നാൽ. No correction needed."
+  },
+  {
+   "pdf_page": 0,
+   "note": "Encoding note: this print renders ഈ as ഇ+ൗ (e.g. അബൂസഇൗദിൽ, ഔസാഇൗ); decisions A kept our ഇൗ spelling (items 33,35-37,42,43,45,46). Items 0-2 (അബൂ/അബു): p7 line prints ബു, p11 and p16 print ബൂ."
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "B"
+  },
+  {
+   "idx": 1,
+   "print": "A"
+  },
+  {
+   "idx": 2,
+   "print": "A"
+  },
+  {
+   "idx": 3,
+   "print": "B"
+  },
+  {
+   "idx": 4,
+   "print": "A"
+  },
+  {
+   "idx": 5,
+   "print": "A"
+  },
+  {
+   "idx": 6,
+   "print": "B"
+  },
+  {
+   "idx": 7,
+   "print": "B"
+  },
+  {
+   "idx": 8,
+   "print": "A"
+  },
+  {
+   "idx": 9,
+   "print": "A"
+  },
+  {
+   "idx": 10,
+   "print": "B"
+  },
+  {
+   "idx": 11,
+   "print": "B"
+  },
+  {
+   "idx": 12,
+   "print": "B"
+  },
+  {
+   "idx": 13,
+   "print": "B"
+  },
+  {
+   "idx": 14,
+   "print": "B"
+  },
+  {
+   "idx": 15,
+   "print": "A"
+  },
+  {
+   "idx": 16,
+   "print": "A"
+  },
+  {
+   "idx": 17,
+   "print": "A"
+  },
+  {
+   "idx": 18,
+   "print": "A"
+  },
+  {
+   "idx": 19,
+   "print": "B"
+  },
+  {
+   "idx": 20,
+   "print": "B"
+  },
+  {
+   "idx": 21,
+   "print": "B"
+  },
+  {
+   "idx": 22,
+   "print": "B"
+  },
+  {
+   "idx": 23,
+   "print": "B"
+  },
+  {
+   "idx": 24,
+   "print": "B"
+  },
+  {
+   "idx": 25,
+   "print": "B"
+  },
+  {
+   "idx": 26,
+   "print": "B"
+  },
+  {
+   "idx": 27,
+   "print": "A"
+  },
+  {
+   "idx": 28,
+   "print": "B"
+  },
+  {
+   "idx": 29,
+   "print": "B"
+  },
+  {
+   "idx": 30,
+   "print": "A"
+  },
+  {
+   "idx": 31,
+   "print": "A"
+  },
+  {
+   "idx": 32,
+   "print": "A"
+  },
+  {
+   "idx": 33,
+   "print": "A"
+  },
+  {
+   "idx": 34,
+   "print": "A"
+  },
+  {
+   "idx": 35,
+   "print": "A"
+  },
+  {
+   "idx": 36,
+   "print": "A"
+  },
+  {
+   "idx": 37,
+   "print": "A"
+  },
+  {
+   "idx": 38,
+   "print": "A"
+  },
+  {
+   "idx": 39,
+   "print": "B"
+  },
+  {
+   "idx": 40,
+   "print": "B"
+  },
+  {
+   "idx": 41,
+   "print": "B"
+  },
+  {
+   "idx": 42,
+   "print": "A"
+  },
+  {
+   "idx": 43,
+   "print": "A"
+  },
+  {
+   "idx": 44,
+   "print": "B"
+  },
+  {
+   "idx": 45,
+   "print": "A"
+  },
+  {
+   "idx": 47,
+   "print": "B"
+  },
+  {
+   "idx": 48,
+   "print": "B"
+  },
+  {
+   "idx": 46,
+   "print": "A"
+  }
+ ]
+}

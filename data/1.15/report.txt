@@ -1,0 +1,3 @@
+p531: note block with no hadith (not stored): ഓതിയിരുന്നത്
+#41: variants arabic=8 malayalam=7 (check pairing)
+#1: before first bab heading, assigned to chapter 1

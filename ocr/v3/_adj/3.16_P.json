@@ -1,0 +1,20 @@
+[
+ {
+  "pdf_page": 16,
+  "block": 1,
+  "kind": "ML",
+  "a": "അവതരിച്ചു)",
+  "context": "െ പിന്നിൽ നിൽക്കുകയായിരുന്നു. അദ്ദേഹം ചോദിച്ചു: എനിക്ക് വല്ല ഇളവുമുണ്ടോ? അപ്പോൾ 'പ്രതിസന്ധികൾ ഉള്ളവർ ഒഴികെ' എന്ന സൂക്തം അവതരിച്ചു). മറ്റൊരു നിവേദനം: 'സത്യവിശ്വാസികളിൽ യുദ്ധം ചെയ്യാതെ ഒഴിഞ്ഞിരിക്കുന്നവ",
+  "type": "verifier_check",
+  "note": "hadith 55: our text has a closing \")\" after അവതരിച്ചു with no matching \"(\" - check against print"
+ },
+ {
+  "pdf_page": 54,
+  "block": 0,
+  "kind": "ML",
+  "a": "",
+  "context": "ളിൽ നിന്ന് (പ്രശംസവാക്കുകളും മറ്റും) ഉദ്ദേശിച്ചുകൊണ്ടും യുദ്ധം ചെയ്താൽ അല്ലാഹു നിന്നെ പ്രദർശ",
+  "type": "verifier_check",
+  "note": "hadith 182: our text has an opening \"(\" before ജനങ്ങ with no closing \")\" and a space inside \"ജനങ്ങ ളിൽ\" - check parentheses and spacing against print"
+ }
+]

@@ -1,0 +1,301 @@
+{
+ "part": "1.13",
+ "pages_checked": [
+  2,
+  6,
+  7,
+  8,
+  9,
+  10,
+  12,
+  13,
+  14,
+  15,
+  31,
+  34,
+  35,
+  36,
+  38,
+  40,
+  41,
+  42,
+  44,
+  45
+ ],
+ "corrections": [
+  {
+   "pdf_page": 6,
+   "block": 1,
+   "old": "പിന്നീട്",
+   "new": "പീന്നീട്",
+   "why": "print has ീ (പീന്നീട്)"
+  },
+  {
+   "pdf_page": 7,
+   "block": 3,
+   "old": "മറ്റെഭാഗത്തെക്കാൽ",
+   "new": "മറ്റെഭാഗത്തെക്കാൾ",
+   "why": "print ends with chillu ൾ"
+  },
+  {
+   "pdf_page": 10,
+   "block": 4,
+   "old": "ദണ്ഡമാകുന്നു",
+   "new": "ദണ്ഢമാകുന്നു",
+   "why": "print glyph is ഢ (with extra curl)"
+  },
+  {
+   "pdf_page": 12,
+   "block": 1,
+   "old": "സ്രഷ്ടാവായ",
+   "new": "സ്രൃഷ്ടാവായ",
+   "why": "print has ൃ (സ്രൃഷ്ടാവായ)"
+  },
+  {
+   "pdf_page": 12,
+   "block": 1,
+   "old": "അറിയുന്നതായ",
+   "new": "അിറയുന്നതായ",
+   "why": "print typo: ി placed after അ"
+  },
+  {
+   "pdf_page": 13,
+   "block": 7,
+   "old": "നബി(സ്)",
+   "new": "നബി(സ)",
+   "why": "print has (സ) not (സ്)"
+  },
+  {
+   "pdf_page": 14,
+   "block": 6,
+   "old": "റുകൂഈൽ",
+   "new": "റുകൂഇൗൽ",
+   "why": "print reads ഇ+ൗ+ൽ (റുകൂഇൗൽ)"
+  },
+  {
+   "pdf_page": 34,
+   "block": 4,
+   "old": "അബൂബക്ർ(റ):",
+   "new": "അബൂബക്റ(റ):",
+   "why": "print has full റ glyph after ക് (ബക്റ), not chillu ർ"
+  },
+  {
+   "pdf_page": 35,
+   "block": 9,
+   "old": "خَلْفَكُمْ؟",
+   "new": "خَلْفَكُمْ",
+   "why": "print has no question mark after خلفكم"
+  },
+  {
+   "pdf_page": 36,
+   "block": 6,
+   "old": "(കൈവിരലും)",
+   "new": "(കൈവിരളും)",
+   "why": "print has ള"
+  },
+  {
+   "pdf_page": 36,
+   "block": 1,
+   "old": "മധ്യേ",
+   "new": "മദ്ധ്യേ",
+   "why": "print has ദ്ധ്യ"
+  },
+  {
+   "pdf_page": 31,
+   "block": 2,
+   "old": "ഇരുപത് അധ്യായങ്ങൾ",
+   "new": "ഇരുപത് അദ്ധ്യായങ്ങൾ",
+   "why": "print has ദ്ധ്യ"
+  },
+  {
+   "pdf_page": 31,
+   "block": 2,
+   "old": "സ്വഭാവമുള്ള അധ്യായങ്ങൾ",
+   "new": "സ്വഭാവമുള്ള അദ്ധ്യായങ്ങൾ",
+   "why": "print has ദ്ധ്യ"
+  },
+  {
+   "pdf_page": 40,
+   "block": 6,
+   "old": "ബറാഅ്ബ്നു",
+   "new": "ബറാഅ്ബുനു",
+   "why": "print has ബു+നു"
+  },
+  {
+   "pdf_page": 41,
+   "block": 6,
+   "old": "അബൂഹുറൈറ(റ):",
+   "new": "അബുഹുറൈറ(റ):",
+   "why": "print has short ു (അബുഹുറൈറ)"
+  },
+  {
+   "pdf_page": 44,
+   "block": 2,
+   "old": "മുകണ്ടു.",
+   "new": "കണ്ടു.",
+   "why": "print: line breaks after ചെയ്യുന്നതു, next line starts കണ്ടു.; stray മു not printed"
+  },
+  {
+   "pdf_page": 44,
+   "block": 8,
+   "old": "നിർത്തത്തിൻ്റത്ര",
+   "new": "നിർത്തത്തിന്റത്ര",
+   "why": "print is ordinary ന്റ ligature (ൻ+് artefact in JSON)"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "A"
+  },
+  {
+   "idx": 1,
+   "print": "A"
+  },
+  {
+   "idx": 2,
+   "print": "B"
+  },
+  {
+   "idx": 3,
+   "print": "A"
+  },
+  {
+   "idx": 4,
+   "print": "B"
+  },
+  {
+   "idx": 5,
+   "print": "A"
+  },
+  {
+   "idx": 6,
+   "print": "A"
+  },
+  {
+   "idx": 7,
+   "print": "A"
+  },
+  {
+   "idx": 8,
+   "print": "A"
+  },
+  {
+   "idx": 9,
+   "print": "A"
+  },
+  {
+   "idx": 10,
+   "print": "B"
+  },
+  {
+   "idx": 11,
+   "print": "B"
+  },
+  {
+   "idx": 12,
+   "print": "B"
+  },
+  {
+   "idx": 13,
+   "print": "A"
+  },
+  {
+   "idx": 14,
+   "print": "B"
+  },
+  {
+   "idx": 15,
+   "print": "other"
+  },
+  {
+   "idx": 16,
+   "print": "A"
+  },
+  {
+   "idx": 17,
+   "print": "A"
+  },
+  {
+   "idx": 18,
+   "print": "A"
+  },
+  {
+   "idx": 19,
+   "print": "A"
+  },
+  {
+   "idx": 20,
+   "print": "A"
+  },
+  {
+   "idx": 21,
+   "print": "B"
+  },
+  {
+   "idx": 22,
+   "print": "B"
+  },
+  {
+   "idx": 23,
+   "print": "A"
+  },
+  {
+   "idx": 24,
+   "print": "B"
+  },
+  {
+   "idx": 25,
+   "print": "B"
+  },
+  {
+   "idx": 26,
+   "print": "A"
+  },
+  {
+   "idx": 27,
+   "print": "B"
+  },
+  {
+   "idx": 28,
+   "print": "B"
+  },
+  {
+   "idx": 29,
+   "print": "A"
+  },
+  {
+   "idx": 30,
+   "print": "A"
+  },
+  {
+   "idx": 31,
+   "print": "A"
+  },
+  {
+   "idx": 32,
+   "print": "A"
+  },
+  {
+   "idx": 33,
+   "print": "B"
+  },
+  {
+   "idx": 34,
+   "print": "A"
+  },
+  {
+   "idx": 35,
+   "print": "B"
+  },
+  {
+   "idx": 36,
+   "print": "A"
+  },
+  {
+   "idx": 37,
+   "print": "A"
+  }
+ ]
+}

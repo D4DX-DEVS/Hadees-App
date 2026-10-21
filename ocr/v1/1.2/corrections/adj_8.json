@@ -1,0 +1,280 @@
+{
+ "part": "1.2",
+ "pages_checked": [
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62
+ ],
+ "corrections": [
+  {
+   "pdf_page": 57,
+   "block": 3,
+   "old": "അബൂതാലിബാണ്",
+   "new": "അബൂത്വാലിബാണ്",
+   "why": "print shows ത്വ ligature"
+  },
+  {
+   "pdf_page": 60,
+   "block": 0,
+   "old": "നാഥനങ്കലേക്ക്",
+   "new": "നാഥങ്കലേക്ക്",
+   "why": "line break നാഥ|ങ്കലേക്ക്, no ന"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 56,
+   "note": "item10: line break after പങ്, cannot tell space vs none; kept A"
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "A"
+  },
+  {
+   "idx": 1,
+   "print": "A"
+  },
+  {
+   "idx": 2,
+   "print": "A"
+  },
+  {
+   "idx": 3,
+   "print": "A"
+  },
+  {
+   "idx": 4,
+   "print": "A"
+  },
+  {
+   "idx": 5,
+   "print": "A"
+  },
+  {
+   "idx": 6,
+   "print": "A"
+  },
+  {
+   "idx": 7,
+   "print": "A"
+  },
+  {
+   "idx": 8,
+   "print": "A"
+  },
+  {
+   "idx": 9,
+   "print": "A"
+  },
+  {
+   "idx": 10,
+   "print": "A"
+  },
+  {
+   "idx": 11,
+   "print": "A"
+  },
+  {
+   "idx": 12,
+   "print": "A"
+  },
+  {
+   "idx": 13,
+   "print": "A"
+  },
+  {
+   "idx": 14,
+   "print": "A"
+  },
+  {
+   "idx": 15,
+   "print": "A"
+  },
+  {
+   "idx": 16,
+   "print": "B"
+  },
+  {
+   "idx": 17,
+   "print": "A"
+  },
+  {
+   "idx": 18,
+   "print": "A"
+  },
+  {
+   "idx": 19,
+   "print": "A"
+  },
+  {
+   "idx": 20,
+   "print": "A"
+  },
+  {
+   "idx": 21,
+   "print": "A"
+  },
+  {
+   "idx": 22,
+   "print": "A"
+  },
+  {
+   "idx": 23,
+   "print": "A"
+  },
+  {
+   "idx": 24,
+   "print": "A"
+  },
+  {
+   "idx": 25,
+   "print": "A"
+  },
+  {
+   "idx": 26,
+   "print": "A"
+  },
+  {
+   "idx": 27,
+   "print": "A"
+  },
+  {
+   "idx": 28,
+   "print": "A"
+  },
+  {
+   "idx": 29,
+   "print": "A"
+  },
+  {
+   "idx": 30,
+   "print": "A"
+  },
+  {
+   "idx": 31,
+   "print": "A"
+  },
+  {
+   "idx": 32,
+   "print": "A"
+  },
+  {
+   "idx": 33,
+   "print": "A"
+  },
+  {
+   "idx": 34,
+   "print": "A"
+  },
+  {
+   "idx": 35,
+   "print": "A"
+  },
+  {
+   "idx": 36,
+   "print": "A"
+  },
+  {
+   "idx": 37,
+   "print": "B"
+  },
+  {
+   "idx": 38,
+   "print": "A"
+  },
+  {
+   "idx": 39,
+   "print": "A"
+  },
+  {
+   "idx": 40,
+   "print": "A"
+  },
+  {
+   "idx": 41,
+   "print": "A"
+  },
+  {
+   "idx": 42,
+   "print": "A"
+  },
+  {
+   "idx": 43,
+   "print": "A"
+  },
+  {
+   "idx": 44,
+   "print": "A"
+  },
+  {
+   "idx": 45,
+   "print": "A"
+  },
+  {
+   "idx": 46,
+   "print": "A"
+  },
+  {
+   "idx": 47,
+   "print": "A"
+  },
+  {
+   "idx": 48,
+   "print": "A"
+  },
+  {
+   "idx": 49,
+   "print": "A"
+  },
+  {
+   "idx": 50,
+   "print": "A"
+  },
+  {
+   "idx": 51,
+   "print": "A"
+  },
+  {
+   "idx": 52,
+   "print": "A"
+  },
+  {
+   "idx": 53,
+   "print": "A"
+  },
+  {
+   "idx": 54,
+   "print": "A"
+  },
+  {
+   "idx": 55,
+   "print": "A"
+  },
+  {
+   "idx": 56,
+   "print": "A"
+  },
+  {
+   "idx": 57,
+   "print": "A"
+  },
+  {
+   "idx": 58,
+   "print": "A"
+  },
+  {
+   "idx": 59,
+   "print": "A"
+  },
+  {
+   "idx": 60,
+   "print": "A"
+  }
+ ]
+}

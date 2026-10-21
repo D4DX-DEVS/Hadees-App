@@ -1,0 +1,226 @@
+{
+ "part": "4.7",
+ "pages_checked": [
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  89,
+  90,
+  91,
+  92,
+  93,
+  95,
+  96,
+  111,
+  112,
+  113,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120
+ ],
+ "corrections": [
+  {
+   "pdf_page": 82,
+   "block": 5,
+   "old": "അബൂബകർ(റ)വും",
+   "new": "അബൂബക്ർ(റ)വും",
+   "why": "print has virama: അബൂബക്ർ"
+  },
+  {
+   "pdf_page": 85,
+   "block": 2,
+   "old": "ശേഷം) അബൂബകർ(റ)",
+   "new": "ശേഷം) അബൂബക്ർ(റ)",
+   "why": "print has virama: അബൂബക്ർ"
+  },
+  {
+   "pdf_page": 85,
+   "block": 2,
+   "old": "അല്ലാഹുവിന്റെ അടുക്കലുള്ളതാണ്",
+   "new": "അല്ലാഹുവിന്റ അടുക്കലുള്ളതാണ്",
+   "why": "print at line end reads അല്ലാഹുവിന്റ (no െ sign); kept as printed"
+  },
+  {
+   "pdf_page": 88,
+   "block": 4,
+   "old": "فَتَعْصَوْهُ",
+   "new": "فَعَصَيْتُمُوهُ",
+   "why": "print reads فعصيتموه"
+  },
+  {
+   "pdf_page": 88,
+   "block": 0,
+   "old": "\"ഫാതിമ",
+   "new": "\"ഫാത്വിമ",
+   "why": "print shows ത്വ stroke: ഫാത്വിമ"
+  },
+  {
+   "pdf_page": 88,
+   "block": 2,
+   "old": "ഫാതിമയാണ്",
+   "new": "ഫാത്വിമയാണ്",
+   "why": "print shows ത്വ: ഫാത്വിമയാണ്"
+  },
+  {
+   "pdf_page": 90,
+   "block": 2,
+   "old": "അബൂബകർ(റ),",
+   "new": "അബൂബക്ർ(റ),",
+   "why": "print has virama: അബൂബക്ർ"
+  },
+  {
+   "pdf_page": 90,
+   "block": 2,
+   "old": "അബൂബകർ(റ)വിനെ",
+   "new": "അബൂബക്ർ(റ)വിനെ",
+   "why": "print (split അബൂ / ബക്ർ(റ)വിനെ across lines) has virama"
+  },
+  {
+   "pdf_page": 90,
+   "block": 6,
+   "old": "അബുദർറ്(റ)",
+   "new": "അബൂദർറ്(റ)",
+   "why": "heading print shows ൂ (same glyph as line-end അബൂ on this page); field malayalam"
+  },
+  {
+   "pdf_page": 117,
+   "block": 7,
+   "old": "ശക്തിയേറിയ ശിക്ഷയേതാണ്?",
+   "new": "ശക്തി",
+   "why": "page ends at ശക്തി (last line); p118 continues യായ ശിക്ഷയേതാണ്? — reading A had invented continuation"
+  },
+  {
+   "pdf_page": 119,
+   "block": 0,
+   "old": "നിശ്ചയം അബൂബകർ ഖുറൈ",
+   "new": "നിശ്ചയം അബൂബക്ർ ഖുറൈ",
+   "why": "print has virama: അബൂബക്ർ"
+  },
+  {
+   "pdf_page": 119,
+   "block": 0,
+   "old": "നിനക്ക് അബൂബകർ തരം",
+   "new": "നിനക്ക് അബൂബക്ർ തരം",
+   "why": "print has virama: അബൂബക്ർ"
+  },
+  {
+   "pdf_page": 119,
+   "block": 0,
+   "old": "അബൂബകർ(റ)വിന്റെ",
+   "new": "അബൂബക്ർ(റ)വിന്റെ",
+   "why": "print has virama: അബൂബക്ർ"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 88,
+   "note": "held glyph-level ഇൗ/ഈ: block 2 ബനൂഇസ്റാഇൗലിൽ vs ബനൂഇസ്റാഈലിൽ (print shows old-style ഇ+ൗ ligature; not applied)"
+  },
+  {
+   "pdf_page": 94,
+   "note": "held vowel sign െ/േ: മറ്റേയാൾക്ക് (A) vs മറ്റെയാൾക്ക് (B), split at line end മറ്റ-/യാൾക്ക്; print blurred, sign not settled; not applied"
+  },
+  {
+   "pdf_page": 114,
+   "note": "held glyph-level ഇൗ/ഈ: ബഇൗർ (A) vs ബഈർ (B); print shows old-style ഇ+ൗ ligature; not applied"
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 130,
+   "print": "A"
+  },
+  {
+   "idx": 131,
+   "print": "B"
+  },
+  {
+   "idx": 132,
+   "print": "B"
+  },
+  {
+   "idx": 133,
+   "print": "B"
+  },
+  {
+   "idx": 134,
+   "print": "B"
+  },
+  {
+   "idx": 135,
+   "print": "B"
+  },
+  {
+   "idx": 136,
+   "print": "held"
+  },
+  {
+   "idx": 137,
+   "print": "B"
+  },
+  {
+   "idx": 138,
+   "print": "B"
+  },
+  {
+   "idx": 139,
+   "print": "B"
+  },
+  {
+   "idx": 140,
+   "print": "B"
+  },
+  {
+   "idx": 141,
+   "print": "A"
+  },
+  {
+   "idx": 142,
+   "print": "A"
+  },
+  {
+   "idx": 143,
+   "print": "held"
+  },
+  {
+   "idx": 144,
+   "print": "A"
+  },
+  {
+   "idx": 159,
+   "print": "A"
+  },
+  {
+   "idx": 160,
+   "print": "held"
+  },
+  {
+   "idx": 161,
+   "print": "B"
+  },
+  {
+   "idx": 162,
+   "print": "B"
+  },
+  {
+   "idx": 163,
+   "print": "B"
+  },
+  {
+   "idx": 164,
+   "print": "B"
+  }
+ ],
+ "pages_with_held_items": [
+  88,
+  94,
+  114
+ ]
+}

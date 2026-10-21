@@ -1,0 +1,162 @@
+{
+ "part": "2.7",
+ "pages_checked": [
+  2,
+  3,
+  4,
+  5,
+  13,
+  15,
+  16,
+  18,
+  21,
+  22,
+  23,
+  24
+ ],
+ "corrections": [
+  {
+   "pdf_page": 2,
+   "block": 0,
+   "old": "بُرْدَةٌ، قَالَتْ",
+   "new": "بِبُرْدَةٍ، قَالَتْ",
+   "why": "print begins with bi-prefixed form (ببردة) with kasratan"
+  },
+  {
+   "pdf_page": 3,
+   "block": 7,
+   "old": "ഈ വസ്ത്രം എന്നെ ധരിപ്പിക്കുകയും എനിക്ക് നൽകുകയും ചെയ്ത അല്ലാഹുവിനാണ് സർവ്വസ്തുതിയും",
+   "new": "ഈ വസ്ത്രം എന്നെ ധരിപ്പിക്കുകയും എനിക്ക് നൽകുകയും ചെയ്ത അല്ലാഹുവിനാണ് സർവസ്തുതിയും",
+   "why": "second sarvastuthi printed with single va"
+  },
+  {
+   "pdf_page": 4,
+   "block": 10,
+   "old": "ഇൻഖിത്വാ'ഉണ്ട്",
+   "new": "ഇൻഖിതാഉ'ണ്ട്",
+   "why": "print reads ഇൻഖിതാഉ'ണ്ട്"
+  },
+  {
+   "pdf_page": 5,
+   "block": 6,
+   "old": "ബലാത്വത്തിൽ",
+   "new": "ബലാഥിൽ",
+   "why": "print reads ബലാഥിൽ"
+  },
+  {
+   "pdf_page": 13,
+   "block": 1,
+   "old": "ഇൻഖിത്വാഉം",
+   "new": "ഇൻഖിതാഉം",
+   "why": "print reads ഇൻഖിതാഉം"
+  },
+  {
+   "pdf_page": 15,
+   "block": 3,
+   "old": "الْحُرْقَانِيَّةِ",
+   "new": "الْحَرْقَانِيَّةِ",
+   "why": "print has fatha on ha"
+  },
+  {
+   "pdf_page": 15,
+   "block": 4,
+   "old": "عِمَامَةً حُرْقَانِيَّةً",
+   "new": "عِمَامَةً حَرْقَانِيَّةً",
+   "why": "print has fatha on ha"
+  },
+  {
+   "pdf_page": 18,
+   "block": 13,
+   "old": "ഫാത്വിമ",
+   "new": "ഫാതിമ",
+   "why": "print reads ഫാതിമമാർക്ക്"
+  },
+  {
+   "pdf_page": 22,
+   "block": 1,
+   "old": "ഖസ്സിയ്യ്",
+   "new": "ഖസിയ്യ്",
+   "why": "print has single സ"
+  },
+  {
+   "pdf_page": 23,
+   "block": 1,
+   "old": "ഉത്ബതു",
+   "new": "ഉഖ്ബതു",
+   "why": "print reads ഉഖ്ബതുബ്നു"
+  },
+  {
+   "pdf_page": 24,
+   "block": 1,
+   "old": "ഉകൈദറിലേക്ക്",
+   "new": "ഉകൈദരിലേക്ക്",
+   "why": "print reads ഉകൈദരിലേക്ക്"
+  }
+ ],
+ "resolved": [
+  {
+   "pdf_page": 2,
+   "hadith_no": 6
+  },
+  {
+   "pdf_page": 3,
+   "hadith_no": 12
+  },
+  {
+   "pdf_page": 4,
+   "hadith_no": 16
+  },
+  {
+   "pdf_page": 5,
+   "hadith_no": 19
+  },
+  {
+   "pdf_page": 13,
+   "hadith_no": 47
+  },
+  {
+   "pdf_page": 15,
+   "hadith_no": 59
+  },
+  {
+   "pdf_page": 1,
+   "hadith_no": null
+  },
+  {
+   "pdf_page": 18,
+   "hadith_no": null
+  },
+  {
+   "pdf_page": 18,
+   "hadith_no": 78
+  },
+  {
+   "pdf_page": 16,
+   "hadith_no": 68
+  },
+  {
+   "pdf_page": 21,
+   "hadith_no": 90
+  },
+  {
+   "pdf_page": 22,
+   "hadith_no": 96
+  },
+  {
+   "pdf_page": 23,
+   "hadith_no": 101
+  },
+  {
+   "pdf_page": 24,
+   "hadith_no": 104
+  },
+  {
+   "pdf_page": 23,
+   "hadith_no": 99
+  },
+  {
+   "pdf_page": 33,
+   "hadith_no": 135
+  }
+ ]
+}

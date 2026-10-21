@@ -1,0 +1,400 @@
+{
+ "part": "2.12",
+ "pages_checked": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14
+ ],
+ "corrections": [
+  {
+   "pdf_page": 2,
+   "block": 0,
+   "old": "അവിടുത്തെ പ്രാർത്ഥനയിൽ",
+   "new": "അവിടത്തെ പ്രാർത്ഥനയിൽ",
+   "why": "word differs"
+  },
+  {
+   "pdf_page": 2,
+   "block": 0,
+   "old": "നീ വിജയം നൽകേണമേ",
+   "new": "നീ വിജയം നൽകണേ",
+   "why": "word differs"
+  },
+  {
+   "pdf_page": 2,
+   "block": 0,
+   "old": "എളുപ്പമാക്കേണമേ",
+   "new": "എളുപ്പമാക്കേണേ",
+   "why": "word differs"
+  },
+  {
+   "pdf_page": 2,
+   "block": 0,
+   "old": "കറങ്ങി മടങ്ങുന്നവനും",
+   "new": "കരഞ്ഞ് മടങ്ങുന്നവനും",
+   "why": "word differs"
+  },
+  {
+   "pdf_page": 2,
+   "block": 2,
+   "old": "അശ്ജഇയ്യ്(റ)",
+   "new": "അശ്ജഇൗ(റ)",
+   "why": "name spelling"
+  },
+  {
+   "pdf_page": 2,
+   "block": 2,
+   "old": "ഫർവതുബ്നു നൗഫലിൽ",
+   "new": "ഫർവതുബിൻ നൗഫലിനിൽ",
+   "why": "name spelling"
+  },
+  {
+   "pdf_page": 2,
+   "block": 6,
+   "old": "യാത്രാവേളയിൽ",
+   "new": "യാത്രവേളയിൽ",
+   "why": "spelling"
+  },
+  {
+   "pdf_page": 3,
+   "block": 5,
+   "old": "തരേണമേ; അല്ലാഹുവേ",
+   "new": "തരേണമേ, അല്ലാഹുവേ",
+   "why": "punctuation"
+  },
+  {
+   "pdf_page": 3,
+   "block": 7,
+   "old": "അവിടുത്തെ വിശ്വസിക്കുകയും",
+   "new": "അവിടത്തെ വിശ്വസിക്കുകയും",
+   "why": "spelling"
+  },
+  {
+   "pdf_page": 4,
+   "block": 0,
+   "old": "മറിച്ചു കൊണ്ടിരിക്കും",
+   "new": "മറിച്ച് കൊണ്ടിരിക്കും",
+   "why": "chillu"
+  },
+  {
+   "pdf_page": 4,
+   "block": 2,
+   "old": "പഠിപ്പിച്ചു തന്നാലും",
+   "new": "പഠിപ്പിച്ച് തന്നാലും",
+   "why": "chillu"
+  },
+  {
+   "pdf_page": 4,
+   "block": 4,
+   "old": "സർവ്വ നന്മകളാൽ",
+   "new": "സർവ്വനന്മകളാൽ",
+   "why": "spacing"
+  },
+  {
+   "pdf_page": 4,
+   "block": 6,
+   "old": "ഞങ്ങൾ അവിടുത്തെ കണ്ടപ്പോൾ",
+   "new": "ഞങ്ങൾ അവിടത്തെ കണ്ടപ്പോൾ",
+   "why": "spelling"
+  },
+  {
+   "pdf_page": 5,
+   "block": 0,
+   "old": "അസ്മാഅ്ബിന്ത്",
+   "new": "അസ്മാഅ്ബിൻത്",
+   "why": "name spelling"
+  },
+  {
+   "pdf_page": 5,
+   "block": 0,
+   "old": "ഞാൻ ചൊല്ലാറുണ്ട്",
+   "new": "ഞാനത് ചൊല്ലാറുണ്ട്",
+   "why": "word dropped"
+  },
+  {
+   "pdf_page": 5,
+   "block": 0,
+   "old": "പങ്ക്ചേർക്കുകയില്ല",
+   "new": "പങ്ചേർക്കുകയില്ല",
+   "why": "spelling as printed"
+  },
+  {
+   "pdf_page": 5,
+   "block": 5,
+   "old": "قَالَ تِرْمِذِي",
+   "new": "قَالَ تُرْمُذِي",
+   "why": "vowels"
+  },
+  {
+   "pdf_page": 5,
+   "block": 6,
+   "old": "അസ്വസ്ഥനായാൽ",
+   "new": "അസ്വസ്ഥരായാൽ",
+   "why": "word differs"
+  },
+  {
+   "pdf_page": 6,
+   "block": 1,
+   "old": "ബറാഉബ്നു ആസിബ്",
+   "new": "ബറാഉബിൻ ആസിബ്",
+   "why": "name spelling"
+  },
+  {
+   "pdf_page": 6,
+   "block": 1,
+   "old": "ഭീതിയോട് കൂടെയും",
+   "new": "ഭക്തിയോട് കൂടെയും",
+   "why": "word differs"
+  },
+  {
+   "pdf_page": 6,
+   "block": 1,
+   "old": "നിന്നെയേൽപിക്കുന്നു",
+   "new": "നിന്നെയേൽപ്പിക്കുന്നു",
+   "why": "conjunct"
+  },
+  {
+   "pdf_page": 6,
+   "block": 5,
+   "old": "ചെയ്യട്ടെ. കാരണം",
+   "new": "ചെയ്യട്ടെ, കാരണം",
+   "why": "punctuation"
+  },
+  {
+   "pdf_page": 6,
+   "block": 5,
+   "old": "പിടിച്ചുവെക്കുകയാണെങ്കിൽ",
+   "new": "പിടിച്ചുവെക്കുന്നുവെങ്കിൽ",
+   "why": "word differs"
+  },
+  {
+   "pdf_page": 7,
+   "block": 1,
+   "old": "റാഫിഉബ്നു ഖദീജ്",
+   "new": "റാഫിഉബിൻ ഖദീജ്",
+   "why": "name spelling"
+  },
+  {
+   "pdf_page": 7,
+   "block": 3,
+   "old": "റസൂൽ(സ) അവിടുത്തെ വിരിപ്പിലേക്ക്",
+   "new": "റസൂൽ(സ) അവിടത്തെ വിരിപ്പിലേക്ക്",
+   "why": "spelling"
+  },
+  {
+   "pdf_page": 7,
+   "block": 5,
+   "old": "മുൻവന്നത് ആണ്",
+   "new": "മുൻഖതിഅ് ആണ്",
+   "why": "word differs (munqati')"
+  },
+  {
+   "pdf_page": 7,
+   "block": 6,
+   "old": "إِذَا أَخَذَ أَحَدُنَا",
+   "new": "يَأْمُرُنَا إِذَا أَخَذَ أَحَدُنَا",
+   "why": "word dropped"
+  },
+  {
+   "pdf_page": 7,
+   "block": 7,
+   "old": "തൗറാത്തിനെയും ഇൻജീലിനെയും ശ്രേഷ്ഠമായ ഖുർആനിനെയും",
+   "new": "തൗറാത്തിനേയും ഇൻജീലിനേയും ശ്രേഷ്ഠമായ ഖുർആനിനേയും",
+   "why": "vowel sign"
+  },
+  {
+   "pdf_page": 7,
+   "block": 7,
+   "old": "കാവൽ ചോദിക്കുന്നു, അവ",
+   "new": "കാവൽ ചോദിക്കൂ, അവ",
+   "why": "word differs"
+  },
+  {
+   "pdf_page": 8,
+   "block": 3,
+   "old": "ആരാധ്വനുമില്ല",
+   "new": "ആരാധ്യനില്ല",
+   "why": "OCR error"
+  },
+  {
+   "pdf_page": 8,
+   "block": 3,
+   "old": "ദോഷങ്ങൾ അല്ലാഹു",
+   "new": "ദോശങ്ങൾ അല്ലാഹു",
+   "why": "spelling as printed"
+  },
+  {
+   "pdf_page": 9,
+   "block": 4,
+   "old": "السَّجْدَةَ",
+   "new": "السَّجْدَةِ",
+   "why": "kasra"
+  },
+  {
+   "pdf_page": 9,
+   "block": 5,
+   "old": "(തൻസീൽ)സജദ'",
+   "new": "(തൻസീൽ)സജദഃ'",
+   "why": "visarga"
+  },
+  {
+   "pdf_page": 9,
+   "block": 9,
+   "old": "ഇർബാളുബ്നു",
+   "new": "ഹിർബാളുബ്നു",
+   "why": "name spelling"
+  },
+  {
+   "pdf_page": 10,
+   "block": 0,
+   "old": "ഖാലിദുബ്നുൽ വലീദ് അൽ മഖ്സൂമി(റ)",
+   "new": "ഖാലിദുബിൻ വലീദ് അൽ മഖ്സൂമീ(റ)",
+   "why": "name spelling"
+  },
+  {
+   "pdf_page": 10,
+   "block": 0,
+   "old": "അവ പിഴപ്പിച്ചവരുടെയും",
+   "new": "അവ പിഴപ്പിച്ചവയുടെയും",
+   "why": "word differs"
+  },
+  {
+   "pdf_page": 10,
+   "block": 0,
+   "old": "(തൃ)",
+   "new": "(തു)",
+   "why": "source code"
+  },
+  {
+   "pdf_page": 10,
+   "block": 2,
+   "old": "അബ്ദുല്ലാഹിബ്നു അംറ്",
+   "new": "അബ്ദുല്ലാഹിബിനു അംറ്",
+   "why": "name spelling"
+  },
+  {
+   "pdf_page": 10,
+   "block": 2,
+   "old": "(ദ,തൃ)",
+   "new": "(ദ,തു)",
+   "why": "source code"
+  },
+  {
+   "pdf_page": 10,
+   "block": 5,
+   "old": "(ബു,ദ,തൃ,ജ)",
+   "new": "(ബു,ദ,തു,ജ)",
+   "why": "source code"
+  },
+  {
+   "pdf_page": 11,
+   "block": 5,
+   "old": "ആഖിറത്തിന്റേയോ",
+   "new": "ആഖിറത്തിന്റെയോ",
+   "why": "vowel sign"
+  },
+  {
+   "pdf_page": 11,
+   "block": 9,
+   "old": "ഞാൻ അവിടുത്തെ നോക്കി",
+   "new": "ഞാൻ അവിടത്തെ നോക്കി",
+   "why": "spelling"
+  },
+  {
+   "pdf_page": 12,
+   "block": 1,
+   "old": "بَابُ: الدُّعَاءِ بِالْعَفْوِ",
+   "new": "بَابٌ: الدُّعَاءُ بِالْعَفْوِ",
+   "why": "harakat"
+  },
+  {
+   "pdf_page": 12,
+   "block": 1,
+   "old": "മാപ്പിന്നും ആരോഗ്യത്തിന്നും",
+   "new": "മാപ്പിനും ആരോഗ്യത്തിനും",
+   "why": "spelling"
+  },
+  {
+   "pdf_page": 12,
+   "block": 5,
+   "old": "ലൈലത്തുൽ ഖദ്ർ",
+   "new": "ലൈലതുൽ ഖദർ",
+   "why": "spelling as printed"
+  },
+  {
+   "pdf_page": 13,
+   "block": 0,
+   "old": "عَنْ ابْنِ عُمَرَ",
+   "new": "عَنِ ابْنِ عُمَرَ",
+   "why": "kasra"
+  },
+  {
+   "pdf_page": 13,
+   "block": 3,
+   "old": "കാരണമതി തിന്മ",
+   "new": "കാരണമത് തിന്മ",
+   "why": "chillu"
+  },
+  {
+   "pdf_page": 14,
+   "block": 0,
+   "old": "മഹത്തായ സിംഹാസനത്തിന്റെ",
+   "new": "മഹത്വമായ സിംഹാസനത്തിന്റെ",
+   "why": "word differs"
+  },
+  {
+   "pdf_page": 14,
+   "block": 7,
+   "old": "بَابٌ: الدُّعَاءِ:",
+   "new": "بَابٌ: الدُّعَاءُ:",
+   "why": "damma"
+  },
+  {
+   "pdf_page": 14,
+   "block": 9,
+   "old": "അശ്ജഈ(റ)",
+   "new": "അശ്ജഇൗ(റ)",
+   "why": "name spelling"
+  },
+  {
+   "pdf_page": 14,
+   "block": 9,
+   "old": "റിസ്ക്വ്",
+   "new": "രിസ്ഖ്",
+   "why": "spelling as printed"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 3,
+   "hadith_no": 10,
+   "note": "arabic text begins with a duplicated Arabic-Indic number prefix (e.g. '١٠.'); same on hadith 11, 12 (p3) and 47-51 (p13). Print shows the number only as the hadith label."
+  },
+  {
+   "pdf_page": 5,
+   "hadith_no": 19,
+   "note": "Malayalam 'മുസബ്ബിഹാത്ത്' could not be resolved at zoom; left unchanged (p9 hadith 35)."
+  },
+  {
+   "pdf_page": 11,
+   "hadith_no": 43,
+   "note": "print may read 'വുളൂ എടുത്തു' where JSON has 'വുളു'; not certain."
+  },
+  {
+   "pdf_page": 7,
+   "hadith_no": 27,
+   "note": "print may read 'സർവ്വവസ്തുക്കളുടെയം' (typo) in line 2 of the Malayalam; JSON has '...യും'; not certain."
+  }
+ ]
+}

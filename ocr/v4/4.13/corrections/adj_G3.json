@@ -1,0 +1,209 @@
+{
+ "part": "4.13",
+ "pages_checked": [
+  49,
+  50,
+  51,
+  53,
+  57,
+  58,
+  59,
+  62,
+  63,
+  64,
+  66,
+  67,
+  68,
+  69,
+  70
+ ],
+ "corrections": [
+  {
+   "pdf_page": 49,
+   "block": 0,
+   "old": "فَيُقَالُ",
+   "new": "فَيَقُولُ",
+   "why": "print reads فيقول: يا محمد"
+  },
+  {
+   "pdf_page": 57,
+   "block": 0,
+   "old": "അല്ലെല്ലൽ",
+   "new": "അല്ലൈൽ",
+   "why": "print reads (അല്ലൈൽ: 5 - 10)"
+  },
+  {
+   "pdf_page": 59,
+   "block": 2,
+   "old": "മാംസക്ഷ്ണമായും",
+   "new": "മാംസക്കഷ്ണമായും",
+   "why": "print has ക്ക before ഷ്ണ (two ka shapes), ours drops a ക"
+  },
+  {
+   "pdf_page": 63,
+   "block": 2,
+   "old": "അടിസ്ഥാനത്തിലാണ്",
+   "new": "അടസ്ഥാനത്തിലാണ്",
+   "why": "print has printed typo അടസ്ഥാനത്തിലാണ് (no ി)"
+  },
+  {
+   "pdf_page": 64,
+   "block": 4,
+   "old": "വേർതിരിച്ച്",
+   "new": "വേർത്തിരിച്ച്",
+   "why": "print has ർത്ത"
+  },
+  {
+   "pdf_page": 64,
+   "block": 6,
+   "old": "സർവ്വ കാര്യങ്ങളെ",
+   "new": "സർവ കാര്യങ്ങളെ",
+   "why": "print reads സർവ"
+  },
+  {
+   "pdf_page": 66,
+   "block": 3,
+   "old": "[الكهف: 80]",
+   "new": "[الكهف: ٨٠]",
+   "why": "print uses Arabic-Indic digits ٨٠"
+  },
+  {
+   "pdf_page": 69,
+   "block": 0,
+   "old": "فَقَالَ لَهُ: اكْتُبْ",
+   "new": "فَقَالَ: اكْتُبْ",
+   "why": "print has no له"
+  },
+  {
+   "pdf_page": 69,
+   "block": 1,
+   "old": "ഉണ്ടായതും എന്നേക്കും",
+   "new": "ഉണ്ടായതും എന്നന്നേക്കും",
+   "why": "print: എന്ന / ന്നേക്കും across line break"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 51,
+   "note": "idx50 സത്യവിശ്വാസിയേ/യെക്കാൾ: syllable hidden at scan right edge (line ends സത്യവിശ്വാസി, next line ക്കാൾ); cannot decide"
+  },
+  {
+   "pdf_page": 62,
+   "note": "idx56 ല്ലേയോ vs ല്ലെയോ: ലെ/ലേ vowel sign length ambiguous at this font; print may be ലെ, not emitting"
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 44,
+   "print": "A"
+  },
+  {
+   "idx": 45,
+   "print": "B"
+  },
+  {
+   "idx": 46,
+   "print": "A"
+  },
+  {
+   "idx": 47,
+   "print": "A"
+  },
+  {
+   "idx": 48,
+   "print": "B"
+  },
+  {
+   "idx": 49,
+   "print": "A"
+  },
+  {
+   "idx": 50,
+   "print": "uncertain"
+  },
+  {
+   "idx": 51,
+   "print": "A"
+  },
+  {
+   "idx": 52,
+   "print": "B"
+  },
+  {
+   "idx": 53,
+   "print": "B"
+  },
+  {
+   "idx": 54,
+   "print": "B"
+  },
+  {
+   "idx": 55,
+   "print": "A"
+  },
+  {
+   "idx": 56,
+   "print": "uncertain"
+  },
+  {
+   "idx": 57,
+   "print": "A"
+  },
+  {
+   "idx": 58,
+   "print": "A"
+  },
+  {
+   "idx": 59,
+   "print": "B"
+  },
+  {
+   "idx": 60,
+   "print": "B"
+  },
+  {
+   "idx": 61,
+   "print": "B"
+  },
+  {
+   "idx": 62,
+   "print": "B"
+  },
+  {
+   "idx": 63,
+   "print": "B"
+  },
+  {
+   "idx": 64,
+   "print": "A"
+  },
+  {
+   "idx": 65,
+   "print": "B"
+  },
+  {
+   "idx": 66,
+   "print": "B"
+  },
+  {
+   "idx": 67,
+   "print": "B"
+  },
+  {
+   "idx": 68,
+   "print": "B"
+  },
+  {
+   "idx": 69,
+   "print": "B"
+  },
+  {
+   "idx": 70,
+   "print": "B"
+  },
+  {
+   "idx": 71,
+   "print": "B"
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "part": "1.12",
+ "pages_checked": [
+  11,
+  12,
+  35
+ ],
+ "corrections": [
+  {
+   "pdf_page": 11,
+   "block": 3,
+   "old": "അബൂസഇൗദ്(റ)",
+   "new": "അബൂസഈദ്(റ)",
+   "why": "print old-lipi ഈ; standard Unicode (item 0)"
+  },
+  {
+   "pdf_page": 12,
+   "block": 0,
+   "old": "ഐച്ഛികമായും",
+   "new": "ഐഛികമായും",
+   "why": "print has single ഛ, no ച്ഛ conjunct, at native zoom (item 1)"
+  },
+  {
+   "pdf_page": 35,
+   "block": 1,
+   "old": "أَنَّ النَّبِيَّ صَلَّى",
+   "new": "أَنَّ النَّبِيَّ اللهِ صَلَّى",
+   "why": "print has extra الله after النبي (author typo kept) (item 2)"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "B"
+  },
+  {
+   "idx": 1,
+   "print": "B"
+  },
+  {
+   "idx": 2,
+   "print": "B"
+  },
+  {
+   "idx": 3,
+   "print": "A"
+  },
+  {
+   "idx": 4,
+   "print": "A"
+  },
+  {
+   "idx": 5,
+   "print": "A"
+  }
+ ]
+}

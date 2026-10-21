@@ -1,0 +1,177 @@
+{
+ "part": "4.3",
+ "pages_checked": [
+  1,
+  5,
+  9,
+  14,
+  16,
+  17,
+  20,
+  22,
+  23,
+  24,
+  25,
+  29,
+  31
+ ],
+ "corrections": [
+  {
+   "pdf_page": 1,
+   "block": 0,
+   "old": "പോരാട്ടങ്ങളും",
+   "new": "പോരാട്ടങ്ങും",
+   "why": "print heading reads പോരാട്ടങ്ങും (no ള)"
+  },
+  {
+   "pdf_page": 22,
+   "block": 0,
+   "old": "മലക്കിനോട്",
+   "new": "മല്ക്കിനോട്",
+   "why": "print shows virama under ല (മല്ക്കിനോട്)"
+  },
+  {
+   "pdf_page": 23,
+   "block": 4,
+   "old": "മധ്യാഹ്നവേളയിൽ",
+   "new": "മദ്ധ്യാഹ്നവേളയിൽ",
+   "why": "print spelling മദ്ധ്യാഹ്ന (as printed)"
+  },
+  {
+   "pdf_page": 24,
+   "block": 2,
+   "old": "الْآخِرَهْ",
+   "new": "الْآخِرَة",
+   "why": "print ends with taa marbuta ة (الآخرة), not heh"
+  },
+  {
+   "pdf_page": 24,
+   "block": 2,
+   "old": "وَالْمُهَاجِرَهْ",
+   "new": "وَالْمُهَاجِرَة",
+   "why": "print ends with taa marbuta ة (والمهاجرة), not heh"
+  },
+  {
+   "pdf_page": 29,
+   "block": 2,
+   "old": "താക്കോൽക്കൂട്ട്",
+   "new": "താക്കോൽക്കെട്ട്",
+   "why": "print reads താക്കോൽക്കെട്ട് (ൽക്കെട്ട്)"
+  },
+  {
+   "pdf_page": 31,
+   "block": 1,
+   "old": "ബനൂഖുറൈളയെക്കുറിച്ച്",
+   "new": "ബനുഖുറൈളയെക്കുറിച്ച്",
+   "why": "print bab title reads ബനുഖുറൈളയെക്കുറിച്ച് (short ു)"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 5,
+   "note": "idx1 block 1 malayalam: word ദാത്തുന്നിത്വാകൈൻ (A) vs ദാത്തുന്നിത്വാഖൈൻ (B). Glyph after ാ looks like ഖ at native zoom (leans B) but ക/ഖ not certain; HELD, not applied."
+  },
+  {
+   "pdf_page": 9,
+   "note": "idx2 block 0 malayalam text: അബുജഹ്ലും (A) vs അബൂജഹ്ലും (B). Vowel after ബ looks like ൂ (leans B) but ു/ൂ is a held glyph call; HELD, not applied."
+  },
+  {
+   "pdf_page": 20,
+   "note": "idx7 block 4 arabic poem: print has no separator character between hemistichs (wide blank gap); A has \"...\", B has \"/\". Neither matches; not applied. Print: هَلْ أَنْتَ إِلَّا إِصْبَعٌ دَمِيتَ [gap] وَفِي سَبِيلِ اللَّهِ مَا لَقِيتَ\". (م)"
+  },
+  {
+   "pdf_page": 22,
+   "note": "idx9 block 4 bab malayalam: റിഖാഅ് (A) vs രിഖാഅ് (B). First consonant reads റ (leans A) but ര/റ is a held glyph call; HELD, not applied."
+  },
+  {
+   "pdf_page": 24,
+   "note": "idx11-15 (and idx12 empty A) block 2 arabic poem lines (Khandaq poems): print has no separator character between hemistichs, only a wide blank gap. A has \"...\", B has \"/\". Neither matches; \"...\" left in place, flag for user. idx16 separator likewise (print gap); letters corrected to ة."
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "B"
+  },
+  {
+   "idx": 3,
+   "print": "A"
+  },
+  {
+   "idx": 4,
+   "print": "A"
+  },
+  {
+   "idx": 1,
+   "print": "uncertain"
+  },
+  {
+   "idx": 2,
+   "print": "uncertain"
+  },
+  {
+   "idx": 5,
+   "print": "A"
+  },
+  {
+   "idx": 6,
+   "print": "A"
+  },
+  {
+   "idx": 7,
+   "print": "other"
+  },
+  {
+   "idx": 8,
+   "print": "B"
+  },
+  {
+   "idx": 9,
+   "print": "uncertain"
+  },
+  {
+   "idx": 10,
+   "print": "B"
+  },
+  {
+   "idx": 11,
+   "print": "other"
+  },
+  {
+   "idx": 12,
+   "print": "other"
+  },
+  {
+   "idx": 13,
+   "print": "other"
+  },
+  {
+   "idx": 14,
+   "print": "other"
+  },
+  {
+   "idx": 15,
+   "print": "other"
+  },
+  {
+   "idx": 16,
+   "print": "other"
+  },
+  {
+   "idx": 17,
+   "print": "B"
+  },
+  {
+   "idx": 18,
+   "print": "A"
+  },
+  {
+   "idx": 19,
+   "print": "B"
+  },
+  {
+   "idx": 20,
+   "print": "B"
+  }
+ ]
+}

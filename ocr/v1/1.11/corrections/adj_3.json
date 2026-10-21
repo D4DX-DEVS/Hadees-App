@@ -1,0 +1,402 @@
+{
+ "part": "1.11",
+ "pages_checked": [
+  33,
+  34,
+  35,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  46,
+  47,
+  48
+ ],
+ "corrections": [
+  {
+   "pdf_page": 33,
+   "block": 1,
+   "old": "يَعْلَى بْنِ أُمَيَّةَ",
+   "new": "يَعْلَى بْنِ أُمَيْضَةَ",
+   "why": "print أميضة (author typo)"
+  },
+  {
+   "pdf_page": 33,
+   "block": 2,
+   "old": "ഉമയ്യ(റ)",
+   "new": "ഉമയ്യള(റ)",
+   "why": "print ഉമയ്യള(റ) (typo)"
+  },
+  {
+   "pdf_page": 33,
+   "block": 4,
+   "old": "മുസ്ലിംകളായി കൊണ്ടല്ലാതെ",
+   "new": "മുസ്ലിംകളായി ക്കൊണ്ടല്ലാതെ",
+   "why": "print ക്കൊണ്ടല്ലാതെ"
+  },
+  {
+   "pdf_page": 33,
+   "block": 4,
+   "old": "ആമനുത്തഖൂല്ലാഹ",
+   "new": "ആമനൂത്തഖൂല്ലാഹ",
+   "why": "print നൂ (looped ൂ)"
+  },
+  {
+   "pdf_page": 35,
+   "block": 9,
+   "old": "ഖുത്വുബ നിർവ്വഹിക്കുന്നത് ഞാൻ",
+   "new": "ഖുത്വുബ നിർവ്വഹിക്കുന്ന് ഞാൻ",
+   "why": "print നിർവ്വഹിക്കുന്ന്"
+  },
+  {
+   "pdf_page": 37,
+   "block": 10,
+   "old": "رِوَايَةٍ",
+   "new": "رِوَيَةٍ",
+   "why": "print روية (no alif, typo)"
+  },
+  {
+   "pdf_page": 38,
+   "block": 7,
+   "old": "رِوَايَةٍ",
+   "new": "رِوَيَةٍ",
+   "why": "print روية (no alif, typo)"
+  },
+  {
+   "pdf_page": 38,
+   "block": 0,
+   "old": "വീണ്ടും എഴുന്നേറ്റ്",
+   "new": "വീണ്ടും എഴുന്നേററ്",
+   "why": "print ററ side by side (not stacked റ്റ)"
+  },
+  {
+   "pdf_page": 38,
+   "block": 6,
+   "old": "മിമ്പറിൻമ്മേൽ",
+   "new": "മിമ്പറിൻന്മേൽ",
+   "why": "print ൻ + ന്മേൽ (ന്മ ligature as in അമ്പിന്മേൽ, not stacked മ്മ)"
+  },
+  {
+   "pdf_page": 38,
+   "block": 10,
+   "old": "ബിശ്ർ",
+   "new": "ബിശ്റ്",
+   "why": "print ബിശ്റ്"
+  },
+  {
+   "pdf_page": 39,
+   "block": 0,
+   "old": "ഖുത്വുബയിലൂടെ",
+   "new": "ഖുത്വുബയിയിലൂടെ",
+   "why": "print ഖുത്വുബയിയിലൂടെ (typo)"
+  },
+  {
+   "pdf_page": 39,
+   "block": 2,
+   "old": "അബൂസഇൗദിൽ",
+   "new": "അബൂസഈദിൽ",
+   "why": "print ഈ"
+  },
+  {
+   "pdf_page": 39,
+   "block": 2,
+   "old": "അബൂസഇൗദ്(റ)",
+   "new": "അബൂസഈദ്(റ)",
+   "why": "print ഈ"
+  },
+  {
+   "pdf_page": 39,
+   "block": 7,
+   "old": "സമുറതുസ്സുവാഇൗ(റ)",
+   "new": "സമുറതുസ്സുവാഈ(റ)",
+   "why": "print ഈ"
+  },
+  {
+   "pdf_page": 40,
+   "block": 6,
+   "old": "وَخَيْرُ الْهَدْيِ",
+   "new": "وَخَيْرُ الْهُدَى",
+   "why": "print الهدى (alif maqsura)"
+  },
+  {
+   "pdf_page": 40,
+   "block": 1,
+   "old": "പാണ്ഡിത്യത്തിന്റെ",
+   "new": "പാണ്ഢിത്യത്തിന്റെ",
+   "why": "print ഢ (looped, as in വിഡ്ഢി p32)"
+  },
+  {
+   "pdf_page": 40,
+   "block": 4,
+   "old": "ഇബ്നുമസ്ഉൗദും",
+   "new": "ഇബ്നുമസ്ഊദും",
+   "why": "print ഊ"
+  },
+  {
+   "pdf_page": 40,
+   "block": 4,
+   "old": "മസ്ഉൗദ്,",
+   "new": "മസ്ഊദ്,",
+   "why": "print ഊ"
+  },
+  {
+   "pdf_page": 41,
+   "block": 6,
+   "old": "رِوَايَةٍ",
+   "new": "رِوَيَةٍ",
+   "why": "print روية (no alif, typo)"
+  },
+  {
+   "pdf_page": 41,
+   "block": 2,
+   "old": "പ്രസംഗിച്ചു: ആര്",
+   "new": "പ്രസംഗിച്ചു: ആർ",
+   "why": "print ആർ (chillu)"
+  },
+  {
+   "pdf_page": 41,
+   "block": 2,
+   "old": "ലായി, ആര്",
+   "new": "ലായി, ആർ",
+   "why": "print ആർ (chillu)"
+  },
+  {
+   "pdf_page": 41,
+   "block": 2,
+   "old": "പറയുക: 'ആര്",
+   "new": "പറയുക: 'ആർ",
+   "why": "print ആർ (chillu)"
+  },
+  {
+   "pdf_page": 41,
+   "block": 2,
+   "old": "തളിക്കളയുന്നുവോ",
+   "new": "തളളിക്കളയുന്നുവോ",
+   "why": "print തള/ളിക്കളയുന്നുവോ across line break"
+  },
+  {
+   "pdf_page": 41,
+   "block": 7,
+   "old": "ഇബ്നുമസ്ഉൗദ്(റ)",
+   "new": "ഇബ്നുമസ്ഊദ്(റ)",
+   "why": "print ഊ"
+  },
+  {
+   "pdf_page": 42,
+   "block": 2,
+   "old": "പ്രസംഗിച്ചു: ആര്",
+   "new": "പ്രസംഗിച്ചു: ആർ",
+   "why": "print ആർ (chillu)"
+  },
+  {
+   "pdf_page": 42,
+   "block": 2,
+   "old": "ലായി, ആര്",
+   "new": "ലായി, ആർ",
+   "why": "print ആർ (chillu)"
+  },
+  {
+   "pdf_page": 42,
+   "block": 7,
+   "old": "എന്റെ അടുത്ത്",
+   "new": "എന്റ അടുത്ത്",
+   "why": "print എന്റ (no െ, typo)"
+  },
+  {
+   "pdf_page": 43,
+   "block": 8,
+   "old": "رِوَايَةٍ",
+   "new": "رِوَيَةٍ",
+   "why": "print روية (no alif, typo)"
+  },
+  {
+   "pdf_page": 43,
+   "block": 5,
+   "old": "കൂഫയിൽ ഇൗ",
+   "new": "കൂഫയിൽ ഈ",
+   "why": "print ഈ"
+  },
+  {
+   "pdf_page": 46,
+   "block": 0,
+   "old": "رِوَايَةٍ",
+   "new": "رِوَيَةٍ",
+   "why": "print روية (no alif, typo)"
+  },
+  {
+   "pdf_page": 46,
+   "block": 10,
+   "old": "رِوَايَةٍ",
+   "new": "رِوَيَةٍ",
+   "why": "print روية (no alif, typo)"
+  },
+  {
+   "pdf_page": 47,
+   "block": 12,
+   "old": "رِوَايَةٍ: اجْتَمَعَ",
+   "new": "رِوَيَةٍ :اجْتَمَعَ",
+   "why": "print روية :اجتمع (no alif, typo; colon spacing as printed)"
+  },
+  {
+   "pdf_page": 48,
+   "block": 2,
+   "old": "നിങ്ങൾക്ക് ഇൗ ദിവസം",
+   "new": "നിങ്ങൾക്ക് ഈ ദിവസം",
+   "why": "print ഈ"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "B"
+  },
+  {
+   "idx": 1,
+   "print": "B"
+  },
+  {
+   "idx": 2,
+   "print": "A"
+  },
+  {
+   "idx": 3,
+   "print": "B"
+  },
+  {
+   "idx": 4,
+   "print": "B"
+  },
+  {
+   "idx": 5,
+   "print": "A"
+  },
+  {
+   "idx": 6,
+   "print": "A"
+  },
+  {
+   "idx": 7,
+   "print": "B"
+  },
+  {
+   "idx": 8,
+   "print": "B"
+  },
+  {
+   "idx": 9,
+   "print": "B"
+  },
+  {
+   "idx": 10,
+   "print": "B"
+  },
+  {
+   "idx": 11,
+   "print": "other"
+  },
+  {
+   "idx": 12,
+   "print": "B"
+  },
+  {
+   "idx": 13,
+   "print": "B"
+  },
+  {
+   "idx": 14,
+   "print": "B"
+  },
+  {
+   "idx": 15,
+   "print": "B"
+  },
+  {
+   "idx": 16,
+   "print": "B"
+  },
+  {
+   "idx": 17,
+   "print": "B"
+  },
+  {
+   "idx": 18,
+   "print": "B"
+  },
+  {
+   "idx": 19,
+   "print": "B"
+  },
+  {
+   "idx": 20,
+   "print": "B"
+  },
+  {
+   "idx": 21,
+   "print": "A"
+  },
+  {
+   "idx": 22,
+   "print": "B"
+  },
+  {
+   "idx": 23,
+   "print": "B"
+  },
+  {
+   "idx": 24,
+   "print": "B"
+  },
+  {
+   "idx": 25,
+   "print": "B"
+  },
+  {
+   "idx": 26,
+   "print": "B"
+  },
+  {
+   "idx": 27,
+   "print": "B"
+  },
+  {
+   "idx": 28,
+   "print": "B"
+  },
+  {
+   "idx": 29,
+   "print": "B"
+  },
+  {
+   "idx": 30,
+   "print": "B"
+  },
+  {
+   "idx": 31,
+   "print": "B"
+  },
+  {
+   "idx": 32,
+   "print": "B"
+  },
+  {
+   "idx": 33,
+   "print": "B"
+  },
+  {
+   "idx": 34,
+   "print": "B"
+  },
+  {
+   "idx": 35,
+   "print": "B"
+  },
+  {
+   "idx": 36,
+   "print": "B"
+  }
+ ]
+}

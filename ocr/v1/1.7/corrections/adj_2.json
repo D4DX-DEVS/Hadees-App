@@ -1,0 +1,167 @@
+{
+ "part": "1.7",
+ "pages_checked": [
+  31,
+  32,
+  33,
+  34,
+  36,
+  38,
+  40,
+  41,
+  42
+ ],
+ "corrections": [
+  {
+   "pdf_page": 32,
+   "block": 0,
+   "old": "ഈ കൈകൾ കൊണ്ട്",
+   "new": "ഈ കൈ കൊണ്ട്",
+   "why": "print line ends 'ഈ കൈ' then 'കൊണ്ട്' on next line; no കൾ"
+  },
+  {
+   "pdf_page": 32,
+   "block": 0,
+   "old": "മതിയായതല്ലേ?",
+   "new": "മതിയായതല്ലെ?",
+   "why": "print short e sign"
+  },
+  {
+   "pdf_page": 32,
+   "block": 0,
+   "old": "സംശയമുള്ള",
+   "new": "സംശയുള്ള",
+   "why": "printed typo, no മ"
+  },
+  {
+   "pdf_page": 33,
+   "block": 3,
+   "old": "الْأَصَابِعِ",
+   "new": "الْأَصَابِيعِ",
+   "why": "bab heading prints الأصابيع (with ya)"
+  },
+  {
+   "pdf_page": 33,
+   "block": 2,
+   "old": "കഥീറിബ്നു",
+   "new": "കഥീറുബ്നു",
+   "why": "print കഥീറു|ബ്നു"
+  },
+  {
+   "pdf_page": 34,
+   "block": 1,
+   "old": "പുറത്തേക്കപ്പോയി",
+   "new": "പുറത്തേക്ക്പോയി",
+   "why": "print ക്ക് + പോയി"
+  },
+  {
+   "pdf_page": 34,
+   "block": 8,
+   "old": "തമീമുദാരി(റ)",
+   "new": "തമീമുദ്ദാരി(റ)",
+   "why": "print ദ്ദ conjunct"
+  },
+  {
+   "pdf_page": 36,
+   "block": 10,
+   "old": "കുഴിയെടുക്കുകയും അതിൽ തുപ്പുകയും",
+   "new": "കുഴിയെടുക്കുകയും അതിൽ തുപ്പുകയം",
+   "why": "printed typo യം"
+  },
+  {
+   "pdf_page": 38,
+   "block": 2,
+   "old": "സുക്ഷിച്ചു",
+   "new": "സൂക്ഷിച്ചു",
+   "why": "heading: filled-blob uu sign, matches body (സൂക്ഷിക്കുക)"
+  },
+  {
+   "pdf_page": 40,
+   "block": 4,
+   "old": "ഖന്ദഖ്",
+   "new": "ഖൻദഖ്",
+   "why": "print chillu ൻ + ദ, not conjunct"
+  },
+  {
+   "pdf_page": 41,
+   "block": 4,
+   "old": "ഓരോരുത്തരുടെ",
+   "new": "ഒരോരുത്തരുടെ",
+   "why": "print short ഒ (no aa tail), cf. ഓരോവിളക്കുകൾ"
+  },
+  {
+   "pdf_page": 42,
+   "block": 1,
+   "old": "സ്വീകരിച്ചിരുന്നുവെങ്കിൽ",
+   "new": "സ്വീകരിച്ചിരുന്നു എങ്കിൽ",
+   "why": "print line ends സ്വീകരിച്ചിരുന്നു, next line starts എങ്കിൽ (vowel letter)"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "A"
+  },
+  {
+   "idx": 1,
+   "print": "B"
+  },
+  {
+   "idx": 2,
+   "print": "B"
+  },
+  {
+   "idx": 3,
+   "print": "B"
+  },
+  {
+   "idx": 4,
+   "print": "B"
+  },
+  {
+   "idx": 5,
+   "print": "B"
+  },
+  {
+   "idx": 6,
+   "print": "B"
+  },
+  {
+   "idx": 7,
+   "print": "B"
+  },
+  {
+   "idx": 8,
+   "print": "B"
+  },
+  {
+   "idx": 9,
+   "print": "B"
+  },
+  {
+   "idx": 10,
+   "print": "A"
+  },
+  {
+   "idx": 11,
+   "print": "B"
+  },
+  {
+   "idx": 12,
+   "print": "B"
+  },
+  {
+   "idx": 13,
+   "print": "A"
+  },
+  {
+   "idx": 14,
+   "print": "B"
+  },
+  {
+   "idx": 15,
+   "print": "B"
+  }
+ ]
+}

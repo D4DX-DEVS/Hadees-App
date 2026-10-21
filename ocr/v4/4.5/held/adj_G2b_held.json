@@ -1,0 +1,159 @@
+{
+ "part": "4.5",
+ "pages_checked": [
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29
+ ],
+ "corrections": [
+  {
+   "pdf_page": 24,
+   "block": 0,
+   "old": "ആരാധനാ മത്തിലിരിക്കുകയായിരുന്നു",
+   "new": "ആരാധനാ മഠത്തിലിരിക്കുകയായിരുന്നു",
+   "why": "print മഠത്തിൽ (ഠ present)"
+  },
+  {
+   "pdf_page": 24,
+   "block": 1,
+   "old": "امْرَأَةِ",
+   "new": "امْرَءَةِ",
+   "why": "print spells امرءة (hamza on line)"
+  },
+  {
+   "pdf_page": 25,
+   "block": 1,
+   "old": "ഇസ്റാഇൗല്യർ",
+   "new": "ഇസ്രാഇൗല്യർ",
+   "why": "print ്ര conjunct (ര), not റ"
+  },
+  {
+   "pdf_page": 25,
+   "block": 7,
+   "old": "അല്ലാഹുവിന്റെ അവകാശങ്ങൾ",
+   "new": "അല്ലാഹുരുടെ അവകാശങ്ങൾ",
+   "why": "print: line ends അല്ലാഹു, next line starts രുടെ (printed as is)"
+  },
+  {
+   "pdf_page": 27,
+   "block": 1,
+   "old": "ബനൂഇസ്രാഈൗല്യരിലെ",
+   "new": "ബനൂഇസ്റാഇൗല്യരിലെ",
+   "why": "print ഇ+ൗ and സ്+റ (not ്ര)"
+  },
+  {
+   "pdf_page": 29,
+   "block": 4,
+   "old": "\"ബനൂഇസ്രാഈൗല്യരിലെ",
+   "new": "\"ബനുഇസ്റാഇൗല്യരിലെ",
+   "why": "print: ബനു (short ു) line-break ഇസ്റാഇൗല്യരിലെ; ഇ+ൗ; സ്+റ"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 17,
+   "print": "other"
+  },
+  {
+   "idx": 19,
+   "print": "B"
+  },
+  {
+   "idx": 20,
+   "print": "other"
+  },
+  {
+   "idx": 21,
+   "print": "other"
+  },
+  {
+   "idx": 18,
+   "print": "other"
+  },
+  {
+   "idx": 22,
+   "print": "B"
+  },
+  {
+   "idx": 23,
+   "print": "B"
+  },
+  {
+   "idx": 24,
+   "print": "other"
+  },
+  {
+   "idx": 25,
+   "print": "other"
+  },
+  {
+   "idx": 26,
+   "print": "other"
+  },
+  {
+   "idx": 27,
+   "print": "other"
+  },
+  {
+   "idx": 28,
+   "print": "A"
+  },
+  {
+   "idx": 29,
+   "print": "other"
+  },
+  {
+   "idx": 30,
+   "print": "other"
+  },
+  {
+   "idx": 31,
+   "print": "other"
+  },
+  {
+   "idx": 32,
+   "print": "B"
+  },
+  {
+   "idx": 33,
+   "print": "B"
+  },
+  {
+   "idx": 34,
+   "print": "B"
+  },
+  {
+   "idx": 35,
+   "print": "B"
+  },
+  {
+   "idx": 36,
+   "print": "B"
+  },
+  {
+   "idx": 37,
+   "print": "A"
+  },
+  {
+   "idx": 38,
+   "print": "A"
+  },
+  {
+   "idx": 39,
+   "print": "B"
+  },
+  {
+   "idx": 40,
+   "print": "other"
+  },
+  {
+   "idx": 41,
+   "print": "B"
+  }
+ ]
+}

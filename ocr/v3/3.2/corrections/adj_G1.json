@@ -1,0 +1,209 @@
+{
+ "part": "3.2",
+ "pages_checked": [
+  1,
+  4,
+  5,
+  7,
+  10,
+  11,
+  12,
+  13,
+  16,
+  19,
+  21,
+  23,
+  25
+ ],
+ "corrections": [
+  {
+   "pdf_page": 1,
+   "block": 3,
+   "old": "യജമാനനെതിരെയും",
+   "new": "യജമാനനെതിരിരെയും",
+   "why": "print breaks line \"യജമാനനെതിരി|രെയും\" (author typo kept)"
+  },
+  {
+   "pdf_page": 4,
+   "block": 3,
+   "old": "മൂത്വലാഖ്",
+   "new": "മുത്വലാഖ്",
+   "why": "heading shows single-hook ു"
+  },
+  {
+   "pdf_page": 5,
+   "block": 4,
+   "old": "ണ്ടൊരുപയോഗ",
+   "new": "ണ്ടൊരുപയോഗ",
+   "why": "canonical ൊ vowel sign (A had split െ+ാ)"
+  },
+  {
+   "pdf_page": 5,
+   "block": 5,
+   "old": "എണീറ്റുകൊണ്ട്",
+   "new": "എണീറ്റ്കൊണ്ട്",
+   "why": "print has no ു"
+  },
+  {
+   "pdf_page": 7,
+   "block": 4,
+   "old": "١-٣]",
+   "new": "٣-١]",
+   "why": "print visually reads ١–٣ left-to-right => logical ٣-١"
+  },
+  {
+   "pdf_page": 10,
+   "block": 9,
+   "old": "ഹുസൈ്വൻ(റ):",
+   "new": "ഹുസ്വൈൻ(റ):",
+   "why": "print glyph identical for both orders; canonical Unicode is സ്വൈ (ai sign on cluster സ്വ)"
+  },
+  {
+   "pdf_page": 13,
+   "block": 6,
+   "old": "എന്റെയടുത്തേക്ക്",
+   "new": "എന്റെയുടത്തേക്ക്",
+   "why": "print breaks \"എന്റെയുട|ത്തേക്ക്\" (author typo kept)"
+  },
+  {
+   "pdf_page": 21,
+   "block": 5,
+   "old": "പൊരുത്ത്",
+   "new": "പൊറുത്ത്",
+   "why": "print പൊറുത്ത്"
+  },
+  {
+   "pdf_page": 21,
+   "block": 12,
+   "old": "ഖന്ദഖ്",
+   "new": "ഖൻദഖ്",
+   "why": "print uses chillu ൻ"
+  },
+  {
+   "pdf_page": 23,
+   "block": 1,
+   "old": "(അസ്സ്വാഫാത്ത്:",
+   "new": "(അസ്സ്വാഫാത്:",
+   "why": "print has single ത് (ഫാത്:)"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "B"
+  },
+  {
+   "idx": 1,
+   "print": "B"
+  },
+  {
+   "idx": 2,
+   "print": "A"
+  },
+  {
+   "idx": 3,
+   "print": "B"
+  },
+  {
+   "idx": 4,
+   "print": "A"
+  },
+  {
+   "idx": 5,
+   "print": "A"
+  },
+  {
+   "idx": 6,
+   "print": "B"
+  },
+  {
+   "idx": 7,
+   "print": "B"
+  },
+  {
+   "idx": 8,
+   "print": "A"
+  },
+  {
+   "idx": 9,
+   "print": "B"
+  },
+  {
+   "idx": 10,
+   "print": "A"
+  },
+  {
+   "idx": 11,
+   "print": "A"
+  },
+  {
+   "idx": 12,
+   "print": "A"
+  },
+  {
+   "idx": 13,
+   "print": "A"
+  },
+  {
+   "idx": 14,
+   "print": "A"
+  },
+  {
+   "idx": 15,
+   "print": "A"
+  },
+  {
+   "idx": 16,
+   "print": "A"
+  },
+  {
+   "idx": 17,
+   "print": "A"
+  },
+  {
+   "idx": 18,
+   "print": "A"
+  },
+  {
+   "idx": 19,
+   "print": "A"
+  },
+  {
+   "idx": 20,
+   "print": "B"
+  },
+  {
+   "idx": 21,
+   "print": "A"
+  },
+  {
+   "idx": 22,
+   "print": "A"
+  },
+  {
+   "idx": 23,
+   "print": "B"
+  },
+  {
+   "idx": 24,
+   "print": "B"
+  },
+  {
+   "idx": 25,
+   "print": "B"
+  },
+  {
+   "idx": 26,
+   "print": "A"
+  },
+  {
+   "idx": 27,
+   "print": "A"
+  },
+  {
+   "idx": 28,
+   "print": "A"
+  }
+ ]
+}

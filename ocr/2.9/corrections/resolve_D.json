@@ -1,0 +1,26 @@
+{
+ "part": "2.9",
+ "pages_checked": [
+  3,
+  5
+ ],
+ "corrections": [
+  {
+   "pdf_page": 3,
+   "block": 7,
+   "old": "رَفَهَ عَنْهُ",
+   "new": "رُفِّهَ عَنْهُ",
+   "why": "print has damma+shadda"
+  }
+ ],
+ "resolved": [
+  {
+   "pdf_page": 3,
+   "hadith_no": 9
+  },
+  {
+   "pdf_page": 5,
+   "hadith_no": 14
+  }
+ ]
+}

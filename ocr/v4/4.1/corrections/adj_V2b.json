@@ -1,0 +1,246 @@
+{
+ "part": "4.1",
+ "pages_checked": [
+  66,
+  68,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75
+ ],
+ "corrections": [
+  {
+   "pdf_page": 68,
+   "block": 1,
+   "old": "സഅൗദുബ്നുൽ",
+   "new": "സഈദുബ്നുൽ",
+   "why": "print ഖാലിദുബ്നു സഈദുബ്നുൽ ആസ് (ഈ glyph); Opus right"
+  },
+  {
+   "pdf_page": 68,
+   "block": 3,
+   "old": "മഅാഫിർ",
+   "new": "മആഫിർ",
+   "why": "print മആഫിർ (ആ single glyph, no അ+ാ); Opus right"
+  },
+  {
+   "pdf_page": 71,
+   "block": 2,
+   "old": "ഈ വിവരം സ്വഖർ(റ)",
+   "new": "ഈ വിവരം സ്വഖ്ർ(റ)",
+   "why": "print സ്വഖ്ർ (ഖ + virama + ർ visible); Opus right"
+  },
+  {
+   "pdf_page": 71,
+   "block": 2,
+   "old": "അന്ന് സ്വഖർ(റ)",
+   "new": "അന്ന് സ്വഖ്ർ(റ)",
+   "why": "print സ്വഖ്ർ (virama visible); Opus right"
+  },
+  {
+   "pdf_page": 71,
+   "block": 2,
+   "old": "സ്വഖർ(റ)വിനെ",
+   "new": "സ്വഖ്ർ(റ)വിനെ",
+   "why": "print സ്വഖ്ർ(റ)വിനെ (virama visible); Opus right"
+  },
+  {
+   "pdf_page": 71,
+   "block": 2,
+   "old": "\"സ്വഖറേ,",
+   "new": "\"സ്വഖ്റേ,",
+   "why": "print സ്വഖ്റേ (virama visible before റ); Opus right"
+  },
+  {
+   "pdf_page": 72,
+   "block": 0,
+   "old": "അവർ സ്വഖർ(റ)വിന്റെ",
+   "new": "അവർ സ്വഖ്ർ(റ)വിന്റെ",
+   "why": "print സ്വഖ്ർ (virama visible); Opus right"
+  },
+  {
+   "pdf_page": 72,
+   "block": 0,
+   "old": "സ്വഖർ(റ)വിനെ",
+   "new": "സ്വഖ്ർ(റ)വിനെ",
+   "why": "print സ്വഖ്ർ (virama visible at native zoom); Opus right"
+  },
+  {
+   "pdf_page": 72,
+   "block": 0,
+   "old": "നബി(സ) സ്വഖർ(റ)വിന്റെ",
+   "new": "നബി(സ) സ്വഖ്ർ(റ)വിന്റെ",
+   "why": "print സ്വഖ്ർ (virama visible); Opus right"
+  },
+  {
+   "pdf_page": 72,
+   "block": 0,
+   "old": "സ്വഖർ(റ) ആ പെൺകുട്ടിയെയും",
+   "new": "സ്വഖ്ർ(റ) ആ പെൺകുട്ടിയെയും",
+   "why": "print സ്വഖ്ർ (virama visible); Opus right"
+  },
+  {
+   "pdf_page": 73,
+   "block": 0,
+   "old": "അങ് ഒരു രേഖ",
+   "new": "അങ്ങ് ഒരു രേഖ",
+   "why": "print അങ്ങ (two ങ visible); Opus right"
+  },
+  {
+   "pdf_page": 74,
+   "block": 4,
+   "old": "അബൂ ഹുമൈദ",
+   "new": "അബു ഹുമൈദ",
+   "why": "print അബു (short ു visible); Opus right"
+  },
+  {
+   "pdf_page": 75,
+   "block": 11,
+   "old": "ലുബാഅതുബിൻതുസ്സുബൈർ",
+   "new": "ളുബാഅതുബിൻതുസ്സുബൈർ",
+   "why": "print ളുബാഅതു (ള clearly visible); Opus right"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 66,
+   "note": "idx67 block 2: ഖാരിഇഊങ്ങളിൽപെട്ട (Sonnet) vs ഖാരിഊങ്ങളിൽപെട്ട (Opus). Print shows ഇ followed by an ഊ/ൗ-like glyph; cannot decide ഇഊ vs ഊ at native resolution -> held, not applied"
+  },
+  {
+   "pdf_page": 70,
+   "note": "idx73 block 4: മേഘലയെ (Sonnet) vs മേഖലയെ (Opus). Print glyph after മേ is ഘ/ഖ-like; not decidable with certainty at native resolution -> held, not applied"
+  },
+  {
+   "pdf_page": 70,
+   "note": "idx74 block 4: മേഘല.\" (Sonnet) vs മേഖല.\" (Opus). Same glyph question as idx73 -> held, not applied"
+  },
+  {
+   "pdf_page": 71,
+   "note": "idx75 block 0: മേഘലയെ (Sonnet) vs മേഖലയെ (Opus); ഘ/ഖ glyph after മേ not decidable -> held"
+  },
+  {
+   "pdf_page": 71,
+   "note": "idx76 block 0: മേഘലയില്ല.\" vs മേഖലയില്ല.\" ; same glyph question -> held"
+  },
+  {
+   "pdf_page": 71,
+   "note": "idx79 block 2: സ്വഖർ(റ) (Sonnet) vs സ്വഖ്ർ(റ) (Opus) in line \"അവർ കീഴടങ്ങുംവരെ സ്വഖർ(റ) അവിടെ\"; virama looks present but not certain -> held"
+  },
+  {
+   "pdf_page": 71,
+   "note": "idx80 block 2: സ്വഖർ(റ) split across lines (നിശ്ചയം സ്വ / ഖ്ർ(റ)); virama not certain at line-break -> held"
+  },
+  {
+   "pdf_page": 75,
+   "note": "idx90 block 11: \"ബഖീഇൽ (Sonnet) vs \"ബഖീഉൽ (Opus); vowel glyph before ൽ ഇ vs ഉ not decidable -> held"
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 66,
+   "print": "A"
+  },
+  {
+   "idx": 67,
+   "print": "other"
+  },
+  {
+   "idx": 68,
+   "print": "A"
+  },
+  {
+   "idx": 69,
+   "print": "A"
+  },
+  {
+   "idx": 70,
+   "print": "A"
+  },
+  {
+   "idx": 71,
+   "print": "B"
+  },
+  {
+   "idx": 72,
+   "print": "B"
+  },
+  {
+   "idx": 73,
+   "print": "other"
+  },
+  {
+   "idx": 74,
+   "print": "other"
+  },
+  {
+   "idx": 75,
+   "print": "other"
+  },
+  {
+   "idx": 76,
+   "print": "other"
+  },
+  {
+   "idx": 77,
+   "print": "B"
+  },
+  {
+   "idx": 78,
+   "print": "B"
+  },
+  {
+   "idx": 79,
+   "print": "other"
+  },
+  {
+   "idx": 80,
+   "print": "other"
+  },
+  {
+   "idx": 81,
+   "print": "B"
+  },
+  {
+   "idx": 82,
+   "print": "B"
+  },
+  {
+   "idx": 83,
+   "print": "B"
+  },
+  {
+   "idx": 84,
+   "print": "B"
+  },
+  {
+   "idx": 85,
+   "print": "B"
+  },
+  {
+   "idx": 86,
+   "print": "B"
+  },
+  {
+   "idx": 87,
+   "print": "B"
+  },
+  {
+   "idx": 88,
+   "print": "B"
+  },
+  {
+   "idx": 89,
+   "print": "B"
+  },
+  {
+   "idx": 90,
+   "print": "other"
+  },
+  {
+   "idx": 91,
+   "print": "A"
+  }
+ ]
+}

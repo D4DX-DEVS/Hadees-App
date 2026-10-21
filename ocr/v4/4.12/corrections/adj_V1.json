@@ -1,0 +1,119 @@
+{
+ "part": "4.12",
+ "pages_checked": [
+  53,
+  55,
+  56,
+  57
+ ],
+ "corrections": [
+  {
+   "pdf_page": 53,
+   "block": 0,
+   "old": "സസൂക്ഷ്മമായി",
+   "new": "സസൂക്ഷമമായി",
+   "why": "print shows ക്ഷ followed by separate മ (no virama): സസൂക്ഷമമായി (printed misspelling kept)"
+  },
+  {
+   "pdf_page": 53,
+   "block": 4,
+   "old": "തഹ്റീം",
+   "new": "തഹ്രീം",
+   "why": "heading prints ര after ഹ്, distinct from റ in following സുറത്ത്"
+  },
+  {
+   "pdf_page": 55,
+   "block": 1,
+   "old": "(തഹ്റീം:",
+   "new": "(തഹ്രീം:",
+   "why": "print shows ര after ഹ്"
+  },
+  {
+   "pdf_page": 56,
+   "block": 0,
+   "old": "സുഹ്റി(റ)",
+   "new": "സുഹ്രി(റ)",
+   "why": "print shows ര after ഹ്, distinct from റ in adjacent (റ)"
+  },
+  {
+   "pdf_page": 57,
+   "block": 0,
+   "old": "അറിയിക്കരുത്.",
+   "new": "അറിയിരിക്കരുത്.",
+   "why": "print reads അറിയിരിക്കരുത് (printed typo kept)"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 53,
+   "note": "block 4 heading സൂറത്ത്: same underline-obscured ു/ൂ glyph as held items idx5-9; not a listed diff, not applied"
+  },
+  {
+   "pdf_page": 63,
+   "block": 4,
+   "note": "idx5 നാസിആത് bab heading സുറത്ത്/സൂറത്ത് (ു/ൂ): the vowel sign's tail sits on the heading underline, so open ring (ു) vs curl (ൂ) cannot be told apart; same glyph as the p57 ഖലം heading. HELD, not applied"
+  },
+  {
+   "pdf_page": 64,
+   "block": 0,
+   "note": "idx6 അബസ bab heading സുറത്ത്/സൂറത്ത് (ു/ൂ): the vowel sign's tail sits on the heading underline, so open ring (ു) vs curl (ൂ) cannot be told apart; same glyph as the p57 ഖലം heading. HELD, not applied"
+  },
+  {
+   "pdf_page": 64,
+   "block": 7,
+   "note": "idx7 തക്വീർ bab heading സുറത്ത്/സൂറത്ത് (ു/ൂ): the vowel sign's tail sits on the heading underline, so open ring (ു) vs curl (ൂ) cannot be told apart; same glyph as the p57 ഖലം heading. HELD, not applied"
+  },
+  {
+   "pdf_page": 65,
+   "block": 1,
+   "note": "idx8 മുത്വഫിഫീൻ bab heading സുറത്ത്/സൂറത്ത് (ു/ൂ): the vowel sign's tail sits on the heading underline, so open ring (ു) vs curl (ൂ) cannot be told apart; same glyph as the p57 ഖലം heading. HELD, not applied"
+  },
+  {
+   "pdf_page": 65,
+   "block": 6,
+   "note": "idx9 ഇൻശിഖാഖ് bab heading സുറത്ത്/സൂറത്ത് (ു/ൂ): the vowel sign's tail sits on the heading underline, so open ring (ു) vs curl (ൂ) cannot be told apart; same glyph as the p57 ഖലം heading. HELD, not applied"
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "B"
+  },
+  {
+   "idx": 1,
+   "print": "B"
+  },
+  {
+   "idx": 2,
+   "print": "B"
+  },
+  {
+   "idx": 3,
+   "print": "B"
+  },
+  {
+   "idx": 4,
+   "print": "B"
+  },
+  {
+   "idx": 5,
+   "print": "held"
+  },
+  {
+   "idx": 6,
+   "print": "held"
+  },
+  {
+   "idx": 7,
+   "print": "held"
+  },
+  {
+   "idx": 8,
+   "print": "held"
+  },
+  {
+   "idx": 9,
+   "print": "held"
+  }
+ ]
+}

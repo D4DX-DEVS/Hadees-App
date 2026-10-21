@@ -1,0 +1,121 @@
+{
+ "part": "2.6",
+ "pages_checked": [
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17
+ ],
+ "corrections": [
+  {
+   "pdf_page": 10,
+   "block": 1,
+   "old": "നിന്ന് സിന്ദിലുണ്ടാക്കുന്ന",
+   "new": "നിന്ന് സിൻദിലുണ്ടാക്കുന്ന",
+   "why": "chillu n in print"
+  },
+  {
+   "pdf_page": 10,
+   "block": 3,
+   "old": "നുഅ്മാനുബ്നു ബശീർ",
+   "new": "നൂഅ്മാനുബ്നു ബഷീർ",
+   "why": "print has long uu and sha in hadith 30"
+  },
+  {
+   "pdf_page": 11,
+   "block": 3,
+   "old": "അപ്പോൾ ഞങ്ങൾത് ഒഴിച്ചുകളഞ്ഞു",
+   "new": "അപ്പോൾ ഞങ്ങളത് ഒഴിച്ചുകളഞ്ഞു",
+   "why": "print ഞങ്ങളത്"
+  },
+  {
+   "pdf_page": 12,
+   "block": 8,
+   "old": "താരിഖ്ബ്നു",
+   "new": "ത്വാരിഖ്ബ്നു",
+   "why": "print has ത്വ"
+  },
+  {
+   "pdf_page": 13,
+   "block": 3,
+   "old": "മടങ്ങിയാൽ 'ത്വീനത്തുൽ ഖബാലി'ൽ നിന്നും",
+   "new": "മടങ്ങിയാൽ 'ത്വീനതുൽ ഖബാലി'ൽ നിന്നു",
+   "why": "print ത്വീനതുൽ ... നിന്നു"
+  },
+  {
+   "pdf_page": 13,
+   "block": 3,
+   "old": "'ത്വീനത്തുൽ ഖബാൽ'",
+   "new": "'ത്വീനതുൽ ഖബാൽ'",
+   "why": "print ത്വീനതുൽ"
+  },
+  {
+   "pdf_page": 13,
+   "block": 7,
+   "old": "'ബിത്‌ത്വ്'",
+   "new": "'ബിത്അ്'",
+   "why": "print ബിത്അ്"
+  },
+  {
+   "pdf_page": 14,
+   "block": 0,
+   "old": "ജനങ്ങള്‍ അതിനെ",
+   "new": "ജനങ്ങൾ അതിനെ",
+   "why": "chillu encoding"
+  },
+  {
+   "pdf_page": 14,
+   "block": 11,
+   "old": "അബ്ദുള്ള(റ)",
+   "new": "അബ്ദുല്ല(റ)",
+   "why": "print അബ്ദുല്ല"
+  },
+  {
+   "pdf_page": 14,
+   "block": 11,
+   "old": "ലഹരിയുണ്ടാകുന്നുവോ",
+   "new": "ലഹരിയുണ്ടാക്കുന്നവോ",
+   "why": "print ലഹരിയുണ്ടാക്കുന്നവോ"
+  },
+  {
+   "pdf_page": 16,
+   "block": 4,
+   "old": "ബിന്ത് അബീമർയം",
+   "new": "ബിൻത് അബീമർയം",
+   "why": "print chillu n"
+  },
+  {
+   "pdf_page": 17,
+   "block": 2,
+   "old": "ഈത്തപ്പനയുടെ മൂട് തുരന്നുണ്ടാക്കുന്ന",
+   "new": "ഈത്തപ്പനയുടെ മുരട് തുരന്നുണ്ടാക്കുന്ന",
+   "why": "print മുരട്"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 11,
+   "hadith_no": 34,
+   "note": "print spells ഈത്തപ്പഴം as ഈൗത്തപ്പഴ... (ഈ+ൗ) in blocks 1 and 3 (and ഈൗത്തപ്പന on p10 hadith 33); JSON has ഈത്ത... Not itemised; orthographic variant"
+  },
+  {
+   "pdf_page": 11,
+   "hadith_no": 37,
+   "note": "print renders ബിത്ഉം/ബിത്അ് in a glyph I could not read with certainty (looks like ബിത്ളം / ബ്ത്അ്); JSON left unchanged"
+  },
+  {
+   "pdf_page": 13,
+   "hadith_no": 43,
+   "note": "print uses ഈൗ spelling in 45/46 malayalam (ഈൗ മദ്യം, ഈൗ ഗോതമ്പിൽ); JSON has ഈ. Not itemised."
+  },
+  {
+   "pdf_page": 14,
+   "hadith_no": 50,
+   "note": "block 8 ends നിഷിദ്ധമാണ്. in JSON; print looks like നിഷിദ്ധമാണ. (no virama) - left as is"
+  }
+ ]
+}

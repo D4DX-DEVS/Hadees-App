@@ -1,0 +1,126 @@
+{
+ "part": "1.23",
+ "pages_checked": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8
+ ],
+ "corrections": [
+  {
+   "pdf_page": 1,
+   "block": 5,
+   "old": "വുദൂ ചെയ്ത്",
+   "new": "വുദു ചെയ്ത്",
+   "why": "print: വുദു (simple ു)"
+  },
+  {
+   "pdf_page": 2,
+   "block": 3,
+   "old": "الِاسْتِغْفَارُ",
+   "new": "الْإِسْتِغْفَارُ",
+   "why": "print has hamza under alif: الإستغفار"
+  },
+  {
+   "pdf_page": 3,
+   "block": 1,
+   "old": "പശ്ചാത്തപിച്ച്",
+   "new": "പശ്ചാതപിച്ച്",
+   "why": "print single ത (printed spelling)"
+  },
+  {
+   "pdf_page": 3,
+   "block": 5,
+   "old": "പ്രാർത്ഥനയാണ്",
+   "new": "പ്രാർഥനയാണ്",
+   "why": "print ർഥ"
+  },
+  {
+   "pdf_page": 4,
+   "block": 7,
+   "old": "اللهُ، اللهُ رَبِّي",
+   "new": "أَللَّهُ، أَللَّهُ رَبِّي",
+   "why": "print has hamza on alif: ألله"
+  },
+  {
+   "pdf_page": 6,
+   "block": 2,
+   "old": "الِاسْتِعَاذَةُ",
+   "new": "الْإِسْتِعَاذَةُ",
+   "why": "print hamza under alif: الإستعاذة"
+  },
+  {
+   "pdf_page": 6,
+   "block": 6,
+   "old": "കേട്ടിരുന്നു: \"അല്ലാഹുവേ!",
+   "new": "കേട്ടിരുന്നു: \"അല്ലാഹുവെ!",
+   "why": "print അല്ലാഹുവെ"
+  },
+  {
+   "pdf_page": 7,
+   "block": 9,
+   "old": "നാല് കാര്യങ്ങളിൽ",
+   "new": "നാലു കാര്യങ്ങളിൽ",
+   "why": "print നാലു"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "B"
+  },
+  {
+   "idx": 1,
+   "print": "B"
+  },
+  {
+   "idx": 2,
+   "print": "B"
+  },
+  {
+   "idx": 3,
+   "print": "B"
+  },
+  {
+   "idx": 4,
+   "print": "B"
+  },
+  {
+   "idx": 5,
+   "print": "A"
+  },
+  {
+   "idx": 6,
+   "print": "A"
+  },
+  {
+   "idx": 7,
+   "print": "B"
+  },
+  {
+   "idx": 8,
+   "print": "B"
+  },
+  {
+   "idx": 9,
+   "print": "A"
+  },
+  {
+   "idx": 10,
+   "print": "B"
+  },
+  {
+   "idx": 11,
+   "print": "A"
+  },
+  {
+   "idx": 12,
+   "print": "A"
+  }
+ ]
+}

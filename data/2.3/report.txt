@@ -1,0 +1,13 @@
+#5: variants arabic=2 malayalam=1 (check pairing)
+#66: variants arabic=0 malayalam=1 (check pairing)
+#101: variants arabic=0 malayalam=1 (check pairing)
+#113: variants arabic=1 malayalam=2 (check pairing)
+#193: variants arabic=1 malayalam=0 (check pairing)
+#201: variants arabic=4 malayalam=2 (check pairing)
+#255: variants arabic=1 malayalam=0 (check pairing)
+#265: variants arabic=1 malayalam=0 (check pairing)
+#286: variants arabic=1 malayalam=0 (check pairing)
+#400: no arabic source code parsed
+#463: variants arabic=1 malayalam=0 (check pairing)
+#480: variants arabic=1 malayalam=0 (check pairing)
+#538: variants arabic=1 malayalam=0 (check pairing)

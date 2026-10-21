@@ -1,0 +1,176 @@
+{
+ "part": "4.12",
+ "pages_checked": [
+  1,
+  2,
+  5,
+  6,
+  7,
+  8,
+  11
+ ],
+ "corrections": [
+  {
+   "pdf_page": 5,
+   "block": 0,
+   "old": "സത്യസധത",
+   "new": "സത്യസന്ധത",
+   "why": "print shows ന്ധ conjunct at start of line (സത്യസ-/ന്ധത); reading B"
+  },
+  {
+   "pdf_page": 6,
+   "block": 5,
+   "old": "ഫാതിമ(റ)",
+   "new": "ഫാത്വിമ(റ)",
+   "why": "print shows ്വ bar after ത (calibrated vs തിരുമേനി without bar and ത്വൽഹ with bar on same page); reading B"
+  },
+  {
+   "pdf_page": 7,
+   "block": 2,
+   "old": "ഫാതിമ(റ)യുടെ",
+   "new": "ഫാത്വിമ(റ)യുടെ",
+   "why": "print shows ്വ bar after ത (absent in കരി/വീടി on same line); reading B"
+  },
+  {
+   "pdf_page": 8,
+   "block": 9,
+   "old": "'അങ് വിവാഹമൂല്യം",
+   "new": "'അങ്ങ് വിവാഹമൂല്യം",
+   "why": "print shows ങ്ങ conjunct (അങ്ങ്); reading B"
+  },
+  {
+   "pdf_page": 11,
+   "block": 0,
+   "old": "റസൂൽ(സ) പേർ",
+   "new": "റസൂൽ(സ) പേര്",
+   "why": "print shows ര with candrakkala (പേര്), not chillu ർ; reading B"
+  },
+  {
+   "pdf_page": 12,
+   "block": 0,
+   "old": "സ്വല്ലെത്ത",
+   "new": "സ്വല്ലൈത്ത",
+   "why": "print shows double-loop ൈ sign; reading B"
+  },
+  {
+   "pdf_page": 12,
+   "block": 0,
+   "old": "മുഹമ്മദ്(സ)യുടെ കുടുംബത്തിനും നീ ഗുണം",
+   "new": "മുഹമ്മദ്(സ)യുടെ കുടംബത്തിനും നീ ഗുണം",
+   "why": "print reads കുടംബ-/ത്തിനും (no ു on ട), printed misspelling kept; reading B"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 3,
+   "note": "idx 12 (റും/റൂം) held, see held[]"
+  },
+  {
+   "pdf_page": 12,
+   "note": "idx 18 (ترجي/ترجئ) held, see held[]"
+  }
+ ],
+ "held": [
+  {
+   "pdf_page": 3,
+   "idx": 12,
+   "a": "(റും",
+   "b": "(റൂം",
+   "note": "ു/ൂ glyph under റ not settleable from scan; not applied"
+  },
+  {
+   "pdf_page": 12,
+   "idx": 18,
+   "a": "{ترجي",
+   "b": "{ترجئ",
+   "note": "final letter printed undotted with a mark above that may be hamza or damma; hamza/vowel glyph call not settleable; not applied"
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "A"
+  },
+  {
+   "idx": 1,
+   "print": "A"
+  },
+  {
+   "idx": 2,
+   "print": "A"
+  },
+  {
+   "idx": 3,
+   "print": "A"
+  },
+  {
+   "idx": 4,
+   "print": "A"
+  },
+  {
+   "idx": 5,
+   "print": "A"
+  },
+  {
+   "idx": 6,
+   "print": "A"
+  },
+  {
+   "idx": 7,
+   "print": "A"
+  },
+  {
+   "idx": 8,
+   "print": "A"
+  },
+  {
+   "idx": 9,
+   "print": "A"
+  },
+  {
+   "idx": 10,
+   "print": "A"
+  },
+  {
+   "idx": 11,
+   "print": "A"
+  },
+  {
+   "idx": 12,
+   "print": "held"
+  },
+  {
+   "idx": 13,
+   "print": "B"
+  },
+  {
+   "idx": 14,
+   "print": "B"
+  },
+  {
+   "idx": 15,
+   "print": "B"
+  },
+  {
+   "idx": 16,
+   "print": "B"
+  },
+  {
+   "idx": 17,
+   "print": "B"
+  },
+  {
+   "idx": 18,
+   "print": "held"
+  },
+  {
+   "idx": 19,
+   "print": "B"
+  },
+  {
+   "idx": 20,
+   "print": "B"
+  }
+ ],
+ "notes": "pp.4,9,10,13 had no diff items in _diff_1_26.json; pages 3 and 12 reviewed but each has one held item"
+}

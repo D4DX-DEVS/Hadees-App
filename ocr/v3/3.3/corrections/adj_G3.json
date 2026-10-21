@@ -1,0 +1,144 @@
+{
+ "part": "3.3",
+ "pages_checked": [
+  65,
+  66,
+  68,
+  70,
+  71,
+  76,
+  77,
+  78,
+  80,
+  82,
+  87,
+  91,
+  96
+ ],
+ "corrections": [
+  {
+   "pdf_page": 66,
+   "block": 0,
+   "old": "സൂക്ഷ്മത",
+   "new": "സൂക്ഷമത",
+   "why": "print heading reads സൂക്ഷമത (printed typo, no ്മ)"
+  },
+  {
+   "pdf_page": 76,
+   "block": 8,
+   "old": "സൗമ്യത",
+   "new": "സൗമൃത",
+   "why": "print has മൃ (printed typo)"
+  },
+  {
+   "pdf_page": 76,
+   "block": 2,
+   "old": "സൗമ്യതയോടെ",
+   "new": "സൗമൃതയോടെ",
+   "why": "heading print also has മൃ (same typo)"
+  },
+  {
+   "pdf_page": 82,
+   "block": 1,
+   "old": "അടുത്തേക്കയക്കുകയും",
+   "new": "അടുത്തേക്കയെക്കുകയും",
+   "why": "print reads കയെക്കു"
+  },
+  {
+   "pdf_page": 87,
+   "block": 7,
+   "old": "അദ്ധ്വാനിച്ചത്",
+   "new": "അദ്ധാനിച്ചത്",
+   "why": "print reads അദ്ധാനിച്ചത് (no ്വ; printed typo)"
+  },
+  {
+   "pdf_page": 91,
+   "block": 6,
+   "old": "ലഭിച്ചുളളൂ.",
+   "new": "ലഭിച്ചുളളു.",
+   "why": "print final vowel is short ു"
+  },
+  {
+   "pdf_page": 96,
+   "block": 1,
+   "old": "ഉദ്ദേശമില്ലാതെ,",
+   "new": "ഉദ്ധേശമില്ലാതെ,",
+   "why": "print conjunct is ദ്ധ (matches glyph of ദ്ധ, differs from ദ്ദ)"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "A"
+  },
+  {
+   "idx": 1,
+   "print": "B"
+  },
+  {
+   "idx": 2,
+   "print": "A"
+  },
+  {
+   "idx": 3,
+   "print": "A"
+  },
+  {
+   "idx": 4,
+   "print": "A"
+  },
+  {
+   "idx": 5,
+   "print": "A"
+  },
+  {
+   "idx": 6,
+   "print": "B"
+  },
+  {
+   "idx": 7,
+   "print": "A"
+  },
+  {
+   "idx": 8,
+   "print": "A"
+  },
+  {
+   "idx": 9,
+   "print": "A"
+  },
+  {
+   "idx": 10,
+   "print": "A"
+  },
+  {
+   "idx": 11,
+   "print": "A"
+  },
+  {
+   "idx": 12,
+   "print": "B"
+  },
+  {
+   "idx": 13,
+   "print": "A"
+  },
+  {
+   "idx": 14,
+   "print": "B"
+  },
+  {
+   "idx": 15,
+   "print": "B"
+  },
+  {
+   "idx": 16,
+   "print": "B"
+  },
+  {
+   "idx": 17,
+   "print": "A"
+  }
+ ]
+}

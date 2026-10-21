@@ -1,0 +1,51 @@
+{
+ "pages": [
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 36,
+   "note": "Spelling of Abu Dardaa in block 1 varies in print (അബൂദർദാഅ്/അബുദർദാഅ്/അബുദ്ദർദാഅ്); first and last occurrences ('അബൂദ്ദർദാഅ്(റ): ഞങ്ങൾ', '...(റ) സത്യം') not resolved at zoom"
+  },
+  {
+   "pdf_page": 30,
+   "hadith_no": null,
+   "note": "ഖിള്റ്(അ)വിനെ മനസ്സിലാക്കി: print reads 'ഖിള്ർ(അ)ുനെ' (odd sign after (അ)); not changed"
+  },
+  {
+   "pdf_page": 31,
+   "hadith_no": null,
+   "note": "Khilr spelling in print varies (ഖിളർ / ഖിള്ർ) on line wraps; left as JSON"
+  }
+ ],
+ "applied": 105
+}

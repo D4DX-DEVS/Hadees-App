@@ -1,0 +1,137 @@
+{
+ "part": "3.6",
+ "pages_checked": [
+  28,
+  29,
+  30,
+  31,
+  32,
+  34,
+  51,
+  55,
+  56,
+  58,
+  60,
+  61,
+  63
+ ],
+ "corrections": [
+  {
+   "pdf_page": 30,
+   "block": 7,
+   "old": "പങ്കാളിയില്ലാത്തവനാണെന്നും",
+   "new": "പങ്കാളിയില്ലാത്തവനാണന്നും",
+   "why": "print has no െ"
+  },
+  {
+   "pdf_page": 32,
+   "block": 6,
+   "old": "حُمْرَانُ",
+   "new": "عِمْرَانُ",
+   "why": "print عمران (ع not ح)"
+  },
+  {
+   "pdf_page": 32,
+   "block": 7,
+   "old": "അലി, നിങ്ങളെഴുന്നേറ്റ്",
+   "new": "അലി, നിങ്ങളെഴുനേറ്റ്",
+   "why": "print എഴുനേറ്റ്"
+  },
+  {
+   "pdf_page": 34,
+   "block": 11,
+   "old": "ثُمَّ إِنْ سَكِرَ فَاجْلِدُوهُ، ثُمَّ إِنْ سَكِرَ فَاجْلِدُوهُ، فَإِنْ",
+   "new": "ثُمَّ إِنْ سَكِرَ فَاجْلِدُوهُ، فَإِنْ",
+   "why": "print has only one repetition of ثم إن سكر فاجلدوه"
+  },
+  {
+   "pdf_page": 55,
+   "block": 2,
+   "old": "മറ്റേന്തും",
+   "new": "മറ്റെന്തും",
+   "why": "print മറ്റെന്തും"
+  },
+  {
+   "pdf_page": 63,
+   "block": 3,
+   "old": "നിന്നിറങ്ങിയില്ല",
+   "new": "നിന്നിറങ്ങയില്ല",
+   "why": "print shows ങ്ങ followed directly by യില്ല (one ി only), neither A nor B"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "A"
+  },
+  {
+   "idx": 1,
+   "print": "A"
+  },
+  {
+   "idx": 2,
+   "print": "A"
+  },
+  {
+   "idx": 3,
+   "print": "B"
+  },
+  {
+   "idx": 4,
+   "print": "A"
+  },
+  {
+   "idx": 5,
+   "print": "B"
+  },
+  {
+   "idx": 6,
+   "print": "A"
+  },
+  {
+   "idx": 7,
+   "print": "B"
+  },
+  {
+   "idx": 8,
+   "print": "B"
+  },
+  {
+   "idx": 9,
+   "print": "A"
+  },
+  {
+   "idx": 10,
+   "print": "A"
+  },
+  {
+   "idx": 11,
+   "print": "B"
+  },
+  {
+   "idx": 12,
+   "print": "A"
+  },
+  {
+   "idx": 13,
+   "print": "A"
+  },
+  {
+   "idx": 14,
+   "print": "A"
+  },
+  {
+   "idx": 15,
+   "print": "A"
+  },
+  {
+   "idx": 16,
+   "print": "A"
+  },
+  {
+   "idx": 17,
+   "print": "other"
+  }
+ ]
+}

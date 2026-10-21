@@ -1,0 +1,200 @@
+{
+ "part": "3.3",
+ "pages_checked": [
+  11,
+  12,
+  15,
+  16,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32
+ ],
+ "corrections": [
+  {
+   "pdf_page": 22,
+   "block": 7,
+   "old": "മറ്റവന്റെ",
+   "new": "മറ്റെവന്റെ",
+   "why": "print മറ്റെവന്റെ (െ after റ്റ)"
+  },
+  {
+   "pdf_page": 32,
+   "block": 3,
+   "old": "ഇബ്നുഅബ്ബാസ്(റ): റസൂൽ",
+   "new": "ഇബ്നുഅബ്വാസ്(റ): റസൂൽ",
+   "why": "print ബ്വ ligature (അബ്വാസ്)"
+  },
+  {
+   "pdf_page": 32,
+   "block": 3,
+   "old": "ഇബ്നുഅബ്ബാസ്(റ) പറയുന്നു",
+   "new": "ഇബ്നുഅബ്വാസ്(റ) പറയുന്നു",
+   "why": "print അബ്വാസ്"
+  },
+  {
+   "pdf_page": 32,
+   "block": 7,
+   "old": "ഇബ്നുഅബ്ബാസ്(റ): റസൂൽ",
+   "new": "ഇബ്നുഅബ്വാസ്(റ): റസൂൽ",
+   "why": "print അബ്വാസ്"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 15,
+   "print": "A"
+  },
+  {
+   "idx": 16,
+   "print": "A"
+  },
+  {
+   "idx": 17,
+   "print": "A"
+  },
+  {
+   "idx": 18,
+   "print": "A"
+  },
+  {
+   "idx": 19,
+   "print": "A"
+  },
+  {
+   "idx": 20,
+   "print": "A"
+  },
+  {
+   "idx": 21,
+   "print": "A"
+  },
+  {
+   "idx": 22,
+   "print": "A"
+  },
+  {
+   "idx": 23,
+   "print": "A"
+  },
+  {
+   "idx": 24,
+   "print": "A"
+  },
+  {
+   "idx": 25,
+   "print": "A"
+  },
+  {
+   "idx": 26,
+   "print": "A"
+  },
+  {
+   "idx": 27,
+   "print": "A"
+  },
+  {
+   "idx": 28,
+   "print": "A"
+  },
+  {
+   "idx": 29,
+   "print": "A"
+  },
+  {
+   "idx": 30,
+   "print": "B"
+  },
+  {
+   "idx": 31,
+   "print": "A"
+  },
+  {
+   "idx": 32,
+   "print": "A"
+  },
+  {
+   "idx": 33,
+   "print": "A"
+  },
+  {
+   "idx": 34,
+   "print": "A"
+  },
+  {
+   "idx": 35,
+   "print": "A"
+  },
+  {
+   "idx": 36,
+   "print": "A"
+  },
+  {
+   "idx": 37,
+   "print": "A"
+  },
+  {
+   "idx": 38,
+   "print": "A"
+  },
+  {
+   "idx": 39,
+   "print": "A"
+  },
+  {
+   "idx": 40,
+   "print": "A"
+  },
+  {
+   "idx": 41,
+   "print": "A"
+  },
+  {
+   "idx": 42,
+   "print": "A"
+  },
+  {
+   "idx": 43,
+   "print": "A"
+  },
+  {
+   "idx": 44,
+   "print": "A"
+  },
+  {
+   "idx": 45,
+   "print": "A"
+  },
+  {
+   "idx": 46,
+   "print": "A"
+  },
+  {
+   "idx": 47,
+   "print": "A"
+  },
+  {
+   "idx": 48,
+   "print": "B"
+  },
+  {
+   "idx": 49,
+   "print": "B"
+  },
+  {
+   "idx": 50,
+   "print": "B"
+  }
+ ]
+}

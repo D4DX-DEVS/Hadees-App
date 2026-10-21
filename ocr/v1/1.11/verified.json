@@ -1,0 +1,73 @@
+{
+ "pages": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 1,
+   "note": "Items 4,8,10,11,16,17,31: print uses side-by-side typewriter ററ for റ്റ (e.g. മററന്നാൾ, ഏററവും, മറെറാരു, കുററത്തിൽ), but stacked റ്റ elsewhere on the same pages. Treated as encoding-equivalent (like ളള/ള്ള), decided A, no correction; p016 block keeps literal ഏററവും. Normalise globally if desired."
+  },
+  {
+   "pdf_page": 2,
+   "note": "p001 bab (فضل يوم الجمعة) has empty malayalam; print shows its Malayalam title 'വെള്ളിയാഴ്ചയുടെ മഹത്വം' as an underlined heading at the top of p002 (stored there as a note). Print confirms it is the bab's Malayalam title split across the page break; structure not changed."
+  },
+  {
+   "pdf_page": 1,
+   "note": "Item 2: book heading 'ജുമുഅഃ' — print shows two dots after അ in bold heading; read as visarga ഃ (A), could be a colon."
+  },
+  {
+   "pdf_page": 5,
+   "hadith_no": 8,
+   "note": "scan faded: only \"നിസ്കാ\" visible before the smudge; \"നിസ്കാരം\" is inferred from the sentence, not read"
+  }
+ ],
+ "applied": 91,
+ "method": "dual read (sonnet+opus; gemini for 1.11 p19-24) + adjudication"
+}

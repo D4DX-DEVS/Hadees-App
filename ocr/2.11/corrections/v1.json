@@ -1,0 +1,287 @@
+{
+ "part": "2.11",
+ "pages_checked": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8
+ ],
+ "corrections": [
+  {
+   "pdf_page": 1,
+   "block": 2,
+   "old": "صِرَاطًا مُّسْتَقِيمًا",
+   "new": "صِرَاطًا مُسْتَقِيمًا",
+   "why": "print has single damma, no idgham tanween"
+  },
+  {
+   "pdf_page": 1,
+   "block": 2,
+   "old": "أَبْوَابٌ مُّفَتَّحَةٌ",
+   "new": "أَبْوَابٌ مُفَتَّحَةٌ",
+   "why": "print has single damma"
+  },
+  {
+   "pdf_page": 1,
+   "block": 5,
+   "old": "ഇവിടുത്തേക്കൊരു",
+   "new": "ഇവിടത്തേക്കൊരു",
+   "why": "spelling differs from print"
+  },
+  {
+   "pdf_page": 1,
+   "block": 5,
+   "old": "സ്വർഗവും",
+   "new": "സ്വർഗ്ഗവും",
+   "why": "conjunct (ഗ്ഗ) printed"
+  },
+  {
+   "pdf_page": 2,
+   "block": 1,
+   "old": "حَسَنٌ صَحِيحٌ. (ت)",
+   "new": "حَسَنٌ صَحِيحٌ. (ق،د،ت)",
+   "why": "source codes differ: print (ق،د،ت)"
+  },
+  {
+   "pdf_page": 2,
+   "block": 2,
+   "old": "അവിടുന്ന് അബ്ദുല്ലാഹിബ്നു",
+   "new": "അവിടന്ന് അബ്ദുല്ലാഹിബ്നു",
+   "why": "spelling differs from print"
+  },
+  {
+   "pdf_page": 2,
+   "block": 2,
+   "old": "ഒരു കൂട്ടം അവിടുത്തെ കാൽഭാഗത്തും",
+   "new": "ഒരു കൂട്ടം അവിടത്തെ കാൽഭാഗത്തും",
+   "why": "spelling differs from print"
+  },
+  {
+   "pdf_page": 2,
+   "block": 2,
+   "old": "അവിടുത്തെ കണ്ണുകൾ",
+   "new": "അവിടത്തെ കണ്ണുകൾ",
+   "why": "spelling differs from print"
+  },
+  {
+   "pdf_page": 2,
+   "block": 2,
+   "old": "അവിടുത്തേക്കൊരു ഉപമ",
+   "new": "അവിടത്തേക്കൊരു ഉപമ",
+   "why": "spelling differs from print"
+  },
+  {
+   "pdf_page": 2,
+   "block": 2,
+   "old": "എന്റെയടുത്തു് വന്ന്",
+   "new": "എന്റെയടുത്ത് വന്ന്",
+   "why": "stray chandrakkala/virama sign"
+  },
+  {
+   "pdf_page": 3,
+   "block": 0,
+   "old": "അവിടുന്ന് ചോദിച്ചു",
+   "new": "അവിടന്ന് ചോദിച്ചു",
+   "why": "spelling differs from print"
+  },
+  {
+   "pdf_page": 3,
+   "block": 0,
+   "old": "അവിടുന്ന് പറഞ്ഞു: \"അവർ മലക്കുകളാകുന്നു",
+   "new": "അവിടന്ന് പറഞ്ഞു: \"അവർ മലക്കുകളാകുന്നു",
+   "why": "spelling differs from print"
+  },
+  {
+   "pdf_page": 3,
+   "block": 0,
+   "old": "അവിടുന്ന് മൊഴിഞ്ഞു",
+   "new": "അവിടന്ന് മൊഴിഞ്ഞു",
+   "why": "spelling differs from print"
+  },
+  {
+   "pdf_page": 3,
+   "block": 3,
+   "old": "പ്രവാചകൻ(സ) പറഞ്ഞു",
+   "new": "പ്രവാചകർ(സ) പറഞ്ഞു",
+   "why": "print: പ്രവാചകർ"
+  },
+  {
+   "pdf_page": 4,
+   "block": 1,
+   "old": "പ്രവാചകൻ(സ) പറഞ്ഞു: യഹ്",
+   "new": "പ്രവാചകർ(സ) പറഞ്ഞു: യഹ്",
+   "why": "print: പ്രവാചകർ"
+  },
+  {
+   "pdf_page": 4,
+   "block": 1,
+   "old": "പ്രവാചകൻ(സ) പറഞ്ഞു: \"അഞ്ചുകാര്യങ്ങൾ",
+   "new": "പ്രവാചകർ(സ) പറഞ്ഞു: \"അഞ്ചുകാര്യങ്ങൾ",
+   "why": "print: പ്രവാചകർ"
+  },
+  {
+   "pdf_page": 4,
+   "block": 1,
+   "old": "സകരിയ്യ(അ)മിനോട്",
+   "new": "സകരിയ(അ)മിനോട്",
+   "why": "spelling differs from print"
+  },
+  {
+   "pdf_page": 4,
+   "block": 1,
+   "old": "ശിക്ഷിക്കപ്പെടുമെന്നോ",
+   "new": "ശിക്ഷിക്കപ്പെടുമെന്നും",
+   "why": "word differs"
+  },
+  {
+   "pdf_page": 4,
+   "block": 1,
+   "old": "വിഴുങ്ങുമെന്നോ",
+   "new": "വിഴുങ്ങുമെന്നും",
+   "why": "word differs"
+  },
+  {
+   "pdf_page": 4,
+   "block": 1,
+   "old": "നിങ്ങളിലാരണ് ഇഷ്ടപ്പെടുക",
+   "new": "നിങ്ങളിലാരാണ് ഇഷ്ടപ്പെടുക",
+   "why": "vowel sign missing"
+  },
+  {
+   "pdf_page": 4,
+   "block": 1,
+   "old": "'മിസ്ക്'(കസ്തൂരി)",
+   "new": "'മിസ്കു'(കസ്തൂരി)",
+   "why": "final u dropped"
+  },
+  {
+   "pdf_page": 4,
+   "block": 1,
+   "old": "അഭയം തേടുകയും ചെയ്തു",
+   "new": "അഭയം തേടുകയും ചെയ്യുന്നു",
+   "why": "tense differs"
+  },
+  {
+   "pdf_page": 5,
+   "block": 0,
+   "old": "മുസ്ലിംകളെ",
+   "new": "മുസ്ലിമീങ്ങളെ",
+   "why": "spelling differs from print"
+  },
+  {
+   "pdf_page": 5,
+   "block": 6,
+   "old": "ഭരമേല്പിച്ചിരിക്കുന്ന",
+   "new": "ഭരമേൽപ്പിച്ചിരിക്കുന്ന",
+   "why": "chillu/conjunct differs"
+  },
+  {
+   "pdf_page": 6,
+   "block": 0,
+   "old": "തത്ത്വങ്ങൾ",
+   "new": "തത്വങ്ങൾ",
+   "why": "spelling differs from print"
+  },
+  {
+   "pdf_page": 6,
+   "block": 5,
+   "old": "അപ്പോൾ പ്രവാചകൻ(സ)",
+   "new": "അപ്പോൾ പ്രവാചകർ(സ)",
+   "why": "print: പ്രവാചകർ"
+  },
+  {
+   "pdf_page": 7,
+   "block": 1,
+   "old": "വീട്ടിനുമുന്നിൽ",
+   "new": "വീടിനുമുന്നിൽ",
+   "why": "spelling differs from print"
+  },
+  {
+   "pdf_page": 7,
+   "block": 1,
+   "old": "അവിടനരുളി",
+   "new": "അവിടന്നരുളി",
+   "why": "chillu/virama missing"
+  },
+  {
+   "pdf_page": 7,
+   "block": 7,
+   "old": "അവിടനരുളി",
+   "new": "അവിടന്നരുളി",
+   "why": "chillu/virama missing"
+  },
+  {
+   "pdf_page": 7,
+   "block": 8,
+   "old": "عَنْ ابْنِ عُمَرَ",
+   "new": "عَنِ ابْنِ عُمَرَ",
+   "why": "kasra on nun-less form as printed"
+  },
+  {
+   "pdf_page": 7,
+   "block": 9,
+   "old": "ഓരോ ഖീറാത്തിന് ഉച്ചവരെ",
+   "new": "ഓരോ ഖിറാത്തിന് ഉച്ചവരെ",
+   "why": "spelling differs from print"
+  },
+  {
+   "pdf_page": 7,
+   "block": 9,
+   "old": "ഒരു ഖീറാത്തിന് പണിയെടുത്തു",
+   "new": "ഒരു ഖിറാത്തിന് പണിയെടുത്തു",
+   "why": "spelling differs from print"
+  },
+  {
+   "pdf_page": 8,
+   "block": 0,
+   "old": "ഓരോ ഖീറാത്തിന് ആരു",
+   "new": "ഓരോ ഖിറാത്തിന് ആരു",
+   "why": "spelling differs from print"
+  },
+  {
+   "pdf_page": 8,
+   "block": 0,
+   "old": "അതന്റെ ഔദാര്യമാണ്",
+   "new": "അതെന്റെ ഔദാര്യമാണ്",
+   "why": "vowel differs"
+  },
+  {
+   "pdf_page": 8,
+   "block": 2,
+   "old": "ഒന്നുപോലുമില്ലാത്ത",
+   "new": "ഒന്ന്പോലുമില്ലാത്ത",
+   "why": "print: ഒന്ന്പോലും"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 1,
+   "hadith_no": 1,
+   "note": "Malayalam 'മീക്കാഈൽ(അ)' - print appears to read differently (unclear: മിക്കാഈൽ/മീകാഈൽ); not corrected"
+  },
+  {
+   "pdf_page": 2,
+   "hadith_no": 3,
+   "note": "JSON Arabic is fully vocalised but print is only partly vocalised (hadiths 3, 5 etc.); added harakat not corrected"
+  },
+  {
+   "pdf_page": 4,
+   "hadith_no": 9,
+   "note": "Malayalam 'ഈസ(അ)' / 'ബനൂഇസ്രാഈലിനോട്' - print shows ഈൗ-style spelling (ഈൗസ, ഇസ്രാഈൗൽ); could not read confidently"
+  },
+  {
+   "pdf_page": 5,
+   "hadith_no": 6,
+   "note": "Last Malayalam block: print seems to read 'കപട വിസ്വാസിയുടെ' (misprint, kept?) - JSON has 'വിശ്വാസിയുടെ'; low confidence, not corrected"
+  },
+  {
+   "pdf_page": 8,
+   "hadith_no": 15,
+   "note": "Print has 'ഇർച്ഛിച്ചവർക്ക്' / 'ഈൗച്ചകളും' ('ഈൗ' for ഈ) - JSON normalised; not corrected"
+  }
+ ]
+}

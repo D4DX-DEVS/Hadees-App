@@ -1,0 +1,168 @@
+{
+ "part": "2.10",
+ "pages_checked": [
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24
+ ],
+ "corrections": [
+  {
+   "pdf_page": 18,
+   "block": 0,
+   "old": "സഅ്ദ്ബ്നു",
+   "new": "സഅ്ദിബ്നു",
+   "why": "missing vowel sign"
+  },
+  {
+   "pdf_page": 18,
+   "block": 0,
+   "old": "സഅ് ലബയുടെ",
+   "new": "സഅ്ലബയുടെ",
+   "why": "spurious space"
+  },
+  {
+   "pdf_page": 18,
+   "block": 2,
+   "old": "പിച്ചിചീന്തിക്കളഞ്ഞു",
+   "new": "പിച്ചിച്ചീന്തിക്കളഞ്ഞു",
+   "why": "conjunct ച്ച"
+  },
+  {
+   "pdf_page": 18,
+   "block": 2,
+   "old": "പിച്ചിചീന്തപ്പെടട്ടെ",
+   "new": "പിച്ചിച്ചീന്തപ്പെടട്ടെ",
+   "why": "conjunct ച്ച"
+  },
+  {
+   "pdf_page": 19,
+   "block": 0,
+   "old": "بِكَ رَجُلًا",
+   "new": "بِهُدَاكَ رَجُلًا",
+   "why": "print has بهداك (JSON بك)"
+  },
+  {
+   "pdf_page": 19,
+   "block": 2,
+   "old": "فَقُلْنَا: مَا بَعَثَ",
+   "new": "قُلْنَا: مَا بَعَثَ",
+   "why": "extra فَ not in print"
+  },
+  {
+   "pdf_page": 20,
+   "block": 3,
+   "old": "ഇവിടെ ഹാജരായവൻ അസന്നിഹിതനായവന്",
+   "new": "ഇവിടെ ഹാജറായവൻ അസന്നിഹിതനായവന്",
+   "why": "print spells ഹാജറായവൻ"
+  },
+  {
+   "pdf_page": 20,
+   "block": 3,
+   "old": "ഹാജരായവൻ അവനേക്കാൾ",
+   "new": "ഹാജറായവൻ അവനേക്കാൾ",
+   "why": "print spells ഹാജറായവൻ"
+  },
+  {
+   "pdf_page": 20,
+   "block": 3,
+   "old": "എത്തിച്ചു കൊടുക്കട്ടെ",
+   "new": "എത്തിച്ചു കൊടുക്കുക",
+   "why": "print ends കൊടുക്കുക"
+  },
+  {
+   "pdf_page": 22,
+   "block": 0,
+   "old": "ഹജ്ജത്തുൽ",
+   "new": "ഹജ്ജതുൽ",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 22,
+   "block": 1,
+   "old": "بَابُ: التَّوَقِّي",
+   "new": "بَابٌ: التَّوَقِّي",
+   "why": "tanween not damma"
+  },
+  {
+   "pdf_page": 22,
+   "block": 6,
+   "old": "بَابُ: الْكَلَامُ",
+   "new": "بَابٌ: الْكَلَامُ",
+   "why": "tanween not damma"
+  },
+  {
+   "pdf_page": 22,
+   "block": 8,
+   "old": "ജുൻദുബ്നുബ്നു",
+   "new": "ജുൻദുബുബ്നു",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 22,
+   "block": 8,
+   "old": "ബജലി(റ)",
+   "new": "ബജലീ(റ)",
+   "why": "long ee in print"
+  },
+  {
+   "pdf_page": 22,
+   "block": 8,
+   "old": "അവൻ പിഴച്ചിരിക്കുന്നു",
+   "new": "അവന് പിഴച്ചിരിക്കുന്നു",
+   "why": "print has അവന്"
+  },
+  {
+   "pdf_page": 22,
+   "block": 9,
+   "old": "ശ്രദ്ധിക്കാൻ",
+   "new": "ശ്രവിക്കാൻ",
+   "why": "print word differs"
+  },
+  {
+   "pdf_page": 23,
+   "block": 4,
+   "old": "ഉഖ്ബത്തുബ്നുൽ",
+   "new": "ഉഖ്ബതുബ്നുൽ",
+   "why": "print spelling"
+  },
+  {
+   "pdf_page": 23,
+   "block": 8,
+   "old": "وَاثْنَيْنِ،",
+   "new": "وَاثْنَتَيْنِ،",
+   "why": "print واثنتين"
+  },
+  {
+   "pdf_page": 23,
+   "block": 8,
+   "old": "قَالَ: \"وَاثْنَيْنِ",
+   "new": "قَالَ: \"وَاثْنَتَيْنِ",
+   "why": "print واثنتين"
+  },
+  {
+   "pdf_page": 24,
+   "block": 0,
+   "old": "പുരുഷന്മാർ",
+   "new": "പുരുഷൻമാർ",
+   "why": "print has chillu ൻ+മ"
+  },
+  {
+   "pdf_page": 24,
+   "block": 1,
+   "old": "بَابُ: الْعِلْمُ",
+   "new": "بَابٌ: الْعِلْمُ",
+   "why": "tanween not damma"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 18,
+   "block": 0,
+   "note": "print may read ബക്റിന്റെ (റ) vs JSON ബക്രിന്റെ; glyph ambiguous, left unchanged"
+  }
+ ]
+}

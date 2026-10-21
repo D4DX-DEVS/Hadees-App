@@ -1,0 +1,182 @@
+{
+ "part": "1.24",
+ "pages_checked": [
+  1,
+  2,
+  4,
+  7,
+  8,
+  9,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16
+ ],
+ "corrections": [
+  {
+   "pdf_page": 2,
+   "block": 8,
+   "old": "ഇബ്നുസ്സിംത്(റ):",
+   "new": "ഇബ്നുസ്സിംത്വ്(റ):",
+   "why": "print ത്വ്"
+  },
+  {
+   "pdf_page": 8,
+   "block": 3,
+   "old": "ثُمَّ رَكِبَ.",
+   "new": "ثُمَّ رَكِبَ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ.",
+   "why": "print continues صلى الله عليه وسلم on next line before وفي رواية"
+  },
+  {
+   "pdf_page": 9,
+   "block": 5,
+   "old": "മക്കയിലായിരിക്കെ",
+   "new": "മക്കയിയിലായിരിക്കെ",
+   "why": "printed typo: two യി"
+  },
+  {
+   "pdf_page": 11,
+   "block": 1,
+   "old": "മധ്യാഹനത്തിൽ",
+   "new": "മധ്യാഹ്നത്തിൽ",
+   "why": "same print word as the later occurrence (ഹ്ന conjunct, ധ്യ not ദ്ധ്യ)"
+  },
+  {
+   "pdf_page": 12,
+   "block": 1,
+   "old": "يُخْرِجَ",
+   "new": "يُحْرِجَ",
+   "why": "print يحرج (ح)"
+  },
+  {
+   "pdf_page": 12,
+   "block": 4,
+   "old": "تَوَجَّهَتْ",
+   "new": "تَوَجَّهَ",
+   "why": "print توجه"
+  },
+  {
+   "pdf_page": 12,
+   "block": 5,
+   "old": "വിത്റ്റും",
+   "new": "വിത്റും",
+   "why": "print വിത്റും (single ത്റ)"
+  },
+  {
+   "pdf_page": 13,
+   "block": 0,
+   "old": "لَيُوشِكَنَّ",
+   "new": "لَيُوشِكَ",
+   "why": "print ليوشك, no ن"
+  },
+  {
+   "pdf_page": 13,
+   "block": 4,
+   "old": "وَسَلَّمَ السُّبْحَةَ",
+   "new": "وَسَلَّمَ صَلَّى السُّبْحَةَ",
+   "why": "print has extra صلى after وسلم"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 11,
+   "note": "idx 8/10: print reads മധ്യാഹ്നത്തിൽ (ഹ്ന conjunct) in both places; virama vs plain ഹന is hard to tell at scan resolution; corrected idx 8 to match idx 10"
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "A"
+  },
+  {
+   "idx": 1,
+   "print": "B"
+  },
+  {
+   "idx": 2,
+   "print": "A"
+  },
+  {
+   "idx": 3,
+   "print": "A"
+  },
+  {
+   "idx": 4,
+   "print": "B"
+  },
+  {
+   "idx": 5,
+   "print": "A"
+  },
+  {
+   "idx": 6,
+   "print": "A"
+  },
+  {
+   "idx": 7,
+   "print": "B"
+  },
+  {
+   "idx": 8,
+   "print": "other"
+  },
+  {
+   "idx": 9,
+   "print": "A"
+  },
+  {
+   "idx": 10,
+   "print": "A"
+  },
+  {
+   "idx": 11,
+   "print": "A"
+  },
+  {
+   "idx": 12,
+   "print": "B"
+  },
+  {
+   "idx": 13,
+   "print": "B"
+  },
+  {
+   "idx": 14,
+   "print": "other"
+  },
+  {
+   "idx": 15,
+   "print": "A"
+  },
+  {
+   "idx": 16,
+   "print": "B"
+  },
+  {
+   "idx": 17,
+   "print": "B"
+  },
+  {
+   "idx": 18,
+   "print": "A"
+  },
+  {
+   "idx": 19,
+   "print": "A"
+  },
+  {
+   "idx": 20,
+   "print": "A"
+  },
+  {
+   "idx": 21,
+   "print": "A"
+  },
+  {
+   "idx": 22,
+   "print": "A"
+  }
+ ]
+}

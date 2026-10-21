@@ -1,0 +1,17 @@
+{
+ "part": "3.16",
+ "pages_checked": [
+  3
+ ],
+ "corrections": [
+  {
+   "pdf_page": 3,
+   "block": 0,
+   "old": "വിട്ടു നിൽക്കുകയും ചെയ്തു",
+   "new": "വിട്ടു നിൽക്കുകയും ചെയതു",
+   "why": "audit C: print has misprint ചെയതു (no virama); keep as printed"
+  }
+ ],
+ "uncertain": [],
+ "decisions": []
+}

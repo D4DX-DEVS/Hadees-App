@@ -1,0 +1,22 @@
+{
+ "pages": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 6,
+   "note": "ചെയ്തു vs ചെന്തു in 'തയമ്മും ചെയ്തു നിസ്കരിച്ചു': print glyph looks like ന്ത (smudged); moderate confidence in B"
+  },
+  {
+   "pdf_page": 1,
+   "note": "ദാതുൽജൈൽ read as A (one ജ with ൈ); അനുചരരൻമാരും B moderate confidence"
+  }
+ ],
+ "applied": 3,
+ "method": "dual read (sonnet+opus) + adjudication"
+}

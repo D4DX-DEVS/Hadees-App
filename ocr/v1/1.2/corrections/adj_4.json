@@ -1,0 +1,247 @@
+{
+ "part": "1.2",
+ "pages_checked": [
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32
+ ],
+ "corrections": [
+  {
+   "pdf_page": 25,
+   "block": 1,
+   "old": "വ്യൃതിയെ",
+   "new": "വ്യക്തിയെ",
+   "why": "print has വ്യക്തിയെ"
+  },
+  {
+   "pdf_page": 25,
+   "block": 5,
+   "old": "അബൂഹുറൈറ(റ): ഒരുകൂട്ടം",
+   "new": "അബുഹുറൈറ(റ): ഒരുകൂട്ടം",
+   "why": "short u printed"
+  },
+  {
+   "pdf_page": 26,
+   "block": 0,
+   "old": "إِلَيْهِ مَا دَامَ",
+   "new": "إِلَيْهِ مَادَامَ",
+   "why": "printed joined مادام"
+  },
+  {
+   "pdf_page": 28,
+   "block": 2,
+   "old": "أَنْ تَتَكَلَّمَ؟",
+   "new": "أَنْ تَكَلَّمَ؟",
+   "why": "print has single ت (تكلم)"
+  },
+  {
+   "pdf_page": 28,
+   "block": 2,
+   "old": "تَتَكَلَّمُونَ",
+   "new": "تَكَلَّمُونَ",
+   "why": "print has single ت"
+  },
+  {
+   "pdf_page": 31,
+   "block": 0,
+   "old": "മനഃസ്സമാധാനം",
+   "new": "മന:സ്സമാധാനം",
+   "why": "print uses colon, not visarga"
+  },
+  {
+   "pdf_page": 32,
+   "block": 4,
+   "old": "അബൂഹുറൈറ(റ): നിശ്ചയം",
+   "new": "അബുഹുറൈറ(റ): നിശ്ചയം",
+   "why": "short u printed"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "A"
+  },
+  {
+   "idx": 1,
+   "print": "A"
+  },
+  {
+   "idx": 2,
+   "print": "B"
+  },
+  {
+   "idx": 3,
+   "print": "A"
+  },
+  {
+   "idx": 4,
+   "print": "A"
+  },
+  {
+   "idx": 5,
+   "print": "A"
+  },
+  {
+   "idx": 6,
+   "print": "A"
+  },
+  {
+   "idx": 7,
+   "print": "A"
+  },
+  {
+   "idx": 8,
+   "print": "A"
+  },
+  {
+   "idx": 9,
+   "print": "A"
+  },
+  {
+   "idx": 10,
+   "print": "A"
+  },
+  {
+   "idx": 11,
+   "print": "A"
+  },
+  {
+   "idx": 12,
+   "print": "A"
+  },
+  {
+   "idx": 13,
+   "print": "A"
+  },
+  {
+   "idx": 14,
+   "print": "A"
+  },
+  {
+   "idx": 15,
+   "print": "A"
+  },
+  {
+   "idx": 16,
+   "print": "A"
+  },
+  {
+   "idx": 17,
+   "print": "A"
+  },
+  {
+   "idx": 18,
+   "print": "B"
+  },
+  {
+   "idx": 19,
+   "print": "B"
+  },
+  {
+   "idx": 20,
+   "print": "A"
+  },
+  {
+   "idx": 21,
+   "print": "A"
+  },
+  {
+   "idx": 22,
+   "print": "A"
+  },
+  {
+   "idx": 23,
+   "print": "A"
+  },
+  {
+   "idx": 24,
+   "print": "A"
+  },
+  {
+   "idx": 25,
+   "print": "A"
+  },
+  {
+   "idx": 26,
+   "print": "A"
+  },
+  {
+   "idx": 27,
+   "print": "A"
+  },
+  {
+   "idx": 28,
+   "print": "A"
+  },
+  {
+   "idx": 29,
+   "print": "A"
+  },
+  {
+   "idx": 30,
+   "print": "A"
+  },
+  {
+   "idx": 31,
+   "print": "A"
+  },
+  {
+   "idx": 32,
+   "print": "A"
+  },
+  {
+   "idx": 33,
+   "print": "A"
+  },
+  {
+   "idx": 34,
+   "print": "B"
+  },
+  {
+   "idx": 35,
+   "print": "A"
+  },
+  {
+   "idx": 36,
+   "print": "A"
+  },
+  {
+   "idx": 37,
+   "print": "A"
+  },
+  {
+   "idx": 38,
+   "print": "A"
+  },
+  {
+   "idx": 39,
+   "print": "A"
+  },
+  {
+   "idx": 40,
+   "print": "A"
+  },
+  {
+   "idx": 41,
+   "print": "B"
+  },
+  {
+   "idx": 42,
+   "print": "B"
+  },
+  {
+   "idx": 43,
+   "print": "B"
+  },
+  {
+   "idx": 44,
+   "print": "B"
+  }
+ ]
+}

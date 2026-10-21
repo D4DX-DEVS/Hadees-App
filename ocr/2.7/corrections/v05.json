@@ -1,0 +1,128 @@
+{
+ "part": "2.7",
+ "pages_checked": [
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75
+ ],
+ "corrections": [
+  {
+   "pdf_page": 61,
+   "block": 2,
+   "old": "ഖസ്സിയ്യി (ചണവും",
+   "new": "ഖസ്സിയ്യ് (ചണവും",
+   "why": "final letter is virama in print"
+  },
+  {
+   "pdf_page": 61,
+   "block": 2,
+   "old": "ജിഅത്തും - ബാർളിയും",
+   "new": "ജിഅതും - ബാർളിയും",
+   "why": "printed ജിഅതും"
+  },
+  {
+   "pdf_page": 61,
+   "block": 2,
+   "old": "'ജിഅത്തും' റസൂൽ",
+   "new": "'ജിഅതും' റസൂൽ",
+   "why": "printed ജിഅതും"
+  },
+  {
+   "pdf_page": 62,
+   "block": 4,
+   "old": "തിരുക്കരങ്ങളിൽ",
+   "new": "തിരുകരങ്ങളിൽ",
+   "why": "printed തിരുകരങ്ങളിൽ"
+  },
+  {
+   "pdf_page": 67,
+   "block": 4,
+   "old": "'മുഹമ്മദുറസൂലുല്ലാഹി'",
+   "new": "'മുഹമ്മദുർറസൂലുല്ലാഹി'",
+   "why": "missing chillu rra"
+  },
+  {
+   "pdf_page": 67,
+   "block": 9,
+   "old": "'മുഹമ്മദുറസൂലുല്ലാഹി'",
+   "new": "'മുഹമ്മദുർറസൂലുല്ലാഹി'",
+   "why": "missing chillu rra"
+  },
+  {
+   "pdf_page": 68,
+   "block": 0,
+   "old": "'മുഹമ്മദ്ദുർറസൂലുല്ലാഹി'",
+   "new": "'മുഹമ്മദുർറസൂലുല്ലാഹി'",
+   "why": "extra ddu"
+  },
+  {
+   "pdf_page": 68,
+   "block": 5,
+   "old": "അതിൽ 'മുഹമ്മദ്ദുർറസൂലുല്ലാഹി' എന്ന് കൊത്തിവെക്കുകയും ചെയ്തു. എന്നിട്ട്",
+   "new": "അതിൽ 'മുഹമ്മദുർറസൂലുല്ലാഹി' എന്ന് കൊത്തിവെക്കുകയും ചെയ്തു. എന്നിട്ട്",
+   "why": "extra ddu"
+  },
+  {
+   "pdf_page": 68,
+   "block": 5,
+   "old": "അതിൽ 'മുഹമ്മദ്ദുർറസൂലുല്ലാഹി' എന്ന് കൊത്തിവെക്കുകയും ചെയ്തു. ഇനി",
+   "new": "അതിൽ 'മുഹമ്മദുർറസൂലുല്ലാഹി' എന്ന് കൊത്തിവെക്കുകയും ചെയ്തു. ഇനി",
+   "why": "extra ddu"
+  },
+  {
+   "pdf_page": 70,
+   "block": 2,
+   "old": "ഇടതുകയ്യിന്റെ ചെറുവിരലിൽ",
+   "new": "ഇടത്കയ്യിന്റെ ചെറുവിരലിൽ",
+   "why": "printed ഇടത്കയ്യിന്റെ"
+  },
+  {
+   "pdf_page": 72,
+   "block": 7,
+   "old": "മാലികുബ്നു നദ്‌ല",
+   "new": "മാലികുബ്നു നള്ല",
+   "why": "printed നള്ല"
+  },
+  {
+   "pdf_page": 74,
+   "block": 3,
+   "old": "ഉള്ളങ്കയ്യിലാക്കിയിരുന്നു",
+   "new": "ഉള്ളൻകയ്യിലാക്കിയിരുന്നു",
+   "why": "printed ഉള്ളൻകയ്യിൽ"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 71,
+   "hadith_no": 277,
+   "note": "first 'മറ്റൊരു റിപ്പോർട്ടിൽ' in Malayalam block 1 may be printed 'റപ്പോർട്ടിൽ'; left as is"
+  },
+  {
+   "pdf_page": 61,
+   "hadith_no": 238,
+   "note": "print Arabic is only lightly vocalized; JSON has fuller harakat throughout (not individually changed); harakat not verifiable per letter at this scale"
+  },
+  {
+   "pdf_page": 62,
+   "hadith_no": 242,
+   "note": "Malayalam 'കളയുന്നില്ലേ?' printed as 'കളയുന്നില്ലേ.?'"
+  },
+  {
+   "pdf_page": 63,
+   "hadith_no": 244,
+   "note": "harakat/typos in Arabic only spot-checked"
+  }
+ ]
+}

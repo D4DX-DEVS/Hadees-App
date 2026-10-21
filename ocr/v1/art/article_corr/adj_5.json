@@ -1,0 +1,899 @@
+{
+ "part": "art-article",
+ "pages_checked": [
+  30,
+  31,
+  32,
+  33,
+  34
+ ],
+ "corrections": [
+  {
+   "pdf_page": 30,
+   "block": 0,
+   "old": "വഫാത്തായി.",
+   "new": "വഫാതായി.",
+   "why": "print reads വഫാതായി."
+  },
+  {
+   "pdf_page": 30,
+   "block": 1,
+   "old": "മുത്തലിബ്(റ):",
+   "new": "മുത്ത്വലിബ്(റ):",
+   "why": "print reads മുത്ത്വലിബ്(റ):"
+  },
+  {
+   "pdf_page": 30,
+   "block": 1,
+   "old": "ചുമതലകൾ ഉണ്ടായിരുന്നു.",
+   "new": "ചുമതലകളുണ്ടായിരുന്നു.",
+   "why": "print reads ചുമതലകളുണ്ടായിരുന്നു."
+  },
+  {
+   "pdf_page": 30,
+   "block": 1,
+   "old": "മക്കയിലേക്ക്",
+   "new": "മക്കയിലേക്കു",
+   "why": "print reads മക്കയിലേക്കു"
+  },
+  {
+   "pdf_page": 30,
+   "block": 2,
+   "old": "സിഫ്ഫീൻ",
+   "new": "സ്വിഫ്ഫീൻ",
+   "why": "print reads സ്വിഫ്ഫീൻ"
+  },
+  {
+   "pdf_page": 30,
+   "block": 2,
+   "old": "വഫാത്തായി.",
+   "new": "വഫാതായി.",
+   "why": "print reads വഫാതായി."
+  },
+  {
+   "pdf_page": 30,
+   "block": 3,
+   "old": "സ്വഹാബിയായിരുന്ന",
+   "new": "സഹാബിയായിരുന്ന",
+   "why": "print reads സഹാബിയായിരുന്ന"
+  },
+  {
+   "pdf_page": 30,
+   "block": 3,
+   "old": "വഫാത്തായി.",
+   "new": "വഫാതായി.",
+   "why": "print reads വഫാതായി."
+  },
+  {
+   "pdf_page": 30,
+   "block": 4,
+   "old": "താലിബ്(റ):",
+   "new": "ത്വാലിബ്(റ):",
+   "why": "print reads ത്വാലിബ്(റ):"
+  },
+  {
+   "pdf_page": 30,
+   "block": 4,
+   "old": "പ്രവാചകൻ(സ)യുടെ",
+   "new": "പ്രവാചകർ(സ)യുടെ",
+   "why": "print reads പ്രവാചകർ(സ)യുടെ"
+  },
+  {
+   "pdf_page": 30,
+   "block": 4,
+   "old": "നീയെന്നിക്ക്",
+   "new": "നീയെനിക്ക്",
+   "why": "print reads നീയെനിക്ക്"
+  },
+  {
+   "pdf_page": 30,
+   "block": 4,
+   "old": "സന്തുഷ്ടനല്ലേ?\"",
+   "new": "സംതൃപ്തനല്ലേ?\"",
+   "why": "print reads സംതൃപ്തനല്ലേ?\""
+  },
+  {
+   "pdf_page": 30,
+   "block": 4,
+   "old": "വിട്ടുനിൽക്കാൻ കൽപ്പിച്ചത്.",
+   "new": "വിട്ടുനിൽക്കാൻ കൽപിച്ചത്.",
+   "why": "print reads വിട്ടുനിൽക്കാൻ കൽപിച്ചത്."
+  },
+  {
+   "pdf_page": 30,
+   "block": 4,
+   "old": "ഫാതിമ(റ).",
+   "new": "ഫാത്വിമ(റ).",
+   "why": "print reads ഫാത്വിമ(റ)."
+  },
+  {
+   "pdf_page": 30,
+   "block": 6,
+   "old": "വഫാത്താകുമ്പോൾ",
+   "new": "വഫാതാകുമ്പോൾ",
+   "why": "print reads വഫാതാകുമ്പോൾ"
+  },
+  {
+   "pdf_page": 30,
+   "block": 8,
+   "old": "വഫാത്തിനെ",
+   "new": "വഫാതിനെ",
+   "why": "print reads വഫാതിനെ"
+  },
+  {
+   "pdf_page": 30,
+   "block": 8,
+   "old": "വഫാത്താകുമ്പോൾ",
+   "new": "വഫാതാകുമ്പോൾ",
+   "why": "print reads വഫാതാകുമ്പോൾ"
+  },
+  {
+   "pdf_page": 31,
+   "block": 0,
+   "old": "നന്നായിയറിയാമായിരുന്നു.",
+   "new": "നന്നായറിയാമായിരുന്നു.",
+   "why": "print reads നന്നായറിയാമായിരുന്നു."
+  },
+  {
+   "pdf_page": 31,
+   "block": 1,
+   "old": "ജറുസലേമിൽ",
+   "new": "ജറൂസലേമിൽ",
+   "why": "print reads ജറൂസലേമിൽ"
+  },
+  {
+   "pdf_page": 31,
+   "block": 2,
+   "old": "അൻസാരികളുടെ",
+   "new": "അൻസ്വാരികളുടെ",
+   "why": "print reads അൻസ്വാരികളുടെ"
+  },
+  {
+   "pdf_page": 31,
+   "block": 4,
+   "old": "ജന്നത്തുൽ",
+   "new": "ജന്നതുൽ",
+   "why": "print reads ജന്നതുൽ"
+  },
+  {
+   "pdf_page": 31,
+   "block": 6,
+   "old": "ജന്നത്തുൽ",
+   "new": "ജന്നതുൽ",
+   "why": "print reads ജന്നതുൽ"
+  },
+  {
+   "pdf_page": 31,
+   "block": 7,
+   "old": "അശ്ജഇ",
+   "new": "അശ്ജഈ",
+   "why": "print reads അശ്ജഈ"
+  },
+  {
+   "pdf_page": 31,
+   "block": 8,
+   "old": "തബൂക്",
+   "new": "തബൂക്ക്",
+   "why": "print reads തബൂക്ക്"
+  },
+  {
+   "pdf_page": 31,
+   "block": 9,
+   "old": "വഫാത്തായി.",
+   "new": "വഫാതായി.",
+   "why": "print reads വഫാതായി."
+  },
+  {
+   "pdf_page": 31,
+   "block": 10,
+   "old": "അറത്തുബ്നു",
+   "new": "അറതുബ്നു",
+   "why": "print reads അറതുബ്നു"
+  },
+  {
+   "pdf_page": 31,
+   "block": 11,
+   "old": "വഫാത്തായി.",
+   "new": "വഫാതായി.",
+   "why": "print reads വഫാതായി."
+  },
+  {
+   "pdf_page": 32,
+   "block": 0,
+   "old": "അബ്ദില്ലാ(റ):",
+   "new": "അബ്ദില്ല(റ):",
+   "why": "print reads അബ്ദില്ല(റ):"
+  },
+  {
+   "pdf_page": 32,
+   "block": 0,
+   "old": "അന്മർ",
+   "new": "അഅ്മർ",
+   "why": "print reads അഅ്മർ"
+  },
+  {
+   "pdf_page": 32,
+   "block": 0,
+   "old": "വഫാത്തിന്",
+   "new": "വഫാതിന്",
+   "why": "print reads വഫാതിന്"
+  },
+  {
+   "pdf_page": 32,
+   "block": 1,
+   "old": "വഫാത്താവുകയും",
+   "new": "വഫാതാവുകയും",
+   "why": "print reads വഫാതാവുകയും"
+  },
+  {
+   "pdf_page": 32,
+   "block": 2,
+   "old": "താബിഈ;",
+   "new": "താബിഅ്;",
+   "why": "print reads താബിഅ്;"
+  },
+  {
+   "pdf_page": 32,
+   "block": 2,
+   "old": "അൻസാരികളിലൊരാളുടെ",
+   "new": "അൻസ്വാരികളിലൊരാളുടെ",
+   "why": "print reads അൻസ്വാരികളിലൊരാളുടെ"
+  },
+  {
+   "pdf_page": 32,
+   "block": 3,
+   "old": "താബിഈ.",
+   "new": "താബിഅ്.",
+   "why": "print reads താബിഅ്."
+  },
+  {
+   "pdf_page": 32,
+   "block": 4,
+   "old": "വഫാത്തായി.",
+   "new": "വഫാതായി.",
+   "why": "print reads വഫാതായി."
+  },
+  {
+   "pdf_page": 32,
+   "block": 5,
+   "old": "അൻസാരി.",
+   "new": "അൻസ്വാരി.",
+   "why": "print reads അൻസ്വാരി."
+  },
+  {
+   "pdf_page": 32,
+   "block": 5,
+   "old": "സിഫ്ഫീൻ",
+   "new": "സ്വിഫ്ഫീൻ",
+   "why": "print reads സ്വിഫ്ഫീൻ"
+  },
+  {
+   "pdf_page": 32,
+   "block": 6,
+   "old": "ഫാതിമ(റ):",
+   "new": "ഫാത്വിമ(റ):",
+   "why": "print reads ഫാത്വിമ(റ):"
+  },
+  {
+   "pdf_page": 32,
+   "block": 6,
+   "old": "ഫാതിമ(റ) ",
+   "new": "ഫാത്വിമ(റ) ",
+   "why": "print reads ഫാത്വിമ(റ)"
+  },
+  {
+   "pdf_page": 32,
+   "block": 6,
+   "old": "വഫാത്തായി.",
+   "new": "വഫാതായി.",
+   "why": "print reads വഫാതായി."
+  },
+  {
+   "pdf_page": 32,
+   "block": 7,
+   "old": "ഫാതിമബിന്ത്",
+   "new": "ഫാത്വിമബിൻത്",
+   "why": "print reads ഫാത്വിമബിൻത്"
+  },
+  {
+   "pdf_page": 32,
+   "block": 8,
+   "old": "സിഫ്ഫീൻ,",
+   "new": "സ്വിഫ്ഫീൻ,",
+   "why": "print reads സ്വിഫ്ഫീൻ,"
+  },
+  {
+   "pdf_page": 32,
+   "block": 8,
+   "old": "വഫാത്തായി.",
+   "new": "വഫാതായി.",
+   "why": "print reads വഫാതായി."
+  },
+  {
+   "pdf_page": 32,
+   "block": 9,
+   "old": "ഉമയ്യത്തുബ്നു",
+   "new": "ഉമയ്യതുബ്നു",
+   "why": "print reads ഉമയ്യതുബ്നു"
+  },
+  {
+   "pdf_page": 32,
+   "block": 9,
+   "old": "വഫാത്തായി.",
+   "new": "വഫാതായി.",
+   "why": "print reads വഫാതായി."
+  },
+  {
+   "pdf_page": 32,
+   "block": 10,
+   "old": "അബീഅർത്വഹ്(റ):",
+   "new": "അബീഅർതഹ്(റ):",
+   "why": "print reads അബീഅർതഹ്(റ):"
+  },
+  {
+   "pdf_page": 32,
+   "block": 10,
+   "old": "വഫാത്ത്.",
+   "new": "വഫാത്.",
+   "why": "print reads വഫാത്."
+  },
+  {
+   "pdf_page": 32,
+   "block": 12,
+   "old": "പീഡനത്താൽ",
+   "new": "പീഢനത്താൽ",
+   "why": "print reads പീഢനത്താൽ"
+  },
+  {
+   "pdf_page": 32,
+   "block": 13,
+   "old": "മതാധ്യാപകനായും,",
+   "new": "മതാദ്ധ്യാപകനായും,",
+   "why": "print reads മതാദ്ധ്യാപകനായും,"
+  },
+  {
+   "pdf_page": 32,
+   "block": 13,
+   "old": "വഫാത്തായി.",
+   "new": "വഫാതായി.",
+   "why": "print reads വഫാതായി."
+  },
+  {
+   "pdf_page": 33,
+   "block": 0,
+   "old": "വഫാത്തായി.",
+   "new": "വഫാതായി.",
+   "why": "print reads വഫാതായി."
+  },
+  {
+   "pdf_page": 33,
+   "block": 1,
+   "old": "വഫാത്ത്.",
+   "new": "വഫാത്.",
+   "why": "print reads വഫാത്."
+  },
+  {
+   "pdf_page": 33,
+   "block": 3,
+   "old": "ഫാത്തിമ(റ)യെ",
+   "new": "ഫാത്വിമ(റ)യെ",
+   "why": "print reads ഫാത്വിമ(റ)യെ"
+  },
+  {
+   "pdf_page": 33,
+   "block": 4,
+   "old": "ഖന്ദഖ്",
+   "new": "ഖൻദഖ്",
+   "why": "print reads ഖൻദഖ്"
+  },
+  {
+   "pdf_page": 33,
+   "block": 4,
+   "old": "വഫാത്തായി.",
+   "new": "വഫാതായി.",
+   "why": "print reads വഫാതായി."
+  },
+  {
+   "pdf_page": 33,
+   "block": 5,
+   "old": "വഫാത്തായി.",
+   "new": "വഫാതായി.",
+   "why": "print reads വഫാതായി."
+  },
+  {
+   "pdf_page": 33,
+   "block": 6,
+   "old": "ഇസ്രായേൽ",
+   "new": "ഇസ്രാഈൽ",
+   "why": "print reads ഇസ്രാഈൽ"
+  },
+  {
+   "pdf_page": 33,
+   "block": 6,
+   "old": "വഫാത്തായി.",
+   "new": "വഫാതായി.",
+   "why": "print reads വഫാതായി."
+  },
+  {
+   "pdf_page": 33,
+   "block": 7,
+   "old": "അപ്പോൾ",
+   "new": "അപ്പപ്പോൾ",
+   "why": "print reads അപ്പപ്പോൾ"
+  },
+  {
+   "pdf_page": 33,
+   "block": 7,
+   "old": "ഏൽപ്പിച്ചിരുന്നത്.",
+   "new": "ഏൽപിച്ചിരുന്നത്.",
+   "why": "print reads ഏൽപിച്ചിരുന്നത്."
+  },
+  {
+   "pdf_page": 33,
+   "block": 7,
+   "old": "വഫാത്ത്.",
+   "new": "വഫാത്.",
+   "why": "print reads വഫാത്."
+  },
+  {
+   "pdf_page": 33,
+   "block": 8,
+   "old": "മൂഅ്തഃ",
+   "new": "മുഅ്തഃ",
+   "why": "print reads മുഅ്തഃ"
+  },
+  {
+   "pdf_page": 33,
+   "block": 8,
+   "old": "ഏൽപ്പിച്ചിരുന്നത്.",
+   "new": "ഏൽപിച്ചിരുന്നത്.",
+   "why": "print reads ഏൽപിച്ചിരുന്നത്."
+  },
+  {
+   "pdf_page": 34,
+   "block": 0,
+   "old": "ഹഫ്സ",
+   "new": "ഹഫ്സ്വ",
+   "why": "print reads ഹഫ്സ്വ"
+  },
+  {
+   "pdf_page": 34,
+   "block": 0,
+   "old": "ഖാനിസുബ്നു",
+   "new": "ഖനിസുബ്നു",
+   "why": "print reads ഖനിസുബ്നു"
+  },
+  {
+   "pdf_page": 34,
+   "block": 1,
+   "old": "വഫാത്തായി.",
+   "new": "വഫാതായി.",
+   "why": "print reads വഫാതായി."
+  },
+  {
+   "pdf_page": 34,
+   "block": 2,
+   "old": "അൻസാരിൽ",
+   "new": "അൻസ്വാരിൽ",
+   "why": "print reads അൻസ്വാരിൽ"
+  },
+  {
+   "pdf_page": 34,
+   "block": 2,
+   "old": "ഖുറൈബ",
+   "new": "ഖുറൈഅ",
+   "why": "print reads ഖുറൈഅ"
+  },
+  {
+   "pdf_page": 34,
+   "block": 2,
+   "old": "ആയിശ(റ)യെ",
+   "new": "ആഇശ(റ)യെ",
+   "why": "print reads ആഇശ(റ)യെ"
+  },
+  {
+   "pdf_page": 34,
+   "block": 2,
+   "old": "വഫാത്തായത്.",
+   "new": "വഫാതായത്.",
+   "why": "print reads വഫാതായത്."
+  },
+  {
+   "pdf_page": 34,
+   "block": 3,
+   "old": "ഹാതിബുബ്നു",
+   "new": "ഹാത്വിബുബ്നു",
+   "why": "print reads ഹാത്വിബുബ്നു"
+  },
+  {
+   "pdf_page": 34,
+   "block": 3,
+   "old": "വഫാത്തായി.",
+   "new": "വഫാതായി.",
+   "why": "print reads വഫാതായി."
+  },
+  {
+   "pdf_page": 34,
+   "block": 4,
+   "old": "ഹാരിസുബ്നു",
+   "new": "ഹാരിസതുബ്നു",
+   "why": "print reads ഹാരിസതുബ്നു"
+  },
+  {
+   "pdf_page": 34,
+   "block": 8,
+   "old": "വഫാത്തായി.",
+   "new": "വഫാതായി.",
+   "why": "print reads വഫാതായി."
+  },
+  {
+   "pdf_page": 34,
+   "block": 9,
+   "old": "ഫാതിമ(റ).",
+   "new": "ഫാത്വിമ(റ).",
+   "why": "print reads ഫാത്വിമ(റ)."
+  },
+  {
+   "pdf_page": 34,
+   "block": 10,
+   "old": "മുത്തലിബ്(റ):",
+   "new": "മുത്ത്വലിബ്(റ):",
+   "why": "print reads മുത്ത്വലിബ്(റ):"
+  },
+  {
+   "pdf_page": 34,
+   "block": 10,
+   "old": "വഹശി",
+   "new": "വഹ്ശി",
+   "why": "print reads വഹ്ശി"
+  },
+  {
+   "pdf_page": 34,
+   "block": 10,
+   "old": "പ്രവാചകനേക്കാൾ",
+   "new": "പ്രവാചകനെക്കാൾ",
+   "why": "print reads പ്രവാചകനെക്കാൾ"
+  },
+  {
+   "pdf_page": 32,
+   "block": 4,
+   "old": "50. ഫദ്‌ലുബ്നു",
+   "new": "50. ഫള്‌ലുബ്നു",
+   "why": "print reads ഫള്ലുബ്നു"
+  },
+  {
+   "pdf_page": 32,
+   "block": 5,
+   "old": "51. ഫദ്‌ലുബ്നു",
+   "new": "51. ഫള്‌ലുബ്നു",
+   "why": "print reads ഫള്ലുബ്നു"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "B"
+  },
+  {
+   "idx": 1,
+   "print": "B"
+  },
+  {
+   "idx": 2,
+   "print": "B"
+  },
+  {
+   "idx": 3,
+   "print": "B"
+  },
+  {
+   "idx": 4,
+   "print": "B"
+  },
+  {
+   "idx": 5,
+   "print": "B"
+  },
+  {
+   "idx": 6,
+   "print": "A"
+  },
+  {
+   "idx": 7,
+   "print": "B"
+  },
+  {
+   "idx": 8,
+   "print": "B"
+  },
+  {
+   "idx": 9,
+   "print": "B"
+  },
+  {
+   "idx": 10,
+   "print": "B"
+  },
+  {
+   "idx": 11,
+   "print": "B"
+  },
+  {
+   "idx": 12,
+   "print": "B"
+  },
+  {
+   "idx": 13,
+   "print": "other"
+  },
+  {
+   "idx": 14,
+   "print": "B"
+  },
+  {
+   "idx": 15,
+   "print": "B"
+  },
+  {
+   "idx": 16,
+   "print": "B"
+  },
+  {
+   "idx": 17,
+   "print": "B"
+  },
+  {
+   "idx": 18,
+   "print": "B"
+  },
+  {
+   "idx": 19,
+   "print": "B"
+  },
+  {
+   "idx": 20,
+   "print": "B"
+  },
+  {
+   "idx": 21,
+   "print": "B"
+  },
+  {
+   "idx": 22,
+   "print": "B"
+  },
+  {
+   "idx": 23,
+   "print": "B"
+  },
+  {
+   "idx": 24,
+   "print": "B"
+  },
+  {
+   "idx": 25,
+   "print": "B"
+  },
+  {
+   "idx": 26,
+   "print": "B"
+  },
+  {
+   "idx": 27,
+   "print": "B"
+  },
+  {
+   "idx": 28,
+   "print": "B"
+  },
+  {
+   "idx": 29,
+   "print": "B"
+  },
+  {
+   "idx": 30,
+   "print": "B"
+  },
+  {
+   "idx": 31,
+   "print": "B"
+  },
+  {
+   "idx": 32,
+   "print": "B"
+  },
+  {
+   "idx": 33,
+   "print": "B"
+  },
+  {
+   "idx": 34,
+   "print": "B"
+  },
+  {
+   "idx": 35,
+   "print": "B"
+  },
+  {
+   "idx": 36,
+   "print": "B"
+  },
+  {
+   "idx": 37,
+   "print": "B"
+  },
+  {
+   "idx": 38,
+   "print": "B"
+  },
+  {
+   "idx": 39,
+   "print": "B"
+  },
+  {
+   "idx": 40,
+   "print": "B"
+  },
+  {
+   "idx": 41,
+   "print": "B"
+  },
+  {
+   "idx": 42,
+   "print": "B"
+  },
+  {
+   "idx": 43,
+   "print": "B"
+  },
+  {
+   "idx": 44,
+   "print": "B"
+  },
+  {
+   "idx": 45,
+   "print": "B"
+  },
+  {
+   "idx": 46,
+   "print": "B"
+  },
+  {
+   "idx": 47,
+   "print": "B"
+  },
+  {
+   "idx": 48,
+   "print": "B"
+  },
+  {
+   "idx": 49,
+   "print": "B"
+  },
+  {
+   "idx": 50,
+   "print": "B"
+  },
+  {
+   "idx": 51,
+   "print": "B"
+  },
+  {
+   "idx": 52,
+   "print": "B"
+  },
+  {
+   "idx": 53,
+   "print": "B"
+  },
+  {
+   "idx": 54,
+   "print": "B"
+  },
+  {
+   "idx": 55,
+   "print": "B"
+  },
+  {
+   "idx": 56,
+   "print": "B"
+  },
+  {
+   "idx": 57,
+   "print": "B"
+  },
+  {
+   "idx": 58,
+   "print": "B"
+  },
+  {
+   "idx": 59,
+   "print": "B"
+  },
+  {
+   "idx": 60,
+   "print": "B"
+  },
+  {
+   "idx": 61,
+   "print": "B"
+  },
+  {
+   "idx": 62,
+   "print": "B"
+  },
+  {
+   "idx": 63,
+   "print": "B"
+  },
+  {
+   "idx": 64,
+   "print": "B"
+  },
+  {
+   "idx": 65,
+   "print": "B"
+  },
+  {
+   "idx": 66,
+   "print": "B"
+  },
+  {
+   "idx": 67,
+   "print": "B"
+  },
+  {
+   "idx": 68,
+   "print": "B"
+  },
+  {
+   "idx": 69,
+   "print": "B"
+  },
+  {
+   "idx": 70,
+   "print": "B"
+  },
+  {
+   "idx": 71,
+   "print": "B"
+  },
+  {
+   "idx": 72,
+   "print": "B"
+  },
+  {
+   "idx": 73,
+   "print": "B"
+  },
+  {
+   "idx": 74,
+   "print": "B"
+  },
+  {
+   "idx": 75,
+   "print": "B"
+  },
+  {
+   "idx": 76,
+   "print": "B"
+  },
+  {
+   "idx": 77,
+   "print": "B"
+  },
+  {
+   "idx": 78,
+   "print": "B"
+  },
+  {
+   "idx": 79,
+   "print": "B"
+  },
+  {
+   "idx": 80,
+   "print": "B"
+  }
+ ]
+}

@@ -1,0 +1,251 @@
+{
+ "part": "1.13",
+ "pages_checked": [
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  26,
+  27,
+  28,
+  29,
+  30
+ ],
+ "corrections": [
+  {
+   "pdf_page": 16,
+   "block": 3,
+   "old": "നബി(സ) പറഞ്ഞു: \"എനിക്ക്",
+   "new": "നബ(സ) പറഞ്ഞു: \"എനിക്ക്",
+   "why": "print has നബ(സ) (author typo)"
+  },
+  {
+   "pdf_page": 16,
+   "block": 5,
+   "old": "മഗ്ളൂബി",
+   "new": "മഗ്ളുബി",
+   "why": "print has short ു"
+  },
+  {
+   "pdf_page": 17,
+   "block": 1,
+   "old": "ജുബൈർബ്നു",
+   "new": "ജുബൈറ്ബ്നു",
+   "why": "print has റ + virama, not chillu"
+  },
+  {
+   "pdf_page": 18,
+   "block": 10,
+   "old": "സുറത്തെങ്കിലും",
+   "new": "സൂറത്തെങ്കിലും",
+   "why": "print has ൂ"
+  },
+  {
+   "pdf_page": 19,
+   "block": 5,
+   "old": "الْجَوَارِ",
+   "new": "الْجَوَارِي",
+   "why": "print has ي"
+  },
+  {
+   "pdf_page": 20,
+   "block": 9,
+   "old": "അംറുബ്നു",
+   "new": "അംറ്ബ്നു",
+   "why": "print has റ + virama, no ു"
+  },
+  {
+   "pdf_page": 20,
+   "block": 9,
+   "old": "കുവ്വിരത്",
+   "new": "കുവ്വിറത്",
+   "why": "print has റ"
+  },
+  {
+   "pdf_page": 21,
+   "block": 1,
+   "old": "وفي رواية",
+   "new": "وفي راية",
+   "why": "print has راية (printed typo)"
+  },
+  {
+   "pdf_page": 21,
+   "block": 2,
+   "old": "ഇബ്നുഅബ്ബ്സ്",
+   "new": "ഇബ്നുഅബ്ബസ്",
+   "why": "print has ബ്ബ ligature then സ്, no extra virama"
+  },
+  {
+   "pdf_page": 26,
+   "block": 3,
+   "old": "അത്ത്വൂർ",
+   "new": "അത്തൂർ",
+   "why": "print has ത്ത + ൂ, no ്വ"
+  },
+  {
+   "pdf_page": 27,
+   "block": 7,
+   "old": "റബ്ബികൽ",
+   "new": "റബ്ബിക്കൽ",
+   "why": "print has ക്ക"
+  },
+  {
+   "pdf_page": 29,
+   "block": 3,
+   "old": "അദ്ദേഹം സുജുദിലേക്ക്",
+   "new": "അദ്ദേഹം സുജൂദിലേക്ക്",
+   "why": "print has ൂ"
+  },
+  {
+   "pdf_page": 29,
+   "block": 3,
+   "old": "നിങ്ങൾ സുജുദിലേക്ക്",
+   "new": "നിങ്ങൾ സുജൂദിലേക്ക്",
+   "why": "print has ൂ"
+  },
+  {
+   "pdf_page": 30,
+   "block": 9,
+   "old": "سَمُرَةَ رَضِيَ اللهُ عَنْهُمَا",
+   "new": "سَمُرَةَ رَضِيَ اللهُ عَنْهُ",
+   "why": "print has عنه for Jabir (عنهما only for Sa'd)"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 22,
+   "note": "item 13: alif of اجتمع has a small mark below (kasra vs hamza-below unclear); treated as kasra/harakat, A kept"
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "B"
+  },
+  {
+   "idx": 1,
+   "print": "A"
+  },
+  {
+   "idx": 2,
+   "print": "B"
+  },
+  {
+   "idx": 3,
+   "print": "A"
+  },
+  {
+   "idx": 4,
+   "print": "B"
+  },
+  {
+   "idx": 5,
+   "print": "A"
+  },
+  {
+   "idx": 6,
+   "print": "B"
+  },
+  {
+   "idx": 7,
+   "print": "B"
+  },
+  {
+   "idx": 8,
+   "print": "B"
+  },
+  {
+   "idx": 9,
+   "print": "B"
+  },
+  {
+   "idx": 10,
+   "print": "B"
+  },
+  {
+   "idx": 11,
+   "print": "B"
+  },
+  {
+   "idx": 12,
+   "print": "A"
+  },
+  {
+   "idx": 13,
+   "print": "A"
+  },
+  {
+   "idx": 14,
+   "print": "A"
+  },
+  {
+   "idx": 15,
+   "print": "A"
+  },
+  {
+   "idx": 16,
+   "print": "A"
+  },
+  {
+   "idx": 17,
+   "print": "A"
+  },
+  {
+   "idx": 18,
+   "print": "B"
+  },
+  {
+   "idx": 19,
+   "print": "A"
+  },
+  {
+   "idx": 20,
+   "print": "A"
+  },
+  {
+   "idx": 21,
+   "print": "A"
+  },
+  {
+   "idx": 22,
+   "print": "B"
+  },
+  {
+   "idx": 23,
+   "print": "A"
+  },
+  {
+   "idx": 24,
+   "print": "B"
+  },
+  {
+   "idx": 25,
+   "print": "A"
+  },
+  {
+   "idx": 26,
+   "print": "A"
+  },
+  {
+   "idx": 27,
+   "print": "A"
+  },
+  {
+   "idx": 28,
+   "print": "B"
+  },
+  {
+   "idx": 29,
+   "print": "B"
+  },
+  {
+   "idx": 30,
+   "print": "B"
+  }
+ ]
+}

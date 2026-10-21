@@ -1,0 +1,236 @@
+[
+ {
+  "id": 358,
+  "code": "ബു",
+  "pos": 32,
+  "ours": "أَالْبِرَّ",
+  "ours_norm": "االبر",
+  "theirs_raw": "آلْبِرَّ",
+  "theirs_norm": "البر",
+  "agree": [
+   "sunnah",
+   "JK",
+   "Shamela"
+  ],
+  "freq_ours": 0,
+  "freq_theirs": 101,
+  "context": "َاءُ زَيْنَبَ، فَقَالَ: \"أَالْبِرَّ تَقُولُونَ بِهِنَّ؟\". ثُ"
+ },
+ {
+  "id": 3035,
+  "code": "മു",
+  "pos": 34,
+  "ours": "أَوَاقِيَّ",
+  "ours_norm": "اواقي",
+  "theirs_raw": "أَوَاقٍ",
+  "theirs_norm": "اواق",
+  "agree": [
+   "sunnah",
+   "JK",
+   "Shamela"
+  ],
+  "freq_ours": 2,
+  "freq_theirs": 41,
+  "context": "َلَا فِيمَا دُونَ خَمْسِ أَوَاقِيَّ صَدَقَةٌ\". (م)"
+ },
+ {
+  "id": 3872,
+  "code": "മു",
+  "pos": 24,
+  "ours": "يَنْزِعَهُ",
+  "ours_norm": "ينزعه",
+  "theirs_raw": "نَزَعَهُ",
+  "theirs_norm": "نزعه",
+  "agree": [
+   "sunnah",
+   "JK",
+   "Shamela"
+  ],
+  "freq_ours": 1,
+  "freq_theirs": 29,
+  "context": "َهُ، ثُمَّ أَوْشَكَ أَنْ يَنْزِعَهُ، فَأَرْسَلَ بِهِ إِلَى ع"
+ },
+ {
+  "id": 3882,
+  "code": "മു",
+  "pos": 124,
+  "ours": "نِّي",
+  "ours_norm": "ني",
+  "theirs_raw": "إِنِّي",
+  "theirs_norm": "اني",
+  "agree": [
+   "sunnah",
+   "JK",
+   "Shamela"
+  ],
+  "freq_ours": 0,
+  "freq_theirs": 2150,
+  "context": "دٍ مَا قُلْتَ؟ فَقَالَ: \"نِّي لَمْ أَبْعَثْ بِهَا إِلَ"
+ },
+ {
+  "id": 12007,
+  "code": "ദ",
+  "pos": 40,
+  "ours": "مِقْدَادٌ",
+  "ours_norm": "مقداد",
+  "theirs_raw": "الْمِقْدَادُ",
+  "theirs_norm": "المقداد",
+  "agree": [
+   "sunnah",
+   "JK",
+   "Shamela"
+  ],
+  "freq_ours": 1,
+  "freq_theirs": 41,
+  "context": "ي أَنْ أَسْأَلَهُ. قَالَ مِقْدَادٌ: فَسَأَلْتُ رَسُولَ الله"
+ },
+ {
+  "id": 12130,
+  "code": "ജ",
+  "pos": 39,
+  "ours": "الْخُطَى",
+  "ours_norm": "الخطي",
+  "theirs_raw": "الْخُطَا",
+  "theirs_norm": "الخطا",
+  "agree": [
+   "sunnah",
+   "JK",
+   "Shamela"
+  ],
+  "freq_ours": 1,
+  "freq_theirs": 33,
+  "context": "الْمَكَارِهِ، وَكَثْرَةُ الْخُطَى إِلَى الْمَسَاجِدِ، وَان"
+ },
+ {
+  "id": 12965,
+  "code": "തു",
+  "pos": 44,
+  "ours": "وَغَرُبَتِ",
+  "ours_norm": "وغربت",
+  "theirs_raw": "وَجَبَتِ",
+  "theirs_norm": "وجبت",
+  "agree": [
+   "sunnah",
+   "JK",
+   "Shamela"
+  ],
+  "freq_ours": 3,
+  "freq_theirs": 53,
+  "context": "صَلَّى الْمَغْرِبَ حِينَ وَغَرُبَتِ الشَّمْسُ وَأَفْطَرَ الص"
+ },
+ {
+  "id": 13101,
+  "code": "തു",
+  "pos": 29,
+  "ours": "قَالُو",
+  "ours_norm": "قالو",
+  "theirs_raw": "قَالُوا",
+  "theirs_norm": "قالوا",
+  "agree": [
+   "sunnah",
+   "JK",
+   "Shamela"
+  ],
+  "freq_ours": 0,
+  "freq_theirs": 1641,
+  "context": "تَاهُ اللَّهُ إِيَّاهُ\". قَالُو: يَا رَسُولَ اللَّهِ، أَ"
+ },
+ {
+  "id": 13682,
+  "code": "തു",
+  "pos": 77,
+  "ours": "لِلْكُبْرِ",
+  "ours_norm": "للكبر",
+  "theirs_raw": "الْكُبْرَ",
+  "theirs_norm": "الكبر",
+  "agree": [
+   "sunnah",
+   "Shamela"
+  ],
+  "freq_ours": 0,
+  "freq_theirs": 40,
+  "context": "يْهِ وَسَلَّمَ: \"كَبِّرْ لِلْكُبْرِ\". فَصَمَتَ وَتَكَلَّمَ ص"
+ },
+ {
+  "id": 15397,
+  "code": "ദ",
+  "pos": 36,
+  "ours": "وَكُلَّمَا",
+  "ours_norm": "وكلما",
+  "theirs_raw": "كُلَّمَا",
+  "theirs_norm": "كلما",
+  "agree": [
+   "sunnah",
+   "JK"
+  ],
+  "freq_ours": 3,
+  "freq_theirs": 94,
+  "context": "مٍ غُدْوَةً وَعَشِيَّةً، وَكُلَّمَا خَتَمَهَا جَمَعَ بُزَاقَ"
+ },
+ {
+  "id": 16256,
+  "code": "ദ",
+  "pos": 13,
+  "ours": "يَدْعُوا",
+  "ours_norm": "يدعوا",
+  "theirs_raw": "يَدْعُو",
+  "theirs_norm": "يدعو",
+  "agree": [
+   "sunnah",
+   "JK"
+  ],
+  "freq_ours": 2,
+  "freq_theirs": 197,
+  "context": "اللهُ عَلَيْهِ وَسَلَّمَ يَدْعُوا هَكَذَا بِبَاطِنِ كَفَّي"
+ },
+ {
+  "id": 16383,
+  "code": "ദ",
+  "pos": 172,
+  "ours": "نَوَاجِدُهُ",
+  "ours_norm": "نواجده",
+  "theirs_raw": "نَوَاجِذُهُ",
+  "theirs_norm": "نواجذه",
+  "agree": [
+   "sunnah",
+   "JK",
+   "Shamela"
+  ],
+  "freq_ours": 0,
+  "freq_theirs": 27,
+  "context": " وَسَلَّمَ حَتَّى بَدَتْ نَوَاجِدُهُ، فَقَالَ: \"أَشْهَدُ أَنَ"
+ },
+ {
+  "id": 16595,
+  "code": "ദ",
+  "pos": 22,
+  "ours": "يَدْعُوا",
+  "ours_norm": "يدعوا",
+  "theirs_raw": "يَدْعُو",
+  "theirs_norm": "يدعو",
+  "agree": [
+   "sunnah",
+   "JK"
+  ],
+  "freq_ours": 2,
+  "freq_theirs": 197,
+  "context": "َلِّي الْمَغْرِبَ، ثُمَّ يَدْعُوا بِعَشَائِهِ فَيَتَعَشَّى"
+ },
+ {
+  "id": 17027,
+  "code": "ജ",
+  "pos": 27,
+  "ours": "الْمَلَئِكَةَ",
+  "ours_norm": "المليكه",
+  "theirs_raw": "الْمَلاَئِكَةَ",
+  "theirs_norm": "الملايكه",
+  "agree": [
+   "sunnah",
+   "JK",
+   "Shamela"
+  ],
+  "freq_ours": 0,
+  "freq_theirs": 253,
+  "context": "قُولُوا خَيْرًا، فَإِنَّ الْمَلَئِكَةَ يُؤَمِّنُ عَلَى مَا قَال"
+ }
+]

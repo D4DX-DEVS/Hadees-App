@@ -1,0 +1,146 @@
+{
+ "part": "4.2",
+ "pages_checked": [
+  19,
+  20,
+  21,
+  23,
+  24,
+  27,
+  29,
+  30,
+  31,
+  32,
+  33,
+  35
+ ],
+ "corrections": [
+  {
+   "pdf_page": 19,
+   "block": 4,
+   "old": "എതിർ ചെയ്യുന്ന",
+   "new": "എതിര് ചെയ്യുന്ന",
+   "why": "print shows ര് with chandrakkala"
+  },
+  {
+   "pdf_page": 21,
+   "block": 2,
+   "old": "കുഫ്ററ് (സത്യ",
+   "new": "കുഫ്റ് (സത്യ",
+   "why": "print കുഫ്റ്"
+  },
+  {
+   "pdf_page": 27,
+   "block": 8,
+   "old": "ഇസ്റാഈൽയരെ",
+   "new": "ഇസ്റാഇൗല്യരെ",
+   "why": "print ഇസ്റാഇൗല്യരെ (ഇൗ form, ല്യ)"
+  },
+  {
+   "pdf_page": 27,
+   "block": 9,
+   "old": "ക്കണമെന്ന്",
+   "new": "ക്കണെമെന്ന്",
+   "why": "print തിരച്ചെടുക്കണെമെന്ന് (െ before ണ and മ)"
+  },
+  {
+   "pdf_page": 31,
+   "block": 1,
+   "old": "കരത്തെ സ്പർശിച്ചിട്ടില്ല",
+   "new": "കരത്തെ സ്പർശിച്ചട്ടില്ല",
+   "why": "print സ്പർശിച്ചട്ടില്ല (author typo, no ി)"
+  },
+  {
+   "pdf_page": 31,
+   "block": 6,
+   "old": "ബനൂഇസ്റാഈൽയരെ",
+   "new": "ബനൂഇസ്റാഇൗല്യരെ",
+   "why": "print ഇസ്റാഇൗല്യരെ"
+  },
+  {
+   "pdf_page": 33,
+   "block": 3,
+   "old": "അബൂമുസാ(റ) പറഞ്ഞു: അശ്അരി",
+   "new": "അബൂമൂസാ(റ) പറഞ്ഞു: അശ്അരി",
+   "why": "print മൂ (ൂ ball glyph same as ബൂ)"
+  },
+  {
+   "pdf_page": 35,
+   "block": 1,
+   "old": "സംസാരിക്കുന്നില്ലേയോ",
+   "new": "സംസാരിക്കുന്നില്ലെയോ",
+   "why": "print single െ"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "B"
+  },
+  {
+   "idx": 1,
+   "print": "A"
+  },
+  {
+   "idx": 2,
+   "print": "B"
+  },
+  {
+   "idx": 3,
+   "print": "A"
+  },
+  {
+   "idx": 4,
+   "print": "A"
+  },
+  {
+   "idx": 5,
+   "print": "A"
+  },
+  {
+   "idx": 6,
+   "print": "other"
+  },
+  {
+   "idx": 7,
+   "print": "B"
+  },
+  {
+   "idx": 8,
+   "print": "A"
+  },
+  {
+   "idx": 9,
+   "print": "A"
+  },
+  {
+   "idx": 10,
+   "print": "A"
+  },
+  {
+   "idx": 11,
+   "print": "A"
+  },
+  {
+   "idx": 12,
+   "print": "B"
+  },
+  {
+   "idx": 13,
+   "print": "other"
+  },
+  {
+   "idx": 14,
+   "print": "A"
+  },
+  {
+   "idx": 15,
+   "print": "B"
+  },
+  {
+   "idx": 16,
+   "print": "B"
+  }
+ ]
+}

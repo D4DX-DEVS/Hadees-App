@@ -1,0 +1,377 @@
+{
+ "part": "3.2",
+ "pages_checked": [
+  57,
+  59,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  70,
+  71
+ ],
+ "corrections": [
+  {
+   "pdf_page": 59,
+   "block": 0,
+   "old": "അബൂസ്സനാബിൽ(റ):",
+   "new": "അബുസ്സനാബിൽ(റ):",
+   "why": "print has short ു in ബു"
+  },
+  {
+   "pdf_page": 62,
+   "block": 4,
+   "old": "\"اخْرُجِي",
+   "new": "\"أُخْرُجِي",
+   "why": "print has hamza on alif"
+  },
+  {
+   "pdf_page": 63,
+   "block": 4,
+   "old": "فَمَرَّتْ",
+   "new": "فَمَرَرْتُ",
+   "why": "print فمررت"
+  },
+  {
+   "pdf_page": 63,
+   "block": 1,
+   "old": "ഫാതിമതു ബിൻത്",
+   "new": "ഫാത്വിമതു ബിൻത്",
+   "why": "print ത്വ"
+  },
+  {
+   "pdf_page": 63,
+   "block": 1,
+   "old": "ഫാതിമതുബിൻത്",
+   "new": "ഫാത്വിമതുബിൻത്",
+   "why": "print ത്വ"
+  },
+  {
+   "pdf_page": 63,
+   "block": 3,
+   "old": "ഫാതിമ ബിൻത്",
+   "new": "ഫാത്വിമ ബിൻത്",
+   "why": "print ത്വ"
+  },
+  {
+   "pdf_page": 63,
+   "block": 3,
+   "old": "ഫാതിമ(റ) വാദിച്ചു",
+   "new": "ഫാത്വിമ(റ) വാദിച്ചു",
+   "why": "print ത്വ"
+  },
+  {
+   "pdf_page": 63,
+   "block": 5,
+   "old": "ഫാതിമതുബ്നു",
+   "new": "ഫാത്വിമതുബ്നു",
+   "why": "print ത്വ"
+  },
+  {
+   "pdf_page": 63,
+   "block": 5,
+   "old": "ഫാതിമ(റ)യുടെ",
+   "new": "ഫാത്വിമ(റ)യുടെ",
+   "why": "print ത്വ"
+  },
+  {
+   "pdf_page": 64,
+   "block": 2,
+   "old": "ഫാതിമതുബിൻതു",
+   "new": "ഫാത്വിമതുബിൻതു",
+   "why": "print ത്വ"
+  },
+  {
+   "pdf_page": 64,
+   "block": 2,
+   "old": "(ഫാതിമ(റ)യിൽ",
+   "new": "(ഫാത്വിമ(റ)യിൽ",
+   "why": "print ത്വ"
+  },
+  {
+   "pdf_page": 64,
+   "block": 2,
+   "old": "നിവേദനം",
+   "new": "നിവേനദം",
+   "why": "print typo നിവേനദം kept"
+  },
+  {
+   "pdf_page": 64,
+   "block": 2,
+   "old": "ഫാതിമ(റ)യോട്",
+   "new": "ഫാത്വിമ(റ)യോട്",
+   "why": "print ത്വ"
+  },
+  {
+   "pdf_page": 64,
+   "block": 2,
+   "old": "പുറത്താക്കുകയോ,",
+   "new": "പുറത്താക്കകയോ,",
+   "why": "print typo kept"
+  },
+  {
+   "pdf_page": 64,
+   "block": 2,
+   "old": "ചെയ്യാൻ",
+   "new": "ചയ്യാൻ",
+   "why": "print typo kept (ചയ്യാൻ)"
+  },
+  {
+   "pdf_page": 64,
+   "block": 5,
+   "old": "ഫാതിമതു ബിൻത്",
+   "new": "ഫാത്വിമതു ബിൻത്",
+   "why": "print ത്വ"
+  },
+  {
+   "pdf_page": 64,
+   "block": 5,
+   "old": "ഫാതിമബിൻത്",
+   "new": "ഫാത്വിമബിൻത്",
+   "why": "print ത്വ"
+  },
+  {
+   "pdf_page": 64,
+   "block": 7,
+   "old": "ഫാതിമതു",
+   "new": "ഫാത്വിമതു",
+   "why": "print ത്വ"
+  },
+  {
+   "pdf_page": 65,
+   "block": 0,
+   "old": "ഫാതിമ",
+   "new": "ഫാത്വിമ",
+   "why": "heading print ത്വ"
+  },
+  {
+   "pdf_page": 65,
+   "block": 2,
+   "old": "ഫാതിമ ബിൻത്",
+   "new": "ഫാത്വിമ ബിൻത്",
+   "why": "print ത്വ"
+  },
+  {
+   "pdf_page": 65,
+   "block": 6,
+   "old": "ഹദീസാണെന്ന",
+   "new": "ഹദീസാണെന്നദ്ദേഹം",
+   "why": "line break: ഹദീസാണെന്ന|ദ്ദേഹം printed as one word (അദ്ദേഹം)"
+  },
+  {
+   "pdf_page": 66,
+   "block": 2,
+   "old": "അബ്ദുറഹ്മാനുബ്നുൽ",
+   "new": "അബ്ദുർറഹ്മാനുബ്നുൽ",
+   "why": "print ർറ"
+  },
+  {
+   "pdf_page": 66,
+   "block": 2,
+   "old": "ശേഷം അബ്ദുറഹ്മാൻ",
+   "new": "ശേഷം അബ്ദുർറഹ്മാൻ",
+   "why": "print ർറ"
+  },
+  {
+   "pdf_page": 66,
+   "block": 2,
+   "old": "നിശ്ചയം അബ്ദുറഹ്മാൻ",
+   "new": "നിശ്ചയം അബ്ദുർറഹ്മാൻ",
+   "why": "print ർറ"
+  },
+  {
+   "pdf_page": 66,
+   "block": 2,
+   "old": "ഖൈസ്(റ)യുടെ",
+   "new": "ഖൈാസ്(റ)യുടെ",
+   "why": "print has stray ാ glyph in ഖൈസ് (printer glitch), matches B"
+  },
+  {
+   "pdf_page": 66,
+   "block": 2,
+   "old": "അറിയില്ലേയോ?",
+   "new": "അറിയില്ലെയോ?",
+   "why": "print ല്ലെയോ"
+  },
+  {
+   "pdf_page": 67,
+   "block": 2,
+   "old": "\"امْكُث",
+   "new": "\"أُمْكُث",
+   "why": "print hamza on alif"
+  },
+  {
+   "pdf_page": 67,
+   "block": 1,
+   "old": "ഖുദ്റീ(റ)വിന്റെ",
+   "new": "ഖുദ്രീ(റ)വിന്റെ",
+   "why": "print ദ്ര (not ദ്റ)"
+  },
+  {
+   "pdf_page": 67,
+   "block": 3,
+   "old": "ഖുദ്റീ(റ)വിന്റെ",
+   "new": "ഖുദ്രീ(റ)വിന്റെ",
+   "why": "print ദ്ര (not ദ്റ)"
+  },
+  {
+   "pdf_page": 70,
+   "block": 3,
+   "old": "മര്യമുൽ",
+   "new": "മർയമുൽ",
+   "why": "print ർയ"
+  },
+  {
+   "pdf_page": 71,
+   "block": 3,
+   "old": "കുടെപ്പോയി.",
+   "new": "കൂടെപ്പോയി.",
+   "why": "print ൂ (loop with curl)"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "A"
+  },
+  {
+   "idx": 1,
+   "print": "A"
+  },
+  {
+   "idx": 2,
+   "print": "A"
+  },
+  {
+   "idx": 3,
+   "print": "B"
+  },
+  {
+   "idx": 4,
+   "print": "B"
+  },
+  {
+   "idx": 5,
+   "print": "B"
+  },
+  {
+   "idx": 6,
+   "print": "B"
+  },
+  {
+   "idx": 7,
+   "print": "B"
+  },
+  {
+   "idx": 8,
+   "print": "B"
+  },
+  {
+   "idx": 9,
+   "print": "B"
+  },
+  {
+   "idx": 10,
+   "print": "B"
+  },
+  {
+   "idx": 11,
+   "print": "B"
+  },
+  {
+   "idx": 12,
+   "print": "B"
+  },
+  {
+   "idx": 13,
+   "print": "B"
+  },
+  {
+   "idx": 14,
+   "print": "B"
+  },
+  {
+   "idx": 15,
+   "print": "B"
+  },
+  {
+   "idx": 16,
+   "print": "B"
+  },
+  {
+   "idx": 17,
+   "print": "B"
+  },
+  {
+   "idx": 18,
+   "print": "B"
+  },
+  {
+   "idx": 19,
+   "print": "B"
+  },
+  {
+   "idx": 20,
+   "print": "B"
+  },
+  {
+   "idx": 21,
+   "print": "B"
+  },
+  {
+   "idx": 22,
+   "print": "B"
+  },
+  {
+   "idx": 23,
+   "print": "B"
+  },
+  {
+   "idx": 24,
+   "print": "A"
+  },
+  {
+   "idx": 25,
+   "print": "B"
+  },
+  {
+   "idx": 26,
+   "print": "B"
+  },
+  {
+   "idx": 27,
+   "print": "B"
+  },
+  {
+   "idx": 28,
+   "print": "B"
+  },
+  {
+   "idx": 29,
+   "print": "B"
+  },
+  {
+   "idx": 30,
+   "print": "B"
+  },
+  {
+   "idx": 31,
+   "print": "B"
+  },
+  {
+   "idx": 32,
+   "print": "B"
+  },
+  {
+   "idx": 33,
+   "print": "B"
+  },
+  {
+   "idx": 34,
+   "print": "B"
+  }
+ ]
+}

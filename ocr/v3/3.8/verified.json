@@ -1,0 +1,38 @@
+{
+ "pages": [
+  3,
+  5,
+  7,
+  9,
+  10,
+  14,
+  15,
+  18,
+  19,
+  20,
+  22,
+  25,
+  27,
+  28,
+  29,
+  30,
+  31,
+  33,
+  34
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 14,
+   "note": "idx 8/9: bab ML subtitle 'ബൈത്തുൽമുഖദ്ദസിൽ നമസ്കരിക്കുമെന്ന് നേർച്ചയാക്കിയ വ്യക്തി' is printed at TOP of p15 (Arabic bab line at bottom of p14); our JSON has it in p14 bab block 10. Text identical; page-placement only, no text correction."
+  },
+  {
+   "pdf_page": 30,
+   "note": "idx 25/26: same layout split: Arabic bab at bottom of p30, ML subtitle 'ദൈവസാമീപ്യം ലഭിക്കാത്ത സത്യത്തിന്റെ ലംഘനം' printed at top of p31. Placement only."
+  },
+  {
+   "pdf_page": 34,
+   "note": "extra: bab Arabic prints as السيمين (ا ل س ي م ي ن), confirmed; keep as printed."
+  }
+ ],
+ "applied": 15
+}

@@ -1,0 +1,1 @@
+#12: variants arabic=1 malayalam=0 (check pairing)

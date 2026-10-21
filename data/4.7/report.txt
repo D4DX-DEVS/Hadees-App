@@ -1,0 +1,8 @@
+#163: variants arabic=1 malayalam=0 (check pairing)
+#182: variants arabic=2 malayalam=1 (check pairing)
+#251: variants arabic=1 malayalam=0 (check pairing)
+#253: variants arabic=1 malayalam=0 (check pairing)
+#254: variants arabic=1 malayalam=0 (check pairing)
+#406: variants arabic=0 malayalam=1 (check pairing)
+TOC has 0 chapters but text has 121 bab headings
+TOC has 0 chapters, text has 121 babs; TOC-only chapters: []

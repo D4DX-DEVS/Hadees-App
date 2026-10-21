@@ -1,0 +1,109 @@
+{
+ "part": "4.10",
+ "pages_checked": [
+  3,
+  5,
+  6,
+  11,
+  13,
+  14,
+  16,
+  18
+ ],
+ "corrections": [
+  {
+   "pdf_page": 3,
+   "block": 3,
+   "old": "മുടിവെക്കപ്പെട്ട",
+   "new": "മൂടിവെക്കപ്പെട്ട",
+   "why": "print shows long ൂ"
+  },
+  {
+   "pdf_page": 11,
+   "block": 2,
+   "old": "മേലോപ്പിലിരിക്കെതന്നെ",
+   "new": "മേലാപ്പിലിരിക്കെതന്നെ",
+   "why": "print has ലാ"
+  },
+  {
+   "pdf_page": 14,
+   "block": 5,
+   "old": "വുളു ചെയ്ത്",
+   "new": "വുളൂ ചെയ്ത്",
+   "why": "final vowel sign differs from the clean open-circle ു on വു in the same word; reads ൂ (word at page margin, moderate confidence)"
+  },
+  {
+   "pdf_page": 16,
+   "block": 2,
+   "old": "മഅ്ൻ(റ):",
+   "new": "മഅ്ന്(റ):",
+   "why": "print shows ന് with chandrakkala, not chillu ൻ"
+  },
+  {
+   "pdf_page": 18,
+   "block": 1,
+   "old": "സബ്ളുൽ",
+   "new": "സബ്ഉൽ",
+   "why": "print reads ബ് + ഉ + ൽ"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "B"
+  },
+  {
+   "idx": 1,
+   "print": "B"
+  },
+  {
+   "idx": 2,
+   "print": "A"
+  },
+  {
+   "idx": 3,
+   "print": "B"
+  },
+  {
+   "idx": 4,
+   "print": "A"
+  },
+  {
+   "idx": 5,
+   "print": "A"
+  },
+  {
+   "idx": 6,
+   "print": "A"
+  },
+  {
+   "idx": 7,
+   "print": "B"
+  },
+  {
+   "idx": 8,
+   "print": "B"
+  },
+  {
+   "idx": 9,
+   "print": "B"
+  },
+  {
+   "idx": 10,
+   "print": "B"
+  },
+  {
+   "idx": 11,
+   "print": "A"
+  },
+  {
+   "idx": 12,
+   "print": "B"
+  },
+  {
+   "idx": 13,
+   "print": "A"
+  }
+ ]
+}

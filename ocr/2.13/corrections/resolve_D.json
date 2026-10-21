@@ -1,0 +1,31 @@
+{
+ "part": "2.13",
+ "pages_checked": [
+  14,
+  15,
+  18
+ ],
+ "corrections": [
+  {
+   "pdf_page": 15,
+   "block": 0,
+   "old": "പതിനാലാം രാവിലെ മേഘങ്ങൾ",
+   "new": "പതിനാലാം രാവിലെ മേഖങ്ങൾ",
+   "why": "printed misprint മേഖങ്ങൾ"
+  }
+ ],
+ "resolved": [
+  {
+   "pdf_page": 14,
+   "hadith_no": 17
+  },
+  {
+   "pdf_page": 15,
+   "hadith_no": 17
+  },
+  {
+   "pdf_page": 18,
+   "hadith_no": 22
+  }
+ ]
+}

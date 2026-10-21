@@ -1,0 +1,182 @@
+{
+ "part": "2.6",
+ "pages_checked": [
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44
+ ],
+ "corrections": [
+  {
+   "pdf_page": 38,
+   "block": 8,
+   "old": "'ത്വലാഅ്'",
+   "new": "'ത്വല്ലാഅ്'",
+   "why": "geminate ല്ല printed"
+  },
+  {
+   "pdf_page": 39,
+   "block": 0,
+   "old": "തിരിച്ചാർ ഉപയോഗിക്കുന്നത്",
+   "new": "ന്തിരിച്ചാർ ഉപയോഗിക്കുന്നതു",
+   "why": "missing leading ന് (word continues from prev page 'മു'); print 'നതു'"
+  },
+  {
+   "pdf_page": 39,
+   "block": 6,
+   "old": "ഇബ്റാഹിമിൽ നിന്നു",
+   "new": "ഇബ്റാഹീമിൽ നിന്നു",
+   "why": "long ീ printed"
+  },
+  {
+   "pdf_page": 39,
+   "block": 9,
+   "old": "താമസവിനാ",
+   "new": "താമസംവിനാ",
+   "why": "anusvara missing"
+  },
+  {
+   "pdf_page": 40,
+   "block": 2,
+   "old": "സ്വകുടുംബത്തിങ്കേക്ക്",
+   "new": "സ്വകുടുംബത്തിൽക്ക്",
+   "why": "print reads ത്തിൽക്ക്"
+  },
+  {
+   "pdf_page": 41,
+   "block": 2,
+   "old": "കൂട്ടിക്കൊണ്ടുപോയി",
+   "new": "കൂട്ടികൊണ്ടുപോയി",
+   "why": "print has no doubled ക്ക"
+  },
+  {
+   "pdf_page": 41,
+   "block": 2,
+   "old": "അവിടുത്തെ കൂടെവന്ന",
+   "new": "അവിടത്തെ കൂടെവന്ന",
+   "why": "print അവിടത്തെ"
+  },
+  {
+   "pdf_page": 41,
+   "block": 7,
+   "old": "തിരിച്ചു കൊണ്ടു വരുമ്പോൾ",
+   "new": "തിരിച്ചുകൊണ്ടു വരുമ്പോൾ",
+   "why": "no space after തിരിച്ചു in print"
+  },
+  {
+   "pdf_page": 42,
+   "block": 3,
+   "old": "അബ്ദുല്ലാഹിബ്നു ഉമർ",
+   "new": "അബ്ദുല്ലഹിബ്നു ഉമർ",
+   "why": "print has short ല്ല (no ാ)"
+  },
+  {
+   "pdf_page": 42,
+   "block": 3,
+   "old": "അവിടുന്ന് നിരോധിച്ചു",
+   "new": "അവിടന്ന് നിരോധിച്ചു",
+   "why": "print അവിടന്ന്"
+  },
+  {
+   "pdf_page": 42,
+   "block": 5,
+   "old": "പ്രവാചകൻ(സ) അരുളി",
+   "new": "പ്രവാചകർ(സ) അരുളി",
+   "why": "ർ not ൻ"
+  },
+  {
+   "pdf_page": 42,
+   "block": 7,
+   "old": "പ്രവേശിച്ച് അദ്ദേഹത്തോട് ചോദിച്ചു",
+   "new": "പ്രവേശിച്ചിട്ട് അദ്ദേഹത്തോടു ചോദിച്ചു",
+   "why": "print ച്ചിട്ട്, ത്തോടു"
+  },
+  {
+   "pdf_page": 42,
+   "block": 7,
+   "old": "വെള്ളമുണ്ടെങ്കിൽ ഞങ്ങളെ",
+   "new": "വെള്ളമുണ്ടങ്കിൽ ഞങ്ങളെ",
+   "why": "print ണ്ടങ്കിൽ (no െ)"
+  },
+  {
+   "pdf_page": 42,
+   "block": 7,
+   "old": "പ്രവാചകൻ(സ)ക്കു വേണ്ടി",
+   "new": "പ്രവാചകർ(സ)ക്കു വേണ്ടി",
+   "why": "ർ not ൻ"
+  },
+  {
+   "pdf_page": 42,
+   "block": 6,
+   "old": "(خ, د, جه)",
+   "new": "(خ،د،جه)",
+   "why": "print uses Arabic comma, no spaces"
+  },
+  {
+   "pdf_page": 43,
+   "block": 2,
+   "old": "(د,ت)",
+   "new": "(د،ت)",
+   "why": "Arabic comma in print"
+  },
+  {
+   "pdf_page": 43,
+   "block": 3,
+   "old": "തോലിന്റെ ജലപാത്രം",
+   "new": "തോലിന്റെ ജലപ്പാത്രം",
+   "why": "print ജലപ്പാത്രം"
+  },
+  {
+   "pdf_page": 43,
+   "block": 9,
+   "old": "(د,ت)",
+   "new": "(د،ت)",
+   "why": "Arabic comma in print"
+  },
+  {
+   "pdf_page": 43,
+   "block": 11,
+   "old": "(ت,جه)",
+   "new": "(ت،جه)",
+   "why": "Arabic comma in print"
+  },
+  {
+   "pdf_page": 44,
+   "block": 1,
+   "old": "(خ,د,ت,ن,جه)",
+   "new": "(خ،د،ت،ن،جه)",
+   "why": "Arabic commas in print"
+  },
+  {
+   "pdf_page": 44,
+   "block": 4,
+   "old": "(ق,جه)",
+   "new": "(ق،جه)",
+   "why": "Arabic comma in print"
+  },
+  {
+   "pdf_page": 44,
+   "block": 6,
+   "old": "(ق,د,ت,ن,جه)",
+   "new": "(ق،د،ت،ن،جه)",
+   "why": "Arabic commas in print"
+  },
+  {
+   "pdf_page": 44,
+   "block": 8,
+   "old": "(ق,د,ت,جه)",
+   "new": "(ق،د،ت،جه)",
+   "why": "Arabic commas in print"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 39,
+   "hadith_no": 159,
+   "note": "block 2: print may read 'അരിച്ചെടുത്തതിനിശേഷം' (JSON 'തിനുശേഷം'); vowel sign unclear in scan"
+  }
+ ]
+}

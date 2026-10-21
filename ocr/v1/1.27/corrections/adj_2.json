@@ -1,0 +1,149 @@
+{
+ "part": "1.27",
+ "pages_checked": [
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  46
+ ],
+ "corrections": [
+  {
+   "pdf_page": 38,
+   "block": 6,
+   "old": "ദുർമാർഗ്ഗിയുടെ",
+   "new": "ദുർമാഗ്ഗിയുടെ",
+   "why": "print omits ർ before ഗ്ഗി (printed typo)"
+  },
+  {
+   "pdf_page": 39,
+   "block": 8,
+   "old": "അസ്വ്വദു",
+   "new": "അസ്വ്ദു",
+   "why": "print reads അസ്വ്ദു"
+  },
+  {
+   "pdf_page": 40,
+   "block": 5,
+   "old": "മൂന്ന് പേരാണെങ്കിലോ? നിബി(സ)",
+   "new": "മൂന്ന് പേരാണെങ്കിലോ? നബി(സ)",
+   "why": "first occurrence prints നബി; second നിബി is a printed typo, kept"
+  },
+  {
+   "pdf_page": 41,
+   "block": 13,
+   "old": "മുശ്രികുകളുടെ സന്താനങ്ങളെകുറിച്ച്",
+   "new": "മുശ്രിക്കുകളുടെ സന്താനങ്ങളെകുറിച്ച്",
+   "why": "body text prints ക്ക; heading (bab) prints മുശ്രികുകളുടെ, unchanged"
+  },
+  {
+   "pdf_page": 43,
+   "block": 0,
+   "old": "ഇയാളുടെ തല തല്ലിതകർക്കുന്നു",
+   "new": "ഇയാളുടെ തല തല്ലിത്തകർക്കുന്നു",
+   "why": "print ത്ത"
+  },
+  {
+   "pdf_page": 43,
+   "block": 0,
+   "old": "വീണ്ടും തല്ലിതകർക്കുന്നു",
+   "new": "വീണ്ടും തല്ലിത്തകർക്കുന്നു",
+   "why": "print ത്ത"
+  },
+  {
+   "pdf_page": 43,
+   "block": 0,
+   "old": "വിശാലമായതുമുണ്ട്.",
+   "new": "വിശാലമായതുമുണ്.",
+   "why": "print ends മുണ്. (no ട)"
+  },
+  {
+   "pdf_page": 43,
+   "block": 0,
+   "old": "ഇബ്രാഹീം",
+   "new": "ഇബ്റാഹീം",
+   "why": "print ഇബ്റാഹീം"
+  },
+  {
+   "pdf_page": 44,
+   "block": 6,
+   "old": "അടുത്തുവന്ന് കാര്യങ്ങൾ",
+   "new": "അടുത്തുവന്നു കാര്യങ്ങൾ",
+   "why": "print വന്നു"
+  },
+  {
+   "pdf_page": 46,
+   "block": 5,
+   "old": "فَكَأَنِّي لَمْ",
+   "new": "فَلَكَأَنِّي لَمْ",
+   "why": "print فلكأني"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "A"
+  },
+  {
+   "idx": 1,
+   "print": "A"
+  },
+  {
+   "idx": 2,
+   "print": "B"
+  },
+  {
+   "idx": 3,
+   "print": "A"
+  },
+  {
+   "idx": 4,
+   "print": "B"
+  },
+  {
+   "idx": 5,
+   "print": "B"
+  },
+  {
+   "idx": 6,
+   "print": "A"
+  },
+  {
+   "idx": 7,
+   "print": "B"
+  },
+  {
+   "idx": 8,
+   "print": "A"
+  },
+  {
+   "idx": 9,
+   "print": "B"
+  },
+  {
+   "idx": 10,
+   "print": "B"
+  },
+  {
+   "idx": 11,
+   "print": "B"
+  },
+  {
+   "idx": 12,
+   "print": "B"
+  },
+  {
+   "idx": 13,
+   "print": "B"
+  },
+  {
+   "idx": 14,
+   "print": "B"
+  }
+ ]
+}

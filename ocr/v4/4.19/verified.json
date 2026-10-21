@@ -1,0 +1,84 @@
+{
+ "pages": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  33,
+  35,
+  36,
+  39,
+  41,
+  42,
+  44,
+  45,
+  46,
+  47,
+  48,
+  50,
+  51,
+  52,
+  54,
+  55
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 20,
+   "note": "idx2 فاتخذ vs فأتخذ: cluster of marks above alef is unclear whether a hamza is present; ours kept"
+  },
+  {
+   "pdf_page": 22,
+   "note": "idx4 അബൂബക്ർ vs അബൂബക്റ: print appears ക്+റ (virama then റ) but ർ/റ distinction not certain; ours kept, no correction"
+  },
+  {
+   "pdf_page": 12,
+   "note": "item4 സുഖാഡംബരങ്ങളിൽ vs ഢ: glyph ഡ/ഢ not clearly resolvable at native scan; kept ours (ഡ)"
+  },
+  {
+   "pdf_page": 15,
+   "note": "item8 ബനൂഇസ്രാഈല്യർ vs സ്റാ...: ര vs റ glyph not clearly resolvable (print looks like റ, same as in b's reading); kept ര"
+  },
+  {
+   "pdf_page": 16,
+   "note": "item12 ഫിത്നകളുണ്ടാകു[?]: final ം is covered by an ink blot in print; unreadable, kept ours (B's ഫിത്നകളുണ്ടാകും is plausible but not visible)"
+  },
+  {
+   "pdf_page": 44,
+   "note": "item4 വസിയ്യത്ത് vs വസ്വിയ്യത്ത്: print appears to have ്വ hook after സ (leaning B) but glyph-level; no correction emitted"
+  },
+  {
+   "pdf_page": 47,
+   "note": "item8 എതിർ vs എതിര്: print shows ര with virama (ര്) leaning B, glyph-level ർ/ര് so no correction"
+  },
+  {
+   "pdf_page": 51,
+   "note": "item14 എതിർ vs എതിര് (third occurrence, അവർ എതിർ പ്രവർത്തിക്കുന്നതിൽ): print shows ര with virama, leaning B, glyph-level ർ/ര്; no correction"
+  }
+ ],
+ "applied": 17
+}

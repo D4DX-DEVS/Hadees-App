@@ -1,0 +1,4 @@
+#2: variants arabic=2 malayalam=1 (check pairing)
+#207: variants arabic=0 malayalam=1 (check pairing)
+TOC has 0 chapters but text has 29 bab headings
+TOC has 0 chapters, text has 29 babs; TOC-only chapters: []

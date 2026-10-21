@@ -1,0 +1,37 @@
+{
+ "pages": [
+  5,
+  6,
+  7,
+  9,
+  10,
+  11,
+  13,
+  14,
+  15,
+  17,
+  19,
+  20,
+  21,
+  31,
+  34,
+  37,
+  39,
+  40,
+  44,
+  45,
+  50,
+  51,
+  52,
+  54,
+  60,
+  63
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 20,
+   "note": "items 19/20: Malayalam heading യുദ്ധ വിഷയത്തിൽ നിയമിക്കപ്പെടുന്നവൻ is printed at TOP of p21 (print B); our JSON keeps it in the p20 bab block (merged across page break) - structural, no text change"
+  }
+ ],
+ "applied": 22
+}

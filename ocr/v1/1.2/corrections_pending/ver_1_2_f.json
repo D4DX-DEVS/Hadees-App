@@ -1,0 +1,9 @@
+{
+  "part": "1.2",
+  "pages_checked": [5, 6, 7],
+  "corrections": [
+    {"pdf_page": 5, "block": 2, "old": "ഇസ്ലാം സഥാപിക്കപ്പെട്ടത്", "new": "ഇസ്ലാം സ്ഥാപിക്കപ്പെട്ടത്", "why": "virama missing (print: സ്ഥാപിക്കപ്പെട്ടത്)"},
+    {"pdf_page": 5, "block": 2, "old": "രമദാനിൽ വ്രതമനുഷ്ഠിക്കുക", "new": "റമദാനിൽ വ്രതമനുഷ്ഠിക്കുക", "why": "print has റ (റമദാനിൽ), JSON has ര"}
+  ],
+  "uncertain": []
+}

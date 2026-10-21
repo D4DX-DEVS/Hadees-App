@@ -1,0 +1,67 @@
+{
+ "part": "4.12",
+ "corrections": [
+  {
+   "pdf_page": 27,
+   "block": 6,
+   "old": "എന്ന സുക്തവും",
+   "new": "എന്ന സൂക്തവും",
+   "why": "print സൂ: filled-curl ൂ identical to സൂക്തം on same page (B)"
+  },
+  {
+   "pdf_page": 28,
+   "block": 2,
+   "old": "പൂർണ്ണമായും",
+   "new": "പൂർണമായും",
+   "why": "print has single ണ: പൂർണമായും (B)"
+  },
+  {
+   "pdf_page": 32,
+   "block": 0,
+   "old": "ഈ വിവ[?] നബി",
+   "new": "ഈ വിവരം നബി",
+   "why": "faded print; traces of ര and ം after വിവ consistent with വിവരം (B)"
+  },
+  {
+   "pdf_page": 34,
+   "block": 1,
+   "old": "എന്ന സുക്തത്തെക്കുറിച്ച്",
+   "new": "എന്ന സൂക്തത്തെക്കുറിച്ച്",
+   "why": "print സൂ: filled-curl ൂ (B)"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "A"
+  },
+  {
+   "idx": 1,
+   "print": "B"
+  },
+  {
+   "idx": 2,
+   "print": "B"
+  },
+  {
+   "idx": 3,
+   "print": "A"
+  },
+  {
+   "idx": 4,
+   "print": "B"
+  },
+  {
+   "idx": 5,
+   "print": "B"
+  }
+ ],
+ "pages_checked": [
+  27,
+  28,
+  29,
+  32,
+  34
+ ]
+}

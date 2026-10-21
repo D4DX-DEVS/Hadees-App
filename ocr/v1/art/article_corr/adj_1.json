@@ -1,0 +1,360 @@
+{
+ "part": "art-article",
+ "pages_checked": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8
+ ],
+ "corrections": [
+  {
+   "pdf_page": 2,
+   "block": 3,
+   "old": "പണ്ധിതന്മാർക്കു",
+   "new": "പണ്ഡിതന്മാർക്കു",
+   "why": "print reads പണ്ഡിതൻമാർക്കു (native-res crop)"
+  },
+  {
+   "pdf_page": 3,
+   "block": 9,
+   "old": "പണ്ധിതന്മാർ",
+   "new": "പണ്ഡിതന്മാർ",
+   "why": "print reads പണ്ഡിതൻമാർ (native-res crop)"
+  },
+  {
+   "pdf_page": 4,
+   "block": 4,
+   "old": "പണ്ധിതന്മാർ",
+   "new": "പണ്ഡിതന്മാർ",
+   "why": "print reads പണ്ഡിതൻമാർ (native-res crop)"
+  },
+  {
+   "pdf_page": 4,
+   "block": 5,
+   "old": "വൃത്യസ്ത",
+   "new": "വ്യത്യസ്ത",
+   "why": "print reads വ്യത്യസ്ത (native-res crop)"
+  },
+  {
+   "pdf_page": 4,
+   "block": 9,
+   "old": "പണ്ധിതനാണ്",
+   "new": "പണ്ഡിതനാണ്",
+   "why": "print reads പണ്ഡിതനാണ് (native-res crop)"
+  },
+  {
+   "pdf_page": 4,
+   "block": 9,
+   "old": "പണ്ധിതന്മാരും",
+   "new": "പണ്ഡിതന്മാരും",
+   "why": "print reads പണ്ഡിതൻമാരും (native-res crop)"
+  },
+  {
+   "pdf_page": 4,
+   "block": 9,
+   "old": "സഇൗദു",
+   "new": "സഈദു",
+   "why": "print reads സഈദു (native-res crop)"
+  },
+  {
+   "pdf_page": 4,
+   "block": 9,
+   "old": "ഔസാഇൗ",
+   "new": "ഔസാഈ",
+   "why": "print reads ഔസാഈ (native-res crop)"
+  },
+  {
+   "pdf_page": 4,
+   "block": 9,
+   "old": "പണ്ധിതന്മാർ",
+   "new": "പണ്ഡിതന്മാർ",
+   "why": "print reads പണ്ഡിതൻമാർ (native-res crop)"
+  },
+  {
+   "pdf_page": 5,
+   "block": 0,
+   "old": "വാസിത്,",
+   "new": "വാസിത്വ്,",
+   "why": "print reads വാസിത്വ്, (native-res crop)"
+  },
+  {
+   "pdf_page": 5,
+   "block": 0,
+   "old": "പണ്ധിതന്മാർ",
+   "new": "പണ്ഡിതന്മാർ",
+   "why": "print reads പണ്ഡിതൻമാർ (native-res crop)"
+  },
+  {
+   "pdf_page": 5,
+   "block": 2,
+   "old": "പണ്ധിതന്മാർ",
+   "new": "പണ്ഡിതന്മാർ",
+   "why": "print reads പണ്ഡിതൻമാർ (native-res crop)"
+  },
+  {
+   "pdf_page": 5,
+   "block": 3,
+   "old": "പണ്ധിതനാണ്",
+   "new": "പണ്ഡിതനാണ്",
+   "why": "print reads പണ്ഡിതനാണ് (native-res crop)"
+  },
+  {
+   "pdf_page": 5,
+   "block": 4,
+   "old": "നസാഇൗ,",
+   "new": "നസാഈ,",
+   "why": "print reads നസാഈ, (native-res crop)"
+  },
+  {
+   "pdf_page": 5,
+   "block": 4,
+   "old": "പണ്ധതന്മാർ",
+   "new": "പണ്ഢതന്മാർ",
+   "why": "print reads പണ്ഢതൻമാർ (native-res crop)"
+  },
+  {
+   "pdf_page": 5,
+   "block": 6,
+   "old": "പണ്ധിതന്മാർ",
+   "new": "പണ്ഡിതന്മാർ",
+   "why": "print reads പണ്ഡിതൻമാർ (native-res crop)"
+  },
+  {
+   "pdf_page": 5,
+   "block": 6,
+   "old": "പണ്ധിതന്മാരുടേതായുണ്ട്.",
+   "new": "പണ്ഡിതന്മാരുടേതായുണ്ട്.",
+   "why": "print reads പണ്ഡിതൻമാരുടേതായുണ്ട്. (native-res crop)"
+  },
+  {
+   "pdf_page": 5,
+   "block": 6,
+   "old": "പണ്ധിതന്മാരുടെ",
+   "new": "പണ്ഡിതന്മാരുടെ",
+   "why": "print reads പണ്ഡിതൻമാരുടെ (native-res crop)"
+  },
+  {
+   "pdf_page": 5,
+   "block": 8,
+   "old": "പ്രാമാണിക",
+   "new": "പ്രമാണിക",
+   "why": "print reads പ്രമാണിക (native-res crop)"
+  },
+  {
+   "pdf_page": 5,
+   "block": 8,
+   "old": "പണ്ധിത",
+   "new": "പണ്ഡിത",
+   "why": "print reads പണ്ഡിത (native-res crop)"
+  },
+  {
+   "pdf_page": 5,
+   "block": 9,
+   "old": "സുയൂതവി(റ)",
+   "new": "സുയൂത്വി(റ)",
+   "why": "print reads സുയൂത്വി(റ) (native-res crop)"
+  },
+  {
+   "pdf_page": 5,
+   "block": 9,
+   "old": "പണ്ധിതന്മാർ",
+   "new": "പണ്ഡിതന്മാർ",
+   "why": "print reads പണ്ഡിതൻമാർ (native-res crop)"
+  },
+  {
+   "pdf_page": 6,
+   "block": 1,
+   "old": "മഹാപണ്ധിതന്മാർക്കുവരെ",
+   "new": "മഹാപണ്ഡിതന്മാർക്കുവരെ",
+   "why": "print reads മഹാപണ്ഡിതൻമാർക്കുവരെ (native-res crop)"
+  },
+  {
+   "pdf_page": 6,
+   "block": 1,
+   "old": "പണ്ധിത ",
+   "new": "പണ്ഡിത ",
+   "why": "print reads പണ്ഡിത (native-res crop)"
+  },
+  {
+   "pdf_page": 6,
+   "block": 3,
+   "old": "പണ്ധിതനുമായ",
+   "new": "പണ്ഡിതനുമായ",
+   "why": "print reads പണ്ഡിതനുമായ (native-res crop)"
+  },
+  {
+   "pdf_page": 6,
+   "block": 3,
+   "old": "പണ്ധിതന്മാരുടെയും",
+   "new": "പണ്ഡിതന്മാരുടെയും",
+   "why": "print reads പണ്ഡിതൻമാരുടെയും (native-res crop)"
+  },
+  {
+   "pdf_page": 7,
+   "block": 3,
+   "old": "മുത്വലിബിന്റെ മ",
+   "new": "മുത്ത്വലിബിന്റെ മ",
+   "why": "print reads മുത്ത്വലിബിന്റെ (native-res crop)"
+  },
+  {
+   "pdf_page": 7,
+   "block": 3,
+   "old": "മുത്വലിബിന്റെ സ",
+   "new": "മുത്ത്വലിബിന്റെ സ",
+   "why": "print reads മുത്ത്വലിബിന്റെ (native-res crop)"
+  },
+  {
+   "pdf_page": 7,
+   "block": 3,
+   "old": "മുത്വലിബും",
+   "new": "മുത്ത്വലിബും",
+   "why": "print reads മുത്ത്വലിബും (native-res crop)"
+  },
+  {
+   "pdf_page": 8,
+   "block": 1,
+   "old": "പ്രവശ്യം,",
+   "new": "പ്രാവശ്യം,",
+   "why": "print reads പ്രാവശ്യം, (native-res crop)"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "A"
+  },
+  {
+   "idx": 1,
+   "print": "B"
+  },
+  {
+   "idx": 2,
+   "print": "B"
+  },
+  {
+   "idx": 3,
+   "print": "B"
+  },
+  {
+   "idx": 4,
+   "print": "B"
+  },
+  {
+   "idx": 5,
+   "print": "A"
+  },
+  {
+   "idx": 6,
+   "print": "B"
+  },
+  {
+   "idx": 7,
+   "print": "B"
+  },
+  {
+   "idx": 8,
+   "print": "B"
+  },
+  {
+   "idx": 9,
+   "print": "B"
+  },
+  {
+   "idx": 10,
+   "print": "B"
+  },
+  {
+   "idx": 11,
+   "print": "B"
+  },
+  {
+   "idx": 12,
+   "print": "B"
+  },
+  {
+   "idx": 13,
+   "print": "B"
+  },
+  {
+   "idx": 14,
+   "print": "B"
+  },
+  {
+   "idx": 15,
+   "print": "B"
+  },
+  {
+   "idx": 16,
+   "print": "B"
+  },
+  {
+   "idx": 17,
+   "print": "B"
+  },
+  {
+   "idx": 18,
+   "print": "B"
+  },
+  {
+   "idx": 19,
+   "print": "B"
+  },
+  {
+   "idx": 20,
+   "print": "B"
+  },
+  {
+   "idx": 21,
+   "print": "B"
+  },
+  {
+   "idx": 22,
+   "print": "B"
+  },
+  {
+   "idx": 23,
+   "print": "B"
+  },
+  {
+   "idx": 24,
+   "print": "B"
+  },
+  {
+   "idx": 25,
+   "print": "B"
+  },
+  {
+   "idx": 26,
+   "print": "B"
+  },
+  {
+   "idx": 27,
+   "print": "B"
+  },
+  {
+   "idx": 28,
+   "print": "A"
+  },
+  {
+   "idx": 29,
+   "print": "B"
+  },
+  {
+   "idx": 30,
+   "print": "B"
+  },
+  {
+   "idx": 31,
+   "print": "B"
+  },
+  {
+   "idx": 32,
+   "print": "B"
+  }
+ ]
+}

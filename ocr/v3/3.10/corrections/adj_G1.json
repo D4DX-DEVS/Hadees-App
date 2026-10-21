@@ -1,0 +1,52 @@
+{
+ "part": "3.10",
+ "pages_checked": [
+  2,
+  4,
+  5,
+  6
+ ],
+ "corrections": [
+  {
+   "pdf_page": 2,
+   "block": 0,
+   "old": "അതിന്റെ ഉടമസ്ഥൻ അതിന്റെ എണ്ണവും",
+   "new": "അതിന്റെ ഉടസ്ഥൻ അതിന്റെ എണ്ണവും",
+   "why": "print has the author's typo ഉടസ്ഥൻ at this spot (block 2 prints ഉടമസ്ഥൻ)"
+  },
+  {
+   "pdf_page": 5,
+   "block": 4,
+   "old": "اللُّقَطَةِ؟",
+   "new": "اللُّقَطَةِ،",
+   "why": "print has Arabic comma, not question mark, after اللقطة"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "B"
+  },
+  {
+   "idx": 1,
+   "print": "A"
+  },
+  {
+   "idx": 2,
+   "print": "A"
+  },
+  {
+   "idx": 3,
+   "print": "B"
+  },
+  {
+   "idx": 4,
+   "print": "A"
+  },
+  {
+   "idx": 5,
+   "print": "A"
+  }
+ ]
+}

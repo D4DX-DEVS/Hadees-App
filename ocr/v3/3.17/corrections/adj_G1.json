@@ -1,0 +1,359 @@
+{
+ "part": "3.17",
+ "pages_checked": [
+  5,
+  6,
+  7,
+  9,
+  10,
+  11,
+  13,
+  14,
+  15,
+  17,
+  19,
+  20,
+  21,
+  31,
+  34,
+  37,
+  39,
+  40,
+  44,
+  45,
+  50,
+  51,
+  52,
+  54,
+  60,
+  63
+ ],
+ "corrections": [
+  {
+   "pdf_page": 5,
+   "block": 0,
+   "old": "ഒട്ടകങ്ങളെക്കാൾ",
+   "new": "ഒട്ടകങ്ങളേക്കാൾ",
+   "why": "print has േ"
+  },
+  {
+   "pdf_page": 9,
+   "block": 0,
+   "old": "സാധിക്കുകയാണെങ്കിൽ",
+   "new": "സാധിക്കുകയാണങ്കിൽ",
+   "why": "print lacks െ (author spelling)"
+  },
+  {
+   "pdf_page": 9,
+   "block": 3,
+   "old": "ഉബാദ(റ):",
+   "new": "ഉബാദ്(റ):",
+   "why": "print has virama"
+  },
+  {
+   "pdf_page": 11,
+   "block": 4,
+   "old": "ഇഷ്ടപ്പെടുന്നു.",
+   "new": "ഇഷടപ്പെടുന്നു.",
+   "why": "print lacks virama (ഷട)"
+  },
+  {
+   "pdf_page": 13,
+   "block": 1,
+   "old": "അപ്പോൾ മൂന്നിലൊരു ഭാഗം കൂടി അടർന്നു പോന്നു. അപ്പോഴും",
+   "new": "അപ്പോൾ മൂന്നിലൊരു ബാഗം കൂടി അടർന്നു പോന്നു. അപ്പോഴും",
+   "why": "print has ബാഗം here"
+  },
+  {
+   "pdf_page": 15,
+   "block": 3,
+   "old": "അല്ലാഹുവിന്റെതും അവന്റെ റസൂലിന്റെതുമാണ്,",
+   "new": "അല്ലാഹുവിന്റേതും അവന്റെ റസൂലിന്റേതുമാണ്,",
+   "why": "print has േ"
+  },
+  {
+   "pdf_page": 15,
+   "block": 3,
+   "old": "അല്ലാഹുവിന്റെതും അവന്റെ റസൂലിന്റെതുമാണ് നിങ്ങൾ",
+   "new": "അല്ലാഹുവിന്റേതും അവന്റെ റസൂലിന്റേതുമാണ് നിങ്ങൾ",
+   "why": "print has േ"
+  },
+  {
+   "pdf_page": 19,
+   "block": 0,
+   "old": "അലി, താങ്കൾ",
+   "new": "അലീ, താങ്കൾ",
+   "why": "print has ീ"
+  },
+  {
+   "pdf_page": 20,
+   "block": 1,
+   "old": "അബൂഉമാറാ!",
+   "new": "അബൂഉമാറ!",
+   "why": "print has no final ാ"
+  },
+  {
+   "pdf_page": 21,
+   "block": 4,
+   "old": "നിലക്കുകയും ചെയ്തു. ശേഷം",
+   "new": "നിലക്കുകയും ചയ്തു. ശേഷം",
+   "why": "print ചയ്തു (no െ)"
+  },
+  {
+   "pdf_page": 31,
+   "block": 1,
+   "old": "സലാം ചൊല്ലി. എന്നിട്ട് പറഞ്ഞു: ഞാൻ പോയി",
+   "new": "സലാം ചോല്ലി. എന്നിട്ട് പറഞ്ഞു: ഞാൻ പോയി",
+   "why": "print ചോല്ലി"
+  },
+  {
+   "pdf_page": 31,
+   "block": 3,
+   "old": "അബു റൈഹാന(റ)വിൽ",
+   "new": "അബൂറൈഹാന(റ)വിൽ",
+   "why": "print അബൂ|റൈഹാന across line break"
+  },
+  {
+   "pdf_page": 34,
+   "block": 4,
+   "old": "\"നീ നേരിടു.\"",
+   "new": "\"നീ നേരിടൂ.\"",
+   "why": "print ടൂ"
+  },
+  {
+   "pdf_page": 37,
+   "block": 0,
+   "old": "സസൂക്ഷമം പരിശോധിച്ചു.",
+   "new": "സസൂക്ഷമം പരിശേധിച്ചു.",
+   "why": "print പരിശേധിച്ചു"
+  },
+  {
+   "pdf_page": 45,
+   "block": 0,
+   "old": "\"ഒരാൾ ഒരു കൂട്ടരോട്",
+   "new": "\"ഓരാൾ ഒരു കൂട്ടരോട്",
+   "why": "print ഓരാൾ"
+  },
+  {
+   "pdf_page": 50,
+   "block": 1,
+   "old": "ബർസാഇൽ",
+   "new": "ബർസാഉൽ",
+   "why": "print has ഉ"
+  },
+  {
+   "pdf_page": 51,
+   "block": 5,
+   "old": "ബീവി(റ) അബുൽ ആസിന്റെ",
+   "new": "ബീവി(റ) അബുൽ ആസ്വിന്റെ",
+   "why": "print ആസ്വ"
+  },
+  {
+   "pdf_page": 51,
+   "block": 5,
+   "old": "അബുൽ ആസിന് നൽകി",
+   "new": "അബുൽ ആസ്വിന് നൽകി",
+   "why": "print ആസ്വ"
+  },
+  {
+   "pdf_page": 51,
+   "block": 5,
+   "old": "അബുൽആസിന്റെ മോചനത്തിനായി മഹതി",
+   "new": "അബുൽആസ്വിന്റെ മോചനത്തിനായി മഹതി",
+   "why": "print ആസ്വ"
+  },
+  {
+   "pdf_page": 51,
+   "block": 5,
+   "old": "അബുൽആസിനോട്",
+   "new": "അബുൽആസ്വിനോട്",
+   "why": "print ആസ്വ"
+  },
+  {
+   "pdf_page": 52,
+   "block": 3,
+   "old": "മാത്രമേയുള്ളു,",
+   "new": "മാത്രമേയുള്ളൂ,",
+   "why": "print ൂ"
+  },
+  {
+   "pdf_page": 54,
+   "block": 4,
+   "old": "\"മുത്ഇമുബ്നു",
+   "new": "\"മുത്ഇമുബിനു",
+   "why": "print has ബിനു"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 20,
+   "note": "items 19/20: Malayalam heading യുദ്ധ വിഷയത്തിൽ നിയമിക്കപ്പെടുന്നവൻ is printed at TOP of p21 (print B); our JSON keeps it in the p20 bab block (merged across page break) - structural, no text change"
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "B"
+  },
+  {
+   "idx": 1,
+   "print": "A"
+  },
+  {
+   "idx": 2,
+   "print": "A"
+  },
+  {
+   "idx": 3,
+   "print": "A"
+  },
+  {
+   "idx": 4,
+   "print": "B"
+  },
+  {
+   "idx": 5,
+   "print": "B"
+  },
+  {
+   "idx": 6,
+   "print": "A"
+  },
+  {
+   "idx": 7,
+   "print": "A"
+  },
+  {
+   "idx": 8,
+   "print": "B"
+  },
+  {
+   "idx": 9,
+   "print": "B"
+  },
+  {
+   "idx": 10,
+   "print": "A"
+  },
+  {
+   "idx": 11,
+   "print": "A"
+  },
+  {
+   "idx": 12,
+   "print": "B"
+  },
+  {
+   "idx": 13,
+   "print": "B"
+  },
+  {
+   "idx": 14,
+   "print": "B"
+  },
+  {
+   "idx": 15,
+   "print": "B"
+  },
+  {
+   "idx": 16,
+   "print": "A"
+  },
+  {
+   "idx": 17,
+   "print": "B"
+  },
+  {
+   "idx": 18,
+   "print": "B"
+  },
+  {
+   "idx": 19,
+   "print": "B"
+  },
+  {
+   "idx": 20,
+   "print": "B"
+  },
+  {
+   "idx": 21,
+   "print": "B"
+  },
+  {
+   "idx": 22,
+   "print": "A"
+  },
+  {
+   "idx": 23,
+   "print": "B"
+  },
+  {
+   "idx": 24,
+   "print": "B"
+  },
+  {
+   "idx": 25,
+   "print": "B"
+  },
+  {
+   "idx": 26,
+   "print": "A"
+  },
+  {
+   "idx": 27,
+   "print": "B"
+  },
+  {
+   "idx": 28,
+   "print": "A"
+  },
+  {
+   "idx": 29,
+   "print": "A"
+  },
+  {
+   "idx": 30,
+   "print": "A"
+  },
+  {
+   "idx": 31,
+   "print": "B"
+  },
+  {
+   "idx": 32,
+   "print": "B"
+  },
+  {
+   "idx": 33,
+   "print": "B"
+  },
+  {
+   "idx": 34,
+   "print": "B"
+  },
+  {
+   "idx": 35,
+   "print": "B"
+  },
+  {
+   "idx": 36,
+   "print": "B"
+  },
+  {
+   "idx": 37,
+   "print": "B"
+  },
+  {
+   "idx": 38,
+   "print": "B"
+  },
+  {
+   "idx": 39,
+   "print": "A"
+  },
+  {
+   "idx": 40,
+   "print": "A"
+  }
+ ]
+}

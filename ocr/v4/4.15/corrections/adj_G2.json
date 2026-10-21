@@ -1,0 +1,78 @@
+{
+ "part": "4.15",
+ "pages_checked": [
+  13,
+  14,
+  15,
+  19,
+  20
+ ],
+ "corrections": [
+  {
+   "pdf_page": 13,
+   "block": 7,
+   "old": "هَذَا؟\"",
+   "new": "هَذَا\".",
+   "why": "print has closing quote then period, no question mark"
+  },
+  {
+   "pdf_page": 14,
+   "block": 6,
+   "old": "أَأَعْطَيْتَ",
+   "new": "أَعْطَيْتَ",
+   "why": "print single hamza"
+  },
+  {
+   "pdf_page": 14,
+   "block": 1,
+   "old": "തുല്യമായി",
+   "new": "തുല്ല്യമായി",
+   "why": "print has double ല"
+  },
+  {
+   "pdf_page": 15,
+   "block": 2,
+   "old": "നൽകി. അക്കാര്യത്തിൽ",
+   "new": "നൽകി. അങ്ങനെ അക്കാര്യത്തിൽ",
+   "why": "print has അങ്ങനെ here"
+  },
+  {
+   "pdf_page": 15,
+   "block": 2,
+   "old": "ആവശ്യപ്പെട്ടിരിക്കുന്നു? അങ്ങനെ നിവേദകൻ",
+   "new": "ആവശ്യപ്പെട്ടിരിക്കുന്നു? നിവേദകൻ",
+   "why": "print has no അങ്ങനെ here"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "B"
+  },
+  {
+   "idx": 1,
+   "print": "B"
+  },
+  {
+   "idx": 2,
+   "print": "B"
+  },
+  {
+   "idx": 3,
+   "print": "B"
+  },
+  {
+   "idx": 4,
+   "print": "B"
+  },
+  {
+   "idx": 5,
+   "print": "A"
+  },
+  {
+   "idx": 6,
+   "print": "A"
+  }
+ ]
+}

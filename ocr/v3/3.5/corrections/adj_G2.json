@@ -1,0 +1,212 @@
+{
+ "part": "3.5",
+ "pages_checked": [
+  26,
+  27,
+  28,
+  29,
+  30,
+  32,
+  33,
+  36,
+  43,
+  44,
+  46,
+  47,
+  48,
+  50,
+  51,
+  52
+ ],
+ "corrections": [
+  {
+   "pdf_page": 26,
+   "block": 0,
+   "old": "ഹബ്ബാൻ(റ):",
+   "new": "ഹബ്വാൻ(റ):",
+   "why": "print ബ്വ"
+  },
+  {
+   "pdf_page": 27,
+   "block": 6,
+   "old": "അബുദർറ്(റ):",
+   "new": "അബൂദർറ്(റ):",
+   "why": "print ബൂ"
+  },
+  {
+   "pdf_page": 28,
+   "block": 10,
+   "old": "ഖൈസ്(റ):",
+   "new": "വൈസ്(റ):",
+   "why": "print വൈസ് (author typo, printed)"
+  },
+  {
+   "pdf_page": 30,
+   "block": 2,
+   "old": "ഹുസ്വൈൻ(റ):",
+   "new": "ഹുസൈൻ(റ):",
+   "why": "print ഹുസൈൻ"
+  },
+  {
+   "pdf_page": 33,
+   "block": 3,
+   "old": "ദുർബ്ബലമാക്കപ്പെട്ടു.",
+   "new": "ദുർബ്വലമാക്കപ്പെട്ടു.",
+   "why": "print ബ്വ"
+  },
+  {
+   "pdf_page": 36,
+   "block": 3,
+   "old": "അബൂബകറ(റ):",
+   "new": "അബൂബക്റ(റ):",
+   "why": "print has virama on ക"
+  },
+  {
+   "pdf_page": 43,
+   "block": 1,
+   "old": "\"നിനക്കെന്തറിയാം?",
+   "new": "\"നിനക്കെന്തെറിയാം?",
+   "why": "print ന്തെറി"
+  },
+  {
+   "pdf_page": 48,
+   "block": 7,
+   "old": "പുകഴ്ത്തി.",
+   "new": "പുകഴ്തി.",
+   "why": "print ഴ്തി"
+  },
+  {
+   "pdf_page": 48,
+   "block": 7,
+   "old": "അവിടുന്നിപ്രകാരം",
+   "new": "അവിടിന്നിപ്രകാരം",
+   "why": "print അവിടി"
+  },
+  {
+   "pdf_page": 48,
+   "block": 7,
+   "old": "പുകഴ്ത്താതെ",
+   "new": "പുകഴ്താതെ",
+   "why": "print ഴ്താ"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "B"
+  },
+  {
+   "idx": 1,
+   "print": "B"
+  },
+  {
+   "idx": 2,
+   "print": "B"
+  },
+  {
+   "idx": 3,
+   "print": "A"
+  },
+  {
+   "idx": 4,
+   "print": "A"
+  },
+  {
+   "idx": 5,
+   "print": "A"
+  },
+  {
+   "idx": 6,
+   "print": "B"
+  },
+  {
+   "idx": 7,
+   "print": "A"
+  },
+  {
+   "idx": 8,
+   "print": "A"
+  },
+  {
+   "idx": 9,
+   "print": "B"
+  },
+  {
+   "idx": 10,
+   "print": "A"
+  },
+  {
+   "idx": 11,
+   "print": "A"
+  },
+  {
+   "idx": 12,
+   "print": "B"
+  },
+  {
+   "idx": 14,
+   "print": "A"
+  },
+  {
+   "idx": 13,
+   "print": "B"
+  },
+  {
+   "idx": 15,
+   "print": "A"
+  },
+  {
+   "idx": 16,
+   "print": "A"
+  },
+  {
+   "idx": 17,
+   "print": "A"
+  },
+  {
+   "idx": 18,
+   "print": "A"
+  },
+  {
+   "idx": 19,
+   "print": "A"
+  },
+  {
+   "idx": 20,
+   "print": "B"
+  },
+  {
+   "idx": 21,
+   "print": "B"
+  },
+  {
+   "idx": 22,
+   "print": "B"
+  },
+  {
+   "idx": 23,
+   "print": "A"
+  },
+  {
+   "idx": 24,
+   "print": "A"
+  },
+  {
+   "idx": 25,
+   "print": "A"
+  },
+  {
+   "idx": 26,
+   "print": "A"
+  },
+  {
+   "idx": 27,
+   "print": "A"
+  },
+  {
+   "idx": 28,
+   "print": "A"
+  }
+ ]
+}

@@ -1,0 +1,155 @@
+{
+ "part": "4.6",
+ "pages_checked": [
+  43,
+  44,
+  45,
+  46
+ ],
+ "corrections": [
+  {
+   "pdf_page": 45,
+   "block": 0,
+   "old": "ആസ്വ്യുബ്നു",
+   "new": "ആസ്വുബ്നു",
+   "why": "print reads ആസ്വുബ്നു (no യ subscript); B correct"
+  },
+  {
+   "pdf_page": 45,
+   "block": 0,
+   "old": "അബൂബക്കർ(റ) ഇടക്കിടെ തിരിഞ്ഞുനോക്കുന്നുണ്ട്. അവിടുന്ന് എവിടേക്കും തിരിഞ്ഞുനോക്കുന്നില്ല.",
+   "new": "അവിടുന്ന് എവിടേക്കും തിരിഞ്ഞുനോക്കുന്നില്ല. അബൂബക്കർ(റ) ഇടക്കിടെ തിരിഞ്ഞുനോക്കുന്നുണ്ട്.",
+   "why": "sentence order: print line reads കേൾക്കാൻ തുടങ്ങി. അവിടുന്ന് എവിടേക്കും തിരിഞ്ഞുനോക്കുന്നില്ല. അബൂബക്കർ(റ) ഇടക്കിടെ തിരി-/ഞ്ഞുനോക്കുന്നുണ്ട്. (print lines are skewed; B order)"
+  },
+  {
+   "pdf_page": 45,
+   "block": 0,
+   "old": "താഴ്ന്നുപോവുകയും",
+   "new": "താഴ്ന്ന് പോവുകയും",
+   "why": "print: താഴ്ന്ന് (chandrakkala) at line end, then പോവുകയും; B correct"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "A"
+  },
+  {
+   "idx": 1,
+   "print": "A"
+  },
+  {
+   "idx": 2,
+   "print": "A"
+  },
+  {
+   "idx": 3,
+   "print": "A"
+  },
+  {
+   "idx": 4,
+   "print": "A"
+  },
+  {
+   "idx": 5,
+   "print": "A"
+  },
+  {
+   "idx": 6,
+   "print": "A"
+  },
+  {
+   "idx": 7,
+   "print": "A"
+  },
+  {
+   "idx": 8,
+   "print": "A"
+  },
+  {
+   "idx": 9,
+   "print": "A"
+  },
+  {
+   "idx": 10,
+   "print": "A"
+  },
+  {
+   "idx": 11,
+   "print": "A"
+  },
+  {
+   "idx": 12,
+   "print": "A"
+  },
+  {
+   "idx": 13,
+   "print": "A"
+  },
+  {
+   "idx": 14,
+   "print": "A"
+  },
+  {
+   "idx": 15,
+   "print": "A"
+  },
+  {
+   "idx": 16,
+   "print": "A"
+  },
+  {
+   "idx": 17,
+   "print": "B"
+  },
+  {
+   "idx": 18,
+   "print": "A"
+  },
+  {
+   "idx": 19,
+   "print": "A"
+  },
+  {
+   "idx": 20,
+   "print": "A"
+  },
+  {
+   "idx": 21,
+   "print": "A"
+  },
+  {
+   "idx": 22,
+   "print": "A"
+  },
+  {
+   "idx": 23,
+   "print": "A"
+  },
+  {
+   "idx": 24,
+   "print": "B"
+  },
+  {
+   "idx": 25,
+   "print": "B"
+  },
+  {
+   "idx": 26,
+   "print": "B"
+  },
+  {
+   "idx": 27,
+   "print": "A"
+  },
+  {
+   "idx": 28,
+   "print": "A"
+  },
+  {
+   "idx": 29,
+   "print": "A"
+  }
+ ]
+}

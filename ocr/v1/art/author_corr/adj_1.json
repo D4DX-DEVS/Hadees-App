@@ -1,0 +1,7 @@
+{"part":"art-author","pages_checked":[1,2],"corrections":[
+{"pdf_page":1,"block":3,"old":"ഇൻസിറ്റ്യൂട്ട്","new":"ഇൻസിറ്റ്യൂറ്റ്","why":"print ends the word with റ്റ (same glyph as the initial റ്റ്), not ട്ട"},
+{"pdf_page":1,"block":8,"old":"മക്കി","new":"മക്തി","why":"print shows ക്ത (Makti Thangal)"},
+{"pdf_page":2,"block":0,"old":"എളുപ്പമാർഗ്ഗം","new":"എളുപ്പമാർഗം","why":"print: മാർഗം with single ഗ"}
+],"uncertain":[
+{"pdf_page":1,"note":"item 4 (സൂറ: vs സുറ:) judged A (ൂ) from S-curved vowel stem matching പൂ in പൂർവ്വ; moderate confidence"}
+],"decisions":[{"idx":0,"print":"A"},{"idx":1,"print":"B"},{"idx":2,"print":"B"},{"idx":3,"print":"A"},{"idx":4,"print":"A"},{"idx":5,"print":"A"},{"idx":6,"print":"B"}]}

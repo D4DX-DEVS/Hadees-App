@@ -1,0 +1,73 @@
+{
+ "pages": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  8,
+  10,
+  11,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  22,
+  23,
+  24,
+  26,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  36,
+  37,
+  38,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  50,
+  52,
+  53,
+  54,
+  55,
+  57,
+  58,
+  59,
+  63,
+  64,
+  65,
+  66,
+  68,
+  69
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 20,
+   "note": "item 28 ു/ൂ at ളളൂ judged ൂ at moderate confidence"
+  },
+  {
+   "pdf_page": 43,
+   "note": "Items 57/58: the Malayalam sub-heading \"പക്ഷികളുടെ ഹൃദയങ്ങളെപ്പോലെ ഹൃദയങ്ങളുളള ചിലർ സ്വർഗത്തിൽ പ്രവേശിക്കും\" is printed at TOP of pdf page 43 (above hadith 130, whose Arabic bab line is at bottom of p42). Our JSON has it as p42 block 6 (bab malayalam) and p43 lacks it: needs a move (p42 bab.malayalam -> p43 as leading heading), not expressible as a text correction."
+  },
+  {
+   "pdf_page": 45,
+   "note": "Item 64: Malayalam sub-heading \"സ്വർഗക്കാർക്കുളള സമ്മാനം\" is NOT on pdf p45 (only the Arabic bab line is at its bottom); it is printed at the top of p46. Our p45 block 7 (bab) holds it; needs move to p46, not expressible as a correction."
+  },
+  {
+   "pdf_page": 46,
+   "note": "Item 65: confirmed heading \"സ്വർഗക്കാർക്കുളള സമ്മാനം\" printed at top of p46 (missing from p46 JSON; present as p45 block 7)."
+  }
+ ],
+ "applied": 43
+}

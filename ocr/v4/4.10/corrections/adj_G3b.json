@@ -1,0 +1,122 @@
+{
+ "part": "4.10",
+ "pages_checked": [
+  46,
+  47,
+  48,
+  49,
+  50,
+  52
+ ],
+ "corrections": [
+  {
+   "pdf_page": 47,
+   "block": 6,
+   "old": "يَقْرَؤُونَ",
+   "new": "يَقْرَءُونَ",
+   "why": "print: separate hamza then waw"
+  },
+  {
+   "pdf_page": 48,
+   "block": 4,
+   "old": "പ്രതിപാദിച്ചപ്പോൾ",
+   "new": "പ്രതിപാതിച്ചപ്പോൾ",
+   "why": "print പ്രതിപാതി (author typo)"
+  },
+  {
+   "pdf_page": 52,
+   "block": 2,
+   "old": "يَقْرَأُ عَلَى قراءة",
+   "new": "يَقْرَأُ عَلَيَّ قراءة",
+   "why": "print علي with ي+shadda"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 46,
+   "note": "idx20 തജ്മഉൗൻ: glyph after മ looks like ള-with-flat-base then ൗ, i.e. possibly തജ്മളൗൻ; neither A nor B clearly; no correction"
+  },
+  {
+   "pdf_page": 48,
+   "note": "idx26 ഫറള്നാഹാ: print shows ഫറളനാഹാ (no visible chandrakkala, not chillu ൾ); left as ours"
+  },
+  {
+   "pdf_page": 49,
+   "note": "idx28 ദുർരിയ്യ് vs ദുർറിയ്യ്: ര/റ after chillu unsure; no correction"
+  },
+  {
+   "pdf_page": 47,
+   "note": "idx23 എന്നിൽനിന്ന്: print ink broken at ന്ന, intended എന്നിൽ; kept ours"
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 17,
+   "print": "B"
+  },
+  {
+   "idx": 18,
+   "print": "other"
+  },
+  {
+   "idx": 19,
+   "print": "other"
+  },
+  {
+   "idx": 20,
+   "print": "other"
+  },
+  {
+   "idx": 21,
+   "print": "B"
+  },
+  {
+   "idx": 22,
+   "print": "B"
+  },
+  {
+   "idx": 23,
+   "print": "A"
+  },
+  {
+   "idx": 24,
+   "print": "B"
+  },
+  {
+   "idx": 25,
+   "print": "other"
+  },
+  {
+   "idx": 26,
+   "print": "other"
+  },
+  {
+   "idx": 27,
+   "print": "B"
+  },
+  {
+   "idx": 28,
+   "print": "other"
+  },
+  {
+   "idx": 29,
+   "print": "other"
+  },
+  {
+   "idx": 30,
+   "print": "B"
+  },
+  {
+   "idx": 31,
+   "print": "B"
+  },
+  {
+   "idx": 32,
+   "print": "other"
+  },
+  {
+   "idx": 33,
+   "print": "B"
+  }
+ ]
+}

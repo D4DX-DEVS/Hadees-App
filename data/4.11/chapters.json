@@ -1,0 +1,667 @@
+[
+ {
+  "chapter_no": 1,
+  "title_ml": "സ്വന്തം അഭിപ്രായാനുസൃതം ഖുർആൻ വ്യാഖാനിക്കുന്നവൻ",
+  "title_ar": "بَابٌ: مَا جَاءَ فِي الَّذِي يُفَسِّرُ الْقُرْآنَ بِرَأْيِه",
+  "start_page": 583,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 2,
+  "title_ml": "ഫാത്തിഹ സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الْفَاتِحَة",
+  "start_page": 583,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 3,
+  "title_ml": "അൽബഖറ സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الْبَقَرَة",
+  "start_page": 586,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 4,
+  "title_ml": "ആലുഇംറാൻ സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ آلِ عِمْرَانَ",
+  "start_page": 601,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 5,
+  "title_ml": "നിസാഅ് സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ النِّسَاء",
+  "start_page": 610,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 6,
+  "title_ml": "മാഇദ സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الْمَائِدَةِ",
+  "start_page": 624,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 7,
+  "title_ml": "അൻആം സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الْأَنْعَامِ",
+  "start_page": 631,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 8,
+  "title_ml": "അഅ്റാഫ് സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الْأَعْرَافِ",
+  "start_page": 635,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 9,
+  "title_ml": "അൻഫാൽ സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الْأَنْفَالِ",
+  "start_page": 638,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 10,
+  "title_ml": "തൗബ സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ التَّوْبَةِ",
+  "start_page": 641,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 11,
+  "title_ml": "യൂനുസ് സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ يُونُسَ",
+  "start_page": 652,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 12,
+  "title_ml": "ഹുദ് സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ هُودٍ",
+  "start_page": 653,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 13,
+  "title_ml": "യൂസുഫ് സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ يُوسُفَ",
+  "start_page": 656,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 14,
+  "title_ml": "റഅ്ദ് സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الرَّعْدِ",
+  "start_page": 656,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 15,
+  "title_ml": "ഇബ്റാഹീം സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ إِبْرَاهِيمَ",
+  "start_page": 657,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 16,
+  "title_ml": "ഹിജ്ർ സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الْحِجْرِ",
+  "start_page": 658,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 17,
+  "title_ml": "നഹ്ൽ സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ النَّحْلِ",
+  "start_page": 659,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 18,
+  "title_ml": "ഇസ്റാഅ് സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الْإِسْرَاءِ",
+  "start_page": 660,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 19,
+  "title_ml": "കഹ്ഫ് സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الْكَهْفِ",
+  "start_page": 670,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 20,
+  "title_ml": "മര്യം സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ مَرْيَم",
+  "start_page": 674,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 21,
+  "title_ml": "ത്വാഹാ സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ طه",
+  "start_page": 677,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 22,
+  "title_ml": "അമ്പിയാഅ് സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الْأَنْبِيَاءِ",
+  "start_page": 677,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 23,
+  "title_ml": "ഹജ്ജ് സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الْحَجِّ",
+  "start_page": 679,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 24,
+  "title_ml": "മുഅ്മിനൂൻ സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الْمُؤْمِنِينَ",
+  "start_page": 681,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 25,
+  "title_ml": "നൂർ സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ النُّورِ",
+  "start_page": 683,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 26,
+  "title_ml": "ഫുർഖാൻ സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الْفُرْقَانِ",
+  "start_page": 699,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 27,
+  "title_ml": "ശുഅറാഅ് സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الشُّعَرَاءِ",
+  "start_page": 700,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 28,
+  "title_ml": "നംല് സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ النَّمْلِ",
+  "start_page": 701,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 29,
+  "title_ml": "ഖസസ് സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الْقَصَصِ",
+  "start_page": 701,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 30,
+  "title_ml": "അൻകബൂത് സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الْعَنْكَبُوتِ",
+  "start_page": 702,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 31,
+  "title_ml": "റും സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الرُّومِ",
+  "start_page": 702,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 32,
+  "title_ml": "ലുഖ്മാൻ സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ لُقْمَانَ",
+  "start_page": 704,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 33,
+  "title_ml": "സജദ സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ السَّجْدَةِ",
+  "start_page": 704,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 34,
+  "title_ml": "അഹ്സാബ് സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الْأَحْزَابِ",
+  "start_page": 706,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 35,
+  "title_ml": "സബഅ് സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ سَبَأٍ",
+  "start_page": 716,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 36,
+  "title_ml": "മലാഇക (ഫാതിർ) സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الْمَلَائِكَةِ (فَاطِر)",
+  "start_page": 718,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 37,
+  "title_ml": "യാസീൻ സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ يس",
+  "start_page": 719,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 38,
+  "title_ml": "സ്വാഫ്ഫാത് സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الصَّافَّاتِ",
+  "start_page": 719,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 39,
+  "title_ml": "സ്വാദ് സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ ص",
+  "start_page": 720,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 40,
+  "title_ml": "സുമർ സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الزُّمَرِ",
+  "start_page": 722,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 41,
+  "title_ml": "ഗാഫിർ സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ غَافِرٍ",
+  "start_page": 725,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 42,
+  "title_ml": "ഫുസ്സിലത് സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ فُصِّلَتْ",
+  "start_page": 725,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 43,
+  "title_ml": "ശൂറാ സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الشُّورَى",
+  "start_page": 726,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 44,
+  "title_ml": "സുഖ്റുഫ് സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الزُّخْرُفِ",
+  "start_page": 726,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 45,
+  "title_ml": "ദുഖാൻ സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الدُّخَانِ",
+  "start_page": 727,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 46,
+  "title_ml": "ജാസിയ സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الْجَاثِيَة",
+  "start_page": 729,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 47,
+  "title_ml": "അഹ്ഖാഫ് സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الْأَحْقَاف",
+  "start_page": 729,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 48,
+  "title_ml": "മുഹമ്മദ് സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ مُحَمَّد",
+  "start_page": 731,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 49,
+  "title_ml": "ഫത്ഹ് സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الْفَتْحِ",
+  "start_page": 732,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 50,
+  "title_ml": "ഹുജുറാത് സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الْحُجُرَات",
+  "start_page": 733,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 51,
+  "title_ml": "ഖാഫ് സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ ق",
+  "start_page": 735,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 52,
+  "title_ml": "ദാരിയാത് സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الذَّارِيَات",
+  "start_page": 736,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 53,
+  "title_ml": "ത്വൂർ സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الطُّورِ",
+  "start_page": 737,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 54,
+  "title_ml": "നജ്മ് സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ النَّجْمِ",
+  "start_page": 738,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 55,
+  "title_ml": "ഖമർ സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الْقَمَرِ",
+  "start_page": 740,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 56,
+  "title_ml": "റഹ്മാൻ സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الرَّحْمَان",
+  "start_page": 742,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 57,
+  "title_ml": "വാഖിഅ സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الْوَاقِعَة",
+  "start_page": 743,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 58,
+  "title_ml": "ഹദീദ് സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الْحَدِيد",
+  "start_page": 744,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 59,
+  "title_ml": "മുജാദല സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الْمُجَادَلَة",
+  "start_page": 746,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 60,
+  "title_ml": "ഹശ്ർ സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الْحَشْر",
+  "start_page": 748,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 61,
+  "title_ml": "മുംതഹിന സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الْمُمْتَحِنَة",
+  "start_page": 749,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 62,
+  "title_ml": "സ്വഫ് സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الصَّفّ",
+  "start_page": 751,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 63,
+  "title_ml": "ജുമുഅ സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الْجُمُعَة",
+  "start_page": 751,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 64,
+  "title_ml": "മുനാഫിഖുൻ സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الْمُنَافِقُون",
+  "start_page": 752,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 65,
+  "title_ml": "തഗാബുൻ സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ التَّغَابُنِ",
+  "start_page": 755,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 66,
+  "title_ml": "തഹ്രീം സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ التَّحْرِيمِ",
+  "start_page": 755,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 67,
+  "title_ml": "ഖലം സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الْقَلَمِ",
+  "start_page": 759,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 68,
+  "title_ml": "ഹാഖ സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الْحَاقَّةِ",
+  "start_page": 760,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 69,
+  "title_ml": "മആരിജ് സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الْمَعَارِجِ",
+  "start_page": 761,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 70,
+  "title_ml": "ജിന്ന് സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الْجِنِّ",
+  "start_page": 761,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 71,
+  "title_ml": "മുദ്ദസിർ സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الْمُدَّثِّرِ",
+  "start_page": 763,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 72,
+  "title_ml": "ഖിയാമ സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الْقِيَامَةِ",
+  "start_page": 764,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 73,
+  "title_ml": "നാസിആത് സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ النَّازِعَاتِ",
+  "start_page": 765,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 74,
+  "title_ml": "അബസ സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ عَبَسَ",
+  "start_page": 766,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 75,
+  "title_ml": "തക്വീർ സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ التَّكْوِيرِ",
+  "start_page": 766,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 76,
+  "title_ml": "മുത്വഫിഫീൻ സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الْمُطَفِّفِينَ",
+  "start_page": 767,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 77,
+  "title_ml": "ഇൻശിഖാഖ് സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الْإِنْشِقَاقِ",
+  "start_page": 767,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 78,
+  "title_ml": "ബുറൂജ് സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الْبُرُوجِ",
+  "start_page": 768,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 79,
+  "title_ml": "ഗാശിയ സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الْغَاشيَة",
+  "start_page": 771,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 80,
+  "title_ml": "ഫജ്ർ സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الْفَجْرِ",
+  "start_page": 771,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 81,
+  "title_ml": "ശംസ് സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الشَّمْسِ",
+  "start_page": 771,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 82,
+  "title_ml": "ലൈൽ സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ وَاللَّيْلِ",
+  "start_page": 772,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 83,
+  "title_ml": "ളുഹാ സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ وَالضُّحَى",
+  "start_page": 773,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 84,
+  "title_ml": "ശറഹ് സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الشَّرَحِ",
+  "start_page": 773,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 85,
+  "title_ml": "തീൻ സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ التِّين",
+  "start_page": 774,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 86,
+  "title_ml": "അലഖ് സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الْعَلَقِ",
+  "start_page": 774,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 87,
+  "title_ml": "ഖദ്ർ സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الْقَدْر",
+  "start_page": 775,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 88,
+  "title_ml": "ബയ്യിന സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الْبَيِّنَة",
+  "start_page": 776,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 89,
+  "title_ml": "സിൽസാൽ സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الزِّلْزَال",
+  "start_page": 776,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 90,
+  "title_ml": "തകാസുർ സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ التَّكَاثُر",
+  "start_page": 776,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 91,
+  "title_ml": "കൗസർ സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الْكَوْثَر",
+  "start_page": 777,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 92,
+  "title_ml": "ഫത്ഹ് സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الْفَتْح",
+  "start_page": 778,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 93,
+  "title_ml": "മസദ് സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الْمَسَد",
+  "start_page": 778,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 94,
+  "title_ml": "ഇഖ്ലാസ് സൂറത്ത്",
+  "title_ar": "بَابٌ: سُورَةُ الْإخْلَاص",
+  "start_page": 779,
+  "toc_title_ml": null
+ },
+ {
+  "chapter_no": 95,
+  "title_ml": "ഫലഖ്, നാസ് എന്നീ സൂറത്തുകൾ",
+  "title_ar": "بَابٌ: سُورَةُ الْمُعَوِّذَتَيْن",
+  "start_page": 779,
+  "toc_title_ml": null
+ }
+]

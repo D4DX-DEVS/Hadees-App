@@ -1,0 +1,129 @@
+{
+ "pages": [
+  27,
+  28,
+  30,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  41,
+  42,
+  44,
+  45,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  58,
+  59,
+  60,
+  61,
+  62,
+  65,
+  66,
+  68,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 27,
+   "note": "diff 1: ഞാനവനെ തേടിയാൽ (Sonnet) vs ഞാനവനെത്തേടിയാൽ (Opus); line-justified spacing and ത്ത/ത glyph not decidable at this resolution -> held"
+  },
+  {
+   "pdf_page": 28,
+   "note": "diff 2 (bab block 0 malayalam): print heading on p28 is a different title (സലബ് ഗവേഷണം നടത്തിയതിന് ശേഷം / കൊന്നവരിൽ ഒരാൾക്ക് നൽകൽ) and the printed word on the page-top paragraph is കൊന്നവന് (Opus); bab block text does not match print -> held, bab block itself needs review"
+  },
+  {
+   "pdf_page": 32,
+   "note": "idx5 'താങ്കൾക്കറിയില്ലേയോ?' vs Opus 'താങ്കൾക്കറിയില്ലെയോ?' (ലേ / ലെ, vowel sign e vs ee after ല്ല) in the last paragraph line 3 ('വിധിച്ചതെന്ന് താങ്കൾക്കറിയില്ലേയോ?'): sign not decidable at zoom; HELD, not applied"
+  },
+  {
+   "pdf_page": 35,
+   "note": "idx9 narrator 'അദിയ്യുബ്നു അമീറതുൽ കിന്ദി(റ):' (block 4): print looks like 'കിൻദി' (chillu-like ൻ) per Opus, but ന്/ൻ chillu call not certain at zoom; HELD, not applied (Sonnet 'കിന്ദി' kept)"
+  },
+  {
+   "pdf_page": 53,
+   "note": "idx34 block 0: അബൂബക്കർ(റ)വിനോട് (Sonnet) vs അബൂബക്ർ(റ)വിനോട് (Opus) in 'അലി(റ) അബൂബക്കർ(റ)വിനോട് സംസാ' - ക്ക vs ക്ർ glyph not decidable at this resolution -> held"
+  },
+  {
+   "pdf_page": 53,
+   "note": "idx35 block 0: 'അലി(റ) അബൂബക്കർ(റ)' line-end before 'വിനോട് പറഞ്ഞു' - same ക്ക/ക്ർ question -> held"
+  },
+  {
+   "pdf_page": 53,
+   "note": "idx36 block 5: മുത്വലിബ് (Sonnet) vs മുത്ത്വലിബ് (Opus); doubled ത്ത vs single ത before ്വ not decidable at this resolution -> held (rechecked, earlier call A withdrawn)"
+  },
+  {
+   "pdf_page": 54,
+   "note": "idx37-42: six മുത്വലിബ് vs മുത്ത്വലിബ് (Opus) - the ത്ത/്വ glyph count could not be decided with certainty at this resolution -> all held"
+  },
+  {
+   "pdf_page": 56,
+   "note": "idx46-49: മുത്വലിബ് vs മുത്ത്വലിബ് variants - ത്ത/്വ glyph count not decidable -> held"
+  },
+  {
+   "pdf_page": 58,
+   "note": "idx53: അബ്ദുൽമുത്വലിബാണത് vs അബ്ദുൽമുത്ത്വലിബാണത് - ത്ത/്വ glyph not decidable -> held"
+  },
+  {
+   "pdf_page": 57,
+   "note": "idx50 abdulmuthalib (ത്ത/്വ glyph) held; page 57 not viewed visually"
+  },
+  {
+   "pdf_page": 59,
+   "note": "idx55 അബ്ദുൽമുത്വലിബിന്റെ (ത്ത്വ glyph) held"
+  },
+  {
+   "pdf_page": 60,
+   "note": "idx60 \"ഫാതിമ, vs \"ഫാത്വിമ, : ത്വ glyph not certain at this crop -> held"
+  },
+  {
+   "pdf_page": 66,
+   "note": "idx67 block 2: ഖാരിഇഊങ്ങളിൽപെട്ട (Sonnet) vs ഖാരിഊങ്ങളിൽപെട്ട (Opus). Print shows ഇ followed by an ഊ/ൗ-like glyph; cannot decide ഇഊ vs ഊ at native resolution -> held, not applied"
+  },
+  {
+   "pdf_page": 70,
+   "note": "idx73 block 4: മേഘലയെ (Sonnet) vs മേഖലയെ (Opus). Print glyph after മേ is ഘ/ഖ-like; not decidable with certainty at native resolution -> held, not applied"
+  },
+  {
+   "pdf_page": 70,
+   "note": "idx74 block 4: മേഘല.\" (Sonnet) vs മേഖല.\" (Opus). Same glyph question as idx73 -> held, not applied"
+  },
+  {
+   "pdf_page": 71,
+   "note": "idx75 block 0: മേഘലയെ (Sonnet) vs മേഖലയെ (Opus); ഘ/ഖ glyph after മേ not decidable -> held"
+  },
+  {
+   "pdf_page": 71,
+   "note": "idx76 block 0: മേഘലയില്ല.\" vs മേഖലയില്ല.\" ; same glyph question -> held"
+  },
+  {
+   "pdf_page": 71,
+   "note": "idx79 block 2: സ്വഖർ(റ) (Sonnet) vs സ്വഖ്ർ(റ) (Opus) in line \"അവർ കീഴടങ്ങുംവരെ സ്വഖർ(റ) അവിടെ\"; virama looks present but not certain -> held"
+  },
+  {
+   "pdf_page": 71,
+   "note": "idx80 block 2: സ്വഖർ(റ) split across lines (നിശ്ചയം സ്വ / ഖ്ർ(റ)); virama not certain at line-break -> held"
+  },
+  {
+   "pdf_page": 75,
+   "note": "idx90 block 11: \"ബഖീഇൽ (Sonnet) vs \"ബഖീഉൽ (Opus); vowel glyph before ൽ ഇ vs ഉ not decidable -> held"
+  }
+ ],
+ "applied": 33
+}

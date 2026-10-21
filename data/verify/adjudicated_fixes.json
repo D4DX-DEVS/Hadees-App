@@ -1,0 +1,572 @@
+[
+ {
+  "item": 81,
+  "id": 920,
+  "ours": "فَإِذَا",
+  "ours_norm": "فاذا",
+  "pos": 44,
+  "new": "وَإِذَا",
+  "reason": "sources agree: wa-idha, parallel clause",
+  "context": "أَدْرَكْتُمُ الْمَبِيتَ، فَإِذَا لَمْ يَذْكُرِ اللَّهَ عِ"
+ },
+ {
+  "item": 662,
+  "id": 15765,
+  "ours": "مُرَّةَ",
+  "ours_norm": "مره",
+  "pos": 19,
+  "new": "قُرَّةَ",
+  "reason": "Companion is Amr ibn Qurra",
+  "context": "مَ، فَجَاءَ عَمْرُو بْنُ مُرَّةَ فَقَالَ: يَا رَسُولَ الل"
+ },
+ {
+  "item": 287,
+  "id": 4396,
+  "ours": "تَعَوَّذُ",
+  "ours_norm": "تعوذ",
+  "pos": 30,
+  "new": "يَتَعَوَّذُ",
+  "reason": "dropped letter; verb form broken",
+  "context": "َ: \"وَادٍ فِي جَهَنَّمَ، تَعَوَّذُ مِنْهُ جَهَنَّمُ كُلَّ ي"
+ },
+ {
+  "item": 195,
+  "id": 3425,
+  "ours": "عَالِمٍ",
+  "ours_norm": "عالم",
+  "pos": 47,
+  "new": "عَابِدٍ",
+  "reason": "hadith says worshipper miser, not scholar",
+  "context": "اللهِ عَزَّ وَجَلَّ مِنْ عَالِمٍ بَخِيلٍ\". (ت)"
+ },
+ {
+  "item": 307,
+  "id": 4528,
+  "ours": "يَضُرُّهُ",
+  "ours_norm": "يضره",
+  "pos": 49,
+  "new": "فَيَضُرُّهُ",
+  "reason": "fa dropped; rhetorical question wording",
+  "context": "لِيمُ، ثَلَاثَ مَرَّاتٍ، يَضُرُّهُ شَيْءٌ\". وَكَانَ أَبَانُ"
+ },
+ {
+  "item": 278,
+  "id": 4302,
+  "ours": "تَصُومَ",
+  "ours_norm": "تصوم",
+  "pos": 109,
+  "new": "نَصُومَ",
+  "reason": "narrators ask 'that we fast'",
+  "context": "لهِ، آللهُ أَمَرَكَ أَنْ تَصُومَ هَذَا الشَّهْرَ مِنَ الس"
+ },
+ {
+  "item": 640,
+  "id": 15561,
+  "ours": "أَعْلَاهَا",
+  "ours_norm": "اعلاها",
+  "pos": 27,
+  "new": "أَغْلَاهَا",
+  "reason": "correct word is aghlaha (most precious)",
+  "context": "ّقَابِ أَفْضَلُ؟ قَالَ: \"أَعْلَاهَا ثَمَنًا وَأَنْفَسُهَا عِ"
+ },
+ {
+  "item": 387,
+  "id": 12584,
+  "ours": "جِئْتُ",
+  "ours_norm": "جيت",
+  "pos": 25,
+  "new": "جَاءَ",
+  "reason": "the Prophet came, not narrator",
+  "context": "ذَهَبَ فَاغْتَسَلَ ثُمَّ جِئْتُ فَقَالَ: \"أَيْنَ كُنْتَ "
+ },
+ {
+  "item": 217,
+  "id": 3659,
+  "ours": "تُوكَأُ",
+  "ours_norm": "توكا",
+  "pos": 16,
+  "new": "يُوكَأُ",
+  "reason": "masculine saqa, yuka'",
+  "context": "هِ وَسَلَّمَ فِي سِقَاءٍ تُوكَأُ فِي أَعْلَاهُ، لَهُ عَزْ"
+ },
+ {
+  "item": 361,
+  "id": 11922,
+  "ours": "الْيَمَنِ",
+  "ours_norm": "اليمن",
+  "pos": 29,
+  "new": "الْغَنَمِ",
+  "reason": "sakina among sheep owners, not Yemen",
+  "context": " السَّكِينَةُ فِي أَهْلِ الْيَمَنِ وَالْفَخْرُ وَالْخُيَلَا"
+ },
+ {
+  "item": 570,
+  "id": 14836,
+  "ours": "فَذَكَرَتْ",
+  "ours_norm": "فذكرت",
+  "pos": 31,
+  "new": "فَذَكَرَ",
+  "reason": "subject is the Prophet, masculine",
+  "context": "هُ عَلَيْهِ وَسَلَّمَ... فَذَكَرَتْ مِثْلَهُ، فَبَكَى الرَّج"
+ },
+ {
+  "item": 1,
+  "id": 16,
+  "ours": "الْجِسْمِ",
+  "ours_norm": "الجسم",
+  "pos": 18,
+  "new": "الْجَسَدِ",
+  "reason": "text says zakat al-jasad",
+  "context": "َيْءٍ زَكَاةٌ، وَزَكَاةُ الْجِسْمِ الصَّوْمُ\". وَفِي رِوَاي"
+ },
+ {
+  "item": 753,
+  "id": 16749,
+  "ours": "مِمَّا",
+  "ours_norm": "مما",
+  "pos": 27,
+  "new": "مِمَّ",
+  "reason": "مم interrogative required; مما is wrong",
+  "context": "َاللهِ إِنِّي لَأَعْرِفُ مِمَّا هُوَ، وَلَقَدْ رَأَيْتُه"
+ },
+ {
+  "item": 208,
+  "id": 3554,
+  "ours": "وَسُوَيْطُ",
+  "ours_norm": "وسويط",
+  "pos": 24,
+  "new": "وَسُوَيْبِطُ",
+  "reason": "name is Suwaybit; letter dropped",
+  "context": "مٍ، وَمَعَهُ نُعَيْمَانُ وَسُوَيْطُ بْنُ حَرْمَلَةَ، وَكَانَ"
+ },
+ {
+  "item": 315,
+  "id": 4585,
+  "ours": "وَنَبِيِّكَ",
+  "ours_norm": "ونبيك",
+  "pos": 50,
+  "new": "وَبِنَبِيِّكَ",
+  "reason": "preposition ب dropped; Tirmidhi has وبنبيك",
+  "context": "بِكَ الَّذِي أَنْزَلْتَ، وَنَبِيِّكَ الَّذِي أَرْسَلْتَ. فَإِ"
+ },
+ {
+  "item": 303,
+  "id": 4495,
+  "ours": "تَسْأَلِينَ",
+  "ours_norm": "تسالين",
+  "pos": 103,
+  "new": "تَسْأَلِي",
+  "reason": "nun should drop after أن",
+  "context": " لَا يَنْبَغِي لَكِ أَنْ تَسْأَلِينَ بِهِ شَيْئًا مِنَ الدُّن"
+ },
+ {
+  "item": 186,
+  "id": 3265,
+  "ours": "أَبُو",
+  "ours_norm": "ابو",
+  "pos": 29,
+  "new": "أَبَا",
+  "reason": "object of علمت needs accusative أبا",
+  "context": "َلُهُمْ – مَا عَلِمْتُ – أَبُو مُحَمَّدٍ. فَقَالَ عَبْد"
+ },
+ {
+  "item": 209,
+  "id": 3554,
+  "ours": "سُوَيْطٌ",
+  "ours_norm": "سويط",
+  "pos": 35,
+  "new": "سُوَيْبِطٌ",
+  "reason": "name is Suwaybit; letter dropped",
+  "context": " عَلَى الزَّادِ، وَكَانَ سُوَيْطٌ رَجُلًا مَزَّاحًا، فَقَا"
+ },
+ {
+  "item": 473,
+  "id": 13254,
+  "ours": "زُرَيْقٍ",
+  "ours_norm": "زريق",
+  "pos": 3,
+  "new": "رُزَيْقٍ",
+  "reason": "Name is Shu'ayb ibn Ruzayq",
+  "context": "عَنْ شُعَيْبِ بْنِ زُرَيْقٍ الطَّائِفِيِّ رَضِيَ الل"
+ },
+ {
+  "item": 241,
+  "id": 3987,
+  "ours": "الصُّورَةِ",
+  "ours_norm": "الصوره",
+  "pos": 67,
+  "new": "الصُّوَرِ",
+  "reason": "Plural pictures; matches 'yu'adhdhabun'",
+  "context": " \"إِنَّ أَصْحَابَ هَذِهِ الصُّورَةِ يُعَذَّبُونَ، وَيُقَالُ "
+ },
+ {
+  "item": 202,
+  "id": 3517,
+  "ours": "أَسَدٍ",
+  "ours_norm": "اسد",
+  "pos": 3,
+  "new": "أَنَسٍ",
+  "reason": "Mu'adh ibn Anas al-Juhani; name misread",
+  "context": "عَنْ مُعَاذِ بْنِ أَسَدٍ الْجُهَنِيِّ رَضِيَ الله"
+ },
+ {
+  "item": 837,
+  "id": 17406,
+  "ours": "تَبَعَةً",
+  "ours_norm": "تبعه",
+  "pos": 39,
+  "new": "تَبَعًا",
+  "reason": "'follower' fits; تَبَعَةً means liability",
+  "context": "ُنْتَ بِأَكْثَرِنَا لَهُ تَبَعَةً وَلَا أَقْدَمِنَا لَهُ ص"
+ },
+ {
+  "item": 350,
+  "id": 11831,
+  "ours": "يَأْتِي",
+  "ours_norm": "ياتي",
+  "pos": 283,
+  "new": "يَأْتَسِي",
+  "reason": "'follows a saying'; yati breaks meaning",
+  "context": "قَبْلَهُ لَقُلْتُ رَجُلٌ يَأْتِي بِقَوْلٍ قِيلَ قَبْلَهُ."
+ },
+ {
+  "item": 793,
+  "id": 16940,
+  "ours": "دَعَوْتُ",
+  "ours_norm": "دعوت",
+  "pos": 30,
+  "new": "لَدَعَوْتُ",
+  "reason": "Missing lam of apodosis after lawla",
+  "context": "َنْ نَدْعُوَ بِالْمَوْتِ دَعَوْتُ بِهِ. (ق,ت,ن)"
+ },
+ {
+  "item": 630,
+  "id": 15418,
+  "ours": "بِكُمْ",
+  "ours_norm": "بكم",
+  "pos": 48,
+  "new": "بِهِمْ",
+  "reason": "Refers to captives, not addressees",
+  "context": "َدْ كُنْتُ اسْتَأْنَيْتُ بِكُمْ\". وَقَدْ كَانَ رَسُولُ ا"
+ },
+ {
+  "item": 770,
+  "id": 16827,
+  "ours": "فَلْيُصَلِّي",
+  "ours_norm": "فليصلي",
+  "pos": 24,
+  "new": "فَلْيُصَلِّ",
+  "reason": "Jussive imperative; extra yaa wrong",
+  "context": "ثَلَاثًا أَمْ أَرْبَعًا، فَلْيُصَلِّي رَكْعَةً وَلْيَسْجُدْ سَ"
+ },
+ {
+  "item": 712,
+  "id": 16365,
+  "ours": "سَيِّءِ",
+  "ours_norm": "سيء",
+  "pos": 22,
+  "new": "سَيِّئِ",
+  "reason": "Correct hamza spelling of sayyi'",
+  "context": "نِ، وَالْجُذَامِ، وَمِنْ سَيِّءِ الْأَسْقَامِ. (د,ن)"
+ },
+ {
+  "item": 546,
+  "id": 14162,
+  "ours": "فَتَوَاطَيْتُ",
+  "ours_norm": "فتواطيت",
+  "pos": 24,
+  "new": "فَتَوَاطَأْتُ",
+  "reason": "our word breaks grammar/spelling; sources agree",
+  "context": "ْدَهَا عَسَلًا، قَالَتْ: فَتَوَاطَيْتُ أَنَا وَحَفْصَةُ رَضِيَ "
+ },
+ {
+  "item": 797,
+  "id": 17018,
+  "ours": "إِمَا",
+  "ours_norm": "اما",
+  "pos": 47,
+  "new": "مَا",
+  "reason": "our word breaks grammar/spelling; sources agree",
+  "context": "مَ فَقَالَ: \"وَيْحَهُنَّ إِمَا انْقَلَبْنَ بَعْدُ؟ مُرُ"
+ },
+ {
+  "item": 507,
+  "id": 13681,
+  "ours": "لَيَتَوَاعَدُونِي",
+  "ours_norm": "ليتواعدوني",
+  "pos": 33,
+  "new": "لَيَتَوَاعَدُونَنِي",
+  "reason": "our word breaks grammar/spelling; sources agree",
+  "context": "نُهُ، فَقَالَ: إِنَّهُمْ لَيَتَوَاعَدُونِي بِالْقَتْلِ آنِفًا، قَال"
+ },
+ {
+  "item": 413,
+  "id": 12759,
+  "ours": "خُطْوَاتُهُ",
+  "ours_norm": "خطواته",
+  "pos": 31,
+  "new": "خَطْوَتَاهُ",
+  "reason": "our word breaks grammar/spelling; sources agree",
+  "context": "فَرَائِضِ اللهِ، كَانَتْ خُطْوَاتُهُ إِحْدَاهُمَا تَحُطُّ خَط"
+ },
+ {
+  "item": 617,
+  "id": 15348,
+  "ours": "الْعَوَرُ",
+  "ours_norm": "العور",
+  "pos": 49,
+  "new": "الْعَارِيَةُ",
+  "reason": "our word breaks grammar/spelling; sources agree",
+  "context": "وَالِنَا\". ثُمَّ قَالَ: \"الْعَوَرُ مُؤَدَّاةٌ، وَالْمِنْحَة"
+ },
+ {
+  "item": 47,
+  "id": 556,
+  "ours": "بِيَدِهِ",
+  "ours_norm": "بيده",
+  "pos": 109,
+  "new": "بِيَدَيْهِ",
+  "reason": "our word breaks grammar/spelling; sources agree",
+  "context": "، ثُمَّ حَرَّكَ رَأْسَهُ بِيَدِهِ، فَأَقْبَلَ بِهِمَا وَأَ"
+ },
+ {
+  "item": 525,
+  "id": 13869,
+  "ours": "أَخُ",
+  "ours_norm": "اخ",
+  "pos": 24,
+  "new": "أَخُو",
+  "reason": "our word breaks grammar/spelling; sources agree",
+  "context": "َّمَ قَالَ: \"الْمُؤْمِنُ أَخُ الْمُؤْمِنِ، فَلَا يَحِل"
+ },
+ {
+  "item": 16,
+  "id": 126,
+  "ours": "لِإِنِّي",
+  "ours_norm": "لاني",
+  "pos": 82,
+  "new": "إِنِّي",
+  "reason": "extra lam; source reads إني",
+  "context": "ْ يَوْمَيْنِ\". فَقُلْتُ: لِإِنِّي أُطِيقُ أَفْضَلَ مِنْ ذَ"
+ },
+ {
+  "item": 210,
+  "id": 3554,
+  "ours": "سُوَيْطٌ",
+  "ours_norm": "سويط",
+  "pos": 53,
+  "new": "سُوَيْبِطٌ",
+  "reason": "name Suwaybit, dropped letter",
+  "context": "بِقَوْمٍ، فَقَالَ لَهُمْ سُوَيْطٌ: تَشْتَرُونَ مِنِّي عَبْ"
+ },
+ {
+  "item": 274,
+  "id": 4277,
+  "ours": "فَلْيَحْمِلْهُ",
+  "ours_norm": "فليحمله",
+  "pos": 23,
+  "new": "فَلْيَمْحُهُ",
+  "reason": "wrong word; 'let him erase it'",
+  "context": "عَنِّي غَيْرَ الْقُرْآنِ فَلْيَحْمِلْهُ، وَحَدِّثُوا عَنِّي وَ ل"
+ },
+ {
+  "item": 558,
+  "id": 14260,
+  "ours": "لِتَلْعَنَ",
+  "ours_norm": "لتلعن",
+  "pos": 135,
+  "new": "لِتَلْتَعِنَ",
+  "reason": "our word wrong in context; source word correct",
+  "context": "بِينَ. قَالَ: فَذَهَبَتْ لِتَلْعَنَ، فَقَالَ لَهَا النَّبِيُ"
+ },
+ {
+  "item": 602,
+  "id": 15162,
+  "ours": "أَنْ",
+  "ours_norm": "ان",
+  "pos": 13,
+  "new": "عَنْ",
+  "reason": "our word wrong in context; source word correct",
+  "context": "عَلَيْهِ وَسَلَّمَ نَهَى أَنْ تَلَقِّي الْجَلَبِ، فَإِ"
+ },
+ {
+  "item": 298,
+  "id": 4462,
+  "ours": "عُمَرَ",
+  "ours_norm": "عمر",
+  "pos": 43,
+  "new": "عَمْرٍو",
+  "reason": "our word wrong in context; source word correct",
+  "context": "َانَ عَبْدُ اللَّهِ بْنُ عُمَرَ يُلَقِّنُهَا مَنْ بَلَغَ"
+ },
+ {
+  "item": 500,
+  "id": 13412,
+  "ours": "مَنَاكِبًا",
+  "ours_norm": "مناكبا",
+  "pos": 16,
+  "new": "مَنَاكِبَ",
+  "reason": "diptote; no tanwin",
+  "context": "خِيَارُكُمْ أَلْيَنُكُمْ مَنَاكِبًا فِي الصَّلَاةِ\". (د)"
+ },
+ {
+  "item": 363,
+  "id": 11978,
+  "ours": "شَغَفَ",
+  "ours_norm": "شغف",
+  "pos": 25,
+  "new": "شَعَفَ",
+  "reason": "شعف الجبال is correct; شغف is a misreading",
+  "context": "مِ غَنَمٌ يَتْبَعُ بِهَا شَغَفَ الْجِبَالِ وَمَوَاقِعَ ا"
+ },
+ {
+  "item": 401,
+  "id": 12702,
+  "ours": "فَآبَ",
+  "ours_norm": "فاب",
+  "pos": 147,
+  "new": "فَثَابَ",
+  "reason": "Bukhari reads فثاب (gathered)",
+  "context": "َنَعْنَاهَا لَهُ، قَالَ: فَآبَ فِي الْبَيْتِ رِجَالٌ مِ"
+ },
+ {
+  "item": 751,
+  "id": 16737,
+  "ours": "فِي",
+  "ours_norm": "في",
+  "pos": 23,
+  "new": "وَفِي",
+  "reason": "circumstantial clause وفي حجرتي جارية",
+  "context": "َلَيْهِ وَسَلَّمَ دَخَلَ فِي حُجْرَتِي جَارِيَةً، فَأ"
+ },
+ {
+  "item": 198,
+  "id": 3456,
+  "ours": "يَجْعَلَهَا",
+  "ours_norm": "يجعلها",
+  "pos": 164,
+  "new": "تَجْعَلَهَا",
+  "reason": "addressing God, second person",
+  "context": "سَ لَهَا بِأَهْلٍ – أَنْ يَجْعَلَهَا لَهُ طَهُورًا وَزَكَاةً،"
+ },
+ {
+  "item": 651,
+  "id": 15689,
+  "ours": "الْخَيرِ",
+  "ours_norm": "الخير",
+  "pos": 52,
+  "new": "الْخَبَرِ",
+  "reason": "نحو هذا الخبر; الخير is a typo",
+  "context": "ِ وَسَلَّمَ نَحْوَ هَذَا الْخَيرِ، قَالَ: سَرَقَتْ قَطِيفَ"
+ },
+ {
+  "item": 257,
+  "id": 4217,
+  "ours": "دَارَانِ",
+  "ours_norm": "داران",
+  "pos": 25,
+  "new": "سُورَانِ",
+  "reason": "two walls beside the path, not houses",
+  "context": "َلَى كَنَفَيِ الصِّرَاطِ دَارَانِ لَهُمَا أَبْوَابٌ مُفَتَ"
+ },
+ {
+  "item": 459,
+  "id": 13147,
+  "ours": "سَلَّمَ",
+  "ours_norm": "سلم",
+  "pos": 29,
+  "new": "وَسَلَّمَ",
+  "reason": "dropped waw in salutation",
+  "context": " صَلَّى اللَّهُ عَلَيْهِ سَلَّمَ إِنْسَانٌ مِنْهُمْ وَهُو"
+ },
+ {
+  "item": 263,
+  "id": 4221,
+  "ours": "وَتَعَدَّوْا",
+  "ours_norm": "وتعدوا",
+  "pos": 74,
+  "new": "وَقَعَدُوا",
+  "reason": "typo/wrong ending; sources agree",
+  "context": " فَامْتَلَأَ الْمَسْجِدُ وَتَعَدَّوْا عَلَى الشُّرَفِ، فَقَالَ"
+ },
+ {
+  "item": 461,
+  "id": 13166,
+  "ours": "لَيُسَمِّهَا",
+  "ours_norm": "ليسمها",
+  "pos": 64,
+  "new": "لَيُسَمِّيهَا",
+  "reason": "typo/wrong ending; sources agree",
+  "context": "لَ أَبُو حَازِمٍ إِنَّهُ لَيُسَمِّهَا يَوْمَئِذٍ -: \"انْظُرِي "
+ },
+ {
+  "item": 694,
+  "id": 16146,
+  "ours": "اسْتَثْبَتُّ",
+  "ours_norm": "استثبت",
+  "pos": 49,
+  "new": "اسْتَبَنْتُ",
+  "reason": "typo/wrong ending; sources agree",
+  "context": "ْظُرَ إِلَيْهِ، فَلَمَّا اسْتَثْبَتُّ وَجْهَ رَسُولِ اللَّهِ ص"
+ },
+ {
+  "item": 32,
+  "id": 346,
+  "ours": "وَعِشْرُونَ",
+  "ours_norm": "وعشرون",
+  "pos": 106,
+  "new": "وَعِشْرِينَ",
+  "reason": "typo/wrong ending; sources agree",
+  "context": "َّتِي تَلِيهَا ثِنْتَانِ وَعِشْرُونَ، فَهِيَ التَّاسِعَةُ. فَ"
+ },
+ {
+  "item": 201,
+  "id": 3482,
+  "ours": "ذُو",
+  "ours_norm": "ذو",
+  "pos": 22,
+  "new": "ذَا",
+  "reason": "typo/wrong ending; sources agree",
+  "context": "للهِ يَوْمَ الْقِيَامَةِ ذُو الْوَجْهَيْنِ\". حَسَنٌ ص"
+ },
+ {
+  "item": 851,
+  "id": 17630,
+  "ours": "أَلَ",
+  "ours_norm": "ال",
+  "pos": 13,
+  "new": "أَلَا",
+  "reason": "typo/wrong ending; sources agree",
+  "context": "يَ اللهُ عَنْهُ فَقَالَ: أَلَ أُهْدِي لَكَ هَدِيَّةً؟ "
+ },
+ {
+  "item": 427,
+  "id": 12863,
+  "ours": "يَقْظَانَ",
+  "ours_norm": "يقظان",
+  "pos": 109,
+  "new": "يَقْظَانًا",
+  "reason": "typo/wrong ending; sources agree",
+  "context": " لَقُلْتُ: إِنِّي كُنْتُ يَقْظَانَ غَيْرَ نَائِمٍ، فَقَالَ "
+ },
+ {
+  "item": 655,
+  "id": 15712,
+  "ours": "عِمْرَانُ",
+  "ours_norm": "عمران",
+  "pos": 25,
+  "new": "حُمْرَانُ",
+  "reason": "typo/wrong ending; sources agree",
+  "context": " رَجُلَانِ - أَحَدُهُمَا عِمْرَانُ - أَنَّهُ شَرِبَ الْخَمْ"
+ },
+ {
+  "item": 453,
+  "id": 13097,
+  "ours": "وَهُوَقَائِمٌ",
+  "ours_norm": "وهوقايم",
+  "pos": 21,
+  "new": "وَهُوَ قَائِمٌ",
+  "reason": "missing space between words",
+  "context": "َا يُوَافِقُهَا مُسْلِمٌ وَهُوَقَائِمٌ يُصَلِّي، يَسْأَلُ اللَّ"
+ }
+]

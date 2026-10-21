@@ -1,0 +1,97 @@
+{
+ "part": "2.10",
+ "pages_checked": [
+  17,
+  18,
+  33,
+  36,
+  41,
+  42,
+  46
+ ],
+ "corrections": [
+  {
+   "pdf_page": 18,
+   "block": 0,
+   "old": "ബക്രിന്റെ",
+   "new": "ബക്റിന്റെ",
+   "why": "print uses റ (ബക്റിന്റെ)"
+  },
+  {
+   "pdf_page": 33,
+   "block": 4,
+   "old": "مَنْ سَنَّ الْقَتْلَ",
+   "new": "مَنْ أَسَنَّ الْقَتْلَ",
+   "why": "print has alef (أَسَنَّ)"
+  },
+  {
+   "pdf_page": 36,
+   "block": 5,
+   "old": "\"مَثَلُ ",
+   "new": "\"قال مَثَلُ ",
+   "why": "print has قال after opening quote"
+  },
+  {
+   "pdf_page": 41,
+   "block": 7,
+   "old": "തിന്മയുടെ താഴവും",
+   "new": "തിന്മയുടെ താഴും",
+   "why": "print താഴും"
+  },
+  {
+   "pdf_page": 41,
+   "block": 7,
+   "old": "നന്മയുടെ താഴവും",
+   "new": "നന്മയുടെ താഴും",
+   "why": "print താഴും"
+  },
+  {
+   "pdf_page": 42,
+   "block": 11,
+   "old": "ബഖീഇൽ",
+   "new": "ബഖീഉൽ",
+   "why": "print ബഖീഉൽ"
+  },
+  {
+   "pdf_page": 46,
+   "block": 4,
+   "old": "ഇൻഖിത്വാഉണ്ട്",
+   "new": "ഇൻഖിതാഉണ്ട്",
+   "why": "print ഇൻഖിതാഉണ്ട്"
+  }
+ ],
+ "resolved": [
+  {
+   "pdf_page": 17,
+   "hadith_no": 63
+  },
+  {
+   "pdf_page": 33,
+   "hadith_no": 108
+  },
+  {
+   "pdf_page": 36,
+   "hadith_no": 120
+  },
+  {
+   "pdf_page": 41,
+   "hadith_no": 139
+  },
+  {
+   "pdf_page": 42,
+   "hadith_no": 146
+  },
+  {
+   "pdf_page": 46,
+   "hadith_no": 162
+  },
+  {
+   "pdf_page": 33,
+   "hadith_no": null
+  },
+  {
+   "pdf_page": 18,
+   "hadith_no": null
+  }
+ ]
+}

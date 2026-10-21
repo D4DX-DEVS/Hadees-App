@@ -1,0 +1,27 @@
+{
+ "part": "1.3",
+ "pages_checked": [
+  3,
+  4,
+  7,
+  8,
+  9,
+  10,
+  11
+ ],
+ "corrections": [
+  {
+   "pdf_page": 7,
+   "block": 1,
+   "old": "അബുസഇൗദ്(റ):",
+   "new": "അബൂസഇൗദ്(റ):",
+   "why": "print has ൂ"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 4,
+   "note": "block 0 'വുളുഉം' (നിസ്കാരത്തിന്നുള്ള വുളുഉം): scan blurry in boxed area; cannot tell ു/ൂ on ള (possibly വുളൂഉം)"
+  }
+ ]
+}

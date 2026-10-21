@@ -1,0 +1,352 @@
+[
+ {
+  "item": 769,
+  "id": 16827,
+  "ours": "أَمْ",
+  "ours_norm": "ام",
+  "pos": 22,
+  "new": "أَوْ",
+  "reason": "strict reading: collections agree أو; أم changes particle",
+  "context": " كَمْ صَلَّى: أَثَلَاثًا أَمْ أَرْبَعًا، فَلْيُصَلِّي "
+ },
+ {
+  "item": 399,
+  "id": 12688,
+  "ours": "حَصًى",
+  "ours_norm": "حصي",
+  "pos": 59,
+  "new": "حَصْبَاءَ",
+  "reason": "strict reading: collections agree حصباء",
+  "context": "لَ: فَأَخَذَ كَفًّا مِنْ حَصًى فَضَرَبَ بِهِ الْأَرْضَ "
+ },
+ {
+  "item": 256,
+  "id": 4184,
+  "ours": "حُرَيْثِيَّةٌ",
+  "ours_norm": "حريثيه",
+  "pos": 38,
+  "new": "جَوْنِيَّةٌ",
+  "reason": "strict reading: different garment description; collections agree جونية",
+  "context": "طِ، وَعَلَيْهِ خَمِيصَةٌ حُرَيْثِيَّةٌ، وَهُوَ يَسِمُ الظَّهْرَ"
+ },
+ {
+  "item": 183,
+  "id": 3191,
+  "ours": "طَلَبَتْهُ",
+  "ours_norm": "طلبته",
+  "pos": 44,
+  "new": "دَعَتْهُ",
+  "reason": "strict reading: collections agree دعته",
+  "context": "َّقَا عَلَيْهِ، وَرَجُلٌ طَلَبَتْهُ امْرَأَةٌ ذَاتُ مَنْصِبٍ"
+ },
+ {
+  "item": 281,
+  "id": 4313,
+  "ours": "الصَّلَاةَ",
+  "ours_norm": "الصلاه",
+  "pos": 21,
+  "new": "الْعَصْرَ",
+  "reason": "strict reading: collections name the specific prayer العصر",
+  "context": "كَنَا وَقَدْ أَرْهَقْنَا الصَّلَاةَ فَجَعَلْنَا نَتَوَضَّأُ "
+ },
+ {
+  "item": 180,
+  "id": 3102,
+  "ours": "الرِّدَاءِ",
+  "ours_norm": "الرداء",
+  "pos": 41,
+  "new": "الْبُرْدِ",
+  "reason": "strict reading: collections agree البرد",
+  "context": "َثَّرَتْ بِهَا حَاشِيَةُ الرِّدَاءِ مِنْ شِدَّةِ جَبْذَتِهِ،"
+ },
+ {
+  "item": 828,
+  "id": 17308,
+  "ours": "شَرًّا",
+  "ours_norm": "شرا",
+  "pos": 57,
+  "new": "شَرٌّ",
+  "reason": "strict reading: collections agree nominative; naib fa il",
+  "context": "َةٍ فَأُثْنِيَ عَلَيْهَا شَرًّا، فَقُلْتَ: \"وَجَبَتْ وَج"
+ },
+ {
+  "item": 822,
+  "id": 17275,
+  "ours": "لَابِي",
+  "ours_norm": "لابي",
+  "pos": 127,
+  "new": "لَا",
+  "reason": "strict reading: negation: لا شيء vs لأي شيء",
+  "context": "ِيَةً\". قَالَتْ: قُلْتُ: لَابِي شَيْءٍ، قَالَ: \"لَتُخْبِ"
+ },
+ {
+  "item": 583,
+  "id": 14984,
+  "ours": "الْجَهْلُ",
+  "ours_norm": "الجهل",
+  "pos": 26,
+  "new": "الْعِلْمُ",
+  "reason": "strict reading: knowledge appears, not ignorance",
+  "context": "التِّجَارَةُ، وَيَظْهَرَ الْجَهْلُ، وَيَبِيعَ الرَّجُلُ الْ"
+ },
+ {
+  "item": 648,
+  "id": 15653,
+  "ours": "مِنْ",
+  "ours_norm": "من",
+  "pos": 143,
+  "new": "مَعَ",
+  "reason": "strict reading: preposition changes meaning",
+  "context": "الَ: زَنَى ذُو قَرَابَةٍ مِنْ مَلِكٍ مِنْ مُلُوكِنَا ف"
+ },
+ {
+  "item": 672,
+  "id": 15853,
+  "ours": "وَسُئِلَتْ",
+  "ours_norm": "وسيلت",
+  "pos": 24,
+  "new": "قُلْتُ",
+  "reason": "strict reading: passive asked vs narrator said",
+  "context": "ْ يَجِيءَ مِنْ مَغِيبِه. وَسُئِلَتْ: هَلْ كَانَ رَسُولُ الله"
+ },
+ {
+  "item": 763,
+  "id": 16816,
+  "ours": "كَمْ",
+  "ours_norm": "كم",
+  "pos": 28,
+  "new": "كَيْفَ",
+  "reason": "strict reading: كم vs كيف",
+  "context": "أَحَدُكُمْ فَلَمْ يَدْرِ كَمْ صَلَّى، فَلْيَسْجُدْ سَج"
+ },
+ {
+  "item": 294,
+  "id": 4441,
+  "ours": "أَقُولُهُنَّ",
+  "ours_norm": "اقولهن",
+  "pos": 25,
+  "new": "تَقُولِينَهُنَّ",
+  "reason": "strict reading: person: I say vs you (f) say",
+  "context": "يْهِ وَسَلَّمَ كَلِمَاتٍ أَقُولُهُنَّ عِنْدَ الْكَرْبِ: \"اللَّ"
+ },
+ {
+  "item": 740,
+  "id": 16594,
+  "ours": "فَقِيلَ",
+  "ours_norm": "فقيل",
+  "pos": 27,
+  "new": "فَقُلْنَا",
+  "reason": "strict reading: passive vs we said",
+  "context": "ْنَا إِلَى الْمَدِينَةِ. فَقِيلَ: هَلْ أَقَمْتُمْ بِهَا ش"
+ },
+ {
+  "item": 147,
+  "id": 2745,
+  "ours": "مَا",
+  "ours_norm": "ما",
+  "pos": 25,
+  "new": "مِمَّا",
+  "reason": "strict reading: preposition function differs",
+  "context": "ّا مِنْ زَوْجَتِكَ، أَوْ مَا مَلَكَتْ يَمِينُكَ\". فَق"
+ },
+ {
+  "item": 13,
+  "id": 75,
+  "ours": "فَقِيلَ",
+  "ours_norm": "فقيل",
+  "pos": 22,
+  "new": "فَقُلْنَا",
+  "reason": "strict reading: passive vs we said",
+  "context": "ا فِي صَلَاةِ الصُّبْحِ. فَقِيلَ لِأَنَسٍ: كَمْ كَانَ بَي"
+ },
+ {
+  "item": 113,
+  "id": 2431,
+  "ours": "بِمُقْبِلٍ",
+  "ours_norm": "بمقبل",
+  "pos": 19,
+  "new": "بِيَعْلَى",
+  "reason": "strict reading: different name; editions agree on Ya'la",
+  "context": "هَى [عَنْ] أَنْ يُسَمَّى بِمُقْبِلٍ وَبِبَرَكَةَ وَبِأَفْلَح"
+ },
+ {
+  "item": 541,
+  "id": 14137,
+  "ours": "أُمِّ",
+  "ours_norm": "ام",
+  "pos": 3,
+  "new": "أَبِي",
+  "reason": "strict reading: Zaynab bint Abi Salama in editions",
+  "context": "عَنْ زَيْنَبَ بِنْتِ أُمِّ سَلَمَةَ رَضِيَ اللَّهُ "
+ },
+ {
+  "item": 762,
+  "id": 16816,
+  "ours": "كَمْ",
+  "ours_norm": "كم",
+  "pos": 13,
+  "new": "كَيْفَ",
+  "reason": "strict reading: كم vs كيف changes sense",
+  "context": "ا يُصَلِّي فَلَا يَدْرِي كَمْ صَلَّى، فَقَالَ: قَالَ ر"
+ },
+ {
+  "item": 58,
+  "id": 624,
+  "ours": "وَعِصِيِّنَا",
+  "ours_norm": "وعصينا",
+  "pos": 26,
+  "new": "وَنِعَالِنَا",
+  "reason": "strict reading: sandals vs sticks; collections agree",
+  "context": " نَضْرِبُهُ بِسِيَاطِنَا وَعِصِيِّنَا، فَقَالَ النَّبِيُّ صَلَ"
+ },
+ {
+  "item": 285,
+  "id": 4340,
+  "ours": "مِنَ",
+  "ours_norm": "من",
+  "pos": 244,
+  "new": "فِي",
+  "reason": "strict reading: pecked in the sea, not from it",
+  "context": "قْرَةً أَوْ نَقْرَتَيْنِ مِنَ الْبَحْرِ فَقَالَ الْخَض"
+ },
+ {
+  "item": 431,
+  "id": 12922,
+  "ours": "هُوَ",
+  "ours_norm": "هو",
+  "pos": 35,
+  "new": "قَدْ",
+  "reason": "strict reading: collections: قد أذن, not emphatic هو",
+  "context": "ّمَ \"إِنَّ أَخَا صُدَاءٍ هُوَ أَذَّنَ، وَمَنْ أَذَّنَ "
+ },
+ {
+  "item": 213,
+  "id": 3590,
+  "ours": "قِيلَ",
+  "ours_norm": "قيل",
+  "pos": 36,
+  "new": "فَقُلْتُ",
+  "reason": "strict reading: narrator asked Anas, not passive",
+  "context": "ْفَأْهَا. فَكَفَأْتُهَا. قِيلَ لِأَنَسٍ: مَا هُوَ؟ قَال"
+ },
+ {
+  "item": 85,
+  "id": 989,
+  "ours": "مَا",
+  "ours_norm": "ما",
+  "pos": 96,
+  "new": "بِمَا",
+  "reason": "strict reading: missing ب; object clause unparsable",
+  "context": "لَّهُ عَلَيْهِ وَسَلَّمَ مَا قَدَّمْتُنَّ لَهُ، قُلْن"
+ },
+ {
+  "item": 789,
+  "id": 16927,
+  "ours": "لَهُ",
+  "ours_norm": "له",
+  "pos": 86,
+  "new": "لَهُمَا",
+  "reason": "strict reading: dual (both) vs singular",
+  "context": "الْأَنْصَارِ: فَرَأَيْتُ لَهُ تِسْعَةَ أَوْلَادٍ كُلُّ"
+ },
+ {
+  "item": 714,
+  "id": 16386,
+  "ours": "فِي",
+  "ours_norm": "في",
+  "pos": 54,
+  "new": "مِنْ",
+  "reason": "strict reading: مِنْ وَجْهٍ per collections",
+  "context": "، فَمَا يَأْتِيهِ أَحَدٌ فِي وَجْهٍ مِنَ الْوُجُوهِ إ"
+ },
+ {
+  "item": 222,
+  "id": 3736,
+  "ours": "عَنْ",
+  "ours_norm": "عن",
+  "pos": 12,
+  "new": "أَنَّ",
+  "reason": "strict reading: أَنَّ introduces report, not عن",
+  "context": "لهُ عَلَيْهِ وَسَلَّمَ ، عَنْ رَسُولِ اللهِ صَلَّى الل"
+ },
+ {
+  "item": 381,
+  "id": 12226,
+  "ours": "رَجُلًا",
+  "ours_norm": "رجلا",
+  "pos": 28,
+  "new": "الرَّجُلَ",
+  "reason": "strict reading: definite man vs indefinite; collections say \"the man\"",
+  "context": "َيْهِ وَسَلَّمَ يُنَاجِي رَجُلًا – فَمَا قَامَ إِلَى الصَ"
+ },
+ {
+  "item": 607,
+  "id": 15245,
+  "ours": "لِي",
+  "ours_norm": "لي",
+  "pos": 138,
+  "new": "لَهُ",
+  "reason": "strict reading: pronoun person: for me vs for him",
+  "context": "َرَ بِلَالًا أَنْ يَزِنَ لِي أُوقِيَّةً، فَوَزَنَ لِي"
+ },
+ {
+  "item": 677,
+  "id": 15931,
+  "ours": "سُئِلَتْ",
+  "ours_norm": "سيلت",
+  "pos": 6,
+  "new": "سَأَلْتُهَا",
+  "reason": "strict reading: passive vs narrator first person",
+  "context": "يَ اللهُ عَنْهَا: وَقَدْ سُئِلَتْ عَنْ صَلَاةِ رَسُولِ الل"
+ },
+ {
+  "item": 707,
+  "id": 16330,
+  "ours": "قِيلَ",
+  "ours_norm": "قيل",
+  "pos": 24,
+  "new": "قُلْنَا",
+  "reason": "strict reading: passive 'it was said' vs 'we said'",
+  "context": "َمَمْتُ بِأَمْرِ سَوْءٍ، قِيلَ: مَا هَمَمْتَ؟ قَالَ: هَ"
+ },
+ {
+  "item": 88,
+  "id": 1032,
+  "ours": "وَأَنْ",
+  "ours_norm": "وان",
+  "pos": 21,
+  "new": "أَوْ",
+  "reason": "strict reading: ours adds 'and', changes disjunctive prohibition",
+  "context": "أَنْ يُرْكَبَ عَلَيْهَا، وَأَنْ يُشْرَبَ مِنْ أَلْبَانِه"
+ },
+ {
+  "item": 858,
+  "id": 17700,
+  "ours": "الرَّاوِي",
+  "ours_norm": "الراوي",
+  "pos": 30,
+  "new": "يُونُسُ",
+  "reason": "strict reading: named narrator Yunus vs generic",
+  "context": "َى رَحِمَكَ اللهُ، قَالَ الرَّاوِي: وَأَحْسَبُهُ ذَكَرَهُ ع"
+ },
+ {
+  "item": 223,
+  "id": 3778,
+  "ours": "جَلْوَتِي",
+  "ours_norm": "جلوتي",
+  "pos": 56,
+  "new": "حَيَاتِي",
+  "reason": "strict reading: different word: life vs public appearance",
+  "context": "ي وَأَتَجَمَّلُ بِهِ فِي جَلْوَتِي. ثُمَّ عَمَدَ إِلَى الثَ"
+ },
+ {
+  "item": 838,
+  "id": 17416,
+  "ours": "اسْتَقْبَلَ",
+  "ours_norm": "استقبل",
+  "pos": 19,
+  "new": "اعْتَدَلَ",
+  "reason": "strict reading: stood straight vs faced qibla",
+  "context": "ا قَامَ إِلَى الصَّلَاةِ اسْتَقْبَلَ الْقِبْلَةَ، وَرَفَعَ يَ"
+ }
+]

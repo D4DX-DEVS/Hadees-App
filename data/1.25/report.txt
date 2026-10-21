@@ -1,0 +1,5 @@
+renumbered in page order: 1-229
+#25: variants arabic=2 malayalam=1 (check pairing)
+#39: variants arabic=0 malayalam=1 (check pairing)
+#79: variants arabic=1 malayalam=0 (check pairing)
+#118: variants arabic=0 malayalam=1 (check pairing)

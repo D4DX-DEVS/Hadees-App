@@ -1,0 +1,652 @@
+{
+ "part": "1.10",
+ "pages_checked": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  17,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28
+ ],
+ "corrections": [
+  {
+   "pdf_page": 2,
+   "block": 1,
+   "old": "വിളിച്ച് ളുഹർ നിസ്കരിച്ചു",
+   "new": "വിളിച്ച് ളുഹ്ർ നിസ്കരിച്ചു",
+   "why": "print reading (item 1)"
+  },
+  {
+   "pdf_page": 2,
+   "block": 1,
+   "old": "കുറഞ്ഞപ്പോൾ ളുഹർ നിസ്കാരത്തിന്",
+   "new": "കുറഞ്ഞപ്പോൾ ളുഹ്ർ നിസ്കാരത്തിന്",
+   "why": "print reading (item 2)"
+  },
+  {
+   "pdf_page": 2,
+   "block": 3,
+   "old": "നിസ്കരിച്ചു.\" വിരലിൽ",
+   "new": "നിസ്കരിച്ചു. വീണ്ടും അദ്ദേഹത്തോടൊപ്പം നിസ്കരിച്ചു.\" വിരലിൽ",
+   "why": "print repeats 'വീണ്ടും അദ്ദേഹത്തോടൊപ്പം നിസ്കരിച്ചു' four times"
+  },
+  {
+   "pdf_page": 2,
+   "block": 3,
+   "old": "നബി(സ) ളുഹർ നിസ്കരിക്കുന്നത്",
+   "new": "നബി(സ) ളുഹ്ർ നിസ്കരിക്കുന്നത്",
+   "why": "print reading (item 4)"
+  },
+  {
+   "pdf_page": 2,
+   "block": 3,
+   "old": "കഠിനമാകുമ്പോൾ ളുഹർ പിന്തിക്കാറുണ്ട്",
+   "new": "കഠിനമാകുമ്പോൾ ളുഹ്ർ പിന്തിക്കാറുണ്ട്",
+   "why": "print reading (item 5)"
+  },
+  {
+   "pdf_page": 3,
+   "block": 3,
+   "old": "رَسُولَ اللهم صَلَّى اللهُ عَلَيْهِ",
+   "new": "رَسُولَ اللهِ صَلَّى اللهم عَلَيْهِ",
+   "why": "print: رسول الله صلى اللهم عليه (printed typo kept)"
+  },
+  {
+   "pdf_page": 5,
+   "block": 8,
+   "old": "നിസ്കാരം നിർവഹിക്കുക. കാരണം",
+   "new": "നിസ്കാരം നിർവ്വഹിക്കുക. കാരണം",
+   "why": "print reading (item 13)"
+  },
+  {
+   "pdf_page": 6,
+   "block": 10,
+   "old": "ആര് നിർവ്വഹിക്കുന്നുവോ",
+   "new": "ആർ നിർവ്വഹിക്കുന്നുവോ",
+   "why": "print reading (item 15)"
+  },
+  {
+   "pdf_page": 7,
+   "block": 1,
+   "old": "നിങ്ങൾ ളുഹർ എന്നു",
+   "new": "നിങ്ങൾ ളുഹ്ർ എന്നു",
+   "why": "print reading (item 16)"
+  },
+  {
+   "pdf_page": 7,
+   "block": 1,
+   "old": "ആകാശമധ്യേ",
+   "new": "ആകാശമദ്ധ്യേ",
+   "why": "print reading (item 17)"
+  },
+  {
+   "pdf_page": 7,
+   "block": 5,
+   "old": "ദൂതനേക്കാൾ ളുഹർ",
+   "new": "ദൂതനേക്കാൾ ളുഹ്ർ",
+   "why": "print reading (item 18)"
+  },
+  {
+   "pdf_page": 7,
+   "block": 7,
+   "old": "സൂര്യൻ മധ്യത്തിൽ നിന്നും",
+   "new": "സൂര്യൻ മദ്ധ്യത്തിൽ നിന്നും",
+   "why": "print reading (item 19)"
+  },
+  {
+   "pdf_page": 7,
+   "block": 7,
+   "old": "നബി(സ) ളുഹർ നിസ്കരിച്ചു.",
+   "new": "നബി(സ) ളുഹ്ർ നിസ്കരിച്ചു.",
+   "why": "print reading (item 20)"
+  },
+  {
+   "pdf_page": 7,
+   "block": 9,
+   "old": "അവിടെവെച്ച് ളുഹർ",
+   "new": "അവിടെവെച്ച് ളുഹ്ർ",
+   "why": "print reading (item 21)"
+  },
+  {
+   "pdf_page": 7,
+   "block": 13,
+   "old": "ശേഷം ളുഹർ നിസ്കരിക്കുക",
+   "new": "ശേഷം ളുഹ്ർ നിസ്കരിക്കുക",
+   "why": "print reading (item 22)"
+  },
+  {
+   "pdf_page": 8,
+   "block": 2,
+   "old": "നബി(സ)യുടെ ളുഹർ നിസ്കാര",
+   "new": "നബി(സ)യുടെ ളുഹ്ർ നിസ്കാര",
+   "why": "print reading (item 23)"
+  },
+  {
+   "pdf_page": 8,
+   "block": 6,
+   "old": "(ളുഹർ, അസ്ർ)",
+   "new": "(ളുഹ്ർ, അസ്ർ)",
+   "why": "print reading (item 24)"
+  },
+  {
+   "pdf_page": 8,
+   "block": 8,
+   "old": "ളുഹർ രണ്ട് റക്അത്ത്",
+   "new": "ളുഹ്ർ രണ്ട് റക്അത്ത്",
+   "why": "print reading (item 25)"
+  },
+  {
+   "pdf_page": 8,
+   "block": 10,
+   "old": "ളുഹർ നാല് റക്അത്ത്",
+   "new": "ളുഹ്ർ നാല് റക്അത്ത്",
+   "why": "print reading (item 26)"
+  },
+  {
+   "pdf_page": 9,
+   "block": 9,
+   "old": "الْمُنَافِقِينَ، يَجْلِسُ",
+   "new": "الْمُنَافِقِينَ، تِلْكَ صَلَاةُ الْمُنَافِقِينَ، يَجْلِسُ",
+   "why": "print repeats 'تلك صلاة المنافقين' three times"
+  },
+  {
+   "pdf_page": 9,
+   "block": 6,
+   "old": "മധ്യനിസ്കാരവും\" എന്ന ആയത്ത്",
+   "new": "മദ്ധ്യനിസ്കാരവും\" എന്ന ആയത്ത്",
+   "why": "print reading (item 28)"
+  },
+  {
+   "pdf_page": 9,
+   "block": 8,
+   "old": "നബി(സ) ളുഹർ നിസ്കരിച്ചിരുന്നത്",
+   "new": "നബി(സ) ളുഹ്ർ നിസ്കരിച്ചിരുന്നത്",
+   "why": "print reading (item 29)"
+  },
+  {
+   "pdf_page": 9,
+   "block": 8,
+   "old": "പ്രത്യേകിച്ചും മധ്യനിസ്കാരം",
+   "new": "പ്രത്യേകിച്ചും മദ്ധ്യനിസ്കാരം",
+   "why": "print reading (item 30)"
+  },
+  {
+   "pdf_page": 10,
+   "block": 0,
+   "old": "സ്മരിക്കുന്നുള്ളു",
+   "new": "സ്മരിക്കുന്നുള്ളൂ",
+   "why": "print reading (item 32)"
+  },
+  {
+   "pdf_page": 10,
+   "block": 8,
+   "old": "ആര് അതിനെ",
+   "new": "ആർ അതിനെ",
+   "why": "print reading (item 33)"
+  },
+  {
+   "pdf_page": 11,
+   "block": 3,
+   "old": "\"മധ്യനിസ്കാരം",
+   "new": "\"മദ്ധ്യനിസ്കാരം",
+   "why": "print reading (item 34)"
+  },
+  {
+   "pdf_page": 11,
+   "block": 5,
+   "old": "നബി(സ) ളുഹർ നിസ്കരിക്കാൻ",
+   "new": "നബി(സ) ളുഹ്ർ നിസ്കരിക്കാൻ",
+   "why": "print reading (item 35)"
+  },
+  {
+   "pdf_page": 11,
+   "block": 7,
+   "old": "ആകാശ മധ്യത്തിൽനിന്ന്",
+   "new": "ആകാശ മദ്ധ്യത്തിൽനിന്ന്",
+   "why": "print reading (item 36)"
+  },
+  {
+   "pdf_page": 11,
+   "block": 7,
+   "old": "ചാഞ്ഞപ്പോൾ ളുഹർ",
+   "new": "ചാഞ്ഞപ്പോൾ ളുഹ്ർ",
+   "why": "print reading (item 37)"
+  },
+  {
+   "pdf_page": 11,
+   "block": 7,
+   "old": "ആയപ്പോൾ നബി(സ) ളുഹർ",
+   "new": "ആയപ്പോൾ നബി(സ) ളുഹ്ർ",
+   "why": "print reading (item 38)"
+  },
+  {
+   "pdf_page": 11,
+   "block": 11,
+   "old": "നോടൊപ്പം ളുഹർ",
+   "new": "നോടൊപ്പം ളുഹ്ർ",
+   "why": "print reading (item 39)"
+  },
+  {
+   "pdf_page": 12,
+   "block": 7,
+   "old": "സുറത്തുസ്സജദ",
+   "new": "സൂറത്തുസ്സജദ",
+   "why": "print reading (item 43)"
+  },
+  {
+   "pdf_page": 13,
+   "block": 0,
+   "old": "വിട്ടുപോരുമ്പോൾ ആ ദാസൻമാരെ സംബന്ധിച്ചു അവരുടെ സ്ഥിതി എന്തായിരുന്നു? - യഥാർത്ഥത്തിൽ, അല്ലാഹുവാണ്",
+   "new": "വിട്ടുപോരുമ്പോൾ അവരുടെ സ്ഥിതി എന്തായിരുന്നു? - യഥാർത്ഥത്തിൽ, ആ ദാസൻമാരെ സംബന്ധിച്ചു അല്ലാഹുവാണ്",
+   "why": "print order: 'ആ ദാസൻമാരെ സംബന്ധിച്ചു' begins the line after 'യഥാർത്ഥത്തിൽ,'"
+  },
+  {
+   "pdf_page": 13,
+   "block": 2,
+   "old": "കൊള്ളക'",
+   "new": "കൊള്ളക്'",
+   "why": "print has chandrakkala: കൊള്ളക്"
+  },
+  {
+   "pdf_page": 14,
+   "block": 3,
+   "old": "\"ളുഹറിന്റെ",
+   "new": "\"ളുഹ്റിന്റെ",
+   "why": "print reading (item 47)"
+  },
+  {
+   "pdf_page": 14,
+   "block": 5,
+   "old": "സഇൗദുബ്നു",
+   "new": "സഈദുബ്നു",
+   "why": "print reading (item 48)"
+  },
+  {
+   "pdf_page": 15,
+   "block": 6,
+   "old": "أَبْطَؤُوا",
+   "new": "أَبْطَؤُا",
+   "why": "print: أبطؤا (single waw-hamza then alif)"
+  },
+  {
+   "pdf_page": 17,
+   "block": 1,
+   "old": "ദൌർബല്യവും",
+   "new": "ദൗർബല്യവും",
+   "why": "print reading (item 51)"
+  },
+  {
+   "pdf_page": 21,
+   "block": 6,
+   "old": "ഞാൻ ചോദിച്ചു: ഏതെങ്കിലും",
+   "new": "ഞാൻം ചോദിച്ചു: ഏതെങ്കിലും",
+   "why": "printed typo ഞാൻം kept"
+  },
+  {
+   "pdf_page": 22,
+   "block": 1,
+   "old": "മസ്ഉൌദ്(റ)",
+   "new": "മസ്ഊദ്(റ)",
+   "why": "print ഊ (old-style glyph), mis-encoded as ഉ+ൗ"
+  },
+  {
+   "pdf_page": 22,
+   "block": 3,
+   "old": "മസ്ഉൌദ്(റ)",
+   "new": "മസ്ഊദ്(റ)",
+   "why": "print ഊ (old-style glyph), mis-encoded as ഉ+ൗ"
+  },
+  {
+   "pdf_page": 22,
+   "block": 12,
+   "old": "ബാങ് കൊടുക്കുമ്പോൾ",
+   "new": "ബാങ്ക് കൊടുക്കുമ്പോൾ",
+   "why": "print ബാങ്ക്"
+  },
+  {
+   "pdf_page": 23,
+   "block": 5,
+   "old": "അബുദ്ദർദാഅ്(റ):",
+   "new": "അബൂദ്ദർദാഅ്(റ):",
+   "why": "print reading (item 56)"
+  },
+  {
+   "pdf_page": 23,
+   "block": 5,
+   "old": "അബുദ്ദർദാഅ്!",
+   "new": "അബൂദ്ദർദാഅ്!",
+   "why": "print reading (item 58)"
+  },
+  {
+   "pdf_page": 24,
+   "block": 0,
+   "old": "ഉളളതെങ്കിൽ",
+   "new": "ളളതെങ്കിൽ",
+   "why": "page begins mid-word 'ളളതെങ്കിൽ' (continues p23 '...നിർജ്ജീവമാക്കുന്നവരാണു'); starts_mid_word should be true"
+  },
+  {
+   "pdf_page": 24,
+   "block": 4,
+   "old": "ഇബ്നുമസ്ഉൌദി(റ)നോടൊപ്പം അദ്ദേഹത്തിന്റെ",
+   "new": "ഇബ്നുമസ്ഊദി(റ)നോടൊപ്പം അദ്ദേഹത്തിന്റ",
+   "why": "print ഊ glyph; printed typo അദ്ദേഹത്തിന്റ (no െ) kept"
+  },
+  {
+   "pdf_page": 25,
+   "block": 6,
+   "old": "അബുഹുറൈറ(റ): നബി(സ) ഖൈബർ",
+   "new": "അബൂഹുറൈറ(റ): നബി(സ) ഖൈബർ",
+   "why": "print reading (item 62)"
+  },
+  {
+   "pdf_page": 26,
+   "block": 6,
+   "old": "فَلَمْ نُوقِظْنَا",
+   "new": "فَلَمْ تُوقِظْنَا",
+   "why": "print تُوقِظْنَا (two dots above)"
+  },
+  {
+   "pdf_page": 27,
+   "block": 5,
+   "old": "മസ്ഉൌദ്(റ): ഹുദൈബിയ്യ",
+   "new": "മസ്ഊദ്(റ): ഹുദൈബിയ്യ",
+   "why": "print reading (item 65)"
+  },
+  {
+   "pdf_page": 28,
+   "block": 3,
+   "old": "മസ്ഉൌദ്(റ): ഞങ്ങൾ",
+   "new": "മസ്ഊദ്(റ): ഞങ്ങൾ",
+   "why": "print reading (item 66)"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "A"
+  },
+  {
+   "idx": 1,
+   "print": "B"
+  },
+  {
+   "idx": 2,
+   "print": "B"
+  },
+  {
+   "idx": 3,
+   "print": "B"
+  },
+  {
+   "idx": 4,
+   "print": "B"
+  },
+  {
+   "idx": 5,
+   "print": "B"
+  },
+  {
+   "idx": 6,
+   "print": "B"
+  },
+  {
+   "idx": 7,
+   "print": "B"
+  },
+  {
+   "idx": 8,
+   "print": "A"
+  },
+  {
+   "idx": 9,
+   "print": "A"
+  },
+  {
+   "idx": 10,
+   "print": "A"
+  },
+  {
+   "idx": 11,
+   "print": "A"
+  },
+  {
+   "idx": 12,
+   "print": "A"
+  },
+  {
+   "idx": 13,
+   "print": "B"
+  },
+  {
+   "idx": 14,
+   "print": "A"
+  },
+  {
+   "idx": 15,
+   "print": "B"
+  },
+  {
+   "idx": 16,
+   "print": "B"
+  },
+  {
+   "idx": 17,
+   "print": "B"
+  },
+  {
+   "idx": 18,
+   "print": "B"
+  },
+  {
+   "idx": 19,
+   "print": "B"
+  },
+  {
+   "idx": 20,
+   "print": "B"
+  },
+  {
+   "idx": 21,
+   "print": "B"
+  },
+  {
+   "idx": 22,
+   "print": "B"
+  },
+  {
+   "idx": 23,
+   "print": "B"
+  },
+  {
+   "idx": 24,
+   "print": "B"
+  },
+  {
+   "idx": 25,
+   "print": "B"
+  },
+  {
+   "idx": 26,
+   "print": "B"
+  },
+  {
+   "idx": 27,
+   "print": "B"
+  },
+  {
+   "idx": 28,
+   "print": "B"
+  },
+  {
+   "idx": 29,
+   "print": "B"
+  },
+  {
+   "idx": 30,
+   "print": "B"
+  },
+  {
+   "idx": 31,
+   "print": "A"
+  },
+  {
+   "idx": 32,
+   "print": "B"
+  },
+  {
+   "idx": 33,
+   "print": "B"
+  },
+  {
+   "idx": 34,
+   "print": "B"
+  },
+  {
+   "idx": 35,
+   "print": "B"
+  },
+  {
+   "idx": 36,
+   "print": "B"
+  },
+  {
+   "idx": 37,
+   "print": "B"
+  },
+  {
+   "idx": 38,
+   "print": "B"
+  },
+  {
+   "idx": 39,
+   "print": "B"
+  },
+  {
+   "idx": 40,
+   "print": "A"
+  },
+  {
+   "idx": 41,
+   "print": "A"
+  },
+  {
+   "idx": 42,
+   "print": "A"
+  },
+  {
+   "idx": 43,
+   "print": "B"
+  },
+  {
+   "idx": 44,
+   "print": "B"
+  },
+  {
+   "idx": 45,
+   "print": "B"
+  },
+  {
+   "idx": 46,
+   "print": "B"
+  },
+  {
+   "idx": 47,
+   "print": "B"
+  },
+  {
+   "idx": 48,
+   "print": "B"
+  },
+  {
+   "idx": 49,
+   "print": "A"
+  },
+  {
+   "idx": 50,
+   "print": "B"
+  },
+  {
+   "idx": 51,
+   "print": "B"
+  },
+  {
+   "idx": 52,
+   "print": "B"
+  },
+  {
+   "idx": 53,
+   "print": "B"
+  },
+  {
+   "idx": 54,
+   "print": "B"
+  },
+  {
+   "idx": 55,
+   "print": "B"
+  },
+  {
+   "idx": 56,
+   "print": "B"
+  },
+  {
+   "idx": 57,
+   "print": "A"
+  },
+  {
+   "idx": 58,
+   "print": "B"
+  },
+  {
+   "idx": 59,
+   "print": "B"
+  },
+  {
+   "idx": 60,
+   "print": "B"
+  },
+  {
+   "idx": 61,
+   "print": "A"
+  },
+  {
+   "idx": 62,
+   "print": "B"
+  },
+  {
+   "idx": 63,
+   "print": "B"
+  },
+  {
+   "idx": 64,
+   "print": "A"
+  },
+  {
+   "idx": 65,
+   "print": "B"
+  },
+  {
+   "idx": 66,
+   "print": "B"
+  }
+ ]
+}

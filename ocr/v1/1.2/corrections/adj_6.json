@@ -1,0 +1,341 @@
+{
+ "part": "1.2",
+ "pages_checked": [
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48
+ ],
+ "corrections": [
+  {
+   "pdf_page": 41,
+   "block": 4,
+   "old": "തരട്ടയോ!",
+   "new": "തരട്ടെയോ!",
+   "why": "print reads തരട്ടെയോ"
+  },
+  {
+   "pdf_page": 41,
+   "block": 7,
+   "old": "وَأَكْلُ الرِّبَا، وَأَكْلُ مَالِ الْيَتِيمِ",
+   "new": "وَأَكْلُ مَالِ الْيَتِيمِ، وَأَكْلُ الرِّبَا",
+   "why": "print order: akl mal al-yatim then akl al-riba"
+  },
+  {
+   "pdf_page": 45,
+   "block": 0,
+   "old": "فَرَجَعْنَا قُلْنَا",
+   "new": "فَرَجَعْنَا فَقُلْنَا",
+   "why": "print has fa-qulna"
+  },
+  {
+   "pdf_page": 45,
+   "block": 5,
+   "old": "മധ്യസ്ഥരുടെ",
+   "new": "മദ്ധ്യസ്ഥരുടെ",
+   "why": "print spells മദ്ധ്യസ്ഥരുടെ"
+  },
+  {
+   "pdf_page": 47,
+   "block": 0,
+   "old": "شَدِيدٌ}\". قَالُوا",
+   "new": "شَدِيدٌ} قَالَ: فَاشْتَدَّ عَلَيْهِمْ\". قَالُوا",
+   "why": "print has qala: fa-ishtadda alayhim before closing quote"
+  },
+  {
+   "pdf_page": 48,
+   "block": 7,
+   "old": "അപരിചിതമായതായിക്കൊണ്ടാണ്",
+   "new": "അപരിചിതമായതായി കൊണ്ടാണ്",
+   "why": "print has a space (spacing only)"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 45,
+   "note": "item 40 സ്വിറാതി vs സിറാതി: print glyph read as സ്വിറാതി (A), slightly uncertain"
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "A"
+  },
+  {
+   "idx": 1,
+   "print": "A"
+  },
+  {
+   "idx": 2,
+   "print": "A"
+  },
+  {
+   "idx": 3,
+   "print": "A"
+  },
+  {
+   "idx": 4,
+   "print": "B"
+  },
+  {
+   "idx": 5,
+   "print": "B"
+  },
+  {
+   "idx": 6,
+   "print": "A"
+  },
+  {
+   "idx": 7,
+   "print": "A"
+  },
+  {
+   "idx": 8,
+   "print": "A"
+  },
+  {
+   "idx": 9,
+   "print": "A"
+  },
+  {
+   "idx": 10,
+   "print": "B"
+  },
+  {
+   "idx": 11,
+   "print": "A"
+  },
+  {
+   "idx": 12,
+   "print": "A"
+  },
+  {
+   "idx": 13,
+   "print": "A"
+  },
+  {
+   "idx": 14,
+   "print": "A"
+  },
+  {
+   "idx": 15,
+   "print": "A"
+  },
+  {
+   "idx": 16,
+   "print": "A"
+  },
+  {
+   "idx": 17,
+   "print": "A"
+  },
+  {
+   "idx": 18,
+   "print": "A"
+  },
+  {
+   "idx": 19,
+   "print": "A"
+  },
+  {
+   "idx": 20,
+   "print": "A"
+  },
+  {
+   "idx": 21,
+   "print": "A"
+  },
+  {
+   "idx": 22,
+   "print": "A"
+  },
+  {
+   "idx": 23,
+   "print": "A"
+  },
+  {
+   "idx": 24,
+   "print": "A"
+  },
+  {
+   "idx": 25,
+   "print": "A"
+  },
+  {
+   "idx": 26,
+   "print": "A"
+  },
+  {
+   "idx": 27,
+   "print": "A"
+  },
+  {
+   "idx": 28,
+   "print": "A"
+  },
+  {
+   "idx": 29,
+   "print": "A"
+  },
+  {
+   "idx": 30,
+   "print": "A"
+  },
+  {
+   "idx": 31,
+   "print": "A"
+  },
+  {
+   "idx": 32,
+   "print": "A"
+  },
+  {
+   "idx": 33,
+   "print": "A"
+  },
+  {
+   "idx": 34,
+   "print": "B"
+  },
+  {
+   "idx": 35,
+   "print": "A"
+  },
+  {
+   "idx": 36,
+   "print": "A"
+  },
+  {
+   "idx": 37,
+   "print": "A"
+  },
+  {
+   "idx": 38,
+   "print": "A"
+  },
+  {
+   "idx": 39,
+   "print": "A"
+  },
+  {
+   "idx": 40,
+   "print": "A"
+  },
+  {
+   "idx": 41,
+   "print": "A"
+  },
+  {
+   "idx": 42,
+   "print": "A"
+  },
+  {
+   "idx": 43,
+   "print": "A"
+  },
+  {
+   "idx": 44,
+   "print": "B"
+  },
+  {
+   "idx": 45,
+   "print": "A"
+  },
+  {
+   "idx": 46,
+   "print": "A"
+  },
+  {
+   "idx": 47,
+   "print": "A"
+  },
+  {
+   "idx": 48,
+   "print": "A"
+  },
+  {
+   "idx": 49,
+   "print": "A"
+  },
+  {
+   "idx": 50,
+   "print": "A"
+  },
+  {
+   "idx": 51,
+   "print": "A"
+  },
+  {
+   "idx": 52,
+   "print": "A"
+  },
+  {
+   "idx": 53,
+   "print": "A"
+  },
+  {
+   "idx": 54,
+   "print": "A"
+  },
+  {
+   "idx": 55,
+   "print": "A"
+  },
+  {
+   "idx": 56,
+   "print": "B"
+  },
+  {
+   "idx": 57,
+   "print": "A"
+  },
+  {
+   "idx": 58,
+   "print": "A"
+  },
+  {
+   "idx": 59,
+   "print": "A"
+  },
+  {
+   "idx": 60,
+   "print": "A"
+  },
+  {
+   "idx": 61,
+   "print": "A"
+  },
+  {
+   "idx": 62,
+   "print": "A"
+  },
+  {
+   "idx": 63,
+   "print": "A"
+  },
+  {
+   "idx": 64,
+   "print": "B"
+  },
+  {
+   "idx": 65,
+   "print": "B"
+  },
+  {
+   "idx": 66,
+   "print": "A"
+  },
+  {
+   "idx": 67,
+   "print": "A"
+  },
+  {
+   "idx": 68,
+   "print": "B"
+  }
+ ]
+}

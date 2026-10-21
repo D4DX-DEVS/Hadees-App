@@ -1,0 +1,225 @@
+{
+ "part": "3.2",
+ "pages_checked": [
+  29,
+  33,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42
+ ],
+ "corrections": [
+  {
+   "pdf_page": 29,
+   "block": 1,
+   "old": "സ്വാഅ്ആണ്",
+   "new": "സ്വാആണ്",
+   "why": "print has സ്വാആണ് (no അ്)"
+  },
+  {
+   "pdf_page": 33,
+   "block": 0,
+   "old": "الْأَمْرِ. وَفِي رِوَايَةٍ قَالَ",
+   "new": "الْأَمْرِ○. وَفِي رِوَايَةٍ قَالَ",
+   "why": "print has small circle ○ after الأمر"
+  },
+  {
+   "pdf_page": 33,
+   "block": 0,
+   "old": "الْأَمْرِ. وَفِي رِوَايَةٍ: أَرْسَلَ",
+   "new": "الْأَمْرِ○. وَفِي رِوَايَةٍ: أَرْسَلَ",
+   "why": "print has small circle ○ after الأمر"
+  },
+  {
+   "pdf_page": 33,
+   "block": 1,
+   "old": "സംഘലത്തിൽ",
+   "new": "സംഘത്തിൽ",
+   "why": "print സംഘത്തിൽ"
+  },
+  {
+   "pdf_page": 33,
+   "block": 1,
+   "old": "ചോദിച്ചു: അദ്ദേഹം ഞാൻ",
+   "new": "ചോദിച്ചു: ഞാൻ",
+   "why": "print has no അദ്ദേഹം here (it follows ചെയ്യേണ്ടത്?)"
+  },
+  {
+   "pdf_page": 33,
+   "block": 1,
+   "old": "നീ അവളെ വെടിയുക, അവളോട് അടുക്കരുത്. ഞാൻ",
+   "new": "നീ അവളെ വെടയുക, അവളോട് അടുക്കരുത്. ഞാൻ",
+   "why": "print വെടയുക in second passage"
+  },
+  {
+   "pdf_page": 37,
+   "block": 3,
+   "old": "വേർപ്പിരിക്കപ്പെടണമോ",
+   "new": "വേർപ്പിരിക്കപ്പെടണോ",
+   "why": "print വേർപ്പിരിക്കപ്പെടണോ"
+  },
+  {
+   "pdf_page": 37,
+   "block": 3,
+   "old": "വൈലൂലത്",
+   "new": "ഖൈലൂലത്",
+   "why": "print first letter is ഖ (bowl+flat+bar), not വ"
+  },
+  {
+   "pdf_page": 38,
+   "block": 0,
+   "old": "അദ്ദേഹത്തെ ഉപദേശിക്കുകയും",
+   "new": "അദ്ദേഹത്തെ ഉപദേശിക്കുകുയം",
+   "why": "print has misprint ഉപദേശിക്കുകുയം (kept as printed)"
+  },
+  {
+   "pdf_page": 39,
+   "block": 2,
+   "old": "വെറുത്തിരിക്കുന്നു. അങ്ങനെ ഉവൈമിർ(റ) പറഞ്ഞു",
+   "new": "വെറുത്തിരിക്കുന്നു. ഉവൈമിർ(റ) പറഞ്ഞു",
+   "why": "print has no അങ്ങനെ here (it appears later, before ഉവൈമിർ(റ) റസൂൽ... at line break)"
+  },
+  {
+   "pdf_page": 41,
+   "block": 2,
+   "old": "رِوَايَةٍ: أَنَّهُ",
+   "new": "رِوَايَةٍ: أَ○نَّهُ",
+   "why": "print has a small circle mark between alif and nun"
+  },
+  {
+   "pdf_page": 41,
+   "block": 3,
+   "old": "ഭാര്യഭർത്താക്കന്മാരെ നബി(സ)",
+   "new": "ഭാര്യഭർത്താക്കൻമാരെ നബി(സ)",
+   "why": "print ക്കൻമാരെ (ൻ+മാ)"
+  },
+  {
+   "pdf_page": 42,
+   "block": 1,
+   "old": "ബന്ധമുണ്ടെന്ന്",
+   "new": "ബന്ധമുെന്ന്",
+   "why": "print has misprint ബന്ധമുെന്ന് (ണ്ട dropped), kept as printed"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "B"
+  },
+  {
+   "idx": 1,
+   "print": "B"
+  },
+  {
+   "idx": 2,
+   "print": "B"
+  },
+  {
+   "idx": 3,
+   "print": "B"
+  },
+  {
+   "idx": 4,
+   "print": "B"
+  },
+  {
+   "idx": 5,
+   "print": "B"
+  },
+  {
+   "idx": 6,
+   "print": "A"
+  },
+  {
+   "idx": 7,
+   "print": "B"
+  },
+  {
+   "idx": 8,
+   "print": "B"
+  },
+  {
+   "idx": 9,
+   "print": "B"
+  },
+  {
+   "idx": 10,
+   "print": "A"
+  },
+  {
+   "idx": 11,
+   "print": "A"
+  },
+  {
+   "idx": 12,
+   "print": "A"
+  },
+  {
+   "idx": 13,
+   "print": "A"
+  },
+  {
+   "idx": 14,
+   "print": "A"
+  },
+  {
+   "idx": 15,
+   "print": "A"
+  },
+  {
+   "idx": 16,
+   "print": "A"
+  },
+  {
+   "idx": 17,
+   "print": "A"
+  },
+  {
+   "idx": 18,
+   "print": "B"
+  },
+  {
+   "idx": 19,
+   "print": "A"
+  },
+  {
+   "idx": 20,
+   "print": "A"
+  },
+  {
+   "idx": 21,
+   "print": "A"
+  },
+  {
+   "idx": 22,
+   "print": "A"
+  },
+  {
+   "idx": 23,
+   "print": "A"
+  },
+  {
+   "idx": 24,
+   "print": "A"
+  },
+  {
+   "idx": 25,
+   "print": "A"
+  },
+  {
+   "idx": 26,
+   "print": "B"
+  },
+  {
+   "idx": 27,
+   "print": "B"
+  },
+  {
+   "idx": 28,
+   "print": "B"
+  }
+ ]
+}

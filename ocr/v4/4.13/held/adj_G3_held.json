@@ -1,0 +1,202 @@
+{
+ "part": "4.13",
+ "pages_checked": [
+  49,
+  50,
+  51,
+  53,
+  57,
+  58,
+  59,
+  62,
+  63,
+  64,
+  66,
+  67,
+  68,
+  69,
+  70
+ ],
+ "corrections": [
+  {
+   "pdf_page": 58,
+   "block": 3,
+   "old": "ഹുസൈൻ(റ)",
+   "new": "ഹുസ്വൈൻ(റ)",
+   "why": "print clearly shows ്വ sub-form under സ"
+  },
+  {
+   "pdf_page": 64,
+   "block": 4,
+   "old": "ഹുസൈൻ(റ):",
+   "new": "ഹുസ്വൈൻ(റ):",
+   "why": "print clearly shows ്വ"
+  },
+  {
+   "pdf_page": 68,
+   "block": 4,
+   "old": "തൂവൽപോലെയാണ്",
+   "new": "തുകൽപോലെയാണ്",
+   "why": "print reads തുകൽപോലെയാണ്"
+  },
+  {
+   "pdf_page": 50,
+   "block": 5,
+   "old": "ഖദ്‌രി(ദൈവവിധി)",
+   "new": "ഖദ്റി(ദൈവവിധി)",
+   "why": "print shows ദ്+റ (plain റ, no ്ര sign), matches other reader"
+  },
+  {
+   "pdf_page": 69,
+   "block": 1,
+   "old": "അതാഉബ്നു",
+   "new": "അത്വാഉബ്നു",
+   "why": "print shows ത്വ clearly"
+  },
+  {
+   "pdf_page": 69,
+   "block": 1,
+   "old": "ഖദ്‌രി(ദൈവനിശ്ചയം)ന്റെ",
+   "new": "ഖദ്റി(ദൈവനിശ്ചയം)ന്റെ",
+   "why": "print ദ്+റ"
+  },
+  {
+   "pdf_page": 69,
+   "block": 1,
+   "old": "അതാഅ്(റ)",
+   "new": "അത്വാഅ്(റ)",
+   "why": "print shows ത്വ clearly"
+  },
+  {
+   "pdf_page": 70,
+   "block": 4,
+   "old": "മുർജിഅ്⁶യും",
+   "new": "മുർജിഅ⁶യും",
+   "why": "print has no virama after അ before superscript 6"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 51,
+   "note": "idx50 സത്യവിശ്വാസിയേ/യെക്കാൾ: syllable hidden at scan right edge (line ends സത്യവിശ്വാസി, next line ക്കാൾ); cannot decide"
+  },
+  {
+   "pdf_page": 62,
+   "note": "idx56 ല്ലേയോ vs ല്ലെയോ: ലെ/ലേ vowel sign length ambiguous at this font; print may be ലെ, not emitting"
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 44,
+   "print": "A"
+  },
+  {
+   "idx": 45,
+   "print": "B"
+  },
+  {
+   "idx": 46,
+   "print": "A"
+  },
+  {
+   "idx": 47,
+   "print": "A"
+  },
+  {
+   "idx": 48,
+   "print": "B"
+  },
+  {
+   "idx": 49,
+   "print": "A"
+  },
+  {
+   "idx": 50,
+   "print": "uncertain"
+  },
+  {
+   "idx": 51,
+   "print": "A"
+  },
+  {
+   "idx": 52,
+   "print": "B"
+  },
+  {
+   "idx": 53,
+   "print": "B"
+  },
+  {
+   "idx": 54,
+   "print": "B"
+  },
+  {
+   "idx": 55,
+   "print": "A"
+  },
+  {
+   "idx": 56,
+   "print": "uncertain"
+  },
+  {
+   "idx": 57,
+   "print": "A"
+  },
+  {
+   "idx": 58,
+   "print": "A"
+  },
+  {
+   "idx": 59,
+   "print": "B"
+  },
+  {
+   "idx": 60,
+   "print": "B"
+  },
+  {
+   "idx": 61,
+   "print": "B"
+  },
+  {
+   "idx": 62,
+   "print": "B"
+  },
+  {
+   "idx": 63,
+   "print": "B"
+  },
+  {
+   "idx": 64,
+   "print": "A"
+  },
+  {
+   "idx": 65,
+   "print": "B"
+  },
+  {
+   "idx": 66,
+   "print": "B"
+  },
+  {
+   "idx": 67,
+   "print": "B"
+  },
+  {
+   "idx": 68,
+   "print": "B"
+  },
+  {
+   "idx": 69,
+   "print": "B"
+  },
+  {
+   "idx": 70,
+   "print": "B"
+  },
+  {
+   "idx": 71,
+   "print": "B"
+  }
+ ]
+}

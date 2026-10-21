@@ -1,0 +1,185 @@
+{
+ "part": "2.13",
+ "pages_checked": [
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18
+ ],
+ "corrections": [
+  {
+   "pdf_page": 10,
+   "block": 3,
+   "old": "മുന്നോട്ട് നീങ്ങി എന്നത്",
+   "new": "മുന്നോട്ട് ഞരങ്ങി എന്നത്",
+   "why": "print ഞരങ്ങി"
+  },
+  {
+   "pdf_page": 10,
+   "block": 3,
+   "old": "പശ്ചാത്തപിച്ച്",
+   "new": "പശ്ചാതപിച്ച്",
+   "why": "print has single ത (printed form)"
+  },
+  {
+   "pdf_page": 11,
+   "block": 5,
+   "old": "അബൂമൂസ(റ)",
+   "new": "അബൂമുസ(റ)",
+   "why": "print മുസ"
+  },
+  {
+   "pdf_page": 11,
+   "block": 9,
+   "old": "കാരുണ്യത്തിന്റെ",
+   "new": "കരുണയുടെ",
+   "why": "bab heading print: അല്ലാഹുവിന്റെ കരുണയുടെ വിശാലത"
+  },
+  {
+   "pdf_page": 11,
+   "block": 11,
+   "old": "എന്റെ കാരുണ്യം",
+   "new": "എന്റെ കരുണ",
+   "why": "print കരുണ"
+  },
+  {
+   "pdf_page": 14,
+   "block": 1,
+   "old": "١٦. عَنْ صَفْوَانَ",
+   "new": "عَنْ صَفْوَانَ",
+   "why": "hadith number prefix is in hadith_no, not text (other pages omit it)"
+  },
+  {
+   "pdf_page": 14,
+   "block": 2,
+   "old": "ഇവയൊക്കെ നീ അറിയുന്നുണ്ടോ",
+   "new": "ഇവയെന്തെന്ന് നീ അറിയുന്നുണ്ടോ",
+   "why": "print differs"
+  },
+  {
+   "pdf_page": 14,
+   "block": 2,
+   "old": "ഞാൻ നിനക്കത് മറച്ചു വെച്ചു",
+   "new": "ഞാൻ നിനക്ക് ഇത് മറച്ചു വെച്ചു",
+   "why": "print differs"
+  },
+  {
+   "pdf_page": 14,
+   "block": 2,
+   "old": "പൊറുത്തു തരുന്നു",
+   "new": "പൊറുത്ത് തരുന്നു",
+   "why": "chillu/virama form as printed"
+  },
+  {
+   "pdf_page": 14,
+   "block": 2,
+   "old": "കള്ളവാക്കിയവരാണ്",
+   "new": "കളവാക്കിയവരാണ്",
+   "why": "print കളവാക്കി"
+  },
+  {
+   "pdf_page": 15,
+   "block": 0,
+   "old": "ഇല്ല. അവിടുന്ന് ചോദിച്ചു",
+   "new": "ഇല്ല, അവിടുന്ന് ചോദിച്ചു",
+   "why": "print comma"
+  },
+  {
+   "pdf_page": 15,
+   "block": 0,
+   "old": "ഇല്ല. അവിടുന്ന് പറഞ്ഞു: \"എന്റെ",
+   "new": "ഇല്ല, അവിടുന്ന് പറഞ്ഞു: \"എന്റെ",
+   "why": "print comma"
+  },
+  {
+   "pdf_page": 15,
+   "block": 0,
+   "old": "ഇല്ല. അല്ലാഹു പറയും: എങ്കിൽ നീ എന്നെ മറന്ന പോലെ",
+   "new": "ഇല്ല, അല്ലാഹു പറയും: എങ്കിൽ നീ എന്നെ മറന്ന പോലെ",
+   "why": "print comma"
+  },
+  {
+   "pdf_page": 15,
+   "block": 0,
+   "old": "കീഴടക്കിത്തരികയും",
+   "new": "കീഴടക്കിത്തിരികയും",
+   "why": "printed spelling"
+  },
+  {
+   "pdf_page": 16,
+   "block": 2,
+   "old": "اذْرُوُا",
+   "new": "اذْرُوا",
+   "why": "extra damma"
+  },
+  {
+   "pdf_page": 16,
+   "block": 3,
+   "old": "അത് ഒരുമിച്ചുകൂട്ടുകയും",
+   "new": "അത് ഒരുമിച്ച്കൂട്ടുകയും",
+   "why": "printed spelling"
+  },
+  {
+   "pdf_page": 17,
+   "block": 2,
+   "old": "٢١. عَنْ أَبِي أُمَامَةَ",
+   "new": "عَنْ أَبِي أُمَامَةَ",
+   "why": "hadith number prefix belongs in hadith_no"
+  },
+  {
+   "pdf_page": 17,
+   "block": 3,
+   "old": "അബൂ ഉമാമത്(റ)",
+   "new": "അബു ഉമാമത്(റ)",
+   "why": "print അബു"
+  },
+  {
+   "pdf_page": 17,
+   "block": 3,
+   "old": "നിസ്കരിച്ചില്ലയോ",
+   "new": "നിസ്കരിച്ചില്ലെയോ",
+   "why": "print ല്ലെയോ"
+  },
+  {
+   "pdf_page": 18,
+   "block": 0,
+   "old": "പകരക്കാരനായി",
+   "new": "പകരക്കാരായി",
+   "why": "print പകരക്കാരായി"
+  },
+  {
+   "pdf_page": 18,
+   "block": 2,
+   "old": "അബൂമൂസ(റ)",
+   "new": "അബുമുസ(റ)",
+   "why": "print അബുമുസ"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 14,
+   "hadith_no": 16,
+   "note": "Malayalam name printed as സ്വഫ്‌വാൻ (JSON സ്വാഫ്‌വാൻ) - could not be certain at this resolution"
+  },
+  {
+   "pdf_page": 14,
+   "hadith_no": 17,
+   "note": "Malayalam translation of hadith 17 does not appear on this page; expected on next page"
+  },
+  {
+   "pdf_page": 15,
+   "hadith_no": 17,
+   "note": "second occurrence 'പതിനാലാം രാവിലെ മേഘങ്ങൾക്കിടയിൽ' may be printed മേഖങ്ങൾ (misprint?) - unsure"
+  },
+  {
+   "pdf_page": 18,
+   "hadith_no": 22,
+   "note": "Lower two-thirds of page is faint show-through from reverse side, not content; JSON correctly omits it"
+  }
+ ]
+}

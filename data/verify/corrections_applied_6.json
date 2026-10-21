@@ -1,0 +1,902 @@
+[
+ {
+  "id": 75,
+  "edits": [
+   {
+    "old": "فَقِيلَ",
+    "new": "فَقُلْنَا",
+    "why": "strict reading: passive vs we said"
+   }
+  ]
+ },
+ {
+  "id": 346,
+  "edits": [
+   {
+    "old": "ثِنْتَانِ",
+    "new": "ثِنْتَيْنِ",
+    "why": "strict reading: accusative per collections"
+   }
+  ]
+ },
+ {
+  "id": 403,
+  "edits": [
+   {
+    "old": "أَرْبَعًا",
+    "new": "أَرْبَعٌ",
+    "why": "strict reading: nominative per collections"
+   }
+  ]
+ },
+ {
+  "id": 584,
+  "edits": [
+   {
+    "old": "جَاوَزْنَا",
+    "new": "جَاوَزُونَا",
+    "why": "strict reading: others passed us, not we passed"
+   }
+  ]
+ },
+ {
+  "id": 734,
+  "edits": [
+   {
+    "old": "صَعِدْنَا",
+    "new": "صَعِدَتَا",
+    "why": "strict reading: subject: we ascended vs the two feet"
+   }
+  ]
+ },
+ {
+  "id": 795,
+  "edits": [
+   {
+    "old": "قَالَتْ",
+    "new": "قَالَ",
+    "why": "strict reading: speaker Qasim not Aisha (feminine)"
+   }
+  ]
+ },
+ {
+  "id": 802,
+  "edits": [
+   {
+    "old": "فَأَعَادَ",
+    "new": "فَأَعَدْتُ",
+    "why": "strict reading: first person in collections"
+   }
+  ]
+ },
+ {
+  "id": 1032,
+  "edits": [
+   {
+    "old": "وَأَنْ",
+    "new": "أَوْ",
+    "why": "strict reading: ours adds 'and', changes disjunctive prohibition"
+   }
+  ]
+ },
+ {
+  "id": 1064,
+  "edits": [
+   {
+    "old": "مِثله",
+    "new": "مِنْهُ",
+    "why": "strict reading: remained 'from it' vs 'its like': meaning differs"
+   }
+  ]
+ },
+ {
+  "id": 2431,
+  "edits": [
+   {
+    "old": "بِمُقْبِلٍ",
+    "new": "بِيَعْلَى",
+    "why": "strict reading: different name; editions agree on Ya'la"
+   }
+  ]
+ },
+ {
+  "id": 2527,
+  "edits": [
+   {
+    "old": "فَاضْطَرُّوهُ",
+    "new": "فَاضْطَرُّوهُمْ",
+    "why": "strict reading: pronoun number: him vs them"
+   }
+  ]
+ },
+ {
+  "id": 2784,
+  "edits": [
+   {
+    "old": "بِجَشِيشَةٍ",
+    "new": "بِحَشِيشَةٍ",
+    "why": "strict reading: different word; editions agree"
+   }
+  ]
+ },
+ {
+  "id": 2816,
+  "edits": [
+   {
+    "old": "فَاطِمَةُ",
+    "new": "وَفَاطِمَةُ",
+    "why": "strict reading: apposition vs separate person; collections add and"
+   }
+  ]
+ },
+ {
+  "id": 2998,
+  "edits": [
+   {
+    "old": "تِسْعٌ",
+    "new": "تِسْعًا",
+    "why": "strict reading: accusative predicate per collections"
+   }
+  ]
+ },
+ {
+  "id": 3141,
+  "edits": [
+   {
+    "old": "قَالَ",
+    "new": "قَالَا",
+    "why": "strict reading: dual speakers vs singular"
+   }
+  ]
+ },
+ {
+  "id": 3320,
+  "edits": [
+   {
+    "old": "الْمُجَاهِرُونَ",
+    "new": "الْمُجَاهِرِينَ",
+    "why": "strict reading: exception takes accusative"
+   }
+  ]
+ },
+ {
+  "id": 3370,
+  "edits": [
+   {
+    "old": "أَفَأُقْرِيهِ",
+    "new": "أَفَأَجْزِيهِ",
+    "why": "strict reading: different verb and meaning; collections agree"
+   }
+  ]
+ },
+ {
+  "id": 3382,
+  "edits": [
+   {
+    "old": "فَسَبَبْتُهَا",
+    "new": "فَسَبَّتْهَا",
+    "why": "strict reading: subject: I insulted vs she insulted"
+   }
+  ]
+ },
+ {
+  "id": 3456,
+  "edits": [
+   {
+    "old": "قَالَتْ",
+    "new": "قَالَ",
+    "why": "strict reading: speaker is male narrator, not female"
+   }
+  ]
+ },
+ {
+  "id": 3468,
+  "edits": [
+   {
+    "old": "قَالَ",
+    "new": "قَالَا",
+    "why": "strict reading: dual: both revilers' words"
+   }
+  ]
+ },
+ {
+  "id": 3590,
+  "edits": [
+   {
+    "old": "قِيلَ",
+    "new": "فَقُلْتُ",
+    "why": "strict reading: narrator asked Anas, not passive"
+   }
+  ]
+ },
+ {
+  "id": 3625,
+  "edits": [
+   {
+    "old": "فقِيلَ",
+    "new": "فَقُلْتُ",
+    "why": "strict reading: narrator asked Qatada, not passive"
+   }
+  ]
+ },
+ {
+  "id": 3632,
+  "edits": [
+   {
+    "old": "قِيلَ",
+    "new": "قُلْتُ",
+    "why": "strict reading: passive \"it was said\" vs narrator first person"
+   }
+  ]
+ },
+ {
+  "id": 3778,
+  "edits": [
+   {
+    "old": "جَلْوَتِي",
+    "new": "حَيَاتِي",
+    "why": "strict reading: different word: life vs public appearance"
+   }
+  ]
+ },
+ {
+  "id": 3872,
+  "edits": [
+   {
+    "old": "يَنْزِعَهُ",
+    "new": "نَزَعَهُ",
+    "why": "strict reading: past tense نزعه per collections"
+   }
+  ]
+ },
+ {
+  "id": 3947,
+  "edits": [
+   {
+    "old": "الْفِرَاشَ",
+    "new": "الْفُرُشَ",
+    "why": "strict reading: singular vs plural"
+   }
+  ]
+ },
+ {
+  "id": 4022,
+  "edits": [
+   {
+    "old": "يَدِي",
+    "new": "يَدِهِ",
+    "why": "strict reading: his hand (Prophet), not narrator's hand"
+   }
+  ]
+ },
+ {
+  "id": 4024,
+  "edits": [
+   {
+    "old": "أَتَّخِذُ",
+    "new": "أَتَخَتَّمُ",
+    "why": "strict reading: different verb: wear ring vs take"
+   }
+  ]
+ },
+ {
+  "id": 4070,
+  "edits": [
+   {
+    "old": "عَلَيْهَا",
+    "new": "عَلَيْهِمَا",
+    "why": "strict reading: dual: both bracelets/earrings referent"
+   }
+  ]
+ },
+ {
+  "id": 4160,
+  "edits": [
+   {
+    "old": "سُئِلَ",
+    "new": "سَأَلَهُ",
+    "why": "strict reading: active: narrator asked Anas"
+   }
+  ]
+ },
+ {
+  "id": 4232,
+  "edits": [
+   {
+    "old": "فَقِيلَ",
+    "new": "فَقَالَ",
+    "why": "strict reading: passive vs active speaker"
+   }
+  ]
+ },
+ {
+  "id": 4234,
+  "edits": [
+   {
+    "old": "قُلْتُ",
+    "new": "قُلْنَا",
+    "why": "strict reading: 1st person plural per editions"
+   }
+  ]
+ },
+ {
+  "id": 4272,
+  "edits": [
+   {
+    "old": "عَلَانِي",
+    "new": "تَجَلاَّنِي",
+    "why": "strict reading: collections agree تجلاني"
+   }
+  ]
+ },
+ {
+  "id": 4313,
+  "edits": [
+   {
+    "old": "الصَّلَاةَ",
+    "new": "الْعَصْرَ",
+    "why": "strict reading: collections name the specific prayer العصر"
+   }
+  ]
+ },
+ {
+  "id": 4340,
+  "edits": [
+   {
+    "old": "مِنَ",
+    "new": "فِي",
+    "why": "strict reading: pecked in the sea, not from it"
+   }
+  ]
+ },
+ {
+  "id": 4407,
+  "edits": [
+   {
+    "old": "نَاءَ",
+    "new": "نَأَى",
+    "why": "strict reading: collections read نأى (distanced)"
+   }
+  ]
+ },
+ {
+  "id": 4445,
+  "edits": [
+   {
+    "old": "وَنَبِيِّكَ",
+    "new": "وَبِنَبِيِّكَ",
+    "why": "strict reading: collections have بِنَبِيِّكَ (I believed in your prophet)"
+   }
+  ]
+ },
+ {
+  "id": 4517,
+  "edits": [
+   {
+    "old": "بِذِمَّتِكَ",
+    "new": "بِذِمَّةٍ",
+    "why": "strict reading: collections agree بذمة; meaning differs"
+   }
+  ]
+ },
+ {
+  "id": 4612,
+  "edits": [
+   {
+    "old": "وَإِنِّي",
+    "new": "وَأَنَّهُ",
+    "why": "strict reading: وإني makes subject wrong; collections have وأنه"
+   }
+  ]
+ },
+ {
+  "id": 4653,
+  "edits": [
+   {
+    "old": "حَدَّثَنِي",
+    "new": "حَدَّثَهُ",
+    "why": "strict reading: third person in collections, not first"
+   }
+  ]
+ },
+ {
+  "id": 4675,
+  "edits": [
+   {
+    "old": "مَسْجِدِهَا",
+    "new": "مَسْجِدٍ",
+    "why": "strict reading: indefinite 'a mosque' vs 'her prayer place'"
+   }
+  ]
+ },
+ {
+  "id": 12072,
+  "edits": [
+   {
+    "old": "قِيلَ",
+    "new": "قُلْتُ",
+    "why": "strict reading: collections: narrator asked, not anonymous passive"
+   }
+  ]
+ },
+ {
+  "id": 12169,
+  "edits": [
+   {
+    "old": "يَدَهَا",
+    "new": "يَدَيْهَا",
+    "why": "strict reading: singular vs dual"
+   }
+  ]
+ },
+ {
+  "id": 12226,
+  "edits": [
+   {
+    "old": "رَجُلًا",
+    "new": "الرَّجُلَ",
+    "why": "strict reading: definite man vs indefinite; collections say \"the man\""
+   }
+  ]
+ },
+ {
+  "id": 12688,
+  "edits": [
+   {
+    "old": "حَصًى",
+    "new": "حَصْبَاءَ",
+    "why": "strict reading: collections agree حصباء"
+   }
+  ]
+ },
+ {
+  "id": 12734,
+  "edits": [
+   {
+    "old": "أَوْمَاشِيًا",
+    "new": "وَمَاشِيًا",
+    "why": "strict reading: أو vs و changes alternative to combination"
+   }
+  ]
+ },
+ {
+  "id": 12863,
+  "edits": [
+   {
+    "old": "قَالُوا",
+    "new": "قَالَ",
+    "why": "strict reading: ours makes companions plural speakers; collections singular narrator"
+   }
+  ]
+ },
+ {
+  "id": 13057,
+  "edits": [
+   {
+    "old": "تَقُومَ",
+    "new": "يَقُومَ",
+    "why": "strict reading: verb gender agreement with العمود"
+   }
+  ]
+ },
+ {
+  "id": 13215,
+  "edits": [
+   {
+    "old": "قَاعُوسَ",
+    "new": "نَاعُوسَ",
+    "why": "strict reading: different word; all editions have ناعوس"
+   }
+  ]
+ },
+ {
+  "id": 13271,
+  "edits": [
+   {
+    "old": "قِيلَ",
+    "new": "قُلْتُ",
+    "why": "strict reading: passive vs narrator first person"
+   }
+  ]
+ },
+ {
+  "id": 13467,
+  "edits": [
+   {
+    "old": "الطَّرِيقِ",
+    "new": "الطُّرُقِ",
+    "why": "strict reading: singular vs plural roads"
+   }
+  ]
+ },
+ {
+  "id": 13682,
+  "edits": [
+   {
+    "old": "لِلْكُبْرِ",
+    "new": "الْكُبْرَ",
+    "why": "strict reading: collections have accusative الكبر, no لِ"
+   }
+  ]
+ },
+ {
+  "id": 13791,
+  "edits": [
+   {
+    "old": "بُطُونِ",
+    "new": "بُطُونِهَا",
+    "why": "strict reading: collections: in their bellies, not their young's"
+   }
+  ]
+ },
+ {
+  "id": 13840,
+  "edits": [
+   {
+    "old": "يُسْمَعَ",
+    "new": "يُسْتَمَعَ",
+    "why": "strict reading: different verb: listened-to vs heard"
+   }
+  ]
+ },
+ {
+  "id": 14137,
+  "edits": [
+   {
+    "old": "أُمِّ",
+    "new": "أَبِي",
+    "why": "strict reading: Zaynab bint Abi Salama in editions"
+   }
+  ]
+ },
+ {
+  "id": 14315,
+  "edits": [
+   {
+    "old": "وَعَشْرٌ",
+    "new": "وَعَشْرًا",
+    "why": "strict reading: case differs; collections accusative"
+   }
+  ]
+ },
+ {
+  "id": 14854,
+  "edits": [
+   {
+    "old": "يَقْرَأُ",
+    "new": "قَرَأَ",
+    "why": "strict reading: past vs present: heard a man who read"
+   }
+  ]
+ },
+ {
+  "id": 14984,
+  "edits": [
+   {
+    "old": "الْجَهْلُ",
+    "new": "الْعِلْمُ",
+    "why": "strict reading: knowledge appears, not ignorance"
+   }
+  ]
+ },
+ {
+  "id": 15042,
+  "edits": [
+   {
+    "old": "قِيلَ",
+    "new": "قُلْتُ",
+    "why": "strict reading: narrator asks, not passive قيل"
+   }
+  ]
+ },
+ {
+  "id": 15059,
+  "edits": [
+   {
+    "old": "لِيَطْعَمَ",
+    "new": "لِنُطْعِمَ",
+    "why": "strict reading: person/subject changes"
+   },
+   {
+    "old": "عِنْدِي",
+    "new": "عِنْدَنَا",
+    "why": "strict reading: first person plural vs singular"
+   }
+  ]
+ },
+ {
+  "id": 15089,
+  "edits": [
+   {
+    "old": "قِيلَ",
+    "new": "قُلْتُ",
+    "why": "strict reading: narrator says 'I asked', not passive"
+   }
+  ]
+ },
+ {
+  "id": 15102,
+  "edits": [
+   {
+    "old": "تَمْرٍ",
+    "new": "ثَمَرٍ",
+    "why": "strict reading: every fruit, not every dates"
+   }
+  ]
+ },
+ {
+  "id": 15157,
+  "edits": [
+   {
+    "old": "يَبِعْ",
+    "new": "يَبِيعُ",
+    "why": "strict reading: collections agree indicative يبيع"
+   },
+   {
+    "old": "فَقِيلَ",
+    "new": "فَقُلْتُ",
+    "why": "strict reading: narrator asked, not passive"
+   }
+  ]
+ },
+ {
+  "id": 15267,
+  "edits": [
+   {
+    "old": "يَكَارِيَ",
+    "new": "يَتَكَارَى",
+    "why": "strict reading: different verb form; rent vs lease out"
+   }
+  ]
+ },
+ {
+  "id": 15279,
+  "edits": [
+   {
+    "old": "وَالزَّبِيبِ",
+    "new": "وَالزَّيْتِ",
+    "why": "strict reading: different commodity: oil not raisins"
+   }
+  ]
+ },
+ {
+  "id": 15653,
+  "edits": [
+   {
+    "old": "مِنْ",
+    "new": "مَعَ",
+    "why": "strict reading: preposition changes meaning"
+   }
+  ]
+ },
+ {
+  "id": 15853,
+  "edits": [
+   {
+    "old": "وَسُئِلَتْ",
+    "new": "قُلْتُ",
+    "why": "strict reading: passive asked vs narrator said"
+   }
+  ]
+ },
+ {
+  "id": 15920,
+  "edits": [
+   {
+    "old": "فَنَرَى",
+    "new": "فَيُرَى",
+    "why": "strict reading: we think vs it was thought"
+   }
+  ]
+ },
+ {
+  "id": 15931,
+  "edits": [
+   {
+    "old": "سُئِلَتْ",
+    "new": "سَأَلْتُهَا",
+    "why": "strict reading: passive vs narrator first person"
+   }
+  ]
+ },
+ {
+  "id": 16049,
+  "edits": [
+   {
+    "old": "الْمَسْجِدِ",
+    "new": "مَسْجِدٍ",
+    "why": "strict reading: definite vs indefinite mosque"
+   }
+  ]
+ },
+ {
+  "id": 16330,
+  "edits": [
+   {
+    "old": "قِيلَ",
+    "new": "قُلْنَا",
+    "why": "strict reading: passive 'it was said' vs 'we said'"
+   }
+  ]
+ },
+ {
+  "id": 16386,
+  "edits": [
+   {
+    "old": "فِي",
+    "new": "مِنْ",
+    "why": "strict reading: مِنْ وَجْهٍ per collections"
+   }
+  ]
+ },
+ {
+  "id": 16399,
+  "edits": [
+   {
+    "old": "الرِّيَاحُ",
+    "new": "الرِّيحُ",
+    "why": "strict reading: singular wind in collections"
+   }
+  ]
+ },
+ {
+  "id": 16401,
+  "edits": [
+   {
+    "old": "مَفَاتِحُ",
+    "new": "مِفْتَاحُ",
+    "why": "strict reading: collections agree singular مفتاح"
+   }
+  ]
+ },
+ {
+  "id": 16594,
+  "edits": [
+   {
+    "old": "فَقِيلَ",
+    "new": "فَقُلْنَا",
+    "why": "strict reading: passive vs we said"
+   }
+  ]
+ },
+ {
+  "id": 16625,
+  "edits": [
+   {
+    "old": "فَقِيلَ",
+    "new": "فَقُلْتُ",
+    "why": "strict reading: passive vs narrator first person"
+   }
+  ]
+ },
+ {
+  "id": 16639,
+  "edits": [
+   {
+    "old": "بِحَرْبَةٍ",
+    "new": "بِالْحَرْبَةِ",
+    "why": "strict reading: definite spear in collections"
+   }
+  ]
+ },
+ {
+  "id": 16737,
+  "edits": [
+   {
+    "old": "بِشِقَّيْنِ",
+    "new": "بِشَقَّتَيْنِ",
+    "why": "strict reading: collections agree two pieces; ours dual of شِقّ (halves)"
+   }
+  ]
+ },
+ {
+  "id": 16827,
+  "edits": [
+   {
+    "old": "أَمْ",
+    "new": "أَوْ",
+    "why": "strict reading: collections agree أو; أم changes particle"
+   }
+  ]
+ },
+ {
+  "id": 16904,
+  "edits": [
+   {
+    "old": "قِيلَ",
+    "new": "قُلْتُ",
+    "why": "strict reading: passive vs narrator first person"
+   }
+  ]
+ },
+ {
+  "id": 16927,
+  "edits": [
+   {
+    "old": "لَهُ",
+    "new": "لَهُمَا",
+    "why": "strict reading: dual (both) vs singular"
+   }
+  ]
+ },
+ {
+  "id": 16940,
+  "edits": [
+   {
+    "old": "دَخَلْتُ",
+    "new": "دَخَلْنَا",
+    "why": "strict reading: first person plural in collections"
+   }
+  ]
+ },
+ {
+  "id": 17050,
+  "edits": [
+   {
+    "old": "اثْنَانِ",
+    "new": "اثْنَيْنِ",
+    "why": "strict reading: collections agree accusative اثنين"
+   }
+  ]
+ },
+ {
+  "id": 17104,
+  "edits": [
+   {
+    "old": "أَيُّهُمَا",
+    "new": "أَيُّهُمْ",
+    "why": "strict reading: dual vs plural"
+   }
+  ]
+ },
+ {
+  "id": 17239,
+  "edits": [
+   {
+    "old": "قِيلَ",
+    "new": "قُلْتُ",
+    "why": "strict reading: 'I said' vs passive 'it was said'"
+   }
+  ]
+ },
+ {
+  "id": 17275,
+  "edits": [
+   {
+    "old": "لَابِي",
+    "new": "لَا",
+    "why": "strict reading: negation: لا شيء vs لأي شيء"
+   }
+  ]
+ },
+ {
+  "id": 17286,
+  "edits": [
+   {
+    "old": "مَسَاجِدَ",
+    "new": "مَسْجِدًا",
+    "why": "strict reading: plural vs singular"
+   }
+  ]
+ },
+ {
+  "id": 17536,
+  "edits": [
+   {
+    "old": "تَفْرُغَ",
+    "new": "فَرَغَ",
+    "why": "strict reading: collections have past tense فرغ"
+   }
+  ]
+ },
+ {
+  "id": 17700,
+  "edits": [
+   {
+    "old": "الرَّاوِي",
+    "new": "يُونُسُ",
+    "why": "strict reading: named narrator Yunus vs generic"
+   }
+  ]
+ }
+]

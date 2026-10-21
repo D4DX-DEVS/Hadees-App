@@ -1,0 +1,14 @@
+{
+ "part": "1.13",
+ "pages_checked": [],
+ "corrections": [
+  {
+   "pdf_page": 24,
+   "block": 5,
+   "old": "സൂര്യൻ മധ്യത്തിൽ",
+   "new": "സൂര്യൻ മദ്ധ്യത്തിൽ",
+   "why": "adj_2 item 18 decided B (print has ദ്ധ) but omitted the correction; added by supervisor"
+  }
+ ],
+ "uncertain": []
+}

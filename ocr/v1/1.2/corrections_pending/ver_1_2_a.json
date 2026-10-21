@@ -1,0 +1,77 @@
+{
+ "part": "1.2",
+ "pages_checked": [
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16
+ ],
+ "not_checked": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7
+ ],
+ "corrections": [
+  {
+   "pdf_page": 10,
+   "block": 0,
+   "old": "ഹേ, അബൂഹുറൈറാ!",
+   "new": "ഹേ, അബൂഹുറൈറൊ!",
+   "why": "print has ൊ-ending vocative (അബൂഹുറൈറൊ), JSON has റാ; ൊ vs ോ glyph slightly ambiguous"
+  },
+  {
+   "pdf_page": 10,
+   "block": 0,
+   "old": "അബൂഹുറൈറാ! തിരി",
+   "new": "അബൂഹുറൈറൊ! തിരി",
+   "why": "print has ൊ-ending vocative (അബൂഹുറൈറൊ), JSON has റാ; ൊ vs ോ glyph slightly ambiguous"
+  },
+  {
+   "pdf_page": 10,
+   "block": 0,
+   "old": "അബൂഹുറൈറാ! നിനക്കെന്തുപറ്റി",
+   "new": "അബൂഹുറൈറൊ! നിനക്കെന്തുപറ്റി",
+   "why": "print has ൊ-ending vocative (അബൂഹുറൈറൊ), JSON has റാ; ൊ vs ോ glyph slightly ambiguous"
+  },
+  {
+   "pdf_page": 16,
+   "block": 8,
+   "old": "ഓ അബൂ ഹുറൈറാ,",
+   "new": "ഓ അബൂ ഹുറൈറൊ,",
+   "why": "print has ൊ-ending vocative (അബൂഹുറൈറൊ), JSON has റാ; ൊ vs ോ glyph slightly ambiguous"
+  },
+  {
+   "pdf_page": 16,
+   "block": 8,
+   "old": "അബൂഹുറൈറാ! ഇതാ",
+   "new": "അബൂഹുറൈറൊ! ഇതാ",
+   "why": "print has ൊ-ending vocative (അബൂഹുറൈറൊ), JSON has റാ; ൊ vs ോ glyph slightly ambiguous"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 10,
+   "hadith_no": 20,
+   "note": "print seems to read 'അബൂഹുറൈറെയോ?' (not 'അബൂഹുറൈറയോ?') in first quoted question and maybe 'അബൂഹുറൈറെയെ' later; could not resolve at this resolution"
+  },
+  {
+   "pdf_page": "8-16",
+   "hadith_no": null,
+   "note": "Arabic harakat: print appears to leave many narrator-chain/short phrases less vowelled than JSON (e.g. h18 'عن النعمان بن بشير', h19 'عن سعيد بن المسيب ... عن أبيه', h20 'كنا قعودا', h22/h23/h29 chains, h31 'عن محمود بن الربيع'). Could not verify mark-by-mark; Arabic harakat not corrected"
+  },
+  {
+   "pdf_page": "1-7",
+   "hadith_no": null,
+   "note": "images could not be viewed (media removed); p003 'ഇടയൻമാരായ' NOT verified; p007 only hadiths 15-17 glanced, not full page"
+  }
+ ]
+}

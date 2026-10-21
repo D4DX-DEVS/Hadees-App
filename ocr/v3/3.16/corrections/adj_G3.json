@@ -1,0 +1,324 @@
+{
+ "part": "3.16",
+ "pages_checked": [
+  65,
+  66,
+  67,
+  70,
+  71,
+  74,
+  77,
+  78,
+  79,
+  80,
+  81,
+  83,
+  84,
+  85,
+  86,
+  87,
+  89,
+  90,
+  91,
+  93,
+  95,
+  96
+ ],
+ "corrections": [
+  {
+   "pdf_page": 66,
+   "block": 6,
+   "old": "مُحَمَّدٌ، وَاللَّهِ",
+   "new": "مُحَمَّدٌ، وَافَقَ وَاللَّهِ",
+   "why": "print has وافق after محمد، (line 2 start)"
+  },
+  {
+   "pdf_page": 67,
+   "block": 5,
+   "old": "ചൊരിപിടിച്ച",
+   "new": "ചൊറിപിടിച്ച",
+   "why": "print ചൊറിപിടിച്ച"
+  },
+  {
+   "pdf_page": 70,
+   "block": 11,
+   "old": "കടന്നിരുന്നുള്ളു.",
+   "new": "കടന്നിരുന്നുള്ളൂ.",
+   "why": "print ends with ൂ (same curl as ലൂ in താലൂത്)"
+  },
+  {
+   "pdf_page": 71,
+   "block": 10,
+   "old": "തന്റെ കച്ചവടത്തിന്റെ ആദ്യ",
+   "new": "തന്റെ കച്ചവട സംഘത്തെ പകലിന്റെ ആദ്യ",
+   "why": "print: 'കച്ചവട-സംഘത്തെ പകലിന്റെ ആദ്യ സമയത്തായിരുന്നു'"
+  },
+  {
+   "pdf_page": 74,
+   "block": 1,
+   "old": "അങ് ചിരിച്ചത്",
+   "new": "അങ്ങ് ചിരിച്ചത്",
+   "why": "print അങ്ങ്"
+  },
+  {
+   "pdf_page": 77,
+   "block": 13,
+   "old": "ഒരിടത്ത് താമസിക്കാനിറങ്ങിയാൽ പറയേണ്ടത്",
+   "new": "",
+   "why": "heading Malayalam is printed at TOP of p78 (above hadith 265), not on p77 bottom; p77 bottom has only the Arabic bab line"
+  },
+  {
+   "pdf_page": 78,
+   "block": 1,
+   "old": "അവൻ ജനിക്കുന്ന",
+   "new": "അവന് ജനിക്കുന്ന",
+   "why": "print അവന് (chandrakkala)"
+  },
+  {
+   "pdf_page": 78,
+   "block": 11,
+   "old": "കുതിരയുടെ ശ്രേഷ്ഠത",
+   "new": "",
+   "why": "horse-chapter Malayalam heading is printed at top of p79, not on p78 bottom"
+  },
+  {
+   "pdf_page": 80,
+   "block": 1,
+   "old": "സച്ചരിതത്വത്തിനു",
+   "new": "സച്ചരിതത്ത്വത്തിനു",
+   "why": "print shows double ത്ത before the ്വ hook (…രിത|ത്ത|്വ|ത്തിനു)"
+  },
+  {
+   "pdf_page": 81,
+   "block": 1,
+   "old": "ഞങ്ങളുടെ തോട്ടത്തിൽ",
+   "new": "ഞങ്ങളടെ തോട്ടത്തിൽ",
+   "why": "print ഞങ്ങളടെ (printed typo, no ു)"
+  },
+  {
+   "pdf_page": 83,
+   "block": 3,
+   "old": "ഉൾപ്പെടുത്തണേ",
+   "new": "ഉൾപെടുത്തണേ",
+   "why": "print ഉൾപെടുത്തണേ (single പ)"
+  },
+  {
+   "pdf_page": 85,
+   "block": 2,
+   "old": "മുത്വലിബ്(റ)ക്ക്",
+   "new": "മുത്ത്വലിബ്(റ)ക്ക്",
+   "why": "print മുത്ത്വലിബ്"
+  },
+  {
+   "pdf_page": 86,
+   "block": 6,
+   "old": "സൂക്ഷിക്കുന്നില്ലേയോ",
+   "new": "സൂക്ഷിക്കുന്നില്ലെയോ",
+   "why": "print ല്ലെയോ (short െ)"
+  },
+  {
+   "pdf_page": 87,
+   "block": 6,
+   "old": "തെളിച്ചുകൊണ്ടുപോകപ്പെട്ടപ്പോൾ",
+   "new": "തെളിച്ചുകൊണ്ട് പോകപ്പെട്ടപ്പോൾ",
+   "why": "print line ends 'തെളിച്ചുകൊണ്ട്' and next line starts 'പോകപ്പെട്ടപ്പോൾ' (word break at line wrap, no hyphen)"
+  },
+  {
+   "pdf_page": 89,
+   "block": 7,
+   "old": "യോധാക്കളോടൊപ്പമുണ്ടായിരുന്ന",
+   "new": "യോദ്ധാക്കളോടൊപ്പമുണ്ടായിരുന്ന",
+   "why": "print യോദ്ധാക്കൾ (ദ്ധ ligature like യുദ്ധത്തിലെ)"
+  },
+  {
+   "pdf_page": 90,
+   "block": 9,
+   "old": "ആരാമതായി",
+   "new": "ആറാമതായി",
+   "why": "print ആറാമതായി"
+  },
+  {
+   "pdf_page": 91,
+   "block": 4,
+   "old": "عَنِ النَّبِيِّ قَالَ",
+   "new": "عَنِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَالَ",
+   "why": "print has the salawat after النبي (h.316)"
+  },
+  {
+   "pdf_page": 91,
+   "block": 5,
+   "old": "ഹുസൈൻ(റ):",
+   "new": "ഹുസ്വൈൻ(റ):",
+   "why": "print ഹുസ്വൈൻ (ൈ + സ + ്വ)"
+  },
+  {
+   "pdf_page": 91,
+   "block": 7,
+   "old": "ഹുസൈൻ(റ):",
+   "new": "ഹുസ്വൈൻ(റ):",
+   "why": "print ഹുസ്വൈൻ"
+  },
+  {
+   "pdf_page": 93,
+   "block": 14,
+   "old": "الرَّحْمَنِ.",
+   "new": "الرَّحْمَانِ.",
+   "why": "print الرحمان with full alef"
+  },
+  {
+   "pdf_page": 93,
+   "block": 13,
+   "old": "മേഖലയില്ല",
+   "new": "മേഘലയില്ല",
+   "why": "print മേഘലയില്ല (ഘ)"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 78,
+   "note": "Item 66: Malayalam heading 'ഒരിടത്ത് താമസിക്കാനിറങ്ങിയാൽ പറയേണ്ടത്' is printed as a centred underlined heading at TOP of p78 (above hadith 265); p78 JSON has no block for it (needs insertion; bab Arabic is on p77 bottom block 13)"
+  },
+  {
+   "pdf_page": 79,
+   "note": "Item 69: Malayalam heading 'കുതിരയുടെ ശ്രേഷ്ഠത' is printed as centred underlined heading at TOP of p79 (above hadith 270); p79 JSON has no block for it (needs insertion after p78 removal)"
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 56,
+   "print": "A"
+  },
+  {
+   "idx": 57,
+   "print": "B"
+  },
+  {
+   "idx": 58,
+   "print": "B"
+  },
+  {
+   "idx": 59,
+   "print": "A"
+  },
+  {
+   "idx": 60,
+   "print": "B"
+  },
+  {
+   "idx": 61,
+   "print": "A"
+  },
+  {
+   "idx": 62,
+   "print": "B"
+  },
+  {
+   "idx": 63,
+   "print": "B"
+  },
+  {
+   "idx": 64,
+   "print": "A"
+  },
+  {
+   "idx": 65,
+   "print": "B"
+  },
+  {
+   "idx": 66,
+   "print": "B"
+  },
+  {
+   "idx": 67,
+   "print": "B"
+  },
+  {
+   "idx": 68,
+   "print": "B"
+  },
+  {
+   "idx": 69,
+   "print": "B"
+  },
+  {
+   "idx": 70,
+   "print": "B"
+  },
+  {
+   "idx": 71,
+   "print": "B"
+  },
+  {
+   "idx": 72,
+   "print": "B"
+  },
+  {
+   "idx": 73,
+   "print": "A"
+  },
+  {
+   "idx": 74,
+   "print": "A"
+  },
+  {
+   "idx": 75,
+   "print": "A"
+  },
+  {
+   "idx": 76,
+   "print": "B"
+  },
+  {
+   "idx": 77,
+   "print": "B"
+  },
+  {
+   "idx": 78,
+   "print": "B"
+  },
+  {
+   "idx": 79,
+   "print": "B"
+  },
+  {
+   "idx": 80,
+   "print": "B"
+  },
+  {
+   "idx": 81,
+   "print": "B"
+  },
+  {
+   "idx": 82,
+   "print": "B"
+  },
+  {
+   "idx": 83,
+   "print": "A"
+  },
+  {
+   "idx": 84,
+   "print": "B"
+  },
+  {
+   "idx": 85,
+   "print": "B"
+  },
+  {
+   "idx": 86,
+   "print": "B"
+  },
+  {
+   "idx": 87,
+   "print": "A"
+  },
+  {
+   "idx": 88,
+   "print": "A"
+  },
+  {
+   "idx": 89,
+   "print": "A"
+  }
+ ]
+}

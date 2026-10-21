@@ -1,0 +1,82 @@
+{
+ "part": "4.17",
+ "pages_checked": [
+  16,
+  17,
+  18,
+  21,
+  22
+ ],
+ "corrections": [
+  {
+   "pdf_page": 16,
+   "block": 0,
+   "old": "നിങ്ങൾ ഭക്ഷിക്കുകയും സൂക്ഷിച്ചു",
+   "new": "നിങ്ങൽ ഭക്ഷിക്കുകയും സൂക്ഷിച്ചു",
+   "why": "print has ൽ (printed typo)"
+  },
+  {
+   "pdf_page": 17,
+   "block": 7,
+   "old": "ഉള്ഹിയ്യത്തിന്റെ",
+   "new": "ഉള്ഹിയത്തിന്റെ",
+   "why": "print has single യ"
+  },
+  {
+   "pdf_page": 17,
+   "block": 10,
+   "old": "ഉള്ഹിയ്യത്ത്",
+   "new": "ഉള്ഹിയത്ത്",
+   "why": "print has single യ; അറുക്കേണ്ടെ ടെ as ours"
+  },
+  {
+   "pdf_page": 18,
+   "block": 4,
+   "old": "അല്ലെങ്കിൽ എന്റെ അയൽവാസികളെയും",
+   "new": "അല്ലെങ്കിൽ എന്റെ കുടുംബത്തെയും എന്റെ അയൽവാസികളെയും",
+   "why": "print has extra words"
+  },
+  {
+   "pdf_page": 18,
+   "block": 4,
+   "old": "കുടിക്കുന്ന ഒട്ടകമെനിക്കുണ്ട്",
+   "new": "കുടിക്കുന്ന ഒരു ഒട്ടകമെനിക്കുണ്ട്",
+   "why": "print has ഒരു"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "B"
+  },
+  {
+   "idx": 1,
+   "print": "A"
+  },
+  {
+   "idx": 2,
+   "print": "B"
+  },
+  {
+   "idx": 3,
+   "print": "other"
+  },
+  {
+   "idx": 4,
+   "print": "B"
+  },
+  {
+   "idx": 5,
+   "print": "B"
+  },
+  {
+   "idx": 6,
+   "print": "A"
+  },
+  {
+   "idx": 7,
+   "print": "A"
+  }
+ ]
+}

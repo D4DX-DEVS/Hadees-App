@@ -1,0 +1,403 @@
+{
+ "part": "3.5",
+ "pages_checked": [
+  1,
+  3,
+  5,
+  6,
+  20,
+  23,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  8,
+  9,
+  11,
+  15,
+  18
+ ],
+ "corrections": [
+  {
+   "pdf_page": 3,
+   "block": 12,
+   "old": "أَبِي هُرَيْرَةَ",
+   "new": "أَبِى هُرَيْرَةَ",
+   "why": "print shows undotted final ya in hadith 13 isnad"
+  },
+  {
+   "pdf_page": 3,
+   "block": 5,
+   "old": "അബ്ദുറ്‌റഹ്മാനിബ്നു",
+   "new": "അബ്ദുർറഹ്മാനിബ്നു",
+   "why": "print ർറ"
+  },
+  {
+   "pdf_page": 5,
+   "block": 6,
+   "old": "يَشْتِمُونَنَا",
+   "new": "يَشْتِمُونَا",
+   "why": "print single nun"
+  },
+  {
+   "pdf_page": 5,
+   "block": 6,
+   "old": "يَعِيبُونَنَا",
+   "new": "يَعِيبُونَا",
+   "why": "print single nun"
+  },
+  {
+   "pdf_page": 6,
+   "block": 1,
+   "old": "മര്യം(അ)മിന്റെ",
+   "new": "മർയം(അ)മിന്റെ",
+   "why": "print ർയ"
+  },
+  {
+   "pdf_page": 20,
+   "block": 7,
+   "old": "തന്റെയടുത്തുനിന്ന്",
+   "new": "തന്റയടുത്തുനിന്ന്",
+   "why": "print has no e-sign (author typo)"
+  },
+  {
+   "pdf_page": 23,
+   "block": 6,
+   "old": "زَرِيبَتِي",
+   "new": "زَرْبِيَّتِي",
+   "why": "print ز ر ب ي ت ي"
+  },
+  {
+   "pdf_page": 23,
+   "block": 6,
+   "old": "زَرِيبَةَ",
+   "new": "زَرْبِيَّةَ",
+   "why": "print ز ر ب ي ة"
+  },
+  {
+   "pdf_page": 37,
+   "block": 0,
+   "old": "സാക്ഷിതം",
+   "new": "സാക്ഷിത്വം",
+   "why": "print ത്വം ligature (same as നേതൃത്വം heading)"
+  },
+  {
+   "pdf_page": 38,
+   "block": 0,
+   "old": "َالَ: \\\"يَا بَ",
+   "new": "َالَ: \"يَا بَ",
+   "why": "spurious backslash; print has plain quote marks"
+  },
+  {
+   "pdf_page": 38,
+   "block": 0,
+   "old": "بُكِ\\\". فَ",
+   "new": "بُكِ\". فَ",
+   "why": "spurious backslash; print has plain quote marks"
+  },
+  {
+   "pdf_page": 38,
+   "block": 0,
+   "old": "مَ: \\\"مَنْ",
+   "new": "مَ: \"مَنْ",
+   "why": "spurious backslash; print has plain quote marks"
+  },
+  {
+   "pdf_page": 38,
+   "block": 0,
+   "old": "َعِي\\\". فَ",
+   "new": "َعِي\". فَ",
+   "why": "spurious backslash; print has plain quote marks"
+  },
+  {
+   "pdf_page": 38,
+   "block": 0,
+   "old": "َالَ: \\\"يَا عَ",
+   "new": "َالَ: \"يَا عَ",
+   "why": "spurious backslash; print has plain quote marks"
+  },
+  {
+   "pdf_page": 38,
+   "block": 0,
+   "old": "يْهِ\\\". فَ",
+   "new": "يْهِ\". فَ",
+   "why": "spurious backslash; print has plain quote marks"
+  },
+  {
+   "pdf_page": 39,
+   "block": 0,
+   "old": "ِي: \\\"يَا ",
+   "new": "ِي: \"يَا ",
+   "why": "spurious backslash; print has plain quote marks"
+  },
+  {
+   "pdf_page": 39,
+   "block": 0,
+   "old": "للهُ\\\". فَ",
+   "new": "للهُ\". فَ",
+   "why": "spurious backslash; print has plain quote marks"
+  },
+  {
+   "pdf_page": 39,
+   "block": 0,
+   "old": "لَ: \\\"يَا ",
+   "new": "لَ: \"يَا ",
+   "why": "spurious backslash; print has plain quote marks"
+  },
+  {
+   "pdf_page": 39,
+   "block": 0,
+   "old": "يْتِ\\\". فَ",
+   "new": "يْتِ\". فَ",
+   "why": "spurious backslash; print has plain quote marks"
+  },
+  {
+   "pdf_page": 40,
+   "block": 0,
+   "old": "മുഅത്വലുസ്സുലമീ",
+   "new": "മുഅത്ത്വലുസ്സുലമീ",
+   "why": "print ത്ത്വ"
+  },
+  {
+   "pdf_page": 40,
+   "block": 0,
+   "old": "മധ്യാഹ്നവിശ്രമത്തിന്",
+   "new": "മദ്ധ്യാഹ്നവിശ്രമത്തിന്",
+   "why": "print ദ്ധ്യ cluster"
+  },
+  {
+   "pdf_page": 40,
+   "block": 0,
+   "old": "അങ് പരിചാരികയെ",
+   "new": "അങ്ങ് പരിചാരികയെ",
+   "why": "print അങ്ങ്"
+  },
+  {
+   "pdf_page": 40,
+   "block": 0,
+   "old": "ച്: \\\"നിനക",
+   "new": "ച്: \"നിനക",
+   "why": "spurious backslash; print has plain quote marks"
+  },
+  {
+   "pdf_page": 40,
+   "block": 0,
+   "old": "ുണ്ട്?\\\" എന്ന്",
+   "new": "ുണ്ട്?\" എന്ന്",
+   "why": "spurious backslash; print has plain quote marks"
+  },
+  {
+   "pdf_page": 40,
+   "block": 0,
+   "old": "ട്: \\\"നിനക",
+   "new": "ട്: \"നിനക",
+   "why": "spurious backslash; print has plain quote marks"
+  },
+  {
+   "pdf_page": 40,
+   "block": 0,
+   "old": "ുണ്ട്?\\\" എന്നന",
+   "new": "ുണ്ട്?\" എന്നന",
+   "why": "spurious backslash; print has plain quote marks"
+  },
+  {
+   "pdf_page": 41,
+   "block": 0,
+   "old": "അങ് ഞങ്ങളോട്",
+   "new": "അങ്ങ് ഞങ്ങളോട്",
+   "why": "print അങ്ങ്"
+  },
+  {
+   "pdf_page": 42,
+   "block": 0,
+   "old": "അബൂബകർ(റ) പറഞ്ഞു: അതെ",
+   "new": "അബൂബക്കർ(റ) പറഞ്ഞു: അതെ",
+   "why": "print ബക്കർ here (earlier occurrence prints ബകർ)"
+  },
+  {
+   "pdf_page": 9,
+   "block": 1,
+   "old": "ഖഅ്ഖാളബ്നു",
+   "new": "ഖഅ്ഖാഉബ്നു",
+   "why": "print ഉ glyph"
+  },
+  {
+   "pdf_page": 9,
+   "block": 1,
+   "old": "അഖ്റളബ്നു",
+   "new": "അഖ്റഉബ്നു",
+   "why": "print ഉ glyph"
+  },
+  {
+   "pdf_page": 9,
+   "block": 4,
+   "old": "ഹാനിളബ്നു",
+   "new": "ഹാനിഉബ്നു",
+   "why": "print ഉ glyph"
+  },
+  {
+   "pdf_page": 15,
+   "block": 4,
+   "old": "ഇബ്നുഅബീഹദ്റദ്",
+   "new": "ഇബ്നുഅബീഹ്ദ്റദ്",
+   "why": "print has virama after ഹ"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "A"
+  },
+  {
+   "idx": 1,
+   "print": "B"
+  },
+  {
+   "idx": 2,
+   "print": "B"
+  },
+  {
+   "idx": 3,
+   "print": "A"
+  },
+  {
+   "idx": 4,
+   "print": "A"
+  },
+  {
+   "idx": 5,
+   "print": "B"
+  },
+  {
+   "idx": 6,
+   "print": "B"
+  },
+  {
+   "idx": 7,
+   "print": "B"
+  },
+  {
+   "idx": 8,
+   "print": "B"
+  },
+  {
+   "idx": 9,
+   "print": "B"
+  },
+  {
+   "idx": 10,
+   "print": "B"
+  },
+  {
+   "idx": 11,
+   "print": "B"
+  },
+  {
+   "idx": 12,
+   "print": "B"
+  },
+  {
+   "idx": 13,
+   "print": "B"
+  },
+  {
+   "idx": 14,
+   "print": "B"
+  },
+  {
+   "idx": 15,
+   "print": "B"
+  },
+  {
+   "idx": 16,
+   "print": "B"
+  },
+  {
+   "idx": 17,
+   "print": "B"
+  },
+  {
+   "idx": 18,
+   "print": "B"
+  },
+  {
+   "idx": 19,
+   "print": "B"
+  },
+  {
+   "idx": 20,
+   "print": "B"
+  },
+  {
+   "idx": 21,
+   "print": "B"
+  },
+  {
+   "idx": 22,
+   "print": "B"
+  },
+  {
+   "idx": 23,
+   "print": "B"
+  },
+  {
+   "idx": 24,
+   "print": "B"
+  },
+  {
+   "idx": 25,
+   "print": "B"
+  },
+  {
+   "idx": 26,
+   "print": "B"
+  },
+  {
+   "idx": 27,
+   "print": "B"
+  },
+  {
+   "idx": 28,
+   "print": "A"
+  },
+  {
+   "idx": 29,
+   "print": "B"
+  },
+  {
+   "idx": 30,
+   "print": "A"
+  },
+  {
+   "idx": 31,
+   "print": "B"
+  },
+  {
+   "idx": 32,
+   "print": "B"
+  },
+  {
+   "idx": 33,
+   "print": "B"
+  },
+  {
+   "idx": 34,
+   "print": "A"
+  },
+  {
+   "idx": 35,
+   "print": "A"
+  },
+  {
+   "idx": 36,
+   "print": "B"
+  },
+  {
+   "idx": 37,
+   "print": "A"
+  }
+ ]
+}

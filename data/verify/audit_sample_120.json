@@ -1,0 +1,2641 @@
+[
+ {
+  "id": 16094,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "stratum": "C_medium",
+  "best_match": {
+   "collection": "Sunan Ibn Majah",
+   "number": "927",
+   "word_overlap": 0.771
+  },
+  "cited_sources": [
+   "ജ"
+  ],
+  "our_narrator": "സാലിം(റ)"
+ },
+ {
+  "id": 13464,
+  "arabic_verdict": "variant",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "medium",
+  "match_note": "Ours has jussive 'yusalli' without final ya; legitimate grammatical form. Abu Dawud adds that the chain is munqati' (not in ours).",
+  "stratum": "C_medium",
+  "best_match": {
+   "collection": "Sunan Abi Dawud",
+   "number": "616",
+   "word_overlap": 0.84
+  },
+  "cited_sources": [
+   "ദ",
+   "ജ"
+  ],
+  "our_narrator": "മുഗീറത്തുബ്നു ശുഅ്ബ(റ)"
+ },
+ {
+  "id": 15760,
+  "arabic_verdict": "variant",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "minor_issue",
+  "malayalam_note": "The 'repentance is offered afterwards' clause is rendered awkwardly ('appears to Him'), but the ruling is not changed.",
+  "narrator_verdict": "agree",
+  "confidence": "medium",
+  "match_note": "Main text equals Nasa'i 4880; extra riwayat (khala'a ribqat al-Islam) are other legitimate narrations.",
+  "stratum": "D_low",
+  "best_match": {
+   "collection": "Sunan an-Nasa'i",
+   "number": "4880",
+   "word_overlap": 0.642
+  },
+  "cited_sources": [
+   "ന"
+  ],
+  "our_narrator": "അബൂഹുറൈറ(റ)"
+ },
+ {
+  "id": 16822,
+  "arabic_verdict": "variant",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "medium",
+  "match_note": "First narration matches Ibn Majah 940 (which itself notes Zuhr/Asr variant); second narration is the Bukhari/Muslim wording, abridged.",
+  "stratum": "E_unverified",
+  "best_match": {
+   "collection": "Sunan Ibn Majah",
+   "number": "940",
+   "word_overlap": 0.492
+  },
+  "cited_sources": [
+   "ബു",
+   "മു",
+   "ദ",
+   "തു",
+   "ന",
+   "ജ"
+  ],
+  "our_narrator": "ഇബ്നുബുഹൈന(റ)"
+ },
+ {
+  "id": 13927,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "wrong",
+  "malayalam_note": "Says 'Abbas' maternal aunt; Arabic is Ibn Abbas (her nephew), Abbas is his father.",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "stratum": "C_medium",
+  "best_match": {
+   "collection": "Sahih Muslim",
+   "number": "3331",
+   "word_overlap": 0.774
+  },
+  "cited_sources": [
+   "മു",
+   "ദ",
+   "തു",
+   "ജ"
+  ],
+  "our_narrator": "യസീദുബ്നുൽ അസമ്മ്(റ)"
+ },
+ {
+  "id": 13817,
+  "arabic_verdict": "variant",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "medium",
+  "match_note": "Second narration equals Nasa'i 3211 exactly; the first (passive 'uhilla lahu al-nisa') is a parallel wording (Tirmidhi/Nasa'i).",
+  "stratum": "E_unverified",
+  "best_match": {
+   "collection": "Sunan an-Nasa'i",
+   "number": "3211",
+   "word_overlap": 0.538
+  },
+  "cited_sources": [
+   "ന"
+  ],
+  "our_narrator": "ആഇശ(റ)"
+ },
+ {
+  "id": 4497,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "medium",
+  "match_note": "Ours is the Abu Umamah marfu' chain (second isnad in Ibn Majah, 'nahwahu' of the Qasim text).",
+  "stratum": "D_low",
+  "best_match": {
+   "collection": "Sunan Ibn Majah",
+   "number": "3592",
+   "word_overlap": 0.679
+  },
+  "cited_sources": [
+   "ജ"
+  ],
+  "our_narrator": "അബൂ ഉമാമത്(റ)"
+ },
+ {
+  "id": 12548,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "minor_issue",
+  "malayalam_note": "'da' li' (leave some for me) is rendered as 'give me (the vessel)'.",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "stratum": "C_medium",
+  "best_match": {
+   "collection": "Sahih Muslim",
+   "number": "637",
+   "word_overlap": 0.875
+  },
+  "cited_sources": [
+   "മു"
+  ],
+  "our_narrator": "ആഇശ(റ)"
+ },
+ {
+  "id": 268,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "stratum": "C_medium",
+  "best_match": {
+   "collection": "Jami at-Tirmidhi",
+   "number": "714",
+   "word_overlap": 0.875
+  },
+  "cited_sources": [
+   "തു"
+  ],
+  "our_narrator": "ഉമറുബ്നുൽ ഖത്താബ്(റ)"
+ },
+ {
+  "id": 937,
+  "arabic_verdict": "variant",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "medium",
+  "match_note": "Same Nafi'/Ibn Umar hadith; ours is the Bukhari variant with 'a man was brought' and 'said to his servant'. Exact Bukhari number may differ from 5179.",
+  "stratum": "C_medium",
+  "best_match": {
+   "collection": "Sahih al-Bukhari",
+   "number": "5179",
+   "word_overlap": 0.8
+  },
+  "cited_sources": [
+   "ബു"
+  ],
+  "our_narrator": "ഇബ്നുഉമർ(റ)"
+ },
+ {
+  "id": 16675,
+  "arabic_verdict": "variant",
+  "errors": [],
+  "match_verdict": "uncertain",
+  "malayalam_verdict": "minor_issue",
+  "malayalam_note": "Omits 'yajurru qusbahu' (dragging his intestines) from the Arabic.",
+  "narrator_verdict": "agree",
+  "confidence": "low",
+  "match_note": "Aisha eclipse hadith family; 1175 lacks 'yajurru qusbahu', so the exact number is not confirmed. Editorial opening 'dhukirat hadith' has a gender mismatch (likely 'dhakarat'), possible vowel slip.",
+  "stratum": "E_unverified",
+  "best_match": {
+   "collection": "Sahih al-Bukhari",
+   "number": "1175",
+   "word_overlap": 0.581
+  },
+  "cited_sources": [
+   "ബു"
+  ],
+  "our_narrator": "ഗ്രഹണസംഭവത്തക്കുറിച്ചുള്ള വിവരണം ആഇശ(റ)"
+ },
+ {
+  "id": 14191,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "stratum": "C_medium",
+  "best_match": {
+   "collection": "Sunan an-Nasa'i",
+   "number": "3452",
+   "word_overlap": 0.812
+  },
+  "cited_sources": [
+   "ന"
+  ],
+  "our_narrator": "ഖാസിമുബ്നു മുഹമ്മദ്(റ)"
+ },
+ {
+  "id": 14821,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "wrong",
+  "malayalam_note": "'al-qada' means judgeship, but Malayalam says 'ruling authority/ruler' (bharanadhikari), changing the subject of the warning.",
+  "narrator_verdict": "agree",
+  "confidence": "medium",
+  "stratum": "C_medium",
+  "best_match": {
+   "collection": "Jami at-Tirmidhi",
+   "number": "1338",
+   "word_overlap": 0.889
+  },
+  "cited_sources": [
+   "ദ",
+   "തു",
+   "ജ"
+  ],
+  "our_narrator": "അബൂഹുറൈറ(റ)"
+ },
+ {
+  "id": 15504,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "minor_issue",
+  "malayalam_note": "'ibn amma' (son of paternal aunt) rendered as paternal uncle's son; typo 'pradetthulla'.",
+  "narrator_verdict": "agree",
+  "confidence": "medium",
+  "match_note": "alt 2214 presumed duplicate numbering of the same text (not verified).",
+  "stratum": "B_high_but_check",
+  "best_match": {
+   "collection": "Sunan Ibn Majah",
+   "number": "4094",
+   "word_overlap": 0.975
+  },
+  "cited_sources": [
+   "ജ"
+  ],
+  "our_narrator": "അബ്ദുല്ലാഹിബ്നു സുബൈർ(റ)"
+ },
+ {
+  "id": 13768,
+  "arabic_verdict": "variant",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "medium",
+  "match_note": "Ours is the abridged form (as in Abu Dawud) of the longer Ibn Majah text; alt 2370 probably another Ibn Majah placement of the same hadith, not verified.",
+  "stratum": "C_medium",
+  "best_match": {
+   "collection": "Sunan Ibn Majah",
+   "number": "2474",
+   "word_overlap": 0.882
+  },
+  "cited_sources": [
+   "ദ",
+   "ജ"
+  ],
+  "our_narrator": "മിഖ്ദാം അബൂകരീമതുശ്ശാമി(റ)"
+ },
+ {
+  "id": 17452,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "stratum": "A_high",
+  "best_match": {
+   "collection": "Sunan Ibn Majah",
+   "number": "554",
+   "word_overlap": 0.903
+  },
+  "cited_sources": [
+   "ബു",
+   "മു",
+   "ദ",
+   "ന",
+   "ജ"
+  ],
+  "our_narrator": "അബ്ദുല്ലാഹിബ്നു സാഇബ്(റ)"
+ },
+ {
+  "id": 15268,
+  "arabic_verdict": "variant",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "minor_issue",
+  "malayalam_note": "Omits 'wa la ribhu ma lam yudman' (profit from what is not guaranteed), present in Tirmidhi/Abu Dawud/Nasa'i; omitted in both our Arabic and Malayalam.",
+  "narrator_verdict": "agree",
+  "confidence": "medium",
+  "match_note": "Abridged by the book or dropped in transcription; consistent in both languages.",
+  "stratum": "D_low",
+  "best_match": {
+   "collection": "Jami at-Tirmidhi",
+   "number": "1242",
+   "word_overlap": 0.692
+  },
+  "cited_sources": [
+   "ദ",
+   "തു",
+   "ന",
+   "ജ"
+  ],
+  "our_narrator": "അബ്ദുല്ലാഹിബ്നു അംറ്(റ)"
+ },
+ {
+  "id": 12657,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "minor_issue",
+  "malayalam_note": "Garbled subject: says 'I put his mouth where I put mine' (Arabic: he put his mouth where I had); question also drops 'with her husband'.",
+  "narrator_verdict": "agree",
+  "confidence": "medium",
+  "match_note": "alt 280 likely same text at another Nasa'i location (duplicates_ok, not verified).",
+  "stratum": "B_high_but_check",
+  "best_match": {
+   "collection": "Sunan an-Nasa'i",
+   "number": "377",
+   "word_overlap": 0.922
+  },
+  "cited_sources": [
+   "മു",
+   "ദ",
+   "ന",
+   "ജ"
+  ],
+  "our_narrator": "ശുറൈഹ്(റ)"
+ },
+ {
+  "id": 3626,
+  "arabic_verdict": "different_hadith",
+  "errors": [],
+  "match_verdict": "wrong",
+  "malayalam_verdict": "uncertain",
+  "malayalam_note": "Best match is an unrelated hadith (straightening rows); Malayalam meaning of 'tadhnub' cannot be verified.",
+  "narrator_verdict": "unknown",
+  "confidence": "low",
+  "stratum": "E_unverified",
+  "best_match": {
+   "collection": "Sunan an-Nasa'i",
+   "number": "816",
+   "word_overlap": 0.5
+  },
+  "cited_sources": [
+   "ന"
+  ],
+  "our_narrator": "അനസ്(റ)"
+ },
+ {
+  "id": 12542,
+  "arabic_verdict": "variant",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "minor_issue",
+  "malayalam_note": "Narrator name transliterated 'Ulaif' instead of Ghudayf.",
+  "narrator_verdict": "agree",
+  "confidence": "medium",
+  "match_note": "406 duplicates_ok (same text, second Nasa'i placement); ours has the 'kullu dhalika kana' wording of Muslim/Abu Dawud.",
+  "stratum": "B_high_but_check",
+  "best_match": {
+   "collection": "Sunan an-Nasa'i",
+   "number": "224",
+   "word_overlap": 0.957
+  },
+  "cited_sources": [
+   "ന"
+  ],
+  "our_narrator": "ഉളൈഫ്ബ്നു ഹാരിസ്(റ)"
+ },
+ {
+  "id": 13250,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "stratum": "A_high",
+  "best_match": {
+   "collection": "Sahih Muslim",
+   "number": "1901",
+   "word_overlap": 0.9
+  },
+  "cited_sources": [
+   "മു"
+  ],
+  "our_narrator": "അബീ വാഇൽ(റ)"
+ },
+ {
+  "id": 3003,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "wrong",
+  "malayalam_note": "Dinar is gold but Malayalam says 'silver coin'; second riwayah is rendered as the Prophet not saying it rather than the narration not mentioning it.",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "stratum": "D_low",
+  "best_match": {
+   "collection": "Sunan Abi Dawud",
+   "number": "1577",
+   "word_overlap": 0.741
+  },
+  "cited_sources": [
+   "ദ",
+   "തു",
+   "ന",
+   "ജ"
+  ],
+  "our_narrator": "മുആദ്(റ)"
+ },
+ {
+  "id": 12128,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "stratum": "C_medium",
+  "best_match": {
+   "collection": "Sahih Muslim",
+   "number": "453",
+   "word_overlap": 0.889
+  },
+  "cited_sources": [
+   "മു"
+  ],
+  "our_narrator": "ഉസ്മാനുബ്നു അഫ്ഫാൻ(റ)"
+ },
+ {
+  "id": 17574,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "wrong",
+  "malayalam_note": "'Rukbatahu' (two knees) rendered as 'kaimuttukal' (elbows).",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "stratum": "C_medium",
+  "best_match": {
+   "collection": "Sunan Ibn Majah",
+   "number": "619",
+   "word_overlap": 0.889
+  },
+  "cited_sources": [
+   "മു",
+   "ദ",
+   "തു",
+   "ന",
+   "ജ"
+  ],
+  "our_narrator": "അബ്ബാസുബ്നു അബ്ദുൽ മുത്തലിബ്(റ)"
+ },
+ {
+  "id": 15486,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "stratum": "C_medium",
+  "best_match": {
+   "collection": "Sunan an-Nasa'i",
+   "number": "3939",
+   "word_overlap": 0.897
+  },
+  "cited_sources": [
+   "ന"
+  ],
+  "our_narrator": "ഇബ്നുഉമർ(റ)"
+ },
+ {
+  "id": 589,
+  "arabic_verdict": "variant",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "medium",
+  "match_note": "Abu Dawud 1837 has 'min da'' ; the 'min waja'' wording is from Bukhari/Muslim; same hadith.",
+  "stratum": "D_low",
+  "best_match": {
+   "collection": "Sunan Abi Dawud",
+   "number": "1837",
+   "word_overlap": 0.63
+  },
+  "cited_sources": [
+   "ബു",
+   "മു",
+   "ദ",
+   "തു",
+   "ന",
+   "ജ"
+  ],
+  "our_narrator": "ഇബ്നു അബ്ബാസ്(റ)"
+ },
+ {
+  "id": 15995,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "minor_issue",
+  "malayalam_note": "Adds 'to the mosque' and renders 'estimated his recitation' as estimating his standing.",
+  "narrator_verdict": "agree",
+  "confidence": "medium",
+  "stratum": "D_low",
+  "best_match": {
+   "collection": "Sunan Abi Dawud",
+   "number": "1188",
+   "word_overlap": 0.687
+  },
+  "cited_sources": [
+   "ദ"
+  ],
+  "our_narrator": "ആഇശ(റ)"
+ },
+ {
+  "id": 16440,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "Minor typo 'ottappurath' (camel's back).",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "stratum": "D_low",
+  "best_match": {
+   "collection": "Sunan Ibn Majah",
+   "number": "1020",
+   "word_overlap": 0.7
+  },
+  "cited_sources": [
+   "ദ",
+   "ന",
+   "ജ"
+  ],
+  "our_narrator": "നുബൈത്ത്(റ)"
+ },
+ {
+  "id": 16220,
+  "arabic_verdict": "variant",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "match_note": "Main text equals Abu Dawud 1358; second riwayah (eight rak'ahs then five Witr) is the Muslim wording.",
+  "stratum": "D_low",
+  "best_match": {
+   "collection": "Sunan Abi Dawud",
+   "number": "1358",
+   "word_overlap": 0.729
+  },
+  "cited_sources": [
+   "ബു",
+   "മു",
+   "ദ",
+   "ന"
+  ],
+  "our_narrator": "ഇബ്നുഅബ്ബാസ്(റ)"
+ },
+ {
+  "id": 2888,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "minor_issue",
+  "malayalam_note": "'Fuluwwahu aw fasilahu' (colt or young camel) rendered as 'child'.",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "stratum": "A_high",
+  "best_match": {
+   "collection": "Sunan Ibn Majah",
+   "number": "1576",
+   "word_overlap": 0.918
+  },
+  "cited_sources": [
+   "ബു",
+   "മു",
+   "തു",
+   "ന",
+   "ജ"
+  ],
+  "our_narrator": "അബുഹുറൈറ(റ)"
+ },
+ {
+  "id": 13781,
+  "arabic_verdict": "variant",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "differs",
+  "confidence": "medium",
+  "note": "Book names Aswad bin Hilal (a tabi'i) first; companion is Tha'labah bin Zahdam. Nasa'i 4844 matches only the second riwaya (wording differs slightly: 'ala ukhra' vs 'ala al-ukhra'); first riwaya is another Nasa'i entry.",
+  "stratum": "E_unverified",
+  "best_match": {
+   "collection": "Sunan an-Nasa'i",
+   "number": "4844",
+   "word_overlap": 0.456
+  },
+  "cited_sources": [
+   "ന",
+   "ജ"
+  ],
+  "our_narrator": "നബി(സ)യോട് സഹവസിച്ചിട്ടുള്ള അസ്വദുബ്നുൽ ഹിലാൽ(റ)"
+ },
+ {
+  "id": 17283,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "minor_issue",
+  "malayalam_note": "The question 'Shall I not send you...' is rendered as a statement ('I assign you'), and tamthal/tamasa are rendered as idol / break rather than image / obliterate.",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "stratum": "A_high",
+  "best_match": {
+   "collection": "Sahih Muslim",
+   "number": "2129",
+   "word_overlap": 0.919
+  },
+  "cited_sources": [
+   "മു",
+   "ദ",
+   "തു",
+   "ന"
+  ],
+  "our_narrator": "അബുൽ ഹയ്യാജ് അൽ അസദിയ്യ്(റ)"
+ },
+ {
+  "id": 4401,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "note": "Collection English grades it Maudu'; book only says isnad has inqita.",
+  "stratum": "C_medium",
+  "best_match": {
+   "collection": "Sunan Ibn Majah",
+   "number": "4342",
+   "word_overlap": 0.889
+  },
+  "cited_sources": [
+   "ജ"
+  ],
+  "our_narrator": "ജാബിർ(റ)"
+ },
+ {
+  "id": 17546,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "stratum": "C_medium",
+  "best_match": {
+   "collection": "Sunan an-Nasa'i",
+   "number": "1042",
+   "word_overlap": 0.889
+  },
+  "cited_sources": [
+   "ബു",
+   "മു",
+   "ദ",
+   "തു",
+   "ന"
+  ],
+  "our_narrator": "അലി(റ)"
+ },
+ {
+  "id": 945,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "stratum": "C_medium",
+  "best_match": {
+   "collection": "Sunan Ibn Majah",
+   "number": "2999",
+   "word_overlap": 0.878
+  },
+  "cited_sources": [
+   "ജ"
+  ],
+  "our_narrator": "അബ്ദുല്ലാഹിബ്നു ബുസ്ർ(റ)"
+ },
+ {
+  "id": 13466,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "duplicates_ok",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "medium",
+  "note": "Alt number 618 could not be verified; presumed same text.",
+  "stratum": "B_high_but_check",
+  "best_match": {
+   "collection": "Sunan Abi Dawud",
+   "number": "61",
+   "word_overlap": 1.0
+  },
+  "cited_sources": [
+   "ദ",
+   "തു",
+   "ജ"
+  ],
+  "our_narrator": "അലി(റ)"
+ },
+ {
+  "id": 16116,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "duplicates_ok",
+  "malayalam_verdict": "wrong",
+  "malayalam_note": "Malayalam inserts '(witr)' as the prayer the Prophet slept through and says 'dawn' instead of sunrise; Arabic says only 'the prayer' until the sun rose.",
+  "narrator_verdict": "differs",
+  "confidence": "medium",
+  "note": "Nasa'i chain: Ibrahim from his father Muhammad bin al-Muntashir (the one in the mosque), book says al-Muntashir bin al-Ajda'; Arabic spells 'ajda'' without the article. Alt 614 unverified.",
+  "stratum": "B_high_but_check",
+  "best_match": {
+   "collection": "Sunan an-Nasa'i",
+   "number": "1690",
+   "word_overlap": 0.902
+  },
+  "cited_sources": [
+   "ന"
+  ],
+  "our_narrator": "മുൻതശിറുബ്നുൽ അജ്ദഅ്(റ)"
+ },
+ {
+  "id": 17290,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "medium",
+  "note": "Nasa'i 2023 matches the first riwaya verbatim; the extra riwayat (wounds at Uhud, shortened version) are further Nasa'i narrations not checked.",
+  "stratum": "E_unverified",
+  "best_match": {
+   "collection": "Sunan an-Nasa'i",
+   "number": "2023",
+   "word_overlap": 0.4
+  },
+  "cited_sources": [
+   "ന"
+  ],
+  "our_narrator": "ഹിശാമുബിനു ആമിർ(റ)"
+ },
+ {
+  "id": 3957,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "stratum": "C_medium",
+  "best_match": {
+   "collection": "Sunan Ibn Majah",
+   "number": "3348",
+   "word_overlap": 0.842
+  },
+  "cited_sources": [
+   "ദ",
+   "ന",
+   "ജ"
+  ],
+  "our_narrator": "ആഇശ(റ)"
+ },
+ {
+  "id": 16290,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "minor_issue",
+  "malayalam_note": "Third riwaya 'nashusa afwahana bis-siwak' (rub our mouths with the siwak) loses the word 'mouths'.",
+  "narrator_verdict": "agree",
+  "confidence": "medium",
+  "note": "Nasa'i 1626 matches first riwaya verbatim; the other two riwayat are from Muslim/Abu Dawud, not checked.",
+  "stratum": "E_unverified",
+  "best_match": {
+   "collection": "Sunan an-Nasa'i",
+   "number": "1626",
+   "word_overlap": 0.39
+  },
+  "cited_sources": [
+   "മു",
+   "ദ",
+   "ന"
+  ],
+  "our_narrator": "ഹുദൈഫ(റ)"
+ },
+ {
+  "id": 12892,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "stratum": "C_medium",
+  "best_match": {
+   "collection": "Sunan Ibn Majah",
+   "number": "449",
+   "word_overlap": 0.864
+  },
+  "cited_sources": [
+   "ജ"
+  ],
+  "our_narrator": "ബിലാൽ(റ)"
+ },
+ {
+  "id": 11978,
+  "arabic_verdict": "transcription_error",
+  "errors": [
+   {
+    "ours": "شَغَفَ الْجِبَالِ",
+    "expected": "شَعَفَ الْجِبَالِ",
+    "note": "ghayn typed instead of ayn (sha'af = mountain tops)"
+   }
+  ],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "note": "Bukhari number 6823 follows the database's own numbering; text matches clearly.",
+  "stratum": "B_high_but_check",
+  "best_match": {
+   "collection": "Sahih al-Bukhari",
+   "number": "6823",
+   "word_overlap": 0.97
+  },
+  "cited_sources": [
+   "ബു",
+   "ന"
+  ],
+  "our_narrator": "അബൂസഇൗദ്(റ)"
+ },
+ {
+  "id": 17627,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "note": "Minor typo in Malayalam ('ഇന്നവനും ഇന്നവും').",
+  "stratum": "A_high",
+  "best_match": {
+   "collection": "Sunan Ibn Majah",
+   "number": "633",
+   "word_overlap": 0.962
+  },
+  "cited_sources": [
+   "ബു",
+   "മു",
+   "ദ",
+   "ന",
+   "ജ"
+  ],
+  "our_narrator": "ഇബ്നുമസ്ഊദ്(റ)"
+ },
+ {
+  "id": 2935,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "minor_issue",
+  "malayalam_note": "Questions about horses and donkeys are phrased as 'one who does not pay the zakat/duty on horses/donkeys' though Arabic only asks 'what about horses/donkeys?'; 'sharaf' (hill/stretch) rendered as 'feet'.",
+  "narrator_verdict": "agree",
+  "confidence": "medium",
+  "note": "Only the visible part of the collection text was compared (tail truncated); 'fa-yura sabiluh' vs ours 'fa-yara sabilah' is a vowel-only difference.",
+  "stratum": "A_high",
+  "best_match": {
+   "collection": "Sahih Muslim",
+   "number": "2175",
+   "word_overlap": 0.986
+  },
+  "cited_sources": [
+   "മു"
+  ],
+  "our_narrator": "അബൂഹുറൈറ(റ)"
+ },
+ {
+  "id": 16661,
+  "arabic_verdict": "variant",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "wrong",
+  "malayalam_note": "Translates 'athar' as lineage (parampara) though it means footprint/gait, 'maq'ad' (cripple) as 'kept back from battle', 'I did not walk/stand on them' as 'I never passed that way', and garbles Ghazwan al-Shami's name.",
+  "narrator_verdict": "differs",
+  "confidence": "medium",
+  "note": "Abu Dawud 707 covers only the Ghazwan riwaya; first riwaya (Yazid bin Nimran) is a separate Abu Dawud entry. Third riwaya in our Arabic omits 'qata'a salatana', also absent in Malayalam (book abridgement likely). Narrators: Yazid vs Sa'id bin Ghazwan from his father.",
+  "stratum": "E_unverified",
+  "best_match": {
+   "collection": "Sunan Abi Dawud",
+   "number": "707",
+   "word_overlap": 0.567
+  },
+  "cited_sources": [
+   "ദ"
+  ],
+  "our_narrator": "യസീദുബ്നു നിംറാൻ(റ)"
+ },
+ {
+  "id": 16120,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "minor_issue",
+  "malayalam_note": "'Tulu al-fajr' (daybreak) rendered as 'udayam', which can be read as sunrise.",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "stratum": "A_high",
+  "best_match": {
+   "collection": "Sunan Abi Dawud",
+   "number": "1419",
+   "word_overlap": 1.0
+  },
+  "cited_sources": [
+   "ദ",
+   "തു",
+   "ജ"
+  ],
+  "our_narrator": "ഖാരിജതുബ്നു ഹുദാഫതുൽ അദവി(റ)"
+ },
+ {
+  "id": 17149,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "stratum": "C_medium",
+  "best_match": {
+   "collection": "Sunan Ibn Majah",
+   "number": "1236",
+   "word_overlap": 0.857
+  },
+  "cited_sources": [
+   "ജ"
+  ],
+  "our_narrator": "ഉസ്മാനുബ്നു അഫാൻ(റ)"
+ },
+ {
+  "id": 16763,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "medium",
+  "note": "Muslim 7308 matches first riwaya (via Abu Said's son); second riwaya (hand over mouth) is another Muslim entry.",
+  "stratum": "D_low",
+  "best_match": {
+   "collection": "Sahih Muslim",
+   "number": "7308",
+   "word_overlap": 0.629
+  },
+  "cited_sources": [
+   "ബു",
+   "മു",
+   "ദ",
+   "തു",
+   "ന"
+  ],
+  "our_narrator": "അബൂസഈദിൽ ഖുദ്രി(റ)"
+ },
+ {
+  "id": 15357,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "stratum": "D_low",
+  "best_match": {
+   "collection": "Sunan an-Nasa'i",
+   "number": "4514",
+   "word_overlap": 0.724
+  },
+  "cited_sources": [
+   "ന"
+  ],
+  "our_narrator": "ഇബ്നുഉമർ(റ)"
+ },
+ {
+  "id": 4051,
+  "arabic_verdict": "variant",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "medium",
+  "note": "Nasa'i 5233 matches the second riwaya (with 'min kulli al-mal', 'min ayyi al-mal' omitted in ours); first riwaya is another Nasa'i entry.",
+  "stratum": "E_unverified",
+  "best_match": {
+   "collection": "Sunan an-Nasa'i",
+   "number": "5233",
+   "word_overlap": 0.5
+  },
+  "cited_sources": [
+   "ന"
+  ],
+  "our_narrator": "മാലികുബ്നു നള്ല(റ)"
+ },
+ {
+  "id": 12211,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "stratum": "A_high",
+  "best_match": {
+   "collection": "Sunan an-Nasa'i",
+   "number": "129",
+   "word_overlap": 1.0
+  },
+  "cited_sources": [
+   "ന"
+  ],
+  "our_narrator": "അലി(റ)"
+ },
+ {
+  "id": 5039,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "stratum": "C_medium",
+  "best_match": {
+   "collection": "Sunan an-Nasa'i",
+   "number": "5513",
+   "word_overlap": 0.88
+  },
+  "cited_sources": [
+   "ന"
+  ],
+  "our_narrator": "ആഇശ(റ)"
+ },
+ {
+  "id": 16062,
+  "arabic_verdict": "variant",
+  "errors": [],
+  "match_verdict": "duplicates_ok",
+  "malayalam_verdict": "minor_issue",
+  "malayalam_note": "Companion's name Abza is spelled with 'sa' (Abs-a) instead of 'za'.",
+  "narrator_verdict": "agree",
+  "confidence": "medium",
+  "note": "Book merges riwayat ('tawwala', 'yarfa'u sawtahu') versus Nasa'i 'yamuddu sawtahu thumma yarfa'u'; alt 1737 presumed same text with another chain.",
+  "stratum": "D_low",
+  "best_match": {
+   "collection": "Sunan an-Nasa'i",
+   "number": "1758",
+   "word_overlap": 0.649
+  },
+  "cited_sources": [
+   "ന"
+  ],
+  "our_narrator": "അബ്ദുറഹ്മാനുബ്നു അബ്സ(റ)"
+ },
+ {
+  "id": 12525,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "duplicates_ok",
+  "malayalam_verdict": "wrong",
+  "malayalam_note": "'Fa-jamaha Musa bi-ithrihi' (Moses ran after it) is rendered as Moses 'knelt' (mutt kuthi ninnu).",
+  "narrator_verdict": "agree",
+  "confidence": "medium",
+  "note": "Alt 5990 presumed duplicate text in the same collection; unverified.",
+  "stratum": "B_high_but_check",
+  "best_match": {
+   "collection": "Sahih Muslim",
+   "number": "675",
+   "word_overlap": 0.962
+  },
+  "cited_sources": [
+   "മു"
+  ],
+  "our_narrator": "അബൂഹുറൈറ(റ)"
+ },
+ {
+  "id": 15182,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "duplicates_ok",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "note": "Bukhari repeats this text; numbers follow the database's own scheme.",
+  "stratum": "B_high_but_check",
+  "best_match": {
+   "collection": "Sahih al-Bukhari",
+   "number": "2141",
+   "word_overlap": 0.946
+  },
+  "cited_sources": [
+   "ബു"
+  ],
+  "our_narrator": "അബൂഹുറൈറ(റ)"
+ },
+ {
+  "id": 273,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "stratum": "C_medium",
+  "best_match": {
+   "collection": "Sunan Abi Dawud",
+   "number": "2459",
+   "word_overlap": 0.839
+  },
+  "cited_sources": [
+   "ബു",
+   "മു",
+   "ദ",
+   "തു"
+  ],
+  "our_narrator": "അബൂഹുറൈറ(റ)"
+ },
+ {
+  "id": 13127,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "wrong",
+  "malayalam_note": "Companion's name Usamah bin Umayr is rendered as 'Usamah bin Amir' (Amir instead of Umayr).",
+  "narrator_verdict": "agree",
+  "confidence": "medium",
+  "note": "Abu Dawud 1060 matches the second (Hudaybiyyah) riwaya verbatim; first riwaya (Hunayn rain) is a separate Abu Dawud/Nasa'i/Ibn Majah entry.",
+  "stratum": "E_unverified",
+  "best_match": {
+   "collection": "Sunan Abi Dawud",
+   "number": "1060",
+   "word_overlap": 0.522
+  },
+  "cited_sources": [
+   "ദ",
+   "ന",
+   "ജ"
+  ],
+  "our_narrator": "ഉസാമതുബ്നു അമീർ(റ)"
+ },
+ {
+  "id": 14146,
+  "arabic_verdict": "variant",
+  "errors": [],
+  "match_verdict": "uncertain",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "medium",
+  "note": "Same Ibn Umar divorce hadith but wording ('thumma yumsikuha hatta tahida haydatan wa tatuhur', 'kama anzala Allah') differs from Muslim 3534; likely Tirmidhi/Nasa'i wording, so Muslim 3534 is not the exact narration.",
+  "stratum": "E_unverified",
+  "best_match": {
+   "collection": "Sahih Muslim",
+   "number": "3534",
+   "word_overlap": 0.543
+  },
+  "cited_sources": [
+   "ബു",
+   "മു",
+   "തു"
+  ],
+  "our_narrator": "അബ്ദുല്ലാഹിബ്നു ഉമർ(റ)"
+ },
+ {
+  "id": 16166,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "stratum": "C_medium",
+  "best_match": {
+   "collection": "Sunan Ibn Majah",
+   "number": "1073",
+   "word_overlap": 0.885
+  },
+  "cited_sources": [
+   "ജ"
+  ],
+  "our_narrator": "ജാബിർ(റ)"
+ },
+ {
+  "id": 255,
+  "arabic_verdict": "variant",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "minor_issue",
+  "malayalam_note": "'Kunna nusafir ma sha'a Allah' (we travelled for a long while) is rendered vaguely as 'travelling somewhere'.",
+  "narrator_verdict": "unknown",
+  "confidence": "medium",
+  "note": "Nasa'i 2285 matches the second riwaya verbatim; the collection's chain gives an unnamed father (of a Balharish man) rather than Ibn al-Shikhkhir; first riwaya is another Nasa'i entry.",
+  "stratum": "E_unverified",
+  "best_match": {
+   "collection": "Sunan an-Nasa'i",
+   "number": "2285",
+   "word_overlap": 0.541
+  },
+  "cited_sources": [
+   "ന"
+  ],
+  "our_narrator": "അബ്ദുല്ലാഹിബ്നു ശിഖ്ഖീർ(റ)"
+ },
+ {
+  "id": 13285,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "stratum": "C_medium",
+  "best_match": {
+   "collection": "Sunan Abi Dawud",
+   "number": "1074",
+   "word_overlap": 0.893
+  },
+  "cited_sources": [
+   "ദ",
+   "ജ"
+  ],
+  "our_narrator": "അബൂഹുറൈറ(റ)"
+ },
+ {
+  "id": 13232,
+  "arabic_verdict": "variant",
+  "errors": [],
+  "match_verdict": "duplicates_ok",
+  "malayalam_verdict": "minor_issue",
+  "malayalam_note": "Name rendered 'ഹുരിയത്ത്' instead of Hurayth (ഹുറൈസ്).",
+  "narrator_verdict": "agree",
+  "confidence": "medium",
+  "arabic_note": "Matn identical. Our chain 'Amr b. Hurayth from his father' differs from Ibn Majah 'Ja'far b. Amr b. Hurayth from his father'; Muslim has Amr directly. Likely book abridgment of chain; 3320 probably same text in clothing chapter (uncertain).",
+  "stratum": "C_medium",
+  "best_match": {
+   "collection": "Sunan Ibn Majah",
+   "number": "838",
+   "word_overlap": 0.864
+  },
+  "cited_sources": [
+   "മു",
+   "ദ",
+   "ജ"
+  ],
+  "our_narrator": "അംറുബ്നു ഹുരിയത്ത്(റ)"
+ },
+ {
+  "id": 2523,
+  "arabic_verdict": "transcription_error",
+  "errors": [
+   {
+    "ours": "ببَابٌ",
+    "expected": "بِبَابِ",
+    "note": "garbled OCR of 'at the door of'"
+   },
+   {
+    "ours": "عَلَيْكَ السَّلَامُ وَعَلَى أَبِيكَ السَّلَامُ",
+    "expected": "عَلَيْكَ وَعَلَى أَبِيكَ السَّلَامُ",
+    "note": "extra السلام; wording differs from Abu Dawud 5233 (may be another wording)"
+   }
+  ],
+  "match_verdict": "correct",
+  "malayalam_verdict": "minor_issue",
+  "malayalam_note": "'ബാബുൽ ഹസൻ' reads like a place name; it means 'the door of (al-)Hasan [al-Basri]'.",
+  "narrator_verdict": "unknown",
+  "confidence": "medium",
+  "stratum": "C_medium",
+  "best_match": {
+   "collection": "Sunan Abi Dawud",
+   "number": "5233",
+   "word_overlap": 0.833
+  },
+  "cited_sources": [
+   "ദ"
+  ],
+  "our_narrator": "ഗാലിബുബ്നു ഖിതാഫിൽ ബസ്വരി(റ)"
+ },
+ {
+  "id": 12930,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "stratum": "C_medium",
+  "best_match": {
+   "collection": "Sunan an-Nasa'i",
+   "number": "636",
+   "word_overlap": 0.844
+  },
+  "cited_sources": [
+   "ബു",
+   "മു",
+   "ദ",
+   "തു",
+   "ന",
+   "ജ"
+  ],
+  "our_narrator": "മാലികുബ്നുൽ ഹുവൈരിസ്(റ)"
+ },
+ {
+  "id": 16097,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "minor_issue",
+  "malayalam_note": "Weakness remark is attributed to Ibn Majah, but it is the book compiler's comment, not in the collection text.",
+  "narrator_verdict": "agree",
+  "confidence": "medium",
+  "stratum": "D_low",
+  "best_match": {
+   "collection": "Sunan Ibn Majah",
+   "number": "935",
+   "word_overlap": 0.684
+  },
+  "cited_sources": [
+   "ജ"
+  ],
+  "our_narrator": "ഇബ്നുഅബ്ബാസ്(റ)"
+ },
+ {
+  "id": 14129,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "stratum": "C_medium",
+  "best_match": {
+   "collection": "Sunan an-Nasa'i",
+   "number": "3314",
+   "word_overlap": 0.808
+  },
+  "cited_sources": [
+   "ന"
+  ],
+  "our_narrator": "ഉമ്മുൽഫള്ല്(റ)"
+ },
+ {
+  "id": 16588,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "wrong",
+  "malayalam_note": "Question about 'staying in Makkah' became 'prayer during stay', muhajir (emigrant) became 'traveller', and '(shorten prayer)' was added; not in the Arabic.",
+  "narrator_verdict": "agree",
+  "confidence": "medium",
+  "stratum": "C_medium",
+  "best_match": {
+   "collection": "Sunan Ibn Majah",
+   "number": "807",
+   "word_overlap": 0.816
+  },
+  "cited_sources": [
+   "ബു",
+   "മു",
+   "തു",
+   "ന",
+   "ജ"
+  ],
+  "our_narrator": "അബ്ദുർറഹ്മാനുബ്നു ഹുമൈദുസ്സുഹ്രി(റ)"
+ },
+ {
+  "id": 271,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "stratum": "B_high_but_check",
+  "best_match": {
+   "collection": "Sahih al-Bukhari",
+   "number": "1889",
+   "word_overlap": 0.922
+  },
+  "cited_sources": [
+   "ബു"
+  ],
+  "our_narrator": "മുഅവ്വിദിന്റെ മകൾ റുബയ്യിഅ്(റ)"
+ },
+ {
+  "id": 1136,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "minor_issue",
+  "malayalam_note": "Passive 'it was offered to us' rendered as the Prophet giving it to us.",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "stratum": "C_medium",
+  "best_match": {
+   "collection": "Sunan Ibn Majah",
+   "number": "3034",
+   "word_overlap": 0.88
+  },
+  "cited_sources": [
+   "ജ"
+  ],
+  "our_narrator": "അസ്മാഅ് ബിൻതു യസീദ്(റ)"
+ },
+ {
+  "id": 16575,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "minor_issue",
+  "malayalam_note": "'جوف الليل' (middle of the night) rendered as 'last hours of the journey'.",
+  "narrator_verdict": "agree",
+  "confidence": "medium",
+  "match_note": "Text is the last part of Bukhari 1060; alt 1077 likely another numbering/duplicate of same narration (uncertain).",
+  "stratum": "B_high_but_check",
+  "best_match": {
+   "collection": "Sahih al-Bukhari",
+   "number": "1060",
+   "word_overlap": 1.0
+  },
+  "cited_sources": [
+   "ബു"
+  ],
+  "our_narrator": "അബ്ദുല്ലാഹിബ്നു ഉമർ(റ)"
+ },
+ {
+  "id": 2789,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "minor_issue",
+  "malayalam_note": "Typo 'അപ്രകാം'; 'that' (ذلك) refers to a preceding context not given, so meaning is unresolved.",
+  "narrator_verdict": "agree",
+  "confidence": "low",
+  "match_note": "Text identical to Abu Dawud 4869 but fragment depends on the preceding hadith; Bukhari citation not verified.",
+  "stratum": "D_low",
+  "best_match": {
+   "collection": "Sunan Abi Dawud",
+   "number": "4869",
+   "word_overlap": 0.7
+  },
+  "cited_sources": [
+   "ബു",
+   "ദ"
+  ],
+  "our_narrator": "സഈദുബ്നു മുസയ്യബ്(റ)"
+ },
+ {
+  "id": 16606,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "minor_issue",
+  "malayalam_note": "Camel name Qaswa' rendered 'ഖുസ്വാ'; otherwise faithful.",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "match_note": "alt 657 probably same text elsewhere in Nasa'i (uncertain).",
+  "stratum": "B_high_but_check",
+  "best_match": {
+   "collection": "Sunan an-Nasa'i",
+   "number": "606",
+   "word_overlap": 0.948
+  },
+  "cited_sources": [
+   "ന"
+  ],
+  "our_narrator": "ജാബിറുബ്നു അബ്ദില്ല(റ)"
+ },
+ {
+  "id": 13357,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "stratum": "C_medium",
+  "best_match": {
+   "collection": "Sunan Ibn Majah",
+   "number": "708",
+   "word_overlap": 0.84
+  },
+  "cited_sources": [
+   "ജ"
+  ],
+  "our_narrator": "ജാബിറുബ്നു അബ്ദില്ല(റ)"
+ },
+ {
+  "id": 13119,
+  "arabic_verdict": "transcription_error",
+  "errors": [
+   {
+    "ours": "جُوثَاءَ",
+    "expected": "جُوَاثَاءَ",
+    "note": "letters transposed in place name Juwatha"
+   }
+  ],
+  "match_verdict": "correct",
+  "malayalam_verdict": "minor_issue",
+  "malayalam_note": "Place name rendered 'ജൗസാഅ്' following the wrong spelling; should be Juwatha (ജുവാഥാ).",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "stratum": "C_medium",
+  "best_match": {
+   "collection": "Sunan Abi Dawud",
+   "number": "1069",
+   "word_overlap": 0.868
+  },
+  "cited_sources": [
+   "ബു",
+   "ദ"
+  ],
+  "our_narrator": "ഇബ്നുഅബ്ബാസ്(റ)"
+ },
+ {
+  "id": 2670,
+  "arabic_verdict": "variant",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "minor_issue",
+  "malayalam_note": "Name of the Prophet's she-camel al-Adba' rendered as plural 'ear-cut animals'; story otherwise preserved.",
+  "narrator_verdict": "agree",
+  "confidence": "medium",
+  "arabic_note": "Second riwaya (يرتفع) is a Bukhari wording.",
+  "stratum": "D_low",
+  "best_match": {
+   "collection": "Sunan Abi Dawud",
+   "number": "4804",
+   "word_overlap": 0.678
+  },
+  "cited_sources": [
+   "ബു",
+   "ദ"
+  ],
+  "our_narrator": "അനസ്(റ)"
+ },
+ {
+  "id": 3920,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "stratum": "C_medium",
+  "best_match": {
+   "collection": "Jami at-Tirmidhi",
+   "number": "1824",
+   "word_overlap": 0.789
+  },
+  "cited_sources": [
+   "തു",
+   "ന"
+  ],
+  "our_narrator": "മുഗീറത്തുബ്നു ശുഅ്ബ(റ)"
+ },
+ {
+  "id": 16344,
+  "arabic_verdict": "variant",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "medium",
+  "arabic_note": "Added riwaya 'ثم ليطول بعد ما شاء' is Muslim's wording.",
+  "stratum": "E_unverified",
+  "best_match": {
+   "collection": "Sunan Abi Dawud",
+   "number": "1324",
+   "word_overlap": 0.543
+  },
+  "cited_sources": [
+   "മു",
+   "ദ"
+  ],
+  "our_narrator": "അബൂഹുറൈറ(റ)"
+ },
+ {
+  "id": 15533,
+  "arabic_verdict": "variant",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "medium",
+  "arabic_note": "'تحوّل' vs 'يحوَّل' is a Bukhari variant wording.",
+  "stratum": "B_high_but_check",
+  "best_match": {
+   "collection": "Sahih al-Bukhari",
+   "number": "2293",
+   "word_overlap": 0.991
+  },
+  "cited_sources": [
+   "ബു"
+  ],
+  "our_narrator": "അബൂദർറ്(റ)"
+ },
+ {
+  "id": 16243,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "stratum": "C_medium",
+  "best_match": {
+   "collection": "Sunan Abi Dawud",
+   "number": "1312",
+   "word_overlap": 0.893
+  },
+  "cited_sources": [
+   "മു",
+   "ദ"
+  ],
+  "our_narrator": "അബൂഹുറൈറ"
+ },
+ {
+  "id": 13284,
+  "arabic_verdict": "variant",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "medium",
+  "arabic_note": "First part identical to Abu Dawud 1072; second 'وفي رواية' part not in the supplied text (appears to be Abu Dawud 1071/Nasa'i), not verified here.",
+  "stratum": "E_unverified",
+  "best_match": {
+   "collection": "Sunan Abi Dawud",
+   "number": "1072",
+   "word_overlap": 0.557
+  },
+  "cited_sources": [
+   "ദ",
+   "ന"
+  ],
+  "our_narrator": "അതാഉബ്നു അബൂറബാഹ്(റ)"
+ },
+ {
+  "id": 17066,
+  "arabic_verdict": "different_hadith",
+  "errors": [],
+  "match_verdict": "wrong",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "match_note": "Best match (Tirmidhi 968) is about expiation of worries; ours is the 'best perfume is musk' hadith (likely Muslim/Abu Dawud/Tirmidhi elsewhere); needs re-matching.",
+  "stratum": "E_unverified",
+  "best_match": {
+   "collection": "Jami at-Tirmidhi",
+   "number": "968",
+   "word_overlap": 0.571
+  },
+  "cited_sources": [
+   "മു",
+   "ദ",
+   "തു"
+  ],
+  "our_narrator": "അബൂസഈദുൽ ഖുദ്രി(റ)"
+ },
+ {
+  "id": 11916,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "minor_issue",
+  "malayalam_note": "Malik's doubt between 'al-Haya' (rain) and 'al-Hayat' (life) omitted; only 'life' given.",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "stratum": "A_high",
+  "best_match": {
+   "collection": "Sahih al-Bukhari",
+   "number": "22",
+   "word_overlap": 0.968
+  },
+  "cited_sources": [
+   "ബു",
+   "മു"
+  ],
+  "our_narrator": "അബൂസഈദിൽ ഖുദ്രി(റ)"
+ },
+ {
+  "id": 3364,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "minor_issue",
+  "malayalam_note": "'I heard' added (found in a Muslim wording) and typo '.നന്മ'.",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "stratum": "C_medium",
+  "best_match": {
+   "collection": "Sahih Muslim",
+   "number": "6436",
+   "word_overlap": 0.824
+  },
+  "cited_sources": [
+   "മു",
+   "ദ",
+   "ജ"
+  ],
+  "our_narrator": "ജരീർ(റ)"
+ },
+ {
+  "id": 13057,
+  "arabic_verdict": "transcription_error",
+  "errors": [
+   {
+    "ours": "تَقُومَ الْعَمُودُ",
+    "expected": "يَقُومَ الْعَمُودُ",
+    "note": "verb should be masculine to agree with al-'amud"
+   }
+  ],
+  "match_verdict": "correct",
+  "malayalam_verdict": "minor_issue",
+  "malayalam_note": "'ഒരു പരിചപോലെ പൂർണ്ണമാകുന്നതുവരെ' misstates: prohibition lasts while the sun looks like a shield until it spreads/rises.",
+  "narrator_verdict": "agree",
+  "confidence": "medium",
+  "stratum": "B_high_but_check",
+  "best_match": {
+   "collection": "Sunan an-Nasa'i",
+   "number": "586",
+   "word_overlap": 0.96
+  },
+  "cited_sources": [
+   "ന"
+  ],
+  "our_narrator": "അംറുബ്നു അബസ(റ)"
+ },
+ {
+  "id": 13910,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "stratum": "B_high_but_check",
+  "best_match": {
+   "collection": "Jami at-Tirmidhi",
+   "number": "1119",
+   "word_overlap": 0.938
+  },
+  "cited_sources": [
+   "ബു",
+   "മു",
+   "തു",
+   "ന",
+   "ജ"
+  ],
+  "our_narrator": "അബൂമൂസൽ അശ്അരി(റ)"
+ },
+ {
+  "id": 4641,
+  "arabic_verdict": "transcription_error",
+  "errors": [
+   {
+    "ours": "كَالَّذِي نَقُولُ",
+    "expected": "كَالَّذِي تَقُولُ",
+    "note": "'as You say' not 'as we say'"
+   }
+  ],
+  "match_verdict": "correct",
+  "malayalam_verdict": "wrong",
+  "malayalam_note": "Follows the error: 'as we say' instead of 'as You (Allah) say'; also 'عشية عرفة' (afternoon/evening) rendered as 'night'.",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "stratum": "B_high_but_check",
+  "best_match": {
+   "collection": "Jami at-Tirmidhi",
+   "number": "3604",
+   "word_overlap": 0.937
+  },
+  "cited_sources": [
+   "തു"
+  ],
+  "our_narrator": "അലിയ്യുബ്നു അബീത്വാലിബ്(റ)"
+ },
+ {
+  "id": 14334,
+  "arabic_verdict": "variant",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "medium",
+  "stratum": "C_medium",
+  "best_match": {
+   "collection": "Sunan Abi Dawud",
+   "number": "2309",
+   "word_overlap": 0.885
+  },
+  "cited_sources": [
+   "ദ",
+   "ജ"
+  ],
+  "our_narrator": "അംറുബ്നുൽ ആസ്(റ)"
+ },
+ {
+  "id": 38,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "stratum": "A_high",
+  "best_match": {
+   "collection": "Sunan an-Nasa'i",
+   "number": "2137",
+   "word_overlap": 0.93
+  },
+  "cited_sources": [
+   "ന"
+  ],
+  "our_narrator": "ഇബ്നുഅബ്ബാസ്(റ)"
+ },
+ {
+  "id": 3682,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "stratum": "C_medium",
+  "best_match": {
+   "collection": "Sunan an-Nasa'i",
+   "number": "5723",
+   "word_overlap": 0.889
+  },
+  "cited_sources": [
+   "ന"
+  ],
+  "our_narrator": "മുസ്അബുബ്നു സഅദിബ്നു അബീവഖാസ്(റ)"
+ },
+ {
+  "id": 13420,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "stratum": "C_medium",
+  "best_match": {
+   "collection": "Sunan Abi Dawud",
+   "number": "679",
+   "word_overlap": 0.88
+  },
+  "cited_sources": [
+   "ദ"
+  ],
+  "our_narrator": "ആഇശ(റ)"
+ },
+ {
+  "id": 14861,
+  "arabic_verdict": "variant",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "medium",
+  "match_note": "Our text adds 'he wrote to his son' framing, core wording same as Abu Dawud 3589",
+  "stratum": "D_low",
+  "best_match": {
+   "collection": "Sunan Abi Dawud",
+   "number": "3589",
+   "word_overlap": 0.731
+  },
+  "cited_sources": [
+   "ദ"
+  ],
+  "our_narrator": "അബ്ദുല്ലാഹിബ്നു സുബൈർ(റ)"
+ },
+ {
+  "id": 3187,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "stratum": "A_high",
+  "best_match": {
+   "collection": "Jami at-Tirmidhi",
+   "number": "667",
+   "word_overlap": 0.952
+  },
+  "cited_sources": [
+   "മു",
+   "ദ",
+   "തു",
+   "ജ"
+  ],
+  "our_narrator": "ബുറൈദ(റ)"
+ },
+ {
+  "id": 2587,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "match_note": "Text matches Abu Dawud 4830; book also cites Bukhari/Muslim, not checked",
+  "stratum": "A_high",
+  "best_match": {
+   "collection": "Sunan Abi Dawud",
+   "number": "4830",
+   "word_overlap": 0.903
+  },
+  "cited_sources": [
+   "ബു",
+   "മു",
+   "ദ",
+   "തു"
+  ],
+  "our_narrator": "ഇബ്നുഉമർ(റ)"
+ },
+ {
+  "id": 13961,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "stratum": "A_high",
+  "best_match": {
+   "collection": "Sunan Ibn Majah",
+   "number": "1725",
+   "word_overlap": 1.0
+  },
+  "cited_sources": [
+   "ജ"
+  ],
+  "our_narrator": "ഹാരിസുബ്നു ഹിശാം(റ)"
+ },
+ {
+  "id": 15083,
+  "arabic_verdict": "variant",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "minor_issue",
+  "malayalam_note": "Sadaqa food rendered as 'zakat property'; first sentence not in Nasa'i 4613 (comes from another narration).",
+  "narrator_verdict": "agree",
+  "confidence": "medium",
+  "match_note": "4613 matches only the second narration",
+  "stratum": "E_unverified",
+  "best_match": {
+   "collection": "Sunan an-Nasa'i",
+   "number": "4613",
+   "word_overlap": 0.592
+  },
+  "cited_sources": [
+   "ന"
+  ],
+  "our_narrator": "ഹകീമുബ്നു ഹിസാം(റ)"
+ },
+ {
+  "id": 17639,
+  "arabic_verdict": "transcription_error",
+  "errors": [
+   {
+    "ours": "فَبَكَى",
+    "expected": "فَبَلَى",
+    "note": "OCR: 'balaa' (yes) misread as 'baka' (wept)"
+   }
+  ],
+  "match_verdict": "correct",
+  "malayalam_verdict": "wrong",
+  "malayalam_note": "Narrator name Musa written 'Musab'; 'and wept' is added from the Arabic error, source says he said 'Glory to You, yes (balaa)'.",
+  "narrator_verdict": "agree",
+  "confidence": "medium",
+  "stratum": "B_high_but_check",
+  "best_match": {
+   "collection": "Sunan Abi Dawud",
+   "number": "884",
+   "word_overlap": 0.972
+  },
+  "cited_sources": [
+   "ദ"
+  ],
+  "our_narrator": "മുസബ്നു അബീ ആഇശ(റ)"
+ },
+ {
+  "id": 4697,
+  "arabic_verdict": "variant",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "match_note": "tis'un vs tis'atun, grammatical variant (Muslim form)",
+  "stratum": "C_medium",
+  "best_match": {
+   "collection": "Jami at-Tirmidhi",
+   "number": "3625",
+   "word_overlap": 0.875
+  },
+  "cited_sources": [
+   "മു",
+   "തു",
+   "ജ"
+  ],
+  "our_narrator": "അബൂഹുറൈറ(റ)"
+ },
+ {
+  "id": 12980,
+  "arabic_verdict": "variant",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "match_note": "Zaid's first-person form as in other Bukhari narrations",
+  "stratum": "D_low",
+  "best_match": {
+   "collection": "Sahih al-Bukhari",
+   "number": "562",
+   "word_overlap": 0.727
+  },
+  "cited_sources": [
+   "ബു"
+  ],
+  "our_narrator": "അനസ്(റ)"
+ },
+ {
+  "id": 12672,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "medium",
+  "match_note": "alt 394 not verifiable; likely another numbering/duplicate, uncertain",
+  "stratum": "B_high_but_check",
+  "best_match": {
+   "collection": "Sunan an-Nasa'i",
+   "number": "1981",
+   "word_overlap": 0.903
+  },
+  "cited_sources": [
+   "ബു",
+   "ന"
+  ],
+  "our_narrator": "സമുറ(റ)"
+ },
+ {
+  "id": 15799,
+  "arabic_verdict": "variant",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "medium",
+  "match_note": "4914 matches first narration; second ('40 nights') is another narration",
+  "stratum": "E_unverified",
+  "best_match": {
+   "collection": "Sunan an-Nasa'i",
+   "number": "4914",
+   "word_overlap": 0.568
+  },
+  "cited_sources": [
+   "ന"
+  ],
+  "our_narrator": "അബൂഹുറൈറ(റ)"
+ },
+ {
+  "id": 4120,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "stratum": "C_medium",
+  "best_match": {
+   "collection": "Sunan an-Nasa'i",
+   "number": "5255",
+   "word_overlap": 0.811
+  },
+  "cited_sources": [
+   "ന"
+  ],
+  "our_narrator": "സഈദുബ്നുൽ മുസയ്യബ്(റ)"
+ },
+ {
+  "id": 17124,
+  "arabic_verdict": "variant",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "match_note": "Ours ends 'faqumu laha'; Muslim 2109 ends 'faqumu'",
+  "stratum": "C_medium",
+  "best_match": {
+   "collection": "Sahih Muslim",
+   "number": "2109",
+   "word_overlap": 0.889
+  },
+  "cited_sources": [
+   "ബു",
+   "മു",
+   "ദ",
+   "ന"
+  ],
+  "our_narrator": "ജാബിർ(റ)"
+ },
+ {
+  "id": 15908,
+  "arabic_verdict": "transcription_error",
+  "errors": [
+   {
+    "ours": "رَسُو لَ",
+    "expected": "رَسُولَ",
+    "note": "stray space splitting the word"
+   }
+  ],
+  "match_verdict": "correct",
+  "malayalam_verdict": "minor_issue",
+  "malayalam_note": "Says 'midnight' for 'last part of night'; translator's 22-minute gloss inserted.",
+  "narrator_verdict": "agree",
+  "confidence": "medium",
+  "stratum": "B_high_but_check",
+  "best_match": {
+   "collection": "Sunan Abi Dawud",
+   "number": "1278",
+   "word_overlap": 0.928
+  },
+  "cited_sources": [
+   "മു",
+   "ദ",
+   "തു",
+   "ജ"
+  ],
+  "our_narrator": "അംറുബ്നു അബസ(റ)"
+ },
+ {
+  "id": 2574,
+  "arabic_verdict": "variant",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "medium",
+  "match_note": "5028 matches first sentence; 'in prayer ... fal-yaktim' narration is separate",
+  "stratum": "D_low",
+  "best_match": {
+   "collection": "Sunan Abi Dawud",
+   "number": "5028",
+   "word_overlap": 0.677
+  },
+  "cited_sources": [
+   "ദ"
+  ],
+  "our_narrator": "അബൂസഈദിൽ ഖുദ്‌രി(റ)"
+ },
+ {
+  "id": 16435,
+  "arabic_verdict": "variant",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "medium",
+  "match_note": "Ours 'amarana' vs 'amara'; extra ending (Bilal) is from Bukhari",
+  "stratum": "A_high",
+  "best_match": {
+   "collection": "Sunan Abi Dawud",
+   "number": "1147",
+   "word_overlap": 0.915
+  },
+  "cited_sources": [
+   "ബു",
+   "ദ",
+   "ന"
+  ],
+  "our_narrator": "ഇബ്നുഅബ്ബാസ്(റ)"
+ },
+ {
+  "id": 12594,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "stratum": "C_medium",
+  "best_match": {
+   "collection": "Jami at-Tirmidhi",
+   "number": "146",
+   "word_overlap": 0.875
+  },
+  "cited_sources": [
+   "ദ",
+   "തു",
+   "ന",
+   "ജ"
+  ],
+  "our_narrator": "അലി(റ)"
+ },
+ {
+  "id": 16865,
+  "arabic_verdict": "variant",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "minor_issue",
+  "malayalam_note": "'Curse upon' rendered as optative 'let curse befall'; Arabic is a statement that the curse followed them.",
+  "narrator_verdict": "unknown",
+  "confidence": "low",
+  "match_note": "Abridged cross-reference to Bukhari; 511 contains same wording, exact Bukhari location uncertain",
+  "stratum": "D_low",
+  "best_match": {
+   "collection": "Sahih al-Bukhari",
+   "number": "511",
+   "word_overlap": 0.639
+  },
+  "cited_sources": [
+   "ബു"
+  ],
+  "our_narrator": null
+ },
+ {
+  "id": 12568,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "stratum": "C_medium",
+  "best_match": {
+   "collection": "Jami at-Tirmidhi",
+   "number": "140",
+   "word_overlap": 0.85
+  },
+  "cited_sources": [
+   "തു",
+   "ന",
+   "ദ",
+   "ജ",
+   "ബു",
+   "മു"
+  ],
+  "our_narrator": "അനസ്(റ)"
+ },
+ {
+  "id": 4058,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "medium",
+  "match_note": "alt 5227 not verifiable; probably duplicate text, uncertain",
+  "stratum": "B_high_but_check",
+  "best_match": {
+   "collection": "Sunan an-Nasa'i",
+   "number": "5301",
+   "word_overlap": 0.936
+  },
+  "cited_sources": [
+   "ന"
+  ],
+  "our_narrator": "ഇബ്നുഉമർ(റ)"
+ },
+ {
+  "id": 14929,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "minor_issue",
+  "malayalam_note": "'Yaadhi min' phrase ambiguous: who collected part of the price and who is 'this man' is unclear.",
+  "narrator_verdict": "agree",
+  "confidence": "medium",
+  "stratum": "C_medium",
+  "best_match": {
+   "collection": "Sunan Ibn Majah",
+   "number": "2095",
+   "word_overlap": 0.867
+  },
+  "cited_sources": [
+   "ജ"
+  ],
+  "our_narrator": "അബൂഹുറൈറ(റ)"
+ },
+ {
+  "id": 2938,
+  "arabic_verdict": "variant",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "minor_issue",
+  "malayalam_note": "Garbled phrase 'ethoru muzhuvan manushyarude' (every whole people) for 'any man'.",
+  "narrator_verdict": "agree",
+  "confidence": "medium",
+  "match_note": "Verse uses yahsabanna (Hafs), Nasa'i prints tahsabanna",
+  "stratum": "B_high_but_check",
+  "best_match": {
+   "collection": "Sunan an-Nasa'i",
+   "number": "2446",
+   "word_overlap": 0.913
+  },
+  "cited_sources": [
+   "ന",
+   "ജ"
+  ],
+  "our_narrator": "അബ്ദുല്ലാഹിബ്നു മസ്ഊദ്(റ)"
+ },
+ {
+  "id": 15096,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "stratum": "C_medium",
+  "best_match": {
+   "collection": "Sunan Abi Dawud",
+   "number": "3367",
+   "word_overlap": 0.857
+  },
+  "cited_sources": [
+   "ദ"
+  ],
+  "our_narrator": "ഇബ്നുഇസ്ഹാഖ്(റ)"
+ },
+ {
+  "id": 4062,
+  "arabic_verdict": "variant",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "medium",
+  "match_note": "5168 matches only the last narration; others from other Nasa'i numbers",
+  "stratum": "E_unverified",
+  "best_match": {
+   "collection": "Sunan an-Nasa'i",
+   "number": "5168",
+   "word_overlap": 0.178
+  },
+  "cited_sources": [
+   "ന"
+  ],
+  "our_narrator": "മുആവിയ(റ)"
+ },
+ {
+  "id": 16762,
+  "arabic_verdict": "different_hadith",
+  "errors": [],
+  "match_verdict": "wrong",
+  "malayalam_verdict": "minor_issue",
+  "malayalam_note": "Narrator name spelled 'Shakheer' rather than Shikhkhir.",
+  "narrator_verdict": "unknown",
+  "confidence": "medium",
+  "match_note": "Tirmidhi 3319 is Mu'adh's dream hadith; correct is Nasa'i 1214 / Abu Dawud 904 (not verified here)",
+  "stratum": "D_low",
+  "best_match": {
+   "collection": "Jami at-Tirmidhi",
+   "number": "3319",
+   "word_overlap": 0.607
+  },
+  "cited_sources": [
+   "തു",
+   "ന"
+  ],
+  "our_narrator": "അബ്ദുല്ലാഹിബ്നു ശഖീർ(റ)"
+ },
+ {
+  "id": 4049,
+  "arabic_verdict": "variant",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "stratum": "D_low",
+  "best_match": {
+   "collection": "Sunan an-Nasa'i",
+   "number": "5228",
+   "word_overlap": 0.609
+  },
+  "cited_sources": [
+   "ന"
+  ],
+  "our_narrator": "ഇബ്നുഉമർ(റ)"
+ },
+ {
+  "id": 12132,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "minor_issue",
+  "malayalam_note": "Order of 'drinks' and 'licks/inserts head' narrations swapped relative to Arabic; ruling unchanged.",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "stratum": "C_medium",
+  "best_match": {
+   "collection": "Sahih Muslim",
+   "number": "555",
+   "word_overlap": 0.769
+  },
+  "cited_sources": [
+   "ബു",
+   "മു",
+   "ന",
+   "ജ"
+  ],
+  "our_narrator": "അബൂഹുറൈറ(റ)"
+ },
+ {
+  "id": 3076,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "wrong",
+  "malayalam_note": "'Abu Salama's sons' rendered 'Banu Salama's children', and 'spend' rendered as 'give charity'.",
+  "narrator_verdict": "agree",
+  "confidence": "medium",
+  "match_note": "Text matches; number 1417 differs from usual Bukhari 1467, numbering scheme uncertain",
+  "stratum": "A_high",
+  "best_match": {
+   "collection": "Sahih al-Bukhari",
+   "number": "1417",
+   "word_overlap": 0.9
+  },
+  "cited_sources": [
+   "ബു"
+  ],
+  "our_narrator": "ഉമ്മുസലമ(റ)"
+ },
+ {
+  "id": 36,
+  "arabic_verdict": "variant",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "faithful",
+  "malayalam_note": "",
+  "narrator_verdict": "agree",
+  "confidence": "high",
+  "stratum": "E_unverified",
+  "best_match": {
+   "collection": "Sunan an-Nasa'i",
+   "number": "2138",
+   "word_overlap": 0.543
+  },
+  "cited_sources": [
+   "ന"
+  ],
+  "our_narrator": "ഇബ്നുഅബ്ബാസ്(റ)"
+ },
+ {
+  "id": 261,
+  "arabic_verdict": "variant",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "minor_issue",
+  "malayalam_note": "Place name spelled both Khudaid and Khadid.",
+  "narrator_verdict": "agree",
+  "confidence": "medium",
+  "match_note": "2292 matches first narration; others from other numbers",
+  "stratum": "E_unverified",
+  "best_match": {
+   "collection": "Sunan an-Nasa'i",
+   "number": "2292",
+   "word_overlap": 0.403
+  },
+  "cited_sources": [
+   "ന"
+  ],
+  "our_narrator": "ഇബ്നുഅബ്ബാസ്(റ)"
+ },
+ {
+  "id": 14097,
+  "arabic_verdict": "same",
+  "errors": [],
+  "match_verdict": "correct",
+  "malayalam_verdict": "minor_issue",
+  "malayalam_note": "General 'there is no ill omen' not stated; rendered as 'three things are not ill omens, sometimes good omens'.",
+  "narrator_verdict": "agree",
+  "confidence": "medium",
+  "stratum": "C_medium",
+  "best_match": {
+   "collection": "Sunan Ibn Majah",
+   "number": "1727",
+   "word_overlap": 0.889
+  },
+  "cited_sources": [
+   "ജ"
+  ],
+  "our_narrator": "മിഖ്മറുബ്നു മുആവിയ(റ)"
+ }
+]

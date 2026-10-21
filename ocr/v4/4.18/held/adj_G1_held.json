@@ -1,0 +1,151 @@
+{
+ "part": "4.18",
+ "pages_checked": [
+  2,
+  4,
+  5,
+  6,
+  8,
+  9,
+  14,
+  15,
+  16,
+  17,
+  19,
+  20
+ ],
+ "corrections": [
+  {
+   "pdf_page": 9,
+   "block": 3,
+   "old": "ഞാൻ ചോദിച്ചു: അവയുടെ കൂട്ടത്തിൽപെടാത്ത മറ്റൊരു നായകൾ",
+   "new": "ഞാൻ ചോദിച്ചു: നായകൾ",
+   "why": "phrase belongs after 'പറഞ്ഞു: \"' in print, not after 'ചോദിച്ചു:'"
+  },
+  {
+   "pdf_page": 9,
+   "block": 3,
+   "old": "\"നായ അവയുടെ കൂടെകൂടാത്ത",
+   "new": "\"അവയുടെ കൂട്ടത്തിൽപെടാത്ത മറ്റൊരു നായ അവയുടെ കൂടെകൂടാത്ത",
+   "why": "print has the phrase after 'പറഞ്ഞു: \"'"
+  },
+  {
+   "pdf_page": 9,
+   "block": 3,
+   "old": "അമ്പ് നീ എറിയുകയും, അമ്പിന്റെ",
+   "new": "അമ്പ് നീ എറിയുകയും, അല്ലാഹുവിന്റെ നാമം നീ ഉച്ചരിക്കുകയും, അമ്പിന്റെ",
+   "why": "omitted words present in print"
+  },
+  {
+   "pdf_page": 19,
+   "block": 9,
+   "old": "മൂർച്ചയുള്ള കല്ലോ",
+   "new": "മുർച്ചയുള്ള കല്ലോ",
+   "why": "print has short ു (open ring) in മുർച്ച"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 6,
+   "note": "idx4 അംറിൽ vs അംരിൽ: ര/റ not distinguishable with confidence (looks like ര); no correction"
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "A"
+  },
+  {
+   "idx": 1,
+   "print": "A"
+  },
+  {
+   "idx": 2,
+   "print": "A"
+  },
+  {
+   "idx": 3,
+   "print": "B"
+  },
+  {
+   "idx": 4,
+   "print": "uncertain"
+  },
+  {
+   "idx": 5,
+   "print": "A"
+  },
+  {
+   "idx": 6,
+   "print": "B"
+  },
+  {
+   "idx": 7,
+   "print": "A"
+  },
+  {
+   "idx": 8,
+   "print": "A"
+  },
+  {
+   "idx": 9,
+   "print": "B"
+  },
+  {
+   "idx": 10,
+   "print": "B"
+  },
+  {
+   "idx": 11,
+   "print": "B"
+  },
+  {
+   "idx": 12,
+   "print": "A"
+  },
+  {
+   "idx": 13,
+   "print": "B"
+  },
+  {
+   "idx": 14,
+   "print": "A"
+  },
+  {
+   "idx": 15,
+   "print": "A"
+  },
+  {
+   "idx": 16,
+   "print": "A"
+  },
+  {
+   "idx": 17,
+   "print": "A"
+  },
+  {
+   "idx": 18,
+   "print": "B"
+  },
+  {
+   "idx": 19,
+   "print": "A"
+  },
+  {
+   "idx": 20,
+   "print": "A"
+  },
+  {
+   "idx": 21,
+   "print": "A"
+  },
+  {
+   "idx": 22,
+   "print": "B"
+  },
+  {
+   "idx": 23,
+   "print": "A"
+  }
+ ]
+}

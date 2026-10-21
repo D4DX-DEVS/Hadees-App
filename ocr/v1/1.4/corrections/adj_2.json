@@ -1,0 +1,480 @@
+{
+ "part": "1.4",
+ "pages_checked": [
+  14,
+  24,
+  29,
+  30,
+  31,
+  38
+ ],
+ "corrections": [
+  {
+   "pdf_page": 14,
+   "block": 11,
+   "old": "അപ്പോൾ അദ്ദേഹം പാത്രം",
+   "new": "അപ്പോൾ അദ്ദഹം പാത്രം",
+   "why": "print has അദ്ദഹം (no േ)"
+  },
+  {
+   "pdf_page": 16,
+   "block": 4,
+   "old": "അത്ഭുതപ്പെടേണ്ടതില്ല,",
+   "new": "അത്ഭുതപ്പെടണ്ടതില്ല,",
+   "why": "print: പ്പെടണ്ട"
+  },
+  {
+   "pdf_page": 19,
+   "block": 6,
+   "old": "വെള്ളമാവശ്യപ്പെട്ടു.",
+   "new": "വെള്ളമാവശ്യപ്പട്ടു.",
+   "why": "print lacks െ"
+  },
+  {
+   "pdf_page": 22,
+   "block": 4,
+   "old": "വിശ്വാസ്ഥതയിൽ",
+   "new": "വിശ്വസ്ഥതയിൽ",
+   "why": "print: വിശ്വസ്ഥ"
+  },
+  {
+   "pdf_page": 24,
+   "block": 5,
+   "old": "الْمَاقَيْنِ",
+   "new": "الْمَأْقَيْنِ",
+   "why": "hamza on alef in print"
+  },
+  {
+   "pdf_page": 27,
+   "block": 1,
+   "old": "ശ്രദ്ധിക്കാത്തവന്)",
+   "new": "ശ്രദ്ധിക്കാത്തവന്ന്)",
+   "why": "print ത്തവന്ന്)"
+  },
+  {
+   "pdf_page": 27,
+   "block": 8,
+   "old": "ഇബ്റാഹീം",
+   "new": "ഇബ്രാഹീം",
+   "why": "print ഇബ്രാഹീം"
+  },
+  {
+   "pdf_page": 29,
+   "block": 8,
+   "old": "يَوْمًا؟",
+   "new": "يَوْمًا،",
+   "why": "Arabic comma in print"
+  },
+  {
+   "pdf_page": 29,
+   "block": 7,
+   "old": "മിസ്രിൽ",
+   "new": "മിസ്റിൽ",
+   "why": "print സ്റ"
+  },
+  {
+   "pdf_page": 30,
+   "block": 10,
+   "old": "حُبَيْشٍ",
+   "new": "جَيْشٍ",
+   "why": "print جيش"
+  },
+  {
+   "pdf_page": 30,
+   "block": 5,
+   "old": "\"മുഗീരാ,",
+   "new": "\"മുഗീറാ,",
+   "why": "print റ"
+  },
+  {
+   "pdf_page": 35,
+   "block": 5,
+   "old": "أَنَتَوَضَّأُ",
+   "new": "أَتَوَضَّأُ",
+   "why": "print أتوضأ"
+  },
+  {
+   "pdf_page": 35,
+   "block": 13,
+   "old": "(മാംസക്ഷണം)",
+   "new": "(മാംസക്കഷ്ണം)",
+   "why": "print ക്ക and ഷ്ണം"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 15,
+   "note": "item 3: വുദു vs വുദൂ - u/uu vowel sign (ു/ൂ) indistinguishable in scan; left as A, no correction"
+  },
+  {
+   "pdf_page": 16,
+   "note": "item 4: വുദൂഇന്റെ vs വുദുഇന്റെ - u/uu vowel sign (ു/ൂ) indistinguishable in scan; left as A, no correction"
+  },
+  {
+   "pdf_page": 17,
+   "note": "item 6: വുദു vs വുദൂ - u/uu vowel sign (ു/ൂ) indistinguishable in scan; left as A, no correction"
+  },
+  {
+   "pdf_page": 17,
+   "note": "item 7: വുദു vs വുദൂ - u/uu vowel sign (ു/ൂ) indistinguishable in scan; left as A, no correction"
+  },
+  {
+   "pdf_page": 18,
+   "note": "item 8: വുദു vs വുദൂ - u/uu vowel sign (ു/ൂ) indistinguishable in scan; left as A, no correction"
+  },
+  {
+   "pdf_page": 18,
+   "note": "item 9: വുദു vs വുദൂ - u/uu vowel sign (ു/ൂ) indistinguishable in scan; left as A, no correction"
+  },
+  {
+   "pdf_page": 20,
+   "note": "item 11: വുദു vs വുദൂ - u/uu vowel sign (ു/ൂ) indistinguishable in scan; left as A, no correction"
+  },
+  {
+   "pdf_page": 21,
+   "note": "item 12: വുദു vs വുദൂ - u/uu vowel sign (ു/ൂ) indistinguishable in scan; left as A, no correction"
+  },
+  {
+   "pdf_page": 22,
+   "note": "item 13: വുദു vs വുദൂ - u/uu vowel sign (ു/ൂ) indistinguishable in scan; left as A, no correction"
+  },
+  {
+   "pdf_page": 22,
+   "note": "item 16: വുദു vs വുദൂ - u/uu vowel sign (ു/ൂ) indistinguishable in scan; left as A, no correction"
+  },
+  {
+   "pdf_page": 25,
+   "note": "item 18: ചുണ്ടുവിരലുകൾ vs ചൂണ്ടുവിരലുകൾ - u/uu vowel sign (ു/ൂ) indistinguishable in scan; left as A, no correction"
+  },
+  {
+   "pdf_page": 25,
+   "note": "item 19: വുദു vs വുദൂ - u/uu vowel sign (ു/ൂ) indistinguishable in scan; left as A, no correction"
+  },
+  {
+   "pdf_page": 25,
+   "note": "item 20: വുദു vs വുദൂ - u/uu vowel sign (ു/ൂ) indistinguishable in scan; left as A, no correction"
+  },
+  {
+   "pdf_page": 26,
+   "note": "item 21: വുദു vs വുദൂ - u/uu vowel sign (ു/ൂ) indistinguishable in scan; left as A, no correction"
+  },
+  {
+   "pdf_page": 26,
+   "note": "item 22: വുദു. vs വുദൂ. - u/uu vowel sign (ു/ൂ) indistinguishable in scan; left as A, no correction"
+  },
+  {
+   "pdf_page": 29,
+   "note": "item 27: വുളു vs വുളൂ - u/uu vowel sign (ു/ൂ) indistinguishable in scan; left as A, no correction"
+  },
+  {
+   "pdf_page": 32,
+   "note": "item 34: വുദൂ vs വുദു - u/uu vowel sign (ു/ൂ) indistinguishable in scan; left as A, no correction"
+  },
+  {
+   "pdf_page": 33,
+   "note": "item 37: അബൂത്വാലിബിന്റെ vs അബുത്വാലിബിന്റെ - u/uu vowel sign (ു/ൂ) indistinguishable in scan; left as A, no correction"
+  },
+  {
+   "pdf_page": 33,
+   "note": "item 38: വുദു vs വുദൂ - u/uu vowel sign (ു/ൂ) indistinguishable in scan; left as A, no correction"
+  },
+  {
+   "pdf_page": 34,
+   "note": "item 40: വുദു vs വുദൂ - u/uu vowel sign (ു/ൂ) indistinguishable in scan; left as A, no correction"
+  },
+  {
+   "pdf_page": 34,
+   "note": "item 41: വുദു vs വുദൂ - u/uu vowel sign (ു/ൂ) indistinguishable in scan; left as A, no correction"
+  },
+  {
+   "pdf_page": 34,
+   "note": "item 42: വുദു vs വുദൂ - u/uu vowel sign (ു/ൂ) indistinguishable in scan; left as A, no correction"
+  },
+  {
+   "pdf_page": 34,
+   "note": "item 43: വുദു vs വുദൂ - u/uu vowel sign (ു/ൂ) indistinguishable in scan; left as A, no correction"
+  },
+  {
+   "pdf_page": 34,
+   "note": "item 44: വുദു vs വുദൂ - u/uu vowel sign (ു/ൂ) indistinguishable in scan; left as A, no correction"
+  },
+  {
+   "pdf_page": 35,
+   "note": "item 47: വുദു vs വുദൂ - u/uu vowel sign (ു/ൂ) indistinguishable in scan; left as A, no correction"
+  },
+  {
+   "pdf_page": 36,
+   "note": "item 50: വുദു vs വുദൂ - u/uu vowel sign (ു/ൂ) indistinguishable in scan; left as A, no correction"
+  },
+  {
+   "pdf_page": 36,
+   "note": "item 51: വുദു vs വുദൂ - u/uu vowel sign (ു/ൂ) indistinguishable in scan; left as A, no correction"
+  },
+  {
+   "pdf_page": 37,
+   "note": "item 52: വുദു vs വുദൂ - u/uu vowel sign (ു/ൂ) indistinguishable in scan; left as A, no correction"
+  },
+  {
+   "pdf_page": 37,
+   "note": "item 53: വുദു vs വുദൂ - u/uu vowel sign (ു/ൂ) indistinguishable in scan; left as A, no correction"
+  },
+  {
+   "pdf_page": 37,
+   "note": "item 54: വുദു vs വുദൂ - u/uu vowel sign (ു/ൂ) indistinguishable in scan; left as A, no correction"
+  },
+  {
+   "pdf_page": 37,
+   "note": "item 55: വുദു vs വുദൂ - u/uu vowel sign (ു/ൂ) indistinguishable in scan; left as A, no correction"
+  },
+  {
+   "pdf_page": 37,
+   "note": "item 56: വുദു vs വുദൂ - u/uu vowel sign (ു/ൂ) indistinguishable in scan; left as A, no correction"
+  },
+  {
+   "pdf_page": 37,
+   "note": "item 57: വുദൂ vs വുദു - u/uu vowel sign (ു/ൂ) indistinguishable in scan; left as A, no correction"
+  },
+  {
+   "pdf_page": 22,
+   "note": "item 15 (തന്റെ vs തന്റ): print shows no െ but maybe a trailing virama; no correction"
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "A"
+  },
+  {
+   "idx": 1,
+   "print": "A"
+  },
+  {
+   "idx": 2,
+   "print": "B"
+  },
+  {
+   "idx": 3,
+   "print": "A"
+  },
+  {
+   "idx": 4,
+   "print": "A"
+  },
+  {
+   "idx": 5,
+   "print": "B"
+  },
+  {
+   "idx": 6,
+   "print": "A"
+  },
+  {
+   "idx": 7,
+   "print": "A"
+  },
+  {
+   "idx": 8,
+   "print": "A"
+  },
+  {
+   "idx": 9,
+   "print": "A"
+  },
+  {
+   "idx": 10,
+   "print": "B"
+  },
+  {
+   "idx": 11,
+   "print": "A"
+  },
+  {
+   "idx": 12,
+   "print": "A"
+  },
+  {
+   "idx": 13,
+   "print": "A"
+  },
+  {
+   "idx": 14,
+   "print": "B"
+  },
+  {
+   "idx": 15,
+   "print": "A"
+  },
+  {
+   "idx": 16,
+   "print": "A"
+  },
+  {
+   "idx": 17,
+   "print": "B"
+  },
+  {
+   "idx": 18,
+   "print": "A"
+  },
+  {
+   "idx": 19,
+   "print": "A"
+  },
+  {
+   "idx": 20,
+   "print": "A"
+  },
+  {
+   "idx": 21,
+   "print": "A"
+  },
+  {
+   "idx": 22,
+   "print": "A"
+  },
+  {
+   "idx": 23,
+   "print": "B"
+  },
+  {
+   "idx": 24,
+   "print": "B"
+  },
+  {
+   "idx": 25,
+   "print": "B"
+  },
+  {
+   "idx": 26,
+   "print": "A"
+  },
+  {
+   "idx": 27,
+   "print": "A"
+  },
+  {
+   "idx": 28,
+   "print": "B"
+  },
+  {
+   "idx": 29,
+   "print": "A"
+  },
+  {
+   "idx": 30,
+   "print": "A"
+  },
+  {
+   "idx": 31,
+   "print": "B"
+  },
+  {
+   "idx": 32,
+   "print": "B"
+  },
+  {
+   "idx": 33,
+   "print": "A"
+  },
+  {
+   "idx": 34,
+   "print": "A"
+  },
+  {
+   "idx": 35,
+   "print": "A"
+  },
+  {
+   "idx": 36,
+   "print": "A"
+  },
+  {
+   "idx": 37,
+   "print": "A"
+  },
+  {
+   "idx": 38,
+   "print": "A"
+  },
+  {
+   "idx": 39,
+   "print": "A"
+  },
+  {
+   "idx": 40,
+   "print": "A"
+  },
+  {
+   "idx": 41,
+   "print": "A"
+  },
+  {
+   "idx": 42,
+   "print": "A"
+  },
+  {
+   "idx": 43,
+   "print": "A"
+  },
+  {
+   "idx": 44,
+   "print": "A"
+  },
+  {
+   "idx": 45,
+   "print": "A"
+  },
+  {
+   "idx": 46,
+   "print": "B"
+  },
+  {
+   "idx": 47,
+   "print": "A"
+  },
+  {
+   "idx": 48,
+   "print": "A"
+  },
+  {
+   "idx": 49,
+   "print": "B"
+  },
+  {
+   "idx": 50,
+   "print": "A"
+  },
+  {
+   "idx": 51,
+   "print": "A"
+  },
+  {
+   "idx": 52,
+   "print": "A"
+  },
+  {
+   "idx": 53,
+   "print": "A"
+  },
+  {
+   "idx": 54,
+   "print": "A"
+  },
+  {
+   "idx": 55,
+   "print": "A"
+  },
+  {
+   "idx": 56,
+   "print": "A"
+  },
+  {
+   "idx": 57,
+   "print": "A"
+  },
+  {
+   "idx": 58,
+   "print": "A"
+  }
+ ]
+}

@@ -1,0 +1,800 @@
+{
+ "part": "1.17",
+ "pages_checked": [
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73
+ ],
+ "corrections": [
+  {
+   "pdf_page": 62,
+   "block": 6,
+   "old": "الشَّمْسُ إِلَى",
+   "new": "الشَّمْسُ الى",
+   "why": "print has الى without hamza"
+  },
+  {
+   "pdf_page": 62,
+   "block": 1,
+   "old": "ദാസന്മാർ",
+   "new": "ദാസൻമാർ",
+   "why": "print reading differs from our JSON"
+  },
+  {
+   "pdf_page": 62,
+   "block": 4,
+   "old": "രാജൻ!! എന്നോട്",
+   "new": "രാജൻ!! ആരെന്നോട്",
+   "why": "print reading differs from our JSON"
+  },
+  {
+   "pdf_page": 62,
+   "block": 4,
+   "old": "ഞാൻ അവന്ന്",
+   "new": "ഞാൻ അവന്",
+   "why": "print reading differs from our JSON"
+  },
+  {
+   "pdf_page": 63,
+   "block": 2,
+   "old": "ഫജ്ർ",
+   "new": "ഫജ്റ്",
+   "why": "print reading differs from our JSON"
+  },
+  {
+   "pdf_page": 63,
+   "block": 2,
+   "old": "ിൽ പാരായണം",
+   "new": "ിൽ പാരാണം",
+   "why": "print reading differs from our JSON"
+  },
+  {
+   "pdf_page": 63,
+   "block": 5,
+   "old": "നമസ്കാരത്തിന്റെ",
+   "new": "നസ്കാരത്തിന്റെ",
+   "why": "print reading differs from our JSON"
+  },
+  {
+   "pdf_page": 63,
+   "block": 7,
+   "old": "അയാൾക്ക് അല",
+   "new": "അയാക്ക് അല",
+   "why": "print reading differs from our JSON"
+  },
+  {
+   "pdf_page": 63,
+   "block": 12,
+   "old": "നമസ്കരിക്കും.",
+   "new": "നസ്കരിക്കും.",
+   "why": "print reading differs from our JSON"
+  },
+  {
+   "pdf_page": 64,
+   "block": 0,
+   "old": "പ്രവാചകൻ(സ)നോട്",
+   "new": "പ്രവാചക(സ)നോട്",
+   "why": "print reading differs from our JSON"
+  },
+  {
+   "pdf_page": 64,
+   "block": 2,
+   "old": "ഫാത്വിമയെയും",
+   "new": "ഫാതിമയെയും",
+   "why": "print reading differs from our JSON"
+  },
+  {
+   "pdf_page": 64,
+   "block": 2,
+   "old": "കയ്യിലാണല്ലോ.",
+   "new": "കൈയിലാണല്ലോ.",
+   "why": "print reading differs from our JSON"
+  },
+  {
+   "pdf_page": 64,
+   "block": 2,
+   "old": "മറ്റൊന്നും",
+   "new": "മിറച്ചൊന്നും",
+   "why": "print reading differs from our JSON"
+  },
+  {
+   "pdf_page": 64,
+   "block": 4,
+   "old": "എന്റെയും ഫാത്വിമയുടെയും",
+   "new": "എന്റെയം ഫാതിമയുടെയും",
+   "why": "print reading differs from our JSON"
+  },
+  {
+   "pdf_page": 64,
+   "block": 4,
+   "old": "കയ്യിലാണ്.",
+   "new": "കൈയിലാണ്.",
+   "why": "print reading differs from our JSON"
+  },
+  {
+   "pdf_page": 64,
+   "block": 4,
+   "old": "കുതർക്കയായിരിക്കുന്നു!\"",
+   "new": "കുതർക്കിയായിരിക്കുന്നു!\"",
+   "why": "print reading differs from our JSON"
+  },
+  {
+   "pdf_page": 64,
+   "block": 4,
+   "old": "എഴുന്നേറ്റ്",
+   "new": "എഴുനേറ്റ്",
+   "why": "print reading differs from our JSON"
+  },
+  {
+   "pdf_page": 64,
+   "block": 4,
+   "old": "എഴുന്നേറ്റ്",
+   "new": "എഴുനേറ്റ്",
+   "why": "print reading differs from our JSON"
+  },
+  {
+   "pdf_page": 65,
+   "block": 5,
+   "old": "ജുന്ദുബുബ്നു",
+   "new": "ജുൻദുബുബ്നു",
+   "why": "print reading differs from our JSON"
+  },
+  {
+   "pdf_page": 65,
+   "block": 8,
+   "old": "വുദൂ",
+   "new": "വുദു",
+   "why": "print reading differs from our JSON"
+  },
+  {
+   "pdf_page": 65,
+   "block": 8,
+   "old": "ഉന്മേഷമില്ലാത്തവനുമായിത്തീരും.",
+   "new": "ഉൻമേഷമില്ലാത്തവനുമായിത്തീരും.",
+   "why": "print reading differs from our JSON"
+  },
+  {
+   "pdf_page": 65,
+   "block": 11,
+   "old": "രക്അത്തിൽ",
+   "new": "റക്അത്തിൽ",
+   "why": "print reading differs from our JSON"
+  },
+  {
+   "pdf_page": 65,
+   "block": 11,
+   "old": "(സ) നാല് രക്അത്ത്",
+   "new": "(സ) നാല് റക്അത്ത്",
+   "why": "print reading differs from our JSON"
+  },
+  {
+   "pdf_page": 65,
+   "block": 11,
+   "old": "ടും നാല് രക്അത്ത്",
+   "new": "ടും നാല് റക്അത്ത്",
+   "why": "print reading differs from our JSON"
+  },
+  {
+   "pdf_page": 65,
+   "block": 11,
+   "old": "ഞാൻ",
+   "new": "ഞൻ",
+   "why": "print reading differs from our JSON"
+  },
+  {
+   "pdf_page": 66,
+   "block": 0,
+   "old": "സ്വഹീഹുമാണെന്ന്",
+   "new": "സഹീഹുമാണെന്ന്",
+   "why": "print reading differs from our JSON"
+  },
+  {
+   "pdf_page": 66,
+   "block": 0,
+   "old": "സ്വഹീഹുമാണെന്ന്",
+   "new": "സഹീഹുമാണെന്ന്",
+   "why": "print reading differs from our JSON"
+  },
+  {
+   "pdf_page": 66,
+   "block": 4,
+   "old": "കാണണമെന്ന്",
+   "new": "കാണണമെന്നു",
+   "why": "print reading differs from our JSON"
+  },
+  {
+   "pdf_page": 66,
+   "block": 10,
+   "old": "ഉറങ്ങിയെടുത്ത",
+   "new": "ഉറങ്ങാനെടുത്ത",
+   "why": "print reading differs from our JSON"
+  },
+  {
+   "pdf_page": 66,
+   "block": 10,
+   "old": "അങ്ങനെ",
+   "new": "അങ്ങെനെ",
+   "why": "print reading differs from our JSON"
+  },
+  {
+   "pdf_page": 67,
+   "block": 5,
+   "old": "്നേറ്റാൽ മിസ്വാക്",
+   "new": "്നേറ്റാൽ മിസ്വാക്ക്",
+   "why": "print reading differs from our JSON"
+  },
+  {
+   "pdf_page": 67,
+   "block": 8,
+   "old": "(ബു,മു,ദ,തു,ന)",
+   "new": "(ബു,മു,ദ,തു,ദ,ന)",
+   "why": "print reading differs from our JSON"
+  },
+  {
+   "pdf_page": 68,
+   "block": 0,
+   "old": "ു. നിങ്ങൾക്ക്",
+   "new": "ു. നിങ്ങൾക്കത്",
+   "why": "print reading differs from our JSON"
+  },
+  {
+   "pdf_page": 68,
+   "block": 0,
+   "old": "ു. നിങ്ങൾക്ക്",
+   "new": "ു. നിങ്ങൾക്കത്",
+   "why": "print reading differs from our JSON"
+  },
+  {
+   "pdf_page": 69,
+   "block": 0,
+   "old": "റബീഅത്തുബിൻ കഅ്ബിൻ",
+   "new": "റബീഅതുബിൻ കഅ്ബിൽ",
+   "why": "print reading differs from our JSON"
+  },
+  {
+   "pdf_page": 69,
+   "block": 0,
+   "old": "എഴുന്നേറ്റ്",
+   "new": "എഴുനേറ്റ്",
+   "why": "print reading differs from our JSON"
+  },
+  {
+   "pdf_page": 69,
+   "block": 3,
+   "old": "ഖബ്ബാബ്ബ്നുൽ",
+   "new": "ഹബ്വാബിബ്നുൽ",
+   "why": "print reading differs from our JSON"
+  },
+  {
+   "pdf_page": 70,
+   "block": 2,
+   "old": "നോമ്പനുഷ്ടിച്ചതായും",
+   "new": "നോമ്പനുഷ്ഠിച്ചതായും",
+   "why": "print reading differs from our JSON"
+  },
+  {
+   "pdf_page": 70,
+   "block": 4,
+   "old": "ഉറങ്ങാറില്ല.",
+   "new": "ഉറങ്ങുകയില്ല.",
+   "why": "print reading differs from our JSON"
+  },
+  {
+   "pdf_page": 70,
+   "block": 4,
+   "old": "പ്രിയകരമായത്",
+   "new": "പ്രിയങ്കരമായത്",
+   "why": "print reading differs from our JSON"
+  },
+  {
+   "pdf_page": 70,
+   "block": 6,
+   "old": "സൈനബ(റ)ന്റേതാണ്;",
+   "new": "സൈനബി(റ)ന്റേതാണ്;",
+   "why": "print reading differs from our JSON"
+  },
+  {
+   "pdf_page": 71,
+   "block": 1,
+   "old": "അമ്ര്(റ):",
+   "new": "അംറ്(റ):",
+   "why": "print reading differs from our JSON"
+  },
+  {
+   "pdf_page": 72,
+   "block": 4,
+   "old": "ഇരുന്നുകൊണ്ടാകുന്നതുവരെ",
+   "new": "ഇരുന്നുകൊണ്ടാവുന്നതുവരെ",
+   "why": "print reading differs from our JSON"
+  },
+  {
+   "pdf_page": 72,
+   "block": 4,
+   "old": "വഫാത്തായിട്ടില്ല.",
+   "new": "വഫാതായിട്ടില്ല.",
+   "why": "print reading differs from our JSON"
+  },
+  {
+   "pdf_page": 72,
+   "block": 6,
+   "old": "വഫാത്തായിട്ടില്ല.",
+   "new": "വഫാതായിട്ടില്ല.",
+   "why": "print reading differs from our JSON"
+  },
+  {
+   "pdf_page": 73,
+   "block": 0,
+   "old": "സൂറത്തുകളേക്കാൾ",
+   "new": "സൂറതുകളേക്കാൾ",
+   "why": "print reading differs from our JSON"
+  },
+  {
+   "pdf_page": 73,
+   "block": 2,
+   "old": "നിസ്കരിക്കുന്നവന്റെ",
+   "new": "നിസ്കരക്കുന്നവന്റെ",
+   "why": "print reading differs from our JSON"
+  },
+  {
+   "pdf_page": 73,
+   "block": 7,
+   "old": "മറ്റൊരു",
+   "new": "മറ്റെരു",
+   "why": "print reading differs from our JSON"
+  },
+  {
+   "pdf_page": 73,
+   "block": 7,
+   "old": "സമയമുണ്ട്",
+   "new": "സമയുണ്ട്",
+   "why": "print reading differs from our JSON"
+  },
+  {
+   "pdf_page": 73,
+   "block": 9,
+   "old": "നിൽക്കുന്നത്ര",
+   "new": "നിൽക്കന്നത്ര",
+   "why": "print reading differs from our JSON"
+  },
+  {
+   "pdf_page": 64,
+   "block": 2,
+   "old": "കുതർക്കയായിരിക്കുന്നു",
+   "new": "കുതർക്കിയായിരിക്കുന്നു",
+   "why": "print reading"
+  },
+  {
+   "pdf_page": 66,
+   "block": 4,
+   "old": "നബി(സ)യെ രാത്രിയിൽ",
+   "new": "നബി(സ്വ)യെ രാത്രിയിൽ",
+   "why": "print reading"
+  },
+  {
+   "pdf_page": 69,
+   "block": 8,
+   "old": "അസ്‌വദബ്നു",
+   "new": "അസ്‌വദുബനു",
+   "why": "print reading"
+  },
+  {
+   "pdf_page": 73,
+   "block": 7,
+   "old": "തവീലാ",
+   "new": "ത്വവീലാ",
+   "why": "print reading"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 347,
+   "print": "B"
+  },
+  {
+   "idx": 348,
+   "print": "B"
+  },
+  {
+   "idx": 349,
+   "print": "B"
+  },
+  {
+   "idx": 350,
+   "print": "other"
+  },
+  {
+   "idx": 351,
+   "print": "A"
+  },
+  {
+   "idx": 352,
+   "print": "A"
+  },
+  {
+   "idx": 353,
+   "print": "A"
+  },
+  {
+   "idx": 354,
+   "print": "A"
+  },
+  {
+   "idx": 355,
+   "print": "A"
+  },
+  {
+   "idx": 356,
+   "print": "A"
+  },
+  {
+   "idx": 357,
+   "print": "A"
+  },
+  {
+   "idx": 358,
+   "print": "B"
+  },
+  {
+   "idx": 359,
+   "print": "B"
+  },
+  {
+   "idx": 360,
+   "print": "B"
+  },
+  {
+   "idx": 361,
+   "print": "B"
+  },
+  {
+   "idx": 362,
+   "print": "B"
+  },
+  {
+   "idx": 363,
+   "print": "A"
+  },
+  {
+   "idx": 364,
+   "print": "A"
+  },
+  {
+   "idx": 365,
+   "print": "A"
+  },
+  {
+   "idx": 366,
+   "print": "B"
+  },
+  {
+   "idx": 367,
+   "print": "B"
+  },
+  {
+   "idx": 368,
+   "print": "B"
+  },
+  {
+   "idx": 369,
+   "print": "B"
+  },
+  {
+   "idx": 370,
+   "print": "B"
+  },
+  {
+   "idx": 371,
+   "print": "B"
+  },
+  {
+   "idx": 372,
+   "print": "B"
+  },
+  {
+   "idx": 373,
+   "print": "B"
+  },
+  {
+   "idx": 374,
+   "print": "B"
+  },
+  {
+   "idx": 375,
+   "print": "B"
+  },
+  {
+   "idx": 376,
+   "print": "A"
+  },
+  {
+   "idx": 377,
+   "print": "A"
+  },
+  {
+   "idx": 378,
+   "print": "A"
+  },
+  {
+   "idx": 379,
+   "print": "A"
+  },
+  {
+   "idx": 380,
+   "print": "B"
+  },
+  {
+   "idx": 381,
+   "print": "B"
+  },
+  {
+   "idx": 382,
+   "print": "B"
+  },
+  {
+   "idx": 383,
+   "print": "B"
+  },
+  {
+   "idx": 384,
+   "print": "B"
+  },
+  {
+   "idx": 385,
+   "print": "B"
+  },
+  {
+   "idx": 386,
+   "print": "B"
+  },
+  {
+   "idx": 387,
+   "print": "A"
+  },
+  {
+   "idx": 388,
+   "print": "A"
+  },
+  {
+   "idx": 389,
+   "print": "A"
+  },
+  {
+   "idx": 390,
+   "print": "A"
+  },
+  {
+   "idx": 391,
+   "print": "A"
+  },
+  {
+   "idx": 392,
+   "print": "B"
+  },
+  {
+   "idx": 393,
+   "print": "B"
+  },
+  {
+   "idx": 394,
+   "print": "B"
+  },
+  {
+   "idx": 395,
+   "print": "B"
+  },
+  {
+   "idx": 396,
+   "print": "B"
+  },
+  {
+   "idx": 397,
+   "print": "B"
+  },
+  {
+   "idx": 398,
+   "print": "B"
+  },
+  {
+   "idx": 399,
+   "print": "B"
+  },
+  {
+   "idx": 400,
+   "print": "A"
+  },
+  {
+   "idx": 401,
+   "print": "A"
+  },
+  {
+   "idx": 402,
+   "print": "A"
+  },
+  {
+   "idx": 403,
+   "print": "B"
+  },
+  {
+   "idx": 404,
+   "print": "B"
+  },
+  {
+   "idx": 405,
+   "print": "A"
+  },
+  {
+   "idx": 406,
+   "print": "A"
+  },
+  {
+   "idx": 407,
+   "print": "A"
+  },
+  {
+   "idx": 408,
+   "print": "B"
+  },
+  {
+   "idx": 409,
+   "print": "B"
+  },
+  {
+   "idx": 410,
+   "print": "other"
+  },
+  {
+   "idx": 411,
+   "print": "B"
+  },
+  {
+   "idx": 412,
+   "print": "A"
+  },
+  {
+   "idx": 413,
+   "print": "A"
+  },
+  {
+   "idx": 414,
+   "print": "A"
+  },
+  {
+   "idx": 415,
+   "print": "A"
+  },
+  {
+   "idx": 416,
+   "print": "A"
+  },
+  {
+   "idx": 417,
+   "print": "A"
+  },
+  {
+   "idx": 418,
+   "print": "B"
+  },
+  {
+   "idx": 419,
+   "print": "B"
+  },
+  {
+   "idx": 420,
+   "print": "B"
+  },
+  {
+   "idx": 421,
+   "print": "B"
+  },
+  {
+   "idx": 422,
+   "print": "A"
+  },
+  {
+   "idx": 423,
+   "print": "A"
+  },
+  {
+   "idx": 424,
+   "print": "A"
+  },
+  {
+   "idx": 425,
+   "print": "A"
+  },
+  {
+   "idx": 426,
+   "print": "A"
+  },
+  {
+   "idx": 427,
+   "print": "B"
+  },
+  {
+   "idx": 428,
+   "print": "A"
+  },
+  {
+   "idx": 429,
+   "print": "A"
+  },
+  {
+   "idx": 430,
+   "print": "A"
+  },
+  {
+   "idx": 431,
+   "print": "A"
+  },
+  {
+   "idx": 432,
+   "print": "A"
+  },
+  {
+   "idx": 433,
+   "print": "A"
+  },
+  {
+   "idx": 434,
+   "print": "B"
+  },
+  {
+   "idx": 435,
+   "print": "B"
+  },
+  {
+   "idx": 436,
+   "print": "B"
+  },
+  {
+   "idx": 437,
+   "print": "A"
+  },
+  {
+   "idx": 438,
+   "print": "A"
+  },
+  {
+   "idx": 439,
+   "print": "A"
+  },
+  {
+   "idx": 440,
+   "print": "A"
+  },
+  {
+   "idx": 441,
+   "print": "B"
+  },
+  {
+   "idx": 442,
+   "print": "B"
+  },
+  {
+   "idx": 443,
+   "print": "B"
+  },
+  {
+   "idx": 444,
+   "print": "B"
+  },
+  {
+   "idx": 445,
+   "print": "B"
+  },
+  {
+   "idx": 446,
+   "print": "B"
+  }
+ ]
+}

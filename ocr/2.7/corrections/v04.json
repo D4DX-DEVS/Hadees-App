@@ -1,0 +1,637 @@
+{
+ "part": "2.7",
+ "pages_checked": [
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60
+ ],
+ "corrections": [
+  {
+   "pdf_page": 46,
+   "block": 5,
+   "old": "സലമത്തുബ്നുൽ",
+   "new": "സലമതുബ്നുൽ",
+   "why": "spelling per print"
+  },
+  {
+   "pdf_page": 46,
+   "block": 7,
+   "old": "ഉപകാരപ്പെടുത്തിയെങ്കിൽ",
+   "new": "ഉപകാരമെടുത്തിരുന്നെങ്കിൽ",
+   "why": "wrong word"
+  },
+  {
+   "pdf_page": 47,
+   "block": 0,
+   "old": "(د, ت, ن, جه)",
+   "new": "(د،ت،ن،جه)",
+   "why": "source code separator is Arabic comma in print"
+  },
+  {
+   "pdf_page": 47,
+   "block": 3,
+   "old": "(د, ت, ن)",
+   "new": "(د،ت،ن)",
+   "why": "source code separator is Arabic comma in print"
+  },
+  {
+   "pdf_page": 47,
+   "block": 6,
+   "old": "(ت, جه)",
+   "new": "(ت،جه)",
+   "why": "source code separator is Arabic comma in print"
+  },
+  {
+   "pdf_page": 47,
+   "block": 8,
+   "old": "(د, جه)",
+   "new": "(د،جه)",
+   "why": "source code separator is Arabic comma in print"
+  },
+  {
+   "pdf_page": 47,
+   "block": 10,
+   "old": "(د, جه)",
+   "new": "(د،جه)",
+   "why": "source code separator is Arabic comma in print"
+  },
+  {
+   "pdf_page": 47,
+   "block": 1,
+   "old": "ശവത്തിന്റെ തോലുകൊണ്ടും",
+   "new": "ജഡത്തിന്റെ തോലുകൊണ്ടും",
+   "why": "print ജഡത്തിന്റെ"
+  },
+  {
+   "pdf_page": 47,
+   "block": 1,
+   "old": "ശവത്തിന്റെ തോൽ കൊണ്ടും",
+   "new": "ജഡത്തിന്റെ തോൽ കൊണ്ടും",
+   "why": "print ജഡത്തിന്റെ"
+  },
+  {
+   "pdf_page": 47,
+   "block": 2,
+   "old": "بَابُ: مَا جَاءَ",
+   "new": "بَابٌ: مَا جَاءَ",
+   "why": "tanween in print"
+  },
+  {
+   "pdf_page": 47,
+   "block": 5,
+   "old": "بَابُ: مَا جَاءَ",
+   "new": "بَابٌ: مَا جَاءَ",
+   "why": "tanween in print"
+  },
+  {
+   "pdf_page": 47,
+   "block": 7,
+   "old": "നെയ്യ്നെക്കുറിച്ചും",
+   "new": "നെയ്യിനെക്കുറിച്ചും",
+   "why": "wrong word"
+  },
+  {
+   "pdf_page": 48,
+   "block": 0,
+   "old": "(د,ن)",
+   "new": "(د،ن)",
+   "why": "code separator"
+  },
+  {
+   "pdf_page": 48,
+   "block": 1,
+   "old": "മുആവിയത്തുബ്നു",
+   "new": "മുആവിയതുബ്നു",
+   "why": "spelling per print"
+  },
+  {
+   "pdf_page": 48,
+   "block": 1,
+   "old": "ഖിന്നസ്റീനുകാരിൽ",
+   "new": "ഖിന്നസ്രീനുകാരിൽ",
+   "why": "letter"
+  },
+  {
+   "pdf_page": 48,
+   "block": 1,
+   "old": "കൽപ്പിച്ചു",
+   "new": "കൽപിച്ചു",
+   "why": "spelling per print"
+  },
+  {
+   "pdf_page": 49,
+   "block": 1,
+   "old": "١٩٩. عَنْ",
+   "new": "عَنْ",
+   "why": "hadith number prefix duplicated inside text"
+  },
+  {
+   "pdf_page": 49,
+   "block": 3,
+   "old": "٢٠٠. عَنِ",
+   "new": "عَنِ",
+   "why": "hadith number prefix duplicated inside text"
+  },
+  {
+   "pdf_page": 49,
+   "block": 6,
+   "old": "٢٠١. عَنْ",
+   "new": "عَنْ",
+   "why": "hadith number prefix duplicated inside text"
+  },
+  {
+   "pdf_page": 49,
+   "block": 3,
+   "old": "(ق,ت,ن,جه)",
+   "new": "(ق،ت،ن،جه)",
+   "why": "code separator"
+  },
+  {
+   "pdf_page": 49,
+   "block": 7,
+   "old": "അടുത്തു വന്ന് അകത്ത്",
+   "new": "അടുത്തുവന്ന് അകത്ത്",
+   "why": "spacing per print"
+  },
+  {
+   "pdf_page": 50,
+   "block": 2,
+   "old": "ഒപ്പിയെടുത്തു് അതൊപ്പിയെടുത്തു്",
+   "new": "ഒപ്പിയെടുത്ത് അതൊപ്പിയെടുത്ത്",
+   "why": "stray u-vowel/virama form"
+  },
+  {
+   "pdf_page": 50,
+   "block": 4,
+   "old": "(خ,د)",
+   "new": "(خ،د)",
+   "why": "code separator"
+  },
+  {
+   "pdf_page": 51,
+   "block": 5,
+   "old": "കൽപ്പിച്ചു",
+   "new": "കൽപിച്ചു",
+   "why": "spelling per print"
+  },
+  {
+   "pdf_page": 51,
+   "block": 5,
+   "old": "അതിനെക്കുറിച്ച് റസൂലുല്ലാഹി",
+   "new": "അതേക്കുറിച്ച് റസൂലുല്ലാഹി",
+   "why": "wrong word"
+  },
+  {
+   "pdf_page": 51,
+   "block": 7,
+   "old": "നിന്നുമിറങ്ങി",
+   "new": "നിന്നിറങ്ങി",
+   "why": "extra letters"
+  },
+  {
+   "pdf_page": 51,
+   "block": 8,
+   "old": "فَلَمْ تَقْطَعْهُ",
+   "new": "فَلَمْ نَقْطَعْهُ",
+   "why": "ت vs ن"
+  },
+  {
+   "pdf_page": 51,
+   "block": 8,
+   "old": "أُوْلَاتُ",
+   "new": "أُولَاتُ",
+   "why": "extra sukun"
+  },
+  {
+   "pdf_page": 52,
+   "block": 0,
+   "old": "قَالَ: إِنَّ فِي الْبَيْتِ كَلْبًا، وَإِنَّا لَا نَدْخُلُ بَيْتًا فِيهِ كَلْبٌ وَلَا صُورَةٌ. (جه)",
+   "new": "(ن)",
+   "why": "block is duplicate of 210 ending; print top line is only the code (ن) closing hadith 209"
+  },
+  {
+   "pdf_page": 52,
+   "block": 1,
+   "old": "അത് അഴികൂ.",
+   "new": "അത് അഴിക്കൂ.",
+   "why": "missing letter"
+  },
+  {
+   "pdf_page": 52,
+   "block": 1,
+   "old": "അതഴികൂ.",
+   "new": "അതഴിക്കൂ.",
+   "why": "missing letter"
+  },
+  {
+   "pdf_page": 52,
+   "block": 1,
+   "old": "നിന്ന് അതഴിച്ചുമാറ്റൂ",
+   "new": "നിന്നത് അഴിച്ചുമാറ്റൂ",
+   "why": "print wording"
+  },
+  {
+   "pdf_page": 52,
+   "block": 1,
+   "old": "നമസ്കരിക്കാറുണ്ടായിരുന്നു",
+   "new": "നിസ്കരിക്കാറുണ്ടായിരുന്നു",
+   "why": "print wording"
+  },
+  {
+   "pdf_page": 52,
+   "block": 1,
+   "old": "(മ)",
+   "new": "(ന)",
+   "why": "source code"
+  },
+  {
+   "pdf_page": 52,
+   "block": 2,
+   "old": "فَرَآثَ",
+   "new": "فَرَاثَ",
+   "why": "extra madda"
+  },
+  {
+   "pdf_page": 52,
+   "block": 4,
+   "old": "(د,ن,جه)",
+   "new": "(د،ن،جه)",
+   "why": "code separator"
+  },
+  {
+   "pdf_page": 53,
+   "block": 0,
+   "old": "(ق,د,ت,ن,جه)",
+   "new": "(ق،د،ت،ن،جه)",
+   "why": "code separator"
+  },
+  {
+   "pdf_page": 53,
+   "block": 1,
+   "old": "ആയിശ(റ)യുടെ",
+   "new": "ആഇശ(റ)യുടെ",
+   "why": "spelling per print"
+  },
+  {
+   "pdf_page": 53,
+   "block": 1,
+   "old": "അതെക്കുറിച്ച്",
+   "new": "അതേക്കുറിച്ച്",
+   "why": "spelling per print"
+  },
+  {
+   "pdf_page": 53,
+   "block": 1,
+   "old": "അതിനെ വാതിലിൽ മറയാക്കി",
+   "new": "അതിനെ വീതിയിൽ മറയാക്കി",
+   "why": "wrong word"
+  },
+  {
+   "pdf_page": 53,
+   "block": 1,
+   "old": "തുണ്ടും തുണ്ടമാക്കി",
+   "new": "തുണ്ടം തുണ്ടമാക്കി",
+   "why": "spelling per print"
+  },
+  {
+   "pdf_page": 53,
+   "block": 1,
+   "old": "കൽപ്പിച്ചിട്ടില്ല",
+   "new": "കൽപിച്ചിട്ടില്ല",
+   "why": "spelling per print"
+  },
+  {
+   "pdf_page": 54,
+   "block": 0,
+   "old": "കേട്ടിട്ടില്ലായിരുന്നുവോ",
+   "new": "കേട്ടിട്ടില്ലായിരുന്നോ",
+   "why": "print wording"
+  },
+  {
+   "pdf_page": 54,
+   "block": 2,
+   "old": "മൂകനായി",
+   "new": "മൂകരായി",
+   "why": "print wording"
+  },
+  {
+   "pdf_page": 54,
+   "block": 2,
+   "old": "അങ്ങനെതന്നെയായി",
+   "new": "അങ്ങനെത്തന്നെയായി",
+   "why": "spelling per print"
+  },
+  {
+   "pdf_page": 54,
+   "block": 2,
+   "old": "നായ്ക്കുട്ടിയുള്ളതായി",
+   "new": "നായക്കുട്ടിയുള്ളതായി",
+   "why": "spelling per print"
+  },
+  {
+   "pdf_page": 54,
+   "block": 2,
+   "old": "കൽപ്പന നൽകി",
+   "new": "കൽപന നൽകി",
+   "why": "spelling per print"
+  },
+  {
+   "pdf_page": 54,
+   "block": 2,
+   "old": "പിന്നീട് അവിടുത്തെ കരം",
+   "new": "പിന്നീട് അവിടത്തെ കരം",
+   "why": "print wording"
+  },
+  {
+   "pdf_page": 54,
+   "block": 2,
+   "old": "നായ്ക്കളെ കൊല്ലാൻ കൽപ്പിച്ചു. അങ്ങനെ",
+   "new": "നായകളെ കൊല്ലാൻ കൽപിച്ചു. അങ്ങനെ",
+   "why": "spelling per print"
+  },
+  {
+   "pdf_page": 54,
+   "block": 2,
+   "old": "തോട്ടത്തിലെ നായ്ക്കളെ കൊല്ലാനും വലിയ തോട്ടത്തിലുള്ള നായ്ക്കളെ ഒഴിവാക്കാനും കൽപ്പിച്ചു",
+   "new": "തോട്ടത്തിലെ നായകളെ കൊല്ലാനും വലിയ തോട്ടത്തിലുള്ള നായകളെ ഒഴിവാക്കാനും കൽപിച്ചു",
+   "why": "spelling per print"
+  },
+  {
+   "pdf_page": 55,
+   "block": 1,
+   "old": "അവിടുത്തെ മുഖം വിവർണ്ണമാകുകയും",
+   "new": "അവിടത്തെ മുഖം വിവർണമാകുകയും",
+   "why": "print wording"
+  },
+  {
+   "pdf_page": 55,
+   "block": 1,
+   "old": "അവിടുന്ന് പറഞ്ഞു: \"ആഇശാ",
+   "new": "അവിടന്ന് പറഞ്ഞു: \"ആഇശാ",
+   "why": "print wording"
+  },
+  {
+   "pdf_page": 55,
+   "block": 3,
+   "old": "അവിടുത്തെ കൽപനപ്രകാരം",
+   "new": "അവിടത്തെ കൽപനപ്രകാരം",
+   "why": "print wording"
+  },
+  {
+   "pdf_page": 55,
+   "block": 6,
+   "old": "അപ്പോൾ അവിടുത്തെ മുഖത്ത്",
+   "new": "അപ്പോൾ അവിടത്തെ മുഖത്ത്",
+   "why": "print wording"
+  },
+  {
+   "pdf_page": 56,
+   "block": 0,
+   "old": "ഞാനെങ്ങനെ",
+   "new": "ഞാനങ്ങനെ",
+   "why": "print wording"
+  },
+  {
+   "pdf_page": 56,
+   "block": 5,
+   "old": "(م,ن)",
+   "new": "(م،ن)",
+   "why": "code separator"
+  },
+  {
+   "pdf_page": 57,
+   "block": 0,
+   "old": "(خ,ت,ن)",
+   "new": "(خ،ت،ن)",
+   "why": "code separator"
+  },
+  {
+   "pdf_page": 57,
+   "block": 2,
+   "old": "(خ,ن)",
+   "new": "(خ،ن)",
+   "why": "code separator"
+  },
+  {
+   "pdf_page": 57,
+   "block": 7,
+   "old": "(م,ن)",
+   "new": "(م،ن)",
+   "why": "code separator"
+  },
+  {
+   "pdf_page": 57,
+   "block": 6,
+   "old": "അവിടുന്ന് അതഴിച്ചു",
+   "new": "അവിടന്ന് അതഴിച്ചു",
+   "why": "print wording"
+  },
+  {
+   "pdf_page": 57,
+   "block": 6,
+   "old": "അവിടുത്തെ മുഖം വിവർണ്ണമായി",
+   "new": "അവിടത്തെ മുഖം വിവർണമായി",
+   "why": "print wording"
+  },
+  {
+   "pdf_page": 57,
+   "block": 6,
+   "old": "തന്റെ കൈകൊണ്ട് തുണ്ടും തുണ്ടമാക്കി. അവിടുന്ന് പറഞ്ഞു",
+   "new": "തന്റെ കൈകൊണ്ടത് തുണ്ടം തുണ്ടമാക്കി. അവിടന്ന് പറഞ്ഞു",
+   "why": "print wording"
+  },
+  {
+   "pdf_page": 58,
+   "block": 1,
+   "old": "'മയാസിർ'ൽ",
+   "new": "'മയാസീർ'ൽ",
+   "why": "long vowel per print"
+  },
+  {
+   "pdf_page": 58,
+   "block": 1,
+   "old": "പ്രവാചകൻ(സ)",
+   "new": "പ്രവാചകർ(സ)",
+   "why": "letter"
+  },
+  {
+   "pdf_page": 58,
+   "block": 1,
+   "old": "ഭർത്താക്കന്മാർക്കായി",
+   "new": "ഭർത്താക്കൻമാർക്കായി",
+   "why": "spelling per print"
+  },
+  {
+   "pdf_page": 58,
+   "block": 4,
+   "old": "അവിടുത്തേക്ക് അല്ലാഹു പഠിപ്പിച്ചു തന്നവയിൽ നിന്ന് എനിക്ക് പഠിപ്പിച്ചു തരാൻ",
+   "new": "അവിടത്തേക്ക് അല്ലാഹു പഠിപ്പിച്ച് തന്നവയിൽ നിന്ന് എനിക്ക് പഠിപ്പിച്ച് തരാൻ",
+   "why": "print wording"
+  },
+  {
+   "pdf_page": 58,
+   "block": 10,
+   "old": "മുട്ടിവളരുന്ന",
+   "new": "മുറ്റിവളരുന്ന",
+   "why": "letter"
+  },
+  {
+   "pdf_page": 59,
+   "block": 2,
+   "old": "(ق,د,ت,ن)",
+   "new": "(ق،د،ت،ن)",
+   "why": "code separator"
+  },
+  {
+   "pdf_page": 59,
+   "block": 3,
+   "old": "'മുഹമ്മദുറസൂലുല്ലാഹി'",
+   "new": "'മുഹമ്മദുർറസൂലുല്ലാഹി'",
+   "why": "missing ർ"
+  },
+  {
+   "pdf_page": 59,
+   "block": 3,
+   "old": "അവിടുത്തെ വലതുകയ്യിൽ",
+   "new": "അവിടത്തെ വലതുകയ്യിൽ",
+   "why": "print wording"
+  },
+  {
+   "pdf_page": 59,
+   "block": 3,
+   "old": "അതിന്റെത് അബ്സീനിയൻ",
+   "new": "അതിന്റേത് അബ്സീനിയൻ",
+   "why": "vowel sign"
+  },
+  {
+   "pdf_page": 59,
+   "block": 5,
+   "old": "'മുഹമ്മദുറസൂലുല്ലാഹി'",
+   "new": "'മുഹമ്മദുർറസൂലുല്ലാഹി'",
+   "why": "missing ർ"
+  },
+  {
+   "pdf_page": 59,
+   "block": 5,
+   "old": "അവിടുത്തെ കയ്യിൽ",
+   "new": "അവിടത്തെ കയ്യിൽ",
+   "why": "print wording"
+  },
+  {
+   "pdf_page": 59,
+   "block": 7,
+   "old": "അവിടുത്തെ കൈയ്യിൽ",
+   "new": "അവിടത്തെ കൈയ്യിൽ",
+   "why": "print wording"
+  },
+  {
+   "pdf_page": 59,
+   "block": 9,
+   "old": "കൽപ്പിച്ചു",
+   "new": "കൽപിച്ചു",
+   "why": "spelling per print"
+  },
+  {
+   "pdf_page": 59,
+   "block": 9,
+   "old": "ഇനി ആപ്രകാരം",
+   "new": "ഇനി അപ്രകാരം",
+   "why": "letter"
+  },
+  {
+   "pdf_page": 60,
+   "block": 0,
+   "old": "(ق,د,ت,ن,جه)",
+   "new": "(ق،د،ت،ن،جه)",
+   "why": "code separator"
+  },
+  {
+   "pdf_page": 60,
+   "block": 2,
+   "old": "(ق,د,ت,ن,جه)",
+   "new": "(ق،د،ت،ن،جه)",
+   "why": "code separator"
+  },
+  {
+   "pdf_page": 60,
+   "block": 1,
+   "old": "അവിടുന്ന് വഫാത്താകുന്നതുവരെ",
+   "new": "അവിടന്ന് വഫാത്താകുന്നതുവരെ",
+   "why": "print wording"
+  },
+  {
+   "pdf_page": 60,
+   "block": 1,
+   "old": "കൽപ്പിച്ചു. പക്ഷേ",
+   "new": "കൽപിച്ചു. പക്ഷേ",
+   "why": "spelling per print"
+  },
+  {
+   "pdf_page": 60,
+   "block": 3,
+   "old": "അവിടുത്തെ കൈപ്പത്തിനോടടുത്ത്",
+   "new": "അവിടത്തെ കൈപ്പടത്തിനോടടുത്ത്",
+   "why": "print wording/letter"
+  },
+  {
+   "pdf_page": 60,
+   "block": 3,
+   "old": "അവിടുത്തെ മോതിരം",
+   "new": "അവിടത്തെ മോതിരം",
+   "why": "print wording"
+  },
+  {
+   "pdf_page": 60,
+   "block": 3,
+   "old": "റിപ്പോർട്ടിൽ: അവിടുന്ന് പറഞ്ഞു",
+   "new": "റിപ്പോർട്ടിൽ: അവിടന്ന് പറഞ്ഞു",
+   "why": "print wording"
+  },
+  {
+   "pdf_page": 60,
+   "block": 3,
+   "old": "പിന്നീട് 'അരീസ്'",
+   "new": "പിന്നീടത് 'അരീസ്'",
+   "why": "missing word part"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 55,
+   "hadith_no": 219,
+   "note": "print seems to read هَذِهِ الصُّورَةِ (singular) where JSON has الصُّوَرِ; not changed"
+  },
+  {
+   "pdf_page": 46,
+   "hadith_no": 192,
+   "note": "Malayalam 'കഴുതയെപ്പോലെ' printed with an odd glyph (looks like കഴുതഴെപ്പോലെ); left unchanged"
+  },
+  {
+   "pdf_page": 50,
+   "hadith_no": 202,
+   "note": "Print appears to read 'ഉമ്മുസുലൈമം' in the quote; JSON has ഉമ്മുസുലൈം; not changed"
+  },
+  {
+   "pdf_page": 46,
+   "hadith_no": null,
+   "note": "Systematic: JSON Arabic has fuller harakat than the sparsely-voweled print on many pages (e.g. p46 189-192, p47 194-198); not itemised"
+  },
+  {
+   "pdf_page": 46,
+   "hadith_no": 190,
+   "note": "Print Malayalam shows old-style 'തോല്' (virama) where JSON has chillu 'തോൽ'; left unchanged"
+  }
+ ]
+}

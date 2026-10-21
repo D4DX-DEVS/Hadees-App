@@ -1,0 +1,28 @@
+{
+ "pages": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 11,
+   "note": "idx 8/10: print reads മധ്യാഹ്നത്തിൽ (ഹ്ന conjunct) in both places; virama vs plain ഹന is hard to tell at scan resolution; corrected idx 8 to match idx 10"
+  }
+ ],
+ "applied": 9,
+ "method": "dual read (sonnet+opus) + adjudication"
+}

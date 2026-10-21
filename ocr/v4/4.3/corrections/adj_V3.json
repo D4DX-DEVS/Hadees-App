@@ -1,0 +1,435 @@
+{
+ "part": "4.3",
+ "pages_checked": [
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  78,
+  83
+ ],
+ "corrections": [
+  {
+   "pdf_page": 63,
+   "block": 4,
+   "old": "لِلْمُفْطِرُونَ",
+   "new": "الْمُفْطِرُونَ",
+   "why": "Opus reading matches print: hadith 119 'فَقَالَ الْمُفْطِرُونَ لِلصُّوَّامِ'; our extra لِ is not in print"
+  },
+  {
+   "pdf_page": 64,
+   "block": 0,
+   "old": "وَقُلْتُ لَهُ: قُلْ لَهُ",
+   "new": "وَقُلْتُ لَهُ: قَالَ: قُلْ لَهُ",
+   "why": "Print has 'وَقُلْتُ لَهُ: قَالَ: قُلْ لَهُ يَسْتَغْفِرْ لِي' (Opus); our reading omits قال:"
+  },
+  {
+   "pdf_page": 65,
+   "block": 1,
+   "old": "നുഹാസതുൽ",
+   "new": "നുഫാസതുൽ",
+   "why": "Print 'ഫർവതുബ്നു നുഫാസതുൽ ജുദാമി' (Opus); ഫ glyph visible at native zoom (Arabic name نفاثة)"
+  },
+  {
+   "pdf_page": 65,
+   "block": 1,
+   "old": "അബൂസുഫ്യാനുബ്നുൽ",
+   "new": "അബൂസുഫ്യാനുബ്നു",
+   "why": "Print line reads 'അബൂസുഫ്യാനുബ്നു ഹാരിസുബ്നു' with no trailing ൽ on the first word (Opus)"
+  },
+  {
+   "pdf_page": 66,
+   "block": 3,
+   "old": "وَسَلَّمَ مُنْهَزِمًا، وَأَرْجِعُ مُنْهَزِمًا، فَجَمَعْتُهُمَا",
+   "new": "وَسَلَّمَ، وَأَرْجِعُ مُنْهَزِمًا، وَعَلَيَّ بُرْدَتَانِ، مُتَزِّرًا بِإِحْدَاهُمَا مُرْتَدِيًا بِالْأُخْرَى، فَاسْتَطْلَقَ إِزَارِي، فَجَمَعْتُهُمَا",
+   "why": "Print (hadith 123): 'فَوَلَّى صَحَابَةُ النَّبِيِّ ... وَسَلَّمَ، وَأَرْجِعُ مُنْهَزِمًا، وَعَلَيَّ بُرْدَتَانِ، مُتَزِّرًا بِإِحْدَاهُمَا مُرْتَدِيًا بِالْأُخْرَى، فَاسْتَطْلَقَ إِزَارِي، فَجَمَعْتُهُمَا' (Opus idx63+64; our reading had the extra منهزما after وسلم and omitted the clause)"
+  },
+  {
+   "pdf_page": 66,
+   "block": 0,
+   "old": "ചരൽക്കല്ലുകൾകൊണ്ട്",
+   "new": "ചരൽകല്ലുകൾകൊണ്ട്",
+   "why": "Print reads 'തന്റെ ആ ചരൽകല്ലുകൾകൊണ്ട്' with single ക after ൽ (Opus)"
+  },
+  {
+   "pdf_page": 67,
+   "block": 0,
+   "old": "ശത്രുക്കൾക്കു",
+   "new": "ശത്രക്കൾക്കു",
+   "why": "Print reads 'ശത്രക്കൾക്കു നേരെ' without ു after ത്ര (Opus)"
+  },
+  {
+   "pdf_page": 67,
+   "block": 3,
+   "old": "അബ്ദുല്ലാഹിബ്നു",
+   "new": "അബുദ്ല്ലാഹിബ്നു",
+   "why": "Print reads 'അബുദ്ല്ലാഹിബ്നു ഉമർ(റ)' (printed form kept, Opus)"
+  },
+  {
+   "pdf_page": 68,
+   "block": 5,
+   "old": "അബൂമൂസ(റ):",
+   "new": "അബൂമൂസാ(റ):",
+   "why": "Print 'അബൂമൂസാ(റ): നബി(സ) മക്കക്കും' with ാ (Opus)"
+  },
+  {
+   "pdf_page": 68,
+   "block": 5,
+   "old": "അബൂമൂസ(റ),",
+   "new": "അബൂമൂസാ(റ),",
+   "why": "Print 'കോപഭാവത്തിൽ അബൂമൂസാ(റ), ബിലാൽ(റ)' with ാ (Opus)"
+  },
+  {
+   "pdf_page": 69,
+   "block": 4,
+   "old": "ഖാലിദ്(റ) വധിക്കാനും",
+   "new": "അനന്തരം ഖാലിദ്(റ) വധിക്കാനും",
+   "why": "Print 'കുന്നു). അനന്തരം ഖാലിദ്(റ) വധിക്കാനും' - word missing in our reading (Opus)"
+  },
+  {
+   "pdf_page": 71,
+   "block": 3,
+   "old": "أَوَاقِيَ",
+   "new": "أَوَاقِ",
+   "why": "Print 'فَغَنِمْتُ أَوَاقِ ذَوَاتِ عَدَدٍ' without yā (Opus)"
+  },
+  {
+   "pdf_page": 71,
+   "block": 2,
+   "old": "അൾഅരി(റ)",
+   "new": "അശ്അരി(റ)",
+   "why": "Print 'അബൂമൂസൽ അശ്അരി(റ)' (Opus); our അൾഅരി is wrong"
+  },
+  {
+   "pdf_page": 71,
+   "block": 4,
+   "old": "കൂടെയുള്ള അവരോട്",
+   "new": "കൂടെയുള്ളവരോട്",
+   "why": "Print 'കൂടെയുളള' / 'വരോട്' wraps across lines = one word 'കൂടെയുളളവരോട്' (Opus)"
+  },
+  {
+   "pdf_page": 73,
+   "block": 0,
+   "old": "വഹിക്കുകയും",
+   "new": "വഹിക്കുകും",
+   "why": "Print 'സാക്ഷ്യം വഹിക്കുകും ചെയ്യുക' without യ (Opus); printed form kept"
+  },
+  {
+   "pdf_page": 74,
+   "block": 0,
+   "old": "വാരിയെല്ലുകൾക്കിടയിലൂടെ,",
+   "new": "വാരിയെല്ലുകൾക്കടിയിലൂടെ,",
+   "why": "Print 'ആ വാരിയെല്ലുകൾക്കടിയിലൂടെ, അവയിൽ തട്ടാതെ' (Opus)"
+  },
+  {
+   "pdf_page": 75,
+   "block": 1,
+   "old": "قَالَ: مَا قُلْتُ لَكَ",
+   "new": "فَقَالَ: عِنْدِي مَا قُلْتُ لَكَ",
+   "why": "Print 'فقال: عندي ما قلت لك: إن تنعم...' (word عِنْدِي missing in our reading; Opus)"
+  },
+  {
+   "pdf_page": 78,
+   "block": 1,
+   "old": "അഞ്ചു ഒട്ടകങ്ങളെ",
+   "new": "അഞ്ച് ഒട്ടകങ്ങളെ",
+   "why": "Print 'അങ്ങനെ അഞ്ച് ഒട്ടകങ്ങളെ ഞങ്ങൾക്ക് നൽകാൻ' (Opus)"
+  },
+  {
+   "pdf_page": 83,
+   "block": 0,
+   "old": "يُهَنِّئُونِي",
+   "new": "يُهَنُّونِي",
+   "why": "Print 'فَيَتَلَقَّانِي النَّاسُ فَوْجًا فَوْجًا يُهَنُّونِي بِالتَّوْبَةِ' with no hamza (Opus 'يهنوني')"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 63,
+   "note": "HELD (glyph-level, not applied): idx52 ML 'സന്ദര' (A) vs 'സൻദറ' (B) in block 0 - chillu ൻ vs ന് ; print looks like chillu but not certain"
+  },
+  {
+   "pdf_page": 63,
+   "note": "HELD (glyph-level, not applied): idx53 ML 'വിച്ഛേദിച്ച്' (A) vs 'വിഛേദിച്ച്' (B) in block 0 - ച്ഛ conjunct vs ഛ; not decidable at this resolution"
+  },
+  {
+   "pdf_page": 64,
+   "note": "HELD (glyph-level, not applied): idx55 ML 'ഔതാസിലേക്കയച്ചു' (A) vs 'ഔത്വാസിലേക്കയച്ചു' (B) in block 1 - ത്വ vs ത; ്വ looks present but not certain at native zoom"
+  },
+  {
+   "pdf_page": 65,
+   "note": "HELD (glyph-level, not applied): idx57 ML 'മുത്തലിബ്(റ):' (A) vs 'മുത്ത്വലിബ്(റ):' (B) block 1 - ത്വ vs ത"
+  },
+  {
+   "pdf_page": 65,
+   "note": "HELD (glyph-level, not applied): idx59 ML 'മുത്തലിബ്(റ)വും' (A) vs 'മുത്ത്വലിബ്(റ)വും' (B) block 1 - ത്വ vs ത (same word also at line 1, not applied)"
+  },
+  {
+   "pdf_page": 65,
+   "note": "HELD (glyph-level, not applied): idx61 ML 'അൻസാറുകളെ' (A) vs 'അൻസ്വാറുകളെ' (B) block 1 - ്വ vs none"
+  },
+  {
+   "pdf_page": 66,
+   "note": "HELD (glyph-level, not applied): idx67 ML 'അബ്ദുൽമുത്തലിബിന്റെ' (A) vs 'അബ്ദുൽമുത്ത്വലിബിന്റെ' (B) block 2 - ്വ"
+  },
+  {
+   "pdf_page": 68,
+   "note": "HELD (glyph-level, not applied): idx72 ML 'അബൂബകർ(റ):' (A) vs 'അബൂബക്റഃ(റ):' (B) block 1 - ർ vs ്റഃ; print looks like ക്റഃ but not certain"
+  },
+  {
+   "pdf_page": 68,
+   "note": "HELD (glyph-level, not applied): idx73 ML 'മനഃപൂർവ്വം' (A) vs 'മനഃപ്പൂർവ്വം' (B) block 1 - gemination പ്പ; print looks doubled but not certain"
+  },
+  {
+   "pdf_page": 68,
+   "note": "HELD (glyph-level, not applied): idx74 ML 'അബൂബകർ(റ)' (A) vs 'അബൂബക്റഃ(റ)' (B) block 3 - ർ vs ്റഃ"
+  },
+  {
+   "pdf_page": 68,
+   "note": "HELD (glyph-level, not applied): idx75 ML '(അബൂബകർ) കൂറേ' (A) vs '(അബൂബക്റഃ) കുറേ' (B) block 3 - ർ/റ and ൂ/ു"
+  },
+  {
+   "pdf_page": 68,
+   "note": "HELD (glyph-level, not applied): idx76 ML 'മൂന്നാമനാണ് ദേഹം.' (A) vs 'മൂന്നാമനാണദ്ദേഹം.' (B) block 3 - gemination ദ്ദ; print looks doubled but not certain"
+  },
+  {
+   "pdf_page": 69,
+   "note": "HELD (not applied): idx79 ML 'തൃപ്തിപ്പെടുന്നില്ലയോ?\"' (A) vs 'തൃപ്തിപ്പെടുന്നില്ലെയോ?\"' (B) block 1 - vowel sign െ not certain at native zoom"
+  },
+  {
+   "pdf_page": 69,
+   "note": "HELD (glyph-level, not applied): idx80 ML 'ബനുജദീമയിലേക്കയച്ചു' (A) vs 'ബനൂജദീമയിലേക്കയച്ചു' (B) block 4 - ു vs ൂ"
+  },
+  {
+   "pdf_page": 70,
+   "note": "NOT LOCATED/UNDECIDED: idx82 AR 'القرآن؟' (A) vs 'القرآن:' (B) block 1 - punctuation after القرآن could not be read at zoom; re-check"
+  },
+  {
+   "pdf_page": 70,
+   "note": "HELD (glyph-level, not applied): idx83 ML 'അൻസാരികളിൽ' (A) vs 'അൻസ്വാരികളിൽ' (B) block 0 - ്വ"
+  },
+  {
+   "pdf_page": 70,
+   "note": "HELD (glyph-level, not applied): idx84 ML '(ഗവർണർമാരായി)' (A) vs '(ഗവർണ്ണർമാരായി)' (B) block 2 - gemination ണ്ണ"
+  },
+  {
+   "pdf_page": 70,
+   "note": "HELD (not applied): idx85-89 ML 'മേഘല' (A) vs 'മേഖല' (B) block 2 (5 occurrences: മേഘലകളിലേക്കാണ്, മേഘലകളായിരുന്നു, മേഘലയിലേക്ക്, മേഘലയിൽ x2). Print letter looks like ഘ but ഘ/ഖ not certain at native zoom"
+  },
+  {
+   "pdf_page": 72,
+   "note": "HELD (glyph-level, not applied): idx95 ML 'അബീതാലിബ്(റ)' (A) vs 'അബീത്വാലിബ്(റ)' (B) block 1 - ്വ"
+  },
+  {
+   "pdf_page": 72,
+   "note": "HELD (not applied): idx96 ML 'അസം സ്കൃത സർണ്ണം' (A) vs 'അസംസ്കൃത സ്വർണ്ണം' (B) block 1 - the line-wrap join 'അസംസ്കൃത' looks right, but 'സർണ്ണം' vs 'സ്വർണ്ണം' is a ്വ call; held as a whole"
+  },
+  {
+   "pdf_page": 72,
+   "note": "HELD (glyph-level, not applied): idx97 ML 'ഹിസ്ൻ(റ),' (A) vs 'ഹിസ്ന്(റ),' (B) block 1 - chillu ൻ vs ന്"
+  },
+  {
+   "pdf_page": 72,
+   "note": "HELD (glyph-level, not applied): idx98 ML 'നിസ്കാരക്കാരുണ്ട്.' (A) vs 'നിസ്ക്കാരക്കാരുണ്ട്.' (B) block 1 - consonant gemination ക്ക"
+  },
+  {
+   "pdf_page": 72,
+   "note": "HELD (glyph-level, not applied): idx99 ML 'ദുൽഖലസ' (A) vs 'ദുൽഖലസ്വ' (B) block 2 (bab heading) - ്വ"
+  },
+  {
+   "pdf_page": 73,
+   "note": "HELD (not applied): idx100 AR 'في' (A) vs 'فني' (B) block 3 (hadith 139, 'ببعض الطريق في/فني الزاد') - dot pattern not resolved at native zoom"
+  },
+  {
+   "pdf_page": 73,
+   "note": "HELD (glyph-level, not applied): idx102 ML 'ദുകലാഅ്, ദുഅംറ്' (A) vs 'ദൂകലാഅ്, ദൂഅംറ്' (B) block 3 - ു vs ൂ"
+  },
+  {
+   "pdf_page": 73,
+   "note": "HELD (glyph-level, not applied): idx103 ML 'ദുഅംറ്' (A) vs 'ദൂഅംറ്' (B) block 3 - ു vs ൂ"
+  },
+  {
+   "pdf_page": 74,
+   "note": "HELD (glyph-level, not applied): idx105 ML 'അബൂഉബൈദ(റ)' (A) vs 'അബുഉബൈദ(റ)' (B) - block 0 (3 occurrences) and block 2 - ൂ vs ു"
+  },
+  {
+   "pdf_page": 75,
+   "note": "HELD (glyph-level, not applied): idx108 and idx109 ML 'ചെയ്യുകയാണെങ്കിൽ' (A) vs 'ചെയ്യുകയാണെങ്കൽ' (B) block 2 (3 occurrences each) - chillu ൽ vs ിൽ"
+  },
+  {
+   "pdf_page": 75,
+   "note": "NOTE (not a diff item, not changed): block 1 reads 'مَا عِنْدَكَ يَا ثُمَامَةُ' where print shows 'مَاذَا عِنْدَكَ' in both places"
+  },
+  {
+   "pdf_page": 76,
+   "note": "HELD (not applied): idx111 ML '\"മുമ്പതന്നെ' (A) vs '\"മുമ്പ്തന്നെ' (B) block 2 - virama on മ്പ not certain at native zoom"
+  },
+  {
+   "pdf_page": 78,
+   "note": "HELD (glyph-level, not applied): idx114 ML 'ഹജ്ജതുൽ' (A) vs 'ഹജ്ജത്തുൽ' (B) - bab heading block 4 and block 8 ('ഹജ്ജതുൽവദാഅ്') - gemination ത്ത"
+  },
+  {
+   "pdf_page": 76,
+   "note": "HELD (glyph-level, not applied): idx110 ML 'സാബിതുബ്നു വൈസുബ്നു' (A) vs 'സാബിതുബ്നു ഖൈസുബ്നു' (B) block 2 - വ vs ഖ not certain at native zoom (p80 print of the same name looked like വൈസേ)"
+  },
+  {
+   "pdf_page": 80,
+   "note": "HELD (not applied): idx115 ML 'ബിലാൽ(റ) അബ്ദുല്ലാഹിബ്നു വൈസേ' (A) vs 'ഖൈസേ' (B) block 1 - print looked like വൈസേ at zoom; Arabic name suggests ഖൈസ്; not decided"
+  },
+  {
+   "pdf_page": 85,
+   "note": "NOT DECIDED: idx117 ML 'പ്രായചശ്ചിത്തമായി' (A) vs 'പ്രായശ്ചിത്തമായി' (B) block 0 - word not read at native zoom"
+  },
+  {
+   "pdf_page": 87,
+   "note": "NOT DECIDED: idx118 ML 'വരേയുളളതിൽ' (A) vs 'വരെയുളളതിൽ' (B) block (line 'പ്രസവിച്ച ദിവസം മുതൽ ഇന്നു വരേയുളളതിൽ') - not located at zoom"
+  },
+  {
+   "pdf_page": 88,
+   "note": "NOT DECIDED: idx119 ML 'പതിനോഴ്' (A) vs 'പതിനേഴ്' (B) block 3 (Arabic 'سبع عشرة' suggests 17) - word not located at zoom"
+  },
+  {
+   "pdf_page": 89,
+   "note": "HELD (glyph-level, not applied): idx120 ML 'ലഭിച്ചുവെന്ന' (A) vs 'ലഭിച്ചുവെന്ന്' (B) block 5 - chillu ന്"
+  },
+  {
+   "pdf_page": 90,
+   "note": "HELD (glyph-level, not applied): idx121 ML 'അബ്ദുൽമുത്വലിബ്' (A) vs 'അബ്ദുൽമുത്ത്വലിബ്' (B) block 8 - ്വ"
+  },
+  {
+   "pdf_page": 91,
+   "note": "HELD (glyph-level, not applied): idx122 ML 'വസ്വിയ്യത്ത്' (A) vs 'വസിയ്യത്ത്' (B) block 0 - ്വ"
+  },
+  {
+   "pdf_page": 92,
+   "note": "HELD (glyph-level, not applied): idx123 ML 'ഫാതിമ(റ)' (A) vs 'ഫാത്വിമ(റ)' (B) block 1 - ്വ"
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 51,
+   "print": "B"
+  },
+  {
+   "idx": 54,
+   "print": "B"
+  },
+  {
+   "idx": 56,
+   "print": "A"
+  },
+  {
+   "idx": 58,
+   "print": "B"
+  },
+  {
+   "idx": 60,
+   "print": "B"
+  },
+  {
+   "idx": 62,
+   "print": "A"
+  },
+  {
+   "idx": 63,
+   "print": "B"
+  },
+  {
+   "idx": 64,
+   "print": "B"
+  },
+  {
+   "idx": 65,
+   "print": "B"
+  },
+  {
+   "idx": 66,
+   "print": "A"
+  },
+  {
+   "idx": 68,
+   "print": "B"
+  },
+  {
+   "idx": 69,
+   "print": "B"
+  },
+  {
+   "idx": 70,
+   "print": "A"
+  },
+  {
+   "idx": 71,
+   "print": "A"
+  },
+  {
+   "idx": 77,
+   "print": "B"
+  },
+  {
+   "idx": 78,
+   "print": "B"
+  },
+  {
+   "idx": 81,
+   "print": "B"
+  },
+  {
+   "idx": 90,
+   "print": "A"
+  },
+  {
+   "idx": 91,
+   "print": "B"
+  },
+  {
+   "idx": 92,
+   "print": "A"
+  },
+  {
+   "idx": 93,
+   "print": "B"
+  },
+  {
+   "idx": 94,
+   "print": "B"
+  },
+  {
+   "idx": 101,
+   "print": "B"
+  },
+  {
+   "idx": 104,
+   "print": "B"
+  },
+  {
+   "idx": 106,
+   "print": "A"
+  },
+  {
+   "idx": 107,
+   "print": "B"
+  },
+  {
+   "idx": 112,
+   "print": "A"
+  },
+  {
+   "idx": 113,
+   "print": "B"
+  },
+  {
+   "idx": 116,
+   "print": "B"
+  }
+ ]
+}

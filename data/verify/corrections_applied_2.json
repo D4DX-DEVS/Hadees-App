@@ -1,0 +1,37 @@
+[
+ {
+  "id": 3565,
+  "edits": [
+   {
+    "old": " فَنَظَرَ",
+    "new": "",
+    "note": "OCR: duplicated word فنظر (print has it once)"
+   },
+   {
+    "old": " فَنَظَرَ",
+    "new": "",
+    "note": "OCR: duplicated word فنظر (print has it once)"
+   }
+  ]
+ },
+ {
+  "id": 11969,
+  "edits": [
+   {
+    "old": "فَقُلْنَا",
+    "new": "قُلْنَا",
+    "note": "OCR: print has no initial فـ (matches collections)"
+   }
+  ]
+ },
+ {
+  "id": 13263,
+  "edits": [
+   {
+    "old": "رِوَيَةٍ",
+    "new": "رِوَايَةٍ",
+    "note": "OCR: missing alef in رواية (print)"
+   }
+  ]
+ }
+]

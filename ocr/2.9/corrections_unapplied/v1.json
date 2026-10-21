@@ -1,0 +1,296 @@
+{
+ "part": "2.9",
+ "pages_checked": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6
+ ],
+ "corrections": [
+  {
+   "pdf_page": 2,
+   "block": 1,
+   "old": "ഫാത്വിമാബീവിയെ",
+   "new": "ഫാതിമാബീവിയെ",
+   "why": "spelling differs from print"
+  },
+  {
+   "pdf_page": 2,
+   "block": 1,
+   "old": "അബീഖുഹാഫ (ആഇശ",
+   "new": "അബീകുഹാഫ (ആഇശ",
+   "why": "spelling differs from print"
+  },
+  {
+   "pdf_page": 2,
+   "block": 1,
+   "old": "ഫാത്വിമാബീവി(റ) എഴുന്നേറ്റ്",
+   "new": "ഫാതിമബീവി(റ) എഴുന്നേറ്റ്",
+   "why": "spelling differs from print"
+  },
+  {
+   "pdf_page": 2,
+   "block": 1,
+   "old": "ഫാത്വിമാബീവി(റ)യോട് പറഞ്ഞു",
+   "new": "ഫാതിമബീവി(റ)യോട് പറഞ്ഞു",
+   "why": "spelling differs from print"
+  },
+  {
+   "pdf_page": 2,
+   "block": 1,
+   "old": "ഫാത്വിമ(റ) പറഞ്ഞു",
+   "new": "ഫാതിമ(റ) പറഞ്ഞു",
+   "why": "spelling differs from print"
+  },
+  {
+   "pdf_page": 2,
+   "block": 1,
+   "old": "ഞാൻ വിഷയത്തിൽ",
+   "new": "ഞാനീ വിഷയത്തിൽ",
+   "why": "word dropped"
+  },
+  {
+   "pdf_page": 2,
+   "block": 1,
+   "old": "സ്ഥാനുകൊണ്ട്",
+   "new": "സ്ഥാനംകൊണ്ട്",
+   "why": "anusvara missing"
+  },
+  {
+   "pdf_page": 2,
+   "block": 1,
+   "old": "നിറവേറ്റിയില്ല",
+   "new": "നിറവേറ്റിയിട്ടില്ല",
+   "why": "word differs"
+  },
+  {
+   "pdf_page": 3,
+   "block": 0,
+   "old": "ഫാത്തിമബീവി(റ)",
+   "new": "ഫാതിമബീവി(റ)",
+   "why": "spelling differs from print"
+  },
+  {
+   "pdf_page": 3,
+   "block": 0,
+   "old": "ആയിശ(റ)യുടെ വിരിപ്പിൽ",
+   "new": "ആഇശ(റ)യുടെ വിരിപ്പിൽ",
+   "why": "spelling differs from print"
+  },
+  {
+   "pdf_page": 3,
+   "block": 2,
+   "old": "ആയിശ(റ)യുടെ ശ്രേഷ്ഠത",
+   "new": "ആഇശ(റ)യുടെ ശ്രേഷ്ഠത",
+   "why": "spelling differs from print"
+  },
+  {
+   "pdf_page": 3,
+   "block": 2,
+   "old": "സരീദ് (",
+   "new": "സരീദി (",
+   "why": "final vowel sign"
+  },
+  {
+   "pdf_page": 3,
+   "block": 4,
+   "old": "ആയിശ(റ)യുടെ ദിവസം",
+   "new": "ആഇശ(റ)യുടെ ദിവസം",
+   "why": "spelling differs from print"
+  },
+  {
+   "pdf_page": 3,
+   "block": 4,
+   "old": "ആയിശ(റ) നന്മയെ",
+   "new": "ആഇശ(റ) നന്മയെ",
+   "why": "spelling differs from print"
+  },
+  {
+   "pdf_page": 3,
+   "block": 4,
+   "old": "അവിടുത്തെ ഭാര്യമാർ മഹതിയോട്",
+   "new": "അവിടത്തെ ഭാര്യമാർ മഹതിയോട്",
+   "why": "spelling differs from print"
+  },
+  {
+   "pdf_page": 3,
+   "block": 4,
+   "old": "അവിടുന്ന് പ്രതികരിച്ചില്ല. തന്റെ",
+   "new": "അവിടന്ന് പ്രതികരിച്ചില്ല. തന്റെ",
+   "why": "spelling differs from print"
+  },
+  {
+   "pdf_page": 3,
+   "block": 4,
+   "old": "അല്ലെങ്കിൽ അവിടുന്ന് എന്താണ്",
+   "new": "അല്ലെങ്കിൽ അവിടന്ന് എന്താണ്",
+   "why": "spelling differs from print"
+  },
+  {
+   "pdf_page": 3,
+   "block": 4,
+   "old": "ആയിശ(റ)യുടെ വിഷയത്തിൽ",
+   "new": "ആഇശ(റ)യുടെ വിഷയത്തിൽ",
+   "why": "spelling differs from print"
+  },
+  {
+   "pdf_page": 3,
+   "block": 4,
+   "old": "കാരണം ആയിശയുടെ",
+   "new": "കാരണം ആഇശയുടെ",
+   "why": "spelling differs from print"
+  },
+  {
+   "pdf_page": 3,
+   "block": 6,
+   "old": "ആയിശ(റ): ജനങ്ങൾ",
+   "new": "ആഇശ(റ): ജനങ്ങൾ",
+   "why": "spelling differs from print"
+  },
+  {
+   "pdf_page": 3,
+   "block": 6,
+   "old": "ആയിശ(റ)യുടെ ദിവസം",
+   "new": "ആഇശ(റ)യുടെ ദിവസം",
+   "why": "spelling differs from print"
+  },
+  {
+   "pdf_page": 4,
+   "block": 1,
+   "old": "അല്ലാഹു അവിടുത്തേക്ക് വഹ്യ്",
+   "new": "അല്ലാഹു അവിടത്തേക്ക് വഹ്യ്",
+   "why": "spelling differs from print"
+  },
+  {
+   "pdf_page": 4,
+   "block": 1,
+   "old": "ഞാൻ അവിടുത്തെയും എന്റെയും",
+   "new": "ഞാൻ അവിടത്തെയും എന്റെയും",
+   "why": "spelling differs from print"
+  },
+  {
+   "pdf_page": 4,
+   "block": 1,
+   "old": "അവിടുത്തെ ക്ഷീണം",
+   "new": "അവിടത്തെ ക്ഷീണം",
+   "why": "spelling differs from print"
+  },
+  {
+   "pdf_page": 4,
+   "block": 4,
+   "old": "അവിടുത്തെ ഭാര്യമാരിൽ",
+   "new": "അവിടത്തെ ഭാര്യമാരിൽ",
+   "why": "spelling differs from print"
+  },
+  {
+   "pdf_page": 4,
+   "block": 4,
+   "old": "അവിടുന്ന് പറയുന്ന ഉണ്ടായിരുന്നു",
+   "new": "അവിടന്ന് പറയുന്നുണ്ടായിരുന്നു",
+   "why": "word form"
+  },
+  {
+   "pdf_page": 4,
+   "block": 6,
+   "old": "അവിടുത്തെ അനുചരന്മാർക്കും",
+   "new": "അവിടത്തെ അനുചരന്മാർക്കും",
+   "why": "spelling differs from print"
+  },
+  {
+   "pdf_page": 5,
+   "block": 1,
+   "old": "١٣. ",
+   "new": "",
+   "why": "hadith number duplicated in text"
+  },
+  {
+   "pdf_page": 5,
+   "block": 3,
+   "old": "١٤. ",
+   "new": "",
+   "why": "hadith number duplicated in text"
+  },
+  {
+   "pdf_page": 5,
+   "block": 2,
+   "old": "ഞാനും സഫിയ്യയും",
+   "new": "ഞാനും സ്വഫിയ്യയും",
+   "why": "spelling differs from print"
+  },
+  {
+   "pdf_page": 5,
+   "block": 2,
+   "old": "അവിടുന്ന് തേൻ കുടിക്കുകയും",
+   "new": "അവിടന്ന് തേൻ കുടിക്കുകയും",
+   "why": "spelling differs from print"
+  },
+  {
+   "pdf_page": 5,
+   "block": 2,
+   "old": "അവിടുത്തെ ഭാര്യമാരിൽ ചിലരോട്",
+   "new": "അവിടത്തെ ഭാര്യമാരിൽ ചിലരോട്",
+   "why": "spelling differs from print"
+  },
+  {
+   "pdf_page": 6,
+   "block": 0,
+   "old": "നീയായിരുന്നോ",
+   "new": "നീയായിരന്നോ",
+   "why": "print reads this way (misprint kept)"
+  },
+  {
+   "pdf_page": 6,
+   "block": 0,
+   "old": "മുന്നിലുണ്ടായിരുന്ന",
+   "new": "മുന്നിലുണ്ടായുരന്ന",
+   "why": "print reads this way (misprint kept)"
+  },
+  {
+   "pdf_page": 6,
+   "block": 1,
+   "old": "١٥. ",
+   "new": "",
+   "why": "hadith number duplicated in text"
+  },
+  {
+   "pdf_page": 6,
+   "block": 3,
+   "old": "١٦. ",
+   "new": "",
+   "why": "hadith number duplicated in text"
+  },
+  {
+   "pdf_page": 6,
+   "block": 5,
+   "old": "١٧. ",
+   "new": "",
+   "why": "hadith number duplicated in text"
+  },
+  {
+   "pdf_page": 6,
+   "block": 4,
+   "old": "അവിടുത്തെ മുടിയിൽ",
+   "new": "അവിടത്തെ മുടിയിൽ",
+   "why": "spelling differs from print"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 3,
+   "hadith_no": 9,
+   "note": "Arabic: print has 'فَلَمَّا رُفِّهَ عَنْهُ' (shadda/kasra on ف, damma on ر) but JSON has 'رَفَهَ'; low confidence"
+  },
+  {
+   "pdf_page": 3,
+   "hadith_no": 7,
+   "note": "JSON adds full harakat on several words that are largely unvocalised in print (e.g. hadith 7-8 'يَتَحَرَّوْنَ بِهَدَايَاهُمْ يَوْمَ عَائِشَةَ'); not corrected"
+  },
+  {
+   "pdf_page": 2,
+   "hadith_no": 5,
+   "note": "JSON also adds harakat to words printed bare in hadith 5; not corrected; Malayalam 'അവിടുത്തെ/അവിടത്തെ/അവിടുന്ന്/അവിടന്ന്' varies in print; I only fixed instances I could read clearly"
+  }
+ ]
+}

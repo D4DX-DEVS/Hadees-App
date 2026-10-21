@@ -1,0 +1,179 @@
+{
+ "part": "4.13",
+ "pages_checked": [
+  25,
+  27,
+  29,
+  30,
+  31,
+  32,
+  33,
+  37,
+  39,
+  41,
+  42,
+  43,
+  44,
+  45
+ ],
+ "corrections": [
+  {
+   "pdf_page": 25,
+   "block": 2,
+   "old": "ചെയ്യുമെങ്കിലും",
+   "new": "ചയ്യുമെങ്കിലും",
+   "why": "print has ചയ്യു (no െ)"
+  },
+  {
+   "pdf_page": 25,
+   "block": 6,
+   "old": "മുൻഖതവിആയ",
+   "new": "മുൻഖതിആയ",
+   "why": "print reads ത+ി, no വ"
+  },
+  {
+   "pdf_page": 27,
+   "block": 3,
+   "old": "ഖൈലിത്ത്വാഇഈ(റ),",
+   "new": "ഖൈലിത്ത്വാഇൗ(റ),",
+   "why": "print ends ഇ+ൗ (ഇൗ print form), not ഇഈ"
+  },
+  {
+   "pdf_page": 29,
+   "block": 1,
+   "old": "വാളുകൾ ഊരുകയും",
+   "new": "വാളുകൾ ഊരുകുയും",
+   "why": "print typo ഊരുകുയും"
+  },
+  {
+   "pdf_page": 39,
+   "block": 6,
+   "old": "അബൂദർദാഅ്(റ):",
+   "new": "അബൂദ്ദർദാഅ്(റ):",
+   "why": "print has stacked ദ്ദ before ർ"
+  },
+  {
+   "pdf_page": 41,
+   "block": 7,
+   "old": "സകാത്ത് (നിർബന്ധ",
+   "new": "സകാത് (നിർബന്ധ",
+   "why": "print has സകാത് (single ത്) at line end"
+  },
+  {
+   "pdf_page": 42,
+   "block": 3,
+   "old": "[البقرة: 143]",
+   "new": "[البقرة: ١٤٣]",
+   "why": "print uses Arabic-Indic digits"
+  },
+  {
+   "pdf_page": 43,
+   "block": 1,
+   "old": "[الحجرات: 14]",
+   "new": "[الحجرات: ١٤]",
+   "why": "print uses Arabic-Indic digits"
+  },
+  {
+   "pdf_page": 44,
+   "block": 11,
+   "old": "പശ്ചാത്താപം",
+   "new": "പശ്ചാതാപം",
+   "why": "footnote 5 prints പശ്ചാതാപം (single ത); main-text occurrence in block 2 is unchanged"
+  },
+  {
+   "pdf_page": 45,
+   "block": 6,
+   "old": "[الأعراف: 172]",
+   "new": "[الأعراف: ١٧٢]",
+   "why": "print uses Arabic-Indic digits"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 37,
+   "note": "idx35 block5 2nd താഴെയുള്ളവൻ (wrapped line start വന്): print appears to show ന+virama (B) rather than chillu ൻ, but chillu vs ന് is glyph-level; no correction emitted"
+  },
+  {
+   "pdf_page": 45,
+   "note": "idx43 block5 സ്വേച്ഛകളെ vs സ്വേഛകളെ: print glyph cluster after സ്വേ reads like ച+ര (unclear ഛ/ച്ഛ); glyph-level, no correction"
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 25,
+   "print": "B"
+  },
+  {
+   "idx": 26,
+   "print": "A"
+  },
+  {
+   "idx": 27,
+   "print": "B"
+  },
+  {
+   "idx": 28,
+   "print": "other"
+  },
+  {
+   "idx": 29,
+   "print": "B"
+  },
+  {
+   "idx": 30,
+   "print": "A"
+  },
+  {
+   "idx": 31,
+   "print": "A"
+  },
+  {
+   "idx": 32,
+   "print": "A"
+  },
+  {
+   "idx": 33,
+   "print": "A"
+  },
+  {
+   "idx": 34,
+   "print": "A"
+  },
+  {
+   "idx": 35,
+   "print": "uncertain"
+  },
+  {
+   "idx": 36,
+   "print": "B"
+  },
+  {
+   "idx": 37,
+   "print": "A"
+  },
+  {
+   "idx": 38,
+   "print": "B"
+  },
+  {
+   "idx": 39,
+   "print": "B"
+  },
+  {
+   "idx": 40,
+   "print": "B"
+  },
+  {
+   "idx": 41,
+   "print": "B"
+  },
+  {
+   "idx": 43,
+   "print": "uncertain"
+  },
+  {
+   "idx": 42,
+   "print": "B"
+  }
+ ]
+}

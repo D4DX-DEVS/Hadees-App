@@ -1,0 +1,95 @@
+{
+ "part": "4.10",
+ "pages_checked": [
+  3,
+  5,
+  6,
+  11,
+  13,
+  14,
+  16,
+  18
+ ],
+ "corrections": [
+  {
+   "pdf_page": 5,
+   "block": 5,
+   "old": "هُدِيَ",
+   "new": "هَدَى",
+   "why": "print reads هَدَى (alef maqsura, fatha)"
+  },
+  {
+   "pdf_page": 16,
+   "block": 2,
+   "old": "സാന്നിധ്യം ആരാണ്",
+   "new": "സാന്നിദ്ധ്യം ആരാണ്",
+   "why": "print has ദ്ധ്യ"
+  },
+  {
+   "pdf_page": 16,
+   "block": 2,
+   "old": "സാന്നിധ്യം അവിടുത്തെ",
+   "new": "സാന്നിദ്ധ്യം അവിടുത്തെ",
+   "why": "print has ദ്ധ്യ"
+  }
+ ],
+ "uncertain": [],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "B"
+  },
+  {
+   "idx": 1,
+   "print": "B"
+  },
+  {
+   "idx": 2,
+   "print": "A"
+  },
+  {
+   "idx": 3,
+   "print": "B"
+  },
+  {
+   "idx": 4,
+   "print": "A"
+  },
+  {
+   "idx": 5,
+   "print": "A"
+  },
+  {
+   "idx": 6,
+   "print": "A"
+  },
+  {
+   "idx": 7,
+   "print": "B"
+  },
+  {
+   "idx": 8,
+   "print": "B"
+  },
+  {
+   "idx": 9,
+   "print": "B"
+  },
+  {
+   "idx": 10,
+   "print": "B"
+  },
+  {
+   "idx": 11,
+   "print": "A"
+  },
+  {
+   "idx": 12,
+   "print": "B"
+  },
+  {
+   "idx": 13,
+   "print": "A"
+  }
+ ]
+}

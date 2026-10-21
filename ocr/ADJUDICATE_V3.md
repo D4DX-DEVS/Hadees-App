@@ -1,0 +1,13 @@
+# Adjudication of reader disagreements (Vol 3)
+Input chunk JSON: items of `type` `diff` (a = reading in our page JSON, b = the other reader (Opus, an independent second reading), context = our words around; Arabic compared WITHOUT harakat, Malayalam without ള്ള/ളള, punctuation, spacing-only diffs) or `verifier_correction` (pdf_page, block, old, new = a suggested change to our JSON; verify it, do not trust it).
+For EVERY item: render the page (`pdftoppm -f N -l N -r 200 -jpeg <pdf> <folder>/pg`), crop to strips (use a small Swift/Python PIL script if `sips -c` offset doesn't work) and read what the PRINT says at that spot. Decide: A (our JSON right), B (other right), other (print differs from both → give exact print reading).
+Keep printed misspellings/typos of the author (do NOT normalise them): output the print as printed. Ignore Arabic harakat differences completely (extra vowel marks are fine) unless a clearly wrong vowel changes the reading. Never guess: unreadable at high zoom → uncertain.
+Output file (named in your task): {"part":"1.2","pages_checked":[pages where every item was decided],"corrections":[{"pdf_page":N,"block":<index in that page's blocks array in the page JSON>,"old":"exact substring of that block's text","new":"print reading","why":".."}],"uncertain":[{"pdf_page":N,"note":".."}],"decisions":[{"idx":i,"print":"A|B|other"}]}
+Emit a correction only when the print differs from our JSON (A). `old` must occur exactly once in that block's `text` (or `arabic`/`malayalam` for bab/book_heading) and be long enough to be unique. Do NOT edit page JSONs. Work one page at a time (view → decide its items → next) to avoid image-context loss; if images show "media removed", re-render and view again.
+Report ≤80 words: items, #A/#B/#other, #corrections, #uncertain. If you cannot do the task, say so in the first line and write nothing.
+
+## Resolution (important)
+Always read the item at NATIVE scan resolution (`pdfimages -f N -l N -j <pdf> <prefix>` gives ~2700x3700 px) and crop tight around the word. At 150-200 dpi Malayalam ു and ൂ look identical; at native size ു is a clean open circle and ൂ a loop with an inner curl (looks filled). Calibrate on known words on the same page (പൂച്ച, കൂടി vs മുമ്പ്, ഉബൈദ്).
+
+## Prose pages (articles)
+For `ocr/v1/art/...` items: page JSONs are `ocr/v1/art/<intro|article>/pNNN.json` (blocks of type heading/subheading/paragraph/arabic/list_item/table/footnote; `block` = index in that page's blocks; `old` is a substring of the block's `text`). PDFs: `src_v1/intro.pdf`, `src_v1/article.pdf` (pdf page = file number). Output JSON "part" = "art-intro" or "art-article"; same corrections format.

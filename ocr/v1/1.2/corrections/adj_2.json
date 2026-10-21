@@ -1,0 +1,354 @@
+{
+ "part": "1.2",
+ "pages_checked": [
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16
+ ],
+ "corrections": [
+  {
+   "pdf_page": 9,
+   "block": 1,
+   "old": "فَقُلْتُ: نعم",
+   "new": "فَقُلْتُ؟ نعم",
+   "why": "print has question mark after فقلت"
+  },
+  {
+   "pdf_page": 10,
+   "block": 0,
+   "old": "ഹേ, അബൂഹുറൈറാ!",
+   "new": "ഹേ, അബൂഹുറൈറൊ!",
+   "why": "print റൊ vocative"
+  },
+  {
+   "pdf_page": 10,
+   "block": 0,
+   "old": "അബൂഹുറൈറാ! തിരി",
+   "new": "അബൂഹുറൈറൊ! തിരി",
+   "why": "print റൊ vocative"
+  },
+  {
+   "pdf_page": 10,
+   "block": 0,
+   "old": "അബൂഹുറൈറാ! നിനക്കെന്തുപറ്റി",
+   "new": "അബൂഹുറൈറൊ! നിനക്കെന്തുപറ്റി",
+   "why": "print റൊ vocative"
+  },
+  {
+   "pdf_page": 10,
+   "block": 0,
+   "old": "മറ്റുളവരെല്ലാം",
+   "new": "മറ്റുളളവരെല്ലാം",
+   "why": "print has ളള"
+  },
+  {
+   "pdf_page": 10,
+   "block": 0,
+   "old": "ഈ ചെരിപ്പ് ഏൽപിച്ചു",
+   "new": "ഈ ചെരുപ്പ് ഏൽപിച്ചു",
+   "why": "print ചെരുപ്പ്"
+  },
+  {
+   "pdf_page": 12,
+   "block": 1,
+   "old": "ജുന്ദബുബ്നു",
+   "new": "ജുൻദബുബ്നു",
+   "why": "print uses chillu ൻ"
+  },
+  {
+   "pdf_page": 16,
+   "block": 8,
+   "old": "ഓ അബൂ ഹുറൈറാ,",
+   "new": "ഓ അബൂ ഹുറൈറൊ,",
+   "why": "print റൊ vocative"
+  },
+  {
+   "pdf_page": 16,
+   "block": 8,
+   "old": "അബൂഹുറൈറാ! ഇതാ",
+   "new": "അബൂഹുറൈറൊ! ഇതാ",
+   "why": "print റൊ vocative"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 16,
+   "note": "idx58 (block 6 'അബൂഹുറൈ:') and idx60 (block 8 'അബൂഹുറൈ(റ)'): print has a longer form, likely അബൂഹുറൈറൈ/അബൂഹുറൈറ, but glyphs unresolvable at available resolution; A is incomplete, no correction emitted"
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "B"
+  },
+  {
+   "idx": 1,
+   "print": "B"
+  },
+  {
+   "idx": 2,
+   "print": "A"
+  },
+  {
+   "idx": 3,
+   "print": "A"
+  },
+  {
+   "idx": 4,
+   "print": "A"
+  },
+  {
+   "idx": 5,
+   "print": "A"
+  },
+  {
+   "idx": 6,
+   "print": "A"
+  },
+  {
+   "idx": 7,
+   "print": "A"
+  },
+  {
+   "idx": 8,
+   "print": "other"
+  },
+  {
+   "idx": 9,
+   "print": "other"
+  },
+  {
+   "idx": 10,
+   "print": "A"
+  },
+  {
+   "idx": 11,
+   "print": "A"
+  },
+  {
+   "idx": 12,
+   "print": "A"
+  },
+  {
+   "idx": 13,
+   "print": "A"
+  },
+  {
+   "idx": 14,
+   "print": "other"
+  },
+  {
+   "idx": 15,
+   "print": "A"
+  },
+  {
+   "idx": 16,
+   "print": "other"
+  },
+  {
+   "idx": 17,
+   "print": "other"
+  },
+  {
+   "idx": 18,
+   "print": "A"
+  },
+  {
+   "idx": 19,
+   "print": "A"
+  },
+  {
+   "idx": 20,
+   "print": "A"
+  },
+  {
+   "idx": 21,
+   "print": "A"
+  },
+  {
+   "idx": 22,
+   "print": "A"
+  },
+  {
+   "idx": 23,
+   "print": "A"
+  },
+  {
+   "idx": 24,
+   "print": "A"
+  },
+  {
+   "idx": 25,
+   "print": "A"
+  },
+  {
+   "idx": 26,
+   "print": "other"
+  },
+  {
+   "idx": 27,
+   "print": "A"
+  },
+  {
+   "idx": 28,
+   "print": "A"
+  },
+  {
+   "idx": 29,
+   "print": "A"
+  },
+  {
+   "idx": 30,
+   "print": "A"
+  },
+  {
+   "idx": 31,
+   "print": "A"
+  },
+  {
+   "idx": 32,
+   "print": "A"
+  },
+  {
+   "idx": 33,
+   "print": "A"
+  },
+  {
+   "idx": 34,
+   "print": "A"
+  },
+  {
+   "idx": 35,
+   "print": "A"
+  },
+  {
+   "idx": 36,
+   "print": "A"
+  },
+  {
+   "idx": 37,
+   "print": "A"
+  },
+  {
+   "idx": 38,
+   "print": "A"
+  },
+  {
+   "idx": 39,
+   "print": "A"
+  },
+  {
+   "idx": 40,
+   "print": "A"
+  },
+  {
+   "idx": 41,
+   "print": "A"
+  },
+  {
+   "idx": 42,
+   "print": "A"
+  },
+  {
+   "idx": 43,
+   "print": "B"
+  },
+  {
+   "idx": 44,
+   "print": "B"
+  },
+  {
+   "idx": 45,
+   "print": "A"
+  },
+  {
+   "idx": 46,
+   "print": "A"
+  },
+  {
+   "idx": 47,
+   "print": "A"
+  },
+  {
+   "idx": 48,
+   "print": "A"
+  },
+  {
+   "idx": 49,
+   "print": "A"
+  },
+  {
+   "idx": 50,
+   "print": "A"
+  },
+  {
+   "idx": 51,
+   "print": "A"
+  },
+  {
+   "idx": 52,
+   "print": "B"
+  },
+  {
+   "idx": 53,
+   "print": "B"
+  },
+  {
+   "idx": 54,
+   "print": "B"
+  },
+  {
+   "idx": 55,
+   "print": "A"
+  },
+  {
+   "idx": 56,
+   "print": "A"
+  },
+  {
+   "idx": 57,
+   "print": "A"
+  },
+  {
+   "idx": 58,
+   "print": "other"
+  },
+  {
+   "idx": 59,
+   "print": "other"
+  },
+  {
+   "idx": 60,
+   "print": "other"
+  },
+  {
+   "idx": 61,
+   "print": "other"
+  },
+  {
+   "idx": 62,
+   "print": "other"
+  },
+  {
+   "idx": 63,
+   "print": "other"
+  },
+  {
+   "idx": 64,
+   "print": "other"
+  },
+  {
+   "idx": 65,
+   "print": "other"
+  },
+  {
+   "idx": 66,
+   "print": "other"
+  }
+ ]
+}

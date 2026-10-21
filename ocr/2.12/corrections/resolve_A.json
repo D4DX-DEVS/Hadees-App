@@ -1,0 +1,339 @@
+{
+ "part": "2.12",
+ "pages_checked": [
+  7,
+  9,
+  11,
+  17,
+  18,
+  21,
+  23,
+  24,
+  32,
+  33,
+  34,
+  36,
+  39,
+  41,
+  42,
+  44,
+  60,
+  62,
+  71,
+  73,
+  75,
+  76,
+  77,
+  88,
+  90,
+  93,
+  95,
+  99,
+  102,
+  105
+ ],
+ "corrections": [
+  {
+   "pdf_page": 9,
+   "block": 9,
+   "old": "'മുസബ്ബിഹാത്ത്'",
+   "new": "'മുസബ്വിഹാത്'",
+   "why": "print reads മുസബ്വിഹാത്"
+  },
+  {
+   "pdf_page": 11,
+   "block": 9,
+   "old": "അങ്ങനെ ഞാൻ വുളു",
+   "new": "അങ്ങനെ ഞാൻ വുളൂ",
+   "why": "long ൂ in print"
+  },
+  {
+   "pdf_page": 7,
+   "block": 7,
+   "old": "ഞങ്ങളുടെയും സർവ്വവസ്തുക്കളുടെയും രക്ഷിതാവായ",
+   "new": "ഞങ്ങളുടെയും സർവ്വവസ്തുക്കളുടെയം രക്ഷിതാവായ",
+   "why": "printed misprint ടെയം"
+  },
+  {
+   "pdf_page": 17,
+   "block": 5,
+   "old": "ധർമ്മിഷ്ടൻ",
+   "new": "ധർമ്മിഷ്ഠൻ",
+   "why": "print has ഠ"
+  },
+  {
+   "pdf_page": 18,
+   "block": 0,
+   "old": "വിത്ർ(ഏകൻ)",
+   "new": "വിത്റ്(ഏകൻ)",
+   "why": "print has റ്"
+  },
+  {
+   "pdf_page": 21,
+   "block": 3,
+   "old": "സഅ്ദ്ബിൻ",
+   "new": "സഅദ്ബിൻ",
+   "why": "no chandrakkala in print"
+  },
+  {
+   "pdf_page": 23,
+   "block": 0,
+   "old": "മരണാസന്നമായപ്പോള്‍",
+   "new": "മരണമാസന്നമായാപ്പോൾ",
+   "why": "print reads മരണമാസന്നമായാപ്പോൾ"
+  },
+  {
+   "pdf_page": 24,
+   "block": 2,
+   "old": "നിന്നെത്തൊട്ട്",
+   "new": "നിന്നെതൊട്ട്",
+   "why": "single ത in print"
+  },
+  {
+   "pdf_page": 32,
+   "block": 8,
+   "old": "മീക്കാഈലിന്റെയും",
+   "new": "മീകാഇൗലിന്റെയും",
+   "why": "print മീകാഇൗലിന്റെയും"
+  },
+  {
+   "pdf_page": 32,
+   "block": 3,
+   "old": "തിരുദൂതർ(സ)",
+   "new": "തിരദൂതർ(സ)",
+   "why": "printed misprint, no ു"
+  },
+  {
+   "pdf_page": 33,
+   "block": 6,
+   "old": "അല്ലാഹുവാണേ,",
+   "new": "അല്ലാഹുവാണ്,",
+   "why": "print has chandrakkala"
+  },
+  {
+   "pdf_page": 36,
+   "block": 0,
+   "old": "റാകിഈങ്ങളുമായ",
+   "new": "റാകിഇൗങ്ങളുമായ",
+   "why": "print ഇൗ"
+  },
+  {
+   "pdf_page": 42,
+   "block": 1,
+   "old": "فَتُنْسَيْنَ",
+   "new": "فَتَنْسَيْنَ",
+   "why": "fatha on ta in print"
+  },
+  {
+   "pdf_page": 44,
+   "block": 4,
+   "old": "എന്ന ദിക്ർ",
+   "new": "എന്ന ദിക്റ്",
+   "why": "print ദിക്റ്"
+  },
+  {
+   "pdf_page": 73,
+   "block": 1,
+   "old": "يُبْدُوَ",
+   "new": "يَبْدُوَ",
+   "why": "fatha on ya in print"
+  },
+  {
+   "pdf_page": 75,
+   "block": 8,
+   "old": "ജീവിപ്പിക്കുകയും",
+   "new": "ജീവിപ്പിക്കുയും",
+   "why": "printed misprint, no ക"
+  },
+  {
+   "pdf_page": 77,
+   "block": 3,
+   "old": "الْإِسْتِغْفَارِ:",
+   "new": "الِاسْتِغْفَارِ:",
+   "why": "print kasra on lam, plain alif"
+  },
+  {
+   "pdf_page": 88,
+   "block": 0,
+   "old": "മയ്യിത്തിന് വേണ്ടി",
+   "new": "മയ്യിതിന് വേണ്ടി",
+   "why": "single ത in print"
+  },
+  {
+   "pdf_page": 90,
+   "block": 7,
+   "old": "പിന്നെ അവിടുന്ന് ഖിയാമിന്റെ",
+   "new": "പിന്നെ അവിടന്ന് ഖിയാമിന്റെ",
+   "why": "print അവിടന്ന്"
+  },
+  {
+   "pdf_page": 90,
+   "block": 7,
+   "old": "പിന്നെ അവിടുന്ന് സുജൂദിൽ",
+   "new": "പിന്നെ അവിടന്ന് സുജൂദിൽ",
+   "why": "print അവിടന്ന്"
+  },
+  {
+   "pdf_page": 93,
+   "block": 5,
+   "old": "അവിടുത്തെ വിത്റിന്റെ",
+   "new": "അവിടത്തെ വിത്റിന്റെ",
+   "why": "print അവിടത്തെ"
+  },
+  {
+   "pdf_page": 105,
+   "block": 0,
+   "old": "അബൂദർറേ",
+   "new": "അബുദർറേ",
+   "why": "short ു in print"
+  },
+  {
+   "pdf_page": 76,
+   "block": 2,
+   "old": "رِضَا نَفْسِهِ، سُبْحَانَ اللَّهِ رِضَا نَفْسِهِ",
+   "new": "رِضَى نَفْسِهِ، سُبْحَانَ اللَّهِ رِضَى نَفْسِهِ",
+   "why": "print reads رِضَى (alef maqsura) in 2nd and 3rd رضى phrases"
+  },
+  {
+   "pdf_page": 34,
+   "block": 2,
+   "old": "} [البقرة",
+   "new": "} البقرة",
+   "why": "print has only closing bracket"
+  }
+ ],
+ "resolved": [
+  {
+   "pdf_page": 3,
+   "hadith_no": 10
+  },
+  {
+   "pdf_page": 5,
+   "hadith_no": 19
+  },
+  {
+   "pdf_page": 11,
+   "hadith_no": 43
+  },
+  {
+   "pdf_page": 7,
+   "hadith_no": 27
+  },
+  {
+   "pdf_page": 17,
+   "hadith_no": 65
+  },
+  {
+   "pdf_page": 18,
+   "hadith_no": 65
+  },
+  {
+   "pdf_page": 21,
+   "hadith_no": 78
+  },
+  {
+   "pdf_page": 24,
+   "hadith_no": 88
+  },
+  {
+   "pdf_page": 32,
+   "hadith_no": 117
+  },
+  {
+   "pdf_page": 32,
+   "hadith_no": 115
+  },
+  {
+   "pdf_page": 33,
+   "hadith_no": 120
+  },
+  {
+   "pdf_page": 34,
+   "hadith_no": 122
+  },
+  {
+   "pdf_page": 39,
+   "hadith_no": 136
+  },
+  {
+   "pdf_page": 42,
+   "hadith_no": 148
+  },
+  {
+   "pdf_page": 37,
+   "hadith_no": null
+  },
+  {
+   "pdf_page": 29,
+   "hadith_no": null
+  },
+  {
+   "pdf_page": 44,
+   "hadith_no": 156
+  },
+  {
+   "pdf_page": 46,
+   "hadith_no": 163
+  },
+  {
+   "pdf_page": 55,
+   "hadith_no": 188
+  },
+  {
+   "pdf_page": 62,
+   "hadith_no": 206
+  },
+  {
+   "pdf_page": 73,
+   "hadith_no": 239
+  },
+  {
+   "pdf_page": 75,
+   "hadith_no": 248
+  },
+  {
+   "pdf_page": 76,
+   "hadith_no": 250
+  },
+  {
+   "pdf_page": 78,
+   "hadith_no": 257
+  },
+  {
+   "pdf_page": 77,
+   "hadith_no": 253
+  },
+  {
+   "pdf_page": 88,
+   "hadith_no": 285
+  },
+  {
+   "pdf_page": 90,
+   "hadith_no": 294
+  },
+  {
+   "pdf_page": 93,
+   "hadith_no": 302
+  },
+  {
+   "pdf_page": 95,
+   "hadith_no": 307
+  },
+  {
+   "pdf_page": 99,
+   "hadith_no": 315
+  },
+  {
+   "pdf_page": 105,
+   "hadith_no": 334
+  },
+  {
+   "pdf_page": 104,
+   "hadith_no": null
+  },
+  {
+   "pdf_page": 102,
+   "hadith_no": 325
+  }
+ ]
+}

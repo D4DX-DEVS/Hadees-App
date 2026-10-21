@@ -1,0 +1,1175 @@
+{
+ "part": "1.2",
+ "pages_checked": [
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32
+ ],
+ "corrections": [
+  {
+   "pdf_page": 17,
+   "block": 2,
+   "old": "അബൂഹുറൈറ(റ): നബി(സ) പറഞ്ഞു: \"പൂർവ്വ",
+   "new": "അബുഹുറൈറ(റ): നബി(സ) പറഞ്ഞു: \"പൂർവ്വ",
+   "why": "short u printed (അബു)"
+  },
+  {
+   "pdf_page": 17,
+   "block": 3,
+   "old": "أَنَّهُ قَالَ: \"وَالَّذِي نَفْسُ مُحَمَّدٍ بِيَدِهِ",
+   "new": "أَنَّهُ قال: \"وَالذي نَفْس مُحَمَّد بيده",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 17,
+   "block": 5,
+   "old": "رَضِيَ اللهُ عَنْهُمَا قَالَ: رَأَيْتُ",
+   "new": "رضي الله عَنْهُمَا قال: رَأَيْتُ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 17,
+   "block": 5,
+   "old": "خُرَاسَانَ سَأَلَ",
+   "new": "خُرَاسان سأل",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 17,
+   "block": 5,
+   "old": "فَقَالَ: يَا أَبَا عَمْرٍو!",
+   "new": "فَقَال: يَا أَبَا عمرو!",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 17,
+   "block": 5,
+   "old": "عَنْ أَبِيهِ أَنَّ رَسُولَ اللهِ",
+   "new": "عَن أبيه أَنَّ رَسُول الله",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 17,
+   "block": 5,
+   "old": "الْحَدِيثَ بِغَيْرِ شَيْءٍ",
+   "new": "الْحَدِيث بِغَيْرِ شَيْء",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 18,
+   "block": 1,
+   "old": "الْأَنْبِيَاءَ",
+   "new": "الْأَنْبِيَاء",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 18,
+   "block": 4,
+   "old": "عَلَيْهِ السَّلَامُ – فَنَعَتَهُ",
+   "new": "عَلَيْهِ السَّلَام – فَنَعَتَهُ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 18,
+   "block": 4,
+   "old": "إِبْرَاهِيمَ عَلَيْهِ السَّلَامُ، وَأَنَا أَشْبَهُ وَلَدِهِ بِهِ",
+   "new": "إبراهيم عليه السلام، وَأَنَا أَشْبَهُ وَلَده به",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 18,
+   "block": 5,
+   "old": "അബൂഹുറൈറ(റ): തിരുമേനി(സ)",
+   "new": "അബുഹുറൈറ(റ): തിരുമേനി(സ)",
+   "why": "short u printed (അബു)"
+  },
+  {
+   "pdf_page": 19,
+   "block": 5,
+   "old": "عَنْهُ قَالَ: قَالَ",
+   "new": "عَنْهُ قال: قَالَ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 20,
+   "block": 0,
+   "old": "فِي الْحَيَاءِ، فَقَالَ",
+   "new": "في الْحَيَاء، فَقَالَ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 20,
+   "block": 2,
+   "old": "وَقَارًا لِلَّهِ",
+   "new": "وَقَارًا لله",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 20,
+   "block": 2,
+   "old": "يَا أَبَا نُجَيْدٍ! إِنَّهُ لَا بَأْسَ بِهِ.",
+   "new": "يَا أَبَا نُجَيْد! إِنَّهُ لَا بَأْس به.",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 20,
+   "block": 4,
+   "old": "عَنْ أَنَسٍ رَضِيَ",
+   "new": "عن أَنَسٍ رَضِيَ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 20,
+   "block": 4,
+   "old": "وَسَلَّمَ قَالَ: \"آيَةُ",
+   "new": "وَسَلَّمَ قال: \"آيَةُ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 20,
+   "block": 4,
+   "old": "الْإِيمَانِ حُبُّ الْأَنْصَارِ، وَآيَةُ",
+   "new": "الْإِيمَان حُبُّ الْأَنْصَار، وَآيَةُ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 20,
+   "block": 4,
+   "old": "بُغْضُ الْأَنْصَارِ\"",
+   "new": "بُغْضُ الْأَنْصَار\"",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 20,
+   "block": 6,
+   "old": "عَنِ الْبَرَاءِ رَضِيَ",
+   "new": "عن الْبَرَاء رَضِيَ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 20,
+   "block": 6,
+   "old": "أَنَّهُ قَالَ فِي الْأَنْصَارِ",
+   "new": "أَنَّهُ قال في الْأَنْصَار",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 21,
+   "block": 0,
+   "old": "مِنْ ذَنْبِهِ، وَمَنْ قَامَ",
+   "new": "مِنْ ذَنْبِه، وَمَنْ قَامَ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 21,
+   "block": 0,
+   "old": "ذَنْبِهِ\". (ق,د,ت,ن)",
+   "new": "ذَنْبِه\". (ق,د,ت,ن)",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 21,
+   "block": 2,
+   "old": "عَنْهُ قَالَ: قَالَ رَسُولُ",
+   "new": "عَنْهُ قال: قَالَ رَسُولُ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 21,
+   "block": 2,
+   "old": "ذَنْبِهِ\". (ق,د,ن,جه)",
+   "new": "ذَنْبِه\". (ق,د,ن,جه)",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 21,
+   "block": 6,
+   "old": "رَضِيَ اللهُ عَنْهُ قَالَ: أَوَّلُ",
+   "new": "رَضِيَ اللهُ عَنْهُ قال: أَوَّلُ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 21,
+   "block": 6,
+   "old": "يَوْمَ الْعِيدِ",
+   "new": "يَوْمَ الْعِيد",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 21,
+   "block": 6,
+   "old": "فَقَالَ أَبُو سَعِيدٍ",
+   "new": "فَقَالَ أَبُو سَعِيد",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 21,
+   "block": 6,
+   "old": "بِيَدِهِ، فَإِنْ لَمْ يَسْتَطِعْ فَبِلِسَانِهِ",
+   "new": "بيده، فَإِنْ لَمْ يَسْتَطِعْ فبلسانه",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 21,
+   "block": 6,
+   "old": "فَبِقَلْبِهِ",
+   "new": "فَبِقَلْبِه",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 21,
+   "block": 8,
+   "old": "عَنْ أَبِي سَعِيدٍ رَضِيَ اللهُ عَنْهُ قَالَ: قَالَ",
+   "new": "عَنْ أَبِي سَعِيد رَضِيَ اللهُ عَنْهُ قال: قَالَ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 21,
+   "block": 8,
+   "old": "بِالْإِيمَانِ، فَإِنَّ",
+   "new": "بِالْإِيمَان، فَإِنَّ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 22,
+   "block": 3,
+   "old": "سُئِلَ: أَيُّ",
+   "new": "سُئِل: أَيُّ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 22,
+   "block": 3,
+   "old": "إِيمَانٌ بِاللهِ وَرَسُولِهِ",
+   "new": "إِيمَانٌ بالله وَرَسُوله",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 22,
+   "block": 3,
+   "old": "الْجِهَادُ فِي سَبِيلِ اللهِ\"",
+   "new": "الْجِهَادُ في سَبِيلِ الله\"",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 22,
+   "block": 5,
+   "old": "قَالَ: قُلْتُ يَا رَسُولَ اللهِ! أَيُّ الْأَعْمَالِ",
+   "new": "قال: قُلْتُ يَا رَسُولَ الله! أَيُّ الْأَعْمَالِ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 22,
+   "block": 5,
+   "old": "قَالَ \"الْإِيمَانُ بِاللهِ، وَالْجِهَادُ فِي سَبِيلِهِ\"",
+   "new": "قال \"الْإِيمَانُ بِالله، وَالْجِهَادُ في سبيله\"",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 22,
+   "block": 7,
+   "old": "لَا شَكَّ فِيهِ، وَجِهَادٌ لَا غُلُولَ فِيهِ",
+   "new": "لَا شَكَّ فِيه، وَجِهَادٌ لَا غُلُولَ فِيه",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 22,
+   "block": 9,
+   "old": "رَضِيَ اللهُ عَنْهُ قَالَ: كُنْتُ",
+   "new": "رَضِيَ اللهُ عَنْهُ قال: كُنْتُ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 23,
+   "block": 0,
+   "old": "قَالَ: ثُمَّ تَلَا",
+   "new": "قال: ثُمَّ تَلَا",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 23,
+   "block": 0,
+   "old": "كُلِّهِ وَعَمُودِهِ وَذِرْوَةِ سَنَامِهِ؟",
+   "new": "كُلِّه وَعَمُودِه وَذِرْوَةِ سَنَامِه؟",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 23,
+   "block": 0,
+   "old": "يَا رَسُولَ اللهِ! قَالَ: \"رَأْسُ",
+   "new": "يَا رَسُولَ الله! قال: \"رَأْسُ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 23,
+   "block": 0,
+   "old": "سَنَامِهِ الْجِهَادُ",
+   "new": "سَنَامه الْجِهَادُ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 23,
+   "block": 0,
+   "old": "بِمِلَاكِ ذَلِكَ كُلِّهِ؟",
+   "new": "بِمِلَاكِ ذَلِكَ كُلِّه؟",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 23,
+   "block": 0,
+   "old": "يَا نَبِيَّ اللهِ! فَأَخَذَ بِلِسَانِهِ قَالَ",
+   "new": "يَا نَبِيَّ الله! فَأَخَذَ بلسانه قال",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 23,
+   "block": 0,
+   "old": "يَا نَبِيَّ اللهِ! وَإِنَّا لَمُؤَاخَذُونَ بِمَا نَتَكَلَّمُ بِهِ",
+   "new": "يَا نَبِيَّ الله! وَإِنَّا لَمُؤَاخَذُونَ بِمَا نَتَكَلَّمُ بِه",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 23,
+   "block": 2,
+   "old": "يَا رَسُولَ اللهِ! أَيُّ الْإِسْلَامِ أَفْضَلُ",
+   "new": "يَا رَسُولَ الله! أَيُّ الْإِسْلَامِ أَفْضَلُ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 23,
+   "block": 2,
+   "old": "مِنْ لِسَانِهِ وَيَدِهِ",
+   "new": "مِنْ لِسَانِه وَيَدِه",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 23,
+   "block": 4,
+   "old": "عَبْدِ اللهِ بْنِ عَمْرٍو",
+   "new": "عَبْدِاللهِ بْنِ عَمْرو",
+   "why": "printed joined 'عبدالله'; no tanween on عمرو"
+  },
+  {
+   "pdf_page": 23,
+   "block": 7,
+   "old": "كُنَّ فِيهِ وَجَدَ",
+   "new": "كُنَّ فِيه وَجَدَ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 24,
+   "block": 0,
+   "old": "يُحِبَّ فِي اللهِ وَأَنْ يُبْغِضَ فِي اللهِ",
+   "new": "يُحِبَّ في الله وَأَنْ يُبْغِضَ في الله",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 24,
+   "block": 0,
+   "old": "وَفِي رِوَايَةٍ: وَأَنْ يَكْرَهَ أَنْ يَعُودَ فِي الْكُفْرِ",
+   "new": "وفي رواية: وَأَنْ يَكْرَهَ أَنْ يَعُودَ في الْكُفْرِ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 24,
+   "block": 0,
+   "old": "يُقْذَفَ فِي النَّارِ",
+   "new": "يُقْذَفَ في النَّارِ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 24,
+   "block": 2,
+   "old": "أَحَبَّ إِلَيْهِ مِنْ وَلَدِهِ وَوَالِدِهِ – وَفِي رِوَايَةٍ: أَهْلِهِ وَمَالِهِ",
+   "new": "أَحَبَّ إِلَيْه مِنْ وَلَدِه وَوَالِدِه – وفي رواية: أَهْلِه وَمَالِه",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 24,
+   "block": 4,
+   "old": "كُنَّ فِيهِ وَجَدَ حَلَاوَةَ",
+   "new": "كُنَّ فِيه وَجَدَ حَلَاوَةَ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 24,
+   "block": 4,
+   "old": "إِلَّا لِلَّهِ عَزَّ وَجَلَّ، وَمَنْ",
+   "new": "إِلَّا لله عَزَّ وَجَلَّ، وَمَنْ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 24,
+   "block": 4,
+   "old": "يُقْذَفَ فِي النَّارِ أَحَبَّ",
+   "new": "يُقْذَفَ في النَّارِ أَحَبَّ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 24,
+   "block": 4,
+   "old": "مِنْهُ\". (ن)",
+   "new": "مِنْه\". (ن)",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 24,
+   "block": 6,
+   "old": "الْمُطَّلِبِ رَضِيَ",
+   "new": "الْمُطَّلِب رَضِيَ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 24,
+   "block": 6,
+   "old": "ذَاقَ طَعْمَ الْإِيمَانِ",
+   "new": "ذَاقَ طَعْمَ الْإِيمَان",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 24,
+   "block": 6,
+   "old": "رَضِيَ بِاللهِ رَبًّا وَبِالْإِسْلَامِ دِينًا وَبِمُحَمَّدٍ رَسُولًا",
+   "new": "رَضِيَ بالله رَبًّا وَبالْإِسْلَام دِينًا وَبِمُحَمَّد رَسُولًا",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 24,
+   "block": 8,
+   "old": "لِأَخِيهِ –أَوْ قَالَ: لِجَارِهِ– مَا يُحِبُّ لِنَفْسِهِ",
+   "new": "لأخيه –أو قال: لجاره– مَا يُحِبُّ لنفسه",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 24,
+   "block": 10,
+   "old": "كُنَّ فِيهِ وَجَدَ بِهِنَّ",
+   "new": "كُنَّ فِيه وَجَدَ بِهِنَّ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 24,
+   "block": 10,
+   "old": "حَلَاوَةَ الْإِسْلَامِ:",
+   "new": "حَلَاوَةَ الْإِسْلَام:",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 24,
+   "block": 10,
+   "old": "أَحَبَّ إِلَيْهِ مِمَّا",
+   "new": "أَحَبَّ إِلَيْه مِمَّا",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 24,
+   "block": 10,
+   "old": "إِلَّا لِلَّهِ، وَمَنْ يَكْرَهُ",
+   "new": "إِلَّا لله، وَمَنْ يَكْرَهُ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 24,
+   "block": 10,
+   "old": "إِلَى الْكُفْرِ كَمَا",
+   "new": "إِلَى الْكُفْر كَمَا",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 25,
+   "block": 0,
+   "old": "يُلْقَى فِي النَّارِ",
+   "new": "يُلْقَى في النَّارِ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 25,
+   "block": 1,
+   "old": "വ്യൃതിയെ",
+   "new": "വ്യക്തിയെ",
+   "why": "misread letters; print has വ്യക്തിയെ"
+  },
+  {
+   "pdf_page": 25,
+   "block": 2,
+   "old": "عَلَى شَيْءٍ إِذَا",
+   "new": "عَلَى شَيْء إِذَا",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 25,
+   "block": 4,
+   "old": "نَجِدُ فِي أَنْفُسِنَا",
+   "new": "نَجِدُ في أَنْفُسِنَا",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 25,
+   "block": 4,
+   "old": "يَتَكَلَّمَ بِهِ، قَالَ:",
+   "new": "يَتَكَلَّمَ بِه، قال:",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 25,
+   "block": 5,
+   "old": "അബൂഹുറൈറ(റ): ഒരുകൂട്ടം",
+   "new": "അബുഹുറൈറ(റ): ഒരുകൂട്ടം",
+   "why": "short u printed (അബു)"
+  },
+  {
+   "pdf_page": 25,
+   "block": 7,
+   "old": "الدِّينَ أَحَدٌ إِلَّا غَلَبَهُ",
+   "new": "الدِّينَ أَحَد إِلَّا غَلَبَه",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 25,
+   "block": 9,
+   "old": "الْغَضَبُ فِي وَجْهِهِ",
+   "new": "الْغَضَبُ في وَجْهِه",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 26,
+   "block": 0,
+   "old": "هَذِهِ؟\" قَالَتْ",
+   "new": "هذه؟\" قَالَتْ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 26,
+   "block": 0,
+   "old": "قَالَ: \"مَهْ!",
+   "new": "قال: \"مَهْ!",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 26,
+   "block": 0,
+   "old": "فَوَاللهِ!",
+   "new": "فَوَالله!",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 26,
+   "block": 0,
+   "old": "الدِّينِ إِلَيْهِ مَا دَامَ عَلَيْهِ صَاحِبُهُ",
+   "new": "الدِّين إِلَيْه مَادَامَ عَلَيْه صَاحِبُه",
+   "why": "printed joined 'مادام'; finals bare"
+  },
+  {
+   "pdf_page": 26,
+   "block": 3,
+   "old": "وَسَلَّمَ قَالَ: \"الْمُسْلِمُ",
+   "new": "وَسَلَّمَ قال: \"الْمُسْلِمُ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 26,
+   "block": 3,
+   "old": "لِسَانِهِ وَيَدِهِ، وَالْمُؤْمِنُ",
+   "new": "لِسَانِه وَيَدِه، وَالْمُؤْمِنُ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 26,
+   "block": 5,
+   "old": "عَمْرٍو رَضِيَ",
+   "new": "عَمْرو رَضِيَ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 26,
+   "block": 5,
+   "old": "وَسَلَّمَ قَالَ: \"الْمُسْلِمُ",
+   "new": "وَسَلَّمَ قال: \"الْمُسْلِمُ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 26,
+   "block": 5,
+   "old": "لِسَانِهِ وَيَدِهِ، وَالْمُهَاجِرُ",
+   "new": "لِسَانِه وَيَدِه، وَالْمُهَاجِرُ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 26,
+   "block": 5,
+   "old": "نَهَى اللهُ عَنْهُ\"",
+   "new": "نَهَى اللهُ عَنْه\"",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 26,
+   "block": 7,
+   "old": "وَسَلَّمَ قَالَ: \"مَنْ كَانَ",
+   "new": "وَسَلَّمَ قال: \"مَنْ كَانَ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 26,
+   "block": 7,
+   "old": "فَلْيُحْسِنْ إِلَى جَارِهِ",
+   "new": "فَلْيُحْسِنْ إِلَى جاره",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 26,
+   "block": 7,
+   "old": "فَلْيُكْرِمْ ضَيْفَهُ",
+   "new": "فَلْيُكْرِمْ ضَيْفَه",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 26,
+   "block": 9,
+   "old": "وَسَلَّمَ قَالَ: \"لَا يَدْخُلُ",
+   "new": "وَسَلَّمَ قال: \"لَا يَدْخُلُ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 26,
+   "block": 11,
+   "old": "وَسَلَّمَ قَالَ: \"مَا مِنْ نَبِيٍّ",
+   "new": "وَسَلَّمَ قال: \"مَا مِنْ نَبِيٍّ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 26,
+   "block": 11,
+   "old": "بَعَثَهُ اللهُ فِي أُمَّةٍ",
+   "new": "بَعَثَهُ اللهُ في أُمَّةٍ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 26,
+   "block": 11,
+   "old": "مِنْ أُمَّتِهِ حَوَارِيُّونَ",
+   "new": "مِنْ أُمَّتِه حَوَارِيُّونَ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 26,
+   "block": 11,
+   "old": "بِسُنَّتِهِ وَيَقْتَدُونَ بِأَمْرِهِ",
+   "new": "بِسُنَّتِه وَيَقْتَدُونَ بِأَمْرِه",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 26,
+   "block": 11,
+   "old": "جَاهَدَهُمْ بِيَدِهِ فَهُوَ",
+   "new": "جَاهَدَهُمْ بِيَدِه فَهُوَ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 26,
+   "block": 11,
+   "old": "جَاهَدَهُمْ بِلِسَانِهِ فَهُوَ",
+   "new": "جَاهَدَهُمْ بِلِسَانِه فَهُوَ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 27,
+   "block": 0,
+   "old": "بِقَلْبِهِ فَهُوَ",
+   "new": "بقلبه فَهُوَ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 27,
+   "block": 0,
+   "old": "مِنَ الْإِيمَانِ حَبَّةُ خَرْدَلٍ",
+   "new": "مِنَ الْإِيمَان حَبَّةُ خَرْدَل",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 27,
+   "block": 2,
+   "old": "عَنْهُ قَالَ: قَالَ",
+   "new": "عَنْهُ قال: قَالَ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 27,
+   "block": 4,
+   "old": "عَمْرِو بْنِ الْعَاصِ رَضِيَ اللهُ عَنْهُ قَالَ: سَمِعْتُ",
+   "new": "عَمْرو بْنِ الْعَاص رَضِيَ اللهُ عَنْهُ قال: سَمِعْتُ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 27,
+   "block": 7,
+   "old": "عَنْهُ قَالَ: قَالَ",
+   "new": "عَنْهُ قال: قَالَ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 27,
+   "block": 9,
+   "old": "عَنْهُ قَالَ: قَالَ",
+   "new": "عَنْهُ قال: قَالَ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 27,
+   "block": 9,
+   "old": "الْمُؤْمِنِينَ فِي تَوَادِّهِمْ",
+   "new": "الْمُؤْمِنِينَ في تَوَادِّهِمْ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 27,
+   "block": 11,
+   "old": "عَنْهُ قَالَ: قَالَ",
+   "new": "عَنْهُ قال: قَالَ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 28,
+   "block": 2,
+   "old": "عَنْ عَبْدِ اللهِ بْنِ عُمَرَ",
+   "new": "عَنْ عَبْدِ الله بْنِ عُمَرَ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 28,
+   "block": 2,
+   "old": "بِشَجَرَةٍ تُشْبِهُ",
+   "new": "بشَجَرَةٍ تُشْبِهُ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 28,
+   "block": 2,
+   "old": "كُلَّ حِينٍ\"",
+   "new": "كُلَّ حين\"",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 28,
+   "block": 2,
+   "old": "فَوَقَعَ فِي نَفْسِي",
+   "new": "فَوَقَعَ في نَفْسِي",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 28,
+   "block": 2,
+   "old": "يَا أَبَتَاهُ! وَاللهِ!",
+   "new": "يَا أَبَتَاهُ! وَالله!",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 28,
+   "block": 5,
+   "old": "أَبِي سَعِيدٍ الْخُدْرِيِّ رَضِيَ",
+   "new": "أَبِي سَعِيد الْخُدْرِيِّ رَضِيَ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 28,
+   "block": 5,
+   "old": "وَسَلَّمَ قَالَ: \"يَدْخُلُ",
+   "new": "وَسَلَّمَ قال: \"يَدْخُلُ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 28,
+   "block": 5,
+   "old": "كَانَ فِي قَلْبِهِ مِثْقَالُ",
+   "new": "كَانَ في قَلْبِه مِثْقَالُ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 28,
+   "block": 5,
+   "old": "فَيُلْقَوْنَ فِي نَهَرِ",
+   "new": "فَيُلْقَوْنَ في نَهَرِ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 28,
+   "block": 5,
+   "old": "تَنْبُتُ الْحِبَّةُ فِي جَانِبِ",
+   "new": "تَنْبُتُ الْحِبَّةُ في جَانِبِ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 28,
+   "block": 7,
+   "old": "عَنْهُمَا قَالَ: قَالَ",
+   "new": "عَنْهُمَا قال: قَالَ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 29,
+   "block": 0,
+   "old": "يُعْطَى بِهَا فِي الدُّنْيَا، وَيُجْزَى بِهَا فِي الْآخِرَةِ",
+   "new": "يُعْطَى بِهَا في الدُّنْيَا، وَيُجْزَى بِهَا في الْآخِرَة",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 29,
+   "block": 0,
+   "old": "عَمِلَ بِهَا لِلَّهِ فِي الدُّنْيَا",
+   "new": "عَمِلَ بِهَا لله في الدُّنْيَا",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 29,
+   "block": 0,
+   "old": "أَفْضَى إِلَى الْآخِرَةِ لَمْ",
+   "new": "أَفْضَى إِلَى الْآخِرَة لَمْ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 29,
+   "block": 2,
+   "old": "عَنْهُ قَالَ: قَالَ",
+   "new": "عَنْهُ قال: قَالَ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 29,
+   "block": 2,
+   "old": "حَدَّثَتْ بِهِ أَنْفُسَهَا",
+   "new": "حَدَّثَتْ به أَنْفُسَهَا",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 29,
+   "block": 2,
+   "old": "يَعْمَلُوا بِهِ\"",
+   "new": "يَعْمَلُوا به\"",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 29,
+   "block": 4,
+   "old": "قَالَ: أَعْطَى النَّبِيُّ",
+   "new": "قال: أَعْطَى النَّبِيُّ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 29,
+   "block": 4,
+   "old": "يَا رَسُولَ اللهِ! أَعْطَيْتَ",
+   "new": "يَا رَسُولَ الله! أَعْطَيْتَ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 29,
+   "block": 4,
+   "old": "لَا أُعْطِيهِ شَيْئًا",
+   "new": "لَا أُعْطِيه شَيْئًا",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 29,
+   "block": 6,
+   "old": "عَمْرِو بْنِ شُرَحْبِيلَ",
+   "new": "عَمْرو بْنِ شُرَحْبِيل",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 29,
+   "block": 6,
+   "old": "وَسَلَّمَ قَالَ: قَالَ رَسُولُ",
+   "new": "وَسَلَّمَ قال: قَالَ رَسُولُ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 29,
+   "block": 6,
+   "old": "إِلَى مُشَاشِهِ",
+   "new": "إِلَى مُشَاشِه",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 29,
+   "block": 9,
+   "old": "غِلَظُ الْقُلُوبِ",
+   "new": "غِلَظُ الْقُلُوب",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 29,
+   "block": 9,
+   "old": "الْجَفَاءُ فِي الْمَشْرِقِ، وَالْإِيمَانُ فِي أَهْلِ الْحِجَازِ",
+   "new": "الْجَفَاءُ في الْمَشْرِق، وَالْإِيمَانُ في أَهْلِ الْحِجَاز",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 30,
+   "block": 1,
+   "old": "عَنْهُ قَالَ: سَمِعْتُ",
+   "new": "عَنْهُ قال: سَمِعْتُ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 30,
+   "block": 1,
+   "old": "جَاءَ أَهْلُ الْيَمَنِ، هُمْ",
+   "new": "جَاءَ أَهْلُ الْيَمَن، هُمْ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 30,
+   "block": 1,
+   "old": "يَمَانٍ وَالْحِكْمَةُ",
+   "new": "يَمَان وَالْحِكْمَةُ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 30,
+   "block": 1,
+   "old": "السَّكِينَةُ فِي أَهْلِ الْيَمَنِ وَالْفَخْرُ وَالْخُيَلَاءُ فِي الْفَدَّادِينَ أَهْلِ الْوَبَرِ",
+   "new": "السَّكِينَةُ في أَهْلِ الْيَمَن وَالْفَخْرُ وَالْخُيَلَاءُ في الْفَدَّادِين أَهْلِ الْوَبَر",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 30,
+   "block": 3,
+   "old": "يَا رَسُولَ اللهِ؟ قَالَ: \"الدِّينَ\"",
+   "new": "يَا رَسُولَ الله؟ قال: \"الدِّينَ\"",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 31,
+   "block": 3,
+   "old": "بِأَهْلِهِ\"",
+   "new": "بِأَهْلِه\"",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 32,
+   "block": 1,
+   "old": "عَنْهُ قَالَ: قَالَ",
+   "new": "عَنْهُ قال: قَالَ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 32,
+   "block": 1,
+   "old": "الزَّانِي حِينَ يَزْنِي",
+   "new": "الزَّانِي حين يَزْنِي",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 32,
+   "block": 1,
+   "old": "السَّارِقُ حِينَ يَسْرِقُ",
+   "new": "السَّارِقُ حين يَسْرِقُ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 32,
+   "block": 1,
+   "old": "هذا حديث حَسَنٌ",
+   "new": "هذا حديثٌ حَسَنٌ",
+   "why": "tanween printed on حديثٌ"
+  },
+  {
+   "pdf_page": 32,
+   "block": 3,
+   "old": "ثُمَّ قَالَ: \"يَا مَعْشَرَ النِّسَاءِ!",
+   "new": "ثُمَّ قال: \"يَا مَعْشَرَ النِّسَاء!",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 32,
+   "block": 3,
+   "old": "أَكْثَرُ أَهْلِ النَّارِ\"",
+   "new": "أَكْثَرُ أَهْلِ النَّار\"",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 32,
+   "block": 3,
+   "old": "يَا رَسُولَ اللهِ؟ قَالَ: \"لِكَثْرَةِ",
+   "new": "يَا رَسُولَ الله؟ قال: \"لِكَثْرَةِ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 32,
+   "block": 3,
+   "old": "الْعَشِيرَ\" قَالَ: \"وَمَا",
+   "new": "الْعَشِير\" قال: \"وَمَا",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 32,
+   "block": 3,
+   "old": "عَقْلٍ وَدِينٍ أَغْلَبَ لِذَوِي الْأَلْبَابِ وَذَوِي الرَّأْيِ",
+   "new": "عَقْلٍ وَدِين أَغْلَبَ لِذَوِي الْأَلْبَاب وَذَوِي الرَّأْي",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 32,
+   "block": 3,
+   "old": "وَعَقْلِهَا؟ قَالَ: \"شَهَادَةُ",
+   "new": "وَعَقْلِهَا؟ قال: \"شَهَادَةُ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 32,
+   "block": 3,
+   "old": "بِشَهَادَةِ رَجُلٍ، وَنُقْصَانُ",
+   "new": "بِشَهَادَةِ رَجُل، وَنُقْصَانُ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 32,
+   "block": 4,
+   "old": "അബൂഹുറൈറ(റ): നിശ്ചയം",
+   "new": "അബുഹുറൈറ(റ): നിശ്ചയം",
+   "why": "short u printed (അബു)"
+  },
+  {
+   "pdf_page": 32,
+   "block": 5,
+   "old": "عَنْهُ قَالَ: قَالَ رَسُولُ",
+   "new": "عَنْهُ قال: قَالَ رَسُولُ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 32,
+   "block": 5,
+   "old": "النَّارَ، قَالَ: يَقُولُونَ",
+   "new": "النَّارَ، قال: يَقُولُونَ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 32,
+   "block": 5,
+   "old": "النَّارَ؟ قَالَ: فَيَقُولُ",
+   "new": "النَّارَ؟ قال: فَيَقُولُ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 32,
+   "block": 5,
+   "old": "مِنْهُمْ، قَالَ: فَيَأْتُونَهُمْ",
+   "new": "مِنْهُمْ، قال: فَيَأْتُونَهُمْ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 32,
+   "block": 5,
+   "old": "أَمَرْتَنَا، قَالَ: وَيَقُولُ",
+   "new": "أَمَرْتَنَا، قال: وَيَقُولُ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 32,
+   "block": 5,
+   "old": "ثُمَّ قَالَ: مَنْ كَانَ",
+   "new": "ثُمَّ قال: مَنْ كَانَ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 32,
+   "block": 5,
+   "old": "كَانَ فِي قَلْبِهِ وَزْنُ دِينَارٍ",
+   "new": "كَانَ في قَلْبِه وَزْنُ دِينَارٍ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 32,
+   "block": 5,
+   "old": "كَانَ فِي قَلْبِهِ وَزْنُ نِصْفِ",
+   "new": "كَانَ في قَلْبِه وَزْنُ نِصْفِ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  },
+  {
+   "pdf_page": 32,
+   "block": 5,
+   "old": "كَانَ فِي قَلْبِهِ وَزْنُ ذَرَّةٍ",
+   "new": "كَانَ في قَلْبِه وَزْنُ ذَرَّةٍ",
+   "why": "harakat printed bare in book (JSON over-vowelled)"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 17,
+   "hadith_no": 37,
+   "note": "Malayalam header name 'അബൂഹുറൈറ' (long ൂ) judged correct from strip view only; 36 (and 18/40, 25/66, 32/93) verified as short 'അബുഹുറൈറ'. p29 hadith 83 and p26 hadith 70/73 headers could not be told apart from long ൂ with full certainty (kept as in JSON)."
+  },
+  {
+   "pdf_page": 17,
+   "hadith_no": 38,
+   "note": "Print of this hadith is only partly vowelled; corrections made only where an unvowelled word was clearly seen. Remaining words (e.g. 'قبلنا', 'ثلاثةٌ يُؤتَون', 'أدّى حقّ الله تعالى') may still be over-vowelled in JSON."
+  },
+  {
+   "pdf_page": 18,
+   "hadith_no": 39,
+   "note": "Arabic of 39 and 40 is lightly vowelled in print (many words unvowelled e.g. 'وَادٍ', 'أَيُّ ثَنِيَّةٍ'); JSON over-vowelled. Only clear cases corrected; word-level harakat not exhaustively verified."
+  },
+  {
+   "pdf_page": 19,
+   "hadith_no": 41,
+   "note": "Print of 41 and 42/43 Arabic partly unvowelled on finals ('الْمَسِيحَ', 'اللهِ'); JSON fully vowelled; not exhaustively resolved."
+  },
+  {
+   "pdf_page": 20,
+   "hadith_no": 44,
+   "note": "Print vowelling of 'قَالَ' after 'عنه' varies (some bare 'قال'); only some corrected. Hadith 44 line 'قال: قَالَ ... يوْمئذٍ' not exhaustively checked."
+  },
+  {
+   "pdf_page": 21,
+   "hadith_no": 50,
+   "note": "Print 'وَيُفْرَغُ' (damma?) vs JSON 'وَيُفْرَغَ' could not be resolved; 'كُلُّ قِيرَاطٍ مِثْلُ أُحُدٍ' print looks less vowelled."
+  },
+  {
+   "pdf_page": 22,
+   "hadith_no": 52,
+   "note": "p22 block 1 Malayalam: print appears to have ';' after 'അല്ലാഹു പറയുന്നു' (JSON has ':') - unclear."
+  },
+  {
+   "pdf_page": 23,
+   "hadith_no": 56,
+   "note": "Print has 'رَأْسُ الْأَمْرِالْإِسْلَام' run together without space; JSON has space. Also 'قال:كُنَّا'-type missing spaces are printed in hadith 80 and 90; not changed."
+  },
+  {
+   "pdf_page": 25,
+   "hadith_no": 68,
+   "note": "Print looks like 'يُعْرَفُ الْغَضَبُ' (damma on ف); JSON has 'يُعْرَفَ'. Not certain."
+  },
+  {
+   "pdf_page": 25,
+   "hadith_no": 65,
+   "note": "Malayalam 'സത്യവിശ്വാസികളാകുന്നഡുവരെ' and 'പ്രിയങ്കരമായമായത്' (p24) are printed that way; kept."
+  },
+  {
+   "pdf_page": 31,
+   "hadith_no": 89,
+   "note": "Print shows 'മന:സ്സമാധാനം' (ASCII colon-like visarga); JSON has 'മനഃസ്സമാധാനം'. Kept. Hadith 90 Arabic printed with missing spaces ('عُمَرَبْنِ', 'عَنْهُ:أَنَّ', 'لَوْعَلَيْنَامَعْشَرَ'); JSON has spaces; not changed."
+  },
+  {
+   "pdf_page": 20,
+   "hadith_no": 44,
+   "note": "Malayalam p20 block 3 'സംഘലം' and 'നുജെദേ' are printed that way; kept."
+  },
+  {
+   "pdf_page": 0,
+   "hadith_no": 0,
+   "note": "General: pdf pages 17-32 Arabic print is only partially vowelled (final case endings and pronoun suffixes often bare, 'في'/'الله' bare, narrator 'قال' bare); first-pass JSON is fully vowelled. Corrections cover the instances clearly visible at 2.5x zoom; other over-vowelled words may remain. Malayalam text, bab headings, hadith numbers, source codes and block structure matched the print apart from the listed corrections."
+  }
+ ]
+}

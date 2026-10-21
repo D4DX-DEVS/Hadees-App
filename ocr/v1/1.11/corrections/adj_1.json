@@ -1,0 +1,297 @@
+{
+ "part": "1.11",
+ "pages_checked": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16
+ ],
+ "corrections": [
+  {
+   "pdf_page": 1,
+   "block": 2,
+   "old": "ആദ്യത്വവരുമാണ്.",
+   "new": "ആദ്യത്തവരുമാണ്.",
+   "why": "print ആദ്യത്തവരുമാണ് (item 3)"
+  },
+  {
+   "pdf_page": 1,
+   "block": 4,
+   "old": "(ശ്രേഷ്ഠം ദിവസം",
+   "new": "(ശ്രേഷ്ഠ ദിവസം",
+   "why": "print (item 5)"
+  },
+  {
+   "pdf_page": 1,
+   "block": 4,
+   "old": "ആദ്യത്വവരും ആദ്യമായി",
+   "new": "ആദ്യത്തവരും ആദ്യമായി",
+   "why": "print (item 6)"
+  },
+  {
+   "pdf_page": 1,
+   "block": 6,
+   "old": "ആദ്യത്വവരുമാണ്.",
+   "new": "ആദ്യത്തവരുമാണ്.",
+   "why": "print (item 7)"
+  },
+  {
+   "pdf_page": 2,
+   "block": 2,
+   "old": "ഉൽകണ്ഠം",
+   "new": "ഉൽകണ്ഠ",
+   "why": "print has no anusvara (item 9)"
+  },
+  {
+   "pdf_page": 3,
+   "block": 1,
+   "old": "അറിയിച്ചു തന്നാലും",
+   "new": "അറിയിച്ച് തന്നാലും",
+   "why": "print (item 12)"
+  },
+  {
+   "pdf_page": 4,
+   "block": 1,
+   "old": "അഖ്സാ",
+   "new": "അഖ്സ്വാ",
+   "why": "print (item 14)"
+  },
+  {
+   "pdf_page": 5,
+   "block": 3,
+   "old": "فَأَنْصَتَ وَلَمْ يَلْغُ كَانَ لَهُ كِفْلٌ",
+   "new": "فَأَنْصَتَ وَلَمْ يَلْغُ لَهُ كِفْلٌ",
+   "why": "print has no كان (item 15)"
+  },
+  {
+   "pdf_page": 7,
+   "block": 4,
+   "old": "قَالُوا: يَا رَسُولَ",
+   "new": "قَالُو: يَا رَسُولَ",
+   "why": "printed typo قالو (item 18)"
+  },
+  {
+   "pdf_page": 8,
+   "block": 2,
+   "old": "അ്റാബിയും",
+   "new": "അഅ്റാബിയും",
+   "why": "print (item 20)"
+  },
+  {
+   "pdf_page": 9,
+   "block": 4,
+   "old": "എന്നിട്ട അവിടെ",
+   "new": "എന്നിട്ടവിടെ",
+   "why": "print എന്നിട്ട|വിടെ across line break (item 21)"
+  },
+  {
+   "pdf_page": 11,
+   "block": 1,
+   "old": "مَنْ فَاتَتْهُ",
+   "new": "مَنْ فَاتَهُ",
+   "why": "print (item 22)"
+  },
+  {
+   "pdf_page": 11,
+   "block": 8,
+   "old": "വൈസിൽപെട്ട",
+   "new": "ഖൈസിൽപെട്ട",
+   "why": "print (item 23)"
+  },
+  {
+   "pdf_page": 12,
+   "block": 0,
+   "old": "تُؤْتَى",
+   "new": "تُؤْتَي",
+   "why": "print has dotted ya (item 24)"
+  },
+  {
+   "pdf_page": 13,
+   "block": 4,
+   "old": "വെളിയാഴ്ച",
+   "new": "വെള്ളിയാഴ്ച",
+   "why": "print വെള|ളിയാഴ്ച across line break (item 26)"
+  },
+  {
+   "pdf_page": 14,
+   "block": 4,
+   "old": "അലസ്സലാത്ത്",
+   "new": "അലസ്സ്വലാത്ത്",
+   "why": "print (item 28)"
+  },
+  {
+   "pdf_page": 15,
+   "block": 3,
+   "old": "ചെയ്തുള്ളു",
+   "new": "ചെയ്തുള്ളൂ",
+   "why": "print ൂ at native res (item 30)"
+  },
+  {
+   "pdf_page": 16,
+   "block": 9,
+   "old": "അബൂസഇൗദ്",
+   "new": "അബൂസഈദ്",
+   "why": "print old-lipi ഈ; standard Unicode (item 32)"
+  }
+ ],
+ "uncertain": [
+  {
+   "pdf_page": 1,
+   "note": "Items 4,8,10,11,16,17,31: print uses side-by-side typewriter ററ for റ്റ (e.g. മററന്നാൾ, ഏററവും, മറെറാരു, കുററത്തിൽ), but stacked റ്റ elsewhere on the same pages. Treated as encoding-equivalent (like ളള/ള്ള), decided A, no correction; p016 block keeps literal ഏററവും. Normalise globally if desired."
+  },
+  {
+   "pdf_page": 2,
+   "note": "p001 bab (فضل يوم الجمعة) has empty malayalam; print shows its Malayalam title 'വെള്ളിയാഴ്ചയുടെ മഹത്വം' as an underlined heading at the top of p002 (stored there as a note). Print confirms it is the bab's Malayalam title split across the page break; structure not changed."
+  },
+  {
+   "pdf_page": 1,
+   "note": "Item 2: book heading 'ജുമുഅഃ' — print shows two dots after അ in bold heading; read as visarga ഃ (A), could be a colon."
+  }
+ ],
+ "decisions": [
+  {
+   "idx": 0,
+   "print": "A"
+  },
+  {
+   "idx": 1,
+   "print": "A"
+  },
+  {
+   "idx": 2,
+   "print": "A"
+  },
+  {
+   "idx": 3,
+   "print": "B"
+  },
+  {
+   "idx": 4,
+   "print": "A"
+  },
+  {
+   "idx": 5,
+   "print": "B"
+  },
+  {
+   "idx": 6,
+   "print": "B"
+  },
+  {
+   "idx": 7,
+   "print": "B"
+  },
+  {
+   "idx": 8,
+   "print": "A"
+  },
+  {
+   "idx": 9,
+   "print": "B"
+  },
+  {
+   "idx": 10,
+   "print": "A"
+  },
+  {
+   "idx": 11,
+   "print": "A"
+  },
+  {
+   "idx": 12,
+   "print": "B"
+  },
+  {
+   "idx": 13,
+   "print": "A"
+  },
+  {
+   "idx": 14,
+   "print": "B"
+  },
+  {
+   "idx": 15,
+   "print": "B"
+  },
+  {
+   "idx": 16,
+   "print": "A"
+  },
+  {
+   "idx": 17,
+   "print": "A"
+  },
+  {
+   "idx": 18,
+   "print": "B"
+  },
+  {
+   "idx": 19,
+   "print": "A"
+  },
+  {
+   "idx": 20,
+   "print": "B"
+  },
+  {
+   "idx": 21,
+   "print": "B"
+  },
+  {
+   "idx": 22,
+   "print": "B"
+  },
+  {
+   "idx": 23,
+   "print": "B"
+  },
+  {
+   "idx": 24,
+   "print": "B"
+  },
+  {
+   "idx": 25,
+   "print": "A"
+  },
+  {
+   "idx": 26,
+   "print": "B"
+  },
+  {
+   "idx": 27,
+   "print": "A"
+  },
+  {
+   "idx": 28,
+   "print": "B"
+  },
+  {
+   "idx": 29,
+   "print": "A"
+  },
+  {
+   "idx": 30,
+   "print": "B"
+  },
+  {
+   "idx": 31,
+   "print": "A"
+  },
+  {
+   "idx": 32,
+   "print": "B"
+  }
+ ]
+}

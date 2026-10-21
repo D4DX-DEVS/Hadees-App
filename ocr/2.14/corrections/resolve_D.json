@@ -1,0 +1,18 @@
+{
+ "part": "2.14",
+ "pages_checked": [
+  1,
+  2
+ ],
+ "corrections": [],
+ "resolved": [
+  {
+   "pdf_page": 1,
+   "hadith_no": 1
+  },
+  {
+   "pdf_page": 2,
+   "hadith_no": 3
+  }
+ ]
+}
