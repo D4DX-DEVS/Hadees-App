@@ -38,7 +38,7 @@ for f in $(ls supabase/seed_1.*.sql | sort -V) $(ls supabase/seed_2.*.sql | sort
   echo "$f"; supabase db query --linked -f "$f" || break
 done
 ```
-Then load the article seeds: `supabase/seed_articles.sql` (volume 1) and `supabase/seed_articles_v4.sql` (volume 4).
+Then load the article seeds: `supabase/seed_articles.sql` (volume 1), `supabase/seed_articles_v2.sql` (volume 2), `supabase/seed_articles_v3.sql` (volume 3) and `supabase/seed_articles_v4.sql` (volume 4).
 
 ## 4. Apply the corrections (fixups), in this order
 These fixes were made after the first load. Run them after the seeds, in this order:

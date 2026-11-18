@@ -3,8 +3,8 @@
   "configurations": [
     {
       "name": "app-web",
-      "runtimeExecutable": "sh",
-      "runtimeArgs": ["-c", "cd app && npx expo start --web --port 8081"],
+      "runtimeExecutable": "cmd",
+      "runtimeArgs": ["/c", "cd app && npx expo start --web --port 8081"],
       "port": 8081
     }
   ]

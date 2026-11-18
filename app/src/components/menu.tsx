@@ -7,6 +7,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { api } from '@/lib/api';
 import { radius, space } from '@/lib/theme';
+import type { Article } from '@/lib/types';
 import { useLoad } from '@/lib/use-load';
 import { useLibrary } from '@/state/library';
 import { useSettings } from '@/state/settings';
@@ -21,6 +22,15 @@ const ITEMS = [
   { href: '/settings', label: 'Settings', icon: 'text-outline' },
   { href: '/feedback', label: 'Feedback', icon: 'chatbubble-ellipses-outline' },
 ] as const;
+
+/** Articles grouped by volume, volumes ascending, each volume's articles in section order. */
+function groupByVolume(articles: readonly Article[]): [number, Article[]][] {
+  const groups = new Map<number, Article[]>();
+  for (const a of articles) groups.set(a.volume_id, [...(groups.get(a.volume_id) ?? []), a]);
+  return [...groups.entries()]
+    .sort(([x], [y]) => x - y)
+    .map(([v, list]) => [v, [...list].sort((p, q) => p.section_no - q.section_no)]);
+}
 
 /** Wide web windows get a permanent sidebar instead of the slide-in menu. */
 export function useIsWide() {
@@ -97,16 +107,23 @@ export function MenuPanel({ onClose }: { onClose?: () => void }) {
               <Ionicons name={articlesOpen ? 'chevron-up' : 'chevron-down'} size={16} color={colors.textFaint} />
             </Pressable>
             {articlesOpen &&
-              articles.map((a) => (
-                <Pressable
-                  key={a.id}
-                  onPress={() => {
-                    onClose?.();
-                    router.push({ pathname: '/article/[id]', params: { id: String(a.id) } });
-                  }}
-                  style={({ pressed, hovered }: any) => [styles.sub, (pressed || hovered) && { backgroundColor: colors.surfaceAlt }]}>
-                  <T variant="caption" numberOfLines={2}>{a.title_ml}</T>
-                </Pressable>
+              groupByVolume(articles).map(([volumeId, list]) => (
+                <View key={volumeId} accessibilityRole="list">
+                  <T variant="tiny" color="faint" weight="bold" style={styles.volumeHead} accessibilityRole="header">
+                    Volume {volumeId}
+                  </T>
+                  {list.map((a) => (
+                    <Pressable
+                      key={a.id}
+                      onPress={() => {
+                        onClose?.();
+                        router.push({ pathname: '/article/[id]', params: { id: String(a.id) } });
+                      }}
+                      style={({ pressed, hovered }: any) => [styles.sub, (pressed || hovered) && { backgroundColor: colors.surfaceAlt }]}>
+                      <T variant="caption" numberOfLines={2}>{a.title_ml}</T>
+                    </Pressable>
+                  ))}
+                </View>
               ))}
           </>
         )}
@@ -178,6 +195,7 @@ const styles = StyleSheet.create({
   logo: { width: 34, height: 34, borderRadius: 10, alignItems: 'center', justifyContent: 'center' },
   newChat: { borderWidth: StyleSheet.hairlineWidth, marginBottom: space.sm },
   recentHead: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingHorizontal: 12, marginTop: space.lg, marginBottom: 6 },
+  volumeHead: { paddingLeft: 44, paddingRight: 12, paddingTop: space.sm, paddingBottom: 2, letterSpacing: 0.6 },
   sub: { paddingVertical: 9, paddingLeft: 44, paddingRight: 12, borderRadius: radius.md },
   recent: { flexDirection: 'row', alignItems: 'center', gap: 10, paddingVertical: 6, paddingLeft: 12, paddingRight: 4, borderRadius: radius.md },
   item: { flexDirection: 'row', alignItems: 'center', gap: 12, paddingVertical: 13, paddingHorizontal: 12, borderRadius: radius.md },

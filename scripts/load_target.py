@@ -12,7 +12,7 @@ if len(sys.argv) > 1:
     files = sys.argv[1:]
 else:
     files = [os.path.relpath(p, ROOT) for p in sorted(glob.glob(os.path.join(ROOT, 'supabase/seed_[0-9]*.sql')), key=vkey)]
-    files += ['supabase/seed_articles.sql', 'supabase/seed_articles_v4.sql', 'supabase/fixups_v1.sql',
+    files += ['supabase/seed_articles.sql', 'supabase/seed_articles_v2.sql', 'supabase/seed_articles_v3.sql', 'supabase/seed_articles_v4.sql', 'supabase/fixups_v1.sql',
               'supabase/fixups_malayalam_1.sql', 'supabase/fixups_malayalam_2.sql', 'supabase/fixups_print_check.sql',
               'supabase/fixups_source_codes.sql']
     files += [f'supabase/fixups_text_corrections{s}.sql' for s in ['', '_2', '_3', '_4', '_5', '_6', '_7', '_8', '_9']]
