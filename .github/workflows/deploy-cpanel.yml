@@ -1,0 +1,95 @@
+name: Deploy web app to cPanel
+
+# Runs on every push to main (and by hand from the Actions tab).
+# check  -> typecheck + lint
+# deploy -> build the web app, upload only changed files over FTPS, then smoke-test the live site.
+# One-time setup (secrets/variables, FTP account): docs/DEPLOY_CPANEL.md
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'app/**'
+      - '.github/workflows/deploy-cpanel.yml'
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-cpanel
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: app
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+      - run: npm ci
+      - name: Typecheck
+        run: npx tsc --noEmit
+      - name: Lint
+        run: npx expo lint
+
+  deploy:
+    needs: check
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    environment: production
+    defaults:
+      run:
+        working-directory: app
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+      - run: npm ci
+
+      - name: Build web app
+        env:
+          EXPO_PUBLIC_SUPABASE_URL: ${{ secrets.EXPO_PUBLIC_SUPABASE_URL }}
+          EXPO_PUBLIC_SUPABASE_ANON_KEY: ${{ secrets.EXPO_PUBLIC_SUPABASE_ANON_KEY }}
+          EXPO_PUBLIC_AI_URL: ${{ secrets.EXPO_PUBLIC_AI_URL }}
+        run: |
+          test -n "$EXPO_PUBLIC_SUPABASE_URL" && test -n "$EXPO_PUBLIC_SUPABASE_ANON_KEY" || { echo "::error::EXPO_PUBLIC_SUPABASE_URL / _ANON_KEY secrets are not set"; exit 1; }
+          npx expo export -p web
+          python3 -I scripts/pack-cpanel.py --dir
+
+      - name: Upload to cPanel (changed files only)
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftps
+          local-dir: app/deploy/
+          server-dir: ${{ vars.FTP_SERVER_DIR || './' }}
+          # never touch the server's own config files
+          exclude: |
+            **/.htaccess
+            **/.well-known/**
+            **/php.ini
+            **/.user.ini
+
+      - name: Smoke test the live site
+        env:
+          SITE_URL: ${{ vars.SITE_URL }}
+        run: |
+          if [ -z "$SITE_URL" ]; then echo "SITE_URL variable not set, skipping smoke test"; exit 0; fi
+          html=$(curl -fsS --retry 3 --retry-delay 5 "$SITE_URL/")
+          js=$(printf '%s' "$html" | grep -o '/_expo/static/js/web/entry-[a-z0-9]*\.js' | head -1)
+          test -n "$js" || { echo "::error::index.html does not reference a bundle"; exit 1; }
+          curl -fsSI --retry 3 --retry-delay 5 "$SITE_URL$js" >/dev/null
+          echo "OK: $SITE_URL serves $js"

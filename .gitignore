@@ -19,3 +19,7 @@ data/embed_local/
 src_v2/
 src_v4/
 Volume2_Review_Checklist.pdf
+/db-bundle/
+/db-bundle.zip
+/db-schema-fix.zip
+/db-update.zip
