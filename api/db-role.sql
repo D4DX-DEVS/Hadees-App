@@ -14,4 +14,5 @@ revoke create on schema public from hadithencyclo_api;
 grant usage on schema public to hadithencyclo_api;
 grant select on all tables in schema public to hadithencyclo_api;   -- RLS policies already allow public read; feedback has insert-only
 grant insert on feedback to hadithencyclo_api;
+revoke select on feedback from hadithencyclo_api;                  -- contact details are never readable through the API
 -- (the 25 s statement timeout is set by api/index.php on every connection)

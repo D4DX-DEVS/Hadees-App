@@ -43,7 +43,11 @@ if (($_SERVER['REQUEST_METHOD'] ?? 'GET') === 'OPTIONS') {
 
 set_exception_handler(function (Throwable $e): void {
     error_log('[hadees-api] ' . $e::class . ': ' . $e->getMessage());
-    fail(500, !empty(cfg()['debug']) ? $e->getMessage() : 'server error');
+    if ($e instanceof PDOException && (string)$e->getCode() === '57014') {   // statement timeout: a heavy query
+        fail(503, 'server busy, please try again');
+    }
+    // the real error text is shown only on the health route and only while 'debug' is true in the config
+    fail(500, !empty(cfg()['debug']) && ($_GET['r'] ?? '') === 'health' ? $e->getMessage() : 'server error');
 });
 
 // ───────── config + database ─────────
@@ -86,7 +90,7 @@ function db(): PDO
         PDO::ATTR_EMULATE_PREPARES => false,
         PDO::ATTR_TIMEOUT => 5,
     ]);
-    $pdo->exec("set statement_timeout = '25s'");
+    $pdo->exec("set statement_timeout = '12s'");
     return $pdo;
 }
 
@@ -128,7 +132,7 @@ function cleanText(mixed $v, int $max): string
 function intOrNull(mixed $v): ?int
 {
     if (is_int($v)) {
-        return $v;
+        return $v >= -2147483648 && $v <= 2147483647 ? $v : null;   // a larger value would be a database error
     }
     return is_string($v) && preg_match('/^-?\d{1,9}$/', $v) ? (int)$v : null;
 }
@@ -194,21 +198,44 @@ function pgTextArray(mixed $list, int $maxItems = 40): string
     return '{' . implode(',', $out) . '}';
 }
 
+/** At most $max requests per visitor per $windowSeconds for one bucket. Counted under a file lock, so parallel requests cannot slip through. */
 function rateLimit(string $bucket, int $max, int $windowSeconds): void
 {
-    $f = sys_get_temp_dir() . "/hv-$bucket-" . sha1($_SERVER['REMOTE_ADDR'] ?? 'anon') . '-' . intdiv(time(), $windowSeconds);
-    $n = is_file($f) ? (int)@file_get_contents($f) : 0;
+    $ip = $_SERVER['REMOTE_ADDR'] ?? 'anon';
+    if (str_contains($ip, ':')) {                       // IPv6: one visitor can rotate addresses inside its /64
+        $ip = implode(':', array_slice(explode(':', $ip), 0, 4));
+    }
+    $dir = sys_get_temp_dir();
+    $fp = @fopen("$dir/hv-$bucket-" . sha1($ip) . '-' . intdiv(time(), $windowSeconds), 'c+');
+    if ($fp === false) {
+        return;                                         // cannot count: never block real users because of it
+    }
+    flock($fp, LOCK_EX);
+    $n = (int)stream_get_contents($fp);
     if ($n >= $max) {
+        flock($fp, LOCK_UN);
+        fclose($fp);
         fail(429, 'Too many requests, please try again later.');
     }
-    @file_put_contents($f, (string)($n + 1), LOCK_EX);
+    ftruncate($fp, 0);
+    rewind($fp);
+    fwrite($fp, (string)($n + 1));
+    flock($fp, LOCK_UN);
+    fclose($fp);
+    if (random_int(1, 100) === 1) {                     // now and then remove counters of finished windows
+        foreach (glob("$dir/hv-$bucket-*") ?: [] as $old) {
+            if (@filemtime($old) < time() - 2 * $windowSeconds) {
+                @unlink($old);
+            }
+        }
+    }
 }
 
 /** all printed spellings of a narrator's name (just the name itself when it has no group) */
 const NARRATOR_NAMES = "coalesce(nullif(array(select spelling from narrator_groups where gkey = (select gkey from narrator_groups where spelling = ?::text)), '{}'::text[]), array[?::text])";
 
 // ───────── routes ─────────
-$route = (string)($_GET['r'] ?? '');
+$route = is_string($_GET['r'] ?? null) ? $_GET['r'] : '';
 const TTL = 300; // seconds the browser may keep a library response (the data only changes when it is corrected)
 
 switch ($route) {
@@ -216,7 +243,7 @@ switch ($route) {
         method('GET', 'HEAD');
         try {
             $n = (int)db()->query('select count(*) from hadiths')->fetchColumn();
-            send(json_encode(['ok' => true, 'db' => true, 'hadiths' => $n]));
+            send(json_encode(['ok' => true, 'db' => true, 'hadiths' => $n, 'mbstring' => function_exists('mb_substr')]));
         } catch (Throwable $e) {
             error_log('[hadees-api] health: ' . $e->getMessage());
             send(json_encode(['ok' => false, 'db' => false] + (!empty(cfg()['debug']) ? ['error' => $e->getMessage()] : [])), 503);
@@ -347,6 +374,7 @@ switch ($route) {
     // ── search ──
     case 'search':
         method('POST');
+        rateLimit('search', 180, 60);
         $b = body();
         $sort = ($b['sort'] ?? '') === 'book' ? 'book' : 'relevance';
         $src = cleanText($b['src'] ?? '', 20);
@@ -361,17 +389,19 @@ switch ($route) {
                 max(1, min(200, intOrNull($b['lim'] ?? null) ?? 30)),
                 max(0, min(100000, intOrNull($b['off'] ?? null) ?? 0)),
                 $sort,
-                pgTextArray($b['terms'] ?? []),
-                pgTextArray($b['narr'] ?? []),
+                pgTextArray($b['terms'] ?? [], 12),
+                pgTextArray($b['narr'] ?? [], 12),
                 $ngroup === '' ? null : $ngroup,
             ],
         ));
     case 'suggest':
         method('GET', 'HEAD');
+        rateLimit('search', 180, 60);
         $q = qsOpt('q', 200);
         send($q === '' ? '[]' : rows('select * from app_suggest(?::text, 8)', [$q]));
     case 'search_titles':
         method('GET', 'HEAD');
+        rateLimit('search', 180, 60);
         $q = qsOpt('q', 200);
         send($q === '' ? '[]' : rows('select * from app_search_titles(?::text, 8)', [$q]));
 
@@ -389,7 +419,16 @@ switch ($route) {
         $page = trim(cleanText($b['page'] ?? '', 80));
         $platform = trim(cleanText($b['platform'] ?? '', 20));
         $st = db()->prepare('insert into feedback (kind, message, contact, hadith_id, page, platform) values (?::text, ?::text, ?::text, ?::int, ?::text, ?::text)');
-        $st->execute([$kind, $message, $contact ?: null, intOrNull($b['hadith_id'] ?? null), $page ?: null, $platform ?: null]);
+        $row = [$kind, $message, $contact ?: null, intOrNull($b['hadith_id'] ?? null), $page ?: null, $platform ?: null];
+        try {
+            $st->execute($row);
+        } catch (PDOException $e) {
+            if ((string)$e->getCode() !== '23503') {     // the hadith id does not exist: keep the message without it
+                throw $e;
+            }
+            $row[3] = null;
+            $st->execute($row);
+        }
         send('{"ok":true}');
 
     // ── semantic search for the AI service (needs the shared key) ──

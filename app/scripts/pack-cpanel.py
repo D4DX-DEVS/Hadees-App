@@ -1,6 +1,7 @@
 """Prepare the web build (app/dist) for cPanel. Stdlib only. Run after `npx expo export -p web`.
 
   python -I scripts/pack-cpanel.py          -> hadees-web.zip (for File Manager -> Upload -> Extract), includes an .htaccess
+  python -I scripts/pack-cpanel.py --update -> hadees-web.zip WITHOUT .htaccess: safe to extract over a live site (keeps the server's merged rules)
   python -I scripts/pack-cpanel.py --dir    -> deploy/ folder (used by CI over FTP), NO .htaccess: the server keeps its own
 
 Does what build-web.sh does without macOS-only sed: renames assets/node_modules -> assets/vendor (some hosts/tools skip
@@ -63,8 +64,10 @@ def main():
         for rel, data in build_files():
             put(z, rel, data)
             count += 1
-        put(z, '.htaccess', HTACCESS.encode())
-    print(f'wrote {ZIP_OUT}: {count + 1} files, {os.path.getsize(ZIP_OUT) / 1e6:.1f} MB')
+        if '--update' not in sys.argv[1:]:
+            put(z, '.htaccess', HTACCESS.encode())
+            count += 1
+    print(f'wrote {ZIP_OUT}: {count} files, {os.path.getsize(ZIP_OUT) / 1e6:.1f} MB')
 
 
 main()
