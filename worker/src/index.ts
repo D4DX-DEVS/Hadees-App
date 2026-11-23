@@ -25,8 +25,8 @@ export interface Env {
 }
 
 const EMBED_MODEL = '@cf/baai/bge-m3';
-// free, no license click-through (gemma needs one), good Malayalam, cheap MoE
-const DEFAULT_WORKERS_LLM = '@cf/qwen/qwen3-30b-a3b-fp8';
+// free tier, good Malayalam. (@cf/qwen/qwen3-30b-a3b-fp8 was retired by Cloudflare on 2026-11-20; override with the WORKERS_AI_MODEL variable if this one is retired too)
+const DEFAULT_WORKERS_LLM = '@cf/google/gemma-4-26b-a4b-it';
 
 type Hit = {
   id: number; book_id: number; hadith_no: number; hadith_label: string | null;

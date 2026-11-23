@@ -18,4 +18,4 @@ ALLOWED_ORIGINS = "*"
 
 [[kv_namespaces]]
 binding = "CACHE"
-id = "ef2225c5cbdf4632b3344214155f2161"
+id = "66fb0985bb964f3a989d01c101b6de81"
