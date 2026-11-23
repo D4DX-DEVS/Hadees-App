@@ -7,17 +7,14 @@ compatibility_flags = ["nodejs_compat"]
 binding = "AI"
 
 [vars]
-SUPABASE_URL = "https://qlwwjbrcktbigiawtafo.supabase.co"
+API_URL = "https://hadithencyclopedia.com/api/index.php"
 ALLOWED_ORIGINS = "*"
 # Secrets (set with `npx wrangler secret put NAME`):
-#   SUPABASE_ANON_KEY      public anon key
-#   SUPABASE_SERVICE_KEY   service_role key (only for /admin/embed backfill)
-#   ADMIN_TOKEN            any random string, protects /admin/embed
+#   MATCH_KEY              long random string; the SAME value as 'match_key' in /home/<account>/hadees-config.php
+#   ADMIN_TOKEN            optional: any random string, lets an admin pick the Workers AI model per request
 #   ANTHROPIC_API_KEY      optional: Claude answers instead of free Workers AI model
 #   CLAUDE_MODEL           optional, default claude-opus-5-5
-
-[triggers]
-crons = ["0 3 * * *"]
+# (No more Supabase keys, and no keep-alive cron: the database is on the cPanel server.)
 
 [[kv_namespaces]]
 binding = "CACHE"

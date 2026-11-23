@@ -72,7 +72,10 @@ function Sheet({ id: startId, onClose }: { id: number; onClose: () => void }) {
           ) : (
             <GestureDetector gesture={swipe}>
               <View style={{ flexShrink: 1 }}>
-                <HadithHeading h={h} full />
+                {/* HadithHeading is flex:1 (made for a Row); in this column it would collapse to 0 height and the text would slide over it */}
+                <View style={{ flexDirection: 'row' }}>
+                  <HadithHeading h={h} full />
+                </View>
                 <ScrollView style={{ marginTop: space.sm }} showsVerticalScrollIndicator persistentScrollbar>
                   <View style={{ gap: space.md }}>
                     <HadithText h={h} />

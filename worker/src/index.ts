@@ -3,11 +3,11 @@
  *
  *   POST /search/semantic  { q, vol?, k? }              -> { results }
  *   POST /ask              { q, vol?, history? }        -> { answer, sources, provider }
- *   POST /admin/embed      { limit? }  (x-admin-token)  -> { embedded, remaining }
  *   GET  /health
- *   cron daily: pings Supabase so the free project is never paused
  *
- * Embeddings: Workers AI @cf/baai/bge-m3 (multilingual, 1024 dims) stored in Supabase pgvector.
+ * Embeddings: Workers AI @cf/baai/bge-m3 (multilingual, 1024 dims), stored in pgvector on the cPanel server.
+ * The library database is reached ONLY through the PHP API (API_URL): route `search` (keyword) and `match`
+ * (vector search, needs MATCH_KEY). Feedback goes from the app straight to the PHP API.
  * Answers: Claude when ANTHROPIC_API_KEY is set, otherwise a free Workers AI model.
  */
 import Anthropic from '@anthropic-ai/sdk';
@@ -15,9 +15,8 @@ import Anthropic from '@anthropic-ai/sdk';
 export interface Env {
   AI: Ai;
   CACHE: KVNamespace;
-  SUPABASE_URL: string;
-  SUPABASE_ANON_KEY: string;
-  SUPABASE_SERVICE_KEY?: string; // only needed for /admin/embed
+  API_URL: string;     // https://hadithencyclopedia.com/api/index.php
+  MATCH_KEY: string;   // secret: same value as 'match_key' in /home/<account>/hadees-config.php
   ADMIN_TOKEN?: string;
   ANTHROPIC_API_KEY?: string;
   CLAUDE_MODEL?: string;
@@ -56,13 +55,15 @@ function json(data: unknown, status: number, headers: Record<string, string>) {
   });
 }
 
-async function rpc<T>(env: Env, fn: string, body: unknown, key = env.SUPABASE_ANON_KEY): Promise<T> {
-  const r = await fetch(`${env.SUPABASE_URL}/rest/v1/rpc/${fn}`, {
+/** POST one route of the PHP API (https://.../api/index.php?r=<route>) and return its JSON. */
+async function callApi<T>(env: Env, route: string, body: unknown, headers: Record<string, string> = {}): Promise<T> {
+  const url = `${env.API_URL}${env.API_URL.includes('?') ? '&' : '?'}r=${route}`;
+  const r = await fetch(url, {
     method: 'POST',
-    headers: { apikey: key, authorization: `Bearer ${key}`, 'content-type': 'application/json' },
+    headers: { 'content-type': 'application/json', ...headers },
     body: JSON.stringify(body),
   });
-  if (!r.ok) throw new Error(`supabase ${fn}: ${r.status} ${await r.text()}`);
+  if (!r.ok) throw new Error(`api ${route}: ${r.status} ${(await r.text()).slice(0, 200)}`);
   return r.json() as Promise<T>;
 }
 
@@ -76,15 +77,13 @@ async function sha256(t: string) {
   return [...new Uint8Array(d)].map((b) => b.toString(16).padStart(2, '0')).join('');
 }
 
-const vec = (v: number[]) => `[${v.join(',')}]`;
-
 async function semantic(env: Env, q: string, vol: number | null, k: number): Promise<Hit[]> {
   const [v] = await embed(env, [q]);
-  return rpc<Hit[]>(env, 'match_hadiths', { query_embedding: vec(v), k, vol, min_sim: 0.35 });
+  return callApi<Hit[]>(env, 'match', { embedding: v, k, vol, min_sim: 0.35 }, { 'x-api-key': env.MATCH_KEY });
 }
 
 async function keyword(env: Env, q: string, vol: number | null, lim: number): Promise<Hit[]> {
-  return rpc<Hit[]>(env, 'app_search', { q, vol, book: null, src: null, lim, off: 0 });
+  return callApi<Hit[]>(env, 'search', { q, vol, book: null, src: null, lim, off: 0 });
 }
 
 /** Hybrid retrieval: semantic hits first, then keyword hits not already present (reciprocal-rank merge). */
@@ -155,29 +154,6 @@ async function answerWorkersAI(env: Env, q: string, hits: Hit[], history: Turn[]
   return (o.response ?? o.choices?.[0]?.message?.content ?? '').replace(/<think>[\s\S]*?<\/think>/g, '').trim();
 }
 
-// ───────── admin: backfill embeddings ─────────
-async function adminEmbed(env: Env, limit: number) {
-  if (!env.SUPABASE_SERVICE_KEY) throw new Error('SUPABASE_SERVICE_KEY not set');
-  const key = env.SUPABASE_SERVICE_KEY;
-  const todo = await rpc<{ id: number; text: string }[]>(env, 'hadiths_to_embed', { lim: limit }, key);
-  for (let i = 0; i < todo.length; i += 20) {
-    const batch = todo.slice(i, i + 20);
-    const vecs = await embed(env, batch.map((t) => t.text));
-    const rows = batch.map((t, j) => ({ hadith_id: t.id, model: EMBED_MODEL, embedding: vec(vecs[j]) }));
-    const r = await fetch(`${env.SUPABASE_URL}/rest/v1/hadith_embeddings`, {
-      method: 'POST',
-      headers: {
-        apikey: key, authorization: `Bearer ${key}`, 'content-type': 'application/json',
-        prefer: 'resolution=merge-duplicates,return=minimal',
-      },
-      body: JSON.stringify(rows),
-    });
-    if (!r.ok) throw new Error(`upsert: ${r.status} ${await r.text()}`);
-  }
-  const [{ remaining }] = await rpc<{ remaining: number }[]>(env, 'embeddings_remaining', {}, key);
-  return { embedded: todo.length, remaining };
-}
-
 // ───────── router ─────────
 export default {
   async fetch(req: Request, env: Env): Promise<Response> {
@@ -233,49 +209,10 @@ export default {
         return json(out, 200, h);
       }
 
-      if (pathname === '/feedback') {
-        const kind = String(body.kind ?? '');
-        const message = String(body.message ?? '').trim();
-        const contact = String(body.contact ?? '').trim().slice(0, 200) || null;
-        if (!['idea', 'problem', 'text', 'praise'].includes(kind) || message.length < 3) return json({ error: 'Please write a few words.' }, 400, h);
-        // light spam guard: 5 messages per hour per IP
-        const ip = req.headers.get('cf-connecting-ip') ?? 'anon';
-        const key = `rl:fb:${ip}:${Math.floor(Date.now() / 3_600_000)}`;
-        const used = Number((await env.CACHE.get(key)) ?? 0);
-        if (used >= 5) return json({ error: 'Too many messages — please try again later.' }, 429, h);
-        await env.CACHE.put(key, String(used + 1), { expirationTtl: 3700 });
-        const r = await fetch(`${env.SUPABASE_URL}/rest/v1/feedback`, {
-          method: 'POST',
-          headers: { apikey: env.SUPABASE_ANON_KEY, authorization: `Bearer ${env.SUPABASE_ANON_KEY}`, 'content-type': 'application/json', prefer: 'return=minimal' },
-          body: JSON.stringify({
-            kind, message: message.slice(0, 2000), contact,
-            hadith_id: Number.isInteger(body.hadith_id) ? body.hadith_id : null,
-            page: String(body.page ?? '').slice(0, 80) || null,
-            platform: String(body.platform ?? '').slice(0, 20) || null,
-          }),
-        });
-        if (!r.ok) throw new Error(`feedback insert: ${r.status} ${await r.text()}`);
-        return json({ ok: true }, 200, h);
-      }
-
-      if (pathname === '/admin/embed') {
-        if (!env.ADMIN_TOKEN || req.headers.get('x-admin-token') !== env.ADMIN_TOKEN) return json({ error: 'forbidden' }, 403, h);
-        return json(await adminEmbed(env, Math.min(Number(body.limit ?? 200), 400)), 200, h);
-      }
-
       return json({ error: 'not found' }, 404, h);
     } catch (e) {
       console.error(e);
       return json({ error: e instanceof Error ? e.message : 'error' }, 500, h);
     }
-  },
-
-  // Daily cron (wrangler.toml [triggers]): a real query keeps the free Supabase project from being paused for inactivity.
-  async scheduled(_event: ScheduledController, env: Env): Promise<void> {
-    const r = await fetch(`${env.SUPABASE_URL}/rest/v1/hadiths?select=id&limit=1`, {
-      headers: { apikey: env.SUPABASE_ANON_KEY, Authorization: `Bearer ${env.SUPABASE_ANON_KEY}` },
-    });
-    await env.CACHE.put('keepalive:last', JSON.stringify({ at: new Date().toISOString(), status: r.status }));
-    if (!r.ok) console.error('keepalive failed', r.status);
   },
 } satisfies ExportedHandler<Env>;

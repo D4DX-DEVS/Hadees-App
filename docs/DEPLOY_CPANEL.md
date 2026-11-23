@@ -1,49 +1,69 @@
-# Deploying the web app to cPanel from GitHub
+# Hosting on cPanel (hadithencyclopedia.com)
 
-Every push to `main` that touches `app/` runs `.github/workflows/deploy-cpanel.yml`:
-typecheck + lint, then build the web app, upload only the files that changed, and check the live site.
-The database stays on Supabase; only the static website is deployed.
+Everything runs on the cPanel server. Nothing depends on Supabase any more.
 
-## One-time setup
+```
+browser / app ──► public_html/            static web app (Expo web export)
+              └─► public_html/api/index.php   PHP API  ──►  PostgreSQL `hadithencyclo_hadees` (pgvector)
+AI worker (Cloudflare) ──► api/index.php?r=search | ?r=match
+```
 
-### 1. A dedicated FTP account (cPanel)
-cPanel -> **FTP Accounts** -> Add. Give it a strong password and set its **Directory** to `public_html`
-(the folder the domain serves). Use this account only for deploys, not your main cPanel login.
+| Piece | Where | Deployed by |
+|---|---|---|
+| Web app | `app/` -> `public_html/` | GitHub Actions (or manual zip) |
+| PHP API | `api/` -> `public_html/api/` | GitHub Actions (or manual zip) |
+| Database | PostgreSQL on the server | loaded once (`scripts/build_cpanel_db.py` bundle) |
+| AI worker | `worker/` -> Cloudflare Workers | `npx wrangler deploy` by hand |
+| DB password | `/home/<account>/hadees-config.php` | by hand, NEVER in git or in `public_html` |
 
-### 2. GitHub secrets (repo -> Settings -> Secrets and variables -> Actions)
+## 1. Server one-time setup (already done for hadithencyclopedia.com)
+1. PostgreSQL database loaded (`docs/SUPABASE_MIGRATION.md` explains the data, `99_verify.sql` compares checksums).
+2. PHP 8.3 for the domain (cPanel -> MultiPHP Manager) with the `ea-php83-php-pgsql` package installed (WHM terminal: `dnf install ea-php83-php-pgsql`).
+3. Read-only database user: create `hadithencyclo_api` in cPanel -> PostgreSQL Databases, add it to the database, then run `api/db-role.sql` as the database OWNER (`psql -h /var/run/postgresql -U hadithencyclo_hadithencyclo -d hadithencyclo_hadees -f api/db-role.sql`). It can read the library and insert feedback, nothing else.
+4. `/home/<account>/hadees-config.php` (copy of `api/hadees-config.sample.php`) with that user's password and a long random `match_key`. Set `debug` to `false` when it works.
+5. Check: `https://<domain>/api/index.php?r=health` -> `{"ok":true,"db":true,"hadiths":12737}`.
+
+## 2. GitHub Actions (push to `main` touching `app/` or `api/`)
+`.github/workflows/deploy-cpanel.yml`: **check** (PHP syntax, typecheck, lint) -> **deploy-api** (upload `api/`, health check) -> **deploy** (build web app, upload changed files, smoke test).
+
+### One-time GitHub setup
+1. cPanel -> **FTP Accounts** -> add `deploy`, **Directory** `public_html`. Use it only for deploys.
+2. Repo -> Settings -> Secrets and variables -> Actions:
+
 | Secret | Value |
 |---|---|
-| `FTP_HOST` | your server name from the FTP Accounts page (or the domain), no `ftp://` |
-| `FTP_USERNAME` | the FTP account created above (full name, e.g. `deploy@yourdomain.com`) |
+| `FTP_HOST` | FTP server name from the FTP Accounts page |
+| `FTP_USERNAME` | full FTP login, e.g. `deploy@hadithencyclopedia.com` |
 | `FTP_PASSWORD` | that account's password |
-| `EXPO_PUBLIC_SUPABASE_URL` | `https://<project-ref>.supabase.co` |
-| `EXPO_PUBLIC_SUPABASE_ANON_KEY` | the publishable (anon) key. Never the service-role key |
+| `EXPO_PUBLIC_API_URL` | `https://hadithencyclopedia.com/api/index.php` |
 | `EXPO_PUBLIC_AI_URL` | the Ask-AI worker URL |
 
-Variables (same page, Variables tab), both optional:
 | Variable | Value |
 |---|---|
-| `SITE_URL` | `https://yourdomain.com` (enables the smoke test after each deploy) |
-| `FTP_SERVER_DIR` | only if the FTP account's home is not the web root; default `./` |
+| `SITE_URL` | `https://hadithencyclopedia.com` (turns on the health check and smoke test) |
+| `FTP_SERVER_DIR` | only if the FTP account's home is not the web root (must end with `/`); default `./` |
 
-### 3. Protect production (recommended)
-Repo -> Settings -> Environments -> `production` -> add **Required reviewers** so a deploy waits for an approval,
-and restrict it to the `main` branch.
+3. Settings -> Environments -> `production` -> add **Required reviewers** if you want an approval before each deploy.
 
-### 4. The server's `.htaccess`
-The pipeline never uploads or overwrites `.htaccess`. Keep the single-page-app rules once in `public_html/.htaccess`
-(see `app/scripts/pack-cpanel.py` for the block). Deep links like `/article/5` need them.
+The pipeline never uploads `.htaccess` for the site root, `.well-known`, `php.ini` or the database password file. Keep the single-page-app rules in `public_html/.htaccess` (see `app/scripts/pack-cpanel.py`).
 
-## Everyday use
-Merge to `main` -> approve the deploy if you added reviewers -> done. To redeploy by hand: Actions -> *Deploy web app to cPanel* -> Run workflow.
+## 3. AI worker (Cloudflare)
+```
+cd worker
+npm install
+npx wrangler login
+npx wrangler secret put MATCH_KEY     # same value as 'match_key' in hadees-config.php
+npx wrangler deploy
+```
+`API_URL` is set in `worker/wrangler.toml`. The worker embeds the question with Workers AI and asks the PHP API for the nearest hadith (`?r=match`, protected by `MATCH_KEY`) and for keyword matches (`?r=search`), so it always uses the same hadith ids as the app.
+
+## 4. Manual fallback (no GitHub)
+- Web app: `cd app && npx expo export -p web && python -I scripts/pack-cpanel.py`, upload `app/hadees-web.zip` in File Manager and extract into `public_html` (do not overwrite the server's `.htaccess`).
+- API: `python -I scripts/pack_api.py`, upload `api-php.zip` and extract into `public_html`.
 
 ## If something fails
-- **check job fails**: fix the typecheck/lint error it prints, push again.
-- **FTP login/TLS error**: `FTP_HOST` must be the host name on the FTP Accounts page. If the certificate name does not match,
-  use that host name; only as a last resort add `security: loose` to the upload step.
-- **Smoke test fails**: open the Actions log, then open the site in a browser and check the F12 Console.
-- **Roll back**: revert the commit on `main` and the pipeline redeploys the previous version.
-
-## Manual fallback
-`cd app && npx expo export -p web && python -I scripts/pack-cpanel.py`, then upload `app/hadees-web.zip` in File Manager and extract it
-(do not overwrite the server's merged `.htaccess`).
+- **check fails**: fix the PHP/TypeScript error it prints, push again.
+- **FTP login/TLS error**: `FTP_HOST` must be the host name on the FTP Accounts page.
+- **Health check fails** (`"db":false`): set `debug` to `true` in `hadees-config.php`, open `?r=health` to see the real database error, then set it back.
+- **`could not find driver`**: the domain's PHP version has no `pgsql`; use the PHP version that has it (MultiPHP Manager).
+- **Roll back**: revert the commit on `main`; the pipeline redeploys the previous version.

@@ -1,8 +1,9 @@
-name: Deploy web app to cPanel
+name: Deploy to cPanel
 
 # Runs on every push to main (and by hand from the Actions tab).
-# check  -> typecheck + lint
-# deploy -> build the web app, upload only changed files over FTPS, then smoke-test the live site.
+# check      -> typecheck + lint the app, syntax-check the PHP API
+# deploy-api -> upload api/ over FTPS (changed files only), then health-check it (database reachable)
+# deploy     -> build the web app against that API, upload changed files, smoke-test the live site
 # One-time setup (secrets/variables, FTP account): docs/DEPLOY_CPANEL.md
 
 on:
@@ -10,6 +11,7 @@ on:
     branches: [main]
     paths:
       - 'app/**'
+      - 'api/**'
       - '.github/workflows/deploy-cpanel.yml'
   workflow_dispatch:
 
@@ -24,9 +26,6 @@ jobs:
   check:
     runs-on: ubuntu-latest
     timeout-minutes: 15
-    defaults:
-      run:
-        working-directory: app
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -34,14 +33,51 @@ jobs:
           node-version: 22
           cache: npm
           cache-dependency-path: app/package-lock.json
-      - run: npm ci
+      - name: PHP syntax check
+        run: |
+          command -v php >/dev/null || { sudo apt-get update -qq && sudo apt-get install -y -qq php-cli; }
+          php -l api/index.php
+      - name: Install app dependencies
+        working-directory: app
+        run: npm ci
       - name: Typecheck
+        working-directory: app
         run: npx tsc --noEmit
       - name: Lint
+        working-directory: app
         run: npx expo lint
 
-  deploy:
+  deploy-api:
     needs: check
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment: production
+    steps:
+      - uses: actions/checkout@v4
+      - name: Upload api/ to cPanel (changed files only)
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftps
+          local-dir: api/
+          server-dir: ${{ format('{0}api/', vars.FTP_SERVER_DIR || './') }}
+          # the database password lives OUTSIDE the web root (/home/<account>/hadees-config.php) and is never deployed
+          exclude: |
+            **/hadees-config*.php
+            **/db-role.sql
+      - name: Health check (API reaches the database)
+        env:
+          SITE_URL: ${{ vars.SITE_URL }}
+        run: |
+          if [ -z "$SITE_URL" ]; then echo "SITE_URL variable not set, skipping health check"; exit 0; fi
+          out=$(curl -fsS --retry 3 --retry-delay 5 "$SITE_URL/api/index.php?r=health")
+          echo "$out"
+          echo "$out" | grep -q '"db":true' || { echo "::error::API health check failed"; exit 1; }
+
+  deploy:
+    needs: [check, deploy-api]
     runs-on: ubuntu-latest
     timeout-minutes: 20
     environment: production
@@ -59,11 +95,10 @@ jobs:
 
       - name: Build web app
         env:
-          EXPO_PUBLIC_SUPABASE_URL: ${{ secrets.EXPO_PUBLIC_SUPABASE_URL }}
-          EXPO_PUBLIC_SUPABASE_ANON_KEY: ${{ secrets.EXPO_PUBLIC_SUPABASE_ANON_KEY }}
+          EXPO_PUBLIC_API_URL: ${{ secrets.EXPO_PUBLIC_API_URL }}
           EXPO_PUBLIC_AI_URL: ${{ secrets.EXPO_PUBLIC_AI_URL }}
         run: |
-          test -n "$EXPO_PUBLIC_SUPABASE_URL" && test -n "$EXPO_PUBLIC_SUPABASE_ANON_KEY" || { echo "::error::EXPO_PUBLIC_SUPABASE_URL / _ANON_KEY secrets are not set"; exit 1; }
+          test -n "$EXPO_PUBLIC_API_URL" || { echo "::error::EXPO_PUBLIC_API_URL secret is not set"; exit 1; }
           npx expo export -p web
           python3 -I scripts/pack-cpanel.py --dir
 

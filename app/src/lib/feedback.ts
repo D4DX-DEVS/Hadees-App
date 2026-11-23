@@ -1,20 +1,12 @@
 import { Platform } from 'react-native';
 
-import { AI_URL, supabase } from './api';
+import { request } from './api';
 import { load, save } from './storage';
 
 export type FeedbackKind = 'idea' | 'problem' | 'text' | 'praise';
 
 export async function sendFeedback(p: { kind: FeedbackKind; message: string; contact?: string; page?: string }) {
-  const body = { ...p, contact: p.contact?.trim() || null, platform: Platform.OS };
-  if (AI_URL) {
-    const r = await fetch(`${AI_URL}/feedback`, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(body) });
-    const d = await r.json().catch(() => ({}));
-    if (!r.ok) throw new Error(d?.error ?? `Could not send (${r.status})`);
-    return;
-  }
-  const { error } = await supabase.from('feedback').insert({ kind: p.kind, message: p.message.trim(), contact: body.contact, page: p.page ?? null, platform: Platform.OS });
-  if (error) throw new Error(error.message);
+  await request('feedback', {}, { ...p, message: p.message.trim(), contact: p.contact?.trim() || null, platform: Platform.OS });
 }
 
 // ── gentle "you can send feedback" nudge: rare, dismissible, never after the user has sent feedback ──
