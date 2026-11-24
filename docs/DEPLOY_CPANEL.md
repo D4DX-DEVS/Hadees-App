@@ -67,3 +67,12 @@ npx wrangler deploy
 - **Health check fails** (`"db":false`): set `debug` to `true` in `hadees-config.php`, open `?r=health` to see the real database error, then set it back.
 - **`could not find driver`**: the domain's PHP version has no `pgsql`; use the PHP version that has it (MultiPHP Manager).
 - **Roll back**: revert the commit on `main`; the pipeline redeploys the previous version.
+
+## 5. Extra libraries (sunnah.db, ihadis.db)
+Loaded into the SAME database as separate schemas `sunnah` and `ihadis` (the live library in `public` is never touched; the API user gets read-only access).
+```
+python -I scripts/build_sources_db.py sunnah     # -> sunnah-bundle.zip   (add --with-html to keep arabic_html/english_html)
+python -I scripts/build_sources_db.py ihadis     # -> ihadis-bundle.zip
+```
+Upload each zip to `/home/<account>/` (NOT `public_html`), extract, then in the WHM terminal:
+`cd /home/<account>/sunnah-bundle && chmod +x load.sh && ./load.sh` (asks for the database owner's password, runs in the background, ends with the verification list that must equal `99_expected.txt`). Re-running is safe: it drops and recreates only its own schema.
