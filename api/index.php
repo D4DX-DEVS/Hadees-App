@@ -446,16 +446,28 @@ switch ($route) {
                     where h.fts @@ q and (?::text = '' or h.collection = ?::text)
                     order by rank desc limit ?::int";
         }
-        $run = fn(string $op): array => json_decode(rows($sql, [implode($op, $words), $coll, $coll, $lim]), true) ?: [];
-        $found = $run(' & ');
-        if (count($words) > 1 && count($found) < min($lim, 5)) {
-            $rid = fn(array $r): string => ($r['urn'] ?? '') . '|' . ($r['book_slug'] ?? '') . '|' . ($r['hadith_id'] ?? '');
-            $seen = array_flip(array_map($rid, $found));
-            foreach ($run(' | ') as $r) {
+        $run = fn(array $w, string $op): array => json_decode(rows($sql, [implode($op, $w), $coll, $coll, $lim]), true) ?: [];
+        $rid = fn(array $r): string => ($r['urn'] ?? '') . '|' . ($r['book_slug'] ?? '') . '|' . ($r['hadith_id'] ?? '');
+        $found = [];
+        $seen = [];
+        $add = function (array $list) use (&$found, &$seen, $rid, $lim): void {
+            foreach ($list as $r) {
                 if (!isset($seen[$rid($r)]) && count($found) < $lim) {
                     $found[] = $r;
                     $seen[$rid($r)] = true;
                 }
+            }
+        };
+        if (!empty($b['strict'])) {
+            // for the AI: only passages that contain the main words TOGETHER. All words first, then fewer (the first words are the most
+            // important), never fewer than two, and never "any word": a passage that matches one common word is noise.
+            for ($n = count($words); $n >= min(2, count($words)) && count($found) < min($lim, 3); $n--) {
+                $add($run(array_slice($words, 0, $n), ' & '));
+            }
+        } else {
+            $add($run($words, ' & '));
+            if (count($words) > 1 && count($found) < min($lim, 5)) {
+                $add($run($words, ' | '));
             }
         }
         send(json_encode($found, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES));

@@ -86,6 +86,60 @@ async function keyword(env: Env, q: string, vol: number | null, lim: number): Pr
   return callApi<Hit[]>(env, 'search', { q, vol, book: null, src: null, lim, off: 0 });
 }
 
+// ───────── extra library: Sunnah.com English passages (schema `sunnah`, API route src_search) ─────────
+type ApiExtra = {
+  urn: string; collection: string; collection_name: string; reference: string | null; hadith_number: string | null;
+  grade_en: string | null; ihadis_grade: string | null; narrator_en: string | null;
+  text_en: string; text_ar: string | null; url: string | null;
+};
+/** What the app gets: a ready label, the English text and the Arabic text. Cited as [n] after the encyclopedia passages. */
+type Extra = { label: string; collection: string; grade: string | null; narrator: string | null; text_en: string; text_ar: string | null; url: string | null };
+const MAX_EXTRA = 4;
+
+/** English search words for a question. A question written in English is used as it is; Malayalam (or any other script) is turned into keywords by the model, cached for 30 days. */
+async function englishKeywords(env: Env, q: string): Promise<string> {
+  const letters = q.replace(/[\s\d\p{P}]/gu, '');
+  if (!letters) return '';
+  // a short question in English is already a keyword list; a longer one ("what is the reward for feeding a hungry person") is reduced to its key words
+  if ((letters.match(/[A-Za-z]/g) ?? []).length >= letters.length * 0.6 && q.trim().split(/\s+/).length <= 4) return q;
+  const key = 'kw2:' + (await sha256(q.toLowerCase().replace(/\s+/g, ' ')));
+  const cached = await env.CACHE.get(key);
+  if (cached !== null) return cached;
+  const out = (await env.AI.run((env.WORKERS_AI_MODEL || DEFAULT_WORKERS_LLM) as keyof AiModels, {
+    messages: [
+      {
+        role: 'system',
+        content: 'You turn a question about Islam, written in any language, into English search keywords for a database of English hadith translations. Reply with ONLY 3 to 5 lowercase English words separated by spaces, the most important word FIRST, using words that would appear in the hadith text itself (for example: fasting ramadan reward). No punctuation, no explanation.',
+      },
+      { role: 'user', content: q },
+    ],
+    max_tokens: 60,
+    chat_template_kwargs: { enable_thinking: false },
+  } as never)) as { response?: string; choices?: { message?: { content?: string } }[] };
+  const text = (out.response ?? out.choices?.[0]?.message?.content ?? '').replace(/<think>[\s\S]*?<\/think>/g, '');
+  const kw = (text.match(/[A-Za-z]{3,}/g) ?? []).slice(0, 8).join(' ').toLowerCase();
+  if (kw) await env.CACHE.put(key, kw, { expirationTtl: 60 * 60 * 24 * 30 });
+  return kw;
+}
+
+async function extraSources(env: Env, q: string): Promise<Extra[]> {
+  const kw = await englishKeywords(env, q);
+  if (!kw) return [];
+  const rows = await callApi<ApiExtra[]>(env, 'src_search', { q: kw, src: 'sunnah', lim: MAX_EXTRA, strict: true });
+  return rows.map((r) => {
+    const ref = r.reference ?? (r.hadith_number ? `Hadith ${r.hadith_number}` : '');
+    return {
+      label: ref.toLowerCase().includes(r.collection_name.toLowerCase()) ? ref : `${r.collection_name} · ${ref}`,
+      collection: r.collection_name,
+      grade: r.grade_en ?? r.ihadis_grade,
+      narrator: r.narrator_en,
+      text_en: r.text_en,
+      text_ar: r.text_ar?.trim() || null,
+      url: r.url,
+    };
+  });
+}
+
 /** Hybrid retrieval: semantic hits first, then keyword hits not already present (reciprocal-rank merge). */
 async function retrieve(env: Env, q: string, vol: number | null, k: number): Promise<Hit[]> {
   const [sem, kw] = await Promise.all([
@@ -109,21 +163,24 @@ Answer ONLY from the numbered hadith passages provided in the user turn. Rules:
 - If the question is about a topic, give: a short direct answer (2-3 sentences), then the main points as a bulleted list, each point ending with its citation(s).
 - If the passages do not answer the question, say so plainly in Malayalam and suggest a better search term. Do not answer from outside knowledge.
 - You explain what the hadith say; you do not issue fatwas. For personal religious rulings, advise consulting a qualified scholar.
+- Passages marked "(Sunnah.com, English)" are English translations from outside the encyclopedia. You may use them too: translate their meaning faithfully into Malayalam, stay close to their wording, never add details, and cite them with their number like the others. Keep the names of narrators and books in English exactly as written there; never guess a Malayalam spelling for them. When a point is covered by both, prefer the Malayalam passage.
 - Be concise.`;
 
-function contextBlock(hits: Hit[]): string {
-  return hits
-    .map((h, i) => {
-      const where = `വാല്യം ${h.volume_id} · ${h.book_title_ml}${h.chapter_title_ml ? ' › ബാബ് ' + (h.chapter_no ?? '') + ': ' + h.chapter_title_ml : ''} · ഹദീസ് ${h.hadith_label ?? h.hadith_no}`;
-      const src = h.source_codes_ml?.length ? ` (${h.source_codes_ml.join(', ')})` : '';
-      return `[${i + 1}] ${where}${src}\nനിവേദകൻ: ${h.narrator_ml ?? '-'}\n${h.malayalam_text.slice(0, 1800)}`;
-    })
-    .join('\n\n');
+function contextBlock(hits: Hit[], extra: Extra[] = []): string {
+  const own = hits.map((h, i) => {
+    const where = `വാല്യം ${h.volume_id} · ${h.book_title_ml}${h.chapter_title_ml ? ' › ബാബ് ' + (h.chapter_no ?? '') + ': ' + h.chapter_title_ml : ''} · ഹദീസ് ${h.hadith_label ?? h.hadith_no}`;
+    const src = h.source_codes_ml?.length ? ` (${h.source_codes_ml.join(', ')})` : '';
+    return `[${i + 1}] ${where}${src}\nനിവേദകൻ: ${h.narrator_ml ?? '-'}\n${h.malayalam_text.slice(0, 1800)}`;
+  });
+  const more = extra.map(
+    (e, i) => `[${hits.length + i + 1}] (Sunnah.com, English) ${e.label}${e.grade ? ` · Grade: ${e.grade}` : ''}\nNarrator: ${e.narrator ?? '-'}\n${e.text_en.slice(0, 1200)}`,
+  );
+  return [...own, ...more].join('\n\n');
 }
 
 type Turn = { role: 'user' | 'assistant'; content: string };
 
-async function answerClaude(env: Env, q: string, hits: Hit[], history: Turn[]): Promise<string> {
+async function answerClaude(env: Env, q: string, hits: Hit[], extra: Extra[], history: Turn[]): Promise<string> {
   const client = new Anthropic({ apiKey: env.ANTHROPIC_API_KEY });
   const res = await client.beta.messages.create({
     model: env.CLAUDE_MODEL || 'claude-opus-5-5',
@@ -134,19 +191,19 @@ async function answerClaude(env: Env, q: string, hits: Hit[], history: Turn[]): 
     system: SYSTEM,
     messages: [
       ...history.slice(-6),
-      { role: 'user', content: `Passages:\n\n${contextBlock(hits)}\n\nQuestion: ${q}` },
+      { role: 'user', content: `Passages:\n\n${contextBlock(hits, extra)}\n\nQuestion: ${q}` },
     ],
   });
   if (res.stop_reason === 'refusal') return 'ക്ഷമിക്കണം, ഈ ചോദ്യത്തിന് മറുപടി നൽകാൻ കഴിഞ്ഞില്ല.';
   return res.content.flatMap((b) => (b.type === 'text' ? [b.text] : [])).join('\n').trim();
 }
 
-async function answerWorkersAI(env: Env, q: string, hits: Hit[], history: Turn[], model?: string): Promise<string> {
+async function answerWorkersAI(env: Env, q: string, hits: Hit[], extra: Extra[], history: Turn[], model?: string): Promise<string> {
   const out = (await env.AI.run((model || env.WORKERS_AI_MODEL || DEFAULT_WORKERS_LLM) as keyof AiModels, {
     messages: [
       { role: 'system', content: SYSTEM },
       ...history.slice(-4),
-      { role: 'user', content: `Passages:\n\n${contextBlock(hits)}\n\nQuestion: ${q}` },
+      { role: 'user', content: `Passages:\n\n${contextBlock(hits, extra)}\n\nQuestion: ${q}` },
     ],
     max_tokens: 3000,
     // Gemma 4 / Qwen 3.8 'think' first and return an empty answer when the thinking uses up max_tokens: turn thinking off
@@ -188,28 +245,34 @@ export default {
         // identical standalone question -> cached answer (saves free-tier Workers AI neurons)
         // admin only: x-admin-token + body.model picks the Workers AI model for this request and bypasses the answer cache (for model comparisons)
         const adminModel = req.headers.get('x-admin-token') && req.headers.get('x-admin-token') === env.ADMIN_TOKEN ? String(body.model ?? '') : '';
-        const cacheKey = history.length || adminModel ? null : 'ask2:' + (await sha256(`${vol ?? ''}|${q.toLowerCase().replace(/\s+/g, ' ')}`));
+        // body.extra === true: the app can show the Sunnah.com passages (older app versions do not send it and get the answer as before)
+        const wantExtra = body.extra === true;
+        const cacheKey = history.length || adminModel ? null : 'ask3:' + (await sha256(`${vol ?? ''}|${wantExtra ? 'x' : ''}|${q.toLowerCase().replace(/\s+/g, ' ')}`));
         if (cacheKey) {
           const hit = await env.CACHE.get(cacheKey, 'json');
           if (hit) return json({ ...(hit as object), cached: true }, 200, h);
         }
-        const hits = await retrieve(env, q, vol, 8);
-        if (!hits.length) {
-          return json({ answer: 'ഈ ചോദ്യവുമായി ബന്ധപ്പെട്ട ഹദീസുകൾ കണ്ടെത്താനായില്ല. മറ്റൊരു വാക്ക് ഉപയോഗിച്ച് ശ്രമിക്കൂ.', sources: [], provider: null }, 200, h);
+        // the encyclopedia passages and the extra English passages are searched at the same time; a failure of the extra search never blocks the answer
+        const [hits, extra] = await Promise.all([
+          retrieve(env, q, vol, 8),
+          (wantExtra ? extraSources(env, q) : Promise.resolve([] as Extra[])).catch((e) => { console.error('extra sources failed', e instanceof Error ? e.message.slice(0, 300) : e); return [] as Extra[]; }),
+        ]);
+        if (!hits.length && !extra.length) {
+          return json({ answer: 'ഈ ചോദ്യവുമായി ബന്ധപ്പെട്ട ഹദീസുകൾ കണ്ടെത്താനായില്ല. മറ്റൊരു വാക്ക് ഉപയോഗിച്ച് ശ്രമിക്കൂ.', sources: [], extra: [], provider: null }, 200, h);
         }
         const useClaude = !!env.ANTHROPIC_API_KEY;
         let answer: string;
         try {
-          answer = useClaude ? await answerClaude(env, q, hits, history) : await answerWorkersAI(env, q, hits, history, adminModel || undefined);
+          answer = useClaude ? await answerClaude(env, q, hits, extra, history) : await answerWorkersAI(env, q, hits, extra, history, adminModel || undefined);
         } catch (e) {
           // free daily Workers AI allowance used up (or model error): still return the matching hadith
           console.error('answer failed', e instanceof Error ? e.message.slice(0, 1500) : e);
           return json({
             answer: 'ഇന്നത്തെ സൗജന്യ AI പരിധി കഴിഞ്ഞു. ചോദ്യത്തോട് ഏറ്റവും അടുത്ത ഹദീസുകൾ താഴെ കൊടുക്കുന്നു; AI ഉത്തരം നാളെ വീണ്ടും ലഭിക്കും.',
-            sources: hits, provider: null, limited: true,
+            sources: hits, extra, provider: null, limited: true,
           }, 200, h);
         }
-        const out = { answer, sources: hits, provider: useClaude ? 'claude' : 'workers-ai', ...(adminModel ? { model: adminModel } : {}) };
+        const out = { answer, sources: hits, extra, provider: useClaude ? 'claude' : 'workers-ai', ...(adminModel ? { model: adminModel } : {}) };
         if (cacheKey && answer) await env.CACHE.put(cacheKey, JSON.stringify(out), { expirationTtl: 60 * 60 * 24 * 30 });
         return json(out, 200, h);
       }
