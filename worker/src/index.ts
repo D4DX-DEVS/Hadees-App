@@ -148,10 +148,14 @@ async function answerWorkersAI(env: Env, q: string, hits: Hit[], history: Turn[]
       ...history.slice(-4),
       { role: 'user', content: `Passages:\n\n${contextBlock(hits)}\n\nQuestion: ${q}` },
     ],
-    max_tokens: 1500,
+    max_tokens: 3000,
+    // Gemma 4 / Qwen 3.8 'think' first and return an empty answer when the thinking uses up max_tokens: turn thinking off
+    chat_template_kwargs: { enable_thinking: false },
   } as never)) as { response?: string };
   const o = out as { response?: string; choices?: { message?: { content?: string } }[] };
-  return (o.response ?? o.choices?.[0]?.message?.content ?? '').replace(/<think>[\s\S]*?<\/think>/g, '').trim();
+  const text = (o.response ?? o.choices?.[0]?.message?.content ?? '').replace(/<think>[\s\S]*?<\/think>/g, '').trim();
+  if (!text) throw new Error('empty model answer: ' + JSON.stringify(out).slice(0, 1200));
+  return text;
 }
 
 // ───────── router ─────────
@@ -198,7 +202,7 @@ export default {
           answer = useClaude ? await answerClaude(env, q, hits, history) : await answerWorkersAI(env, q, hits, history, adminModel || undefined);
         } catch (e) {
           // free daily Workers AI allowance used up (or model error): still return the matching hadith
-          console.error('answer failed', e);
+          console.error('answer failed', e instanceof Error ? e.message.slice(0, 1500) : e);
           return json({
             answer: 'ഇന്നത്തെ സൗജന്യ AI പരിധി കഴിഞ്ഞു. ചോദ്യത്തോട് ഏറ്റവും അടുത്ത ഹദീസുകൾ താഴെ കൊടുക്കുന്നു; AI ഉത്തരം നാളെ വീണ്ടും ലഭിക്കും.',
             sources: hits, provider: null, limited: true,
