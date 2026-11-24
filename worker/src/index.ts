@@ -122,11 +122,11 @@ async function englishKeywords(env: Env, q: string): Promise<string> {
   return kw;
 }
 
-async function extraSources(env: Env, q: string): Promise<Extra[]> {
+async function extraSources(env: Env, q: string): Promise<{ kw: string; items: Extra[] }> {
   const kw = await englishKeywords(env, q);
-  if (!kw) return [];
+  if (!kw) return { kw, items: [] };
   const rows = await callApi<ApiExtra[]>(env, 'src_search', { q: kw, src: 'sunnah', lim: MAX_EXTRA, strict: true });
-  return rows.map((r) => {
+  const items = rows.map((r) => {
     const ref = r.reference ?? (r.hadith_number ? `Hadith ${r.hadith_number}` : '');
     return {
       label: ref.toLowerCase().includes(r.collection_name.toLowerCase()) ? ref : `${r.collection_name} · ${ref}`,
@@ -138,6 +138,7 @@ async function extraSources(env: Env, q: string): Promise<Extra[]> {
       url: r.url,
     };
   });
+  return { kw, items };
 }
 
 /** Hybrid retrieval: semantic hits first, then keyword hits not already present (reciprocal-rank merge). */
@@ -163,7 +164,7 @@ Answer ONLY from the numbered hadith passages provided in the user turn. Rules:
 - If the question is about a topic, give: a short direct answer (2-3 sentences), then the main points as a bulleted list, each point ending with its citation(s).
 - If the passages do not answer the question, say so plainly in Malayalam and suggest a better search term. Do not answer from outside knowledge.
 - You explain what the hadith say; you do not issue fatwas. For personal religious rulings, advise consulting a qualified scholar.
-- Passages marked "(Sunnah.com, English)" are English translations from outside the encyclopedia. You may use them too: translate their meaning faithfully into Malayalam, stay close to their wording, never add details, and cite them with their number like the others. Keep the names of narrators and books in English exactly as written there; never guess a Malayalam spelling for them. When a point is covered by both, prefer the Malayalam passage.
+- Passages marked "(Sunnah.com, English)" are English translations from outside the encyclopedia. You may use them too: translate their meaning faithfully into Malayalam, stay close to their wording, never add details, and cite them with their number like the others. Keep the names of narrators and books in English exactly as written there; never guess a Malayalam spelling for them. If a passage's grade says Da'if, weak, Mawdu' or fabricated, say so plainly in the same bullet (ദുർബലമായ ഹദീസ്) and never present it as authentic; mention Sahih or Hasan grades only briefly. When a point is covered by both, prefer the Malayalam passage.
 - Be concise.`;
 
 function contextBlock(hits: Hit[], extra: Extra[] = []): string {
@@ -247,16 +248,17 @@ export default {
         const adminModel = req.headers.get('x-admin-token') && req.headers.get('x-admin-token') === env.ADMIN_TOKEN ? String(body.model ?? '') : '';
         // body.extra === true: the app can show the Sunnah.com passages (older app versions do not send it and get the answer as before)
         const wantExtra = body.extra === true;
-        const cacheKey = history.length || adminModel ? null : 'ask3:' + (await sha256(`${vol ?? ''}|${wantExtra ? 'x' : ''}|${q.toLowerCase().replace(/\s+/g, ' ')}`));
+        const cacheKey = history.length || adminModel ? null : 'ask4:' + (await sha256(`${vol ?? ''}|${wantExtra ? 'x' : ''}|${q.toLowerCase().replace(/\s+/g, ' ')}`));
         if (cacheKey) {
           const hit = await env.CACHE.get(cacheKey, 'json');
           if (hit) return json({ ...(hit as object), cached: true }, 200, h);
         }
         // the encyclopedia passages and the extra English passages are searched at the same time; a failure of the extra search never blocks the answer
-        const [hits, extra] = await Promise.all([
+        const [hits, found] = await Promise.all([
           retrieve(env, q, vol, 8),
-          (wantExtra ? extraSources(env, q) : Promise.resolve([] as Extra[])).catch((e) => { console.error('extra sources failed', e instanceof Error ? e.message.slice(0, 300) : e); return [] as Extra[]; }),
+          (wantExtra ? extraSources(env, q) : Promise.resolve({ kw: '', items: [] as Extra[] })).catch((e) => { console.error('extra sources failed', e instanceof Error ? e.message.slice(0, 300) : e); return { kw: '', items: [] as Extra[] }; }),
         ]);
+        const extra = found.items;
         if (!hits.length && !extra.length) {
           return json({ answer: 'ഈ ചോദ്യവുമായി ബന്ധപ്പെട്ട ഹദീസുകൾ കണ്ടെത്താനായില്ല. മറ്റൊരു വാക്ക് ഉപയോഗിച്ച് ശ്രമിക്കൂ.', sources: [], extra: [], provider: null }, 200, h);
         }
@@ -272,7 +274,7 @@ export default {
             sources: hits, extra, provider: null, limited: true,
           }, 200, h);
         }
-        const out = { answer, sources: hits, extra, provider: useClaude ? 'claude' : 'workers-ai', ...(adminModel ? { model: adminModel } : {}) };
+        const out = { answer, sources: hits, extra, ...(wantExtra ? { extra_q: found.kw } : {}), provider: useClaude ? 'claude' : 'workers-ai', ...(adminModel ? { model: adminModel } : {}) };
         if (cacheKey && answer) await env.CACHE.put(cacheKey, JSON.stringify(out), { expirationTtl: 60 * 60 * 24 * 30 });
         return json(out, 200, h);
       }

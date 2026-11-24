@@ -430,23 +430,27 @@ switch ($route) {
         if (($b['src'] ?? 'sunnah') === 'ihadis') {
             $sql = "select 'ihadis' as source, h.book_slug, h.hadith_id, h.display_label, h.grade, h.narrator,
                            left(h.translation, 1500) as text_en, left(h.arabic, 800) as text_ar, h.sunnah_ref,
-                           ts_rank_cd(h.fts, q) as rank
-                    from ihadis.hadiths h, to_tsquery('english', ?::text) q
+                           ts_rank_cd(h.fts, qr) as rank
+                    from ihadis.hadiths h, to_tsquery('english', ?::text) q, to_tsquery('english', ?::text) qr
                     where h.lang = 'en' and h.fts @@ q and (?::text = '' or h.book_slug = ?::text)
                     order by rank desc limit ?::int";
         } else {
             $sql = "select 'sunnah' as source, h.urn, h.collection, c.name_en as collection_name, h.book_number, h.chapter_number,
                            h.hadith_number, h.reference, h.in_book_reference, h.grade_en, m.ihadis_grade, h.narrator_en,
                            left(h.text_en, 1500) as text_en, left(coalesce(h.sanad_ar, '') || ' ' || coalesce(h.text_ar, ''), 800) as text_ar,
-                           h.url, ts_rank_cd(h.fts, q) as rank
+                           h.url, ts_rank_cd(h.fts, qr) as rank
                     from sunnah.hadiths h
                     join sunnah.collections c on c.slug = h.collection
                     left join sunnah.hadith_meta m on m.urn = h.urn,
-                    to_tsquery('english', ?::text) q
+                    to_tsquery('english', ?::text) q, to_tsquery('english', ?::text) qr
                     where h.fts @@ q and (?::text = '' or h.collection = ?::text)
                     order by rank desc limit ?::int";
         }
-        $run = fn(array $w, string $op): array => json_decode(rows($sql, [implode($op, $w), $coll, $coll, $lim]), true) ?: [];
+        // $w must ALL match ($op joins them); the result is ranked by $rank (default: the same words)
+        $run = function (array $w, string $op, ?string $rank = null) use ($sql, $coll, $lim): array {
+            $match = implode($op, $w);
+            return json_decode(rows($sql, [$match, $rank ?? $match, $coll, $coll, $lim]), true) ?: [];
+        };
         $rid = fn(array $r): string => ($r['urn'] ?? '') . '|' . ($r['book_slug'] ?? '') . '|' . ($r['hadith_id'] ?? '');
         $found = [];
         $seen = [];
@@ -459,10 +463,14 @@ switch ($route) {
             }
         };
         if (!empty($b['strict'])) {
-            // for the AI: only passages that contain the main words TOGETHER. All words first, then fewer (the first words are the most
-            // important), never fewer than two, and never "any word": a passage that matches one common word is noise.
+            // for the AI: passages that contain the main words TOGETHER. All words first, then fewer (the first words are the most
+            // important), down to two; a passage that matches only some random common word is noise, so "any word" is never used.
             for ($n = count($words); $n >= min(2, count($words)) && count($found) < min($lim, 3); $n--) {
                 $add($run(array_slice($words, 0, $n), ' & '));
+            }
+            // still too little: require only the first (most important) word, and rank the passages that also contain the others higher
+            if (count($found) < min($lim, 3)) {
+                $add($run([$words[0]], ' & ', implode(' | ', $words)));
             }
         } else {
             $add($run($words, ' & '));
