@@ -84,7 +84,13 @@ function Shell() {
           headerBackButtonDisplayMode: 'minimal',
           contentStyle: { backgroundColor: colors.bg },
         }}>
-        <Stack.Screen name="index" options={{ title: 'Hadees Vijnanakosham', headerLeft: () => <MenuButton /> }} />
+        <Stack.Screen name="index" options={{
+            title: 'Hadees Vijnanakosham',
+            // wide web: the sidebar already shows the name, so the header stays empty (the browser tab keeps `title`)
+            headerTitle: wide ? '' : undefined,
+            headerLeft: () => <MenuButton />,
+          }}
+        />
         <Stack.Screen name="library" options={{ title: 'Library', headerLeft: () => <BackButton />, headerRight: () => <MenuButton /> }} />
         <Stack.Screen name="saved" options={{ title: 'Saved', headerLeft: () => <BackButton />, headerRight: () => <MenuButton /> }} />
         <Stack.Screen name="offline" options={{ title: 'Offline books', headerLeft: () => <BackButton />, headerRight: () => <MenuButton /> }} />
