@@ -550,6 +550,41 @@ switch ($route) {
             ['[' . implode(',', $vec) . ']', max(1, min(50, intOrNull($b['k'] ?? null) ?? 12)), intOrNull($b['vol'] ?? null), $minSim],
         ));
 
+    // ── semantic search in the English library for the AI service (needs the shared key; table sunnah.hadith_embeddings, see scripts/embed_sources.py) ──
+    case 'src_match':
+        method('POST');
+        $key = (string)(cfg()['match_key'] ?? '');
+        if ($key === '' || !hash_equals($key, (string)($_SERVER['HTTP_X_API_KEY'] ?? ''))) {
+            fail(403, 'forbidden');
+        }
+        $b = body();
+        $emb = $b['embedding'] ?? null;
+        if (!is_array($emb) || count($emb) !== 1024) {
+            fail(400, 'embedding must have 1024 numbers');
+        }
+        $vec = [];
+        foreach ($emb as $x) {
+            if (!is_int($x) && !is_float($x)) {
+                fail(400, 'embedding must have 1024 numbers');
+            }
+            $vec[] = (string)(float)$x;
+        }
+        $v = '[' . implode(',', $vec) . ']';
+        $minSim = is_numeric($b['min_sim'] ?? null) ? max(-1.0, min(1.0, (float)$b['min_sim'])) : 0.3;
+        send(rows(
+            "select 'sunnah' as source, h.urn, h.collection, c.name_en as collection_name, h.book_number, h.chapter_number,
+                    h.hadith_number, h.reference, h.in_book_reference, h.grade_en, m.ihadis_grade, h.narrator_en,
+                    left(h.text_en, 1500) as text_en, left(coalesce(h.sanad_ar, '') || ' ' || coalesce(h.text_ar, ''), 800) as text_ar,
+                    h.url, 1 - (e.embedding <=> ?::vector) as similarity
+             from (select urn, embedding from sunnah.hadith_embeddings order by embedding <=> ?::vector limit ?::int) e
+             join sunnah.hadiths h on h.urn = e.urn
+             join sunnah.collections c on c.slug = h.collection
+             left join sunnah.hadith_meta m on m.urn = h.urn
+             where 1 - (e.embedding <=> ?::vector) >= ?::real
+             order by similarity desc",
+            [$v, $v, max(1, min(30, intOrNull($b['k'] ?? null) ?? 10)), $v, $minSim],
+        ));
+
     default:
         fail(404, 'not found');
 }

@@ -125,25 +125,38 @@ async function englishKeywords(env: Env, q: string): Promise<string> {
   return kw;
 }
 
+/** Sunnah.com passages for a question: by meaning (the question embedding against the embedded English library, works for Malayalam questions directly);
+ *  if that is not available or finds nothing, by English keywords (the question is reduced to keywords by the model first). */
 async function extraSources(env: Env, q: string): Promise<{ kw: string; items: Extra[] }> {
-  const kw = await englishKeywords(env, q);
-  if (!kw) return { kw, items: [] };
-  const rows = await callApi<ApiExtra[]>(env, 'src_search', { q: kw, src: 'sunnah', lim: MAX_EXTRA + 3, strict: true });
-  const items = rows
+  let rows: ApiExtra[] = [];
+  let kw = '';
+  try {
+    const [v] = await embed(env, [q]);
+    rows = await callApi<ApiExtra[]>(env, 'src_match', { embedding: v, k: MAX_EXTRA + 4, min_sim: 0.5 }, { 'x-api-key': env.MATCH_KEY });
+    if (rows.length) kw = 'semantic';
+  } catch (e) {
+    console.error('src_match failed, using keywords', e instanceof Error ? e.message.slice(0, 200) : e);
+  }
+  if (!rows.length) {
+    kw = await englishKeywords(env, q);
+    if (!kw) return { kw, items: [] };
+    rows = await callApi<ApiExtra[]>(env, 'src_search', { q: kw, src: 'sunnah', lim: MAX_EXTRA + 3, strict: true });
+  }
+  const items: Extra[] = rows
     .filter((r) => !REJECTED_GRADE.test(`${r.grade_en ?? ''} ${r.ihadis_grade ?? ''}`))
     .slice(0, MAX_EXTRA)
     .map((r) => {
-    const ref = r.reference ?? (r.hadith_number ? `Hadith ${r.hadith_number}` : '');
-    return {
-      label: ref.toLowerCase().includes(r.collection_name.toLowerCase()) ? ref : `${r.collection_name} · ${ref}`,
-      collection: r.collection_name,
-      grade: r.grade_en ?? r.ihadis_grade,
-      narrator: r.narrator_en,
-      text_en: r.text_en,
-      text_ar: r.text_ar?.trim() || null,
-      url: r.url,
-    };
-  });
+      const ref = r.reference ?? (r.hadith_number ? `Hadith ${r.hadith_number}` : '');
+      return {
+        label: ref.toLowerCase().includes(r.collection_name.toLowerCase()) ? ref : `${r.collection_name} · ${ref}`,
+        collection: r.collection_name,
+        grade: r.grade_en ?? r.ihadis_grade,
+        narrator: r.narrator_en,
+        text_en: r.text_en,
+        text_ar: r.text_ar?.trim() || null,
+        url: r.url,
+      };
+    });
   return { kw, items };
 }
 
@@ -248,6 +261,16 @@ export default {
       if (req.method !== 'POST') return json({ error: 'not found' }, 404, h);
       const body = (await req.json().catch(() => ({}))) as Record<string, unknown>;
 
+      // admin only (x-admin-token = ADMIN_TOKEN secret; without that secret the route does not exist): embeddings for a batch of texts,
+      // used by scripts/embed_sources.py to embed the English library once. Same model as the questions, so the vectors are comparable.
+      if (pathname === '/admin/embed') {
+        const tok = req.headers.get('x-admin-token');
+        if (!env.ADMIN_TOKEN || tok !== env.ADMIN_TOKEN) return json({ error: 'not found' }, 404, h);
+        const texts = (Array.isArray(body.texts) ? body.texts : []).slice(0, 100).map((t) => String(t).slice(0, 2000));
+        if (!texts.length) return json({ vectors: [] }, 200, h);
+        return json({ vectors: await embed(env, texts) }, 200, h);
+      }
+
       if (pathname === '/search/semantic') {
         const q = String(body.q ?? '').trim();
         if (!q) return json({ results: [] }, 200, h);
@@ -268,7 +291,7 @@ export default {
         const adminModel = req.headers.get('x-admin-token') && req.headers.get('x-admin-token') === env.ADMIN_TOKEN ? String(body.model ?? '') : '';
         // body.extra === true: the app can show the Sunnah.com passages (older app versions do not send it and get the answer as before)
         const wantExtra = body.extra === true;
-        const cacheKey = history.length || adminModel ? null : 'ask6:' + (await sha256(`${vol ?? ''}|${wantExtra ? 'x' : ''}|${q.toLowerCase().replace(/\s+/g, ' ')}`));
+        const cacheKey = history.length || adminModel ? null : 'ask7:' + (await sha256(`${vol ?? ''}|${wantExtra ? 'x' : ''}|${q.toLowerCase().replace(/\s+/g, ' ')}`));
         if (cacheKey) {
           const hit = await env.CACHE.get(cacheKey, 'json');
           if (hit) return json({ ...(hit as object), cached: true }, 200, h);
