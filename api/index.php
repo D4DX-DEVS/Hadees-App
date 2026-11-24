@@ -405,6 +405,74 @@ switch ($route) {
         $q = qsOpt('q', 200);
         send($q === '' ? '[]' : rows('select * from app_search_titles(?::text, 8)', [$q]));
 
+    // ── extra libraries: schemas `sunnah` and `ihadis` (read-only; English full-text search, see api/sources-search.sql) ──
+    case 'src_stats':
+        method('GET', 'HEAD');
+        send(one(
+            "select (select count(*) from sunnah.hadiths) as sunnah_hadiths,
+                    (select count(*) from sunnah.hadiths where text_en <> '') as sunnah_english,
+                    (select count(*) from ihadis.hadiths) as ihadis_hadiths,
+                    (select count(*) from ihadis.hadiths where lang = 'en') as ihadis_english"
+        ) ?? '{}', 200, TTL);
+    case 'src_search':
+        method('POST');
+        rateLimit('search', 180, 60);
+        $b = body();
+        // English keywords joined with OR, best match first (ts_rank_cd rewards passages that contain more of the words)
+        preg_match_all('/[A-Za-z]{3,}/', cleanText($b['q'] ?? '', 300), $m);
+        $words = array_slice(array_values(array_unique(array_map('strtolower', $m[0]))), 0, 12);
+        if (!$words) {
+            send('[]');
+        }
+        $tsq = implode(' | ', $words);
+        $lim = max(1, min(30, intOrNull($b['lim'] ?? null) ?? 8));
+        $coll = cleanText($b['collection'] ?? '', 40);
+        if (($b['src'] ?? 'sunnah') === 'ihadis') {
+            send(rows(
+                "select 'ihadis' as source, h.book_slug, h.hadith_id, h.display_label, h.grade, h.narrator,
+                        left(h.translation, 1500) as text_en, left(h.arabic, 800) as text_ar, h.sunnah_ref,
+                        ts_rank_cd(to_tsvector('english', coalesce(h.translation, '')), q) as rank
+                 from ihadis.hadiths h, to_tsquery('english', ?::text) q
+                 where h.lang = 'en' and to_tsvector('english', coalesce(h.translation, '')) @@ q
+                   and (?::text = '' or h.book_slug = ?::text)
+                 order by rank desc limit ?::int",
+                [$tsq, $coll, $coll, $lim],
+            ));
+        }
+        send(rows(
+            "select 'sunnah' as source, h.urn, h.collection, c.name_en as collection_name, h.book_number, h.chapter_number,
+                    h.hadith_number, h.reference, h.in_book_reference, h.grade_en, m.ihadis_grade, h.narrator_en,
+                    left(h.text_en, 1500) as text_en, left(coalesce(h.sanad_ar, '') || ' ' || coalesce(h.text_ar, ''), 800) as text_ar,
+                    h.url, ts_rank_cd(to_tsvector('english', coalesce(h.text_en, '')), q) as rank
+             from sunnah.hadiths h
+             join sunnah.collections c on c.slug = h.collection
+             left join sunnah.hadith_meta m on m.urn = h.urn,
+             to_tsquery('english', ?::text) q
+             where to_tsvector('english', coalesce(h.text_en, '')) @@ q
+               and (?::text = '' or h.collection = ?::text)
+             order by rank desc limit ?::int",
+            [$tsq, $coll, $coll, $lim],
+        ));
+    case 'src_hadith':
+        method('GET', 'HEAD');
+        rateLimit('search', 180, 60);
+        if (qsOpt('src', 10) === 'ihadis') {
+            send(rows(
+                'select lang, book_slug, hadith_id, display_label, arabic, narrator, translation, note, grade, sunnah_ref, in_book_ref
+                 from ihadis.hadiths where book_slug = ?::text and hadith_id = ?::text order by lang',
+                [qs('book', 80), qs('id', 40)],
+            ), 200, TTL);
+        }
+        $h = one(
+            "select h.urn, h.collection, h.book_number, h.chapter_number, h.hadith_number, h.reference, h.in_book_reference, h.grade_en,
+                    h.grade_ar, h.narrator_en, h.text_en, h.sanad_ar, h.text_ar, h.url, m.ihadis_grade, m.ihadis_grade_color,
+                    (select coalesce(json_agg(json_build_object('lang', t.lang, 'body', t.body, 'grade', t.grade)), '[]'::json)
+                       from sunnah.translations t where t.urn = h.urn) as translations
+             from sunnah.hadiths h left join sunnah.hadith_meta m on m.urn = h.urn where h.urn = ?::text",
+            [qs('urn', 80)],
+        );
+        $h === null ? fail(404, 'not found') : send($h, 200, TTL);
+
     // ── feedback from the app ──
     case 'feedback':
         method('POST');
