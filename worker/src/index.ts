@@ -95,6 +95,9 @@ type ApiExtra = {
 /** What the app gets: a ready label, the English text and the Arabic text. Cited as [n] after the encyclopedia passages. */
 type Extra = { label: string; collection: string; grade: string | null; narrator: string | null; text_en: string; text_ar: string | null; url: string | null };
 const MAX_EXTRA = 4;
+// grades that must never reach the model: the answer would present them as hadith
+const REJECTED_GRADE = /fabricat|mawdu|maudu|munkar|batil|forged|baseless/i;
+const WEAK_GRADE = /da['’`]?if|weak/i;
 
 /** English search words for a question. A question written in English is used as it is; Malayalam (or any other script) is turned into keywords by the model, cached for 30 days. */
 async function englishKeywords(env: Env, q: string): Promise<string> {
@@ -125,8 +128,11 @@ async function englishKeywords(env: Env, q: string): Promise<string> {
 async function extraSources(env: Env, q: string): Promise<{ kw: string; items: Extra[] }> {
   const kw = await englishKeywords(env, q);
   if (!kw) return { kw, items: [] };
-  const rows = await callApi<ApiExtra[]>(env, 'src_search', { q: kw, src: 'sunnah', lim: MAX_EXTRA, strict: true });
-  const items = rows.map((r) => {
+  const rows = await callApi<ApiExtra[]>(env, 'src_search', { q: kw, src: 'sunnah', lim: MAX_EXTRA + 3, strict: true });
+  const items = rows
+    .filter((r) => !REJECTED_GRADE.test(`${r.grade_en ?? ''} ${r.ihadis_grade ?? ''}`))
+    .slice(0, MAX_EXTRA)
+    .map((r) => {
     const ref = r.reference ?? (r.hadith_number ? `Hadith ${r.hadith_number}` : '');
     return {
       label: ref.toLowerCase().includes(r.collection_name.toLowerCase()) ? ref : `${r.collection_name} · ${ref}`,
@@ -139,6 +145,20 @@ async function extraSources(env: Env, q: string): Promise<{ kw: string; items: E
     };
   });
   return { kw, items };
+}
+
+/** The model does not reliably say when it cites a weak hadith, so this does it: every line that cites a weak extra passage gets a visible note. */
+function flagWeak(answer: string, ownCount: number, extra: Extra[]): string {
+  const weak = new Set(extra.flatMap((e, i) => (e.grade && WEAK_GRADE.test(e.grade) ? [ownCount + i + 1] : [])));
+  if (!weak.size) return answer;
+  return answer
+    .split('\n')
+    .map((line) => {
+      if (/ദുർബല/.test(line)) return line;
+      const cited = [...line.matchAll(/\[(\d+(?:\s*,\s*\d+)*)\]/g)].flatMap((m) => m[1].split(',').map((n) => parseInt(n.trim(), 10)));
+      return cited.some((n) => weak.has(n)) ? `${line.trimEnd()} (ദുർബലമായ ഹദീസ്)` : line;
+    })
+    .join('\n');
 }
 
 /** Hybrid retrieval: semantic hits first, then keyword hits not already present (reciprocal-rank merge). */
@@ -174,7 +194,7 @@ function contextBlock(hits: Hit[], extra: Extra[] = []): string {
     return `[${i + 1}] ${where}${src}\nനിവേദകൻ: ${h.narrator_ml ?? '-'}\n${h.malayalam_text.slice(0, 1800)}`;
   });
   const more = extra.map(
-    (e, i) => `[${hits.length + i + 1}] (Sunnah.com, English) ${e.label}${e.grade ? ` · Grade: ${e.grade}` : ''}\nNarrator: ${e.narrator ?? '-'}\n${e.text_en.slice(0, 1200)}`,
+    (e, i) => `[${hits.length + i + 1}] (Sunnah.com, English) ${e.label}${e.grade ? ` · Grade: ${e.grade}` : ''}${e.grade && WEAK_GRADE.test(e.grade) ? ' · WEAK HADITH: you must say it is weak (ദുർബലം)' : ''}\nNarrator: ${e.narrator ?? '-'}\n${e.text_en.slice(0, 1200)}`,
   );
   return [...own, ...more].join('\n\n');
 }
@@ -248,7 +268,7 @@ export default {
         const adminModel = req.headers.get('x-admin-token') && req.headers.get('x-admin-token') === env.ADMIN_TOKEN ? String(body.model ?? '') : '';
         // body.extra === true: the app can show the Sunnah.com passages (older app versions do not send it and get the answer as before)
         const wantExtra = body.extra === true;
-        const cacheKey = history.length || adminModel ? null : 'ask4:' + (await sha256(`${vol ?? ''}|${wantExtra ? 'x' : ''}|${q.toLowerCase().replace(/\s+/g, ' ')}`));
+        const cacheKey = history.length || adminModel ? null : 'ask6:' + (await sha256(`${vol ?? ''}|${wantExtra ? 'x' : ''}|${q.toLowerCase().replace(/\s+/g, ' ')}`));
         if (cacheKey) {
           const hit = await env.CACHE.get(cacheKey, 'json');
           if (hit) return json({ ...(hit as object), cached: true }, 200, h);
@@ -274,6 +294,7 @@ export default {
             sources: hits, extra, provider: null, limited: true,
           }, 200, h);
         }
+        answer = flagWeak(answer, hits.length, extra);
         const out = { answer, sources: hits, extra, ...(wantExtra ? { extra_q: found.kw } : {}), provider: useClaude ? 'claude' : 'workers-ai', ...(adminModel ? { model: adminModel } : {}) };
         if (cacheKey && answer) await env.CACHE.put(cacheKey, JSON.stringify(out), { expirationTtl: 60 * 60 * 24 * 30 });
         return json(out, 200, h);
