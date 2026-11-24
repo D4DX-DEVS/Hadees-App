@@ -146,7 +146,8 @@ write('90_grants.sql', '\n'.join([
     f'alter default privileges in schema {NAME} grant select on tables to {API_USER};']) + '\n')
 write('99_verify.sql', '\nunion all\n'.join(verify) + '\norder by 1;\n')
 write('99_expected.txt', '\n'.join(sorted(expected)) + '\n')
-shutil.copy(os.path.join(ROOT, 'scripts', 'cpanel_load.sh'), os.path.join(OUT, 'load.sh'))
+with open(os.path.join(ROOT, 'scripts', 'cpanel_load.sh'), 'rb') as src, open(os.path.join(OUT, 'load.sh'), 'wb') as dst:
+    dst.write(src.read().replace(b'\r\n', b'\n'))  # a git checkout on Windows has CRLF; bash on the server needs LF
 
 with zipfile.ZipFile(ZIP, 'w', zipfile.ZIP_DEFLATED, compresslevel=9) as z:
     for f in sorted(os.listdir(OUT)):
