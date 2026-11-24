@@ -22,6 +22,12 @@ export type Hadith = {
   rank?: number; total?: number; similarity?: number;
 };
 
+/** A passage from Sunnah.com's English translations that the AI used (cited after the encyclopedia references). */
+export type SunnahPassage = {
+  label: string; collection: string; grade: string | null; narrator: string | null;
+  text_en: string; text_ar: string | null; url: string | null;
+};
+
 export type Variant = { id: number; hadith_id: number; seq: number; arabic_text: string | null; malayalam_text: string | null };
 
 export type CrossRef = {

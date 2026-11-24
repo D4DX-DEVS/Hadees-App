@@ -10,6 +10,7 @@ import { Appear, ThinkingDots } from '@/components/motion';
 import { BookList } from '@/components/booklist';
 import { Composer, Mode } from '@/components/composer';
 import { HadithListCard } from '@/components/hadith';
+import { SunnahSources } from '@/components/sunnah-sources';
 import { Card, Chip, Column, Divider, IconButton, Row, SectionTitle, T } from '@/components/ui';
 import { ai, api, configured } from '@/lib/api';
 import { FEATURES, route } from '@/lib/intents';
@@ -17,7 +18,7 @@ import { sourceList } from '@/lib/sources';
 import { useLoad } from '@/lib/use-load';
 import { citation } from '@/lib/text';
 import { radius, space } from '@/lib/theme';
-import type { Article, Hadith, TitleHit } from '@/lib/types';
+import type { Article, Hadith, SunnahPassage, TitleHit } from '@/lib/types';
 import { useLibrary } from '@/state/library';
 import { useSettings } from '@/state/settings';
 import { friendlyError } from '@/lib/errors';
@@ -35,6 +36,7 @@ type Turn = {
   // ask
   answer?: string;
   sources?: Hadith[];
+  extra?: SunnahPassage[];
   // chat commands
   kind?: 'help' | 'books' | 'articles' | 'hint' | 'textsize';
   text?: string;
@@ -157,7 +159,7 @@ export default function AskScreen() {
             { role: 'assistant' as const, content: t.answer! },
           ]);
         const r = await ai.ask(q, history);
-        patch(id, { status: 'done', answer: r.answer, sources: r.sources });
+        patch(id, { status: 'done', answer: r.answer, sources: r.sources, extra: r.extra ?? [] });
       } else {
         const [results, titles] = await Promise.all([api.search(q, { limit: 5 }), api.searchTitles(q).catch(() => [])]);
         patch(id, { status: 'done', results, titles, total: Number(results[0]?.total ?? 0) });
@@ -370,7 +372,9 @@ function TurnView({ t, onRetry, onAction }: { t: Turn; onRetry: () => void; onAc
               icon="share-outline"
               onPress={() =>
                 Share.share({
-                  message: `${t.q}\n\n${t.answer}\n\n${(t.sources ?? []).map((h, i) => `[${i + 1}] ${citation(h)}`).join('\n')}`,
+                  message: `${t.q}\n\n${t.answer}\n\n${[...(t.sources ?? []).map((h) => citation(h)), ...(t.extra ?? []).map((p) => `${p.label} (Sunnah.com)`)]
+                    .map((c, i) => `[${i + 1}] ${c}`)
+                    .join('\n')}`,
                 })
               }
               style={{ alignSelf: 'flex-start', marginBottom: space.sm }}
@@ -416,6 +420,7 @@ function TurnView({ t, onRetry, onAction }: { t: Turn; onRetry: () => void; onAc
                 ))}
             </>
           )}
+          <SunnahSources items={t.extra ?? []} firstNumber={(t.sources?.length ?? 0) + 1} />
         </>
       )}
 

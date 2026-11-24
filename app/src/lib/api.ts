@@ -2,7 +2,7 @@ import { expandQuery } from './synonyms';
 import { packBookHadiths, packChapterHadiths, packChapters, packHadith, recall, remember } from './offline';
 import type {
   Narrator,
-  Article, ArticleBlock, Book, Suggestion, Chapter, CrossRef, Hadith, Source, TitleHit, Variant, Volume,
+  Article, ArticleBlock, Book, Suggestion, Chapter, CrossRef, Hadith, Source, SunnahPassage, TitleHit, Variant, Volume,
 } from './types';
 
 /** Full URL of the API script, e.g. https://hadithencyclopedia.com/api/index.php */
@@ -186,7 +186,7 @@ export const api = {
 };
 
 // ───────── AI worker ─────────
-export type AskResult = { answer: string; sources: Hadith[]; provider: string | null };
+export type AskResult = { answer: string; sources: Hadith[]; extra?: SunnahPassage[]; provider: string | null };
 
 export const ai = {
   enabled: !!AI_URL,
@@ -194,7 +194,7 @@ export const ai = {
     const r = await fetch(`${AI_URL}/ask`, {
       method: 'POST',
       headers: { 'content-type': 'application/json' },
-      body: JSON.stringify({ q, history, vol: vol ?? null }),
+      body: JSON.stringify({ q, history, vol: vol ?? null, extra: true }),
     });
     const data = await r.json();
     if (!r.ok) throw new Error(data?.error ?? `AI error ${r.status}`);
