@@ -186,7 +186,9 @@ export default {
           .filter((t: any) => (t?.role === 'user' || t?.role === 'assistant') && typeof t?.content === 'string')
           .map((t: any) => ({ role: t.role, content: String(t.content).slice(0, 2000) })) as Turn[];
         // identical standalone question -> cached answer (saves free-tier Workers AI neurons)
-        const cacheKey = history.length ? null : 'ask2:' + (await sha256(`${vol ?? ''}|${q.toLowerCase().replace(/\s+/g, ' ')}`));
+        // admin only: x-admin-token + body.model picks the Workers AI model for this request and bypasses the answer cache (for model comparisons)
+        const adminModel = req.headers.get('x-admin-token') && req.headers.get('x-admin-token') === env.ADMIN_TOKEN ? String(body.model ?? '') : '';
+        const cacheKey = history.length || adminModel ? null : 'ask2:' + (await sha256(`${vol ?? ''}|${q.toLowerCase().replace(/\s+/g, ' ')}`));
         if (cacheKey) {
           const hit = await env.CACHE.get(cacheKey, 'json');
           if (hit) return json({ ...(hit as object), cached: true }, 200, h);
@@ -198,7 +200,6 @@ export default {
         const useClaude = !!env.ANTHROPIC_API_KEY;
         let answer: string;
         try {
-          const adminModel = req.headers.get('x-admin-token') && req.headers.get('x-admin-token') === env.ADMIN_TOKEN ? String(body.model ?? '') : '';
           answer = useClaude ? await answerClaude(env, q, hits, history) : await answerWorkersAI(env, q, hits, history, adminModel || undefined);
         } catch (e) {
           // free daily Workers AI allowance used up (or model error): still return the matching hadith
@@ -208,7 +209,7 @@ export default {
             sources: hits, provider: null, limited: true,
           }, 200, h);
         }
-        const out = { answer, sources: hits, provider: useClaude ? 'claude' : 'workers-ai' };
+        const out = { answer, sources: hits, provider: useClaude ? 'claude' : 'workers-ai', ...(adminModel ? { model: adminModel } : {}) };
         if (cacheKey && answer) await env.CACHE.put(cacheKey, JSON.stringify(out), { expirationTtl: 60 * 60 * 24 * 30 });
         return json(out, 200, h);
       }
