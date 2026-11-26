@@ -53,7 +53,8 @@ function db(): PDO
     }
     $c = cfg();
     if (empty($c['name']) || empty($c['editor_db_user'])) {
-        fail(503, 'The admin page is not set up yet (editor_db_user missing in hadees-config.php).');
+        error_log('admin: editor_db_user or name missing in hadees-config.php');
+        fail(503, 'The editor is not available right now.');
     }
     $dsn = sprintf('pgsql:host=%s;port=%d;dbname=%s', $c['host'] ?? '127.0.0.1', (int)($c['port'] ?? 5432), $c['name']);
     $pdo = new PDO($dsn, $c['editor_db_user'], $c['editor_db_pass'] ?? '', [
@@ -232,7 +233,8 @@ function login(string $user, string $pass): void
 {
     $c = cfg();
     if (empty($c['editor_login']) || empty($c['editor_password_hash'])) {
-        throw new UserError('The editor login is not set up yet (editor_login / editor_password_hash in hadees-config.php).', 503);
+        error_log('admin: editor_login / editor_password_hash missing in hadees-config.php');
+        throw new UserError('The editor is not available right now.', 503);
     }
     if (login_fail_count() >= LOGIN_MAX_FAILS) {
         throw new UserError('Too many wrong passwords. Try again in 15 minutes.', 429);
