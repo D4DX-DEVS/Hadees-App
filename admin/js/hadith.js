@@ -1,6 +1,8 @@
 // Editor admin page: hadith editor (#/h/<id>) and new hadith (#/new?book=<id>&chapter=<id>).
 import { api, busy, confirmBox, errorState, h, hadithRef, icon, pageHead, skeleton, toast } from './core.js';
 import { go, setLeaveGuard } from './app.js';
+import { autoGrow, extrasPanel } from './extras.js';
+import { OWN_GRADES, gradePill } from './sources.js';
 
 /** form fields in display order: [column, label, kind, hint] */
 const FIELDS = [
@@ -57,7 +59,7 @@ function renderForm(root, data, isNew) {
     const v = toForm(col, row[col]);
     const cls = kind.startsWith('ar') || kind === 'codes-ar' ? 'ar' : kind.startsWith('ml') || kind === 'codes-ml' ? 'ml' : '';
     const el = kind.endsWith('area')
-      ? h('textarea', { id: `f-${col}`, class: cls, rows: kind === 'ar-area' ? 6 : 8, dir: cls === 'ar' ? 'rtl' : 'auto', value: v })
+      ? autoGrow(h('textarea', { id: `f-${col}`, class: cls, rows: 3, dir: cls === 'ar' ? 'rtl' : 'auto', value: v }))
       : h('input', { id: `f-${col}`, type: 'text', class: cls, dir: cls === 'ar' ? 'rtl' : 'auto', value: v });
     el.addEventListener('input', refresh);
     ctl[col] = el;
@@ -74,6 +76,15 @@ function renderForm(root, data, isNew) {
     h('option', { value: '' }, '— no chapter —'),
     chapters.map((c) => h('option', { value: c.id, selected: c.id === row.chapter_id ? true : null }, `${c.chapter_no}. ${c.title_ml}`)));
   ctl.needs_review = h('input', { id: 'f-needs_review', type: 'checkbox', checked: row.needs_review, onchange: refresh });
+  // optional grade (api/editor-extras.sql adds the columns; before that the row simply has no "grade" key)
+  ctl.grade = h('select', { id: 'f-grade', onchange: refresh },
+    h('option', { value: '' }, '— not graded —'),
+    Object.entries(OWN_GRADES).map(([k, [en, ar]]) => h('option', { value: k, selected: k === row.grade ? true : null }, `${en} · ${ar}`)));
+  const gradeHint = h('span', { class: 'hint' });
+  const drawGradeHint = () => { gradeHint.textContent = ctl.grade.value ? OWN_GRADES[ctl.grade.value][2] : 'Optional. Shown with the hadith on the website and in the app.'; };
+  ctl.grade.addEventListener('change', drawGradeHint);
+  drawGradeHint();
+  ctl.grade_by = h('input', { id: 'f-grade_by', type: 'text', value: row.grade_by ?? '', placeholder: 'e.g. Al-Albani', maxlength: 120, oninput: refresh });
   const note = h('input', { id: 'f-note', type: 'text', placeholder: 'e.g. corrected from the printed book, page 214', maxlength: 500 });
 
   // ── variants ──
@@ -105,6 +116,8 @@ function renderForm(root, data, isNew) {
     f.page_end = ctl.page_end.value;
     f.chapter_id = ctl.chapter_id.value === '' ? null : Number(ctl.chapter_id.value);
     f.needs_review = ctl.needs_review.checked;
+    f.grade = ctl.grade.value;
+    f.grade_by = ctl.grade_by.value;
     return f;
   };
   const cleanVariants = () => variants
@@ -136,6 +149,7 @@ function renderForm(root, data, isNew) {
     pv.meta.replaceChildren(...[
       h('div', {}, `${f.hadith_label || 'Hadith ' + (f.hadith_no || '?')}${f.narrator_ml ? ' · ' + f.narrator_ml : ''}`),
       codes ? h('div', {}, `(${codes})`) : null,
+      f.grade ? h('div', {}, gradePill(`${OWN_GRADES[f.grade][0]}${f.grade_by.trim() ? ` (${f.grade_by.trim()})` : ''}`)) : null,
       f.grading_note_ml ? h('div', {}, f.grading_note_ml) : null].filter(Boolean));
     const changed = isNew ? [] : Object.keys(changedFields());
     for (const [col, el] of Object.entries(ctl)) el.classList.toggle('dirty', changed.includes(col));
@@ -150,7 +164,9 @@ function renderForm(root, data, isNew) {
     e.preventDefault();
     await busy(saveBtn, async () => {
       if (isNew) {
-        const res = await api('create', {}, { tbl: 'hadiths', fields: { ...current(), book_id: book.id }, variants: cleanVariants(), note: note.value });
+        const fields = { ...current(), book_id: book.id };
+        if (!fields.grade) { delete fields.grade; delete fields.grade_by; }
+        const res = await api('create', {}, { tbl: 'hadiths', fields, variants: cleanVariants(), note: note.value });
         setLeaveGuard(null);
         toast('Hadith added.' + embedMsg(res.embed));
         go(`#/h/${res.id}`);
@@ -181,7 +197,16 @@ function renderForm(root, data, isNew) {
     });
   }
 
-  setLeaveGuard(() => isDirty() && !saveBtn.disabled);
+  // translations (English / Urdu) and topics: their own small forms, loaded after the hadith
+  const extrasBox = h('div', { class: 'extras-slot' });
+  let extras = null;
+  if (!isNew) {
+    api('extras', { ref: `h:${row.id}` }).then((d) => {
+      extras = extrasPanel({ ref: `h:${row.id}`, data: d, langs: ['en', 'ur'] });
+      extrasBox.replaceChildren(extras.el);
+    }).catch((e) => extrasBox.replaceChildren(h('div', { class: 'notice' }, `Translations and topics: ${e.message}`)));
+  }
+  setLeaveGuard(() => (isDirty() && !saveBtn.disabled) || !!extras?.isDirty());
 
   const chapterNo = chapters.find((c) => c.id === row.chapter_id)?.chapter_no;
   const head = pageHead({
@@ -209,10 +234,14 @@ function renderForm(root, data, isNew) {
   const byCol = Object.fromEntries(FIELDS.map((f) => [f[0], f]));
   const fieldOf = (col) => { const [c, label, kind, hint] = byCol[col]; return field(c, label, input(c, kind), hint); };
   const form = h('form', { onsubmit: save, novalidate: true, class: 'panel' },
-    section('Text', fieldOf('arabic_text'), fieldOf('malayalam_text'), fieldOf('explanation_ml')),
+    section('Text', fieldOf('arabic_text'), fieldOf('malayalam_text'),
+      h('details', { class: 'more', open: row.explanation_ml ? true : null }, h('summary', {}, 'Explanation (Malayalam)', h('span', { class: 'small muted' }, row.explanation_ml ? '' : ' · optional, empty')), fieldOf('explanation_ml'))),
     section('Narrator and sources',
       h('div', { class: 'grid2' }, fieldOf('narrator_ar'), fieldOf('narrator_ml')),
       h('div', { class: 'grid2' }, fieldOf('source_codes_ar'), fieldOf('source_codes_ml')),
+      h('div', { class: 'grid2' },
+        h('div', { class: 'field' }, h('label', { for: 'f-grade' }, 'Grade'), ctl.grade, gradeHint),
+        field('grade_by', 'Graded by', ctl.grade_by, 'Optional. The scholar or book the grade comes from.')),
       h('div', { class: 'grid2' }, fieldOf('grading_note_ar'), fieldOf('grading_note_ml'))),
     section('Number and place',
       h('div', { class: 'grid4' },
@@ -227,9 +256,12 @@ function renderForm(root, data, isNew) {
       h('label', { class: 'check' }, ctl.needs_review, 'Needs review (flagged as uncertain)'),
       h('div', { class: 'field', style: 'margin:16px 0 0' }, h('label', { for: 'f-note' }, 'Note for the history'), note,
         h('span', { class: 'hint' }, 'Optional. Shown in History next to this change.'))),
-    h('div', { class: 'savebar', style: 'padding:12px 20px' }, saveBtn, status));
+    h('div', { class: 'savebar' }, saveBtn, status, h('span', { class: 'spacer' }), h('span', { class: 'small muted hide-sm' }, 'Ctrl + S saves')));
 
-  root.replaceChildren(head, ...notices.filter(Boolean), h('div', { class: 'editor' }, form, preview));
+  form.addEventListener('keydown', (e) => {
+    if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 's') { e.preventDefault(); if (!saveBtn.disabled) form.requestSubmit(); }
+  });
+  root.replaceChildren(head, ...notices.filter(Boolean), h('div', { class: 'editor' }, h('div', { class: 'stack' }, form, extrasBox), preview));
   refresh();
 }
 

@@ -2,9 +2,11 @@
 import { api, busy, confirmBox, emptyState, fmtTime, h, icon, load, pageHead, pagedList, setQuery, toast, wordDiff } from './core.js';
 import { rowForm } from './forms.js';
 import { go, setLeaveGuard } from './app.js';
+import { refHref } from './extras.js';
 
 const TABLE_NAMES = { hadiths: 'Hadith', books: 'Book', chapters: 'Chapter', articles: 'Article', article_blocks: 'Article block',
-  narrators: 'Narrator', narrator_spellings: 'Narrator spelling' };
+  narrators: 'Narrator', narrator_spellings: 'Narrator spelling', hadith_texts: 'Translation', topics: 'Topic', hadith_topics: 'Hadith topic',
+  source_flags: 'Source setting' };
 const ACTIONS = { insert: 'added', update: 'changed', delete: 'deleted', undo: 'undo' };
 const ACTION_PILL = { insert: ['ok', 'Added'], update: ['', 'Changed'], delete: ['bad', 'Deleted'], undo: ['', 'Undo'] };
 const FIELD_LABELS = { arabic_text: 'Arabic text', malayalam_text: 'Malayalam translation', narrator_ar: 'Narrator (Arabic)',
@@ -12,13 +14,20 @@ const FIELD_LABELS = { arabic_text: 'Arabic text', malayalam_text: 'Malayalam tr
   grading_note_ar: 'Grading note (Arabic)', grading_note_ml: 'Grading note (Malayalam)', hadith_no: 'Hadith number', hadith_label: 'Label',
   chapter_id: 'Chapter (id)', page_start: 'First page', page_end: 'Last page', needs_review: 'Needs review', _variants: 'Variants', _relations: 'Same-hadith links',
   title_ml: 'Title (Malayalam)', title_ar: 'Title (Arabic)', start_page: 'First page', end_page: 'Last page', chapter_no: 'Chapter number',
-  name_ml: 'Name', bio_ml: 'Biography', text_ml: 'Text', kind: 'Kind', seq: 'Position', rows: 'Table rows', page: 'Page', narrator_id: 'Narrator (id)' };
-const LINK = { hadiths: 'h', books: 'b', chapters: 'c', articles: 'a', narrators: 'n' };
+  name_ml: 'Name', bio_ml: 'Biography', text_ml: 'Text', kind: 'Kind', seq: 'Position', rows: 'Table rows', page: 'Page', narrator_id: 'Narrator (id)',
+  ref: 'Hadith', lang: 'Language', body: 'Text', narrator: 'Narrator', note: 'Note', name_en: 'English name', name_ur: 'Urdu name', topic_id: 'Topic (id)',
+  hidden: 'Hidden', grade: 'Grade', grade_by: 'Graded by' };
+const LINK = { hadiths: 'h', books: 'b', chapters: 'c', articles: 'a', narrators: 'n', topics: 't' };
+/** rows that belong to a hadith of any library: open that hadith */
+const BY_REF = ['hadith_texts', 'hadith_topics', 'source_flags'];
+
+const REF_NAME = (ref) => (ref.startsWith('h:') ? `hadith id ${ref.slice(2)}` : ref.startsWith('s:') ? `Sunnah.com ${ref.slice(2)}` : `iHadis ${ref.slice(2)}`);
 
 function editTitle(e) {
   const what = TABLE_NAMES[e.tbl] || e.tbl;
   if (e.tbl === 'hadiths') return `${what} · Vol ${e.volume_id ?? '?'} · Book ${e.book_no ?? '?'} · No. ${e.hadith_no ?? '?'}`;
-  return `${what} ${e.title || e.name || '#' + e.row_id}`;
+  if (e.ref) return `${what}${e.lang ? ' (' + e.lang.toUpperCase() + ')' : ''} · ${REF_NAME(e.ref)}`;
+  return `${what} ${e.title || e.name || e.name_en || '#' + e.row_id}`;
 }
 
 // ───────── history (paged) ─────────
@@ -61,7 +70,9 @@ export function editView(root, id) {
         go(LINK[r.tbl] && e.action !== 'insert' ? `#/${LINK[r.tbl]}/${r.id}` : `#/edit/${r.undo}`);
       });
     });
-    const link = LINK[e.tbl] && e.action !== 'delete' ? h('a', { class: 'btn', href: `#/${LINK[e.tbl]}/${e.row_id}` }, 'Open', icon('right')) : null;
+    const ref = BY_REF.includes(e.tbl) ? (n.ref || o.ref) : null;
+    const link = ref ? h('a', { class: 'btn', href: refHref(ref) }, 'Open the hadith', icon('right'))
+      : LINK[e.tbl] && e.action !== 'delete' ? h('a', { class: 'btn', href: `#/${LINK[e.tbl]}/${e.row_id}` }, 'Open', icon('right')) : null;
     return h('div', {},
       pageHead({ crumbs: [h('a', { href: '#/history' }, 'History')], title: `${TABLE_NAMES[e.tbl] || e.tbl} ${ACTIONS[e.action]}`,
         sub: `Change #${e.id} · ${fmtTime(e.at)} · row ${e.row_id}${e.note ? ' · ' + e.note : ''}`,

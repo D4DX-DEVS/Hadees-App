@@ -2,105 +2,11 @@
 import { api, busy, emptyState, errorState, fmtTime, h, hadithItem, icon, load, pageHead, pagedList, session, setPending, setQuery, skeleton, toast } from './core.js';
 import { rowForm } from './forms.js';
 import { go, setLeaveGuard } from './app.js';
+import { gradedList } from './sources.js';
 
 const n = (x) => Number(x || 0).toLocaleString();
 const noFlag = (r) => hadithItem({ ...r, needs_review: false });   // in a review list every row is flagged: no pill per row
 const VOL = (v) => h('a', { href: `#/v/${v}` }, `Volume ${v}`);
-
-// ───────── home: which hadith next, and the shelf of the four volumes ─────────
-export function homeView(root) {
-  const v = h('input', { type: 'number', min: 1, placeholder: 'Vol', 'aria-label': 'Volume' });
-  const b = h('input', { type: 'number', min: 1, placeholder: 'Book', 'aria-label': 'Book number' });
-  const no = h('input', { type: 'number', min: 1, placeholder: 'No.', 'aria-label': 'Hadith number' });
-  const goBtn = h('button', { class: 'btn primary', type: 'submit' }, 'Open');
-  const gotoForm = h('form', { class: 'joined', novalidate: true, 'aria-label': 'Open a hadith by its numbers', onsubmit: (e) => {
-    e.preventDefault();
-    busy(goBtn, async () => {
-      if (!v.value || !b.value || !no.value) throw new Error('Fill in volume, book and hadith number.');
-      const r = await api('goto', { v: v.value, b: b.value, n: no.value });
-      if (!r.id) throw new Error(`There is no hadith ${no.value} in volume ${v.value}, book ${b.value}.`);
-      go(`#/h/${r.id}`);
-    });
-  } }, v, b, no, goBtn);
-
-  const sub = h('p', { class: 'sub' }, h('span', { class: 'sk', style: 'display:inline-block;width:280px' }));
-  const shelfBox = h('div', { class: 'panel' }, skeleton(4));
-  const reviewBox = h('div');
-  const editsBox = h('div');
-  root.replaceChildren(
-    h('div', { class: 'head' }, h('div', { class: 't' }, h('h1', {}, 'Library'), sub), h('div', { class: 'actions' }, gotoForm)),
-    shelfBox,
-    h('div', { class: 'cols', style: 'margin-top:16px' }, reviewBox, editsBox));
-
-  load(shelfBox, () => api('overview'), (d) => {
-    setPending(d.pending);
-    sub.replaceChildren(
-      h('b', {}, `${n(d.review)} hadith`), ' still flagged for review',
-      ` · ${d.edits_today ? `${n(d.edits_today)} edit${d.edits_today === 1 ? '' : 's'} today` : 'no edits yet today'}`,
-      d.last_edit ? ` · last saved ${fmtTime(d.last_edit.at)}` : '');
-    return shelf(d);
-  });
-  miniList(reviewBox, 'Needs review', '#/review', 'review', noFlag, 'Nothing left to review.');
-  miniList(editsBox, 'Recent edits', '#/history', 'history', (e) => h('a', { href: `#/edit/${e.id}` },
-    h('span', { class: 'no num' }, `#${e.id}`),
-    h('span', { class: 'txt' }, h('span', { style: 'display:block' }, e.tbl === 'hadiths' ? `Hadith ${e.hadith_no ?? ''} · Volume ${e.volume_id ?? '?'}, Book ${e.book_no ?? '?'}` : `${e.tbl.replace('_', ' ')} ${e.title || e.name || e.row_id}`),
-      h('span', { class: 'ref', style: 'display:block' }, fmtTime(e.at) + (e.note ? ` · ${e.note}` : ''))),
-    h('span', { class: 'tags' }, h('span', { class: `pill ${e.action === 'delete' ? 'bad' : e.action === 'insert' ? 'ok' : ''}` }, { insert: 'Added', update: 'Changed', delete: 'Deleted', undo: 'Undo' }[e.action]))),
-  'No edits yet. Changes made here appear in this list.');
-}
-
-/** a panel with the first 5 rows of a paged list and a "View all" with the total */
-function miniList(box, title, href, action, item, empty) {
-  const all = h('a', { class: 'btn ghost', href }, 'View all');
-  box.replaceChildren(h('div', { class: 'panel' }, h('div', { class: 'ph' }, h('h2', {}, title), h('span', { class: 'spacer' }), all), skeleton(5)));
-  api(action, { pageSize: 10 }).then((res) => {
-    all.textContent = res.total ? `View all ${n(res.total)}` : 'View all';
-    box.firstChild.replaceChildren(box.firstChild.firstChild,
-      res.total ? h('div', { class: 'rows' }, res.data.slice(0, 5).map(item)) : emptyState(empty));
-  }).catch((e) => box.firstChild.replaceChildren(box.firstChild.firstChild, h('div', { class: 'pb' }, errorState(e, () => miniList(box, title, href, action, item, empty)))));
-}
-
-/** each volume a shelf; each book a spine as wide as its hadith count, with an amber cap when some need review */
-function shelf(d) {
-  const tip = h('div', { class: 'spine-tip', hidden: true, role: 'tooltip' });
-  const show = (e, bk) => {
-    tip.hidden = false;
-    tip.replaceChildren(h('div', {}, h('b', {}, `Volume ${bk.volume_id} · Book ${bk.book_no}`)), h('div', { class: 'ml' }, bk.title_ml),
-      h('div', {}, `${n(bk.hadiths)} hadith${bk.review ? ` · ${n(bk.review)} to review` : ''}`));
-    const r = e.currentTarget.getBoundingClientRect();
-    tip.style.left = `${Math.min(window.innerWidth - 290, Math.max(8, r.left + r.width / 2 - 120))}px`;
-    tip.style.top = `${r.top - 12 - tip.offsetHeight}px`;
-  };
-  const hide = () => { tip.hidden = true; };
-  const grid = h('div', { class: 'shelf' }, d.volumes.flatMap((vol) => {
-    const books = d.books.filter((bk) => bk.volume_id === vol.id);
-    const total = books.reduce((s, bk) => s + bk.hadiths, 0);
-    const review = books.reduce((s, bk) => s + bk.review, 0);
-    return [
-      h('a', { class: 'vol', href: `#/v/${vol.id}` }, h('b', {}, `Volume ${vol.id}`),
-        h('span', {}, `${books.length} books · ${n(total)} hadith`), review ? h('span', { style: 'display:block' }, `${n(review)} to review`) : null),
-      h('div', { class: 'spines', role: 'list', 'aria-label': `Books of volume ${vol.id}` }, books.map((bk) => {
-        const a = h('a', { class: `spine${bk.hadiths ? '' : ' blank'}`, href: `#/b/${bk.id}`, role: 'listitem',
-          style: bk.hadiths ? `flex:${bk.hadiths} 1 0` : null,
-          'aria-label': `Book ${bk.book_no}: ${bk.title_ml}, ${bk.hadiths} hadith${bk.review ? `, ${bk.review} to review` : ''}` },
-        bk.review ? h('span', { class: 'rv' }) : null);
-        a.addEventListener('mouseenter', (e) => show(e, bk));
-        a.addEventListener('focus', (e) => show(e, bk));
-        a.addEventListener('mouseleave', hide);
-        a.addEventListener('blur', hide);
-        return a;
-      })),
-    ];
-  }));
-  return h('div', {},
-    h('div', { class: 'ph' }, h('h2', {}, 'The four volumes'), h('span', { class: 'meta' }, 'Each spine is one book, as wide as its number of hadith. Pick one to open it.')),
-    grid,
-    h('div', { class: 'legend' },
-      h('span', {}, h('i', { style: 'background:var(--accent-mid)' }), 'Hadith'),
-      h('span', {}, h('i', { style: 'background:var(--warn)' }), 'Has hadith to review'),
-      h('span', {}, h('i', { style: 'border:1px solid var(--control)' }), 'No hadith (introduction, author)')),
-    tip);
-}
 
 // ───────── volume: its books ─────────
 export function volumeView(root, id) {
@@ -159,7 +65,7 @@ export function bookView(root, id) {
 export function bookHadithsView(root, id) {
   root.replaceChildren(
     pageHead({ crumbs: [h('a', { href: '#/' }, 'Library'), h('a', { href: `#/b/${id}` }, 'Book')], title: 'Hadith without a chapter' }),
-    pagedList({ action: 'book_hadiths', params: { book: id }, item: hadithItem, noun: 'hadith', empty: 'Every hadith of this book is in a chapter.' }));
+    gradedList('book_hadiths', { book: id }, hadithItem, 'Every hadith of this book is in a chapter.', { own: true }));
 }
 
 // ───────── chapter: details + its hadith (paged) ─────────
@@ -180,7 +86,7 @@ export function chapterView(root, id) {
         title: `Chapter ${r.chapter_no} · ${r.title_ml}`, titleClass: 'ml', sub: `${n(d.hadiths)} hadith${d.last_no ? ` · up to No. ${d.last_no}` : ''}`,
         actions: [h('a', { class: 'btn primary', href: `#/new?book=${d.book.id}&chapter=${r.id}` }, icon('plus'), 'Add hadith')] }),
       h('div', { class: 'editor' },
-        pagedList({ action: 'chapter_hadiths', params: { chapter: r.id }, item: hadithItem, noun: 'hadith', empty: 'No hadith in this chapter yet. Add the first with “Add hadith”.' }),
+        gradedList('chapter_hadiths', { chapter: r.id }, hadithItem, 'No hadith in this chapter yet. Add the first with “Add hadith”.', { own: true }),
         form.el));
   }, 6);
 }
@@ -195,7 +101,7 @@ export function searchView(root, params) {
     pageHead({ title: qv ? `Search: “${qv}”` : 'Search', sub: 'Malayalam text (spelling variations included), Arabic text (harakat ignored), narrators and labels.' }),
     form, h('div', { style: 'height:16px' }),
     qv.length >= 2
-      ? pagedList({ action: 'search', params: { q: qv }, item: hadithItem, noun: 'hadith', empty: 'Nothing found. Try fewer or different words.' })
+      ? gradedList('search', { q: qv }, hadithItem, 'Nothing found. Try fewer or different words.', { own: true })
       : h('div', { class: 'empty dash' }, 'Type at least 2 letters, or #id for one hadith.'));
   if (!qv) input.focus();
 }
@@ -205,7 +111,7 @@ export function reviewView(root) {
   const sub = h('p', { class: 'sub' }, 'Flagged as uncertain during scanning. Check each against the printed book, then untick “Needs review” in the hadith.');
   root.replaceChildren(
     h('div', { class: 'head' }, h('div', { class: 't' }, h('h1', {}, 'Needs review'), sub)),
-    pagedList({ action: 'review', params: {}, item: noFlag, noun: 'hadith to review', empty: 'Nothing left to review.',
+    gradedList('review', {}, noFlag, 'Nothing left to review.', { own: true, noun: 'hadith to review',
       onData: (res) => sub.replaceChildren(h('b', {}, `${n(res.total)} hadith`), ' flagged as uncertain during scanning. Check each against the printed book, then untick “Needs review”.') }));
 }
 

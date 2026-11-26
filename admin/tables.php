@@ -24,6 +24,7 @@ const TABLES = [
         'source_codes_ar' => 'codes', 'source_codes_ml' => 'codes',
         'grading_note_ar' => 'text?:3000', 'grading_note_ml' => 'text?:3000',
         'page_start' => 'int?', 'page_end' => 'int?', 'needs_review' => 'bool',
+        'grade' => 'grade?', 'grade_by' => 'text?:120',      // optional (api/editor-extras.sql adds the columns)
     ]],
     'books' => ['pk' => 'id', 'cols' => ['title_ml' => 'text:500', 'title_ar' => 'text?:500', 'start_page' => 'int?']],
     'chapters' => ['pk' => 'id', 'parent' => 'book_id', 'cols' => [
@@ -35,11 +36,26 @@ const TABLES = [
     ]],
     'narrators' => ['pk' => 'id', 'cols' => ['name_ml' => 'text:300', 'bio_ml' => 'text:60000', 'page' => 'int?']],
     'narrator_spellings' => ['pk' => 'spelling', 'pkType' => 'text', 'cols' => ['narrator_id' => 'int']],
+    // api/editor-extras.sql: translations, topics, corrections of the extra libraries. 'fixed' = set once on insert.
+    'hadith_texts' => ['pk' => 'id', 'fixed' => ['ref' => 'ref', 'lang' => 'lang'], 'cols' => [
+        'body' => 'text:30000', 'narrator' => 'text?:500', 'note' => 'text?:1000',
+    ]],
+    'topics' => ['pk' => 'id', 'cols' => ['name_en' => 'text:200', 'name_ml' => 'text?:200', 'name_ur' => 'text?:200']],
+    'hadith_topics' => ['pk' => 'id', 'fixed' => ['ref' => 'ref', 'topic_id' => 'topic'], 'cols' => []],
+    'source_flags' => ['pk' => 'id', 'fixed' => ['ref' => 'srcref'], 'cols' => [
+        'hidden' => 'bool', 'grade' => 'text?:200', 'note' => 'text?:1000',
+    ]],
 ];
 
+/** languages of hadith_texts; an encyclopedia hadith keeps its Arabic + Malayalam in the hadiths table itself */
+const TEXT_LANGS = ['en', 'ur', 'ml', 'ar'];
+const OWN_TEXT_LANGS = ['en', 'ur'];
+/** the optional grade of an encyclopedia hadith (check constraint hadiths_grade_check) */
+const GRADES = ['sahih', 'sahih_li_ghairihi', 'hasan', 'hasan_sahih', 'hasan_li_ghairihi', 'daif', 'very_daif', 'mawdu'];
+
 /** what the editor may do per table besides changing rows */
-const CAN_INSERT = ['hadiths', 'chapters', 'article_blocks', 'narrator_spellings'];
-const CAN_DELETE = ['hadiths', 'article_blocks', 'narrator_spellings'];
+const CAN_INSERT = ['hadiths', 'chapters', 'article_blocks', 'narrator_spellings', 'hadith_texts', 'topics', 'hadith_topics', 'source_flags'];
+const CAN_DELETE = ['hadiths', 'article_blocks', 'narrator_spellings', 'hadith_texts', 'hadith_topics', 'source_flags'];
 const BLOCK_KINDS = ['heading', 'subheading', 'paragraph', 'arabic', 'list_item', 'table', 'footnote'];
 
 /** hadith fields that the AI search vector is made from */
@@ -70,6 +86,28 @@ function pk_value(string $tbl, mixed $v): int|string
     throw new UserError('bad id');
 }
 
+/**
+ * A hadith key of any library (see api/editor-extras.sql): h:<id>, s:<urn>, i:<book_slug>/<hadith_id>.
+ * Returns the key when it is well formed AND the hadith exists; throws otherwise. $sourceOnly refuses h:.
+ */
+function clean_ref(mixed $v, bool $sourceOnly = false): string
+{
+    $v = is_string($v) ? trim($v) : '';
+    if (!$sourceOnly && preg_match('/^h:(\d{1,9})$/', $v, $m)) {
+        $ok = qv('select 1 from hadiths where id = ?::int', [(int)$m[1]]);
+    } elseif (preg_match('/^s:([A-Za-z0-9:._-]{1,120})$/', $v, $m)) {
+        $ok = qv('select 1 from sunnah.hadiths where urn = ?::text', [$m[1]]);
+    } elseif (preg_match('#^i:([A-Za-z0-9._-]{1,80})/([A-Za-z0-9._-]{1,40})$#', $v, $m)) {
+        $ok = qv('select 1 from ihadis.hadiths where book_slug = ?::text and hadith_id = ?::text limit 1', [$m[1], $m[2]]);
+    } else {
+        throw new UserError('bad hadith reference');
+    }
+    if (!$ok) {
+        throw new UserError('This hadith does not exist.', 404);
+    }
+    return $v;
+}
+
 /** clean one field value; returns [value for SQL (string|null), cast] */
 function clean_field(string $name, string $type, mixed $v): array
 {
@@ -82,6 +120,25 @@ function clean_field(string $name, string $type, mixed $v): array
         throw new UserError("$name must not be empty");
     }
     switch ($base) {
+        case 'ref':
+            return [clean_ref($v), '::text'];
+        case 'srcref':
+            return [clean_ref($v, true), '::text'];
+        case 'grade':
+            if (!in_array($v, GRADES, true)) {
+                throw new UserError("$name must be one of " . implode(', ', GRADES));
+            }
+            return [$v, '::text'];
+        case 'lang':
+            if (!in_array($v, TEXT_LANGS, true)) {
+                throw new UserError("$name must be one of " . implode(', ', TEXT_LANGS));
+            }
+            return [$v, '::text'];
+        case 'topic':
+            if (!qv('select 1 from topics where id = ?::int', [pk_value('topics', $v)])) {
+                throw new UserError('This topic does not exist.', 404);
+            }
+            return [(string)(int)$v, '::int'];
         case 'int':
             if (is_string($v) && preg_match('/^-?\d{1,9}$/', trim($v))) {
                 $v = (int)trim($v);
@@ -188,12 +245,19 @@ function friendly_db_error(PDOException $e): UserError
     if ($code === '23505') {
         $m = $e->getMessage();
         return new UserError(match (true) {
+            str_contains($m, 'hadith_texts_ref_lang') => 'This hadith already has a text in this language. Reload to edit it.',
+            str_contains($m, 'hadith_topics_ref_topic') => 'This hadith already has this topic.',
+            str_contains($m, 'topics_name_en') => 'A topic with this English name already exists.',
+            str_contains($m, 'source_flags_ref') => 'This hadith already has settings. Reload to change them.',
             str_contains($m, 'hadith_no') => 'This hadith number is already used in this book.',
             str_contains($m, 'chapter_no') => 'This chapter number is already used in this book.',
             str_contains($m, 'seq') => 'Two blocks have the same position. Reload and try again.',
             str_contains($m, 'spelling') => 'This spelling is already linked to a narrator.',
             default => 'This value is already used.',
         }, 409);
+    }
+    if ($code === '23514') {
+        return new UserError('A value is not allowed here (check the hadith reference and the language).');
     }
     if ($code === '23503') {
         return new UserError('A linked row does not exist (check the chapter / book / narrator).', 409);
@@ -308,6 +372,8 @@ function after_change(string $tbl, int|string $id, array $cols): void
         mark_pending('h.chapter_id = ?::int', [$id]);
     } elseif ($tbl === 'books' && in_array('title_ml', $cols, true)) {
         mark_pending('h.book_id = ?::int', [$id]);
+    } elseif ($tbl === 'hadith_texts' && $cols) {
+        db()->prepare('update hadith_texts set updated_at = now() where id = ?::int')->execute([$id]);
     }
 }
 
@@ -329,6 +395,12 @@ function insert_row(string $tbl, array $fields, string $note = '', ?array $varia
     }
     if (($s['pkType'] ?? 'int') === 'text') {
         $cols[$s['pk']] = [(string)pk_value($tbl, $fields[$s['pk']] ?? null), '::text'];
+    }
+    foreach ($s['fixed'] ?? [] as $col => $type) {
+        $cols[$col] = clean_field($col, $type, $fields[$col] ?? null);
+    }
+    if ($tbl === 'hadith_texts' && str_starts_with($cols['ref'][0], 'h:') && !in_array($cols['lang'][0], OWN_TEXT_LANGS, true)) {
+        throw new UserError('The Arabic text and the Malayalam translation of this hadith are edited in the form above.');
     }
     try {
         return tx(function () use ($tbl, $s, $cols, $note, $variants): array {

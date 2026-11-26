@@ -17,6 +17,7 @@ import { useSettings } from '@/state/settings';
 
 import { NarratorName } from './narrator';
 import { SourceChips } from './sources';
+import { GradeBadge, GradeLine } from './grade';
 import { enter, Pop } from './motion';
 import { ArabicText, Highlighted, MalayalamText } from './reading-text';
 import { useShareCard } from './share-card';
@@ -101,11 +102,12 @@ export function HadithText({
   );
 }
 
-/** Source chips + grading note + unnumbered label. */
+/** Grade (tap for its meaning) + source chips + grading note + unnumbered label. */
 export function HadithMeta({ h }: { h: Hadith }) {
   const { colors } = useSettings();
   return (
     <View style={{ gap: space.sm }}>
+      <GradeLine h={h} />
       <SourceChips codes={h.source_codes_ml} />
       {h.hadith_label && h.hadith_no >= 10001 ? <Badge tone="muted">{h.hadith_label}</Badge> : null}
       {h.grading_note_ml ? (
@@ -221,6 +223,7 @@ export function HadithListCard({
         {!open ? (
           <Row style={[styles.cardFoot, { borderTopColor: colors.border }]}>
             <T variant="caption" color="muted" numberOfLines={1} style={{ flex: 1, fontSize: 12 }}>{sourceList(h.source_codes_ml)}</T>
+            <GradeBadge h={h} />
             {links > 0 ? <Badge tone="gold">{`↔ ${links}`}</Badge> : null}
           </Row>
         ) : null}

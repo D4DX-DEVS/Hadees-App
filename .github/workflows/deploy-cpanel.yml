@@ -72,6 +72,7 @@ jobs:
             **/db-role.sql
             **/editor-role.sql
             **/sources-search.sql
+            **/editor-extras.sql
       - name: Health check (API reaches the database)
         env:
           SITE_URL: ${{ vars.SITE_URL }}

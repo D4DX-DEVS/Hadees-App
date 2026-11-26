@@ -15,12 +15,14 @@ $v = '?v=' . substr(sha1((string)@filemtime(__DIR__ . '/js/app.js') . (string)@f
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f5f7f6">
 <meta name="robots" content="noindex, nofollow">
 <title>Editor · Hadees Vijnanakosham</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Noto+Sans+Malayalam:wght@400;600&family=Amiri:wght@400;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+Malayalam:wght@400;600&family=Amiri:wght@400;700&family=Noto+Nastaliq+Urdu:wght@400;600&display=swap">
+<script src="js/theme.js<?= $v ?>"></script>
 <link rel="stylesheet" href="app.css<?= $v ?>">
 </head>
 <body>

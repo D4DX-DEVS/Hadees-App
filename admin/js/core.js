@@ -122,6 +122,15 @@ const ICONS = {
   up: ['m5 12 7-7 7 7', 'M12 19V5'], down: ['M12 5v14', 'm19 12-7 7-7-7'],
   check: ['M20 6 9 17l-5-5'],
   lock: ['M5 11h14v10H5z', 'M8 11V7a4 4 0 0 1 8 0v4'],
+  tag: ['M12.6 2.6A2 2 0 0 0 11.2 2H4a2 2 0 0 0-2 2v7.2a2 2 0 0 0 .6 1.4l8.7 8.7a2.4 2.4 0 0 0 3.4 0l6.6-6.6a2.4 2.4 0 0 0 0-3.4z', 'M7.5 7.5h.01'],
+  eye: ['M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z', 'M12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6z'],
+  languages: ['m5 8 6 6', 'm4 14 6-6 2-3', 'M2 5h12', 'M7 2h1', 'm22 22-5-10-5 10', 'M14 18h6'],
+  book: ['M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20'],
+  globe: ['M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20z', 'M2 12h20', 'M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z'],
+  sun: ['M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8z', 'M12 2v2', 'M12 20v2', 'm4.9 4.9 1.4 1.4', 'm17.7 17.7 1.4 1.4', 'M2 12h2', 'M20 12h2', 'm6.3 17.7-1.4 1.4', 'm19.1 4.9-1.4 1.4'],
+  moon: ['M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9z'],
+  home: ['M3 9.5 12 3l9 6.5V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z'],
+  hash: ['M4 9h16', 'M4 15h16', 'M10 3 8 21', 'M16 3l-2 18'],
   alert: ['M12 9v4', 'M12 17h.01', 'M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z'],
 };
 const SVG = 'http://www.w3.org/2000/svg';
@@ -233,6 +242,9 @@ export async function load(container, fetcher, render, rows = 6) {
 export const hadithRef = (r) => `Vol ${r.volume_id} · Book ${r.book_no} · ${r.hadith_label || 'Hadith ' + r.hadith_no}`;
 export const fmtTime = (s) => new Date(s).toLocaleString(undefined, { dateStyle: 'medium', timeStyle: 'short' });
 
+const GRADE_SHORT = { sahih: 'Sahih', sahih_li_ghairihi: 'Sahih li-ghairihi', hasan_sahih: 'Hasan Sahih', hasan: 'Hasan',
+  hasan_li_ghairihi: 'Hasan li-ghairihi', daif: 'Da‘if', very_daif: 'Very weak', mawdu: 'Mawdu‘' };
+
 /** one hadith row in a list: its number, the first words, where it sits, and its state */
 export function hadithItem(r) {
   return h('a', { href: `#/h/${r.id}` },
@@ -241,6 +253,7 @@ export function hadithItem(r) {
       h('span', { class: 'snip', style: 'display:block' }, r.snippet || '—'),
       h('span', { class: 'ref', style: 'display:block' }, `Volume ${r.volume_id} · Book ${r.book_no}${r.chapter_no ? ' · Chapter ' + r.chapter_no : ''}`)),
     h('span', { class: 'tags' },
+      r.grade ? h('span', { class: `pill ${/daif|mawdu/.test(r.grade) ? 'bad' : /hasan/.test(r.grade) ? 'info' : 'ok'}` }, GRADE_SHORT[r.grade] || r.grade) : null,
       r.needs_review ? h('span', { class: 'pill warn' }, 'Needs review') : null,
       r.pending ? h('span', { class: 'pill' }, 'AI search waiting') : null));
 }
