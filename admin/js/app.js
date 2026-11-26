@@ -1,8 +1,13 @@
 // Editor admin page: login, the shell (tinted frame + white sheet), routing (#/...), unsaved-change guard.
 import { api, busy, confirmBox, h, icon, mark, onPending, session, toast } from './core.js';
 import { hadithView, newHadithView } from './hadith.js';
-import { bookHadithsView, bookView, chapterView, homeView, pendingView, reviewView, searchView, volumeView } from './views.js';
+import { bookHadithsView, bookView, chapterView, pendingView, reviewView, searchView, volumeView } from './views.js';
+import { homeView } from './dashboard.js';
+import { installSelects } from './select.js';
 import { articleView, articlesView, editView, historyView, narratorView, narratorsView } from './views2.js';
+import { collectionView, ihBookView, ihChapterView, ihHadithView, sourceFindView, sourcesView, srcBookView, srcHadithView, topicView, topicsView } from './sources.js';
+
+const dec = decodeURIComponent;
 
 const app = document.getElementById('app');
 
@@ -20,7 +25,7 @@ export function go(hash) {
 
 // ───────── routes ─────────
 const ROUTES = [
-  [/^#?\/?$/, (m, root) => homeView(root), 'library', 'Library'],
+  [/^#?\/?$/, (m, root) => homeView(root), 'library', 'Dashboard'],
   [/^#\/v\/(\d+)$/, (m, root) => volumeView(root, m[1]), 'library', 'Volume'],
   [/^#\/b\/(\d+)$/, (m, root) => bookView(root, m[1]), 'library', 'Book'],
   [/^#\/bh\/(\d+)$/, (m, root) => bookHadithsView(root, m[1]), 'library', 'Book'],
@@ -36,12 +41,23 @@ const ROUTES = [
   [/^#\/a\/(\d+)$/, (m, root) => articleView(root, m[1]), 'articles', 'Article'],
   [/^#\/narrators$/, (m, root) => narratorsView(root), 'narrators', 'Narrators'],
   [/^#\/n\/(\d+)$/, (m, root) => narratorView(root, m[1]), 'narrators', 'Narrator'],
+  [/^#\/src$/, (m, root, p) => sourcesView(root, p), 'sources', 'Sources'],
+  [/^#\/src\/find$/, (m, root, p) => sourceFindView(root, p), 'sources', 'Search sources'],
+  [/^#\/src\/c\/([^/]+)$/, (m, root) => collectionView(root, dec(m[1])), 'sources', 'Collection'],
+  [/^#\/src\/c\/([^/]+)\/([^/]+)$/, (m, root) => srcBookView(root, dec(m[1]), dec(m[2])), 'sources', 'Book'],
+  [/^#\/src\/h\/([^/]+)$/, (m, root) => srcHadithView(root, dec(m[1])), 'sources', 'Hadith'],
+  [/^#\/src\/i\/([^/]+)$/, (m, root, p) => ihBookView(root, dec(m[1]), p), 'sources', 'Book'],
+  [/^#\/src\/i\/([^/]+)\/(\d+)$/, (m, root, p) => ihChapterView(root, dec(m[1]), m[2], p), 'sources', 'Chapter'],
+  [/^#\/src\/ih\/([^/]+)\/([^/]+)$/, (m, root) => ihHadithView(root, dec(m[1]), dec(m[2])), 'sources', 'Hadith'],
+  [/^#\/topics$/, (m, root) => topicsView(root), 'topics', 'Topics'],
+  [/^#\/t\/(\d+)$/, (m, root) => topicView(root, m[1]), 'topics', 'Topic'],
 ];
 
 /** [key, href, label, icon] in groups */
 const NAV = [
-  [null, [['library', '#/', 'Library', 'library'], ['review', '#/review', 'Needs review', 'flag'], ['search', '#/search', 'Search', 'search']]],
-  ['Pages', [['articles', '#/articles', 'Articles', 'article'], ['narrators', '#/narrators', 'Narrators', 'users']]],
+  [null, [['library', '#/', 'Dashboard', 'home'], ['review', '#/review', 'Needs review', 'flag'], ['search', '#/search', 'Search', 'search']]],
+  ['Encyclopedia', [['articles', '#/articles', 'Articles', 'article'], ['narrators', '#/narrators', 'Narrators', 'users']]],
+  ['Libraries', [['sources', '#/src', 'Sunnah.com · iHadis', 'globe'], ['topics', '#/topics', 'Topics', 'tag']]],
   ['Changes', [['history', '#/history', 'History', 'history'], ['pending', '#/pending', 'AI search', 'sparkles']]],
 ];
 
@@ -87,9 +103,23 @@ function buildShell() {
   pendingCount.textContent = String(session.pending);
 
   const title = h('b', {});
+  const themeBtn = h('button', { class: 'btn ghost icon', type: 'button' });
+  const drawTheme = () => {
+    const dark = document.documentElement.getAttribute('data-theme') === 'dark';
+    themeBtn.replaceChildren(icon(dark ? 'sun' : 'moon'));
+    themeBtn.setAttribute('aria-label', dark ? 'Switch to light mode' : 'Switch to dark mode');
+    themeBtn.title = dark ? 'Light mode' : 'Dark mode';
+  };
+  themeBtn.addEventListener('click', () => {
+    const next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    try { localStorage.setItem('hv-theme', next); } catch { /* not remembered */ }
+    drawTheme();
+  });
+  drawTheme();
   const root = h('div', { class: 'shell' },
     h('aside', { class: 'side', 'aria-label': 'Navigation' },
-      h('a', { class: 'brand', href: '#/' }, mark(), h('div', {}, h('b', {}, 'Hadees Vijnanakosham'), h('small', {}, 'Editor · 4 volumes'))),
+      h('a', { class: 'brand', href: '#/' }, mark(), h('div', {}, h('b', {}, 'Hadees Vijnanakosham'), h('small', {}, 'Editor'))),
       nav,
       h('div', { class: 'foot' },
         h('span', { class: 'avatar', 'aria-hidden': 'true' }, (session.user || 'E').slice(0, 1).toUpperCase()),
@@ -100,7 +130,7 @@ function buildShell() {
         h('button', { class: 'btn ghost icon', 'aria-label': 'Menu', onclick: () => root.classList.toggle('menu-open') }, icon('menu')),
         title),
       searchForm,
-      h('div', { class: 'right' }, status,
+      h('div', { class: 'right' }, status, themeBtn,
         h('a', { class: 'btn ghost icon', href: '/', target: '_blank', rel: 'noopener', title: 'Open the website', 'aria-label': 'Open the website' }, icon('external')))),
     h('div', { class: 'sheet', id: 'sheet' }, h('main', { class: 'main', id: 'main', tabindex: '-1' })));
   root.querySelector('.side').addEventListener('click', (e) => { if (e.target.closest('a')) root.classList.remove('menu-open'); });
@@ -217,4 +247,5 @@ window.addEventListener('hv-logout', () => {
   if (shell) { toast('Your session ended. Please log in again.', 'err'); showLogin('Your session ended. Please log in again.'); }
 });
 
+installSelects();
 start();

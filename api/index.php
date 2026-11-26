@@ -111,6 +111,14 @@ function one(string $sql, array $params = []): ?string
     return $v === false || $v === null ? null : (string)$v;
 }
 
+/** the editor's tables of api/editor-extras.sql exist (translations / corrections / hidden passages of the extra libraries) */
+function hasExtras(): bool
+{
+    static $ok = null;
+    return $ok ??= (bool)db()->query("select case when to_regclass('public.source_flags') is null then false
+                                    else has_table_privilege('public.source_flags', 'select') and has_table_privilege('public.hadith_texts', 'select') end")->fetchColumn();
+}
+
 // ───────── input ─────────
 function method(string ...$allowed): void
 {
@@ -436,22 +444,38 @@ switch ($route) {
         $lim = max(1, min(30, intOrNull($b['lim'] ?? null) ?? 8));
         $coll = cleanText($b['collection'] ?? '', 40);
         if (($b['src'] ?? 'sunnah') === 'ihadis') {
-            $sql = "select 'ihadis' as source, h.book_slug, h.hadith_id, h.display_label, h.grade, h.narrator,
-                           left(h.translation, 1500) as text_en, left(h.arabic, 800) as text_ar, h.sunnah_ref,
+            $x = hasExtras();
+            $ref = "'i:' || h.book_slug || '/' || h.hadith_id";
+            $sql = "select 'ihadis' as source, h.book_slug, h.hadith_id, h.display_label, "
+                . ($x ? "coalesce(nullif(f.grade, ''), h.grade)" : 'h.grade') . " as grade, h.narrator,
+                           left(" . ($x ? 'coalesce(oe.body, h.translation)' : 'h.translation') . ", 1500) as text_en,
+                           left(" . ($x ? 'coalesce(oa.body, h.arabic)' : 'h.arabic') . ", 800) as text_ar, h.sunnah_ref,
                            ts_rank_cd(h.fts, qr) as rank
-                    from ihadis.hadiths h, to_tsquery('english', ?::text) q, to_tsquery('english', ?::text) qr
-                    where h.lang = 'en' and h.fts @@ q and (?::text = '' or h.book_slug = ?::text)
+                    from ihadis.hadiths h"
+                . ($x ? " left join source_flags f on f.ref = $ref
+                          left join hadith_texts oe on oe.ref = $ref and oe.lang = 'en'
+                          left join hadith_texts oa on oa.ref = $ref and oa.lang = 'ar'" : '') . ",
+                         to_tsquery('english', ?::text) q, to_tsquery('english', ?::text) qr
+                    where h.lang = 'en' and h.fts @@ q and (?::text = '' or h.book_slug = ?::text)"
+                . ($x ? ' and f.hidden is not true' : '') . "
                     order by rank desc limit ?::int";
         } else {
+            $x = hasExtras();
             $sql = "select 'sunnah' as source, h.urn, h.collection, c.name_en as collection_name, h.book_number, h.chapter_number,
-                           h.hadith_number, h.reference, h.in_book_reference, h.grade_en, m.ihadis_grade, h.narrator_en,
-                           left(h.text_en, 1500) as text_en, left(coalesce(h.sanad_ar, '') || ' ' || coalesce(h.text_ar, ''), 800) as text_ar,
+                           h.hadith_number, h.reference, h.in_book_reference, "
+                . ($x ? "coalesce(nullif(f.grade, ''), h.grade_en)" : 'h.grade_en') . " as grade_en, m.ihadis_grade, h.narrator_en,
+                           left(" . ($x ? 'coalesce(oe.body, h.text_en)' : 'h.text_en') . ", 1500) as text_en,
+                           left(" . ($x ? "coalesce(oa.body, coalesce(h.sanad_ar, '') || ' ' || coalesce(h.text_ar, ''))" : "coalesce(h.sanad_ar, '') || ' ' || coalesce(h.text_ar, '')") . ", 800) as text_ar,
                            h.url, ts_rank_cd(h.fts, qr) as rank
                     from sunnah.hadiths h
                     join sunnah.collections c on c.slug = h.collection
-                    left join sunnah.hadith_meta m on m.urn = h.urn,
+                    left join sunnah.hadith_meta m on m.urn = h.urn"
+                . ($x ? " left join source_flags f on f.ref = 's:' || h.urn
+                          left join hadith_texts oe on oe.ref = 's:' || h.urn and oe.lang = 'en'
+                          left join hadith_texts oa on oa.ref = 's:' || h.urn and oa.lang = 'ar'" : '') . ",
                     to_tsquery('english', ?::text) q, to_tsquery('english', ?::text) qr
-                    where h.fts @@ q and (?::text = '' or h.collection = ?::text)
+                    where h.fts @@ q and (?::text = '' or h.collection = ?::text)"
+                . ($x ? ' and f.hidden is not true' : '') . "
                     order by rank desc limit ?::int";
         }
         // $w must ALL match ($op joins them); the result is ranked by $rank (default: the same words)
