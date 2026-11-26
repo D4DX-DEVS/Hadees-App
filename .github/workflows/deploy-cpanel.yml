@@ -3,6 +3,7 @@ name: Deploy to cPanel
 # Runs on every push to main (and by hand from the Actions tab).
 # check      -> typecheck + lint the app, syntax-check the PHP API
 # deploy-api -> upload api/ over FTPS (changed files only), then health-check it (database reachable)
+# deploy-admin -> upload admin/ (the editor page, /admin/) over FTPS, then check it answers
 # deploy     -> build the web app against that API, upload changed files, smoke-test the live site
 # One-time setup (secrets/variables, FTP account): docs/DEPLOY_CPANEL.md
 
@@ -12,6 +13,7 @@ on:
     paths:
       - 'app/**'
       - 'api/**'
+      - 'admin/**'
       - '.github/workflows/deploy-cpanel.yml'
   workflow_dispatch:
 
@@ -37,6 +39,7 @@ jobs:
         run: |
           command -v php >/dev/null || { sudo apt-get update -qq && sudo apt-get install -y -qq php-cli; }
           php -l api/index.php
+          for f in admin/*.php; do php -l "$f"; done
       - name: Install app dependencies
         working-directory: app
         run: npm ci
@@ -67,6 +70,8 @@ jobs:
           exclude: |
             **/hadees-config*.php
             **/db-role.sql
+            **/editor-role.sql
+            **/sources-search.sql
       - name: Health check (API reaches the database)
         env:
           SITE_URL: ${{ vars.SITE_URL }}
@@ -75,6 +80,33 @@ jobs:
           out=$(curl -fsS --retry 3 --retry-delay 5 "$SITE_URL/api/index.php?r=health")
           echo "$out"
           echo "$out" | grep -q '"db":true' || { echo "::error::API health check failed"; exit 1; }
+
+  deploy-admin:
+    needs: [check, deploy-api]
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment: production
+    steps:
+      - uses: actions/checkout@v4
+      - name: Upload admin/ to cPanel (changed files only)
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftps
+          local-dir: admin/
+          server-dir: ${{ format('{0}admin/', vars.FTP_SERVER_DIR || './') }}
+      - name: Check the editor page answers (not set up yet = 503, still deployed)
+        env:
+          SITE_URL: ${{ vars.SITE_URL }}
+        run: |
+          if [ -z "$SITE_URL" ]; then echo "SITE_URL variable not set, skipping check"; exit 0; fi
+          code=$(curl -s -o /dev/null -w '%{http_code}' --retry 3 --retry-delay 5 "$SITE_URL/admin/api.php?a=me")
+          echo "admin/api.php?a=me -> HTTP $code (401 = deployed and waiting for a login)"
+          case "$code" in 401|503) ;; *) echo "::error::unexpected HTTP $code from the editor page"; exit 1 ;; esac
+          code=$(curl -s -o /dev/null -w '%{http_code}' "$SITE_URL/admin/lib.php")
+          test "$code" != 200 || { echo "::error::admin/lib.php is served directly"; exit 1; }
 
   deploy:
     needs: [check, deploy-api]

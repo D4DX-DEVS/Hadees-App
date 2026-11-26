@@ -67,6 +67,23 @@ async function callApi<T>(env: Env, route: string, body: unknown, headers: Recor
   return r.json() as Promise<T>;
 }
 
+/** Library data version (raised by every save in the editor admin page). Part of the answer cache key, so an edit
+ * makes every cached answer fresh. Kept 5 minutes per worker instance; on an API error the last value is used. */
+let dataVer = { v: '0', at: 0 };
+async function dataVersion(env: Env): Promise<string> {
+  if (Date.now() - dataVer.at < 5 * 60_000) return dataVer.v;
+  try {
+    const url = `${env.API_URL}${env.API_URL.includes('?') ? '&' : '?'}r=data_version`;
+    const r = await fetch(url);
+    const j = (await r.json()) as { v?: number };
+    dataVer = { v: String(j.v ?? dataVer.v), at: Date.now() };
+  } catch (e) {
+    console.error('data_version failed', e instanceof Error ? e.message : e);
+    dataVer = { ...dataVer, at: Date.now() - 4 * 60_000 };      // try again in a minute
+  }
+  return dataVer.v;
+}
+
 async function embed(env: Env, texts: string[]): Promise<number[][]> {
   const out = (await env.AI.run(EMBED_MODEL, { text: texts })) as { data: number[][] };
   return out.data;
@@ -291,7 +308,7 @@ export default {
         const adminModel = req.headers.get('x-admin-token') && req.headers.get('x-admin-token') === env.ADMIN_TOKEN ? String(body.model ?? '') : '';
         // body.extra === true: the app can show the Sunnah.com passages (older app versions do not send it and get the answer as before)
         const wantExtra = body.extra === true;
-        const cacheKey = history.length || adminModel ? null : 'ask7:' + (await sha256(`${vol ?? ''}|${wantExtra ? 'x' : ''}|${q.toLowerCase().replace(/\s+/g, ' ')}`));
+        const cacheKey = history.length || adminModel ? null : 'ask7:' + (await sha256(`${await dataVersion(env)}|${vol ?? ''}|${wantExtra ? 'x' : ''}|${q.toLowerCase().replace(/\s+/g, ' ')}`));
         if (cacheKey) {
           const hit = await env.CACHE.get(cacheKey, 'json');
           if (hit) return json({ ...(hit as object), cached: true }, 200, h);
