@@ -9,6 +9,7 @@ export function h(tag, attrs = {}, ...kids) {
     else if (k === 'class') el.className = v;
     else if (k === 'value') el.value = v;
     else if (k === 'checked') el.checked = !!v;
+    else if (k === 'style') el.style.cssText = String(v); // CSSOM, allowed by the CSP (a style attribute is not)
     else el.setAttribute(k, v === true ? '' : String(v));
   }
   const add = (c) => {

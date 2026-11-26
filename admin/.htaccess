@@ -11,6 +11,10 @@ DirectoryIndex index.php
     Header always set X-Frame-Options "DENY"
     Header always set Referrer-Policy "no-referrer"
     Header always set Strict-Transport-Security "max-age=31536000"
+    # the JS modules import each other without a version, so the browser must re-check them (a cheap 304) after a deploy
+    <FilesMatch "\.(js|css)$">
+        Header set Cache-Control "no-cache"
+    </FilesMatch>
 </IfModule>
 
 # always HTTPS (the session cookie is Secure)
