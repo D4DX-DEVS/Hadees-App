@@ -256,21 +256,6 @@ details.panel .pb { padding: 16px; }
 @keyframes rise { from { transform: translateY(8px); opacity: 0; } }
 
 /* ───────── login: the frame, one small sheet ───────── */
-.login { min-height: 100vh; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); background: var(--chrome); }
-.login .aside { padding: 40px 48px; display: flex; flex-direction: column; justify-content: space-between; }
-.login .aside .brand { padding: 0; }
-.login .aside .quote { max-width: 440px; }
-.login .aside .quote .ar { font-size: 26px; line-height: 1.9; text-align: left; direction: rtl; }
-.login .aside .quote p { margin: 8px 0 0; color: var(--muted); }
-.login .aside .facts { display: flex; gap: 32px; color: var(--muted); font-size: 13px; }
-.login .aside .facts b { display: block; font-size: 22px; line-height: 28px; font-weight: 400; color: var(--text); font-variant-numeric: tabular-nums; }
-.login .card { margin: 8px 8px 8px 0; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-sheet); display: grid; place-items: center; padding: 32px; }
-.login form { width: min(360px, 100%); }
-.login h1 { margin-bottom: 6px; }
-.login .sub { margin-bottom: 24px; }
-.login .err { color: var(--negative); font-size: 13px; min-height: 20px; margin: -4px 0 12px; }
-.login .btn.primary { width: 100%; height: 40px; }
-.login .note { margin-top: 20px; font-size: 12px; color: var(--faint); display: flex; gap: 8px; align-items: center; }
 
 /* ───────── tablet + phone: the frame folds, the sheet becomes the screen ───────── */
 @media (max-width: 1100px) {
@@ -292,10 +277,6 @@ details.panel .pb { padding: 16px; }
   .split { grid-template-columns: minmax(0, 1fr); }
   .source-panel { position: static; max-height: none; }
   .cols { grid-template-columns: minmax(0, 1fr); }
-  .login { grid-template-columns: 1fr; }
-  .login .aside { padding: 24px 20px 8px; gap: 16px; }
-  .login .aside .quote, .login .aside .facts { display: none; }
-  .login .card { margin: 8px; place-items: start center; }
 }
 @media (max-width: 640px) {
   .grid4 { grid-template-columns: 1fr 1fr; }
@@ -487,9 +468,81 @@ details.meanings dd { margin: 0; color: var(--muted); }
 .modal-list { margin: 14px 0 0; padding: 10px 12px 10px 30px; background: var(--well); border-radius: 10px; font-size: 13px; line-height: 1.7; max-height: 220px; overflow: auto; }
 @media (max-width: 640px) { .modal .row { flex-direction: column-reverse; } .modal .row .btn { width: 100%; } }
 
-/* ───────── login: show / hide the password ───────── */
-.pw { position: relative; }
-.pw input { padding-right: 46px; }
-.pw-eye { position: absolute; right: 4px; top: 50%; transform: translateY(-50%); width: 36px; height: 36px; display: grid; place-items: center; border: 0; border-radius: 8px; background: transparent; color: var(--faint); cursor: pointer; }
+
+/* ───────── login: green brand panel with a geometric pattern, the form on its own card ───────── */
+.login { position: relative; min-height: 100vh; min-height: 100dvh; display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr); background: var(--chrome); }
+.login .aside { position: relative; overflow: hidden; padding: 44px 52px; display: flex; flex-direction: column; justify-content: space-between; gap: 32px; color: #fff;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='72' height='72' viewBox='0 0 72 72'%3E%3Cg fill='none' stroke='%23ffffff' stroke-opacity='.06' stroke-width='1.2'%3E%3Cpath d='M36 6l8.8 21.2L66 36l-21.2 8.8L36 66l-8.8-21.2L6 36l21.2-8.8z'/%3E%3Cpath d='M14.8 14.8h42.4v42.4H14.8z' transform='rotate(45 36 36)'/%3E%3Ccircle cx='36' cy='36' r='7'/%3E%3C/g%3E%3C/svg%3E") 0 0 / 72px 72px, radial-gradient(120% 90% at 0% 0%, #1a8a66 0%, #0f6b4f 45%, #0a4a37 100%); }
+.login .aside::after { content: ""; position: absolute; right: -120px; bottom: -120px; width: 420px; height: 420px; border-radius: 50%; background: radial-gradient(closest-side, rgba(255, 255, 255, .14), transparent); pointer-events: none; }
+.login .aside .brand { padding: 0; position: relative; z-index: 1; }
+.login .aside .brand b { color: #fff; font-size: 16px; }
+.login .aside .brand small { color: rgba(255, 255, 255, .75); font-family: var(--ml); }
+.login .aside .mark rect { fill: rgba(255, 255, 255, .16); }
+.login .quote { margin: 0; max-width: 520px; position: relative; z-index: 1; }
+.login .quote .ar { font-size: 34px; line-height: 1.85; text-align: right; color: #fff; margin: 0 0 18px; }
+.login .quote figcaption { color: rgba(255, 255, 255, .82); font-size: 16px; line-height: 1.6; padding-left: 16px; border-left: 3px solid rgba(255, 255, 255, .35); }
+.login .quote figcaption span { display: block; margin-top: 6px; font-size: 13px; color: rgba(255, 255, 255, .6); }
+.login .facts { list-style: none; margin: 0; padding: 0; display: flex; gap: 12px; flex-wrap: wrap; position: relative; z-index: 1; }
+.login .facts li { padding: 12px 16px; border-radius: 14px; background: rgba(255, 255, 255, .1); border: 1px solid rgba(255, 255, 255, .16); color: rgba(255, 255, 255, .8); font-size: 13px; backdrop-filter: blur(6px); }
+.login .facts b { display: block; font-size: 22px; line-height: 28px; font-weight: 600; color: #fff; font-variant-numeric: tabular-nums; }
+.login .card { position: relative; display: grid; place-items: center; padding: 40px 32px; background: var(--surface); }
+.login .theme-switch { position: absolute; top: 18px; right: 18px; z-index: 3; }
+.login form { width: min(400px, 100%); }
+.login .login-mark { display: none; }
+.login .login-mark .mark { width: 44px; height: 44px; }
+.login h1 { font-size: 30px; line-height: 36px; letter-spacing: -0.02em; margin: 0 0 8px; }
+.login .sub { margin: 0 0 28px; color: var(--muted); font-size: 15px; line-height: 1.55; }
+.login .field { margin-bottom: 18px; }
+.in-icon { position: relative; }
+.in-icon > svg.i { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); width: 18px; height: 18px; color: var(--faint); pointer-events: none; }
+.login .in-icon input { height: 48px; min-height: 48px; padding-left: 44px; border-radius: 12px; font-size: 15px; background: var(--raised); }
+.login .in-icon input:focus { background: var(--surface); }
+.login .in-icon:focus-within > svg.i { color: var(--accent); }
+.pw input { padding-right: 50px !important; }
+.pw-eye { position: absolute; right: 6px; top: 50%; transform: translateY(-50%); width: 38px; height: 38px; display: grid; place-items: center; border: 0; border-radius: 10px; background: transparent; color: var(--faint); cursor: pointer; }
 .pw-eye:hover { background: var(--active); color: var(--text); }
 .pw-eye svg.i { width: 18px; height: 18px; }
+.caps { display: flex; align-items: center; gap: 6px; margin: 2px 0 0; font-size: 12px; color: var(--warn); }
+.caps svg.i { width: 14px; height: 14px; }
+.caps[hidden] { display: none; }
+.login-err { display: flex; gap: 10px; align-items: flex-start; padding: 12px 14px; margin: 0 0 20px; border-radius: 12px; background: var(--pill-negative-bg); color: var(--pill-negative-ink); font-size: 14px; line-height: 1.45; animation: rise .16s ease-out; }
+.login-err[hidden] { display: none; }
+.login-err svg.i { margin-top: 2px; }
+.login-btn { width: 100%; height: 50px; margin-top: 8px; border-radius: 12px; font-size: 15px; font-weight: 600; gap: 8px; }
+.login-btn svg.i { transition: transform .15s; }
+.login-btn:hover svg.i { transform: translateX(3px); }
+.login-foot { display: flex; flex-direction: column; gap: 10px; align-items: center; margin-top: 28px; padding-top: 22px; border-top: 1px solid var(--rule); font-size: 13px; color: var(--faint); text-align: center; }
+.login-foot span { display: inline-flex; gap: 8px; align-items: center; }
+.login-foot a { color: var(--accent-ink); font-weight: 500; text-decoration: none; }
+.login-foot a:hover { text-decoration: underline; }
+@media (max-width: 900px) {
+  /* the green panel fills the free height; the form is a sheet at the bottom */
+  .login { position: relative; grid-template-columns: minmax(0, 1fr); grid-template-rows: minmax(0, 1fr) auto; }
+  .login .aside { padding: 20px 20px 44px; gap: 18px; justify-content: space-between; min-height: 230px; }
+  .login .aside .brand { padding-right: 52px; }
+  .login .aside .brand b { font-size: 15px; }
+  .login .aside::after { width: 260px; height: 260px; right: -80px; bottom: -60px; }
+  .login .quote .ar { font-size: 23px; line-height: 1.8; margin: 0 0 10px; text-align: right; }
+  .login .quote figcaption { font-size: 14px; line-height: 1.55; padding-left: 12px; }
+  .login .quote figcaption span { font-size: 12px; margin-top: 4px; }
+  .login .facts { gap: 8px; }
+  .login .facts li { padding: 8px 12px; border-radius: 12px; font-size: 12px; }
+  .login .facts b { font-size: 17px; line-height: 22px; }
+  .login .card { z-index: 1; place-items: start center; padding: 26px 20px calc(28px + env(safe-area-inset-bottom)); border-radius: 22px 22px 0 0; margin-top: -20px; box-shadow: 0 -10px 30px rgba(0, 0, 0, .12); }
+  /* the light / dark switch sits in the green header, not in the form */
+  .login .theme-switch { top: 14px; right: 14px; width: 40px; height: 40px; min-height: 40px; color: #fff; background: rgba(255, 255, 255, .12); border-radius: 12px; }
+  .login .theme-switch:hover { background: rgba(255, 255, 255, .2); color: #fff; }
+  .login h1 { font-size: 24px; line-height: 30px; margin-bottom: 6px; }
+  .login .sub { font-size: 14px; margin-bottom: 22px; }
+  .login .field { margin-bottom: 14px; }
+  .login .in-icon input { height: 50px; min-height: 50px; font-size: 16px; }
+  .login-err { margin-bottom: 16px; padding: 10px 12px; font-size: 13px; }
+  .login-btn { height: 52px; margin-top: 6px; }
+  .login-foot { margin-top: 22px; padding-top: 18px; font-size: 12px; gap: 8px; }
+}
+/* short phones: keep only the brand and the Arabic line, so the form needs no scrolling */
+@media (max-width: 900px) and (max-height: 760px) {
+  .login .quote figcaption, .login .facts { display: none; }
+  .login .aside { min-height: 0; }
+  .login .quote .ar { font-size: 21px; text-align: center; margin: 0; }
+}
