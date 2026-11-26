@@ -68,23 +68,48 @@ export function toast(text, kind = '') {
   setTimeout(() => t.remove(), kind === 'err' ? 7000 : 3500);
 }
 
-/** confirmation dialog; resolves true when confirmed. danger = red confirm button. */
-export function confirmBox({ title, text, ok = 'Confirm', danger = false }) {
+/**
+ * Confirmation dialog; resolves true when confirmed.
+ * danger = red confirm button; items = the changes listed in the dialog (e.g. the fields that will be saved);
+ * kind = 'save' | 'delete' | 'logout' | 'leave' picks the icon. Esc, Cancel or a click outside = no.
+ */
+export function confirmBox({ title, text, ok = 'Confirm', danger = false, items = [], kind = danger ? 'delete' : 'save' }) {
   return new Promise((resolve) => {
     const prev = document.activeElement;
-    const close = (v) => { ov.remove(); document.removeEventListener('keydown', key); prev?.focus?.(); resolve(v); };
-    const key = (e) => { if (e.key === 'Escape') close(false); };
-    const okBtn = h('button', { class: `btn ${danger ? 'danger solid' : 'primary'}`, onclick: () => close(true) }, ok);
+    const close = (v) => { ov.remove(); document.removeEventListener('keydown', key, true); prev?.focus?.(); resolve(v); };
+    const okBtn = h('button', { class: `btn ${danger ? 'danger solid' : 'primary'}`, type: 'button', onclick: () => close(true) }, ok);
+    const cancelBtn = h('button', { class: 'btn', type: 'button', onclick: () => close(false) }, 'Cancel');
+    const key = (e) => {
+      if (e.key === 'Escape') { e.preventDefault(); e.stopPropagation(); close(false); }
+      else if (e.key === 'Tab') {                       // keep the focus inside the dialog
+        const f = [cancelBtn, okBtn];
+        const i = f.indexOf(document.activeElement);
+        e.preventDefault();
+        f[(i + (e.shiftKey ? f.length - 1 : 1)) % f.length].focus();
+      }
+    };
+    const ic = { save: 'check', delete: 'trash', logout: 'logout', leave: 'alert' }[kind] || 'alert';
     const ov = h('div', { class: 'overlay', onclick: (e) => { if (e.target === ov) close(false); } },
-      h('div', { class: 'modal', role: 'alertdialog', 'aria-modal': 'true', 'aria-labelledby': 'mt' },
+      h('div', { class: 'modal', role: 'alertdialog', 'aria-modal': 'true', 'aria-labelledby': 'mt', 'aria-describedby': 'md' },
+        h('div', { class: `modal-ic ${danger ? 'bad' : kind === 'leave' ? 'warn' : 'ok'}`, 'aria-hidden': 'true' }, icon(ic)),
         h('h3', { id: 'mt' }, title),
-        h('p', { class: 'muted' }, text),
-        h('div', { class: 'row' }, h('button', { class: 'btn', onclick: () => close(false) }, 'Cancel'), okBtn)));
+        h('p', { class: 'muted', id: 'md' }, text),
+        items.length ? h('ul', { class: 'modal-list' }, items.slice(0, 12).map((x) => h('li', {}, x)),
+          items.length > 12 ? h('li', { class: 'muted' }, `and ${items.length - 12} more`) : null) : null,
+        h('div', { class: 'row' }, cancelBtn, okBtn)));
     document.body.append(ov);
-    document.addEventListener('keydown', key);
-    okBtn.focus();
+    document.addEventListener('keydown', key, true);
+    (danger ? cancelBtn : okBtn).focus();               // a destructive action never runs on a stray Enter
   });
 }
+
+/** ask before saving: "Save 3 changes?" with the changed fields listed */
+export const confirmSave = (labels, { isNew = false, what = 'this' } = {}) => confirmBox({
+  title: isNew ? `Add ${what}?` : `Save ${labels.length} change${labels.length === 1 ? '' : 's'}?`,
+  text: isNew ? 'It goes live on the website and in the app. History keeps it, and Undo removes it again.'
+    : 'The new version goes live on the website and in the app. History keeps the old one, and Undo brings it back.',
+  ok: isNew ? 'Add' : 'Save', items: labels, kind: 'save',
+});
 
 /** run an async action from a button: disables it and shows a spinner while it runs */
 export async function busy(btn, fn) {
@@ -124,6 +149,7 @@ const ICONS = {
   lock: ['M5 11h14v10H5z', 'M8 11V7a4 4 0 0 1 8 0v4'],
   tag: ['M12.6 2.6A2 2 0 0 0 11.2 2H4a2 2 0 0 0-2 2v7.2a2 2 0 0 0 .6 1.4l8.7 8.7a2.4 2.4 0 0 0 3.4 0l6.6-6.6a2.4 2.4 0 0 0 0-3.4z', 'M7.5 7.5h.01'],
   eye: ['M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z', 'M12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6z'],
+  'eye-off': ['M9.9 4.2A10.9 10.9 0 0 1 12 4c6.4 0 10 8 10 8a18.5 18.5 0 0 1-2.2 3.2', 'M6.6 6.6A18.7 18.7 0 0 0 2 12s3.6 8 10 8a10.6 10.6 0 0 0 5.4-1.4', 'M9.9 9.9a3 3 0 0 0 4.2 4.2', 'm2 2 20 20'],
   languages: ['m5 8 6 6', 'm4 14 6-6 2-3', 'M2 5h12', 'M7 2h1', 'm22 22-5-10-5 10', 'M14 18h6'],
   book: ['M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20'],
   globe: ['M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20z', 'M2 12h20', 'M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z'],

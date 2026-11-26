@@ -138,7 +138,7 @@ export function articleView(root, id) {
     setLeaveGuard(() => blockForms.some((f) => f.isDirty()));
     const lastSeq = d.blocks.at(-1)?.row.seq ?? 0;
     const add = rowForm([['kind', 'Kind', 'select:paragraph,heading,subheading,arabic,list_item,footnote'], ['text_ml', 'Text', 'ml-area'], ['page', 'Page', 'int']],
-      { tbl: 'article_blocks', isNew: true, compact: true, row: { kind: 'paragraph' }, create: { article_id: r.id, seq: lastSeq + 1 }, submitLabel: 'Add block at the end', onSaved: reload });
+      { tbl: 'article_blocks', isNew: true, compact: true, row: { kind: 'paragraph' }, create: { article_id: r.id, seq: lastSeq + 1 }, submitLabel: 'Add block at the end', what: 'this block', onSaved: reload });
     return h('div', {},
       pageHead({ crumbs: [h('a', { href: '#/articles' }, 'Articles')], title: r.title_ml, titleClass: 'ml',
         sub: `Volume ${r.volume_id} · section ${r.section_no}${r.start_page ? ` · pages ${r.start_page}–${r.end_page ?? r.start_page}` : ''} · ${d.blocks.length} blocks` }),
@@ -173,10 +173,12 @@ export function narratorView(root, id) {
     setLeaveGuard(form.isDirty);
     const spelling = h('input', { id: 'sp-new', type: 'text', class: 'ml', placeholder: 'Exactly as written in the hadith', 'aria-label': 'New spelling' });
     const addBtn = h('button', { class: 'btn', type: 'submit' }, icon('plus'), 'Link');
-    const addForm = h('form', { class: 'row', style: 'flex:1', novalidate: true, onsubmit: (e) => {
+    const addForm = h('form', { class: 'row', style: 'flex:1', novalidate: true, onsubmit: async (e) => {
       e.preventDefault();
+      if (!spelling.value.trim()) { toast('Type a spelling first.', 'err'); return; }
+      if (!(await confirmBox({ title: 'Link this spelling?', ok: 'Link', kind: 'save',
+        text: `Every hadith whose “Narrator (Malayalam)” is exactly “${spelling.value.trim()}” will show this narrator.` }))) return;
       busy(addBtn, async () => {
-        if (!spelling.value.trim()) throw new Error('Type a spelling first.');
         await api('create', {}, { tbl: 'narrator_spellings', fields: { spelling: spelling.value.trim(), narrator_id: r.id } });
         toast('Spelling linked.');
         reload();

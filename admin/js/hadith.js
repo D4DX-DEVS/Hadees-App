@@ -1,5 +1,5 @@
 // Editor admin page: hadith editor (#/h/<id>) and new hadith (#/new?book=<id>&chapter=<id>).
-import { api, busy, confirmBox, errorState, h, hadithRef, icon, pageHead, skeleton, toast } from './core.js';
+import { api, busy, confirmBox, confirmSave, errorState, h, hadithRef, icon, pageHead, skeleton, toast } from './core.js';
 import { go, setLeaveGuard } from './app.js';
 import { autoGrow, extrasPanel } from './extras.js';
 import { OWN_GRADES, gradePill } from './sources.js';
@@ -160,8 +160,13 @@ function renderForm(root, data, isNew) {
     }
   }
 
+  const LABELS = { ...Object.fromEntries(FIELDS.map(([c, label]) => [c, label])), hadith_no: 'Hadith number', hadith_label: 'Label',
+    page_start: 'First page', page_end: 'Last page', chapter_id: 'Chapter', needs_review: 'Needs review', grade: 'Grade', grade_by: 'Graded by' };
   async function save(e) {
     e.preventDefault();
+    if (saveBtn.disabled) return;
+    const labels = isNew ? [] : [...Object.keys(changedFields()).map((c) => LABELS[c] || c), ...(variantsChanged() ? ['Variants'] : [])];
+    if (!(await confirmSave(labels, { isNew, what: 'this hadith' }))) return;
     await busy(saveBtn, async () => {
       if (isNew) {
         const fields = { ...current(), book_id: book.id };
