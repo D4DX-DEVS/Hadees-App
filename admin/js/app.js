@@ -82,7 +82,10 @@ function buildShell() {
   ]));
   const logoutBtn = h('button', { class: 'btn ghost icon', 'aria-label': 'Log out', title: 'Log out' }, icon('logout'));
   logoutBtn.addEventListener('click', () => busy(logoutBtn, async () => {
-    if (hasUnsaved() && !(await confirmBox({ title: 'Log out?', text: 'This page has changes that are not saved yet. They will be lost.', ok: 'Log out', danger: true }))) return;
+    const ok = await confirmBox(hasUnsaved()
+      ? { title: 'Log out?', text: 'This page has changes that are not saved yet. They will be lost.', ok: 'Log out', danger: true, kind: 'logout' }
+      : { title: 'Log out?', text: 'You will need the username and password to come back in.', ok: 'Log out', kind: 'logout' });
+    if (!ok) return;
     await api('logout', {}, {});
     session.csrf = '';
     leaveGuard = null;
@@ -170,7 +173,7 @@ window.addEventListener('hashchange', async () => {
     const target = location.hash;
     history.replaceState(null, '', lastHash || '#/');      // stay until the editor decides
     leaving = true;
-    const ok = await confirmBox({ title: 'Leave without saving?', text: 'This page has changes that are not saved yet. They will be lost.', ok: 'Leave', danger: true });
+    const ok = await confirmBox({ title: 'Leave without saving?', text: 'This page has changes that are not saved yet. They will be lost.', ok: 'Leave', danger: true, kind: 'leave' });
     leaving = false;
     if (!ok) return;
     leaveGuard = null;
@@ -185,6 +188,16 @@ function showLogin(message = '') {
   shell = null;
   const user = h('input', { id: 'lu', type: 'text', autocomplete: 'username', required: true });
   const pass = h('input', { id: 'lp', type: 'password', autocomplete: 'current-password', required: true });
+  const eye = h('button', { type: 'button', class: 'pw-eye', 'aria-label': 'Show password', 'aria-pressed': 'false', 'aria-controls': 'lp', title: 'Show password' }, icon('eye'));
+  eye.addEventListener('click', () => {
+    const show = pass.type === 'password';
+    pass.type = show ? 'text' : 'password';
+    eye.replaceChildren(icon(show ? 'eye-off' : 'eye'));
+    eye.setAttribute('aria-pressed', show ? 'true' : 'false');
+    eye.setAttribute('aria-label', show ? 'Hide password' : 'Show password');
+    eye.title = show ? 'Hide password' : 'Show password';
+    pass.focus();
+  });
   const err = h('p', { class: 'err', role: 'alert' }, message);
   const btn = h('button', { class: 'btn primary', type: 'submit' }, 'Log in');
   const form = h('form', { novalidate: true, onsubmit: (e) => {
@@ -207,7 +220,7 @@ function showLogin(message = '') {
   h('h1', {}, 'Log in to the editor'),
   h('p', { class: 'sub' }, 'Corrections made here go live on the website and in the app.'),
   h('div', { class: 'field' }, h('label', { for: 'lu' }, 'Username'), user),
-  h('div', { class: 'field' }, h('label', { for: 'lp' }, 'Password'), pass),
+  h('div', { class: 'field' }, h('label', { for: 'lp' }, 'Password'), h('div', { class: 'pw' }, pass, eye)),
   err, btn,
   h('p', { class: 'note' }, icon('lock'), 'Every change is kept in History and can be undone.'));
 

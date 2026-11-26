@@ -1,7 +1,7 @@
 // Editor admin page: what the editor adds to ANY hadith (this encyclopedia, Sunnah.com, iHadis):
 // translations (English / Urdu / Malayalam), corrected texts of the extra libraries, topics, and hide / grade switches.
 // Stored in hadith_texts, hadith_topics, source_flags (api/editor-extras.sql), each change in History with Undo.
-import { api, busy, confirmBox, h, icon, toast } from './core.js';
+import { api, busy, confirmBox, confirmSave, h, icon, toast } from './core.js';
 
 export const LANGS = {
   en: { name: 'English', cls: '', dir: 'ltr' },
@@ -102,10 +102,14 @@ export function extrasPanel(opts) {
         if (!(await confirmBox({ title: `Remove the ${title.toLowerCase()}?`, danger: true, ok: 'Remove', text: 'It stays in History, where Undo brings it back.' }))) return;
         busy(remove, async () => { await api('delete', {}, { tbl: 'hadith_texts', id: row.id, ver }); toast('Removed.'); dirty.delete(key); await reload(); });
       });
-      const form = h('form', { novalidate: true, onsubmit: (e) => {
+      const form = h('form', { novalidate: true, onsubmit: async (e) => {
         e.preventDefault();
+        if (saveBtn.disabled) return;
+        if (!bodyEl.value.trim()) { toast('The text is empty. Use Remove to delete it.', 'err'); return; }
+        const labels = [bodyEl.value !== (row.body ?? start) ? title : null, narr.value !== (row.narrator ?? '') ? 'Narrator' : null,
+          note.value !== (row.note ?? '') ? 'Note' : null].filter(Boolean);
+        if (!(await confirmSave(labels, { isNew: !item, what: `the ${title.toLowerCase()}` }))) return;
         busy(saveBtn, async () => {
-          if (!bodyEl.value.trim()) throw new Error('The text is empty. Use Remove to delete it.');
           const fields = { body: bodyEl.value, narrator: narr.value, note: note.value };
           if (item) {
             const res = await api('save', {}, { tbl: 'hadith_texts', id: row.id, ver, fields });
@@ -178,12 +182,15 @@ export function extrasPanel(opts) {
       h('div', { class: 'xhead' }, icon('tag'), h('h3', {}, 'Topics'), h('span', { class: 'spacer' }), h('a', { class: 'small', href: '#/topics' }, 'All topics')),
       list.length ? h('div', { class: 'chips' }, list.map((t) => {
         const x = h('button', { class: 'chip-x', type: 'button', 'aria-label': `Remove topic ${t.name_en}`, title: 'Remove' }, '×');
-        x.addEventListener('click', () => busy(x, async () => {
+        x.addEventListener('click', async () => {
+          if (!(await confirmBox({ title: `Remove the topic “${t.name_en}”?`, danger: true, ok: 'Remove', text: 'Only this hadith loses the topic; the topic itself stays. History keeps it, and Undo brings it back.' }))) return;
+          busy(x, async () => {
           await api('delete', {}, { tbl: 'hadith_topics', id: t.id, ver: '' });
           toast('Topic removed.');
           forgetTopics();
           await reload();
-        }));
+          });
+        });
         return h('span', { class: 'chip' }, h('a', { href: `#/t/${t.topic_id}` }, t.name_en, t.name_ml ? h('span', { class: 'ml' }, ` · ${t.name_ml}`) : null), x);
       })) : h('p', { class: 'small muted', style: 'margin:0 0 10px' }, 'No topics yet.'),
       form);
@@ -203,8 +210,12 @@ export function extrasPanel(opts) {
     return h('section', { class: `xcard${row.hidden ? ' is-hidden' : ''}` },
       h('div', { class: 'xhead' }, icon('eye'), h('h3', {}, 'Visibility and grade'), h('span', { class: 'spacer' }),
         row.hidden ? h('span', { class: 'pill bad' }, 'Hidden') : h('span', { class: 'pill' }, 'Shown')),
-      h('form', { novalidate: true, onsubmit: (e) => {
+      h('form', { novalidate: true, onsubmit: async (e) => {
         e.preventDefault();
+        if (btn.disabled) return;
+        const labels = [hidden.checked !== !!row.hidden ? (hidden.checked ? 'Hide from readers and the AI' : 'Show to readers and the AI again') : null,
+          grade.value !== (row.grade ?? '') ? 'Corrected grade' : null, note.value !== (row.note ?? '') ? 'Note' : null].filter(Boolean);
+        if (!(await confirmSave(labels))) return;
         busy(btn, async () => {
           const fields = { hidden: hidden.checked, grade: grade.value, note: note.value };
           if (f) await api('save', {}, { tbl: 'source_flags', id: row.id, ver: f.ver, fields });

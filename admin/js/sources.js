@@ -311,7 +311,7 @@ export function ihHadithView(root, slug, id) {
 export function topicsView(root) {
   const box = h('div', { class: 'panel' });
   const add = rowForm([['name_en', 'English name', 'text'], ['name_ml', 'Malayalam name', 'ml'], ['name_ur', 'Urdu name', 'text']],
-    { tbl: 'topics', isNew: true, compact: true, row: {}, submitLabel: 'Add topic', onSaved: (res) => go(`#/t/${res.id}`) });
+    { tbl: 'topics', isNew: true, compact: true, row: {}, submitLabel: 'Add topic', what: 'this topic', onSaved: (res) => go(`#/t/${res.id}`) });
   root.replaceChildren(
     pageHead({ title: 'Topics', sub: 'One list of topics for every library. Add topics to a hadith on its page; rename them here.' }),
     h('div', { class: 'editor' }, box,

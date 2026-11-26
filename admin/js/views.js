@@ -41,7 +41,7 @@ export function bookView(root, id) {
       ['title_ar', 'Title (Arabic)', 'ar'],
       ['start_page', 'First page', 'int'],
     ], { tbl: 'chapters', isNew: true, compact: true, row: { chapter_no: (d.chapters.at(-1)?.chapter_no ?? 0) + 1 }, create: { book_id: r.id },
-      submitLabel: 'Add chapter', onSaved: (res) => go(`#/c/${res.id}`) });
+      submitLabel: 'Add chapter', what: 'this chapter', onSaved: (res) => go(`#/c/${res.id}`) });
     const total = d.chapters.reduce((s, c) => s + c.hadiths, 0) + d.unchaptered;
     return h('div', {},
       pageHead({ crumbs: [h('a', { href: '#/' }, 'Library'), VOL(r.volume_id)], title: `Book ${r.book_no} · ${r.title_ml}`, titleClass: 'ml',

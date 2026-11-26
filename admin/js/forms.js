@@ -1,5 +1,5 @@
 // Editor admin page: a small form that edits some columns of one row (books, chapters, articles, blocks, narrators).
-import { api, busy, h, toast } from './core.js';
+import { api, busy, confirmSave, h, toast } from './core.js';
 
 /**
  * fields: [[column, label, kind, hint?]], kind = text | ml | ar | ml-area | ar-area | int | select:<a,b,c> | json
@@ -58,8 +58,13 @@ export function rowForm(fields, opts) {
     if (!opts.isNew) btn.disabled = Object.keys(c).length === 0;
   }
 
+  const labelOf = Object.fromEntries(fields.map(([col, label]) => [col, label]));
   async function submit(e) {
     e.preventDefault();
+    if (btn.disabled) return;
+    const labels = opts.isNew ? [] : Object.keys(changed()).map((c) => labelOf[c] || c);
+    if (!opts.isNew && !labels.length) { toast('Nothing to save.'); return; }
+    if (!(await confirmSave(labels, { isNew: opts.isNew, what: opts.what || 'this' }))) return;
     await busy(btn, async () => {
       if (opts.isNew) {
         const all = {};
