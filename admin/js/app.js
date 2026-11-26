@@ -242,6 +242,7 @@ function showLogin(message = '') {
   const err = h('div', { class: 'login-err', role: 'alert', hidden: !message }, icon('alert'), errText);
   const showErr = (t) => { errText.textContent = t; err.hidden = !t; };
   showErr(message);
+  [user, pass].forEach((x) => x.addEventListener('input', () => { if (!err.hidden) showErr(''); }));
   const btn = h('button', { class: 'btn primary login-btn', type: 'submit' }, h('span', {}, 'Log in'), icon('right'));
   const form = h('form', { novalidate: true, onsubmit: (e) => {
     e.preventDefault();
@@ -267,10 +268,10 @@ function showLogin(message = '') {
   } },
   h('div', { class: 'login-mark' }, mark()),
   h('h1', {}, 'Welcome back'),
-  h('p', { class: 'sub' }, 'Log in to edit the encyclopedia. Corrections go live on the website and in the app.'),
+  h('p', { class: 'sub' }, 'Log in to edit the encyclopedia. Your corrections go live on the website and in the app.'),
   err,
   h('div', { class: 'field' }, h('label', { for: 'lu' }, 'Username'),
-    h('div', { class: 'in-icon' }, icon('users'), user)),
+    h('div', { class: 'in-icon' }, icon('user'), user)),
   h('div', { class: 'field' }, h('label', { for: 'lp' }, 'Password'),
     h('div', { class: 'in-icon pw' }, icon('lock'), pass, eye), caps),
   btn,
@@ -278,7 +279,7 @@ function showLogin(message = '') {
     h('span', {}, icon('history'), 'Every change is kept in History and can be undone.'),
     h('a', { href: '/' }, 'Back to the website')));
 
-  app.replaceChildren(h('div', { class: 'login' }, loginAside(), h('div', { class: 'card' }, themeSwitch(), form)));
+  app.replaceChildren(h('div', { class: 'login' }, loginAside(), h('div', { class: 'card' }, form), themeSwitch()));
   user.focus();
 }
 
@@ -291,11 +292,11 @@ async function start() {
   } catch (e) {
     if (e.status === 401) return showLogin();
     app.replaceChildren(h('div', { class: 'login' }, loginAside(),
-      h('div', { class: 'card' }, themeSwitch(), h('form', { onsubmit: (ev) => { ev.preventDefault(); start(); } },
+      h('div', { class: 'card' }, h('form', { onsubmit: (ev) => { ev.preventDefault(); start(); } },
         h('div', { class: 'login-mark' }, mark()),
         h('h1', {}, 'The editor is not available'),
         h('div', { class: 'login-err', role: 'alert' }, icon('alert'), h('span', {}, e.message)),
-        h('button', { class: 'btn primary login-btn', type: 'submit' }, h('span', {}, 'Try again'), icon('right'))))));
+        h('button', { class: 'btn primary login-btn', type: 'submit' }, h('span', {}, 'Try again'), icon('right')))), themeSwitch()));
     return;
   }
   shell = buildShell();

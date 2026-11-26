@@ -470,7 +470,7 @@ details.meanings dd { margin: 0; color: var(--muted); }
 
 
 /* ───────── login: green brand panel with a geometric pattern, the form on its own card ───────── */
-.login { min-height: 100vh; min-height: 100dvh; display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr); background: var(--chrome); }
+.login { position: relative; min-height: 100vh; min-height: 100dvh; display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr); background: var(--chrome); }
 .login .aside { position: relative; overflow: hidden; padding: 44px 52px; display: flex; flex-direction: column; justify-content: space-between; gap: 32px; color: #fff;
   background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='72' height='72' viewBox='0 0 72 72'%3E%3Cg fill='none' stroke='%23ffffff' stroke-opacity='.06' stroke-width='1.2'%3E%3Cpath d='M36 6l8.8 21.2L66 36l-21.2 8.8L36 66l-8.8-21.2L6 36l21.2-8.8z'/%3E%3Cpath d='M14.8 14.8h42.4v42.4H14.8z' transform='rotate(45 36 36)'/%3E%3Ccircle cx='36' cy='36' r='7'/%3E%3C/g%3E%3C/svg%3E") 0 0 / 72px 72px, radial-gradient(120% 90% at 0% 0%, #1a8a66 0%, #0f6b4f 45%, #0a4a37 100%); }
 .login .aside::after { content: ""; position: absolute; right: -120px; bottom: -120px; width: 420px; height: 420px; border-radius: 50%; background: radial-gradient(closest-side, rgba(255, 255, 255, .14), transparent); pointer-events: none; }
@@ -486,7 +486,7 @@ details.meanings dd { margin: 0; color: var(--muted); }
 .login .facts li { padding: 12px 16px; border-radius: 14px; background: rgba(255, 255, 255, .1); border: 1px solid rgba(255, 255, 255, .16); color: rgba(255, 255, 255, .8); font-size: 13px; backdrop-filter: blur(6px); }
 .login .facts b { display: block; font-size: 22px; line-height: 28px; font-weight: 600; color: #fff; font-variant-numeric: tabular-nums; }
 .login .card { position: relative; display: grid; place-items: center; padding: 40px 32px; background: var(--surface); }
-.login .theme-switch { position: absolute; top: 18px; right: 18px; }
+.login .theme-switch { position: absolute; top: 18px; right: 18px; z-index: 3; }
 .login form { width: min(400px, 100%); }
 .login .login-mark { display: none; }
 .login .login-mark .mark { width: 44px; height: 44px; }
@@ -516,11 +516,33 @@ details.meanings dd { margin: 0; color: var(--muted); }
 .login-foot a { color: var(--accent-ink); font-weight: 500; text-decoration: none; }
 .login-foot a:hover { text-decoration: underline; }
 @media (max-width: 900px) {
-  .login { grid-template-columns: minmax(0, 1fr); }
-  .login .aside { padding: 22px 20px 26px; gap: 14px; }
-  .login .quote figcaption, .login .facts, .login .aside::after { display: none; }
-  .login .quote .ar { font-size: 22px; margin: 0; text-align: right; }
-  .login .card { place-items: start center; padding: 28px 20px 40px; border-radius: 22px 22px 0 0; margin-top: -18px; box-shadow: 0 -8px 24px rgba(0, 0, 0, .08); }
-  .login .theme-switch { top: 12px; right: 12px; }
-  .login h1 { font-size: 26px; line-height: 32px; }
+  /* the green panel fills the free height; the form is a sheet at the bottom */
+  .login { position: relative; grid-template-columns: minmax(0, 1fr); grid-template-rows: minmax(0, 1fr) auto; }
+  .login .aside { padding: 20px 20px 44px; gap: 18px; justify-content: space-between; min-height: 230px; }
+  .login .aside .brand { padding-right: 52px; }
+  .login .aside .brand b { font-size: 15px; }
+  .login .aside::after { width: 260px; height: 260px; right: -80px; bottom: -60px; }
+  .login .quote .ar { font-size: 23px; line-height: 1.8; margin: 0 0 10px; text-align: right; }
+  .login .quote figcaption { font-size: 14px; line-height: 1.55; padding-left: 12px; }
+  .login .quote figcaption span { font-size: 12px; margin-top: 4px; }
+  .login .facts { gap: 8px; }
+  .login .facts li { padding: 8px 12px; border-radius: 12px; font-size: 12px; }
+  .login .facts b { font-size: 17px; line-height: 22px; }
+  .login .card { z-index: 1; place-items: start center; padding: 26px 20px calc(28px + env(safe-area-inset-bottom)); border-radius: 22px 22px 0 0; margin-top: -20px; box-shadow: 0 -10px 30px rgba(0, 0, 0, .12); }
+  /* the light / dark switch sits in the green header, not in the form */
+  .login .theme-switch { top: 14px; right: 14px; width: 40px; height: 40px; min-height: 40px; color: #fff; background: rgba(255, 255, 255, .12); border-radius: 12px; }
+  .login .theme-switch:hover { background: rgba(255, 255, 255, .2); color: #fff; }
+  .login h1 { font-size: 24px; line-height: 30px; margin-bottom: 6px; }
+  .login .sub { font-size: 14px; margin-bottom: 22px; }
+  .login .field { margin-bottom: 14px; }
+  .login .in-icon input { height: 50px; min-height: 50px; font-size: 16px; }
+  .login-err { margin-bottom: 16px; padding: 10px 12px; font-size: 13px; }
+  .login-btn { height: 52px; margin-top: 6px; }
+  .login-foot { margin-top: 22px; padding-top: 18px; font-size: 12px; gap: 8px; }
+}
+/* short phones: keep only the brand and the Arabic line, so the form needs no scrolling */
+@media (max-width: 900px) and (max-height: 760px) {
+  .login .quote figcaption, .login .facts { display: none; }
+  .login .aside { min-height: 0; }
+  .login .quote .ar { font-size: 21px; text-align: center; margin: 0; }
 }
