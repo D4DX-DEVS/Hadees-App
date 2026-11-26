@@ -57,12 +57,17 @@ function db(): PDO
         fail(503, 'The editor is not available right now.');
     }
     $dsn = sprintf('pgsql:host=%s;port=%d;dbname=%s', $c['host'] ?? '127.0.0.1', (int)($c['port'] ?? 5432), $c['name']);
-    $pdo = new PDO($dsn, $c['editor_db_user'], $c['editor_db_pass'] ?? '', [
-        PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
-        PDO::ATTR_EMULATE_PREPARES => false,
-        PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
-        PDO::ATTR_TIMEOUT => 5,
-    ]);
+    try {
+        $pdo = new PDO($dsn, $c['editor_db_user'], $c['editor_db_pass'] ?? '', [
+            PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+            PDO::ATTR_EMULATE_PREPARES => false,
+            PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+            PDO::ATTR_TIMEOUT => 5,
+        ]);
+    } catch (PDOException $e) {
+        error_log('[hadees-admin] editor database connect failed: ' . $e->getMessage());
+        fail(503, 'The editor cannot log in to the database. Check editor_db_user / editor_db_pass in hadees-config.php.');
+    }
     $pdo->exec("set statement_timeout = '30s'");
     return $pdo;
 }
