@@ -183,11 +183,43 @@ window.addEventListener('hashchange', async () => {
   route();
 });
 
-// ───────── login: the frame on the left, the form on a white sheet ─────────
+// ───────── login: a green brand panel (pattern, the hadith on conveying hadith), the form on the right ─────────
+/** the brand half of the login screen (also used by "the editor is not available") */
+function loginAside() {
+  return h('div', { class: 'aside' },
+    h('div', { class: 'brand' }, mark(), h('div', {}, h('b', {}, 'Hadees Vijnanakosham'), h('small', {}, 'ഹദീസ് വിജ്ഞാനകോശം'))),
+    h('figure', { class: 'quote' },
+      h('p', { class: 'ar', lang: 'ar', dir: 'rtl' }, 'نَضَّرَ اللَّهُ امْرَأً سَمِعَ مِنَّا حَدِيثًا فَحَفِظَهُ حَتَّى يُبَلِّغَهُ'),
+      h('figcaption', {}, '“May Allah brighten the face of one who hears a hadith from us, preserves it and passes it on.”', h('span', {}, 'Abu Dawud 3660'))),
+    h('ul', { class: 'facts' },
+      h('li', {}, h('b', {}, '4'), 'volumes'),
+      h('li', {}, h('b', {}, '77'), 'books'),
+      h('li', {}, h('b', {}, '2'), 'hadith libraries')));
+}
+
+/** light / dark switch for screens without the top bar */
+function themeSwitch() {
+  const btn = h('button', { class: 'btn ghost icon theme-switch', type: 'button' });
+  const draw = () => {
+    const dark = document.documentElement.getAttribute('data-theme') === 'dark';
+    btn.replaceChildren(icon(dark ? 'sun' : 'moon'));
+    btn.setAttribute('aria-label', dark ? 'Switch to light mode' : 'Switch to dark mode');
+    btn.title = dark ? 'Light mode' : 'Dark mode';
+  };
+  btn.addEventListener('click', () => {
+    const next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    try { localStorage.setItem('hv-theme', next); } catch { /* not remembered */ }
+    draw();
+  });
+  draw();
+  return btn;
+}
+
 function showLogin(message = '') {
   shell = null;
-  const user = h('input', { id: 'lu', type: 'text', autocomplete: 'username', required: true });
-  const pass = h('input', { id: 'lp', type: 'password', autocomplete: 'current-password', required: true });
+  const user = h('input', { id: 'lu', type: 'text', autocomplete: 'username', autocapitalize: 'none', spellcheck: 'false', required: true, placeholder: 'Your username' });
+  const pass = h('input', { id: 'lp', type: 'password', autocomplete: 'current-password', required: true, placeholder: 'Your password' });
   const eye = h('button', { type: 'button', class: 'pw-eye', 'aria-label': 'Show password', 'aria-pressed': 'false', 'aria-controls': 'lp', title: 'Show password' }, icon('eye'));
   eye.addEventListener('click', () => {
     const show = pass.type === 'password';
@@ -198,12 +230,28 @@ function showLogin(message = '') {
     eye.title = show ? 'Hide password' : 'Show password';
     pass.focus();
   });
-  const err = h('p', { class: 'err', role: 'alert' }, message);
-  const btn = h('button', { class: 'btn primary', type: 'submit' }, 'Log in');
+  // the password goes back to hidden before it is sent (a browser that saves it, or a screenshot, never shows it)
+  const hidePass = () => { if (pass.type === 'text') eye.click(); };
+  const caps = h('p', { class: 'caps', hidden: true }, icon('alert'), 'Caps Lock is on');
+  const capsCheck = (e) => { if (e.getModifierState) caps.hidden = !e.getModifierState('CapsLock'); };
+  pass.addEventListener('keydown', capsCheck);
+  pass.addEventListener('keyup', capsCheck);
+  pass.addEventListener('blur', () => { caps.hidden = true; });
+
+  const errText = h('span', {});
+  const err = h('div', { class: 'login-err', role: 'alert', hidden: !message }, icon('alert'), errText);
+  const showErr = (t) => { errText.textContent = t; err.hidden = !t; };
+  showErr(message);
+  const btn = h('button', { class: 'btn primary login-btn', type: 'submit' }, h('span', {}, 'Log in'), icon('right'));
   const form = h('form', { novalidate: true, onsubmit: (e) => {
     e.preventDefault();
-    err.textContent = '';
-    if (!user.value.trim() || !pass.value) { err.textContent = 'Enter the username and the password.'; return; }
+    showErr('');
+    if (!user.value.trim() || !pass.value) {
+      showErr('Enter your username and password.');
+      (user.value.trim() ? pass : user).focus();
+      return;
+    }
+    hidePass();
     busy(btn, async () => {
       try {
         const r = await api('login', {}, { user: user.value, pass: pass.value });
@@ -211,30 +259,26 @@ function showLogin(message = '') {
         session.user = r.user;
         start();
       } catch (e2) {
-        err.textContent = e2.message;
+        showErr(e2.status === 0 ? 'Could not reach the server. Check the connection and try again.' : e2.message);
         pass.value = '';
         pass.focus();
       }
     });
   } },
-  h('h1', {}, 'Log in to the editor'),
-  h('p', { class: 'sub' }, 'Corrections made here go live on the website and in the app.'),
-  h('div', { class: 'field' }, h('label', { for: 'lu' }, 'Username'), user),
-  h('div', { class: 'field' }, h('label', { for: 'lp' }, 'Password'), h('div', { class: 'pw' }, pass, eye)),
-  err, btn,
-  h('p', { class: 'note' }, icon('lock'), 'Every change is kept in History and can be undone.'));
+  h('div', { class: 'login-mark' }, mark()),
+  h('h1', {}, 'Welcome back'),
+  h('p', { class: 'sub' }, 'Log in to edit the encyclopedia. Corrections go live on the website and in the app.'),
+  err,
+  h('div', { class: 'field' }, h('label', { for: 'lu' }, 'Username'),
+    h('div', { class: 'in-icon' }, icon('users'), user)),
+  h('div', { class: 'field' }, h('label', { for: 'lp' }, 'Password'),
+    h('div', { class: 'in-icon pw' }, icon('lock'), pass, eye), caps),
+  btn,
+  h('div', { class: 'login-foot' },
+    h('span', {}, icon('history'), 'Every change is kept in History and can be undone.'),
+    h('a', { href: '/' }, 'Back to the website')));
 
-  app.replaceChildren(h('div', { class: 'login' },
-    h('div', { class: 'aside' },
-      h('div', { class: 'brand' }, mark(), h('div', {}, h('b', {}, 'Hadees Vijnanakosham'), h('small', {}, 'ഹദീസ് വിജ്ഞാനകോശം'))),
-      h('div', { class: 'quote' },
-        h('p', { class: 'ar', lang: 'ar', dir: 'rtl' }, 'نَضَّرَ اللَّهُ امْرَأً سَمِعَ مِنَّا حَدِيثًا فَحَفِظَهُ حَتَّى يُبَلِّغَهُ'),
-        h('p', {}, '“May Allah brighten the face of one who hears a hadith from us, preserves it and passes it on.” Abu Dawud 3660')),
-      h('div', { class: 'facts' },
-        h('div', {}, h('b', {}, '4'), 'volumes'),
-        h('div', {}, h('b', {}, '77'), 'books'),
-        h('div', {}, h('b', {}, 'ML · AR'), 'Malayalam and Arabic'))),
-    h('div', { class: 'card' }, form)));
+  app.replaceChildren(h('div', { class: 'login' }, loginAside(), h('div', { class: 'card' }, themeSwitch(), form)));
   user.focus();
 }
 
@@ -246,9 +290,12 @@ async function start() {
     session.pending = me.pending;
   } catch (e) {
     if (e.status === 401) return showLogin();
-    app.replaceChildren(h('div', { class: 'login' }, h('div', { class: 'aside' }, h('div', { class: 'brand' }, mark(), h('b', {}, 'Hadees Vijnanakosham'))),
-      h('div', { class: 'card' }, h('div', {}, h('h1', {}, 'The editor is not available'),
-        h('p', { class: 'sub' }, e.message), h('button', { class: 'btn', style: 'margin-top:16px', onclick: start }, 'Retry')))));
+    app.replaceChildren(h('div', { class: 'login' }, loginAside(),
+      h('div', { class: 'card' }, themeSwitch(), h('form', { onsubmit: (ev) => { ev.preventDefault(); start(); } },
+        h('div', { class: 'login-mark' }, mark()),
+        h('h1', {}, 'The editor is not available'),
+        h('div', { class: 'login-err', role: 'alert' }, icon('alert'), h('span', {}, e.message)),
+        h('button', { class: 'btn primary login-btn', type: 'submit' }, h('span', {}, 'Try again'), icon('right'))))));
     return;
   }
   shell = buildShell();
