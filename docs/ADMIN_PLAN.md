@@ -1,6 +1,6 @@
 # Editor admin page: plan
 
-Status: draft, waiting for approval (24 Nov 2026).
+Status: phases 1 and 2 built (24 Nov 2026), setup steps in [ADMIN_SETUP.md](ADMIN_SETUP.md). Phase 3 (offline "updated" notice in the app, backup cron) still to do.
 
 ## Goal
 

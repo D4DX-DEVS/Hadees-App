@@ -250,6 +250,14 @@ switch ($route) {
         }
 
     // ── library structure ──
+    case 'data_version':      // goes up on every save in the editor admin page; the AI worker puts it in its answer cache key
+        method('GET', 'HEAD');
+        try {
+            $v = (int)(db()->query("select value from app_meta where key = 'data_version'")->fetchColumn() ?: 0);
+        } catch (PDOException) {
+            $v = 0;                                  // api/editor-role.sql not run yet
+        }
+        send(json_encode(['v' => $v]), 200, 60);
     case 'volumes':
         method('GET', 'HEAD');
         send(rows('select id, title_ml from volumes order by id'), 200, 3600);

@@ -1,0 +1,22 @@
+# Editor admin page. Only index.php, api.php, app.css and js/*.js are served; the PHP helpers are not.
+Options -Indexes
+DirectoryIndex index.php
+
+<FilesMatch "^(lib|tables)\.php$|\.(sql|md|sh|bak)$">
+    Require all denied
+</FilesMatch>
+
+<IfModule mod_headers.c>
+    Header always set X-Robots-Tag "noindex, nofollow"
+    Header always set X-Frame-Options "DENY"
+    Header always set Referrer-Policy "no-referrer"
+    Header always set Strict-Transport-Security "max-age=31536000"
+</IfModule>
+
+# always HTTPS (the session cookie is Secure)
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{HTTPS} !=on
+    RewriteCond %{HTTP:X-Forwarded-Proto} !=https
+    RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+</IfModule>

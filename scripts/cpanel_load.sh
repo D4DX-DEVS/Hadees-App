@@ -5,7 +5,8 @@
 # The load runs in the BACKGROUND (nohup), so a dropped browser/SSH connection does not stop it:
 #   tail -f load.log        follow the progress (Ctrl+C only stops tail, not the load)
 #   pgrep -a psql           shows whether it is still running
-# Safe to re-run: every data file is idempotent (one statement each, ON CONFLICT DO NOTHING).
+# Safe to re-run: every data file is idempotent (one statement each, ON CONFLICT DO NOTHING); rows already there are
+# never overwritten. Once the editor admin page has been used, the main library refuses to load (see below).
 # The password is asked once, kept only in the environment of the running load, and never written to disk.
 set -u
 export LC_ALL=C
@@ -19,6 +20,16 @@ if [ -z "${LOAD_CHILD:-}" ]; then
   export PGPASSWORD DB_NAME DB_USER
   psql -h /var/run/postgresql -U "$DB_USER" -d "$DB_NAME" -q -c "create table _probe(x int); drop table _probe;" 2>/tmp/load_probe.txt || {
     echo "Cannot create tables in $DB_NAME as $DB_USER:"; cat /tmp/load_probe.txt; exit 1; }
+  # the editor admin page (/admin/) changes the live library: loading the main library again would bring back
+  # hadith the editor deleted. Refuse once edits exist, unless FORCE=1 (sunnah / ihadis bundles are not affected).
+  if ls 20_data_volumes_*.sql >/dev/null 2>&1 && [ "${FORCE:-}" != 1 ]; then
+    edits=$(psql -h /var/run/postgresql -U "$DB_USER" -d "$DB_NAME" -tAq -c "select count(*) from admin_edits" 2>/dev/null || echo 0)
+    if [ "${edits:-0}" -gt 0 ]; then
+      echo "STOP: the live library has $edits edits made in the admin page; this load could undo deletions."
+      echo "The live database is the master copy now. Only if you are sure: FORCE=1 ./load.sh $START"
+      exit 1
+    fi
+  fi
   LOAD_CHILD=1 nohup "$0" "$START" > load.log 2>&1 &
   echo "Load started in the background (pid $!)."
   echo "Follow it with:   tail -f $PWD/load.log"
